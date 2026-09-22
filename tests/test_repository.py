@@ -1,3 +1,4 @@
+import json
 import unittest
 from datetime import date
 from pathlib import Path
@@ -13,11 +14,15 @@ def sample_card() -> Card:
 
 
 class RepositoryTests(unittest.TestCase):
-    def test_confirm_draft_preserves_original_and_sets_first_review(self) -> None:
+    def test_finalize_draft_preserves_original_and_sets_first_review_without_event(self) -> None:
         with TemporaryDirectory() as directory:
             repo = Repository(Path(directory) / "notes")
             draft = repo.create_draft("我的理解：并非全部否定。", sample_card())
-            card = repo.confirm_draft(draft.stem, date(2026, 7, 17))
+            card = repo.finalize_draft(draft.stem, date(2026, 7, 17))
             self.assertIn("我的理解：并非全部否定。", draft.read_text(encoding="utf-8"))
             self.assertEqual(date(2026, 7, 24), card.next_review)
             self.assertTrue((repo.root / "grammar" / "n3" / "N3-G-0001.md").exists())
+            self.assertFalse((repo.root / "reviews" / "events.jsonl").exists())
+            metadata = json.loads(draft.read_text(encoding="utf-8").split("---")[1])
+            self.assertTrue(metadata["finalized"])
+            self.assertNotIn("confirmed", metadata)

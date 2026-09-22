@@ -19,8 +19,13 @@ import math
 import re
 from collections.abc import Sequence
 from dataclasses import dataclass
+from html import unescape
 from pathlib import Path
 from typing import Any
+
+VTT_TIMESTAMP = re.compile(
+    r"^(?P<start>(?:\d{2}:)?\d{2}:\d{2}[.,]\d{3})\s+-->\s+"
+)
 
 
 @dataclass(frozen=True)
@@ -49,6 +54,92 @@ def parse_times(values: Sequence[str]) -> list[float]:
     if not times:
         raise argparse.ArgumentTypeError("至少需要一个时间点")
     return sorted(times)
+
+
+def timestamp_seconds(value: str) -> float:
+    """Convert a WebVTT timestamp to seconds."""
+    normalized = value.replace(",", ".")
+    parts = normalized.split(":")
+    if len(parts) == 2:
+        hours = 0
+        minutes, seconds = parts
+    elif len(parts) == 3:
+        hours, minutes, seconds = parts
+    else:
+        raise ValueError(f"无效字幕时间：{value!r}")
+    return int(hours) * 3600 + int(minutes) * 60 + float(seconds)
+
+
+def parse_vtt_cues(text: str) -> list[tuple[float, str]]:
+    """Return cue start times and normalized visible text from WebVTT."""
+    cues: list[tuple[float, str]] = []
+    lines = text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
+    index = 0
+    while index < len(lines):
+        match = VTT_TIMESTAMP.match(lines[index].strip())
+        if not match:
+            index += 1
+            continue
+        start = timestamp_seconds(match.group("start"))
+        index += 1
+        content: list[str] = []
+        while index < len(lines) and lines[index].strip():
+            visible = re.sub(r"<[^>]+>", "", lines[index])
+            if visible.strip():
+                content.append(visible.strip())
+            index += 1
+        normalized = re.sub(r"\s+", "", unescape("".join(content)))
+        if normalized:
+            cues.append((start, normalized))
+    return cues
+
+
+def suggest_candidate_times(
+    subtitle_text: str,
+    keywords: Sequence[str],
+    duration: float,
+    *,
+    tail_fractions: Sequence[float] = (0.75, 0.85),
+    minimum_keyword_seconds: float = 10.0,
+) -> list[float]:
+    """Suggest a small first-pass set from subtitle hits and the video tail."""
+    if not math.isfinite(duration) or duration <= 1:
+        raise ValueError("视频时长必须大于1秒")
+    if not math.isfinite(minimum_keyword_seconds) or minimum_keyword_seconds < 0:
+        raise ValueError("字幕关键词起始时间必须是非负有限数值")
+    cues = parse_vtt_cues(subtitle_text)
+    candidates = [1.0]
+    for keyword in keywords:
+        normalized = re.sub(r"\s+", "", keyword)
+        if not normalized:
+            continue
+        match = next(
+            (start for start, text in cues
+             if start >= minimum_keyword_seconds and normalized in text),
+            None,
+        )
+        if match is not None:
+            candidates.append(match)
+    for fraction in tail_fractions:
+        if not math.isfinite(fraction) or not 0 < fraction < 1:
+            raise ValueError("视频尾段比例必须在0和1之间")
+        candidates.append(duration * fraction)
+    return sorted({round(min(value, duration - 0.05), 3) for value in candidates})
+
+
+def probe_video_duration(video: Path) -> float:
+    """Read video duration without decoding it from the beginning."""
+    import av
+
+    with av.open(str(video)) as container:
+        if container.duration is not None:
+            return float(container.duration / av.time_base)
+        if not container.streams.video:
+            raise ValueError(f"视频中没有可用的视频流：{video}")
+        stream = container.streams.video[0]
+        if stream.duration is None or stream.time_base is None:
+            raise ValueError(f"无法确定视频时长：{video}")
+        return float(stream.duration * stream.time_base)
 
 
 def validate_lesson(value: str) -> str:
@@ -166,9 +257,32 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument(
         "--times",
         nargs="+",
-        required=True,
         metavar="SECONDS",
         help="时间点；可用空格或逗号分隔，例如：1 15 30 或 1,15,30",
+    )
+    result.add_argument(
+        "--subtitle",
+        type=Path,
+        help="WebVTT字幕；与关键词配合生成首轮候选时间",
+    )
+    result.add_argument(
+        "--keywords",
+        nargs="*",
+        default=(),
+        help="字幕定位关键词；每个关键词采用首次命中的时间",
+    )
+    result.add_argument(
+        "--tail-fractions",
+        nargs="*",
+        type=float,
+        default=(0.75, 0.85),
+        help="字幕候选模式额外抽取的视频尾段比例；默认0.75 0.85",
+    )
+    result.add_argument(
+        "--keyword-min-seconds",
+        type=float,
+        default=10.0,
+        help="忽略片头多少秒内的关键词命中；默认10秒",
     )
     result.add_argument(
         "--output-root",
@@ -196,12 +310,28 @@ def parser() -> argparse.ArgumentParser:
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = parser().parse_args(argv)
-    try:
-        times = parse_times(args.times)
-    except argparse.ArgumentTypeError as exc:
-        parser().error(str(exc))
     if not args.video.is_file():
         parser().error(f"视频文件不存在：{args.video}")
+    if args.subtitle is not None and not args.subtitle.is_file():
+        parser().error(f"字幕文件不存在：{args.subtitle}")
+    if not args.times and args.subtitle is None:
+        parser().error("必须提供 --times 或 --subtitle")
+
+    times: list[float] = []
+    try:
+        if args.times:
+            times.extend(parse_times(args.times))
+        if args.subtitle is not None:
+            times.extend(suggest_candidate_times(
+                args.subtitle.read_text(encoding="utf-8-sig"),
+                args.keywords,
+                probe_video_duration(args.video),
+                tail_fractions=args.tail_fractions,
+                minimum_keyword_seconds=args.keyword_min_seconds,
+            ))
+        times = sorted(set(times))
+    except (argparse.ArgumentTypeError, OSError, UnicodeError, ValueError) as exc:
+        parser().error(str(exc))
 
     output_dir, contact_path = output_paths(args.output_root, args.lesson)
     try:
