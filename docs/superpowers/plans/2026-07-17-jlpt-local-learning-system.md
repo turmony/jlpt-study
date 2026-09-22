@@ -25,7 +25,6 @@
 
 ~~~text
 AGENTS.md                              # 新聊天遵循的学习系统规则
-START-HERE.md                           # 学习者的新聊天启动说明
 pyproject.toml                         # 依赖与测试配置
 README.md                              # 本地系统使用说明
 src/jlpt_notes/__init__.py             # 包版本
@@ -53,7 +52,7 @@ jlpt-notes/                            # 实际学习资料库
 
 **文件：**
 
-- 新建：pyproject.toml、README.md、AGENTS.md、START-HERE.md
+- 新建：pyproject.toml、README.md、AGENTS.md
 - 新建：src/jlpt_notes/__init__.py、src/jlpt_notes/__main__.py、src/jlpt_notes/cli.py
 - 新建：tests/test_cli.py
 
@@ -121,7 +120,7 @@ from .cli import main
 raise SystemExit(main())
 ~~~
 
-AGENTS.md 固定说明：未来 Codex 聊天先保存学习者原文，再输出检查结果和待确认卡；只有学习者明确说“确认入库”时才写入正式卡。START-HERE.md 给出新聊天的首条操作提示与学习输入模板。
+AGENTS.md 固定说明：未来 Codex 聊天先保存学习者原文，再输出检查结果和待确认卡；只有学习者明确说“确认入库”时才写入正式卡，并给出新聊天的首条操作提示与学习输入模板。
 
 - [ ] **步骤 4：验证**
 
@@ -131,7 +130,7 @@ AGENTS.md 固定说明：未来 Codex 聊天先保存学习者原文，再输出
 
 - [ ] **步骤 5：建立第一份 Git 历史**
 
-运行：git init; git add pyproject.toml README.md AGENTS.md START-HERE.md src tests; git commit -m "chore: 初始化 JLPT 笔记项目"
+运行：git init; git add pyproject.toml README.md AGENTS.md src tests; git commit -m "chore: 初始化 JLPT 笔记项目"
 
 预期：工作区干净，存在首个提交。
 
@@ -472,7 +471,7 @@ def test_analytics_groups_by_item_type_and_error_reason() -> None:
 **文件：**
 
 - 新建：docs/automation/daily-brief-prompt.md、tests/test_backup.py
-- 修改：src/jlpt_notes/repository.py、src/jlpt_notes/cli.py、README.md、AGENTS.md、START-HERE.md
+- 修改：src/jlpt_notes/repository.py、src/jlpt_notes/cli.py、README.md、AGENTS.md
 
 **接口：**
 
@@ -498,7 +497,7 @@ def test_backup_is_zip_and_excludes_git_directory(repo: Repository) -> None:
 
 - [ ] **步骤 3：实现备份、交接文档和持久提示词**
 
-create_backup 以原子方式写入 backups/YYYY-MM-DD-jlpt-notes.zip，排除 .git、backups 和 Python 缓存目录。validate 打印所有格式/引用错误，发现错误时返回退出码 1。每日简报提示词只允许运行 report-daily 和 validate，禁止确认卡片、提交答案、改动复习日期或创建备份。AGENTS.md 与 START-HERE.md 明确说明：新聊天读取这两份文件和 jlpt-notes/README.md 后，即可接收学习输出、检查并生成待确认卡；学习者仍需在聊天中明确确认入库。
+create_backup 以原子方式写入 backups/YYYY-MM-DD-jlpt-notes.zip，排除 .git、backups 和 Python 缓存目录。validate 打印所有格式/引用错误，发现错误时返回退出码 1。每日简报提示词只允许运行 report-daily 和 validate，禁止确认卡片、提交答案、改动复习日期或创建备份。AGENTS.md 明确说明：新聊天读取该文件和 jlpt-notes/README.md 后，即可接收学习输出、检查并生成待确认卡；学习者仍需在聊天中明确确认入库。
 
 - [ ] **步骤 4：完整验证**
 
@@ -508,7 +507,7 @@ create_backup 以原子方式写入 backups/YYYY-MM-DD-jlpt-notes.zip，排除 .
 
 - [ ] **步骤 5：创建定时任务并提交**
 
-使用 codex_app__automation_update 创建名为“JLPT 每日复习简报”的本地定时任务，使用 docs/automation/daily-brief-prompt.md 的内容和普通通知策略。先手动测试一次，再启用每日周期。随后运行：git add docs/automation README.md AGENTS.md START-HERE.md src/jlpt_notes/repository.py src/jlpt_notes/cli.py tests/test_backup.py; git commit -m "feat: 添加每日简报、备份和聊天交接"
+使用 codex_app__automation_update 创建名为“JLPT 每日复习简报”的本地定时任务，使用 docs/automation/daily-brief-prompt.md 的内容和普通通知策略。先手动测试一次，再启用每日周期。随后运行：git add docs/automation README.md AGENTS.md src/jlpt_notes/repository.py src/jlpt_notes/cli.py tests/test_backup.py; git commit -m "feat: 添加每日简报、备份和聊天交接"
 
 预期：定时任务保持只读；新聊天可以按项目说明继续使用资料库；学习数据可从本地历史或备份恢复。
 

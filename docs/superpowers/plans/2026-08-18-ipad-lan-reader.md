@@ -1459,7 +1459,6 @@ git commit -m "feat: add manual Windows reader launcher"
 **Files:**
 - Create: `tests/reader/test_end_to_end.py`
 - Modify: `README.md`
-- Modify: `START-HERE.md`
 
 **Interfaces:**
 - Consumes: the complete reader stack.
@@ -1512,7 +1511,7 @@ Expected: all tests pass and the real `jlpt-notes` state dictionary is identical
 
 - [ ] **Step 3: Document the exact user workflow**
 
-Add this concise workflow to `START-HERE.md` and a fuller troubleshooting section to `README.md`:
+Add this concise workflow and a fuller troubleshooting section to `README.md`:
 
 ```markdown
 ## 在 iPad 阅读资料
@@ -1583,7 +1582,7 @@ Do not claim completion until the user confirms the actual iPad checks or explic
 - [ ] **Step 8: Commit Task 10**
 
 ```powershell
-git add tests/reader/test_end_to_end.py README.md START-HERE.md
+git add tests/reader/test_end_to_end.py README.md
 git commit -m "docs: verify and explain iPad LAN reader"
 ```
 
