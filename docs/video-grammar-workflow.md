@@ -4,31 +4,30 @@
 
 ## 课程与执行范围
 
-- 课程：出口日語，日语授课，N3 语法。
-- [保存的课程入口：第31课](https://www.youtube.com/watch?v=XA_CEir1-3s&list=PLynCeSdpMqxDS6EC0L7vXYUAVCstRHcQR&index=31)。
-- [播放列表](https://www.youtube.com/playlist?list=PLynCeSdpMqxDS6EC0L7vXYUAVCstRHcQR)。
-- 整体待整理范围为第31—120个语法。每次实际执行范围由学习者手动指定，不因保存此网址或整体范围就开始生成，不自行扩大范围。
-- 第31—35课旧试点草稿及审核总览已按学习者要求删除。后续指定这些课程时，按本规范重新整理；不要自动恢复旧草稿。
+- 课程：出口日語，日语授课，N2 语法。
+- [保存的课程入口：第1课](https://www.youtube.com/watch?v=0TbPGbvdOnk&list=PLynCeSdpMqxD6LeS82vp39kQP8mw_JxlY&index=1)。
+- [播放列表](https://www.youtube.com/playlist?list=PLynCeSdpMqxD6LeS82vp39kQP8mw_JxlY)。
+- 整体待整理范围为第1—120个语法。每次实际执行范围由学习者手动指定，不因保存此网址或整体范围就开始生成，不自行扩大范围。
 
 ## 开始前
 
 1. 本流程只生成学习者指定且尚不存在的新卡。开始时只读取本规范一次；不读取仓库或资料库 `README.md`，不读取相邻卡、其他正式卡或目标卡的前置元数据，也不扫描目标卡和配套图片的 Git 状态。
 2. 学习者提供课程序号后，直接使用下方固定目标路径。`NNNN` 是补足四位的课程序号；执行时只替换这一处编号，不通过目录扫描或相邻卡推导路径：
-   - 卡片：`jlpt-notes/grammar/n3/N3-G-NNNN.md`
-   - 接续图：`jlpt-notes/assets/grammar/n3/N3-G-NNNN-connection.png`
-   - 例句图：`jlpt-notes/assets/grammar/n3/N3-G-NNNN-example.png`
-   - 正文图片引用：`../../assets/grammar/n3/N3-G-NNNN-connection.png` 与 `../../assets/grammar/n3/N3-G-NNNN-example.png`
-   - `source.screenshot`：`assets/grammar/n3/N3-G-NNNN-connection.png`
+   - 卡片：`jlpt-notes/grammar/n2/N2-G-NNNN.md`
+   - 接续图：`jlpt-notes/assets/grammar/n2/N2-G-NNNN-connection.png`
+   - 例句图：`jlpt-notes/assets/grammar/n2/N2-G-NNNN-example.png`
+   - 正文图片引用：`../../assets/grammar/n2/N2-G-NNNN-connection.png` 与 `../../assets/grammar/n2/N2-G-NNNN-example.png`
+   - `source.screenshot`：`assets/grammar/n2/N2-G-NNNN-connection.png`
 3. 已有播放列表缓存时，只提取指定课程序号的一条记录，核对日语标题、视频 ID、时长及缓存日期。记录唯一、未过期且文字可读时直接采用；记录缺失、重复、过期、不一致或含乱码时，只刷新一次播放列表映射并重新核对，仍无法确认则列明问题并停止该课。
 4. 只根据已经确认的视频 ID 查询本地视频、日语字幕和网页缓存；缓存齐全则复用，缺失项交给下一阶段获取。本阶段不下载材料。
 5. Python 与视频抽帧依赖统一通过 `uv run` 和仓库脚本解析；不要递归搜索系统 Python、FFmpeg 或其他可执行文件。外部下载工具确实必需时，只对明确的命令名做定向检查。
 
-第114课的固定路径示例为：
+第1课的固定路径示例为：
 
 ```text
-卡片：jlpt-notes/grammar/n3/N3-G-0114.md
-接续图：jlpt-notes/assets/grammar/n3/N3-G-0114-connection.png
-例句图：jlpt-notes/assets/grammar/n3/N3-G-0114-example.png
+卡片：jlpt-notes/grammar/n2/N2-G-0001.md
+接续图：jlpt-notes/assets/grammar/n2/N2-G-0001-connection.png
+例句图：jlpt-notes/assets/grammar/n2/N2-G-0001-example.png
 ```
 
 ### 轻量课程定位流程
@@ -116,13 +115,14 @@
 uv run scripts/extract_video_frames.py `
   --video ".firecrawl/<视频ID>.f137.mp4" `
   --subtitle ".firecrawl/<视频ID>.ja.vtt" `
-  --lesson 108 `
+  --output-root ".firecrawl/n2" `
+  --lesson 1 `
   --keywords "<语法形式>" "例文"
 ```
 
 - 字幕候选模式自动包含 0:01、片头10秒之后每个关键词的首次命中位置，以及视频 75% 和 85% 的时间点，避免把标题口播误当作讲解位置；可用 `--keyword-min-seconds` 调整。首轮候选足够时不再扩大扫描。
 - 首轮不足时改用 `--times 1 60 120 ...` 补充明确时间点；时间点既可用空格分隔，也可写为逗号分隔的一项。脚本按时间排序、去重，通过视频关键帧定向跳转，并保存每个指定时间点之后的第一帧；不从视频开头反复顺序解码到各目标时点。
-- 默认输出到 `.firecrawl/f<课程序号>/t<秒数>.png`；截取五帧以上时自动生成 `.firecrawl/f<课程序号>-contact.png`。可用 `--no-contact-sheet` 禁止联系表，也可用 `--output-root`、`--columns` 和 `--thumb-width` 调整临时输出。
+- 本流程通过 `--output-root ".firecrawl/n2"` 将 N2 临时材料与其他级别隔离，候选帧输出到 `.firecrawl/n2/f<课程序号>/t<秒数>.png`；截取五帧以上时自动生成 `.firecrawl/n2/f<课程序号>-contact.png`。可用 `--no-contact-sheet` 禁止联系表，也可用 `--columns` 和 `--thumb-width` 调整临时输出。
 - 候选扩展与局部细筛都复用这个脚本；允许同课再次运行并补充帧，不新建课次专用 Python 文件。脚本输出的请求时间与实际帧时间用于核对正文时间标注。
 
 - 以原视频的日语讲解、日语字幕和板书为课程依据。字幕可能有同音错字、助词遗漏或断句错误，必须校对；不能把自动字幕当成准确原文。
@@ -133,7 +133,7 @@ uv run scripts/extract_video_frames.py `
 - **截图不能仅仅显示接续内容。** 必须同时保留本课有助于理解的含义说明、例句或易混项等必要板书；不能为了裁掉人像，把画面缩成只有接续表的小块。
 - **在保证教学内容完整、清晰的前提下，尽可能裁剪掉空白和人像。** 优先选择老师让开板书、遮挡更少的实际时点，再固定左上角收拢右下角；若文字与人物重叠，优先换时点或用独立截图互补，多张截图保持各自独立，不抹除人像、不重绘、不拼接、不补写被遮挡文字。裁切只能去除多余区域，不能恢复遮挡内容。仍无法避免的遮挡应明确注明，不能用裁断主要板书来换取无人像画面。
 - 保存截图文件、视频网址、实际时间和必要的获取记录。文档使用可追溯的图片引用，不依赖临时下载地址。
-- `.firecrawl/` 中的候选帧继续按时间保存；选定并裁切后，正式接续图固定写入 `N3-G-NNNN-connection.png`，正式例句图固定写入 `N3-G-NNNN-example.png`。正式图片名不再包含截图秒数，真实时间分别写在正文说明中；`source.screenshot_seconds` 记录接续图的真实时间。
+- `.firecrawl/n2/` 中的候选帧继续按时间保存；选定并裁切后，正式接续图固定写入 `N2-G-NNNN-connection.png`，正式例句图固定写入 `N2-G-NNNN-example.png`。正式图片名不再包含截图秒数，真实时间分别写在正文说明中；`source.screenshot_seconds` 记录接续图的真实时间。
 - 缺失字幕可尝试检查原视频画面或其他可用原始材料；关键内容仍无法核实，进入问题处理流程。
 
 ### 截图遮挡处理流程
@@ -212,9 +212,9 @@ uv run scripts/extract_video_frames.py `
 ```markdown
 ---
 {
-  "id": "N3-G-NNNN",
+  "id": "N2-G-NNNN",
   "kind": "grammar",
-  "level": "N3",
+  "level": "N2",
   "title": "〈语法标题与中文说明〉",
   "status": "draft",
   "card_revision": 1,
@@ -222,10 +222,10 @@ uv run scripts/extract_video_frames.py `
   "created_at": "YYYY-MM-DD",
   "updated_at": "YYYY-MM-DD",
   "source": {
-    "lesson": "N3 第〈课号〉个语法",
+    "lesson": "N2 第〈课号〉个语法",
     "material": "出口日語原视频板书、日语自动字幕与〈实际采用网站〉正文",
     "video": "https://www.youtube.com/watch?v=〈视频ID〉",
-    "screenshot": "assets/grammar/n3/N3-G-NNNN-connection.png",
+    "screenshot": "assets/grammar/n2/N2-G-NNNN-connection.png",
     "screenshot_seconds": 0,
     "screenshot_crop": {
       "x": 0,
@@ -236,7 +236,7 @@ uv run scripts/extract_video_frames.py `
   },
   "tags": [
     "〈标签〉",
-    "N3"
+    "N2"
   ],
   "confusions": [
     "〈易混项〉"
@@ -381,7 +381,7 @@ Hagoromo、规定备选网站及互联网检索所得条目统一使用以下模
 - 只有学习者明确说“提交”或作出同等清楚的指示后，才按其指定的单课或批次删除待确认提示并补齐正式卡元数据；批次范围不明确时先确认范围。提交日期采用实际本地提交日：`created_at`／`updated_at` 使用该日期，`next_review` 设为提交日加七天。资料收集日和待确认版本写入日不能代替提交日。
 - Git 提交是唯一的审核通过凭证。新流程不创建 `event_type: confirmed` 事件，也不再提供独立“确认入库”步骤；已有历史事件保持不变。任何本地提交均不默认推送远程。
 - 正式化与 Git 提交视为一个事务：先在内存中完成正文、日期和图片校验，再写正式元数据、精确暂存相关文件并提交。Git 提交失败时恢复本轮正式化前的待确认内容和暂存状态，不留下“已正式化但未提交”的中间状态。
-- 图片链接遵守项目 `AGENTS.md` 的“图片链接与入库校验”。正文从开始就按正式卡目标目录编写；每次写入前在内存中调用 `AssetIndex(root).check(destination, body)`，不再执行从 `drafts/` 到 `grammar/n3/` 的路径换算。元数据 `source.screenshot` 保持资料库根目录相对路径。
+- 图片链接遵守项目 `AGENTS.md` 的“图片链接与入库校验”。正文从开始就按正式卡目标目录编写；每次写入前在内存中调用 `AssetIndex(root).check(destination, body)`，不再执行从 `drafts/` 到 `grammar/n2/` 的路径换算。元数据 `source.screenshot` 保持资料库根目录相对路径。
 - 待确认版本写入正式卡目标路径后，以及正式化准备提交时，均运行 `uv run python -m jlpt_notes validate-links --root jlpt-notes`。提交前另运行 `uv run python scripts/check_video_grammar_card.py <卡片路径> --root jlpt-notes --state final`。任一命令非零退出时停止提交，不得略过或宣称完成；代码块中的示例不当作图片链接检查，复杂写法无法无损解析时应明确报错，不猜测替换。
 - 复习固定每七天一次；答错或不确定只能影响标签和未来出题侧重，不能安排提前复习。
 - 如另行出题，仍遵守项目的 N5–N1 非听力题型、网站原题／例句派生题来源规则及四选项逐项解释要求；本流程不自动生成测验。
