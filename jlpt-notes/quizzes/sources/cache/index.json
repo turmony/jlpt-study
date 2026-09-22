@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "e9b1dbf1d577023ace63": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn3-grammar-wokomete/",
+      "title": "【JLPT N3】文法・例文：〜を込めて",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0091"
+      ],
+      "locator": "文型・例文区：感謝の気持ち／力を込めて",
+      "evidence_path": "quizzes/sources/cache/e9b1dbf1d577023ace63-7c8de46a9ccb.md",
+      "content_sha256": "7c8de46a9ccb71ed62d1d1f000f77f3d4d4a4a516ea33848f19cbb6a355d206e"
+    },
+    "3aeb3fe79fc3fcea9e5e": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/03/31/jlptn3-grammar-chuushinni/",
+      "title": "【JLPT N3】文法・例文：〜を中心に / 〜を中心として",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0092"
+      ],
+      "locator": "文型・例文区：東京／若い世代を中心に",
+      "evidence_path": "quizzes/sources/cache/3aeb3fe79fc3fcea9e5e-3a9b0e17769b.md",
+      "content_sha256": "3a9b0e17769bd31908988bfc63241053cd2a3d84a11129c8ec0d6abcfc9f21e3"
+    },
+    "18d9765e12574cfe631c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/17/jlptn3-grammar-tooshite/",
+      "title": "【JLPT N3】文法・例文：〜を通して / 通じて（期間）",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0093"
+      ],
+      "locator": "文型・例文区：１年／四季を通して・通じて",
+      "evidence_path": "quizzes/sources/cache/18d9765e12574cfe631c-904732312b70.md",
+      "content_sha256": "904732312b70d71448053c79e7631d4bd5f845f3fe9aecf2b3536b0da0437290"
+    },
+    "6b451af752fdfa29e234": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/08/28/jlptn3-grammar-tooshite-2/",
+      "title": "【JLPT N3】文法・例文：〜を通して / 通じて（手段・媒介）",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0093"
+      ],
+      "locator": "文型・例文区：ニュース／インターネットを通して・通じて",
+      "evidence_path": "quizzes/sources/cache/6b451af752fdfa29e234-187657379250.md",
+      "content_sha256": "187657379250c9c361c889ed0faff77b113b295b1c606520e883f163b7bd992b"
+    },
+    "f4ea739c23c493f2a5b9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-karaiuto/",
+      "title": "【JLPT N2】文法・例文：〜からいうと / 〜からいって / 〜からいえば",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0094"
+      ],
+      "locator": "文型・例文区：模擬試験の結果／実力から",
+      "evidence_path": "quizzes/sources/cache/f4ea739c23c493f2a5b9-518d04e51922.md",
+      "content_sha256": "518d04e51922a660a129f4b29f31669b4cc49d81546dbdcff0d6fc9799c4ef77"
+    },
+    "6d40386e86f1b42dabbf": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/09/jlptn2-grammar-motode/",
+      "title": "【JLPT N2】文法・例文：〜のもとで / 〜のもとに",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0095"
+      ],
+      "locator": "文型・例文区：山下先生／法のもと",
+      "evidence_path": "quizzes/sources/cache/6d40386e86f1b42dabbf-d4671c7881b8.md",
+      "content_sha256": "d4671c7881b8eed0d157c0cffb787e6e7400d03257697da27773fae89ea7f26c"
+    },
+    "7fc3ba77be793f330a97": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/12/jlptn2-grammar-kanoyouda/",
+      "title": "【JLPT N2】文法・例文：〜かのようだ / 〜かのように",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0096"
+      ],
+      "locator": "文型・例文区：真冬／全てを知っているかのよう",
+      "evidence_path": "quizzes/sources/cache/7fc3ba77be793f330a97-7f6822add7f9.md",
+      "content_sha256": "7f6822add7f9e511bcd03950070e8fb7c85207c86257e6784ef0174bc7ca4583"
+    },
+    "89b56affa4ccf0a7faa9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/22/jlptn3-grammar-ba-noni/",
+      "title": "【JLPT N3】文法・例文：～ば～のに（反実仮想）",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0097"
+      ],
+      "locator": "文型・例文区：彼女に好きって言えばよかったのに",
+      "evidence_path": "quizzes/sources/cache/89b56affa4ccf0a7faa9-a618a8a5a82b.md",
+      "content_sha256": "a618a8a5a82bfdc3a4e06bb51502db1cae3304599ce57c4ed665a05ddbeeda2f"
+    },
+    "455ee69c540d01ec70e5": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/dekiru-nihongo-int-lesson8/",
+      "title": "できる日本語：中級 第8課 気持ちを伝える",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0097"
+      ],
+      "locator": "気持ちを伝える授业例：会って伝えればよかったのに",
+      "evidence_path": "quizzes/sources/cache/455ee69c540d01ec70e5-11338cae14f8.md",
+      "content_sha256": "11338cae14f8ae7a679a309077fc5e7c083cddcc45b047296901b56bbca01423"
+    },
+    "e5cda5f0af816306b2a2": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2017/10/31/genki-lesson18/",
+      "title": "げんき2 初級日本語 第18課",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0098"
+      ],
+      "locator": "「〜ばよかったです」导入与例句",
+      "evidence_path": "quizzes/sources/cache/e5cda5f0af816306b2a2-0033269b092c.md",
+      "content_sha256": "0033269b092cc4c04493bd892b82ac7de14a3d93abefd04b6fbb9610c2902bdf"
+    },
+    "b57c3ebb780c338db1fe": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/05/jlptn1-grammar-tada-nomi/",
+      "title": "【JLPT N1】文法・例文：ただ〜のみ",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0099"
+      ],
+      "locator": "文型・例文区：祈るのみ／待つのみ",
+      "evidence_path": "quizzes/sources/cache/b57c3ebb780c338db1fe-51a69b5a1ce0.md",
+      "content_sha256": "51a69b5a1ce093cbb5e53736e5bb0693de7549fe8852dbe9dc4440a2149a0331"
+    },
+    "a9c9a233e4ab34a9e0d2": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/05/26/jlptn3-grammar-tochuu/",
+      "title": "【JLPT N3】文法・例文：〜途中に / 〜途中で",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-09-22",
+      "grammar_ids": [
+        "N3-G-0100"
+      ],
+      "locator": "文型・例文区：通勤／帰る支度の途中",
+      "evidence_path": "quizzes/sources/cache/a9c9a233e4ab34a9e0d2-134c5de23d56.md",
+      "content_sha256": "134c5de23d564d573e373e8e4a38f91c127a7182d2ad46f3c18f734bd5e47a7f"
+    }
+  }
+}

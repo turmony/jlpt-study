@@ -1,0 +1,1642 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-22-n3-lessons-91-100-test-6",
+    "title": "N3 第91～100课语法练习（第6套）",
+    "date": "2026-09-22",
+    "level": "N3",
+    "suggested_minutes": 20
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N3-Q-0115",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ちょっと照れ臭かったのですが、感謝の気持ち（　）、母に手紙を書きました。",
+      "translation": "虽然有点不好意思，但我怀着感谢之情给母亲写了信。",
+      "tested_cards": [
+        "N3-G-0091"
+      ],
+      "conjugation": "名词＋をこめて(込めて)＋动作",
+      "options": {
+        "1": "を中心に",
+        "2": "を込めて",
+        "3": "を通して",
+        "4": "のもとで"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「感謝の気持ちを込めて」表示把感谢之情倾注在写信这一动作中。",
+      "option_explanations": {
+        "1": "表示以某对象为中心，不表示倾注感情。",
+        "2": "正确，感情名词后接「を込めて」。",
+        "3": "表示期间、手段或媒介，不表示怀着某种心情。",
+        "4": "表示在某人、制度或条件之下。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜を込めて",
+        "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn3-grammar-wokomete/",
+        "locator": "文型・例文区：感謝の気持ち／力を込めて",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/e9b1dbf1d577023ace63-7c8de46a9ccb.md"
+        ],
+        "original_example": "ちょっと照れ臭かったのですが、感謝の気持ちを込めて、母に手紙を書きました。",
+        "transformations": [
+          "将原例句中的「を込めて」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明该形式接在感情或力量等名词后，表示带着这种感情或力量做事。",
+        "distractor_basis": [
+          "1. 中心范围义。",
+          "2. 来源原句目标形式。",
+          "3. 期间或媒介义。",
+          "4. 支配、影响或条件义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「気持ち」后可直接接「を込めて」。",
+        "semantic_exclusion": "写信时倾注感谢之情；其余三项分别表达中心、媒介和支配条件。",
+        "unique_answer_rationale": "只有「を込めて」同时满足接续和感情倾注意义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N3-Q-0116",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "力（　）精一杯バットを振ったら、ホームランになった。",
+      "translation": "使尽全力挥棒后，打出了本垒打。",
+      "tested_cards": [
+        "N3-G-0091"
+      ],
+      "conjugation": "名词＋をこめて(込めて)＋动作",
+      "options": {
+        "1": "を込めて",
+        "2": "を中心に",
+        "3": "からいって",
+        "4": "の途中で"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「力を込めて」表示使上力量、用力做后项动作。",
+      "option_explanations": {
+        "1": "正确，表示使上力量挥棒。",
+        "2": "表示以力量为中心，语义不合。",
+        "3": "表示从某依据判断，且「力からいって」不合本句动作描写。",
+        "4": "表示在某事途中，不能表达用力挥棒。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜を込めて",
+        "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn3-grammar-wokomete/",
+        "locator": "文型・例文区：感謝の気持ち／力を込めて",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/e9b1dbf1d577023ace63-7c8de46a9ccb.md"
+        ],
+        "original_example": "力を込めて精一杯バットを振ったら、ホームランになった。",
+        "transformations": [
+          "将原例句中的「を込めて」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET列出「力」为常见搭配，并用该例句表示用力挥棒。",
+        "distractor_basis": [
+          "1. 来源原句目标形式。",
+          "2. 中心范围义。",
+          "3. 判断依据义。",
+          "4. 中途阶段义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「力」是「を込めて」的典型名词搭配。",
+        "semantic_exclusion": "精一杯挥棒需要“使上力量”，而非中心、判断或途中。",
+        "unique_answer_rationale": "只有选项1构成来源原句且语义完整。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。「力を込めて＋精一杯」略有语义重叠，但属于来源原句，不影响唯一解。",
+          "answer": "1"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N3-Q-0117",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日本は東京（　）経済が発展している。",
+      "translation": "日本以东京为中心发展经济。",
+      "tested_cards": [
+        "N3-G-0092"
+      ],
+      "conjugation": "名词＋をちゅうしんに(中心に)＋谓语",
+      "options": {
+        "1": "を込めて",
+        "2": "を中心に",
+        "3": "のもとに",
+        "4": "の途中で"
+      },
+      "correct_option": "2",
+      "correct_explanation": "东京是经济发展的核心据点，用「東京を中心に」。",
+      "option_explanations": {
+        "1": "表示倾注东京，不成立。",
+        "2": "正确，表示以东京为中心。",
+        "3": "表示在东京的支配或条件下，不是本句意思。",
+        "4": "表示在东京的途中，接续和语义都不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜を中心に / 〜を中心として",
+        "url": "https://nihongokyoshi-net.com/2018/03/31/jlptn3-grammar-chuushinni/",
+        "locator": "文型・例文区：東京／若い世代を中心に",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/3aeb3fe79fc3fcea9e5e-3a9b0e17769b.md"
+        ],
+        "original_example": "日本は東京を中心に経済が発展している。",
+        "transformations": [
+          "将原例句中的「を中心に」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明「を中心に」表示以某对象为基点或集中对象。",
+        "distractor_basis": [
+          "1. 感情或力量倾注意义。",
+          "2. 来源原句目标形式。",
+          "3. 支配或条件义。",
+          "4. 中途阶段义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "地点名词「東京」后接「を中心に」。",
+        "semantic_exclusion": "东京是发展核心；其他项不能表达核心据点。",
+        "unique_answer_rationale": "只有「を中心に」同时符合接续和原句的范围中心义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。「日本は～」略不自然但属于来源原句，不影响唯一解。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N3-Q-0118",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "若い世代（　）携帯電話で漫画や小説を読む人が増えています。",
+      "translation": "以年轻一代为主，用手机读漫画和小说的人正在增加。",
+      "tested_cards": [
+        "N3-G-0092"
+      ],
+      "conjugation": "表示人的名词＋をちゅうしんに(中心に)",
+      "options": {
+        "1": "を中心に",
+        "2": "を通して",
+        "3": "からいって",
+        "4": "のみ"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「若い世代を中心に」表示这种趋势主要出现在年轻群体中。",
+      "option_explanations": {
+        "1": "正确，表示以年轻一代为主要群体。",
+        "2": "表示通过年轻一代这一媒介，与人数增加的范围不合。",
+        "3": "表示从年轻一代这一依据判断，后句不是判断。",
+        "4": "表示仅限年轻一代，强度过强且缺少来源句的“主要群体”意义。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜を中心に / 〜を中心として",
+        "url": "https://nihongokyoshi-net.com/2018/03/31/jlptn3-grammar-chuushinni/",
+        "locator": "文型・例文区：東京／若い世代を中心に",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/3aeb3fe79fc3fcea9e5e-3a9b0e17769b.md"
+        ],
+        "original_example": "若い世代を中心に携帯電話で漫画や小説を読む人が増えています。",
+        "transformations": [
+          "将原例句中的「を中心に」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET原句用「若い世代を中心に」限定主要群体而非全部对象。",
+        "distractor_basis": [
+          "1. 来源原句目标形式。",
+          "2. 手段或媒介义。",
+          "3. 判断依据义。",
+          "4. 完全限定义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "表示人的群体名词后可接「を中心に」。",
+        "semantic_exclusion": "句意是年轻人占主要范围，不是经由、依据或只限于年轻人。",
+        "unique_answer_rationale": "来源原句和范围语义共同排除其余三项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "1"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N3-Q-0119",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "フィリピンでは１年（　）、暑い日が続く。",
+      "translation": "菲律宾全年持续炎热。",
+      "tested_cards": [
+        "N3-G-0093"
+      ],
+      "conjugation": "期间名词＋をつうじて(通じて)／をとおして(通して)",
+      "options": {
+        "1": "を通して",
+        "2": "を中心に",
+        "3": "のもとで",
+        "4": "の途中で"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「１年を通して」表示从年初到年末整个期间一直如此。",
+      "option_explanations": {
+        "1": "正确，表示全年。",
+        "2": "表示以一年为中心，不表达整个期间。",
+        "3": "表示在某条件下，与时间范围不合。",
+        "4": "表示一年中途的某阶段，与「暑い日が続く」的全年义不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜を通して / 通じて（期間）",
+        "url": "https://nihongokyoshi-net.com/2019/01/17/jlptn3-grammar-tooshite/",
+        "locator": "文型・例文区：１年／四季を通して・通じて",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/18d9765e12574cfe631c-904732312b70.md"
+        ],
+        "original_example": "フィリピンでは１年を通して、暑い日が続く。",
+        "transformations": [
+          "将原例句中的「を通して」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET的期间用法说明为「～の間ずっと」。",
+        "distractor_basis": [
+          "1. 来源原句目标形式。",
+          "2. 中心义。",
+          "3. 条件或支配义。",
+          "4. 中途阶段义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "期间名词「１年」后接「を通して」。",
+        "semantic_exclusion": "「暑い日が続く」要求整个期间义；途中只指局部。",
+        "unique_answer_rationale": "只有选项1明确表达从年初至年末持续。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "1"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N3-Q-0120",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "友人の死をニュース（　）知りました。",
+      "translation": "我通过新闻得知了朋友去世的消息。",
+      "tested_cards": [
+        "N3-G-0093"
+      ],
+      "conjugation": "媒介名词＋をつうじて(通じて)／をとおして(通して)",
+      "options": {
+        "1": "を込めて",
+        "2": "のもとで",
+        "3": "を通して",
+        "4": "のみ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "新闻是获知消息的媒介，用「ニュースを通して」。",
+      "option_explanations": {
+        "1": "表示把某种感情倾注进新闻，不合句意。",
+        "2": "表示在新闻的支配或条件下，不合句意。",
+        "3": "正确，表示通过新闻这一媒介得知。",
+        "4": "表示只有新闻，但不能连接「知りました」构成来源原句。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜を通して / 通じて（手段・媒介）",
+        "url": "https://nihongokyoshi-net.com/2019/08/28/jlptn3-grammar-tooshite-2/",
+        "locator": "文型・例文区：ニュース／インターネットを通して・通じて",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/6b451af752fdfa29e234-187657379250.md"
+        ],
+        "original_example": "友人の死をニュースを通して知りました。",
+        "transformations": [
+          "将原例句中的「を通して」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明该用法表示手段或媒介，后项常用「知る」。",
+        "distractor_basis": [
+          "1. 感情倾注意义。",
+          "2. 条件或支配义。",
+          "3. 来源原句目标形式。",
+          "4. 限定义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "物或媒介名词「ニュース」后接「を通して」。",
+        "semantic_exclusion": "后项「知りました」与页面备注中的媒介用法完全对应。",
+        "unique_answer_rationale": "只有选项3表达获知消息的媒介。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "3"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N3-Q-0121",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "模擬試験の結果（　）、ジョンさんはN１に合格できるだろう。",
+      "translation": "从模拟考试的结果来看，约翰应该能通过N1。",
+      "tested_cards": [
+        "N3-G-0094"
+      ],
+      "conjugation": "判断材料名词＋からいうと(言うと)",
+      "options": {
+        "1": "からいうと",
+        "2": "を中心に",
+        "3": "を込めて",
+        "4": "の途中で"
+      },
+      "correct_option": "1",
+      "correct_explanation": "以模拟考试结果为判断材料推测能否合格，用「結果からいうと」。",
+      "option_explanations": {
+        "1": "正确，表示从结果来判断。",
+        "2": "表示以结果为中心，不引出该推测。",
+        "3": "表示倾注结果，不能成立。",
+        "4": "表示在结果的途中，不能成立。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜からいうと / 〜からいって / 〜からいえば",
+        "url": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-karaiuto/",
+        "locator": "文型・例文区：模擬試験の結果／実力から",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/f4ea739c23c493f2a5b9-518d04e51922.md"
+        ],
+        "original_example": "模擬試験の結果からいうと、ジョンさんはN１に合格できるだろう。",
+        "transformations": [
+          "将原例句中的「からいうと」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明该形式表示「〜を考えると／〜から判断すると」。",
+        "distractor_basis": [
+          "1. 来源原句目标形式。",
+          "2. 中心义。",
+          "3. 倾注意义。",
+          "4. 中途义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词「結果」后直接接「からいうと」。",
+        "semantic_exclusion": "后项「だろう」是根据结果作出的推测。",
+        "unique_answer_rationale": "只有选项1能引出判断与推测。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "1"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N3-Q-0122",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "A：今度の試合、４番は誰がいいと思う？\nB：実力（　）、木村さんがいいと思います。",
+      "translation": "A：下场比赛谁打第四棒好？B：从实力来说，我觉得木村合适。",
+      "tested_cards": [
+        "N3-G-0094"
+      ],
+      "conjugation": "判断材料名词＋からいって(言って)",
+      "options": {
+        "1": "を通して",
+        "2": "を中心に",
+        "3": "からいって",
+        "4": "のみ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "回答者以实力为判断依据评价人选，用「実力からいって」。",
+      "option_explanations": {
+        "1": "表示以实力为媒介，不是选人依据的表达。",
+        "2": "表示以实力为中心，不能自然引出人选评价。",
+        "3": "正确，表示从实力这一判断材料来说。",
+        "4": "表示仅有实力，不能连接后句形成该判断。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜からいうと / 〜からいって / 〜からいえば",
+        "url": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-karaiuto/",
+        "locator": "文型・例文区：模擬試験の結果／実力から",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/f4ea739c23c493f2a5b9-518d04e51922.md"
+        ],
+        "original_example": "A：今度の試合、４番は誰がいいと思う？\nB：実力からいって、木村さんがいいと思います。",
+        "transformations": [
+          "将原例句中的「からいって」替换为（　）。",
+          "去除网页加粗标记；保留问答结构。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET原句以「実力からいって」作为选择第四棒的判断依据。",
+        "distractor_basis": [
+          "1. 手段或媒介义。",
+          "2. 中心义。",
+          "3. 来源原句目标形式。",
+          "4. 限定义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词「実力」后接「からいって」。",
+        "semantic_exclusion": "对人选的评价来自实力这一判断材料。",
+        "unique_answer_rationale": "只有选项3表达判断依据并自然衔接「いいと思います」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "3"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N3-Q-0123",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私は山下先生（　）、プログラミングを習っています。",
+      "translation": "我正在山下老师的指导下学习编程。",
+      "tested_cards": [
+        "N3-G-0095"
+      ],
+      "conjugation": "人物名词＋のもとで＋动作",
+      "options": {
+        "1": "のもとで",
+        "2": "のもとを",
+        "3": "をもとで",
+        "4": "にもとで"
+      },
+      "correct_option": "1",
+      "correct_explanation": "在某位老师的指导下进行学习，用「先生のもとで」。",
+      "option_explanations": {
+        "1": "正确，表示在山下老师指导下学习。",
+        "2": "助词组合错误，不能表示动作场域。",
+        "3": "「もとで」前不能用此处的「を」。",
+        "4": "固定形式不是「にもとで」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜のもとで / 〜のもとに",
+        "url": "https://nihongokyoshi-net.com/2019/05/09/jlptn2-grammar-motode/",
+        "locator": "文型・例文区：山下先生／法のもと",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/6d40386e86f1b42dabbf-d4671c7881b8.md"
+        ],
+        "original_example": "私は山下先生のもとで、プログラミングを習っています。",
+        "transformations": [
+          "将原例句中的「のもとで」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明「のもとで」表示在某人的指导、影响或条件下进行动作。",
+        "distractor_basis": [
+          "1. 来源原句目标形式。",
+          "2. 错误助词组合。",
+          "3. 错误助词组合。",
+          "4. 非固定形式。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "人物名词后用「のもとで」，后接动作「習っています」。",
+        "semantic_exclusion": "句意要求老师指导下的动作场域。",
+        "unique_answer_rationale": "只有选项1是合法接续并符合指导关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "1"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N3-Q-0124",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "人は皆、法（　）平等である。",
+      "translation": "人人在法律之下皆平等。",
+      "tested_cards": [
+        "N3-G-0095"
+      ],
+      "conjugation": "制度名词＋のもとに＋状态",
+      "options": {
+        "1": "を中心に",
+        "2": "を込めて",
+        "3": "の途中で",
+        "4": "のもとに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「法のもとに」表示在法律这一制度或原则之下。",
+      "option_explanations": {
+        "1": "表示以法律为中心，不是固定的“法律面前平等”。",
+        "2": "表示把某种内容倾注进法律，不成立。",
+        "3": "表示在法律的途中，不成立。",
+        "4": "正确，表示在法律原则之下。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜のもとで / 〜のもとに",
+        "url": "https://nihongokyoshi-net.com/2019/05/09/jlptn2-grammar-motode/",
+        "locator": "文型・例文区：山下先生／法のもと",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/6d40386e86f1b42dabbf-d4671c7881b8.md"
+        ],
+        "original_example": "人は皆、法のもとに平等である。",
+        "transformations": [
+          "将原例句中的「のもとに」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET原句用「法のもとに」表示受同一法律原则支配的状态。",
+        "distractor_basis": [
+          "1. 中心义。",
+          "2. 倾注意义。",
+          "3. 中途义。",
+          "4. 来源原句目标形式。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "制度名词「法」后接「のもとに」。",
+        "semantic_exclusion": "「平等である」是法律原则下的状态，不是动作途中或中心范围。",
+        "unique_answer_rationale": "只有选项4还原来源原句并表达制度条件。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "4"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N3-Q-0125",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "３月なのにまた寒くなりましたね。まるで真冬に戻った（　）。",
+      "translation": "明明已经三月却又变冷了，简直像回到了隆冬一样。",
+      "tested_cards": [
+        "N3-G-0096"
+      ],
+      "conjugation": "动词普通形＋かのようだ（礼貌体：かのようですね）",
+      "options": {
+        "1": "ばいいのに",
+        "2": "途中ですね",
+        "3": "かのようですね",
+        "4": "のみですね"
+      },
+      "correct_option": "3",
+      "correct_explanation": "实际上没有回到隆冬，只是感觉仿佛如此，用「かのようですね」。",
+      "option_explanations": {
+        "1": "表示愿望或不满，不表示比喻。",
+        "2": "表示正在某一过程，不表示仿佛。",
+        "3": "正确，表示好像回到隆冬。",
+        "4": "表示限定，不能表达比喻感受。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜かのようだ / 〜かのように",
+        "url": "https://nihongokyoshi-net.com/2019/07/12/jlptn2-grammar-kanoyouda/",
+        "locator": "文型・例文区：真冬／全てを知っているかのよう",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/7fc3ba77be793f330a97-7f6822add7f9.md"
+        ],
+        "original_example": "３月なのにまた、寒くなりましたね。まるで真冬に戻ったかのようですね。",
+        "transformations": [
+          "将原例句中的「かのようですね」替换为（　）。",
+          "删除「また」后的网页标点空格；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明该形式用于实际并非如此、但看起来或感觉像如此的情形。",
+        "distractor_basis": [
+          "1. 愿望或不满。",
+          "2. 中途阶段。",
+          "3. 来源原句目标形式。",
+          "4. 限定。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词过去普通形「戻った」后接「かのようですね」。",
+        "semantic_exclusion": "「まるで」和三月却似隆冬的反差锁定比喻义。",
+        "unique_answer_rationale": "只有选项3与「まるで」呼应并表达非事实比喻。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "3"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N3-Q-0126",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼はまるで全てを知っている（　）話しているが、全て彼の想像にすぎない。",
+      "translation": "他说话仿佛知道一切，但其实全都是他的想象。",
+      "tested_cards": [
+        "N3-G-0096"
+      ],
+      "conjugation": "普通形＋かのように＋动词",
+      "options": {
+        "1": "かのようだ",
+        "2": "かのような",
+        "3": "かのように",
+        "4": "かのようで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "后项是动词「話している」，所以用副词性形式「かのように」。",
+      "option_explanations": {
+        "1": "句末断定形式，不能直接修饰后面的「話している」。",
+        "2": "修饰名词的形式，后面应接名词。",
+        "3": "正确，副词性地修饰「話している」。",
+        "4": "中止形，不能在此直接按来源句修饰动作。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜かのようだ / 〜かのように",
+        "url": "https://nihongokyoshi-net.com/2019/07/12/jlptn2-grammar-kanoyouda/",
+        "locator": "文型・例文区：真冬／全てを知っているかのよう",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/7fc3ba77be793f330a97-7f6822add7f9.md"
+        ],
+        "original_example": "彼はまるで全てを知っているかのように話しているが、全て彼の想像にすぎない。",
+        "transformations": [
+          "将原例句中的「かのように」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET列出「かのように」用于修饰动作，原句以其修饰「話している」。",
+        "distractor_basis": [
+          "1. 句末形式。",
+          "2. 连体形式。",
+          "3. 来源原句目标形式。",
+          "4. 中止形式。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形后接「かのように」，再接动词。",
+        "semantic_exclusion": "后面的“全是想象”明确说明他实际上并非无所不知。",
+        "unique_answer_rationale": "形态接续和非事实语境都只支持选项3。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "3"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N3-Q-0127",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女に好きだと伝えたいなら、勇気を出して言え（　）。まだ迷っているの？",
+      "translation": "既然想向她表白，鼓起勇气说出来不就好了吗？还在犹豫吗？",
+      "tested_cards": [
+        "N3-G-0097"
+      ],
+      "conjugation": "动词条件形＋ばいいのに",
+      "options": {
+        "1": "ばよかったのに",
+        "2": "ばいいのに",
+        "3": "てよかった",
+        "4": "る途中で"
+      },
+      "correct_option": "2",
+      "correct_explanation": "说话时对方仍在犹豫，讲话者对当前未行动表示不满或建议，用「言えばいいのに」。",
+      "option_explanations": {
+        "1": "表示对已经错过的过去行动感到后悔，与「まだ迷っている」矛盾。",
+        "2": "正确，表示“现在说出来就好了”的建议和不满。",
+        "3": "接续错误；且表示做了某事后感到庆幸。",
+        "4": "接续错误，不能说「言える途中で」表达本意。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：～ば～のに（反実仮想）",
+        "url": "https://nihongokyoshi-net.com/2019/01/22/jlptn3-grammar-ba-noni/",
+        "locator": "文型・例文区：彼女に好きって言えばよかったのに",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/89b56affa4ccf0a7faa9-a618a8a5a82b.md"
+        ],
+        "original_example": "あの時、頑張って彼女に好きって言えばよかったのに。",
+        "transformations": [
+          "将过去时间「あの時」改为当前条件「彼女に好きだと伝えたいなら」。",
+          "将「頑張って」具体化为「勇気を出して」。",
+          "将过去后悔「言えばよかったのに」改为当前建议／不满「言えばいいのに」。",
+          "添加「まだ迷っているの？」锁定尚未行动的当前语境。",
+          "将目标形式中的「ばいいのに」替换为（　），AI补充选项、翻译与解析。"
+        ],
+        "answer_basis": "日本語NET的「～ば～のに」页核实条件形与「のに」的反事实/遗憾框架；正式卡N3-G-0097说明「ばいいのに」用于对当前未行动的焦躁、不满或建议。",
+        "distractor_basis": [
+          "1. 过去反事实后悔。",
+          "2. 当前建议／不满目标形式。",
+          "3. 庆幸且接续错误。",
+          "4. 途中义且接续错误。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「言う」的条件形由「言え＋ば」构成，后接「いいのに」。",
+        "semantic_exclusion": "「まだ迷っている」明确行动尚未发生，排除过去后悔和庆幸。",
+        "unique_answer_rationale": "只有选项2同时符合条件形接续与当前未行动语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "属于跨语用派生；日本語NET原句、正式卡语义和全部改写均已核对，当前未行动语境锁定「ばいいのに」，自然且唯一。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N3-Q-0128",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "大事な話なら、メールではなく会って伝え（　）。どうしてまだメールだけで済ませようとしているの？",
+      "translation": "如果是重要的事，见面说不就好了吗？为什么还想只靠邮件解决？",
+      "tested_cards": [
+        "N3-G-0097"
+      ],
+      "conjugation": "动词条件形＋ばいいのに",
+      "options": {
+        "1": "てよかった",
+        "2": "るのみだ",
+        "3": "ればよかったのに",
+        "4": "ればいいのに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "对方现在仍打算只发邮件，讲话者建议当面说并带不满，用「伝えればいいのに」。",
+      "option_explanations": {
+        "1": "表示做了之后庆幸，且「伝えてよかった」与空前形态不符。",
+        "2": "表示只需传达，但「伝えるのみだ」与空前「伝え」接续不合。",
+        "3": "表示已经错过当面传达机会后的后悔，与「まだ〜ようとしている」矛盾。",
+        "4": "正确，表示现在当面传达就好了。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "できる日本語：中級 第8課 気持ちを伝える",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/dekiru-nihongo-int-lesson8/",
+        "locator": "気持ちを伝える授业例：会って伝えればよかったのに",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/455ee69c540d01ec70e5-11338cae14f8.md"
+        ],
+        "original_example": "会って伝えればよかったのに、どうしてメールにしちゃったんだろう。",
+        "transformations": [
+          "把已发生的后悔语境改为尚未决定的当前语境「大事な話なら、メールではなく」。",
+          "将「伝えればよかったのに」改为当前建议／不满「伝えればいいのに」。",
+          "将后句改为「どうしてまだメールだけで済ませようとしているの？」以锁定动作尚未发生。",
+          "将目标形式中的「ればいいのに」替换为（　），AI补充选项、翻译与解析。"
+        ],
+        "answer_basis": "日本語NET课堂材料核实原句的当面传达/邮件对比；正式卡N3-G-0097说明未行动时用「ばいいのに」表达建议或不满。",
+        "distractor_basis": [
+          "1. 庆幸且接续不合。",
+          "2. 限定且接续不合。",
+          "3. 过去后悔。",
+          "4. 当前建议／不满目标形式。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「伝える」条件形为「伝えれば」，后接「いいのに」。",
+        "semantic_exclusion": "「まだ〜ようとしている」明确事情尚未定局。",
+        "unique_answer_rationale": "只有选项4符合当前建议语境，选项3要求过去反事实。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "4"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "属于跨语用派生；日本語NET原句、正式卡语义和全部改写均已核对，当前未行动语境锁定「ばいいのに」，自然且唯一。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N3-Q-0129",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "カメラを持っていけ（　）。せっかくの景色を撮れなくて、今も後悔しています。",
+      "translation": "要是带上相机就好了。没能拍下难得的景色，我到现在还后悔。",
+      "tested_cards": [
+        "N3-G-0098"
+      ],
+      "conjugation": "动词条件形＋ばよかったです",
+      "options": {
+        "1": "ばいいのに",
+        "2": "てよかったです",
+        "3": "ばよかったです",
+        "4": "ばいいです"
+      },
+      "correct_option": "3",
+      "correct_explanation": "没有带相机并因此后悔，用过去反事实「持っていけばよかったです」。",
+      "option_explanations": {
+        "1": "表示当前建议或不满，不表示说话者对既成事实的后悔。",
+        "2": "接续错误；且「てよかった」表示庆幸做了某事。",
+        "3": "正确，表示后悔当时没带相机。",
+        "4": "表示做某事即可，缺少过去后悔。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "げんき2 初級日本語 第18課",
+        "url": "https://nihongokyoshi-net.com/2017/10/31/genki-lesson18/",
+        "locator": "「〜ばよかったです」导入与例句",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/e5cda5f0af816306b2a2-0033269b092c.md"
+        ],
+        "original_example": "カメラを持っていけばよかったです。",
+        "transformations": [
+          "将原例句中的「ばよかったです」替换为（　）。",
+          "添加「せっかくの景色を撮れなくて、今も後悔しています」以锁定过去后悔。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET课堂页说明「V（ば形）＋よかったです」表示本该做却没做而后悔。",
+        "distractor_basis": [
+          "1. 当前建议或不满。",
+          "2. 庆幸且接续错误。",
+          "3. 来源原句目标形式。",
+          "4. 一般建议。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「持っていく」条件形为「持っていけば」。",
+        "semantic_exclusion": "未能拍照和“现在仍后悔”锁定过去未做的后悔。",
+        "unique_answer_rationale": "只有选项3同时满足接续与过去反事实后悔。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "3"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N3-Q-0130",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "エンジニアの仕事を辞め（　）。今の仕事より給料がよかったので、後悔しています。",
+      "translation": "要是没辞掉工程师的工作就好了。因为那份工作的工资比现在高，我很后悔。",
+      "tested_cards": [
+        "N3-G-0098"
+      ],
+      "conjugation": "动词否定条件形＋なければよかったです",
+      "options": {
+        "1": "なくてよかったです",
+        "2": "なければよかったです",
+        "3": "ればいいのに",
+        "4": "てよかったです"
+      },
+      "correct_option": "2",
+      "correct_explanation": "实际上辞职了并对此后悔，用「辞めなければよかったです」。",
+      "option_explanations": {
+        "1": "表示因没辞职而庆幸，与事实和后悔相反。",
+        "2": "正确，表示后悔辞掉了工作。",
+        "3": "接续错误；且表示当前建议或不满。",
+        "4": "表示因辞职而庆幸，与后悔相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "げんき2 初級日本語 第18課",
+        "url": "https://nihongokyoshi-net.com/2017/10/31/genki-lesson18/",
+        "locator": "「〜ばよかったです」导入与例句",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/e5cda5f0af816306b2a2-0033269b092c.md"
+        ],
+        "original_example": "エンジニアの仕事を辞めなければよかったです。",
+        "transformations": [
+          "将原例句中的「なければよかったです」替换为（　）。",
+          "添加工资比较和「後悔しています」以锁定事实方向。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET课堂页把该句作为“做了某事后后悔”的否定条件例句。",
+        "distractor_basis": [
+          "1. 未做后的庆幸。",
+          "2. 来源原句目标形式。",
+          "3. 当前建议且接续不合。",
+          "4. 做了后的庆幸。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「辞める」否定条件形是「辞めなければ」。",
+        "semantic_exclusion": "现实是已辞职且后悔，因此要否定这个已发生动作。",
+        "unique_answer_rationale": "只有选项2与事实方向和情感都一致。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N3-Q-0131",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今はただみんなの無事を祈る（　）です。",
+      "translation": "现在只能祈祷大家平安。",
+      "tested_cards": [
+        "N3-G-0099"
+      ],
+      "conjugation": "动词辞书形＋のみ",
+      "options": {
+        "1": "途中",
+        "2": "のみ",
+        "3": "もと",
+        "4": "中心"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「祈るのみです」以较正式的语气表示除此之外什么也做不了。",
+      "option_explanations": {
+        "1": "表示祈祷进行到途中，不合句意。",
+        "2": "正确，表示唯有祈祷。",
+        "3": "「もと」不能直接接在动词辞书形后表达限定。",
+        "4": "「中心」不能直接接在动词辞书形后表达限定。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N1】文法・例文：ただ〜のみ",
+        "url": "https://nihongokyoshi-net.com/2019/07/05/jlptn1-grammar-tada-nomi/",
+        "locator": "文型・例文区：祈るのみ／待つのみ",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/b57c3ebb780c338db1fe-51a69b5a1ce0.md"
+        ],
+        "original_example": "今はただみんなの無事を祈るのみです。",
+        "transformations": [
+          "将原例句中的「のみ」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明「ただ〜のみ」是「ただ〜だけ」的书面、较硬表达。",
+        "distractor_basis": [
+          "1. 中途阶段名词。",
+          "2. 来源原句目标形式。",
+          "3. 基础或条件名词。",
+          "4. 中心名词。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形「祈る」后直接接「のみ」。",
+        "semantic_exclusion": "「ただ」与“除此以外没有”的限定意义呼应。",
+        "unique_answer_rationale": "只有选项2构成合法固定表达。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N3-Q-0132",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "やれることはやったので、後はただ結果を待つ（　）だ。",
+      "translation": "能做的都做了，接下来只等结果。",
+      "tested_cards": [
+        "N3-G-0099"
+      ],
+      "conjugation": "动词辞书形＋のみだ",
+      "options": {
+        "1": "かのよう",
+        "2": "途中",
+        "3": "のみ",
+        "4": "もと"
+      },
+      "correct_option": "3",
+      "correct_explanation": "能做的已全部完成，剩下唯一的事是等待结果，用「待つのみだ」。",
+      "option_explanations": {
+        "1": "表示仿佛，且缺少后续形式。",
+        "2": "表示等待的途中，和“接下来只剩”等待不合。",
+        "3": "正确，表示唯有等待。",
+        "4": "不能直接接在「待つ」后表达限定。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N1】文法・例文：ただ〜のみ",
+        "url": "https://nihongokyoshi-net.com/2019/07/05/jlptn1-grammar-tada-nomi/",
+        "locator": "文型・例文区：祈るのみ／待つのみ",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/b57c3ebb780c338db1fe-51a69b5a1ce0.md"
+        ],
+        "original_example": "やれることはやったので、後はただ結果を待つのみだ。",
+        "transformations": [
+          "将原例句中的「のみ」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET原句以「後はただ〜のみだ」表示其余选择已经不存在。",
+        "distractor_basis": [
+          "1. 比喻形式残片。",
+          "2. 中途阶段。",
+          "3. 来源原句目标形式。",
+          "4. 基础或条件名词。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形「待つ」后接「のみだ」。",
+        "semantic_exclusion": "前句“能做的都做了”排除其他行动，只剩等待。",
+        "unique_answer_rationale": "只有选项3表达唯一剩余行动。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "3"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N3-Q-0133",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "通勤（　）、急に気分が悪くなって吐いてしまった。",
+      "translation": "上班途中，突然感到不舒服，吐了。",
+      "tested_cards": [
+        "N3-G-0100"
+      ],
+      "conjugation": "动作性名词＋の途中で",
+      "options": {
+        "1": "を通して",
+        "2": "の途中で",
+        "3": "を中心に",
+        "4": "のもとで"
+      },
+      "correct_option": "2",
+      "correct_explanation": "在从家到公司的通勤过程尚未结束时发生不适，用「通勤の途中で」。",
+      "option_explanations": {
+        "1": "表示整个期间或媒介，不表示移动中途的突发事件。",
+        "2": "正确，表示上班路途中。",
+        "3": "表示以通勤为中心，不合句意。",
+        "4": "表示在通勤的指导或条件下，不合句意。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜途中に / 〜途中で",
+        "url": "https://nihongokyoshi-net.com/2020/05/26/jlptn3-grammar-tochuu/",
+        "locator": "文型・例文区：通勤／帰る支度の途中",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/a9c9a233e4ab34a9e0d2-134c5de23d56.md"
+        ],
+        "original_example": "通勤の途中で、急に気分が悪くなって吐いてしまった。",
+        "transformations": [
+          "将原例句中的「の途中で」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。"
+        ],
+        "answer_basis": "日本語NET说明「途中」表示动作或事件开始至结束之间。",
+        "distractor_basis": [
+          "1. 期间或媒介义。",
+          "2. 来源原句目标形式。",
+          "3. 中心义。",
+          "4. 条件或支配义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动作性名词「通勤」后接「の途中で」。",
+        "semantic_exclusion": "突然不适是在通勤尚未结束时发生的突发事件。",
+        "unique_answer_rationale": "只有选项2表达移动过程中的时间点。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第一阶段盲答与标准答案一致，信心高；接续、语义和唯一解通过。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "第二阶段已核对最小证据、原例句、改写记录、答案依据与四项干扰依据；通过。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N3-Q-0134",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "帰る支度をしている（　）、部長に追加の仕事を頼まれた。",
+      "translation": "正在做回家的准备时，部长又交给了我额外的工作。",
+      "tested_cards": [
+        "N3-G-0100"
+      ],
+      "conjugation": "动词ている形＋途中に",
+      "options": {
+        "1": "かのように",
+        "2": "途中に",
+        "3": "のみ",
+        "4": "からいうと"
+      },
+      "correct_option": "2",
+      "correct_explanation": "回家准备尚未完成时被部长交办额外工作，用「している途中に」。",
+      "option_explanations": {
+        "1": "表示仿佛正在准备，和后面的真实时间关系不合。",
+        "2": "正确，表示动作进行途中发生另一件事。",
+        "3": "表示只有正在准备，不能连接突发事件。",
+        "4": "表示从某依据判断，不能表达时间关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜途中に / 〜途中で",
+        "url": "https://nihongokyoshi-net.com/2020/05/26/jlptn3-grammar-tochuu/",
+        "locator": "文型・例文区：通勤／帰る支度の途中",
+        "accessed_at": "2026-09-22",
+        "evidence_paths": [
+          "quizzes/sources/cache/a9c9a233e4ab34a9e0d2-134c5de23d56.md"
+        ],
+        "original_example": "帰る支度をしている途中に、部長がやってきて追加の仕事を頼まれた。",
+        "transformations": [
+          "将原例句中的「途中に」替换为（　）。",
+          "去除网页加粗标记；其余日文保持不变。",
+          "AI补充四个选项、中文翻译及解析。",
+          "第1轮修订：消除「部長がやってきて追加の仕事を頼まれた」的主语／施事歧义，改为「部長に追加の仕事を頼まれた」"
+        ],
+        "answer_basis": "日本語NET说明动词动作开始后、结束前发生另一事件时可用「途中に／途中で」。",
+        "distractor_basis": [
+          "1. 非事实比喻。",
+          "2. 来源原句目标形式。",
+          "3. 限定义。",
+          "4. 判断依据义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词「している」后接「途中に」。",
+        "semantic_exclusion": "部长交办工作发生在尚未完成回家准备时，构成典型的中途事件。",
+        "unique_answer_rationale": "修订后施事明确；只有选项2表达动作未完成时发生另一事件。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "修订后单题复审：答案2，信心高；「部長に」明确被动句施事，自然且唯一。",
+          "answer": "2"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "independent-agent:/root/blind_review",
+          "reviewed_at": "2026-09-22T20:39:30+08:00",
+          "notes": "证据保留原始例句；revision=2、transformations 与 revision_history 均完整记录施事消歧修订；通过。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-09-22T19:59:33+08:00",
+        "ended_at": "2026-09-22T19:59:33+08:00",
+        "duration_seconds": 0.419,
+        "metrics": {
+          "N3-G-0091..N3-G-0100,questions": 20
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-09-22T19:59:33+08:00",
+        "ended_at": "2026-09-22T20:08:04+08:00",
+        "duration_seconds": 511.058,
+        "metrics": {
+          "calls": 3,
+          "results": 79
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-09-22T20:08:04+08:00",
+        "ended_at": "2026-09-22T20:10:39+08:00",
+        "duration_seconds": 155.535,
+        "metrics": {
+          "calls": 12,
+          "pages": 12,
+          "new_cache": 12
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-09-22T20:29:25+08:00",
+        "ended_at": "2026-09-22T20:29:25+08:00",
+        "duration_seconds": 0.41,
+        "metrics": {
+          "questions": 20,
+          "derived": 20
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-22T20:29:25+08:00",
+        "ended_at": "2026-09-22T20:29:25+08:00",
+        "duration_seconds": 0.777,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-22T20:29:50+08:00",
+        "ended_at": "2026-09-22T20:29:50+08:00",
+        "duration_seconds": 0.015,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-22T20:33:06+08:00",
+        "ended_at": "2026-09-22T20:33:41+08:00",
+        "duration_seconds": 35.159,
+        "metrics": {
+          "revised": 1,
+          "question": "N3-Q-0134"
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-22T20:33:41+08:00",
+        "ended_at": "2026-09-22T20:33:41+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-22T20:29:50+08:00",
+        "ended_at": "2026-09-22T20:39:30+08:00",
+        "duration_seconds": 580.216,
+        "metrics": {
+          "passed": 20,
+          "revised": 1,
+          "source_checked": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-22T20:39:30+08:00",
+        "ended_at": "2026-09-22T20:39:30+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-22T20:39:30+08:00",
+        "ended_at": "2026-09-22T20:46:02+08:00",
+        "duration_seconds": 392.7,
+        "metrics": {
+          "quiz_errors": 0,
+          "quiz_warnings": 0,
+          "cache_pages": 12,
+          "link_errors": 0,
+          "pytest_passed": 282
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N3-Q-0134",
+        "revision": 2,
+        "reason": "消除「部長がやってきて追加の仕事を頼まれた」的主语／施事歧义，改为「部長に追加の仕事を頼まれた」",
+        "at": "2026-09-22T20:33:06+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}
