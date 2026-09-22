@@ -1,10 +1,8 @@
 """Domain models for persistent JLPT learning data."""
 
-from dataclasses import dataclass, field
-from datetime import date
 import re
+from dataclasses import dataclass, field
 from typing import Literal
-
 
 LEVELS = frozenset({"N5", "N4", "N3", "N2", "N1"})
 CARD_ID_PATTERN = re.compile(r"^N[1-5]-(G|V)-\d{4,}$")
@@ -17,12 +15,8 @@ class Card:
     level: str
     title: str
     body: str
-    status: Literal["confirmed"]
     card_revision: int
     schema_version: int
-    created_at: date
-    updated_at: date
-    next_review: date
     source: dict[str, str]
     tags: tuple[str, ...] = field(default_factory=tuple)
     confusions: tuple[str, ...] = field(default_factory=tuple)

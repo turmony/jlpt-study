@@ -1,6 +1,4 @@
-import json
 from dataclasses import replace
-from datetime import date
 from pathlib import Path
 
 import pytest
@@ -23,10 +21,9 @@ def test_promotion_rebases_images_references_and_links_without_touching_examples
             '![外链](https://example.org/a.png)\n')
     draft = repo.create_draft('学习者原话', replace(sample_card(), body=body))
     before = draft.read_text(encoding='utf-8').split('\n---\n\n', 1)[1]
-    card = repo.finalize_draft(draft.stem, date(2026, 9, 15))
+    card = repo.prepare_draft(draft.stem)
     assert card.body == body.replace('../assets/板书', '../../assets/板书')
     assert draft.read_text(encoding='utf-8').split('\n---\n\n', 1)[1] == before
-    assert card.next_review == date(2026, 9, 22)
 
 
 @pytest.mark.parametrize('link', ['../assets/missing.png', '../../outside.png', '../.private/a.png'])
@@ -35,9 +32,8 @@ def test_invalid_image_blocks_finalization_without_any_writes(tmp_path, link):
     draft = repo.create_draft('原话', replace(sample_card(), body=f'![图]({link})'))
     before = {p: p.read_bytes() for p in repo.root.rglob('*') if p.is_file()}
     with pytest.raises(ValueError, match='图片|资源|链接'):
-        repo.finalize_draft(draft.stem, date(2026, 9, 15))
+        repo.prepare_draft(draft.stem)
     assert {p: p.read_bytes() for p in repo.root.rglob('*') if p.is_file()} == before
-    assert not json.loads(draft.read_text(encoding='utf-8').split('---')[1])['finalized']
 
 
 def test_repository_images_are_publishable():

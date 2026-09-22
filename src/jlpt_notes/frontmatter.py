@@ -1,8 +1,7 @@
 """Read and write Markdown cards with JSON-compatible YAML frontmatter."""
 
-from dataclasses import asdict
-from datetime import date
 import json
+from dataclasses import asdict
 from pathlib import Path
 
 from .models import Card
@@ -12,8 +11,6 @@ def write_card(path: Path, card: Card) -> None:
     """Atomically write one card using a JSON frontmatter document."""
     data = asdict(card)
     data.pop("body")
-    for key in ("created_at", "updated_at", "next_review"):
-        data[key] = data[key].isoformat()
     data["tags"] = list(data["tags"])
     data["confusions"] = list(data["confusions"])
     content = "---\n" + json.dumps(data, ensure_ascii=False, indent=2) + "\n---\n\n" + card.body + "\n"
@@ -33,8 +30,10 @@ def read_card(path: Path) -> Card:
         metadata = json.loads(metadata_text)
     except (ValueError, json.JSONDecodeError) as error:
         raise ValueError(f"{path} has invalid frontmatter") from error
-    for key in ("created_at", "updated_at", "next_review"):
-        metadata[key] = date.fromisoformat(metadata[key])
+    # Lifecycle state belongs to Git history and review events. Ignore legacy
+    # fields so existing cards remain readable without rewriting them.
+    for key in ("status", "created_at", "updated_at", "next_review"):
+        metadata.pop(key, None)
     metadata["tags"] = tuple(metadata.get("tags", []))
     metadata["confusions"] = tuple(metadata.get("confusions", []))
     return Card(body=body.rstrip("\n"), **metadata)

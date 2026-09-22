@@ -2,12 +2,14 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 import math
+import subprocess
+import time
+from collections.abc import Callable
+from dataclasses import dataclass
+from hashlib import sha256
 from pathlib import Path
 from threading import Event, Lock, Thread, current_thread
-import time
-from typing import Callable
 
 from .sources import iter_supported_visible_source_files, iter_visible_images
 
@@ -22,12 +24,12 @@ class FileStamp:
 
 
 def snapshot_sources(root: Path) -> tuple[FileStamp, ...]:
-    """Return stable stamps for visible documents and raster images.
+    """Return stable stamps for visible sources and their Git submission state.
 
-    The function only enumerates and stats files.  It does not follow symlinks
-    or create any files, so observing a learner's source directory is safe.
-    Files that disappear during an editor's save operation are skipped and are
-    picked up on the following poll.
+    The function only reads file metadata and Git state.  It does not follow
+    symlinks or create any files, so observing a learner's source directory is
+    safe.  Files that disappear during an editor's save operation are skipped
+    and are picked up on the following poll.
     """
     resolved = root.resolve(strict=True)
     stamps: list[FileStamp] = []
@@ -44,7 +46,49 @@ def snapshot_sources(root: Path) -> tuple[FileStamp, ...]:
                 stat.st_mtime_ns,
             )
         )
+    git_stamp = _git_state_stamp(resolved)
+    if git_stamp is not None:
+        stamps.append(git_stamp)
     return tuple(sorted(stamps, key=lambda stamp: _name_sort_key(stamp.path)))
+
+
+def _git_state_stamp(root: Path) -> FileStamp | None:
+    """Represent HEAD and scoped worktree state without watching ``.git`` files."""
+    try:
+        top_level = Path(
+            _run_git(root, "rev-parse", "--show-toplevel").decode("utf-8").strip()
+        ).resolve()
+        scope = root.relative_to(top_level).as_posix() or "."
+        try:
+            head = _run_git(top_level, "rev-parse", "--verify", "HEAD").strip()
+        except subprocess.CalledProcessError:
+            head = b"(unborn)"
+        worktree = _run_git(
+            top_level,
+            "status",
+            "--porcelain=v1",
+            "-z",
+            "--untracked-files=all",
+            "--",
+            scope,
+        )
+    except (OSError, UnicodeError, ValueError, subprocess.CalledProcessError):
+        return None
+
+    digest = sha256(head + b"\0" + worktree).digest()
+    return FileStamp(
+        path="<git-submission-state>",
+        size=int.from_bytes(digest[:8], "big"),
+        modified_ns=int.from_bytes(digest[8:16], "big"),
+    )
+
+
+def _run_git(repository: Path, *arguments: str) -> bytes:
+    return subprocess.run(
+        ["git", "-C", str(repository), *arguments],
+        check=True,
+        capture_output=True,
+    ).stdout
 
 
 def _name_sort_key(value: str) -> tuple[str, str]:
@@ -145,14 +189,14 @@ class SourceWatcher:
         try:
             snapshot = self._snapshotter(self._root)
             changed = self._detector.observe(snapshot, self._clock() if now is None else now)
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001 - watcher must survive arbitrary source errors
             self._report_error("source snapshot failed", error)
             return False
         if not changed:
             return False
         try:
             self._on_change()
-        except Exception as error:
+        except Exception as error:  # noqa: BLE001 - callbacks are outside watcher control
             self._report_error("on_change callback failed", error)
             return False
         return True
@@ -168,6 +212,6 @@ class SourceWatcher:
         message = f"{context}: {type(error).__name__}: {error}"
         try:
             self._on_error(message)
-        except Exception:
+        except Exception:  # noqa: BLE001, S110 - diagnostics cannot report their own failure
             # Diagnostics must never take down the watcher either.
             pass

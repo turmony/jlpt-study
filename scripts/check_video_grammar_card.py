@@ -7,7 +7,6 @@ import json
 import re
 import struct
 import sys
-from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -25,6 +24,8 @@ BANNED_HEADINGS = (
     "# 来源与复核记录",
     "# 中文释义分组与场景演示",
 )
+
+LIFECYCLE_FIELDS = ("status", "created_at", "updated_at", "next_review")
 
 
 def parse_card(text: str) -> tuple[dict, str]:
@@ -74,7 +75,7 @@ def png_dimensions(path: Path) -> tuple[int, int]:
     return struct.unpack(">II", header[16:24])
 
 
-def check_card(root: Path, source: Path, state: str) -> list[str]:
+def check_card(root: Path, source: Path) -> list[str]:
     issues: list[str] = []
     full_path = root / source
     text = full_path.read_text(encoding="utf-8")
@@ -86,25 +87,11 @@ def check_card(root: Path, source: Path, state: str) -> list[str]:
     expected_id = full_path.stem
     if metadata.get("id") != expected_id:
         issues.append(f"卡号与文件名不一致：{metadata.get('id')!r} != {expected_id!r}")
-    if state == "draft":
-        if metadata.get("status") != "draft":
-            issues.append("待确认卡的status必须为draft")
-        if "next_review" in metadata:
-            issues.append("待确认卡不得设置next_review")
-        if "未提交待确认版本" not in body:
-            issues.append("待确认卡缺少醒目提示")
-    else:
-        if metadata.get("status") != "confirmed":
-            issues.append("待提交正式卡的status必须为confirmed")
-        if "未提交待确认版本" in body:
-            issues.append("待提交正式卡仍含待确认提示")
-        try:
-            submitted = date.fromisoformat(metadata["updated_at"])
-            next_review = date.fromisoformat(metadata["next_review"])
-            if next_review != submitted + timedelta(days=7):
-                issues.append("next_review必须为updated_at加七天")
-        except (KeyError, TypeError, ValueError):
-            issues.append("待提交正式卡缺少有效的updated_at或next_review")
+    found_lifecycle = [field for field in LIFECYCLE_FIELDS if field in metadata]
+    if found_lifecycle:
+        issues.append("卡片不得保存Git生命周期字段：" + "、".join(found_lifecycle))
+    if "未提交待确认版本" in body:
+        issues.append("待确认状态应由Git工作区表示，正文不得包含待确认提示")
 
     found_banned = [heading for heading in BANNED_HEADINGS if heading in body]
     if found_banned:
@@ -145,7 +132,6 @@ def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(description="检查一张视频语法卡的机械条件")
     result.add_argument("card", type=Path, help="相对于资料库根目录的卡片路径")
     result.add_argument("--root", type=Path, default=Path("jlpt-notes"))
-    result.add_argument("--state", choices=("draft", "final"), required=True)
     return result
 
 
@@ -156,14 +142,14 @@ def main() -> int:
         source = args.card
         if source.is_absolute():
             source = source.resolve(strict=True).relative_to(root)
-        issues = check_card(root, source, args.state)
+        issues = check_card(root, source)
     except (OSError, TypeError, ValueError) as exc:
         parser().exit(1, f"错误：{exc}\n")
     for issue in issues:
         print(issue)
     if issues:
         return 1
-    print(f"视频语法卡机械检查通过：{source.as_posix()}（{args.state}）")
+    print(f"视频语法卡机械检查通过：{source.as_posix()}")
     return 0
 
 

@@ -7,7 +7,7 @@ from jlpt_notes.reader.metadata import parse_markdown, render_metadata_block
 class ReaderMetadataTests(unittest.TestCase):
     def test_formal_card_uses_full_id_and_title(self) -> None:
         text = '''---
-{"id":"N5-G-0001","level":"N5","kind":"grammar","title":"～です","status":"confirmed","tags":["丁寧体"],"next_review":"2026-08-25"}
+{"id":"N5-G-0001","level":"N5","kind":"grammar","title":"～です","tags":["丁寧体"]}
 ---
 
 # 核心用法
@@ -19,6 +19,30 @@ class ReaderMetadataTests(unittest.TestCase):
         self.assertEqual(parsed.metadata.content_type, "grammar")
         self.assertEqual(parsed.metadata.tags, ("丁寧体",))
         self.assertEqual(parsed.body, "# 核心用法\n正文\n")
+
+    def test_legacy_lifecycle_fields_are_not_displayed(self) -> None:
+        text = '''---
+{"id":"N5-G-0001","title":"～です","status":"confirmed",\
+"created_at":"2026-08-18","updated_at":"2026-08-18","next_review":"2026-08-25"}
+---
+
+正文
+'''
+        parsed = parse_markdown(Path("grammar/n5/N5-G-0001.md"), text)
+        fields = dict(parsed.metadata.fields)
+        self.assertNotIn("状态", fields)
+        self.assertNotIn("创建", fields)
+        self.assertNotIn("更新", fields)
+        self.assertNotIn("下次复习", fields)
+
+    def test_uncommitted_card_is_derived_as_draft_without_file_metadata(self) -> None:
+        parsed = parse_markdown(
+            Path("grammar/n5/N5-G-0001.md"),
+            '---\n{"id":"N5-G-0001","kind":"grammar","title":"～です"}\n---\n\n正文\n',
+            committed=False,
+        )
+        self.assertEqual(parsed.metadata.content_type, "draft")
+        self.assertEqual(parsed.metadata.display_title, "N5-G-0001｜草稿｜～です")
 
     def test_draft_reads_nested_proposal(self) -> None:
         text = '''---

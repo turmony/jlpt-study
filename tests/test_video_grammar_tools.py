@@ -48,3 +48,17 @@ def test_function_example_counts_checks_each_function() -> None:
 def test_parse_card_rejects_missing_frontmatter() -> None:
     with pytest.raises(ValueError, match="前置元数据"):
         CHECKER.parse_card("# card")
+
+
+def test_checker_rejects_persisted_lifecycle_fields_and_draft_banner(tmp_path) -> None:
+    root = tmp_path / "notes"
+    card = root / "grammar/n2/N2-G-0001.md"
+    card.parent.mkdir(parents=True)
+    card.write_text(
+        '---\n{"id":"N2-G-0001","status":"draft","created_at":"2026-09-22"}\n---\n\n'
+        '> **未提交待确认版本**\n',
+        encoding="utf-8",
+    )
+    issues = CHECKER.check_card(root.resolve(), Path("grammar/n2/N2-G-0001.md"))
+    assert any("生命周期字段" in issue for issue in issues)
+    assert any("正文不得包含待确认提示" in issue for issue in issues)

@@ -1,10 +1,10 @@
 import hashlib
-from html.parser import HTMLParser
 import os
-from pathlib import Path
 import subprocess
-from tempfile import TemporaryDirectory
 import unittest
+from html.parser import HTMLParser
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from jlpt_notes.reader.metadata import parse_markdown
 from jlpt_notes.reader.sources import SourcePage, build_catalog_page, load_source_pages
@@ -21,31 +21,60 @@ class _CatalogEntryParser(HTMLParser):
 
 
 class ReaderSourceTests(unittest.TestCase):
-    def test_discovers_supported_non_hidden_files_without_following_symlinks(self) -> None:
+    def test_git_commit_changes_card_from_draft_to_formal_without_editing_it(self) -> None:
         with TemporaryDirectory() as directory:
-            with TemporaryDirectory() as outside_directory:
-                root = Path(directory)
-                (root / "grammar").mkdir()
-                (root / "grammar/card.md").write_text("# N5 卡片\n", encoding="utf-8")
-                (root / "events.jsonl").write_text('{"id":"e1","result":"wrong"}\n', encoding="utf-8")
-                (root / "secret.txt").write_text("secret", encoding="utf-8")
-                (root / ".hidden.md").write_text("hidden", encoding="utf-8")
-                (root / ".private").mkdir()
-                (root / ".private/hidden.md").write_text("hidden", encoding="utf-8")
-                external = Path(outside_directory) / "outside-reader-source.md"
-                external.write_text("# 不应读取\n", encoding="utf-8")
-                try:
-                    (root / "linked.md").symlink_to(external)
-                except OSError:
-                    self.skipTest("当前环境不允许创建符号链接")
+            repository = Path(directory)
+            subprocess.run(["git", "init"], cwd=repository, check=True, capture_output=True)
+            root = repository / "jlpt-notes"
+            card = root / "grammar/n5/N5-G-0001.md"
+            card.parent.mkdir(parents=True)
+            card.write_text(
+                '---\n{"id":"N5-G-0001","kind":"grammar","title":"～です"}\n---\n\n正文\n',
+                encoding="utf-8",
+            )
+            before = card.read_bytes()
+            self.assertEqual(load_source_pages(root)[0].metadata.content_type, "draft")
 
-                pages = load_source_pages(root)
+            subprocess.run(["git", "add", "--", card.relative_to(repository)], cwd=repository, check=True)
+            subprocess.run(
+                ["git", "-c", "user.name=Test", "-c", "user.email=test@example.invalid",
+                 "commit", "-m", "submit card"],
+                cwd=repository,
+                check=True,
+                capture_output=True,
+            )
 
-                self.assertEqual(
-                    [page.relative_path.as_posix() for page in pages],
-                    ["events.jsonl", "grammar/card.md"],
-                )
-                self.assertEqual(pages[0].output_path.as_posix(), "events.jsonl.md")
+            page = load_source_pages(root)[0]
+            self.assertEqual(page.metadata.content_type, "grammar")
+            self.assertEqual(card.read_bytes(), before)
+
+    def test_discovers_supported_non_hidden_files_without_following_symlinks(self) -> None:
+        with (
+            TemporaryDirectory() as directory,
+            TemporaryDirectory() as outside_directory,
+        ):
+            root = Path(directory)
+            (root / "grammar").mkdir()
+            (root / "grammar/card.md").write_text("# N5 卡片\n", encoding="utf-8")
+            (root / "events.jsonl").write_text('{"id":"e1","result":"wrong"}\n', encoding="utf-8")
+            (root / "secret.txt").write_text("secret", encoding="utf-8")
+            (root / ".hidden.md").write_text("hidden", encoding="utf-8")
+            (root / ".private").mkdir()
+            (root / ".private/hidden.md").write_text("hidden", encoding="utf-8")
+            external = Path(outside_directory) / "outside-reader-source.md"
+            external.write_text("# 不应读取\n", encoding="utf-8")
+            try:
+                (root / "linked.md").symlink_to(external)
+            except OSError:
+                self.skipTest("当前环境不允许创建符号链接")
+
+            pages = load_source_pages(root)
+
+            self.assertEqual(
+                [page.relative_path.as_posix() for page in pages],
+                ["events.jsonl", "grammar/card.md"],
+            )
+            self.assertEqual(pages[0].output_path.as_posix(), "events.jsonl.md")
 
     @unittest.skipUnless(os.name == "nt", "NTFS junction behavior is Windows-specific")
     def test_discovery_does_not_traverse_an_ntfs_junction_outside_the_root(self) -> None:

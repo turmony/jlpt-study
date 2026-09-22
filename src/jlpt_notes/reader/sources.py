@@ -1,17 +1,17 @@
 """Read-only discovery and catalog generation for LAN reader sources."""
 
+import json
+import os
+import re
+import stat
 from dataclasses import dataclass
 from hashlib import sha256
 from html import escape
-import json
-import os
 from pathlib import Path
-import re
-import stat
 from urllib.parse import quote
 
+from ..git_state import committed_files
 from .metadata import DocumentMetadata, ParsedMarkdown, parse_markdown
-
 
 _SUMMARY_FIELDS = (
     "id",
@@ -50,6 +50,7 @@ class SourcePage:
 def load_source_pages(root: Path) -> tuple[SourcePage, ...]:
     """Return every visible Markdown or JSONL source below *root* read-only."""
     resolved_root = root.resolve(strict=True)
+    submitted = committed_files(resolved_root)
     pages: list[SourcePage] = []
     for path in iter_supported_visible_source_files(resolved_root):
         resolved_path = _resolved_below(path, resolved_root)
@@ -62,7 +63,11 @@ def load_source_pages(root: Path) -> tuple[SourcePage, ...]:
             parsed = _parse_jsonl(relative_path, text)
             output_path = relative_path.with_suffix(relative_path.suffix + ".md")
         else:
-            parsed = parse_markdown(relative_path, text)
+            parsed = parse_markdown(
+                relative_path,
+                text,
+                committed=None if submitted is None else resolved_path in submitted,
+            )
             output_path = relative_path
         pages.append(
             SourcePage(
@@ -80,17 +85,12 @@ def load_source_pages(root: Path) -> tuple[SourcePage, ...]:
 def build_catalog_page(pages: tuple[SourcePage, ...]) -> SourcePage:
     """Create the generated root catalog used for navigation and filtering."""
     entries = "\n".join(_catalog_entry(page) for page in sorted(pages, key=_catalog_sort_key))
-    markdown = "\n".join(
-        (
-            "# JLPT 学习资料库",
-            "",
-            "<p class=\"jlpt-catalog-intro\">仅在本机局域网内以只读方式浏览。</p>",
-            "",
-            '<ul class="jlpt-catalog" data-reader-catalog>',
-            entries,
-            "</ul>",
-            "",
-        )
+    markdown = (
+        "# JLPT 学习资料库\n\n"
+        '<p class="jlpt-catalog-intro">仅在本机局域网内以只读方式浏览。</p>\n\n'
+        '<ul class="jlpt-catalog" data-reader-catalog>\n'
+        f"{entries}\n"
+        "</ul>\n"
     )
     metadata = DocumentMetadata(
         display_title="JLPT 学习资料库",

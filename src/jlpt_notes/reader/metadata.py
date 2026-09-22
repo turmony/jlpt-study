@@ -1,10 +1,10 @@
 """Generic, non-mutating metadata parsing for reader source documents."""
 
+import json
+import re
 from dataclasses import dataclass
 from html import escape
-import json
 from pathlib import Path
-import re
 from typing import Any
 
 
@@ -25,7 +25,9 @@ class ParsedMarkdown:
     warning: str | None = None
 
 
-def parse_markdown(relative_path: Path, text: str) -> ParsedMarkdown:
+def parse_markdown(
+    relative_path: Path, text: str, *, committed: bool | None = None
+) -> ParsedMarkdown:
     """Parse supported JSON frontmatter without changing the source text."""
     raw: dict[str, Any] = {}
     body = text
@@ -37,17 +39,15 @@ def parse_markdown(relative_path: Path, text: str) -> ParsedMarkdown:
         try:
             loaded = json.loads(metadata_text)
             if not isinstance(loaded, dict):
-                raise ValueError("frontmatter must be an object")
+                raise TypeError("frontmatter must be an object")
             raw = loaded
-        except json.JSONDecodeError:
-            warning = "元数据无法解析；正文仍以只读方式显示。"
-        except ValueError:
+        except (json.JSONDecodeError, TypeError):
             warning = "元数据无法解析；正文仍以只读方式显示。"
 
     proposal = raw.get("proposal") if isinstance(raw.get("proposal"), dict) else {}
     source_id = _first_text(raw.get("id"), proposal.get("id"), _id_from_path(relative_path))
     level = _first_text(raw.get("level"), proposal.get("level"), _level_from_path(relative_path))
-    content_type = _content_type(relative_path, raw, proposal)
+    content_type = _content_type(relative_path, raw, proposal, committed)
     domain_title = raw.get("prompt") if content_type == "quiz-question" else None
     title = _catalog_title(
         _first_text(
@@ -120,9 +120,16 @@ def _first_heading(body: str) -> str | None:
     return None
 
 
-def _content_type(relative_path: Path, raw: dict[str, Any], proposal: dict[str, Any]) -> str:
+def _content_type(
+    relative_path: Path,
+    raw: dict[str, Any],
+    proposal: dict[str, Any],
+    committed: bool | None,
+) -> str:
     path = relative_path.as_posix().lower()
     if "/drafts/" in f"/{path}" or path.startswith("drafts/"):
+        return "draft"
+    if committed is False and f"/{path}".startswith(("/grammar/", "/vocabulary/")):
         return "draft"
     if "/quizzes/questions/" in f"/{path}" or path.startswith("quizzes/questions/"):
         return "quiz-question"
@@ -214,15 +221,9 @@ def _display_fields(
         entries.append(("等级", level))
     if content_type != "document":
         entries.append(("类型", content_type))
-    status = value("status")
-    if status:
-        entries.append(("状态", status))
     if tags:
         entries.append(("标签", "、".join(tags)))
     for label, name, alternatives in (
-        ("创建", "created_at", ("created",)),
-        ("更新", "updated_at", ("updated",)),
-        ("下次复习", "next_review", ()),
         ("来源", "source", ("source_url",)),
     ):
         field_value = value(name, *alternatives)
