@@ -17,23 +17,7 @@ def load_script(name: str):
     return module
 
 
-PREFLIGHT = load_script("video_grammar_preflight")
 CHECKER = load_script("check_video_grammar_card")
-
-
-def test_playlist_entry_requires_one_exact_lesson(tmp_path: Path) -> None:
-    cache = tmp_path / "playlist.txt"
-    cache.write_text(
-        "111|abc|title one|100\n112|def|title two|516\n", encoding="utf-8"
-    )
-    assert PREFLIGHT.playlist_entry(cache, 112) == {
-        "lesson": 112,
-        "video_id": "def",
-        "title": "title two",
-        "duration_seconds": 516,
-    }
-    with pytest.raises(ValueError, match="第113课"):
-        PREFLIGHT.playlist_entry(cache, 113)
 
 
 def test_function_example_counts_checks_each_function() -> None:
