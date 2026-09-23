@@ -61,3 +61,21 @@ def test_rejects_other_site_and_search_json(tmp_path):
     )
     assert raw.returncode == 1
     assert "搜索结果" in raw.stderr
+
+
+def test_verify_accepts_git_crlf_checkout_of_text_evidence(tmp_path):
+    notes = tmp_path / "jlpt-notes"
+    evidence = tmp_path / "selected.md"
+    evidence.write_bytes("一行\n二行\n".encode("utf-8"))
+    added = run_cache(
+        "add", "--root", notes, "--url", "https://nihongokyoshi-net.com/example/",
+        "--title", "例文", "--publisher", "日本語NET／ノッチ",
+        "--accessed-at", "2026-09-23", "--grammar", "N3-G-0001",
+        "--locator", "例文区", "--evidence", evidence,
+    )
+    assert added.returncode == 0, added.stdout + added.stderr
+    record = json.loads(added.stdout)
+    cached = notes / record["evidence_path"]
+    cached.write_bytes(cached.read_bytes().replace(b"\n", b"\r\n"))
+    verified = run_cache("verify", "--root", notes)
+    assert verified.returncode == 0, verified.stdout + verified.stderr

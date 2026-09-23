@@ -23,7 +23,7 @@ SECTION_LABELS = {
     "order": "第二部分：句子排序",
     "cloze": "第三部分：篇章完形",
 }
-ALLOWED_HOSTS = {"nihongokyoshi-net.com", "www.nihongokyoshi-net.com"}
+ALLOWED_HOSTS = {"nihongokyoshi-net.com", "www.nihongokyoshi-net.com", "www.edewakaru.com", "edewakaru.com"}
 PHASES = {
     "selection", "search", "scrape", "draft", "preflight",
     "blind_review", "revision", "render", "validation",
@@ -67,14 +67,14 @@ def source_errors(source: dict, notes_root: Path, prefix: str) -> list[str]:
     errors = []
     if not isinstance(source, dict):
         return [f"{prefix}.source 必须是对象"]
-    if source.get("site_name") != "日本語NET":
-        errors.append(f"{prefix}.source.site_name 必须是日本語NET")
+    if source.get("site_name") not in {"日本語NET", "絵でわかる日本語"}:
+        errors.append(f"{prefix}.source.site_name 必须是已核实的日本教学网站")
     for field in ("publisher", "title", "url", "locator", "accessed_at"):
         if not nonempty(source.get(field)):
             errors.append(f"{prefix}.source.{field} 不能为空")
     host = (urlsplit(str(source.get("url", ""))).hostname or "").lower()
     if host not in ALLOWED_HOSTS:
-        errors.append(f"{prefix}.source.url 必须属于 nihongokyoshi-net.com")
+        errors.append(f"{prefix}.source.url 必须属于已允许的日本教学网站")
     try:
         date.fromisoformat(str(source.get("accessed_at", "")))
     except ValueError:
@@ -278,7 +278,7 @@ def render_paper(data: dict) -> str:
     kinds = Counter(q["source"]["kind"] for q in questions)
     lines = [f"# {quiz['title']}", "", f"- 日期：{quiz['date']}",
              f"- 题数：{len(questions)} 题（形式选择 {counts['form']} ＋ 句子排序 {counts['order']} ＋ 篇章完形 {counts['cloze']}）。",
-             f"- 日本語NET题源：{kinds['teaching_exercise']}道网站原题，{kinds['derived_from_example']}道AI根据网站例句改编题；非官方真题。",
+             f"- 日本教学网站题源：{kinds['teaching_exercise']}道网站原题，{kinds['derived_from_example']}道AI根据网站例句改编题；非官方真题。",
              f"- 建议时间：{quiz.get('suggested_minutes', len(questions))}分钟。答案与来源另存，做完后再查阅。", ""]
     for section in SECTIONS:
         items = [q for q in questions if q["section"] == section]
@@ -318,7 +318,7 @@ def render_answers(data: dict) -> str:
             current = q["section"]
             lines += [f"## {SECTION_LABELS[current]}", ""]
         correct = q["correct_option"]
-        kind_label = "日本語NET网站原题" if q["source"]["kind"] == "teaching_exercise" else "AI根据日本語NET例句改编"
+        kind_label = f"{q['source']['site_name']}网站原题" if q["source"]["kind"] == "teaching_exercise" else f"AI根据{q['source']['site_name']}例句改编"
         lines += [f"### 第 {q['number']} 题（{q['id']}）", "",
                   f"**题目**：{q.get('answer_prompt') or q['prompt']}",
                   f"**翻译**：{q['translation']}",

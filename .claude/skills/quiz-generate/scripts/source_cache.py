@@ -149,7 +149,12 @@ def verify_record(notes_root: Path, key: str, record: dict) -> list[str]:
     if not path.is_file():
         errors.append(f"{key}: 证据文件不存在：{rel.as_posix()}")
         return errors
-    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+    raw = path.read_bytes()
+    digest = hashlib.sha256(raw).hexdigest()
+    # Git on Windows may check out text evidence with CRLF. The cached hash
+    # records the original LF bytes, so accept that reversible conversion.
+    if digest != record.get("content_sha256") and path.suffix.lower() in {".md", ".txt"}:
+        digest = hashlib.sha256(raw.replace(b"\r\n", b"\n")).hexdigest()
     if digest != record.get("content_sha256"):
         errors.append(f"{key}: 证据哈希不匹配")
     return errors

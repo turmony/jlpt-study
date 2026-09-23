@@ -1,0 +1,1571 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-23-n3-101-110-test-1",
+    "title": "N3 第101～110课语法单选练习",
+    "date": "2026-09-23",
+    "level": "N3",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N3-Q-0135",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "どこかいい焼肉の（　）のお店を知っていますか。",
+      "translation": "你知道哪家不错的烤肉不限量餐厅吗？",
+      "tested_cards": [
+        "N3-G-0101"
+      ],
+      "conjugation": "按N3-G-0101卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "食べ放題",
+        "2": "飲み放題",
+        "3": "食べ合い",
+        "4": "食べ込む"
+      },
+      "correct_option": "1",
+      "correct_explanation": "第1项符合N3-G-0101的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "正确：与已核实例句、接续及上下文语义一致。",
+        "2": "错误：饮品不限量，修饰焼肉不合语境。",
+        "3": "错误：表示互相吃，不能表示不限量服务。",
+        "4": "错误：表示吃进内部，不表示不限量套餐。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "できる日本語：中級 第2課",
+        "url": "https://nihongokyoshi-net.com/2018/05/30/dekiru-nihongo-int-lesson2/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/ba412e1ab68257d13cf0-50f8ba89de35.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "S：どこかいい焼肉の食べ放題のお店。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "できる日本語：中級 第2課的语法讲解与例句，以及N3-G-0101语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 正确项对应已核实例句与句型。",
+          "2. 饮品不限量，修饰焼肉不合语境。",
+          "3. 表示互相吃，不能表示不限量服务。",
+          "4. 表示吃进内部，不表示不限量套餐。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第1项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "1",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N3-Q-0136",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "店のポスターには「（　）1000円」と書いてある。何杯飲んでも料金は同じだ。",
+      "translation": "海报写着饮品不限量1000日元。",
+      "tested_cards": [
+        "N3-G-0101"
+      ],
+      "conjugation": "按N3-G-0101卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "飲み合い",
+        "2": "飲み放題",
+        "3": "飲み込む",
+        "4": "飲みながら"
+      },
+      "correct_option": "2",
+      "correct_explanation": "第2项符合N3-G-0101的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示彼此喝，不表示不限量。",
+        "2": "正确：与已核实例句、接续及上下文语义一致。",
+        "3": "错误：表示吞下，不表示套餐收费方式。",
+        "4": "错误：表示一边喝，不能表达无限量。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "できる日本語：中級 第2課",
+        "url": "https://nihongokyoshi-net.com/2018/05/30/dekiru-nihongo-int-lesson2/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/ba412e1ab68257d13cf0-50f8ba89de35.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "S2：飲み放題1000円",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "できる日本語：中級 第2課的语法讲解与例句，以及N3-G-0101语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示彼此喝，不表示不限量。",
+          "2. 正确项对应已核实例句与句型。",
+          "3. 表示吞下，不表示套餐收费方式。",
+          "4. 表示一边喝，不能表达无限量。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第2项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "2",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N3-Q-0137",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女は気がついていたが、聞こえない（　）。",
+      "translation": "她察觉到了，却装作没听见。",
+      "tested_cards": [
+        "N3-G-0102"
+      ],
+      "conjugation": "按N3-G-0102卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "つもりだった",
+        "2": "場合じゃなかった",
+        "3": "ふりをしていた",
+        "4": "だけだった"
+      },
+      "correct_option": "3",
+      "correct_explanation": "第3项符合N3-G-0102的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示自认为如此，缺少装给别人看的含义。",
+        "2": "错误：表示不是做某事的时候，语义不合。",
+        "3": "正确：与已核实例句、接续及上下文语义一致。",
+        "4": "错误：表示只是如此，不能表达佯装。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜ふりをする",
+        "url": "https://nihongokyoshi-net.com/2019/11/25/jlptn3-grammar-furiwosuru/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/9d32be2551a035f6186a-19dc20c15bec.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼女は悪口を言われていることに気がついていたが、聞こえないふりをしていた。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜ふりをする的语法讲解与例句，以及N3-G-0102语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示自认为如此，缺少装给别人看的含义。",
+          "2. 表示不是做某事的时候，语义不合。",
+          "3. 正确项对应已核实例句与句型。",
+          "4. 表示只是如此，不能表达佯装。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第3项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "3",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N3-Q-0138",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "息子たちは夜、私が部屋に入ると寝た（　）。",
+      "translation": "孩子们晚上见我进房间就装睡。",
+      "tested_cards": [
+        "N3-G-0102"
+      ],
+      "conjugation": "按N3-G-0102卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "つもりだ",
+        "2": "だけだ",
+        "3": "場合だ",
+        "4": "ふりをする"
+      },
+      "correct_option": "4",
+      "correct_explanation": "第4项符合N3-G-0102的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示打算或自认为，不表示装睡。",
+        "2": "错误：只表示限定，不表示假装。",
+        "3": "错误：表示场合，不能表达佯装。",
+        "4": "正确：与已核实例句、接续及上下文语义一致。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜ふりをする",
+        "url": "https://nihongokyoshi-net.com/2019/11/25/jlptn3-grammar-furiwosuru/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/9d32be2551a035f6186a-19dc20c15bec.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "息子たちは夜、私が部屋に入ると寝たふりをする。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜ふりをする的语法讲解与例句，以及N3-G-0102语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示打算或自认为，不表示装睡。",
+          "2. 只表示限定，不表示假装。",
+          "3. 表示场合，不能表达佯装。",
+          "4. 正确项对应已核实例句与句型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第4项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "4",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N3-Q-0139",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "雨が降りそうなのに、傘を持た（　）出かけてしまった。",
+      "translation": "眼看要下雨，却没带伞就出门了。",
+      "tested_cards": [
+        "N3-G-0103"
+      ],
+      "conjugation": "按N3-G-0103卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "ずに",
+        "2": "ぬに",
+        "3": "ねば",
+        "4": "んに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "第1项符合N3-G-0103的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "正确：与已核实例句、接续及上下文语义一致。",
+        "2": "错误：「ぬに」不是此处的接续形式。",
+        "3": "错误：「ねば」表示如果不或必须，不能表达不带伞就出门。",
+        "4": "错误：「んに」不是此处的接续形式。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜ずに",
+        "url": "https://nihongokyoshi-net.com/2019/02/23/jlptn3-grammar-zuni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/6818e29bd396a28406b3-b27351d10523.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "傘を持たずに、出かけてしまった。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜ずに的语法讲解与例句，以及N3-G-0103语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 正确项对应已核实例句与句型。",
+          "2. 「ぬに」不是此处的接续形式。",
+          "3. 「ねば」表示如果不或必须，不能表达不带伞就出门。",
+          "4. 「んに」不是此处的接续形式。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第1项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "1",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N3-Q-0140",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "宿題を（　）学校に行ったら、先生に怒られました。",
+      "translation": "没做作业就去学校，结果被老师训了。",
+      "tested_cards": [
+        "N3-G-0103"
+      ],
+      "conjugation": "按N3-G-0103卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "しずに",
+        "2": "せずに",
+        "3": "せねば",
+        "4": "せぬに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "第2项符合N3-G-0103的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「する」接「ずに」时变为「せずに」。",
+        "2": "正确：与已核实例句、接续及上下文语义一致。",
+        "3": "错误：「せねば」表示如果不做或必须做，关系不同。",
+        "4": "错误：「せぬに」不是表示伴随否定的形式。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜ずに",
+        "url": "https://nihongokyoshi-net.com/2019/02/23/jlptn3-grammar-zuni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/6818e29bd396a28406b3-b27351d10523.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "宿題をせずに学校に行ったら先生に怒られました。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜ずに的语法讲解与例句，以及N3-G-0103语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「する」接「ずに」时变为「せずに」。",
+          "2. 正确项对应已核实例句与句型。",
+          "3. 「せねば」表示如果不做或必须做，关系不同。",
+          "4. 「せぬに」不是表示伴随否定的形式。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第2项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "2",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N3-Q-0141",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "名前を書いた（　）、実際には書いていなかった。",
+      "translation": "自以为写了名字，实际上没写。",
+      "tested_cards": [
+        "N3-G-0104"
+      ],
+      "conjugation": "按N3-G-0104卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "ふりだったが",
+        "2": "場合だったが",
+        "3": "つもりだったが",
+        "4": "だけだったが"
+      },
+      "correct_option": "3",
+      "correct_explanation": "第3项符合N3-G-0104的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示故意假装写了，原句是认知错误。",
+        "2": "错误：表示场合，不表达主观认知与事实的落差。",
+        "3": "正确：与已核实例句、接续及上下文语义一致。",
+        "4": "错误：仅表示限定，不能表达自以为。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜つもりだ",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn3-grammar-tsumorida/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/5f7346372cebfc86d9eb-4d694916330b.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "名前を書いたつもりだったが、書いていなかったようだ。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜つもりだ的语法讲解与例句，以及N3-G-0104语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示故意假装写了，原句是认知错误。",
+          "2. 表示场合，不表达主观认知与事实的落差。",
+          "3. 正确项对应已核实例句与句型。",
+          "4. 仅表示限定，不能表达自以为。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第3项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "3",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N3-Q-0142",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "返事をした（　）、送れていなかった。",
+      "translation": "以为已经回复，实际上没有发送成功。",
+      "tested_cards": [
+        "N3-G-0104"
+      ],
+      "conjugation": "按N3-G-0104卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "ふりだったが",
+        "2": "場合だったが",
+        "3": "だけだったが",
+        "4": "つもりだったが"
+      },
+      "correct_option": "4",
+      "correct_explanation": "第4项符合N3-G-0104的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示假装回复，与未发出的认知失误不同。",
+        "2": "错误：表示场合，语义不合。",
+        "3": "错误：表示仅仅回复了，与事实落差不合。",
+        "4": "正确：与已核实例句、接续及上下文语义一致。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜つもりだ",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn3-grammar-tsumorida/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/5f7346372cebfc86d9eb-4d694916330b.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "返事をしたつもりだったが、送れていなかった。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜つもりだ的语法讲解与例句，以及N3-G-0104语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示假装回复，与未发出的认知失误不同。",
+          "2. 表示场合，语义不合。",
+          "3. 表示仅仅回复了，与事实落差不合。",
+          "4. 正确项对应已核实例句与句型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第4项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "4",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N3-Q-0143",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "東京大学へ行きたいなら、こんなところで遊んでいる（　）。今すぐ勉強しなさい。",
+      "translation": "想上东京大学，现在就不是玩的时候。",
+      "tested_cards": [
+        "N3-G-0105"
+      ],
+      "conjugation": "按N3-G-0105卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "場合じゃないでしょう",
+        "2": "ふりをするでしょう",
+        "3": "つもりでしょう",
+        "4": "だけでしょう"
+      },
+      "correct_option": "1",
+      "correct_explanation": "第1项符合N3-G-0105的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "正确：与已核实例句、接续及上下文语义一致。",
+        "2": "错误：表示假装在玩，后句的紧迫劝告不合。",
+        "3": "错误：表示打算或自认为，不能表达不该继续玩。",
+        "4": "错误：限定助词不能表达当前不适合做某事。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜ている場合じゃない",
+        "url": "https://nihongokyoshi-net.com/2019/08/04/jlptn3-grammar-teirubaaijanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/e3326244116f34bceddb-994be8cb9de8.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "東京大学へ行きたいなら、こんなところで遊んでいる場合じゃないでしょう。今すぐ家に帰って勉強しなさい。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜ている場合じゃない的语法讲解与例句，以及N3-G-0105语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 正确项对应已核实例句与句型。",
+          "2. 表示假装在玩，后句的紧迫劝告不合。",
+          "3. 表示打算或自认为，不能表达不该继续玩。",
+          "4. 限定助词不能表达当前不适合做某事。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第1项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "1",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N3-Q-0144",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "チケットがすぐ売り切れる。行くかどうか迷っている（　）。",
+      "translation": "票很快就卖光，现在不是犹豫的时候。",
+      "tested_cards": [
+        "N3-G-0105"
+      ],
+      "conjugation": "按N3-G-0105卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "ふりをするよ",
+        "2": "場合じゃないよ",
+        "3": "つもりだよ",
+        "4": "だけだよ"
+      },
+      "correct_option": "2",
+      "correct_explanation": "第2项符合N3-G-0105的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示装作犹豫，与催促决定不合。",
+        "2": "正确：与已核实例句、接续及上下文语义一致。",
+        "3": "错误：表示自认为犹豫，不能表达该停止犹豫。",
+        "4": "错误：只表示限定，不能表达紧迫劝告。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜ている場合じゃない",
+        "url": "https://nihongokyoshi-net.com/2019/08/04/jlptn3-grammar-teirubaaijanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/e3326244116f34bceddb-994be8cb9de8.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "行くかどうか迷っている場合じゃないよ。そんなことしてたら、すぐにチケットは売り切れちゃうよ。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜ている場合じゃない的语法讲解与例句，以及N3-G-0105语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示装作犹豫，与催促决定不合。",
+          "2. 正确项对应已核实例句与句型。",
+          "3. 表示自认为犹豫，不能表达该停止犹豫。",
+          "4. 只表示限定，不能表达紧迫劝告。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第2项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "2",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N3-Q-0145",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "旅行に行くことを考える（　）楽しくなってくる。",
+      "translation": "光是想一想旅行就开心起来。",
+      "tested_cards": [
+        "N3-G-0106"
+      ],
+      "conjugation": "按N3-G-0106卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "場合に",
+        "2": "ふりで",
+        "3": "だけで",
+        "4": "つもりで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "第3项符合N3-G-0106的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示在某种场合，未突出只需想象就产生感受。",
+        "2": "错误：表示假装，不能表达仅凭思考触发情绪。",
+        "3": "正确：与已核实例句、接续及上下文语义一致。",
+        "4": "错误：表示当作或打算，与句意不同。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "〜だけで｜日本語能力試験 JLPTにない文型",
+        "url": "https://www.edewakaru.com/archives/20202486.html",
+        "locator": "意味・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-23-n3-101-110-test-1/n3-106-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "旅行に行くことを考えるだけで楽しくなってくる。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜だけで｜日本語能力試験 JLPTにない文型的语法讲解与例句，以及N3-G-0106语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示在某种场合，未突出只需想象就产生感受。",
+          "2. 表示假装，不能表达仅凭思考触发情绪。",
+          "3. 正确项对应已核实例句与句型。",
+          "4. 表示当作或打算，与句意不同。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第3项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "3",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N3-Q-0146",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "レモンを見た（　）つばが出る。",
+      "translation": "光是看到柠檬就会分泌唾液。",
+      "tested_cards": [
+        "N3-G-0106"
+      ],
+      "conjugation": "按N3-G-0106卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "場合で",
+        "2": "ふりで",
+        "3": "つもりで",
+        "4": "だけで"
+      },
+      "correct_option": "4",
+      "correct_explanation": "第4项符合N3-G-0106的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「場合で」不能表示单凭看一眼。",
+        "2": "错误：表示装作看了，不合实际生理反应。",
+        "3": "错误：表示当作看了，不合实际视觉刺激。",
+        "4": "正确：与已核实例句、接续及上下文语义一致。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "〜だけで｜日本語能力試験 JLPTにない文型",
+        "url": "https://www.edewakaru.com/archives/20202486.html",
+        "locator": "意味・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-23-n3-101-110-test-1/n3-106-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "レモンを見ただけでつばが出る。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜だけで｜日本語能力試験 JLPTにない文型的语法讲解与例句，以及N3-G-0106语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「場合で」不能表示单凭看一眼。",
+          "2. 表示装作看了，不合实际生理反应。",
+          "3. 表示当作看了，不合实际视觉刺激。",
+          "4. 正确项对应已核实例句与句型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第4项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "4",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N3-Q-0147",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "昨日、寝ている（　）地震がありました。",
+      "translation": "昨天睡觉期间发生了地震。",
+      "tested_cards": [
+        "N3-G-0107"
+      ],
+      "conjugation": "按N3-G-0107卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "間に",
+        "2": "間じゅう",
+        "3": "だけで",
+        "4": "場合に"
+      },
+      "correct_option": "1",
+      "correct_explanation": "第1项符合N3-G-0107的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "正确：与已核实例句、接续及上下文语义一致。",
+        "2": "错误：「間じゅう」强调整个期间持续发生，句中只报告发生了一次地震。",
+        "3": "错误：表示仅凭睡觉产生地震，语义不合。",
+        "4": "错误：表示在某种场合，不准确表达持续期间。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜間に",
+        "url": "https://nihongokyoshi-net.com/2019/04/18/jlptn4-grammar-aidani/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/27751e62ce6c497c76e1-614828903ce7.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "昨日、寝ている間に地震がありました。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。",
+          "第1轮修订：「間」可能作时间背景，存在第二答案",
+          "第2版：第2项改为「間じゅう」，排除第一版的可接受第二答案。"
+        ],
+        "answer_basis": "〜間に的语法讲解与例句，以及N3-G-0107语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 正确项对应已核实例句与句型。",
+          "2. 「間じゅう」强调整个期间持续发生，句中只报告发生了一次地震。",
+          "3. 表示仅凭睡觉产生地震，语义不合。",
+          "4. 表示在某种场合，不准确表达持续期间。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项复查选项与空格前后接续；修订项可接入但不符合全句表达。",
+        "semantic_exclusion": "第2项在修订后与已发生的单次事件或经历后领悟语义不符。",
+        "unique_answer_rationale": "仅第1项同时符合原例句的接续与上下文限定语义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "1",
+          "notes": "第2版仅重审本题：重新盲答与标准答案一致，未发现通常语境下的第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "第2版证据复核：原例句可逐字核实，修订记录与选项一致。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N3-Q-0148",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "娘が出かけている（　）晩御飯を作り終えました。",
+      "translation": "女儿外出期间，我做好了晚饭。",
+      "tested_cards": [
+        "N3-G-0107"
+      ],
+      "conjugation": "按N3-G-0107卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "間じゅう",
+        "2": "間に",
+        "3": "だけで",
+        "4": "場合に"
+      },
+      "correct_option": "2",
+      "correct_explanation": "第2项符合N3-G-0107的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「間じゅう」强调全程持续，作り終える是一次完成事件。",
+        "2": "正确：与已核实例句、接续及上下文语义一致。",
+        "3": "错误：表示仅凭外出就做完饭，语义不合。",
+        "4": "错误：表示在某种场合，不如「間に」表达期间内完成。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜間に",
+        "url": "https://nihongokyoshi-net.com/2019/04/18/jlptn4-grammar-aidani/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/27751e62ce6c497c76e1-614828903ce7.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "娘が出かけている間に晩御飯を作りました。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。",
+          "第1轮修订：「間」可能作期间背景，存在第二答案",
+          "第2版：第1项改为「間じゅう」，排除第一版的可接受第二答案。"
+        ],
+        "answer_basis": "〜間に的语法讲解与例句，以及N3-G-0107语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「間じゅう」强调全程持续，作り終える是一次完成事件。",
+          "2. 正确项对应已核实例句与句型。",
+          "3. 表示仅凭外出就做完饭，语义不合。",
+          "4. 表示在某种场合，不如「間に」表达期间内完成。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项复查选项与空格前后接续；修订项可接入但不符合全句表达。",
+        "semantic_exclusion": "第1项在修订后与已发生的单次事件或经历后领悟语义不符。",
+        "unique_answer_rationale": "仅第2项同时符合原例句的接续与上下文限定语义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "2",
+          "notes": "第2版仅重审本题：重新盲答与标准答案一致，未发现通常语境下的第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "第2版证据复核：原例句可逐字核实，修订记录与选项一致。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N3-Q-0149",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "一人暮らしをし（　）、親のありがたさがわかりました。",
+      "translation": "独自生活后才懂得父母的可贵。",
+      "tested_cards": [
+        "N3-G-0108"
+      ],
+      "conjugation": "按N3-G-0108卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "ている場合は",
+        "2": "たふりで",
+        "3": "てはじめて",
+        "4": "たつもりで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "第3项符合N3-G-0108的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「場合は」引出一般条件，与已发生的过去领悟及本句句末不搭配。",
+        "2": "错误：表示假装独居，来源强调实际经历。",
+        "3": "正确：与已核实例句、接续及上下文语义一致。",
+        "4": "错误：表示自以为独居，不能表达实际经历后的领悟。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜てはじめて",
+        "url": "https://nihongokyoshi-net.com/2018/07/26/jlptn3-grammar-tehajimete/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/fb3308fba6854f931728-e2a440122497.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "一人暮らしをしてはじめて、親のありがたさがわかりました。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。",
+          "第1轮修订：「ている間に」是自然的第二答案",
+          "第2版：第1项改为「ている場合は」，排除第一版的可接受第二答案。"
+        ],
+        "answer_basis": "〜てはじめて的语法讲解与例句，以及N3-G-0108语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「場合は」引出一般条件，与已发生的过去领悟及本句句末不搭配。",
+          "2. 表示假装独居，来源强调实际经历。",
+          "3. 正确项对应已核实例句与句型。",
+          "4. 表示自以为独居，不能表达实际经历后的领悟。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项复查选项与空格前后接续；修订项可接入但不符合全句表达。",
+        "semantic_exclusion": "第1项在修订后与已发生的单次事件或经历后领悟语义不符。",
+        "unique_answer_rationale": "仅第3项同时符合原例句的接续与上下文限定语义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "3",
+          "notes": "第2版仅重审本题：重新盲答与标准答案一致，未发现通常语境下的第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "第2版证据复核：原例句可逐字核实，修订记录与选项一致。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N3-Q-0150",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "先輩に指摘され（　）、間違いに気がついた。",
+      "translation": "被前辈指出后才发现错误。",
+      "tested_cards": [
+        "N3-G-0108"
+      ],
+      "conjugation": "按N3-G-0108卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "ている場合は",
+        "2": "たふりで",
+        "3": "たつもりで",
+        "4": "てはじめて"
+      },
+      "correct_option": "4",
+      "correct_explanation": "第4项符合N3-G-0108的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「場合は」引出一般条件，不能接本句实际发生的过去发现。",
+        "2": "错误：表示假装被指出，与真实发现不合。",
+        "3": "错误：表示自以为被指出，与真实契机不合。",
+        "4": "正确：与已核实例句、接续及上下文语义一致。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜てはじめて",
+        "url": "https://nihongokyoshi-net.com/2018/07/26/jlptn3-grammar-tehajimete/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/fb3308fba6854f931728-e2a440122497.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "先輩に指摘されてはじめて、間違いに気がついた。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。",
+          "第1轮修订：「ている間に」是自然的第二答案",
+          "第2版：第1项改为「ている場合は」，排除第一版的可接受第二答案。"
+        ],
+        "answer_basis": "〜てはじめて的语法讲解与例句，以及N3-G-0108语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「場合は」引出一般条件，不能接本句实际发生的过去发现。",
+          "2. 表示假装被指出，与真实发现不合。",
+          "3. 表示自以为被指出，与真实契机不合。",
+          "4. 正确项对应已核实例句与句型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项复查选项与空格前后接续；修订项可接入但不符合全句表达。",
+        "semantic_exclusion": "第1项在修订后与已发生的单次事件或经历后领悟语义不符。",
+        "unique_answer_rationale": "仅第4项同时符合原例句的接续与上下文限定语义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "4",
+          "notes": "第2版仅重审本题：重新盲答与标准答案一致，未发现通常语境下的第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "第2版证据复核：原例句可逐字核实，修订记录与选项一致。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N3-Q-0151",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "トムさんはさっきからずっと（　）。何か悩みがあるのかな。",
+      "translation": "汤姆从刚才起一直在沉思。",
+      "tested_cards": [
+        "N3-G-0109"
+      ],
+      "conjugation": "按N3-G-0109卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "考え込んでいる",
+        "2": "考え合っている",
+        "3": "考え放題だ",
+        "4": "考えたふりだ"
+      },
+      "correct_option": "1",
+      "correct_explanation": "第1项符合N3-G-0109的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "正确：与已核实例句、接续及上下文语义一致。",
+        "2": "错误：表示互相思考，主语只有汤姆。",
+        "3": "错误：表示想个不停或随意想，不突出深陷沉思。",
+        "4": "错误：表示装作思考，语境没有假装依据。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜込む",
+        "url": "https://nihongokyoshi-net.com/2019/11/12/jlptn3-grammar-komu/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/d2167cd5181ce1adf2a8-a6ba0b5e05d6.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "トムさん、さっきからずっと考え込んでるよ。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜込む的语法讲解与例句，以及N3-G-0109语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 正确项对应已核实例句与句型。",
+          "2. 表示互相思考，主语只有汤姆。",
+          "3. 表示想个不停或随意想，不突出深陷沉思。",
+          "4. 表示装作思考，语境没有假装依据。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第1项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "1",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N3-Q-0152",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この機械を使う前に、ここにカードを（　）ください。",
+      "translation": "使用机器前，请将卡插入这里。",
+      "tested_cards": [
+        "N3-G-0109"
+      ],
+      "conjugation": "按N3-G-0109卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "差し合って",
+        "2": "差し込んで",
+        "3": "差し放題で",
+        "4": "差したふりをして"
+      },
+      "correct_option": "2",
+      "correct_explanation": "第2项符合N3-G-0109的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：表示互相插入，没有双方相互动作。",
+        "2": "正确：与已核实例句、接续及上下文语义一致。",
+        "3": "错误：表示不受限制地插，不能表达插入机器。",
+        "4": "错误：表示假装插入，机器仍不能使用。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜込む",
+        "url": "https://nihongokyoshi-net.com/2019/11/12/jlptn3-grammar-komu/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/d2167cd5181ce1adf2a8-a6ba0b5e05d6.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "ここに、カードを差し込んでください。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜込む的语法讲解与例句，以及N3-G-0109语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 表示互相插入，没有双方相互动作。",
+          "2. 正确项对应已核实例句与句型。",
+          "3. 表示不受限制地插，不能表达插入机器。",
+          "4. 表示假装插入，机器仍不能使用。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第2项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "2",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N3-Q-0153",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "困った時は、お互いに（　）。",
+      "translation": "遇到困难时互相帮助吧。",
+      "tested_cards": [
+        "N3-G-0110"
+      ],
+      "conjugation": "按N3-G-0110卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "助け込みましょう",
+        "2": "助け放題にしましょう",
+        "3": "助け合いましょう",
+        "4": "助けたふりをしましょう"
+      },
+      "correct_option": "3",
+      "correct_explanation": "第3项符合N3-G-0110的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「助け込む」不表示互助。",
+        "2": "错误：表示无限制帮助，不突出相互动作。",
+        "3": "正确：与已核实例句、接续及上下文语义一致。",
+        "4": "错误：表示假装帮助，与互助相反。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜合う",
+        "url": "https://nihongokyoshi-net.com/2019/11/11/jlptn3-grammar-au/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/01451aaf1c5f73c27145-bee96917218b.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "困った時は助け合いましょう。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜合う的语法讲解与例句，以及N3-G-0110语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「助け込む」不表示互助。",
+          "2. 表示无限制帮助，不突出相互动作。",
+          "3. 正确项对应已核实例句与句型。",
+          "4. 表示假装帮助，与互助相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第3项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "3",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N3-Q-0154",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "テストの結果が返ってきて、友達と点数を（　）。",
+      "translation": "考试成绩发下来后，我和朋友互相看了分数。",
+      "tested_cards": [
+        "N3-G-0110"
+      ],
+      "conjugation": "按N3-G-0110卡片接续；本题据上下文选择该语法的自然形式。",
+      "options": {
+        "1": "見せ込んだ",
+        "2": "見せ放題だった",
+        "3": "見せたふりをした",
+        "4": "見せ合った"
+      },
+      "correct_option": "4",
+      "correct_explanation": "第4项符合N3-G-0110的接续和本题限定语境。",
+      "option_explanations": {
+        "1": "错误：「見せ込む」不表示彼此展示。",
+        "2": "错误：表示不限量展示，不能表达双方互相看。",
+        "3": "错误：表示假装展示，与实际互看不合。",
+        "4": "正确：与已核实例句、接续及上下文语义一致。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "〜合う",
+        "url": "https://nihongokyoshi-net.com/2019/11/11/jlptn3-grammar-au/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-23",
+        "evidence_paths": [
+          "quizzes/sources/cache/01451aaf1c5f73c27145-bee96917218b.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "テストの結果が返ってきて、点数を見せ合った。",
+        "transformations": [
+          "保留原例句语义，挖空目标形式。",
+          "为锁定唯一答案，补充或缩短上下文；四项选项由目标语法及易混形式组成。"
+        ],
+        "answer_basis": "〜合う的语法讲解与例句，以及N3-G-0110语法卡的语义边界和接续。",
+        "distractor_basis": [
+          "1. 「見せ込む」不表示彼此展示。",
+          "2. 表示不限量展示，不能表达双方互相看。",
+          "3. 表示假装展示，与实际互看不合。",
+          "4. 正确项对应已核实例句与句型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项检查与空格前后的表面接续。",
+        "semantic_exclusion": "上下文与中文提示限定来源例句的具体含义，其余选项不满足该含义。",
+        "unique_answer_rationale": "仅第4项同时符合来源例句的语义、接续和语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "answer": "4",
+          "notes": "首轮全卷盲答与标准答案一致，未发现有力第二答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-23T23:44:44+08:00",
+          "notes": "原例句可在最小证据摘录中逐字核实，改动和答案依据一致。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "render",
+        "started_at": "2026-09-23T23:38:06+08:00",
+        "ended_at": "2026-09-23T23:38:06+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-23T23:42:39+08:00",
+        "ended_at": "2026-09-23T23:42:39+08:00",
+        "duration_seconds": 0.032,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-23T23:43:00+08:00",
+        "ended_at": "2026-09-23T23:44:18+08:00",
+        "duration_seconds": 78.899,
+        "metrics": {
+          "questions": 20,
+          "revised_questions": 4
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-23T23:45:01+08:00",
+        "ended_at": "2026-09-23T23:45:01+08:00",
+        "duration_seconds": 0.032,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N3-Q-0147",
+        "revision": 2,
+        "reason": "「間」可能作时间背景，存在第二答案",
+        "at": "2026-09-23T23:41:51+08:00"
+      },
+      {
+        "question_id": "N3-Q-0148",
+        "revision": 2,
+        "reason": "「間」可能作期间背景，存在第二答案",
+        "at": "2026-09-23T23:41:52+08:00"
+      },
+      {
+        "question_id": "N3-Q-0149",
+        "revision": 2,
+        "reason": "「ている間に」是自然的第二答案",
+        "at": "2026-09-23T23:41:53+08:00"
+      },
+      {
+        "question_id": "N3-Q-0150",
+        "revision": 2,
+        "reason": "「ている間に」是自然的第二答案",
+        "at": "2026-09-23T23:41:55+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}

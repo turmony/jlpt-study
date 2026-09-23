@@ -144,3 +144,22 @@ def test_phase_records_duration_and_metrics(tmp_path):
     record = json.loads(ended.stdout)
     assert record["metrics"] == {"calls": 1, "cache_hits": 3}
     assert record["duration_seconds"] >= 0
+
+
+def test_approved_japanese_teaching_source_can_be_validated(tmp_path):
+    root = tmp_path / "repo"
+    evidence = root / "jlpt-notes/quizzes/sources/selected.md"
+    evidence.parent.mkdir(parents=True)
+    evidence.write_text("〜だけで：考えるだけで楽しくなる。\n", encoding="utf-8")
+    data = make_draft()
+    source = data["questions"][0]["source"]
+    source.update({
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "url": "https://www.edewakaru.com/archives/20202486.html",
+        "evidence_paths": ["quizzes/sources/selected.md"],
+    })
+    draft = tmp_path / "draft.json"
+    draft.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    result = run_script(PIPELINE, "validate", "--root", root, "--draft", draft, "--stage", "final")
+    assert result.returncode == 0, result.stdout + result.stderr

@@ -156,6 +156,123 @@
       "locator": "文型・例文区：通勤／帰る支度の途中",
       "evidence_path": "quizzes/sources/cache/a9c9a233e4ab34a9e0d2-134c5de23d56.md",
       "content_sha256": "134c5de23d564d573e373e8e4a38f91c127a7182d2ad46f3c18f734bd5e47a7f"
+    },
+    "ba412e1ab68257d13cf0": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/05/30/dekiru-nihongo-int-lesson2/",
+      "title": "できる日本語：中級 第2課",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0101"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/ba412e1ab68257d13cf0-50f8ba89de35.md",
+      "content_sha256": "50f8ba89de35aba328a80ca887ce755864c931a77b374cd3daa92b13e4d77632"
+    },
+    "9d32be2551a035f6186a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/11/25/jlptn3-grammar-furiwosuru/",
+      "title": "〜ふりをする",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0102"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/9d32be2551a035f6186a-19dc20c15bec.md",
+      "content_sha256": "19dc20c15bec251a4169a76c8643d8c0bf0c27008ac87545647195a538cdd5ef"
+    },
+    "6818e29bd396a28406b3": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/23/jlptn3-grammar-zuni/",
+      "title": "〜ずに",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0103"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/6818e29bd396a28406b3-b27351d10523.md",
+      "content_sha256": "b27351d10523d564ed91c6bcc66ddc27d5a47b60c4eab45f18c3676647b49d4b"
+    },
+    "5f7346372cebfc86d9eb": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn3-grammar-tsumorida/",
+      "title": "〜つもりだ",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0104"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/5f7346372cebfc86d9eb-4d694916330b.md",
+      "content_sha256": "4d694916330b8e706c9e01c728eb29b24aa65e41e2dda57d693fac444a697e4b"
+    },
+    "e3326244116f34bceddb": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/08/04/jlptn3-grammar-teirubaaijanai/",
+      "title": "〜ている場合じゃない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0105"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/e3326244116f34bceddb-994be8cb9de8.md",
+      "content_sha256": "994be8cb9de8da21c9416314a9533ce837b6c6fc668d14f3d13b91c52721d244"
+    },
+    "27751e62ce6c497c76e1": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/18/jlptn4-grammar-aidani/",
+      "title": "〜間に",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0107"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/27751e62ce6c497c76e1-614828903ce7.md",
+      "content_sha256": "614828903ce72a6c2555c49386570ac642fa20db12b17fb031a5e52f7db7f265"
+    },
+    "fb3308fba6854f931728": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/26/jlptn3-grammar-tehajimete/",
+      "title": "〜てはじめて",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0108"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/fb3308fba6854f931728-e2a440122497.md",
+      "content_sha256": "e2a440122497add64ea3296ae850c5be0d4b516a0907a439b8b8ae7b7f17c0cc"
+    },
+    "d2167cd5181ce1adf2a8": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/11/12/jlptn3-grammar-komu/",
+      "title": "〜込む",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0109"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/d2167cd5181ce1adf2a8-a6ba0b5e05d6.md",
+      "content_sha256": "a6ba0b5e05d6bec66c71fb35c79911e13d6d91b9005579a86647a64c3b01e127"
+    },
+    "01451aaf1c5f73c27145": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/11/11/jlptn3-grammar-au/",
+      "title": "〜合う",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-23",
+      "grammar_ids": [
+        "N3-G-0110"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/01451aaf1c5f73c27145-bee96917218b.md",
+      "content_sha256": "bee96917218b9b87aaf36d4d90ec14751fe64bcbe046cdfd11bebdd2fbbf5857"
     }
   }
 }
