@@ -6,12 +6,9 @@
 
 学习者手动缓存出口日語课程的视频和日语字幕；缓存是临时材料，不提交 Git。
 
-| 等级 | 缓存命令 | 清单 |
-|---|---|---|
-| N1 | `uv run scripts/cache_n1_videos.py` | `.firecrawl/n1/course-manifest.json` |
-| N2 | `uv run scripts/cache_n2_videos.py` | `.firecrawl/n2/course-manifest.json` |
+N5–N1 共用一条缓存命令：`uv run scripts/cache_course_videos.py <等级>`（例如 `N3`）。每个等级的清单位于 `.firecrawl/<等级小写>/course-manifest.json`；N3 另提供兼容入口 `uv run scripts/cache_n3_videos.py`。播放列表和课数集中配置在 `scripts/cache_course_videos.py`。
 
-两个脚本均可加 `--lessons 1-20,35` 指定课程，或加 `--verify-only` 只检查已有缓存。生成新语法卡遵守 [视频语法待确认卡流程](docs/video-grammar-workflow.md)。
+缓存命令可加 `--lessons 1-20,35` 指定课程，或加 `--verify-only` 只检查已有缓存。生成新语法卡遵守 [视频语法待确认卡流程](docs/video-grammar-workflow.md)。
 
 如需创建资料库，使用 `uv run python -m jlpt_notes init --root jlpt-notes`。
 

@@ -813,15 +813,15 @@ def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(
         description=(
             f"手动下载出口日語 {COURSE_LEVEL} 播放列表的视频流和日语字幕；"
-            "默认缓存第 1—120 课并显示总进度与当前视频进度。"
+            f"默认缓存第 1—{EXPECTED_LESSONS} 课并显示总进度与当前视频进度。"
         )
     )
     result.add_argument(
         "--lessons",
-        type=parse_lesson_spec,
-        default=parse_lesson_spec("1-120"),
+        type=lambda value: parse_lesson_spec(value, EXPECTED_LESSONS),
+        default=parse_lesson_spec(f"1-{EXPECTED_LESSONS}", EXPECTED_LESSONS),
         metavar="RANGE",
-        help="课程范围，例如 1-20,35,80-90；默认 1-120",
+        help=f"课程范围，例如 1-20,35,80-90；默认 1-{EXPECTED_LESSONS}",
     )
     result.add_argument(
         "--cache-root",

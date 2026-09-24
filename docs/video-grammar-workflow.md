@@ -4,34 +4,31 @@
 
 ## 课程与执行范围
 
-- 课程：出口日語，日语授课，N5或N4或N3或N2或N1语法。等级由学习者指定；未指定时先询问，不默认任何等级。
-- N1：[第1课](https://www.youtube.com/watch?v=riUjVcsPbqo&list=PLynCeSdpMqxCBtZzRikWkdbRGS9csjDYT&index=1)、[播放列表](https://www.youtube.com/playlist?list=PLynCeSdpMqxCBtZzRikWkdbRGS9csjDYT)。
-- N2：[第1课](https://www.youtube.com/watch?v=0TbPGbvdOnk&list=PLynCeSdpMqxD6LeS82vp39kQP8mw_JxlY&index=1)、[播放列表](https://www.youtube.com/playlist?list=PLynCeSdpMqxD6LeS82vp39kQP8mw_JxlY)。
-- 整体待整理范围为第1—120个语法。每次实际执行范围由学习者手动指定，不因保存此网址或整体范围就开始生成，不自行扩大范围。
+- 课程：出口日語，日语授课，N5–N1语法。等级由学习者指定；未指定时先询问，不默认任何等级。
+- 各等级播放列表、首课视频 ID 与课数统一登记在 `scripts/cache_course_videos.py` 的 `COURSES` 中。清单中的 `playlist_id` 必须与下表相应播放列表一致；视频网址按该清单中的视频 ID 生成，不根据课号猜测。
+
+  | 等级 | 播放列表 | 课数 |
+  |---|---|---:|
+  | N1 | [出口日語 N1 文法](https://www.youtube.com/playlist?list=PLynCeSdpMqxCBtZzRikWkdbRGS9csjDYT) | 120 |
+  | N2 | [出口日語 N2 文法](https://www.youtube.com/playlist?list=PLynCeSdpMqxD6LeS82vp39kQP8mw_JxlY) | 120 |
+  | N3 | [出口日語 N3 文法](https://www.youtube.com/playlist?list=PLynCeSdpMqxDS6EC0L7vXYUAVCstRHcQR) | 120 |
+  | N4 | [出口日語 N4 文法](https://www.youtube.com/playlist?list=PLynCeSdpMqxD8N-l7AC_aFocINA2CKQKi) | 120 |
+  | N5 | [出口日語 N5 文法](https://www.youtube.com/playlist?list=PLynCeSdpMqxD4OJHjNB3QkmfzfD7B_s67) | 119 |
+
+- 每次实际执行范围由学习者手动指定，不因保存播放列表或整体范围就开始生成，不自行扩大范围。
 
 ## 开始前
 
-1. 本流程只生成学习者指定且尚不存在的新卡。开始时只读取本规范一次；不读取仓库或资料库 `README.md`，不读取相邻卡、其他正式卡或目标卡的前置元数据，也不扫描目标卡和配套图片的 Git 状态。
-2. 学习者提供等级与课程序号后，直接使用下方固定目标路径。`L` 为指定等级（N1 或 N2），`l` 为其小写形式（n1 或 n2），`NNNN` 为补足四位的课程序号；执行时替换这些占位符，不通过目录扫描或相邻卡推导路径：
+1. 本流程只生成学习者指定且目标路径当前不存在的卡片。开始时只读取本规范一次；不读取仓库或资料库 `README.md`，不读取相邻卡、其他正式卡或目标卡的前置元数据，也不扫描目标卡和配套图片的 Git 状态。
+2. 学习者提供等级与课程序号后，统一按下列规则生成目标路径。`L` 为指定等级（N1–N5），`l` 为其小写形式，`NNNN` 为补足四位的课程序号；执行时替换这些占位符，不通过目录扫描或相邻卡推导路径：
    - 卡片：`jlpt-notes/grammar/l/L-G-NNNN.md`
    - 接续图：`jlpt-notes/assets/grammar/l/L-G-NNNN-connection.png`
    - 例句图：`jlpt-notes/assets/grammar/l/L-G-NNNN-example.png`
    - 正文图片引用：`../../assets/grammar/l/L-G-NNNN-connection.png` 与 `../../assets/grammar/l/L-G-NNNN-example.png`
    - `source.screenshot`：`assets/grammar/l/L-G-NNNN-connection.png`
 3. 播放列表与本地视频缓存读取 `.firecrawl/l/course-manifest.json`，并核对清单中的 `playlist_id` 与上述对应等级的播放列表一致。只提取指定课程序号的一条记录，核对日语标题、视频 ID、时长、`status`、缓存日期及记录的实际文件路径；不得按目录中文件名猜测课程对应关系。记录唯一、状态为 `complete` 且文字可读时直接采用；记录缺失、重复、不一致或含乱码时列明问题并停止该课。
-4. 根据清单记录校验本地视频和日语 WebVTT 字幕；两者齐全且可以读取时直接复用。缓存缺失或损坏时，不在语法卡生成任务中下载，提示学习者手动运行对应等级的 `uv run scripts/cache_<l>_videos.py --lessons <课程序号>`，并停止该课。
-5. 对应等级的缓存脚本只能由学习者手动执行，不由本流程、卡片生成脚本或代理自动调用。Python、缓存校验与视频抽帧依赖统一通过 `uv run` 和仓库脚本解析；不要递归搜索系统 Python、FFmpeg 或其他可执行文件。
-
-第1课的固定路径示例为：
-
-```text
-N1 卡片：jlpt-notes/grammar/n1/N1-G-0001.md
-N1 接续图：jlpt-notes/assets/grammar/n1/N1-G-0001-connection.png
-N1 例句图：jlpt-notes/assets/grammar/n1/N1-G-0001-example.png
-N2 卡片：jlpt-notes/grammar/n2/N2-G-0001.md
-N2 接续图：jlpt-notes/assets/grammar/n2/N2-G-0001-connection.png
-N2 例句图：jlpt-notes/assets/grammar/n2/N2-G-0001-example.png
-```
+4. 根据清单记录校验本地视频和日语 WebVTT 字幕；两者齐全且可以读取时直接复用。缓存缺失或损坏时，不在语法卡生成任务中下载，提示学习者手动运行 `uv run scripts/cache_course_videos.py L --lessons <课程序号>`（把 `L` 替换为实际等级），并停止该课。
+5. 缓存脚本只能由学习者手动执行，不由本流程、卡片生成脚本或代理自动调用。Python、缓存校验与视频抽帧依赖统一通过 `uv run` 和仓库脚本解析；不要递归搜索系统 Python、FFmpeg 或其他可执行文件。
 
 ### 轻量课程定位流程
 
@@ -40,7 +37,7 @@ N2 例句图：jlpt-notes/assets/grammar/n2/N2-G-0001-example.png
                          ↓
              【只读取本规范一次】
                          ↓
-          【直接使用规范中的固定路径】
+          【按统一规则得到目标路径】
                          ↓
           【读取本地课程清单中的指定记录】
                          ↓
@@ -115,17 +112,17 @@ N2 例句图：jlpt-notes/assets/grammar/n2/N2-G-0001-example.png
 
 ## 获取课程材料
 
-学习者在生成语法卡之前手动运行对应等级的批量缓存脚本（N1：`scripts/cache_n1_videos.py`；N2：`scripts/cache_n2_videos.py`）。脚本默认处理第1—120课，显示总课程进度和当前视频的字节下载进度，只获取最高不超过1080p的视频流及日语字幕，不获取本流程不用的音频流；已完整缓存的课程会跳过，中断后重复运行可继续。以下命令中的 `<缓存脚本>` 替换为对应等级的脚本路径：
+学习者在生成语法卡之前手动运行通用缓存脚本 `scripts/cache_course_videos.py`，将命令中的 `L` 换成 N1–N5 的实际等级；N3 也可使用 `scripts/cache_n3_videos.py`。脚本默认处理该播放列表的全部课程（N1–N4 各120课，N5 为119课），显示总课程进度和当前视频的字节下载进度，只获取最高不超过1080p的视频流及日语字幕，不获取本流程不用的音频流；已完整缓存的课程会跳过，中断后重复运行可继续。
 
 ```powershell
-# 缓存全部第1—120课
-uv run <缓存脚本>
+# 缓存指定等级的全部课程
+uv run scripts/cache_course_videos.py L
 
 # 只补指定课程
-uv run <缓存脚本> --lessons 1-20,35,80-90
+uv run scripts/cache_course_videos.py L --lessons 1-20,35,80-90
 
 # 只校验现有本地缓存，不联网
-uv run <缓存脚本> --verify-only
+uv run scripts/cache_course_videos.py L --verify-only
 ```
 
 缓存脚本把课程对应关系和实际文件路径写入 `.firecrawl/l/course-manifest.json`，视频写入 `.firecrawl/l/videos/`，字幕写入 `.firecrawl/l/subtitles/`。实际格式可能不是固定的 `f137.mp4`，后续不得拼接或猜测文件名，必须采用清单中的 `video_path` 与 `subtitle_path`。
@@ -392,10 +389,10 @@ Hagoromo、规定备选网站及互联网检索所得条目统一使用以下模
 
 ## 审核、提交与复习
 
-- 视频语法卡不再写入 `jlpt-notes/drafts/`。完整待确认内容直接写入本规范给出的固定目标路径，并在 Git 中保持未跟踪。此流程以学习者指定的新卡及两张配套图片尚不存在为前提，不在准备阶段检查或扫描这些目标。
+- 视频语法卡不再写入 `jlpt-notes/drafts/`。完整待确认内容直接写入本规范给出的目标路径，并在 Git 中保持未提交。目标卡在当前工作区中必须不存在；若同路径曾有旧版本，重新生成的当前字节仍需学习者审核。两张目标图片应在本次生成时写成对应课程的原视频截图，不复用未经核实的旧图片。
 - 待确认状态只由 Git 工作区表示：未跟踪文件或当前字节尚未进入 `HEAD` 都不构成审核通过。正文不写待确认提示，元数据不保存 Git 生命周期字段。
 - 提供目标卡入口及最低限度内容检查结果，由学习者审核。学习者提出修改时继续修改同一目标文件，同步受影响内容，重新检查并保持未提交；修改意见本身不等于提交授权。
-- 学习者明确取消时，只删除本任务创建且未被其他内容引用的未跟踪卡片、接续图和例句图，不扩大清理范围。
+- 学习者明确取消时，只清理本任务创建且未被其他内容引用的未提交卡片、接续图和例句图，不扩大清理范围。
 - 只有学习者明确说“提交”或作出同等清楚的指示后，才处理其指定的单课或批次；批次范围不明确时先确认范围。提交轮不得修改卡片、图片、事件或其他文件，只能执行只读校验、精确暂存和一次本地 Git 提交。
 - Git 提交是唯一的审核通过凭证。新流程不创建 `event_type: confirmed` 事件，也不再提供独立“确认入库”步骤；已有历史事件保持不变。首次提交日从首次把当前卡片加入 Git 的 commit 推导，最近内容更新日从最后修改该卡片的 commit 推导；首次复习日为首次提交日加七天，后续复习日为最近一次 `review_completed` 事件日期加七天。任何本地提交均不默认推送远程。
 - 提交前的检查全部只读。任一检查失败时停止，不在提交轮修复、回滚或改写文件；学习者后续明确要求修改时再进入新的修改轮。检查通过后只精确暂存相关文件并提交，提交成功后用 `git show` 只读核对范围。
