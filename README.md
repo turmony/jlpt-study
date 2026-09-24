@@ -2,13 +2,18 @@
 
 这是一个以本地 Markdown 为核心的 JLPT 日语学习资料库。系统保存学习输出、校对结果、固定七天复习记录、N5–N1 非听力练习和错题分析。
 
-## N1 视频预缓存
+## 视频课程缓存
 
-学习者手动运行 `uv run scripts/cache_n1_videos.py`，默认缓存出口日語 N1 播放列表第 1—120 课的最高 1080p 视频流与日语 WebVTT 字幕。缓存清单位于 `.firecrawl/n1/course-manifest.json`，与 N2 缓存分开；已完成课程会校验并跳过，中断后重新运行即可续做。
+学习者手动缓存出口日語课程的视频和日语字幕；缓存是临时材料，不提交 Git。
 
-指定课程用 `uv run scripts/cache_n1_videos.py --lessons 1-20,35`；只检查已下载内容用 `uv run scripts/cache_n1_videos.py --verify-only`。脚本读取播放列表时会核对第 1 课视频 ID `riUjVcsPbqo`，以免错误播放列表写入缓存。视频缓存是临时学习材料，不提交 Git。
+| 等级 | 缓存命令 | 清单 |
+|---|---|---|
+| N1 | `uv run scripts/cache_n1_videos.py` | `.firecrawl/n1/course-manifest.json` |
+| N2 | `uv run scripts/cache_n2_videos.py` | `.firecrawl/n2/course-manifest.json` |
 
-当前正在搭建基础功能。完成后，使用 `python -m jlpt_notes init --root jlpt-notes` 创建资料库。
+两个脚本均可加 `--lessons 1-20,35` 指定课程，或加 `--verify-only` 只检查已有缓存。生成新语法卡遵守 [视频语法待确认卡流程](docs/video-grammar-workflow.md)。
+
+如需创建资料库，使用 `uv run python -m jlpt_notes init --root jlpt-notes`。
 
 详细设计见 `docs/superpowers/specs/`；实施计划见 `docs/superpowers/plans/`。
 
@@ -63,7 +68,7 @@ Codex 会使用这套 `python.exe` 从稳定项目目录安装阅读器，再确
 
 图片必须位于资料库内，且符合阅读器的可发布规则。缺图、隐藏文件、符号链接／目录联接和不支持的图片格式均会报告原文档、原链接及解析目标。阅读器仍提供文字阅读，页面显示缺图提示；控制窗口显示问题数量、首条详情与完整临时日志位置。补回图片后会自动重建并清除提示。
 
-从草稿路径准备正式目标文件时调用 `rebase_assets`，按两个文件的真实目录换算图片链接，保留正文、代码示例及链接标题；这一步必须发生在学习者审核之前。校验失败或无法无损换算时停止交付。卡片不保存提交状态、提交日期或下次复习日：Git `HEAD` 中存在相同字节即表示审核通过，首次提交日和最近内容更新日从 Git 历史推导，复习日从首次提交及复习完成事件推导。学习者说“提交”后不再修改文件，只执行只读校验、精确暂存和一次本地 Git 提交；新卡不写 `confirmed` 事件。批量／手动整理必须遵守 `AGENTS.md` 中相同的前置校验；完整 pytest 测试包含实际资料库图片链接检查。
+从草稿路径准备正式目标文件时，按 `AGENTS.md` 的图片链接规则调用 `rebase_assets` 并在交付审核前校验。完整 pytest 测试包含实际资料库图片链接检查；卡片的审核与复习日期规则见 `AGENTS.md`。
 
 | 现象 | 处理方法 |
 |---|---|
