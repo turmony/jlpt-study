@@ -2,6 +2,12 @@
 
 这是一个以本地 Markdown 为核心的 JLPT 日语学习资料库。系统保存学习输出、校对结果、固定七天复习记录、N5–N1 非听力练习和错题分析。
 
+## N1 视频预缓存
+
+学习者手动运行 `uv run scripts/cache_n1_videos.py`，默认缓存出口日語 N1 播放列表第 1—120 课的最高 1080p 视频流与日语 WebVTT 字幕。缓存清单位于 `.firecrawl/n1/course-manifest.json`，与 N2 缓存分开；已完成课程会校验并跳过，中断后重新运行即可续做。
+
+指定课程用 `uv run scripts/cache_n1_videos.py --lessons 1-20,35`；只检查已下载内容用 `uv run scripts/cache_n1_videos.py --verify-only`。脚本读取播放列表时会核对第 1 课视频 ID `riUjVcsPbqo`，以免错误播放列表写入缓存。视频缓存是临时学习材料，不提交 Git。
+
 当前正在搭建基础功能。完成后，使用 `python -m jlpt_notes init --root jlpt-notes` 创建资料库。
 
 详细设计见 `docs/superpowers/specs/`；实施计划见 `docs/superpowers/plans/`。

@@ -34,6 +34,8 @@ PLAYLIST_URL = (
 PLAYLIST_ID = "PLynCeSdpMqxD6LeS82vp39kQP8mw_JxlY"
 EXPECTED_LESSONS = 120
 DEFAULT_CACHE_ROOT = Path(".firecrawl/n2")
+COURSE_LEVEL = "N2"
+EXPECTED_FIRST_VIDEO_ID: str | None = None
 MANIFEST_NAME = "course-manifest.json"
 VIDEO_ID = re.compile(r"^[A-Za-z0-9_-]{6,64}$")
 VTT_CUE = re.compile(
@@ -219,6 +221,8 @@ def load_manifest(path: Path) -> dict[str, Any]:
         raise ValueError(f"不支持的缓存清单格式：{path}")
     if not isinstance(data.get("entries"), list):
         raise TypeError(f"缓存清单 entries 不是列表：{path}")
+    if data.get("playlist_id") != PLAYLIST_ID:
+        raise ValueError(f"缓存清单播放列表与{COURSE_LEVEL}课程不匹配：{path}")
     return data
 
 
@@ -378,7 +382,7 @@ class ProgressDisplay:
         if self.enabled:
             self.progress.start()
             self.overall_task = self.progress.add_task(
-                "N2 总进度",
+                f"{COURSE_LEVEL} 总进度",
                 total=self.total_lessons,
                 detail=f"0/{self.total_lessons} 课",
             )
@@ -710,10 +714,23 @@ def download_batch(
     cache_root: Path = args.cache_root
     manifest_path = cache_root / MANIFEST_NAME
     manifest = load_manifest(manifest_path)
-    display.log("正在读取 N2 播放列表……")
+    display.log(f"正在读取 {COURSE_LEVEL} 播放列表……")
     playlist = fetch_playlist(
         args.playlist_url, max(args.lessons), args.cookies_from_browser
     )
+    if EXPECTED_FIRST_VIDEO_ID is not None:
+        if playlist.get("id") != PLAYLIST_ID:
+            raise ValueError(
+                f"{COURSE_LEVEL} 播放列表 ID 不匹配："
+                f"预期 {PLAYLIST_ID}，实际 {playlist.get('id')}"
+            )
+        entries = playlist.get("entries")
+        first = entries[0] if isinstance(entries, list) and entries else None
+        if not isinstance(first, dict) or first.get("id") != EXPECTED_FIRST_VIDEO_ID:
+            raise ValueError(
+                f"{COURSE_LEVEL} 播放列表第1课的视频 ID 与课程入口不一致："
+                f"预期 {EXPECTED_FIRST_VIDEO_ID}，实际 {first.get('id') if isinstance(first, dict) else '缺失'}"
+            )
     items = playlist_items(playlist, args.lessons)
     manifest.update(
         {
@@ -795,7 +812,7 @@ def positive_int(value: str) -> int:
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(
         description=(
-            "手动下载出口日語 N2 播放列表的视频流和日语字幕；"
+            f"手动下载出口日語 {COURSE_LEVEL} 播放列表的视频流和日语字幕；"
             "默认缓存第 1—120 课并显示总进度与当前视频进度。"
         )
     )
@@ -810,7 +827,7 @@ def parser() -> argparse.ArgumentParser:
         "--cache-root",
         type=Path,
         default=DEFAULT_CACHE_ROOT,
-        help="缓存目录；默认 .firecrawl/n2",
+        help=f"缓存目录；默认 {DEFAULT_CACHE_ROOT.as_posix()}",
     )
     result.add_argument(
         "--playlist-url",
