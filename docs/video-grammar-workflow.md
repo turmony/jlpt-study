@@ -4,7 +4,7 @@
 
 ## 课程与执行范围
 
-- 课程：出口日語，日语授课，N5–N1语法。等级由学习者指定；未指定时先询问，不默认任何等级。
+- 课程：出口日語，N5–N1语法。N4 课程的口头讲解和字幕以中文为主、日语为辅；此语言构成适用于 YouTube 原课程，也适用于对应的 Bilibili 课程。其他等级按实际视频核对语言。等级由学习者指定；未指定时先询问，不默认任何等级。
 - 各等级播放列表、首课视频 ID 与课数统一登记在 `scripts/cache_course_videos.py` 的 `COURSES` 中。清单中的 `playlist_id` 必须与下表相应播放列表一致；视频网址按该清单中的视频 ID 生成，不根据课号猜测。
 
   | 等级 | 播放列表 | 课数 |
@@ -26,8 +26,8 @@
    - 例句图：`jlpt-notes/assets/grammar/l/L-G-NNNN-example.png`
    - 正文图片引用：`../../assets/grammar/l/L-G-NNNN-connection.png` 与 `../../assets/grammar/l/L-G-NNNN-example.png`
    - `source.screenshot`：`assets/grammar/l/L-G-NNNN-connection.png`
-3. 播放列表与本地视频缓存读取 `.firecrawl/l/course-manifest.json`，并核对清单中的 `playlist_id` 与上述对应等级的播放列表一致。只提取指定课程序号的一条记录，核对日语标题、视频 ID、时长、`status`、缓存日期及记录的实际文件路径；不得按目录中文件名猜测课程对应关系。记录唯一、状态为 `complete` 且文字可读时直接采用；记录缺失、重复、不一致或含乱码时列明问题并停止该课。
-4. 根据清单记录校验本地视频和日语 WebVTT 字幕；两者齐全且可以读取时直接复用。缓存缺失或损坏时，不在语法卡生成任务中下载，提示学习者手动运行 `uv run scripts/cache_course_videos.py L --lessons <课程序号>`（把 `L` 替换为实际等级），并停止该课。
+3. 播放列表与本地视频缓存读取 `.firecrawl/l/course-manifest.json`，并核对清单中的 `playlist_id` 与上述对应等级的播放列表一致。只提取指定课程序号的一条记录，核对标题、视频 ID、时长、`status`、缓存日期及记录的实际文件路径；不得按目录中文件名猜测课程对应关系。N4 若有 `subtitle_source` 或 `video_source`，还须核对所载的 Bilibili 分 P、网址和实际来源；第 99／100 课使用上述对调关系。记录唯一、状态为 `complete` 且文字可读时直接采用；记录缺失、重复、不一致或含乱码时列明问题并停止该课。
+4. 根据清单记录校验本地视频和 WebVTT 字幕；两者齐全且可以读取时直接复用。N4 允许两种字幕：YouTube 提供的原有 WebVTT，或对应 Bilibili 分 P 音频经本地转写生成的中文／日语混合 WebVTT。YouTube 字幕文件名中的 `ja` 只是轨道语言标记，不代表内容全部为日语；N4 两种来源的字幕均以中文为主、日语为辅。N4 转写字幕须由清单的 `subtitle_kind=local_asr_mixed` 和 `subtitle_source` 标明来源，不冒充 YouTube 原字幕。缓存缺失或损坏时，不在语法卡生成任务中下载；N4 缺少 YouTube 字幕时提示运行 `uv run scripts/cache_n4_missing_subtitles.py --lessons <课程序号>`，其他情况提示运行 `uv run scripts/cache_course_videos.py L --lessons <课程序号>`，并停止该课。
 5. 缓存脚本只能由学习者手动执行，不由本流程、卡片生成脚本或代理自动调用。Python、缓存校验与视频抽帧依赖统一通过 `uv run` 和仓库脚本解析；不要递归搜索系统 Python、FFmpeg 或其他可执行文件。
 
 ### 轻量课程定位流程
@@ -112,7 +112,7 @@
 
 ## 获取课程材料
 
-学习者在生成语法卡之前手动运行通用缓存脚本 `scripts/cache_course_videos.py`，将命令中的 `L` 换成 N1–N5 的实际等级；N3 和 N4 也可分别使用 `scripts/cache_n3_videos.py`、`scripts/cache_n4_videos.py`。脚本默认处理该播放列表的全部课程（N1–N4 各120课，N5 为119课），显示总课程进度和当前视频的字节下载进度，只获取最高不超过1080p的视频流及日语字幕，不获取本流程不用的音频流；已完整缓存的课程会跳过，中断后重复运行可继续。
+学习者在生成语法卡之前手动运行通用缓存脚本 `scripts/cache_course_videos.py`，将命令中的 `L` 换成 N1–N5 的实际等级；N3 和 N4 也可分别使用 `scripts/cache_n3_videos.py`、`scripts/cache_n4_videos.py`。脚本默认处理该播放列表的全部课程（N1–N4 各120课，N5 为119课），显示总课程进度和当前视频的字节下载进度，只获取最高不超过1080p的视频流及 YouTube 提供的 `ja` 轨道 WebVTT，不获取音频流；已完整缓存的课程会跳过，中断后重复运行可继续。N4 的 `ja` 轨道字幕实际内容以中文为主、日语为辅，不得按轨道标记推断为纯日语讲解。
 
 ```powershell
 # 缓存指定等级的全部课程
@@ -125,7 +125,9 @@ uv run scripts/cache_course_videos.py L --lessons 1-20,35,80-90
 uv run scripts/cache_course_videos.py L --verify-only
 ```
 
-缓存脚本把课程对应关系和实际文件路径写入 `.firecrawl/l/course-manifest.json`，视频写入 `.firecrawl/l/videos/`，字幕写入 `.firecrawl/l/subtitles/`。实际格式可能不是固定的 `f137.mp4`，后续不得拼接或猜测文件名，必须采用清单中的 `video_path` 与 `subtitle_path`。
+N4 课程缺少可用的 YouTube WebVTT 时，可一次运行 `uv run scripts/cache_n4_missing_subtitles.py` 自动处理所有缺字幕课；`--lessons 15` 只处理指定课，`--dry-run` 先列出将处理的课号。首次转写会自动下载多语言语音识别模型。补缺脚本按已核实的课号对应关系读取 Bilibili `BV1t4411y7L3` 的分 P，**YouTube 第 99／100 课分别对应 Bilibili P100／P99**；先核对两站时长，再下载 Bilibili 音频并用多语言语音识别转写为 UTF-8 WebVTT。转写保留实际中文和日语发言，不把中文翻译成日语。原有本地视频直接复用；本地视频缺失时才补 Bilibili 视频。脚本只处理尚无有效字幕的 N4 课程，逐课验证并写回 `course-manifest.json`；重跑会跳过已完整课程。自动转写可能误听日语形式、助词和例句，制卡时须与原视频板书及实际采用的日文语法条目核对。
+
+缓存脚本把课程对应关系和实际文件路径写入 `.firecrawl/l/course-manifest.json`，视频写入 `.firecrawl/l/videos/`，字幕写入 `.firecrawl/l/subtitles/`；N4 补缺脚本另将 Bilibili 音频写入 `.firecrawl/n4/audio/`，并在清单记录 `audio_path` 与 `subtitle_source`。实际格式可能不是固定的 `f137.mp4`，后续不得拼接或猜测文件名，必须采用清单中的 `video_path` 与 `subtitle_path`。
 
 确认清单记录与本地文件后，使用仓库通用脚本执行首轮自适应候选。抽帧脚本通过 PEP 723 声明 `av` 与 Pillow 依赖，必须直接交给 `uv run`，不调用系统 Python；下面的 `<清单视频路径>` 与 `<清单字幕路径>` 均以对应等级的 `.firecrawl/l/` 为基准解析：
 
@@ -143,7 +145,7 @@ uv run scripts/extract_video_frames.py `
 - 本流程通过 `--output-root ".firecrawl/l"` 将不同等级的临时材料隔离，候选帧输出到 `.firecrawl/l/f<课程序号>/t<秒数>.png`；截取五帧以上时自动生成 `.firecrawl/l/f<课程序号>-contact.png`。可用 `--no-contact-sheet` 禁止联系表，也可用 `--columns` 和 `--thumb-width` 调整临时输出。
 - 候选扩展与局部细筛都复用这个脚本；允许同课再次运行并补充帧，不新建课次专用 Python 文件。脚本输出的请求时间与实际帧时间用于核对正文时间标注。
 
-- 以原视频的日语讲解、日语字幕和板书为课程依据。字幕可能有同音错字、助词遗漏或断句错误，必须校对；不能把自动字幕当成准确原文。
+- 以原视频的实际讲解、字幕和板书为课程依据。N4 的 YouTube 原字幕和 Bilibili 音频转写字幕都以中文为主、日语为辅；不得把中文口述误写为日语原话，也不得把语音识别或翻译结果冒充老师原文。字幕可能有同音错字、助词遗漏或断句错误，必须结合板书和实际语音校对；不能把自动字幕当成准确原文。
 - 每课优先提取 **0:01 的实际视频画面**，逐张目视检查是否清晰显示本课接续。
 - **每个语法卡必须包含两张原视频图片：一张接续图和一张例句图。** 两图仅放在“视频学习资料整理”中，用于保留课程原始画面；接续内容不再转写到“核心”，视频例句也不再转录成“原视频例句”栏目。接续图用于展示本课接续及必要讲解板书；例句图用于展示视频中的课程例句，通常从视频后半部分的例句页提取。两张图分别标明真实时间、原图尺寸及裁切区域；不得用同一张图重复充当两类图片。
 - 如果该时点是片头、遮挡严重或接续不完整，寻找其他清晰时点，必要时补充截图，记录替换原因并标注各图实际时间，不把其他时点标成 0:01。
@@ -261,6 +263,8 @@ uv run scripts/extract_video_frames.py `
 ```
 
 其中 `source.screenshot` 固定指向接续图；例句图的路径、真实时间、原图尺寸和裁切区域写在“视频学习资料整理”中。学习者审核后不会再改写元数据；当前文件字节进入 Git `HEAD` 即表示审核通过。
+
+上述模板保持 N1、N2 等现有卡片的 `source.material` 和 `source.video` 写法。N4 是专项例外：使用 YouTube 原字幕时，将 `source.material` 中的“日语自动字幕”改为“YouTube 原 WebVTT（中文为主、日语为辅）”；使用本地转写时，改为“Bilibili P〈分 P〉音频的本地中文／日语混合转写 WebVTT”。`source.video` 以及正文原视频链接应指向实际用于截图的媒体：清单存在 `video_source.url` 时采用它，否则采用清单 `webpage_url`。只使用 Bilibili 音频补字幕、继续采用本地 YouTube 视频截图的课，保留 YouTube 视频链接，并在 `source.material` 说明 Bilibili 音频来源。N4 不得笼统将中文为主的字幕写成“日语自动字幕”。
 
 ## 正文格式与核心写法
 
