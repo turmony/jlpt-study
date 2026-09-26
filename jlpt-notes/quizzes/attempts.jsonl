@@ -745,3 +745,23 @@
 {"question_id": "N3-Q-0152", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-24"}
 {"question_id": "N3-Q-0153", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-24"}
 {"question_id": "N3-Q-0154", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-24"}
+{"question_id": "N2-Q-0001", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0002", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0003", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0004", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0005", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0006", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0007", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0008", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0009", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": false, "uncertain": false, "error_tags": ["上で与一方で语义混淆", "目的条件"], "date": "2026-09-26"}
+{"question_id": "N2-Q-0010", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0011", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0012", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0013", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0014", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0015", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0016", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0017", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": false, "uncertain": false, "error_tags": ["得る得ない肯否", "ても让步"], "date": "2026-09-26"}
+{"question_id": "N2-Q-0018", "revision": 2, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0019", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id": "N2-Q-0020", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
