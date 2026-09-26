@@ -533,6 +533,110 @@
       "locator": "文型・例文区",
       "evidence_path": "quizzes/sources/cache/57b157f4801e4d3d8a28-59bf671ec2b7.md",
       "content_sha256": "59bf671ec2b7da1b68cf6bb59b4d61c1c7350dd3f5159304694844f2ea4f2d21"
+    },
+    "6246832d761cd0cdcaab": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/03/30/jlptn2-grammar-ge/",
+      "title": "【JLPT N2】文法・例文：〜げ",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0021"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/6246832d761cd0cdcaab-07872984992d.md",
+      "content_sha256": "07872984992d4de796603a1eb5c6abf9b6e8079a7065fb03ae1b4a371c1dcd0c"
+    },
+    "346c46481b451ca5d08d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-kotoda/",
+      "title": "【JLPT N2】文法・例文：〜ことだ（助言・忠告）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0022"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/346c46481b451ca5d08d-1b794c71874b.md",
+      "content_sha256": "1b794c71874b015a016811e410909e268fc64c84019f59d54225d835b3f1b0a8"
+    },
+    "05ec896f482994bbe41f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-kotonaku/",
+      "title": "【JLPT N2】文法・例文：ことなく",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0024"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/05ec896f482994bbe41f-a2ca3c0030fe.md",
+      "content_sha256": "a2ca3c0030fed679616e4f5e1c95f82bf4d9712f7244b1eb2acd2ae107a642b1"
+    },
+    "2b7355001ebabdd58e85": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-kotoni/",
+      "title": "【JLPT N2】文法・例文：〜ことに",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0025"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/2b7355001ebabdd58e85-403b67098683.md",
+      "content_sha256": "403b67098683cccb44abe78209eb01d9efb877794504bfdbdff15e4eb48f3904"
+    },
+    "db38c890d5dcc446acef": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/21/jlptn2-grammar-zaruoenai/",
+      "title": "【JLPT N2】文法・例文：〜ざるを得ない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0026"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/db38c890d5dcc446acef-2754d1fb4763.md",
+      "content_sha256": "2754d1fb4763047dbe417742b7b071a41940cf3fdaffc441e149b25820a6df20"
+    },
+    "ad756b1b9cc917bc829b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/08/jlptn2-grammar-shidai/",
+      "title": "【JLPT N2】文法・例文：次第（しだい）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0027"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/ad756b1b9cc917bc829b-91d565b617c6.md",
+      "content_sha256": "91d565b617c6590ae22069ea37a80272f5d60ada62b81f64c4d5633dce50a5d2"
+    },
+    "e1e29064033711aa8525": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-shidaida/",
+      "title": "【JLPT N2】文法・例文：〜次第だ / 〜次第で",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0028"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/e1e29064033711aa8525-c9bf317b5a63.md",
+      "content_sha256": "c9bf317b5a63e210e457fc8a6efee1afd3990f6a4ef9e505c8c3786ca849ccb0"
+    },
+    "f05c84590ad7a53b241d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn0-grammar-jouno/",
+      "title": "【JLPT N2】文法・例文：〜の上では / 〜上（じょう）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0030"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/f05c84590ad7a53b241d-7c1544b27fc1.md",
+      "content_sha256": "7c1544b27fc1905695b0df09bb615537a523432b9a30436314fd7013270985bd"
     }
   }
 }

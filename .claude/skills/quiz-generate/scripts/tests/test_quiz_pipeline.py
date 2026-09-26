@@ -163,3 +163,22 @@ def test_approved_japanese_teaching_source_can_be_validated(tmp_path):
     draft.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
     result = run_script(PIPELINE, "validate", "--root", root, "--draft", draft, "--stage", "final")
     assert result.returncode == 0, result.stdout + result.stderr
+
+
+def test_japanese_education_navi_source_can_be_validated(tmp_path):
+    root = tmp_path / "repo"
+    evidence = root / "jlpt-notes/quizzes/sources/selected.md"
+    evidence.parent.mkdir(parents=True)
+    evidence.write_text("感慨を表す『ことだ』：本当にうれしいことだ。\n", encoding="utf-8")
+    data = make_draft()
+    source = data["questions"][0]["source"]
+    source.update({
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ",
+        "url": "https://japanese-language-education.com/for-overseas-learners/kotoda-kangai/",
+        "evidence_paths": ["quizzes/sources/selected.md"],
+    })
+    draft = tmp_path / "draft.json"
+    draft.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    result = run_script(PIPELINE, "validate", "--root", root, "--draft", draft, "--stage", "final")
+    assert result.returncode == 0, result.stdout + result.stderr

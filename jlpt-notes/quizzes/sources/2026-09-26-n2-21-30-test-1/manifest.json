@@ -1,0 +1,1591 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-26-n2-21-30-test-1",
+    "title": "N2 第21～30课语法选择练习（20题）",
+    "date": "2026-09-26",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0041",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼の表情は少し、悲し（　）だった。",
+      "translation": "他的表情看起来有些悲伤。",
+      "tested_cards": [
+        "N2-G-0021"
+      ],
+      "conjugation": "イ形容词词干／少数固定的动词形式＋げ",
+      "options": {
+        "1": "気味",
+        "2": "げ",
+        "3": "ざる",
+        "4": "次第"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「悲しげ」根据外观描述其悲伤的样子。",
+      "option_explanations": {
+        "1": "错误：「悲し気味」不是此处描写表情外观的自然形式。",
+        "2": "正确：「悲しげ」根据外观描述其悲伤的样子。",
+        "3": "错误：须构成「ざるを得ない」，不表示情绪外观。",
+        "4": "错误：表示先后或取决于，不接形容词词干描写表情。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜げ",
+        "url": "https://nihongokyoshi-net.com/2018/03/30/jlptn2-grammar-ge/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/6246832d761cd0cdcaab-07872984992d.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼の表情は少し、悲しげだった。",
+        "transformations": [
+          "从原例句中仅将「げ」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0021的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「悲し気味」不是此处描写表情外观的自然形式。",
+          "2. 正确：「悲しげ」根据外观描述其悲伤的样子。",
+          "3. 错误：须构成「ざるを得ない」，不表示情绪外观。",
+          "4. 错误：表示先后或取决于，不接形容词词干描写表情。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第2项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：「悲し気味」不是此处描写表情外观的自然形式。；3项：错误：须构成「ざるを得ない」，不表示情绪外观。；4项：错误：表示先后或取决于，不接形容词词干描写表情。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "2",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0042",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は何か言い（　）様子だったが、何も言わずに部屋を出て行った。",
+      "translation": "他看起来像是有话想说，却一言不发地离开了房间。",
+      "tested_cards": [
+        "N2-G-0021"
+      ],
+      "conjugation": "イ形容词词干／少数固定的动词形式＋げ",
+      "options": {
+        "1": "ことなく",
+        "2": "きりの",
+        "3": "次第の",
+        "4": "たげな"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「言いたげな様子」表示从外表看似乎想说些什么。",
+      "option_explanations": {
+        "1": "错误：「ことなく」需接动词辞书形并连接后项；「言いことなく様子」接续不成立。",
+        "2": "错误：表示仅有或此后未再发生，不描述欲言的外观。",
+        "3": "错误：不表示有话想说的样子。",
+        "4": "正确：「言いたげな様子」表示从外表看似乎想说些什么。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜げ",
+        "url": "https://nihongokyoshi-net.com/2018/03/30/jlptn2-grammar-ge/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/6246832d761cd0cdcaab-07872984992d.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼は何か言いたげな様子だったが、何も言わずに部屋を出て行った。",
+        "transformations": [
+          "从原例句中仅将「たげな」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。",
+          "第1轮修订：原干扰项「がたい」可构成另一种合理解释，换为接续不成立的「ことなく」以确保唯一解"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0021的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「ことなく」需接动词辞书形并连接后项；「言いことなく様子」接续不成立。",
+          "2. 错误：表示仅有或此后未再发生，不描述欲言的外观。",
+          "3. 错误：不表示有话想说的样子。",
+          "4. 正确：「言いたげな様子」表示从外表看似乎想说些什么。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；仅第4项可还原来源例句。",
+        "semantic_exclusion": "1项「言いことなく様子」接续不成立；2项「言いきりの様子」不能表示欲言的外观；3项「言い次第の様子」不构成该语义。",
+        "unique_answer_rationale": "第4项「たげな」构成「言いたげな様子」，准确表达看似想说话。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "4",
+          "notes": "修订后重新独立盲答；四个选项逐项排除，唯一答案与原例句一致。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "修订后重新核对原例句、挖空位置、接续、译文及四项解析，均与缓存证据一致。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0043",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日本語が上手になりたかったら、毎日話す（　）。",
+      "translation": "想提高日语，就该每天开口说。",
+      "tested_cards": [
+        "N2-G-0022"
+      ],
+      "conjugation": "动词辞书形或ない形＋ことだ（忠告）",
+      "options": {
+        "1": "ことだ",
+        "2": "ことに",
+        "3": "ことなく",
+        "4": "ことか"
+      },
+      "correct_option": "1",
+      "correct_explanation": "条件句给出目标，后项用「ことだ」提出忠告。",
+      "option_explanations": {
+        "1": "正确：条件句给出目标，后项用「ことだ」提出忠告。",
+        "2": "错误：在这里不能作句末忠告，也缺少后续谓语。",
+        "3": "错误：表示不说而做别的事，与每天说的建议相反。",
+        "4": "错误：用于感叹疑问，不表达达成目标的建议。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ことだ（助言・忠告）",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-kotoda/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/346c46481b451ca5d08d-1b794c71874b.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "日本語が上手になりたかったら、毎日話すことだ。",
+        "transformations": [
+          "从原例句中仅将「ことだ」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0022的语义边界。",
+        "distractor_basis": [
+          "1. 正确：条件句给出目标，后项用「ことだ」提出忠告。",
+          "2. 错误：在这里不能作句末忠告，也缺少后续谓语。",
+          "3. 错误：表示不说而做别的事，与每天说的建议相反。",
+          "4. 错误：用于感叹疑问，不表达达成目标的建议。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第1项可还原来源例句。",
+        "semantic_exclusion": "2项：错误：在这里不能作句末忠告，也缺少后续谓语。；3项：错误：表示不说而做别的事，与每天说的建议相反。；4项：错误：用于感叹疑问，不表达达成目标的建议。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "1",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0044",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "痩せたかったら、間食をやめる（　）。",
+      "translation": "想瘦下来，就应停止吃零食。",
+      "tested_cards": [
+        "N2-G-0022"
+      ],
+      "conjugation": "动词辞书形或ない形＋ことだ（忠告）",
+      "options": {
+        "1": "ことに",
+        "2": "ことなく",
+        "3": "ことだ",
+        "4": "ことか"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「やめることだ」建议为达成减肥目标采取的行动。",
+      "option_explanations": {
+        "1": "错误：不能直接在此句尾表达忠告。",
+        "2": "错误：表示不停止吃零食，与减肥目标和忠告相反。",
+        "3": "正确：「やめることだ」建议为达成减肥目标采取的行动。",
+        "4": "错误：感叹形式不能表达具体建议。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ことだ（助言・忠告）",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-kotoda/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/346c46481b451ca5d08d-1b794c71874b.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "痩せたかったら、間食をやめることだ。",
+        "transformations": [
+          "从原例句中仅将「ことだ」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0022的语义边界。",
+        "distractor_basis": [
+          "1. 错误：不能直接在此句尾表达忠告。",
+          "2. 错误：表示不停止吃零食，与减肥目标和忠告相反。",
+          "3. 正确：「やめることだ」建议为达成减肥目标采取的行动。",
+          "4. 错误：感叹形式不能表达具体建议。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第3项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：不能直接在此句尾表达忠告。；2项：错误：表示不停止吃零食，与减肥目标和忠告相反。；4项：错误：感叹形式不能表达具体建议。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "3",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0045",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "入学試験に合格できるなんて、本当にうれしい（　）。",
+      "translation": "竟然通过入学考试，真令人高兴。",
+      "tested_cards": [
+        "N2-G-0023"
+      ],
+      "conjugation": "イ形容词い／ナ形容词な＋ことだ（感慨）",
+      "options": {
+        "1": "ことに",
+        "2": "ことなく",
+        "3": "ことだし",
+        "4": "ことだ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「うれしいことだ」直接抒发通过考试的喜悦。",
+      "option_explanations": {
+        "1": "错误：需要后续事实叙述，不能在这里结束感慨句。",
+        "2": "错误：表示不做某事，不能接形容词「うれしい」表感慨。",
+        "3": "错误：通常引出后续行动的理由，句子在此尚未完成。",
+        "4": "正确：「うれしいことだ」直接抒发通过考试的喜悦。"
+      },
+      "source": {
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ",
+        "title": "感慨を表す「ことだ」の例文・文法解説【JLPT N2 grammar】",
+        "url": "https://japanese-language-education.com/for-overseas-learners/kotoda-kangai/",
+        "locator": "「意味」「使い方」の例文",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-21-30-test-1/n2-0023-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "入学試験に合格できるなんて、本当にうれしいことだ。",
+        "transformations": [
+          "仅将「ことだ」挖空。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0023的语义边界。",
+        "distractor_basis": [
+          "1. 错误：需要后续事实叙述，不能在这里结束感慨句。",
+          "2. 错误：表示不做某事，不能接形容词「うれしい」表感慨。",
+          "3. 错误：通常引出后续行动的理由，句子在此尚未完成。",
+          "4. 正确：「うれしいことだ」直接抒发通过考试的喜悦。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第4项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：需要后续事实叙述，不能在这里结束感慨句。；2项：错误：表示不做某事，不能接形容词「うれしい」表感慨。；3项：错误：通常引出后续行动的理由，句子在此尚未完成。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "4",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0046",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "1点差で負けてしまったのは、非常に残念な（　）。",
+      "translation": "只差一分就输了，真令人遗憾。",
+      "tested_cards": [
+        "N2-G-0023"
+      ],
+      "conjugation": "イ形容词い／ナ形容词な＋ことだ（感慨）",
+      "options": {
+        "1": "ことに",
+        "2": "ことだ",
+        "3": "ことなく",
+        "4": "ことだし"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「残念なことだ」以ナ形容词接续表达强烈遗憾。",
+      "option_explanations": {
+        "1": "错误：用于先表心情再叙述事实；本句事实已作主语，句末需要感慨断定。",
+        "2": "正确：「残念なことだ」以ナ形容词接续表达强烈遗憾。",
+        "3": "错误：接动词辞书形，不接「残念な」。",
+        "4": "错误：引出后续理由或行动，不能在此完成断定。"
+      },
+      "source": {
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ",
+        "title": "感慨を表す「ことだ」の例文・文法解説【JLPT N2 grammar】",
+        "url": "https://japanese-language-education.com/for-overseas-learners/kotoda-kangai/",
+        "locator": "「意味」「使い方」の例文",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-21-30-test-1/n2-0023-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "1点差で負けてしまったのは、非常に残念なことだ。",
+        "transformations": [
+          "仅将「ことだ」挖空。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0023的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于先表心情再叙述事实；本句事实已作主语，句末需要感慨断定。",
+          "2. 正确：「残念なことだ」以ナ形容词接续表达强烈遗憾。",
+          "3. 错误：接动词辞书形，不接「残念な」。",
+          "4. 错误：引出后续理由或行动，不能在此完成断定。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第2项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：用于先表心情再叙述事实；本句事实已作主语，句末需要感慨断定。；3项：错误：接动词辞书形，不接「残念な」。；4项：错误：引出后续理由或行动，不能在此完成断定。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "2",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0047",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "プロジェクトの進捗が遅れているので、休日も休む（　）働いている。",
+      "translation": "项目进度落后，因此连休息日也不停地工作。",
+      "tested_cards": [
+        "N2-G-0024"
+      ],
+      "conjugation": "动词辞书形＋ことなく",
+      "options": {
+        "1": "ことに",
+        "2": "ことだ",
+        "3": "ことなく",
+        "4": "ことか"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「休むことなく」表示不休息而持续工作。",
+      "option_explanations": {
+        "1": "错误：不表示没有休息的附带状况。",
+        "2": "错误：是句末忠告或感慨，不能连接「働いている」。",
+        "3": "正确：「休むことなく」表示不休息而持续工作。",
+        "4": "错误：感叹形式不能表示不休息地工作。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：ことなく",
+        "url": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-kotonaku/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/05ec896f482994bbe41f-a2ca3c0030fe.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "プロジェクトの進捗が遅れているので、休日も休むことなく働いている。",
+        "transformations": [
+          "从原例句中仅将「ことなく」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0024的语义边界。",
+        "distractor_basis": [
+          "1. 错误：不表示没有休息的附带状况。",
+          "2. 错误：是句末忠告或感慨，不能连接「働いている」。",
+          "3. 正确：「休むことなく」表示不休息而持续工作。",
+          "4. 错误：感叹形式不能表示不休息地工作。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第3项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：不表示没有休息的附带状况。；2项：错误：是句末忠告或感慨，不能连接「働いている」。；4项：错误：感叹形式不能表示不休息地工作。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "3",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0048",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は最後まであきらめる（　）、頑張った。",
+      "translation": "他一直坚持到最后，没有放弃。",
+      "tested_cards": [
+        "N2-G-0024"
+      ],
+      "conjugation": "动词辞书形＋ことなく",
+      "options": {
+        "1": "ことなく",
+        "2": "ことに",
+        "3": "ことだ",
+        "4": "ことか"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「あきらめることなく」说明他努力时始终未放弃。",
+      "option_explanations": {
+        "1": "正确：「あきらめることなく」说明他努力时始终未放弃。",
+        "2": "错误：用于先表心情，不能表示未放弃。",
+        "3": "错误：句末式断定，不能自然连接后面的努力行为。",
+        "4": "错误：感叹形式与未放弃的附带状态不合。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：ことなく",
+        "url": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-kotonaku/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/05ec896f482994bbe41f-a2ca3c0030fe.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼は最後まであきらめることなく、頑張った。",
+        "transformations": [
+          "从原例句中仅将「ことなく」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0024的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「あきらめることなく」说明他努力时始终未放弃。",
+          "2. 错误：用于先表心情，不能表示未放弃。",
+          "3. 错误：句末式断定，不能自然连接后面的努力行为。",
+          "4. 错误：感叹形式与未放弃的附带状态不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第1项可还原来源例句。",
+        "semantic_exclusion": "2项：错误：用于先表心情，不能表示未放弃。；3项：错误：句末式断定，不能自然连接后面的努力行为。；4项：错误：感叹形式与未放弃的附带状态不合。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "1",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0049",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "悔しい（　）、１点差で試合に負けてしまった。",
+      "translation": "令人懊恼的是，比赛只差一分就输了。",
+      "tested_cards": [
+        "N2-G-0025"
+      ],
+      "conjugation": "表示心情的词语＋ことに",
+      "options": {
+        "1": "ことに",
+        "2": "ことだ",
+        "3": "ことなく",
+        "4": "ことか"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「悔しいことに」先表懊恼，再说明原因。",
+      "option_explanations": {
+        "1": "正确：「悔しいことに」先表懊恼，再说明原因。",
+        "2": "错误：在这里会终结感慨句，不能自然引出后面的事实叙述。",
+        "3": "错误：接动词，不接「悔しい」表达心情。",
+        "4": "错误：感叹形式不承担引出后文事实的作用。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ことに",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-kotoni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/2b7355001ebabdd58e85-403b67098683.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "悔しいことに、１点差で試合に負けてしまった。",
+        "transformations": [
+          "从原例句中仅将「ことに」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0025的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「悔しいことに」先表懊恼，再说明原因。",
+          "2. 错误：在这里会终结感慨句，不能自然引出后面的事实叙述。",
+          "3. 错误：接动词，不接「悔しい」表达心情。",
+          "4. 错误：感叹形式不承担引出后文事实的作用。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第1项可还原来源例句。",
+        "semantic_exclusion": "2项：错误：在这里会终结感慨句，不能自然引出后面的事实叙述。；3项：错误：接动词，不接「悔しい」表达心情。；4项：错误：感叹形式不承担引出后文事实的作用。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "1",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0050",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ラッキーな（　）、旅行中は一度も雨が降らなかった。",
+      "translation": "幸运的是，旅行期间一次也没下雨。",
+      "tested_cards": [
+        "N2-G-0025"
+      ],
+      "conjugation": "表示心情的词语＋ことに",
+      "options": {
+        "1": "ことだ",
+        "2": "ことなく",
+        "3": "ことか",
+        "4": "ことに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「ラッキーなことに」先说幸运的心情，再叙述事实。",
+      "option_explanations": {
+        "1": "错误：句末感慨断定，不能在此引出雨没下的事实。",
+        "2": "错误：接动词辞书形，不接「ラッキーな」。",
+        "3": "错误：表示感叹，不能作为此处的事实导语。",
+        "4": "正确：「ラッキーなことに」先说幸运的心情，再叙述事实。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ことに",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-kotoni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/2b7355001ebabdd58e85-403b67098683.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "ラッキーなことに、旅行中は一度も雨が降らなかった。",
+        "transformations": [
+          "从原例句中仅将「ことに」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0025的语义边界。",
+        "distractor_basis": [
+          "1. 错误：句末感慨断定，不能在此引出雨没下的事实。",
+          "2. 错误：接动词辞书形，不接「ラッキーな」。",
+          "3. 错误：表示感叹，不能作为此处的事实导语。",
+          "4. 正确：「ラッキーなことに」先说幸运的心情，再叙述事实。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第4项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：句末感慨断定，不能在此引出雨没下的事实。；2项：错误：接动词辞书形，不接「ラッキーな」。；3项：错误：表示感叹，不能作为此处的事实导语。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "4",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0051",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "他に代わりの先生がいないので、今日は私が教え（　）。",
+      "translation": "没有其他代课老师，今天只好由我来教。",
+      "tested_cards": [
+        "N2-G-0026"
+      ],
+      "conjugation": "动词ない形去「ない」＋ざるを得ない；「する」变为「せざるを得ない」",
+      "options": {
+        "1": "かねない",
+        "2": "ざるを得ない",
+        "3": "がたい",
+        "4": "気味だ"
+      },
+      "correct_option": "2",
+      "correct_explanation": "没有替代教师，故必须亲自教课。",
+      "option_explanations": {
+        "1": "错误：表示可能造成坏结果，不表示因无替代者而不得不做。",
+        "2": "正确：没有替代教师，故必须亲自教课。",
+        "3": "错误：表示难以做到，不表示必须自己代课。",
+        "4": "错误：表示轻微倾向，不表示无选择余地。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ざるを得ない",
+        "url": "https://nihongokyoshi-net.com/2019/02/21/jlptn2-grammar-zaruoenai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/db38c890d5dcc446acef-2754d1fb4763.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "他に代わりの先生がいないので、今日は私が教えざるを得ない。",
+        "transformations": [
+          "从原例句中仅将「ざるを得ない」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0026的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示可能造成坏结果，不表示因无替代者而不得不做。",
+          "2. 正确：没有替代教师，故必须亲自教课。",
+          "3. 错误：表示难以做到，不表示必须自己代课。",
+          "4. 错误：表示轻微倾向，不表示无选择余地。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第2项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：表示可能造成坏结果，不表示因无替代者而不得不做。；3项：错误：表示难以做到，不表示必须自己代课。；4项：错误：表示轻微倾向，不表示无选择余地。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "2",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0052",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "エコノミークラスを予約したかったが、どこも空席がないので、ビジネスクラスを予約せ（　）。",
+      "translation": "本想订经济舱，但都没有空位，只得订商务舱。",
+      "tested_cards": [
+        "N2-G-0026"
+      ],
+      "conjugation": "动词ない形去「ない」＋ざるを得ない；「する」变为「せざるを得ない」",
+      "options": {
+        "1": "かねない",
+        "2": "がたい",
+        "3": "ざるを得ない",
+        "4": "きりだ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「する」在此变成「せざるを得ない」，强调别无选择。",
+      "option_explanations": {
+        "1": "错误：不表示被迫预订，而且「せかねない」接续不合。",
+        "2": "错误：不表示没有其他选择，且「せがたい」不自然。",
+        "3": "正确：「する」在此变成「せざるを得ない」，强调别无选择。",
+        "4": "错误：不表示不得不做，接续也不合。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ざるを得ない",
+        "url": "https://nihongokyoshi-net.com/2019/02/21/jlptn2-grammar-zaruoenai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/db38c890d5dcc446acef-2754d1fb4763.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "エコノミークラスを予約したかったが、どこも空席がないので、ビジネスクラスを予約せざるを得ない。",
+        "transformations": [
+          "从原例句中仅将「ざるを得ない」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0026的语义边界。",
+        "distractor_basis": [
+          "1. 错误：不表示被迫预订，而且「せかねない」接续不合。",
+          "2. 错误：不表示没有其他选择，且「せがたい」不自然。",
+          "3. 正确：「する」在此变成「せざるを得ない」，强调别无选择。",
+          "4. 错误：不表示不得不做，接续也不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第3项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：不表示被迫预订，而且「せかねない」接续不合。；2项：错误：不表示没有其他选择，且「せがたい」不自然。；4项：错误：不表示不得不做，接续也不合。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "3",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0053",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "定員になり（　）、受付を終了いたします。",
+      "translation": "一到规定人数就结束报名。",
+      "tested_cards": [
+        "N2-G-0027"
+      ],
+      "conjugation": "动词ます形去「ます」＋次第",
+      "options": {
+        "1": "次第で",
+        "2": "次第では",
+        "3": "次第",
+        "4": "次第だ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "动词ます形词干「なり」后接「次第」，表示一达到人数就马上结束。",
+      "option_explanations": {
+        "1": "错误：名词后表取决于，不能接「なり」表示一发生就做。",
+        "2": "错误：名词后表某种情况下的可能，不表示立即结束。",
+        "3": "正确：动词ます形词干「なり」后接「次第」，表示一达到人数就马上结束。",
+        "4": "错误：句末表示取决于，不能连接后项。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：次第（しだい）",
+        "url": "https://nihongokyoshi-net.com/2018/07/08/jlptn2-grammar-shidai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/ad756b1b9cc917bc829b-91d565b617c6.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "定員になり次第、受付を終了いたします。",
+        "transformations": [
+          "从原例句中仅将「次第」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0027的语义边界。",
+        "distractor_basis": [
+          "1. 错误：名词后表取决于，不能接「なり」表示一发生就做。",
+          "2. 错误：名词后表某种情况下的可能，不表示立即结束。",
+          "3. 正确：动词ます形词干「なり」后接「次第」，表示一达到人数就马上结束。",
+          "4. 错误：句末表示取决于，不能连接后项。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第3项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：名词后表取决于，不能接「なり」表示一发生就做。；2项：错误：名词后表某种情况下的可能，不表示立即结束。；4项：错误：句末表示取决于，不能连接后项。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "3",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0054",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "会議が終わり（　）、すぐに向かいます。",
+      "translation": "会议一结束，我就立刻过去。",
+      "tested_cards": [
+        "N2-G-0027"
+      ],
+      "conjugation": "动词ます形去「ます」＋次第",
+      "options": {
+        "1": "次第で",
+        "2": "次第",
+        "3": "次第では",
+        "4": "次第だ"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「終わり次第」与后面的「すぐに」呼应，表示一结束就行动。",
+      "option_explanations": {
+        "1": "错误：取决于名词的情况，不接「終わり」表达立即行动。",
+        "2": "正确：「終わり次第」与后面的「すぐに」呼应，表示一结束就行动。",
+        "3": "错误：表示某种条件可能性，不表示会议结束后马上行动。",
+        "4": "错误：句末断定，不能连接「すぐに向かいます」。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：次第（しだい）",
+        "url": "https://nihongokyoshi-net.com/2018/07/08/jlptn2-grammar-shidai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/ad756b1b9cc917bc829b-91d565b617c6.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "会議が終わり次第、すぐに向かいます。",
+        "transformations": [
+          "从原例句中仅将「次第」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0027的语义边界。",
+        "distractor_basis": [
+          "1. 错误：取决于名词的情况，不接「終わり」表达立即行动。",
+          "2. 正确：「終わり次第」与后面的「すぐに」呼应，表示一结束就行动。",
+          "3. 错误：表示某种条件可能性，不表示会议结束后马上行动。",
+          "4. 错误：句末断定，不能连接「すぐに向かいます」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第2项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：取决于名词的情况，不接「終わり」表达立即行动。；3项：错误：表示某种条件可能性，不表示会议结束后马上行动。；4项：错误：句末断定，不能连接「すぐに向かいます」。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "2",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0055",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "JLPTに受かるかどうかは、君たちの努力（　）。",
+      "translation": "能否通过 JLPT 取决于你们的努力。",
+      "tested_cards": [
+        "N2-G-0028"
+      ],
+      "conjugation": "名词＋次第だ／次第で",
+      "options": {
+        "1": "次第で",
+        "2": "次第",
+        "3": "次第では",
+        "4": "次第だ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "名词「努力」后接「次第だ」，作取决于努力的句末判断。",
+      "option_explanations": {
+        "1": "错误：连接后项，不能直接作本句的句末谓语。",
+        "2": "错误：动词ます形后表示一发生就做，此处前面是名词。",
+        "3": "错误：须引出某些条件下的可能结果，不能在此结束句子。",
+        "4": "正确：名词「努力」后接「次第だ」，作取决于努力的句末判断。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜次第だ / 〜次第で",
+        "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-shidaida/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/e1e29064033711aa8525-c9bf317b5a63.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "JLPTに受かるかどうかは、君たちの努力次第だ。",
+        "transformations": [
+          "从原例句中仅将「次第だ」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0028的语义边界。",
+        "distractor_basis": [
+          "1. 错误：连接后项，不能直接作本句的句末谓语。",
+          "2. 错误：动词ます形后表示一发生就做，此处前面是名词。",
+          "3. 错误：须引出某些条件下的可能结果，不能在此结束句子。",
+          "4. 正确：名词「努力」后接「次第だ」，作取决于努力的句末判断。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第4项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：连接后项，不能直接作本句的句末谓语。；2项：错误：动词ます形后表示一发生就做，此处前面是名词。；3项：错误：须引出某些条件下的可能结果，不能在此结束句子。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "4",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0056",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "家賃（　）、このアパートにするかどうか決める。",
+      "translation": "要看房租多少，再决定是否租这套公寓。",
+      "tested_cards": [
+        "N2-G-0028"
+      ],
+      "conjugation": "名词＋次第だ／次第で",
+      "options": {
+        "1": "次第で",
+        "2": "次第だ",
+        "3": "次第に",
+        "4": "次第は"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「家賃次第で」指出决定是否租房的依据。",
+      "option_explanations": {
+        "1": "正确：「家賃次第で」指出决定是否租房的依据。",
+        "2": "错误：在这里终结句子，无法连接「決める」。",
+        "3": "错误：表示逐渐，不接「家賃」表达决定依据。",
+        "4": "错误：不是此处表达「视房租而定」的接续。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜次第だ / 〜次第で",
+        "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-shidaida/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/e1e29064033711aa8525-c9bf317b5a63.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "家賃次第で、このアパートにするかどうか決める。",
+        "transformations": [
+          "从原例句中仅将「次第で」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0028的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「家賃次第で」指出决定是否租房的依据。",
+          "2. 错误：在这里终结句子，无法连接「決める」。",
+          "3. 错误：表示逐渐，不接「家賃」表达决定依据。",
+          "4. 错误：不是此处表达「视房租而定」的接续。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第1项可还原来源例句。",
+        "semantic_exclusion": "2项：错误：在这里终结句子，无法连接「決める」。；3项：错误：表示逐渐，不接「家賃」表达决定依据。；4项：错误：不是此处表达「视房租而定」的接续。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "1",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0057",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "努力（　）N１に合格できるかもしれませんよ",
+      "translation": "看努力程度，也许能通过 N1。",
+      "tested_cards": [
+        "N2-G-0029"
+      ],
+      "conjugation": "名词＋次第では",
+      "options": {
+        "1": "次第だ",
+        "2": "次第に",
+        "3": "次第を",
+        "4": "次第では"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「次第では」选出努力程度中的某些情况，再说可能通过。",
+      "option_explanations": {
+        "1": "错误：在此会结束判断，不能引出可能通过的结果。",
+        "2": "错误：表示逐渐，不表示某种努力程度下的可能。",
+        "3": "错误：不构成此处的条件表达。",
+        "4": "正确：「次第では」选出努力程度中的某些情况，再说可能通过。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "次第では｜日本語能力試験 JLPT N2文法",
+        "url": "https://www.edewakaru.com/archives/23959449.html",
+        "locator": "【接続】【意味】【例文】【説明】",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-21-30-test-1/n2-0029-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "努力次第ではN１に合格できるかもしれませんよ",
+        "transformations": [
+          "从原例句中仅将「次第では」挖空。",
+          "去除网页中的序号、汉字注音和目标语法两侧排版空格。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0029的语义边界。",
+        "distractor_basis": [
+          "1. 错误：在此会结束判断，不能引出可能通过的结果。",
+          "2. 错误：表示逐渐，不表示某种努力程度下的可能。",
+          "3. 错误：不构成此处的条件表达。",
+          "4. 正确：「次第では」选出努力程度中的某些情况，再说可能通过。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第4项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：在此会结束判断，不能引出可能通过的结果。；2项：错误：表示逐渐，不表示某种努力程度下的可能。；3项：错误：不构成此处的条件表达。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "4",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0058",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "パーティーは、参加者の人数（　）キャンセルになるらしい",
+      "translation": "聚会视参加人数而定，可能会取消。",
+      "tested_cards": [
+        "N2-G-0029"
+      ],
+      "conjugation": "名词＋次第では",
+      "options": {
+        "1": "次第では",
+        "2": "次第だ",
+        "3": "次第に",
+        "4": "次第を"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「人数次第では」表示在某些人数情况下可能取消。",
+      "option_explanations": {
+        "1": "正确：「人数次第では」表示在某些人数情况下可能取消。",
+        "2": "错误：不能在此连接「キャンセルになるらしい」。",
+        "3": "错误：表示逐渐，不表示人数达到某种条件。",
+        "4": "错误：不构成根据人数出现取消可能的表达。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "次第では｜日本語能力試験 JLPT N2文法",
+        "url": "https://www.edewakaru.com/archives/23959449.html",
+        "locator": "【接続】【意味】【例文】【説明】",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-21-30-test-1/n2-0029-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "パーティーは、参加者の人数次第ではキャンセルになるらしい",
+        "transformations": [
+          "从原例句中仅将「次第では」挖空。",
+          "去除网页中的序号、汉字注音和目标语法两侧排版空格。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0029的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「人数次第では」表示在某些人数情况下可能取消。",
+          "2. 错误：不能在此连接「キャンセルになるらしい」。",
+          "3. 错误：表示逐渐，不表示人数达到某种条件。",
+          "4. 错误：不构成根据人数出现取消可能的表达。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第1项可还原来源例句。",
+        "semantic_exclusion": "2项：错误：不能在此连接「キャンセルになるらしい」。；3项：错误：表示逐渐，不表示人数达到某种条件。；4项：错误：不构成根据人数出现取消可能的表达。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "1",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0059",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "理論（　）ではこのやり方でうまくいくはずなのだが。",
+      "translation": "理论上这种做法应该行得通，不过……",
+      "tested_cards": [
+        "N2-G-0030"
+      ],
+      "conjugation": "名词＋上（じょう）",
+      "options": {
+        "1": "次第だ",
+        "2": "気味",
+        "3": "上",
+        "4": "ことに"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「理論上（じょう）」表示从理论层面判断，与后面的「では」衔接。",
+      "option_explanations": {
+        "1": "错误：「理論次第だでは」无法连接后面的「では」。",
+        "2": "错误：「理論気味」不构成表示理论角度的自然说法。",
+        "3": "正确：「理論上（じょう）」表示从理论层面判断，与后面的「では」衔接。",
+        "4": "错误：「理論ことに」不构成此处的名词接续。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜の上では / 〜上（じょう）",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn0-grammar-jouno/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/f05c84590ad7a53b241d-7c1544b27fc1.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "理論上ではこのやり方でうまくいくはずなのだが。",
+        "transformations": [
+          "从原例句中仅将「上」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。",
+          "第1轮修订：以同一题源的理论上例句替换可能造成误解的法律上例句，并重做解析"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0030的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「理論次第だでは」无法连接后面的「では」。",
+          "2. 错误：「理論気味」不构成表示理论角度的自然说法。",
+          "3. 正确：「理論上（じょう）」表示从理论层面判断，与后面的「では」衔接。",
+          "4. 错误：「理論ことに」不构成此处的名词接续。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对名词接续与后续「では」；第3项可还原来源例句。",
+        "semantic_exclusion": "1项「次第だ」无法接后面的「では」；2项与4项均无法构成自然的名词接续。",
+        "unique_answer_rationale": "第3项「上」构成「理論上では」，符合原例句及理论层面的判断。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "3",
+          "notes": "修订后重新独立盲答；四个选项逐项排除，唯一答案与原例句一致。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "修订后重新核对原例句、挖空位置、接续、译文及四项解析，均与缓存证据一致。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0060",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このテレビ番組は子供の教育（　）よくない。",
+      "translation": "这个电视节目从儿童教育角度看不好。",
+      "tested_cards": [
+        "N2-G-0030"
+      ],
+      "conjugation": "名词＋上（じょう）",
+      "options": {
+        "1": "次第",
+        "2": "上",
+        "3": "気味",
+        "4": "ことに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「教育上（じょう）」表示从教育这一角度评价。",
+      "option_explanations": {
+        "1": "错误：表示情况或先后，不表示教育角度。",
+        "2": "正确：「教育上（じょう）」表示从教育这一角度评价。",
+        "3": "错误：表示轻微倾向，不能限定判断立场。",
+        "4": "错误：引出感情评价的事实，不接「教育」作角度。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜の上では / 〜上（じょう）",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn0-grammar-jouno/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/f05c84590ad7a53b241d-7c1544b27fc1.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "このテレビ番組は子供の教育上よくない。",
+        "transformations": [
+          "从原例句中仅将「上」挖空。",
+          "去除网页例句中的粗体排版。",
+          "依据目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0030的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示情况或先后，不表示教育角度。",
+          "2. 正确：「教育上（じょう）」表示从教育这一角度评价。",
+          "3. 错误：表示轻微倾向，不能限定判断立场。",
+          "4. 错误：引出感情评价的事实，不接「教育」作角度。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "四项已逐项核对接续；第2项可还原来源例句。",
+        "semantic_exclusion": "1项：错误：表示情况或先后，不表示教育角度。；3项：错误：表示轻微倾向，不能限定判断立场。；4项：错误：引出感情评价的事实，不接「教育」作角度。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义及上下文。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "answer": "2",
+          "notes": "独立盲答与标准答案一致；四项逐项检查，未发现第二个可接受答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/n2_21_30_blind",
+          "reviewed_at": "2026-09-26T14:06:49+08:00",
+          "notes": "已在证据路径逐字核对原例句及目标语法；挖空和排版变动有记录，四项解析与来源一致。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "draft",
+        "started_at": "2026-09-26T13:56:10+08:00",
+        "ended_at": "2026-09-26T13:58:59+08:00",
+        "duration_seconds": 169.192,
+        "metrics": {
+          "items": 20
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-26T13:58:59+08:00",
+        "ended_at": "2026-09-26T13:59:49+08:00",
+        "duration_seconds": 50.134,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T13:59:49+08:00",
+        "ended_at": "2026-09-26T13:59:49+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-26T14:00:02+08:00",
+        "ended_at": "2026-09-26T14:06:50+08:00",
+        "duration_seconds": 408.983,
+        "metrics": {
+          "passed": 20,
+          "revised": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T14:07:04+08:00",
+        "ended_at": "2026-09-26T14:07:04+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-26T14:08:51+08:00",
+        "ended_at": "2026-09-26T14:09:07+08:00",
+        "duration_seconds": 16.914,
+        "metrics": {
+          "structure_errors": 0,
+          "source_cache_errors": 0,
+          "link_errors": 0,
+          "regression_tests_passed": 5
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0059",
+        "revision": 2,
+        "reason": "以同一题源的理论上例句替换可能造成误解的法律上例句，并重做解析",
+        "at": "2026-09-26T14:02:56+08:00"
+      },
+      {
+        "question_id": "N2-Q-0042",
+        "revision": 2,
+        "reason": "原干扰项「がたい」可构成另一种合理解释，换为接续不成立的「ことなく」以确保唯一解",
+        "at": "2026-09-26T14:03:48+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}
