@@ -416,6 +416,123 @@
       "locator": "文型・例文区／原题区",
       "evidence_path": "quizzes/sources/cache/68d1f784108b1afd6162-3404057ce7bd.md",
       "content_sha256": "3404057ce7bd35503e3cebfa3455472bbbdfcadd2a37e0493cbf26253bfe6027"
+    },
+    "892bb2fd2f76778277cf": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/06/27/jlptn2-grammar-gatai/",
+      "title": "【JLPT N2】文法・例文：〜がたい",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0012"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/892bb2fd2f76778277cf-f965bc8e8a02.md",
+      "content_sha256": "f965bc8e8a02dc53e0199c88bf65fbe43f4f629f17c11630ba549a4fd8737663"
+    },
+    "83b2f0c774fbdb61491a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/23/jlptn2-grammar-kaneru/",
+      "title": "【JLPT N2】文法・例文：〜かねる",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0013"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/83b2f0c774fbdb61491a-3cf1cb956fea.md",
+      "content_sha256": "3cf1cb956fea222f25f4758fcff1ed12f64349c4e7d7b3724532d370c96f019b"
+    },
+    "49636f04ae1f4650a2ae": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/05/jlptn2-grammar-kanenai/",
+      "title": "【JLPT N2】文法・例文：〜かねない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0014"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/49636f04ae1f4650a2ae-15ab75eb9aaf.md",
+      "content_sha256": "15ab75eb9aaf2bd5c634f8662634393656f94d7c8c3ec26505801c25e6df5cba"
+    },
+    "c3dd8e827387e7133fd1": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn2-grammar-karashite/",
+      "title": "【JLPT N2】文法・例文：〜からして",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0015"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/c3dd8e827387e7133fd1-9eb2499603a0.md",
+      "content_sha256": "9eb2499603a0b503f4ba95d1c652a57a6edf3badd545a698e11ace1ccad5594c"
+    },
+    "05e623abaa76e77b6263": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/16/jlptn2-grammar-karasuruto/",
+      "title": "【JLPT N2】文法・例文：〜からすると / 〜からすれば",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0016"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/05e623abaa76e77b6263-3bcbdf46d58c.md",
+      "content_sha256": "3bcbdf46d58cf7c551ac6f7486444539eab974a9a08cd4f19c18be7955a3a0d8"
+    },
+    "ebc76f64534a0f8f9c5e": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/27/jlptn2-grammar-karatoitte/",
+      "title": "【JLPT N2】文法・例文：〜からといって",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0017"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/ebc76f64534a0f8f9c5e-4ada03284ed1.md",
+      "content_sha256": "4ada03284ed1b8b3261714b2d4e423de5451a89add2bfeaa616b8be1b90fd381"
+    },
+    "8d2550a854692df214a7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/10/14/jlptn2-grammar-gimi/",
+      "title": "【JLPT N2】文法・例文：〜気味",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0018"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/8d2550a854692df214a7-241e8d108125.md",
+      "content_sha256": "241e8d1081254dc1b5ca4edb74e25719320c45de18b3479cf3df31d6e916e064"
+    },
+    "76d73089d4a491a1f484": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/03/20/jlptn2-grammar-kiri/",
+      "title": "【JLPT N2】文法・例文：〜きり",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0019"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/76d73089d4a491a1f484-7a1b7d1e19cf.md",
+      "content_sha256": "7a1b7d1e19cfb330cc39f4e610a92d6022fd975677c4d0249b2e3cc4b7a6b85c"
+    },
+    "57b157f4801e4d3d8a28": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/17/jlptn2-grammar-kuseni/",
+      "title": "【JLPT N2】文法・例文：〜くせに / 〜くせして",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0020"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/57b157f4801e4d3d8a28-59bf671ec2b7.md",
+      "content_sha256": "59bf671ec2b7da1b68cf6bb59b4d61c1c7350dd3f5159304694844f2ea4f2d21"
     }
   }
 }

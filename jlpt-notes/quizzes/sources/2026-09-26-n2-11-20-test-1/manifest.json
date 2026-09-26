@@ -1,0 +1,1642 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-26-n2-11-20-test-1",
+    "title": "N2 第11～20课语法选择练习（20题）",
+    "date": "2026-09-26",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0021",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ニュースで見た（　）、今年の冬は寒くなるそうだ",
+      "translation": "就新闻所见，今年冬天似乎会很冷。",
+      "tested_cards": [
+        "N2-G-0011"
+      ],
+      "conjugation": "参见 N2-G-0011；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "限りでは",
+        "2": "からといって",
+        "3": "きり",
+        "4": "くせに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「見た限りでは」限定判断所依据的信息范围。",
+      "option_explanations": {
+        "1": "正确：「見た限りでは」限定判断所依据的信息范围。",
+        "2": "错误：「仅凭新闻看到」后应否定必然结论，后文却直接转述预测。",
+        "3": "错误：表示「此后再也没有」，后文没有持续中断的动作。",
+        "4": "错误：含批评性逆接，不能引出信息范围内的判断。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "限りでは（範囲）｜日本語能力試験 JLPT N2",
+        "url": "https://www.edewakaru.com/archives/19413989.html",
+        "locator": "【接続】【意味】【例文】",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-11-20-test-1/n2-0011-evidence.md"
+        ],
+        "original_example": "ニュースで見た限りでは、今年の冬は寒くなるそうだ",
+        "transformations": [
+          "从原例句中仅将「限りでは」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0011的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「見た限りでは」限定判断所依据的信息范围。",
+          "2. 错误：「仅凭新闻看到」后应否定必然结论，后文却直接转述预测。",
+          "3. 错误：表示「此后再也没有」，后文没有持续中断的动作。",
+          "4. 错误：含批评性逆接，不能引出信息范围内的判断。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第1项还原来源例句的形式。",
+        "semantic_exclusion": "2项：错误：「仅凭新闻看到」后应否定必然结论，后文却直接转述预测。；3项：错误：表示「此后再也没有」，后文没有持续中断的动作。；4项：错误：含批评性逆接，不能引出信息范围内的判断。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "1",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0022",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "医者：私が診た（　）、かぜのようですね",
+      "translation": "医生：根据我检查到的情况，似乎是感冒。",
+      "tested_cards": [
+        "N2-G-0011"
+      ],
+      "conjugation": "参见 N2-G-0011；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "限りでは",
+        "3": "くせに",
+        "4": "きり"
+      },
+      "correct_option": "2",
+      "correct_explanation": "医生只在已经检查的范围内作出推测。",
+      "option_explanations": {
+        "1": "错误：后文没有否定「因为检查过就必然如此」的推论。",
+        "2": "正确：医生只在已经检查的范围内作出推测。",
+        "3": "错误：表达责备的逆接，与医生的谨慎诊断不合。",
+        "4": "错误：表示检查后一直未再做某事，不能接诊断。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "限りでは（範囲）｜日本語能力試験 JLPT N2",
+        "url": "https://www.edewakaru.com/archives/19413989.html",
+        "locator": "【接続】【意味】【例文】",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-11-20-test-1/n2-0011-evidence.md"
+        ],
+        "original_example": "医者：私が診た限りでは、かぜのようですね",
+        "transformations": [
+          "从原例句中仅将「限りでは」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0011的语义边界。",
+        "distractor_basis": [
+          "1. 错误：后文没有否定「因为检查过就必然如此」的推论。",
+          "2. 正确：医生只在已经检查的范围内作出推测。",
+          "3. 错误：表达责备的逆接，与医生的谨慎诊断不合。",
+          "4. 错误：表示检查后一直未再做某事，不能接诊断。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第2项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：后文没有否定「因为检查过就必然如此」的推论。；3项：错误：表达责备的逆接，与医生的谨慎诊断不合。；4项：错误：表示检查后一直未再做某事，不能接诊断。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "2",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0023",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼はいつも嘘ばかりつくので、今回の話も本当かどうか信じ（　）。",
+      "translation": "他总说谎，因此这次的话也难以相信。",
+      "tested_cards": [
+        "N2-G-0012"
+      ],
+      "conjugation": "参见 N2-G-0012；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねない",
+        "2": "気味だ",
+        "3": "がたい",
+        "4": "きりだ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「信じがたい」表示心理上难以相信。",
+      "option_explanations": {
+        "1": "错误：表示可能发生不良结果，与「难以相信」相反。",
+        "2": "错误：「信じ気味」不表示心理上难以相信。",
+        "3": "正确：「信じがたい」表示心理上难以相信。",
+        "4": "错误：「信じきりだ」若成立也表示完全相信，与说谎语境冲突。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜がたい",
+        "url": "https://nihongokyoshi-net.com/2018/06/27/jlptn2-grammar-gatai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/892bb2fd2f76778277cf-f965bc8e8a02.md"
+        ],
+        "original_example": "彼はいつも嘘ばかりつくので、今回の話も本当かどうか信じがたい。",
+        "transformations": [
+          "从原例句中仅将「がたい」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0012的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示可能发生不良结果，与「难以相信」相反。",
+          "2. 错误：「信じ気味」不表示心理上难以相信。",
+          "3. 正确：「信じがたい」表示心理上难以相信。",
+          "4. 错误：「信じきりだ」若成立也表示完全相信，与说谎语境冲突。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第3项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：表示可能发生不良结果，与「难以相信」相反。；2项：错误：「信じ気味」不表示心理上难以相信。；4项：错误：「信じきりだ」若成立也表示完全相信，与说谎语境冲突。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "3",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0024",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "２０代の男性がナイフで女性を刺したそうです。本当に許し（　）行為だ。",
+      "translation": "听说一名二十多岁男性持刀刺伤女性，这真是不可原谅的行为。",
+      "tested_cards": [
+        "N2-G-0012"
+      ],
+      "conjugation": "参见 N2-G-0012；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねない",
+        "2": "気味の",
+        "3": "きりの",
+        "4": "がたい"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「許しがたい」修饰「行為」，表示难以容许。",
+      "option_explanations": {
+        "1": "错误：表示可能会原谅，和上下文的强烈谴责相反。",
+        "2": "错误：「許し気味」不表示不能原谅。",
+        "3": "错误：「許しきり」没有此处的形容词意义。",
+        "4": "正确：「許しがたい」修饰「行為」，表示难以容许。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜がたい",
+        "url": "https://nihongokyoshi-net.com/2018/06/27/jlptn2-grammar-gatai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/892bb2fd2f76778277cf-f965bc8e8a02.md"
+        ],
+        "original_example": "２０代の男性がナイフで女性を刺したそうです。本当に許しがたい行為だ。",
+        "transformations": [
+          "从原例句中仅将「がたい」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。",
+          "第1轮修订：题源复核指出选项1的定语判断过于绝对，改为仅说明语义冲突"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0012的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示可能会原谅，和上下文的强烈谴责相反。",
+          "2. 错误：「許し気味」不表示不能原谅。",
+          "3. 错误：「許しきり」没有此处的形容词意义。",
+          "4. 正确：「許しがたい」修饰「行為」，表示难以容许。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "第4项还原来源的「許しがたい行為」；另三项与词形及上下文逐项比较。",
+        "semantic_exclusion": "第1项表示可能原谅，与对暴力行为的强烈谴责冲突；第2、3项不能表达不可原谅。",
+        "unique_answer_rationale": "只有第4项同时构成自然定语并表达不可原谅的评价。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "4",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0025",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私は責任者ではございませんので、その質問にはお答えし（　）。",
+      "translation": "我不是负责人，因此这个问题恕难回答。",
+      "tested_cards": [
+        "N2-G-0013"
+      ],
+      "conjugation": "参见 N2-G-0013；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねます",
+        "2": "かねない",
+        "3": "気味です",
+        "4": "きりです"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「お答えしかねます」是正式场合的婉转拒绝。",
+      "option_explanations": {
+        "1": "正确：「お答えしかねます」是正式场合的婉转拒绝。",
+        "2": "错误：表示可能作出不良行为，与礼貌拒答相反。",
+        "3": "错误：「答えし気味」接续不成立，也没有婉拒义。",
+        "4": "错误：「答えしきり」接续不成立。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜かねる",
+        "url": "https://nihongokyoshi-net.com/2018/07/23/jlptn2-grammar-kaneru/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/83b2f0c774fbdb61491a-3cf1cb956fea.md"
+        ],
+        "original_example": "私は責任者ではございませんので、その質問にはお答えしかねます。",
+        "transformations": [
+          "从原例句中仅将「かねます」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0013的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「お答えしかねます」是正式场合的婉转拒绝。",
+          "2. 错误：表示可能作出不良行为，与礼貌拒答相反。",
+          "3. 错误：「答えし気味」接续不成立，也没有婉拒义。",
+          "4. 错误：「答えしきり」接续不成立。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第1项还原来源例句的形式。",
+        "semantic_exclusion": "2项：错误：表示可能作出不良行为，与礼貌拒答相反。；3项：错误：「答えし気味」接续不成立，也没有婉拒义。；4项：错误：「答えしきり」接续不成立。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "1",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0026",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "B社の提案ですが、私個人としては賛成致し（　）。",
+      "translation": "关于B公司的提案，我个人恐怕难以赞同。",
+      "tested_cards": [
+        "N2-G-0013"
+      ],
+      "conjugation": "参见 N2-G-0013；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねない",
+        "2": "かねます",
+        "3": "気味です",
+        "4": "きりです"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「賛成致しかねます」以礼貌形式表达难以赞同。",
+      "option_explanations": {
+        "1": "错误：表示不良行为发生的可能，不表示委婉不赞同。",
+        "2": "正确：「賛成致しかねます」以礼貌形式表达难以赞同。",
+        "3": "错误：「賛成致し気味」既不自然也不表示拒绝。",
+        "4": "错误：不能表达难以赞同，接续也不成立。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜かねる",
+        "url": "https://nihongokyoshi-net.com/2018/07/23/jlptn2-grammar-kaneru/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/83b2f0c774fbdb61491a-3cf1cb956fea.md"
+        ],
+        "original_example": "B社の提案ですが、私個人としては賛成致しかねます。",
+        "transformations": [
+          "从原例句中仅将「かねます」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0013的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不良行为发生的可能，不表示委婉不赞同。",
+          "2. 正确：「賛成致しかねます」以礼貌形式表达难以赞同。",
+          "3. 错误：「賛成致し気味」既不自然也不表示拒绝。",
+          "4. 错误：不能表达难以赞同，接续也不成立。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第2项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：表示不良行为发生的可能，不表示委婉不赞同。；3项：错误：「賛成致し気味」既不自然也不表示拒绝。；4项：错误：不能表达难以赞同，接续也不成立。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "2",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0027",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "こんなに暑いと熱中症になり（　）。",
+      "translation": "这么热，可能会中暑。",
+      "tested_cards": [
+        "N2-G-0014"
+      ],
+      "conjugation": "参见 N2-G-0014；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねるよ",
+        "2": "がたいよ",
+        "3": "かねないよ",
+        "4": "きりだよ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「なりかねない」表示存在中暑这一不良风险。",
+      "option_explanations": {
+        "1": "错误：表示想做却做不到，中暑不是有意要做的事。",
+        "2": "错误：表示心理上难以做到，与中暑风险不合。",
+        "3": "正确：「なりかねない」表示存在中暑这一不良风险。",
+        "4": "错误：不表示未来的不良可能性。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜かねない",
+        "url": "https://nihongokyoshi-net.com/2018/04/05/jlptn2-grammar-kanenai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/49636f04ae1f4650a2ae-15ab75eb9aaf.md"
+        ],
+        "original_example": "こんなに暑いと熱中症になりかねないよ。",
+        "transformations": [
+          "从原例句中仅将「かねないよ」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0014的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示想做却做不到，中暑不是有意要做的事。",
+          "2. 错误：表示心理上难以做到，与中暑风险不合。",
+          "3. 正确：「なりかねない」表示存在中暑这一不良风险。",
+          "4. 错误：不表示未来的不良可能性。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第3项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：表示想做却做不到，中暑不是有意要做的事。；2项：错误：表示心理上难以做到，与中暑风险不合。；4项：错误：不表示未来的不良可能性。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "3",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0028",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このまま放置しておくと、大問題に発展し（　）。",
+      "translation": "继续放任不管，可能发展成大问题。",
+      "tested_cards": [
+        "N2-G-0014"
+      ],
+      "conjugation": "参见 N2-G-0014；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねる",
+        "2": "がたい",
+        "3": "きり",
+        "4": "かねない"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「発展しかねない」表示可能导致不良结果。",
+      "option_explanations": {
+        "1": "错误：表示难以做到，不能表示未来坏结果的风险。",
+        "2": "错误：表示难以做到，与问题恶化的可能性不合。",
+        "3": "错误：不表示可能发展成大问题。",
+        "4": "正确：「発展しかねない」表示可能导致不良结果。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜かねない",
+        "url": "https://nihongokyoshi-net.com/2018/04/05/jlptn2-grammar-kanenai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/49636f04ae1f4650a2ae-15ab75eb9aaf.md"
+        ],
+        "original_example": "このまま放置しておくと、大問題に発展しかねない。",
+        "transformations": [
+          "从原例句中仅将「かねない」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0014的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示难以做到，不能表示未来坏结果的风险。",
+          "2. 错误：表示难以做到，与问题恶化的可能性不合。",
+          "3. 错误：不表示可能发展成大问题。",
+          "4. 正确：「発展しかねない」表示可能导致不良结果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第4项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：表示难以做到，不能表示未来坏结果的风险。；2项：错误：表示难以做到，与问题恶化的可能性不合。；3项：错误：不表示可能发展成大问题。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "4",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0029",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この家は玄関（　）立派だ。きっと、お金持ちが住んでいるんだろう。",
+      "translation": "这房子单看玄关就很气派，住户大概很有钱。",
+      "tested_cards": [
+        "N2-G-0015"
+      ],
+      "conjugation": "参见 N2-G-0015；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からして",
+        "2": "からといって",
+        "3": "きり",
+        "4": "がたい"
+      },
+      "correct_option": "1",
+      "correct_explanation": "以玄关这个显眼的局部来评价房子整体。",
+      "option_explanations": {
+        "1": "正确：以玄关这个显眼的局部来评价房子整体。",
+        "2": "错误：表示不能仅凭某理由下结论，后文却正作出推测。",
+        "3": "错误：表示仅有或某动作之后持续，不能从玄关这一局部评价整栋房子。",
+        "4": "错误：接动词ます形，不能接「玄関」表示局部。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜からして",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn2-grammar-karashite/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/c3dd8e827387e7133fd1-9eb2499603a0.md"
+        ],
+        "original_example": "この家は玄関からして立派だ。きっと、お金持ちが住んでいるんだろう。",
+        "transformations": [
+          "从原例句中仅将「からして」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0015的语义边界。",
+        "distractor_basis": [
+          "1. 正确：以玄关这个显眼的局部来评价房子整体。",
+          "2. 错误：表示不能仅凭某理由下结论，后文却正作出推测。",
+          "3. 错误：表示仅有或某动作之后持续，不能从玄关这一局部评价整栋房子。",
+          "4. 错误：接动词ます形，不能接「玄関」表示局部。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第1项还原来源例句的形式。",
+        "semantic_exclusion": "2项：错误：表示不能仅凭某理由下结论，后文却正作出推测。；3项：错误：表示仅有或某动作之后持续，不能从玄关这一局部评价整栋房子。；4项：错误：接动词ます形，不能接「玄関」表示局部。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "1",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0030",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は言葉遣い（　）生意気だ。",
+      "translation": "他单从措辞上就显得傲慢。",
+      "tested_cards": [
+        "N2-G-0015"
+      ],
+      "conjugation": "参见 N2-G-0015；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "からして",
+        "3": "きり",
+        "4": "がたい"
+      },
+      "correct_option": "2",
+      "correct_explanation": "措辞是首先显露的局部，由此作负面评价。",
+      "option_explanations": {
+        "1": "错误：后文没有否定以措辞为依据的结论。",
+        "2": "正确：措辞是首先显露的局部，由此作负面评价。",
+        "3": "错误：表示仅有，不表达以局部作为典型例子来评价。",
+        "4": "错误：不能接在名词「言葉遣い」后形成该评价。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜からして",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn2-grammar-karashite/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/c3dd8e827387e7133fd1-9eb2499603a0.md"
+        ],
+        "original_example": "彼は言葉遣いからして生意気だ。",
+        "transformations": [
+          "从原例句中仅将「からして」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0015的语义边界。",
+        "distractor_basis": [
+          "1. 错误：后文没有否定以措辞为依据的结论。",
+          "2. 正确：措辞是首先显露的局部，由此作负面评价。",
+          "3. 错误：表示仅有，不表达以局部作为典型例子来评价。",
+          "4. 错误：不能接在名词「言葉遣い」后形成该评价。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第2项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：后文没有否定以措辞为依据的结论。；3项：错误：表示仅有，不表达以局部作为典型例子来评价。；4项：错误：不能接在名词「言葉遣い」后形成该评价。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "2",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0031",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ネイティブの日本人（　）、トムさんの日本語はまだまだです。",
+      "translation": "从母语为日语者的立场看，汤姆的日语仍有差距。",
+      "tested_cards": [
+        "N2-G-0016"
+      ],
+      "conjugation": "参见 N2-G-0016；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "きり",
+        "3": "からすると",
+        "4": "がたい"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「日本人からすると」明确标出判断者的立场。",
+      "option_explanations": {
+        "1": "错误：不表示评价者的立场，且后文没有否定因果推论。",
+        "2": "错误：表示仅有，不能引出评价立场。",
+        "3": "正确：「日本人からすると」明确标出判断者的立场。",
+        "4": "错误：只能接动词ます形，不接名词立场。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜からすると / 〜からすれば",
+        "url": "https://nihongokyoshi-net.com/2019/04/16/jlptn2-grammar-karasuruto/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/05e623abaa76e77b6263-3bcbdf46d58c.md"
+        ],
+        "original_example": "ネイティブの日本人からすると、トムさんの日本語はまだまだです。",
+        "transformations": [
+          "从原例句中仅将「からすると」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0016的语义边界。",
+        "distractor_basis": [
+          "1. 错误：不表示评价者的立场，且后文没有否定因果推论。",
+          "2. 错误：表示仅有，不能引出评价立场。",
+          "3. 正确：「日本人からすると」明确标出判断者的立场。",
+          "4. 错误：只能接动词ます形，不接名词立场。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第3项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：不表示评价者的立场，且后文没有否定因果推论。；2项：错误：表示仅有，不能引出评价立场。；4项：错误：只能接动词ます形，不接名词立场。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "3",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0032",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "あの服装（　）、彼はおそらくデザイナーでしょう。",
+      "translation": "从那身打扮来看，他大概是设计师。",
+      "tested_cards": [
+        "N2-G-0016"
+      ],
+      "conjugation": "参见 N2-G-0016；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "きり",
+        "3": "がたい",
+        "4": "からすると"
+      },
+      "correct_option": "4",
+      "correct_explanation": "从可见的服装线索推测职业。",
+      "option_explanations": {
+        "1": "错误：后文是肯定推测，没有否定仅凭服装就能判断。",
+        "2": "错误：表示仅有，不能引出根据服装的推测。",
+        "3": "错误：接续不合，不能接「服装」表达依据。",
+        "4": "正确：从可见的服装线索推测职业。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜からすると / 〜からすれば",
+        "url": "https://nihongokyoshi-net.com/2019/04/16/jlptn2-grammar-karasuruto/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/05e623abaa76e77b6263-3bcbdf46d58c.md"
+        ],
+        "original_example": "あの服装からすると、彼はおそらくデザイナーでしょう。",
+        "transformations": [
+          "从原例句中仅将「からすると」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0016的语义边界。",
+        "distractor_basis": [
+          "1. 错误：后文是肯定推测，没有否定仅凭服装就能判断。",
+          "2. 错误：表示仅有，不能引出根据服装的推测。",
+          "3. 错误：接续不合，不能接「服装」表达依据。",
+          "4. 正确：从可见的服装线索推测职业。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第4项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：后文是肯定推测，没有否定仅凭服装就能判断。；2项：错误：表示仅有，不能引出根据服装的推测。；3项：错误：接续不合，不能接「服装」表达依据。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "4",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0033",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "海外に住んだ（　）、英語がペラペラになるとは限らない。",
+      "translation": "不能因为在海外住过，就断定英语会变流利。",
+      "tested_cards": [
+        "N2-G-0017"
+      ],
+      "conjugation": "参见 N2-G-0017；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "からして",
+        "3": "きり",
+        "4": "くせに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「からといって」与「とは限らない」合用，否定简单推论。",
+      "option_explanations": {
+        "1": "正确：「からといって」与「とは限らない」合用，否定简单推论。",
+        "2": "错误：表示从某一点着眼，不能引出此处对因果必然性的否定。",
+        "3": "错误：表示此后再未发生，不承接「とは限らない」。",
+        "4": "错误：带责备色彩的逆接，不表示否定经验与能力的必然关系。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜からといって",
+        "url": "https://nihongokyoshi-net.com/2019/02/27/jlptn2-grammar-karatoitte/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/ebc76f64534a0f8f9c5e-4ada03284ed1.md"
+        ],
+        "original_example": "海外に住んだからといって、英語がペラペラになるとは限らない。",
+        "transformations": [
+          "从原例句中仅将「からといって」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0017的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「からといって」与「とは限らない」合用，否定简单推论。",
+          "2. 错误：表示从某一点着眼，不能引出此处对因果必然性的否定。",
+          "3. 错误：表示此后再未发生，不承接「とは限らない」。",
+          "4. 错误：带责备色彩的逆接，不表示否定经验与能力的必然关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第1项还原来源例句的形式。",
+        "semantic_exclusion": "2项：错误：表示从某一点着眼，不能引出此处对因果必然性的否定。；3项：错误：表示此后再未发生，不承接「とは限らない」。；4项：错误：带责备色彩的逆接，不表示否定经验与能力的必然关系。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "1",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0034",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "お金持ちだ（　）、幸せだとは限らない。",
+      "translation": "即使有钱，也不一定幸福。",
+      "tested_cards": [
+        "N2-G-0017"
+      ],
+      "conjugation": "参见 N2-G-0017；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からすると",
+        "2": "からといって",
+        "3": "きり",
+        "4": "くせに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "名词谓语「お金持ちだ」后接「からといって」，后文作部分否定。",
+      "option_explanations": {
+        "1": "错误：「お金持ちだからすると」接续不成立，且后文否定必然结论。",
+        "2": "正确：名词谓语「お金持ちだ」后接「からといって」，后文作部分否定。",
+        "3": "错误：不能接「だ」并引出部分否定。",
+        "4": "错误：「だくせに」接续不合，且语义不是责备。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜からといって",
+        "url": "https://nihongokyoshi-net.com/2019/02/27/jlptn2-grammar-karatoitte/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/ebc76f64534a0f8f9c5e-4ada03284ed1.md"
+        ],
+        "original_example": "お金持ちだからといって、幸せだとは限らない。",
+        "transformations": [
+          "从原例句中仅将「からといって」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0017的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「お金持ちだからすると」接续不成立，且后文否定必然结论。",
+          "2. 正确：名词谓语「お金持ちだ」后接「からといって」，后文作部分否定。",
+          "3. 错误：不能接「だ」并引出部分否定。",
+          "4. 错误：「だくせに」接续不合，且语义不是责备。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第2项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：「お金持ちだからすると」接续不成立，且后文否定必然结论。；3项：错误：不能接「だ」并引出部分否定。；4项：错误：「だくせに」接续不合，且语义不是责备。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "2",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0035",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "社会人になってから、全然運動しなくなったので、最近太り（　）。",
+      "translation": "工作后不再运动，最近有些发胖。",
+      "tested_cards": [
+        "N2-G-0018"
+      ],
+      "conjugation": "参见 N2-G-0018；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねないよ",
+        "2": "がたいよ",
+        "3": "気味だよ",
+        "4": "きりだよ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「太り気味」描述已显现的轻微不良倾向。",
+      "option_explanations": {
+        "1": "错误：表示未来可能发生坏结果，原句说最近已经有些发胖。",
+        "2": "错误：表示难以做到，不能描述发胖倾向。",
+        "3": "正确：「太り気味」描述已显现的轻微不良倾向。",
+        "4": "错误：表示仅此或动作后持续，不表达程度轻微的倾向。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜気味",
+        "url": "https://nihongokyoshi-net.com/2018/10/14/jlptn2-grammar-gimi/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/8d2550a854692df214a7-241e8d108125.md"
+        ],
+        "original_example": "社会人になってから、全然運動しなくなったので、最近太り気味だよ。",
+        "transformations": [
+          "从原例句中仅将「気味だよ」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0018的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示未来可能发生坏结果，原句说最近已经有些发胖。",
+          "2. 错误：表示难以做到，不能描述发胖倾向。",
+          "3. 正确：「太り気味」描述已显现的轻微不良倾向。",
+          "4. 错误：表示仅此或动作后持续，不表达程度轻微的倾向。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第3项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：表示未来可能发生坏结果，原句说最近已经有些发胖。；2项：错误：表示难以做到，不能描述发胖倾向。；4项：错误：表示仅此或动作后持续，不表达程度轻微的倾向。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "3",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0036",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ちょっと風邪（　）なので、早めに帰らせていただけませんか。",
+      "translation": "我有点感冒，能否让我早点回去？",
+      "tested_cards": [
+        "N2-G-0018"
+      ],
+      "conjugation": "参见 N2-G-0018；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "かねる",
+        "2": "からして",
+        "3": "きり",
+        "4": "気味"
+      },
+      "correct_option": "4",
+      "correct_explanation": "名词「風邪」后接「気味」，表示轻微症状。",
+      "option_explanations": {
+        "1": "错误：只能接动词ます形，且表示难以做到。",
+        "2": "错误：表示从某一点着眼，不能接成「有点感冒」。",
+        "3": "错误：「風邪きり」不表示略有感冒症状。",
+        "4": "正确：名词「風邪」后接「気味」，表示轻微症状。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜気味",
+        "url": "https://nihongokyoshi-net.com/2018/10/14/jlptn2-grammar-gimi/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/8d2550a854692df214a7-241e8d108125.md"
+        ],
+        "original_example": "ちょっと風邪気味なので、早めに帰らせていただけませんか。",
+        "transformations": [
+          "从原例句中仅将「気味」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0018的语义边界。",
+        "distractor_basis": [
+          "1. 错误：只能接动词ます形，且表示难以做到。",
+          "2. 错误：表示从某一点着眼，不能接成「有点感冒」。",
+          "3. 错误：「風邪きり」不表示略有感冒症状。",
+          "4. 正确：名词「風邪」后接「気味」，表示轻微症状。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第4项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：只能接动词ます形，且表示难以做到。；2项：错误：表示从某一点着眼，不能接成「有点感冒」。；3项：错误：「風邪きり」不表示略有感冒症状。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "4",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0037",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女とは別れた（　）、一度も会っていない。",
+      "translation": "与她分手后就再也没见过。",
+      "tested_cards": [
+        "N2-G-0019"
+      ],
+      "conjugation": "参见 N2-G-0019；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "きり",
+        "2": "気味",
+        "3": "がたい",
+        "4": "くせに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「別れたきり」说明分手后见面的动作一直没有再发生。",
+      "option_explanations": {
+        "1": "正确：「別れたきり」说明分手后见面的动作一直没有再发生。",
+        "2": "错误：表示有点某种倾向，不能接已完成动作表示此后未再见。",
+        "3": "错误：接动词ます形，且表示难以做到。",
+        "4": "错误：责备性逆接与「分手后没见过」这一顺承关系冲突。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜きり",
+        "url": "https://nihongokyoshi-net.com/2019/03/20/jlptn2-grammar-kiri/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/76d73089d4a491a1f484-7a1b7d1e19cf.md"
+        ],
+        "original_example": "彼女とは別れたきり、一度も会っていない。",
+        "transformations": [
+          "从原例句中仅将「きり」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0019的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「別れたきり」说明分手后见面的动作一直没有再发生。",
+          "2. 错误：表示有点某种倾向，不能接已完成动作表示此后未再见。",
+          "3. 错误：接动词ます形，且表示难以做到。",
+          "4. 错误：责备性逆接与「分手后没见过」这一顺承关系冲突。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第1项还原来源例句的形式。",
+        "semantic_exclusion": "2项：错误：表示有点某种倾向，不能接已完成动作表示此后未再见。；3项：错误：接动词ます形，且表示难以做到。；4项：错误：责备性逆接与「分手后没见过」这一顺承关系冲突。",
+        "unique_answer_rationale": "只有第1项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "1",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0038",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今度、二人（　）で食事しない？",
+      "translation": "下次要不要只有我们两个人一起吃饭？",
+      "tested_cards": [
+        "N2-G-0019"
+      ],
+      "conjugation": "参见 N2-G-0019；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "気味",
+        "2": "きり",
+        "3": "かねる",
+        "4": "からして"
+      },
+      "correct_option": "2",
+      "correct_explanation": "数量词「二人」接「きり」表示仅两人。",
+      "option_explanations": {
+        "1": "错误：表示略有倾向，不能表示人数限定。",
+        "2": "正确：数量词「二人」接「きり」表示仅两人。",
+        "3": "错误：接动词ます形，不能接数量词「二人」。",
+        "4": "错误：表示以某点为依据，不能表示只有两人。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜きり",
+        "url": "https://nihongokyoshi-net.com/2019/03/20/jlptn2-grammar-kiri/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/76d73089d4a491a1f484-7a1b7d1e19cf.md"
+        ],
+        "original_example": "今度、二人きりで食事しない？",
+        "transformations": [
+          "从原例句中仅将「きり」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0019的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示略有倾向，不能表示人数限定。",
+          "2. 正确：数量词「二人」接「きり」表示仅两人。",
+          "3. 错误：接动词ます形，不能接数量词「二人」。",
+          "4. 错误：表示以某点为依据，不能表示只有两人。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第2项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：表示略有倾向，不能表示人数限定。；3项：错误：接动词ます形，不能接数量词「二人」。；4项：错误：表示以某点为依据，不能表示只有两人。",
+        "unique_answer_rationale": "只有第2项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "2",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0039",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は何もしない（　）、いつも口だけは達者なんだよな。",
+      "translation": "他明明什么都不做，却总是嘴上厉害。",
+      "tested_cards": [
+        "N2-G-0020"
+      ],
+      "conjugation": "参见 N2-G-0020；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "きり",
+        "3": "くせに",
+        "4": "気味で"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「くせに」表达说话人对对方言行反差的不满。",
+      "option_explanations": {
+        "1": "错误：后文在责备言行反差，不是否定「不做事就必然会说」的推论。",
+        "2": "错误：不表示带批评情绪的逆接。",
+        "3": "正确：「くせに」表达说话人对对方言行反差的不满。",
+        "4": "错误：不表示明明如此却如此的对照。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜くせに / 〜くせして",
+        "url": "https://nihongokyoshi-net.com/2018/07/17/jlptn2-grammar-kuseni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/57b157f4801e4d3d8a28-59bf671ec2b7.md"
+        ],
+        "original_example": "彼は何もしないくせに、いつも口だけは達者なんだよな。",
+        "transformations": [
+          "从原例句中仅将「くせに」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0020的语义边界。",
+        "distractor_basis": [
+          "1. 错误：后文在责备言行反差，不是否定「不做事就必然会说」的推论。",
+          "2. 错误：不表示带批评情绪的逆接。",
+          "3. 正确：「くせに」表达说话人对对方言行反差的不满。",
+          "4. 错误：不表示明明如此却如此的对照。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第3项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：后文在责备言行反差，不是否定「不做事就必然会说」的推论。；2项：错误：不表示带批评情绪的逆接。；4项：错误：不表示明明如此却如此的对照。",
+        "unique_answer_rationale": "只有第3项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "3",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0040",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は料理ができない（　）、私の作る料理にいつも厳しい。",
+      "translation": "他自己明明不会做饭，却总挑剔我做的菜。",
+      "tested_cards": [
+        "N2-G-0020"
+      ],
+      "conjugation": "参见 N2-G-0020；正确项须与空格前后接续并保持原例句的含义。",
+      "options": {
+        "1": "からといって",
+        "2": "きり",
+        "3": "気味で",
+        "4": "くせに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「くせに」批评对方自己不会做却挑剔别人。",
+      "option_explanations": {
+        "1": "错误：后项是批评其双重标准，不是在否定某种必然推论。",
+        "2": "错误：不表示批评性的逆接。",
+        "3": "错误：不表示能力与态度的反差。",
+        "4": "正确：「くせに」批评对方自己不会做却挑剔别人。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜くせに / 〜くせして",
+        "url": "https://nihongokyoshi-net.com/2018/07/17/jlptn2-grammar-kuseni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-26",
+        "kind": "derived_from_example",
+        "evidence_paths": [
+          "quizzes/sources/cache/57b157f4801e4d3d8a28-59bf671ec2b7.md"
+        ],
+        "original_example": "彼は料理ができないくせに、私の作る料理にいつも厳しい。",
+        "transformations": [
+          "从原例句中仅将「くせに」挖空；保留其余日语内容。",
+          "去除网页中的粗体排版；第11课例句另去除汉字注音。",
+          "依照目标语法与上下文增设三个干扰项。"
+        ],
+        "answer_basis": "来源页面的文型说明、接续与例句；N2-G-0020的语义边界。",
+        "distractor_basis": [
+          "1. 错误：后项是批评其双重标准，不是在否定某种必然推论。",
+          "2. 错误：不表示批评性的逆接。",
+          "3. 错误：不表示能力与态度的反差。",
+          "4. 正确：「くせに」批评对方自己不会做却挑剔别人。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "逐项检查空格前后的接续；第4项还原来源例句的形式。",
+        "semantic_exclusion": "1项：错误：后项是批评其双重标准，不是在否定某种必然推论。；2项：错误：不表示批评性的逆接。；3项：错误：不表示能力与态度的反差。",
+        "unique_answer_rationale": "只有第4项同时符合原例句、目标语义与上下文；另三项已逐一排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "answer": "4",
+          "notes": "独立先读试卷与语法卡答题；第4题修订后单题复审通过，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理 n2_11_20_blind_review",
+          "reviewed_at": "2026-09-26T13:15:48+08:00",
+          "notes": "原例句、挖空位置、答案与四项依据在最小证据中复核；第4题修订后单题复审通过。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-09-26T13:08:00+08:00",
+        "ended_at": "2026-09-26T13:10:48+08:00",
+        "duration_seconds": null,
+        "metrics": {
+          "items": 20
+        },
+        "timing_note": "阶段开始时未同步计时，时长未准确记录。"
+      },
+      {
+        "name": "search",
+        "started_at": "2026-09-26T13:10:37+08:00",
+        "ended_at": "2026-09-26T13:10:48+08:00",
+        "duration_seconds": null,
+        "metrics": {
+          "items": 20
+        },
+        "timing_note": "阶段开始时未同步计时，时长未准确记录。"
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-09-26T13:10:37+08:00",
+        "ended_at": "2026-09-26T13:10:48+08:00",
+        "duration_seconds": null,
+        "metrics": {
+          "items": 20
+        },
+        "timing_note": "阶段开始时未同步计时，时长未准确记录。"
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-09-26T13:10:37+08:00",
+        "ended_at": "2026-09-26T13:10:48+08:00",
+        "duration_seconds": null,
+        "metrics": {
+          "items": 20
+        },
+        "timing_note": "阶段开始时未同步计时，时长未准确记录。"
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T13:11:32+08:00",
+        "ended_at": "2026-09-26T13:11:32+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-26T13:11:07+08:00",
+        "ended_at": "2026-09-26T13:12:02+08:00",
+        "duration_seconds": 55.027,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T13:14:50+08:00",
+        "ended_at": "2026-09-26T13:14:50+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-26T13:12:02+08:00",
+        "ended_at": "2026-09-26T13:15:48+08:00",
+        "duration_seconds": 226.405,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-26T13:15:48+08:00",
+        "ended_at": "2026-09-26T13:15:48+08:00",
+        "duration_seconds": null,
+        "metrics": {
+          "revised": 1
+        },
+        "timing_note": "阶段开始时未同步计时，时长未准确记录。"
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T13:18:15+08:00",
+        "ended_at": "2026-09-26T13:18:15+08:00",
+        "duration_seconds": 0.015,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T13:18:15+08:00",
+        "ended_at": "2026-09-26T13:18:16+08:00",
+        "duration_seconds": 1.056,
+        "metrics": {
+          "questions": 20
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-26T13:19:01+08:00",
+        "ended_at": "2026-09-26T13:19:08+08:00",
+        "duration_seconds": 7.085,
+        "metrics": {
+          "errors": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0024",
+        "revision": 2,
+        "reason": "题源复核指出选项1的定语判断过于绝对，改为仅说明语义冲突",
+        "at": "2026-09-26T13:14:28+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}
