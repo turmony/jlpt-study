@@ -273,6 +273,149 @@
       "locator": "文型・例文区",
       "evidence_path": "quizzes/sources/cache/01451aaf1c5f73c27145-bee96917218b.md",
       "content_sha256": "bee96917218b9b87aaf36d4d90ec14751fe64bcbe046cdfd11bebdd2fbbf5857"
+    },
+    "5e81a53816800084a87e": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/19/jlptn2-grammar-ageku/",
+      "title": "【JLPT N2】文法・例文：〜あげく",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0001"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/5e81a53816800084a87e-17d43d9c67fd.md",
+      "content_sha256": "17d43d9c67fd789c0f08c3fdccf36b0c22ee701e0375d3411f5a5d116e03e197"
+    },
+    "bc9c8a1ce53b67f179c0": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn2-grammar-amari/",
+      "title": "【JLPT N2】文法・例文：〜あまり",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0002"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/bc9c8a1ce53b67f179c0-ce8614ab4940.md",
+      "content_sha256": "ce8614ab4940587c09098f7b0b08afbf43c16517d17852e87368ef782f4c6e73"
+    },
+    "d61ef68d89d64d289b8e": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/28/jlptn2-grammar-amarino-ni/",
+      "title": "【JLPT N2】文法・例文：あまりの〜に",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0002"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/d61ef68d89d64d289b8e-fe1186d19bba.md",
+      "content_sha256": "fe1186d19bba8f8c88045c7b0af9305ebe738ead6086d34a8249fec0e7215253"
+    },
+    "44292c3c930cfa2c3635": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-ijoowa/",
+      "title": "【JLPT N2】文法・例文：〜以上は",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0003"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/44292c3c930cfa2c3635-2572b07f54a9.md",
+      "content_sha256": "2572b07f54a9a9477defdb87141cb7e073e5b6c4a5e65067c53ba7b28f67e374"
+    },
+    "90e87237add607aef4d1": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-ippode/",
+      "title": "【JLPT N2】文法・例文：〜一方で",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0004"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/90e87237add607aef4d1-f7a5fbc0b1d0.md",
+      "content_sha256": "f7a5fbc0b1d065a4da7a3f2fa523f44b9dbee1ff6496284aaddd58b018bca9ec"
+    },
+    "35cd1585a0a1670d58ab": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-uede-2/",
+      "title": "【JLPT N2】文法・例文：〜上で（目的）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0005"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/35cd1585a0a1670d58ab-18c8e6d83bd4.md",
+      "content_sha256": "18c8e6d83bd4b9a49eb37f5f8bf6ee88d2c53f30200f24405d8cff0cf6ae8f8d"
+    },
+    "47445db62956c2968329": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/26/jlptn2-grammar-uede-3/",
+      "title": "【JLPT N2】文法・例文：〜上で（先后）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0006"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/47445db62956c2968329-d9a0396543c2.md",
+      "content_sha256": "d9a0396543c2e2fda1b5a54c1f8736d8cc3df8cc05ab39112a392fc97462853d"
+    },
+    "f8451304edce2d2f48e7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-uewa/",
+      "title": "【JLPT N2】文法・例文：〜上は",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0007"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/f8451304edce2d2f48e7-f1ae10cca278.md",
+      "content_sha256": "f1ae10cca278ae306edcee89595642cc50fdf0500e2bd545eadeacd3238da9fc"
+    },
+    "431bc8a3b7501d392dc5": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-uru/",
+      "title": "【JLPT N2】文法・例文：〜得る／〜得ない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0009"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/431bc8a3b7501d392dc5-fe54a2d257e1.md",
+      "content_sha256": "fe54a2d257e1d6efc7551709fd4ffa503f8c4369bc5cedc77c0ab5db7447be67"
+    },
+    "12f36fa7d8c905f4fc09": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kagiri/",
+      "title": "【JLPT N2】文法・例文：〜限り（条件の範囲）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0010"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/12f36fa7d8c905f4fc09-cfa3bfc9588a.md",
+      "content_sha256": "cfa3bfc9588a60b9b137b5c0182701c56b21cc8e9b3d19ae3a3d50693a544f9a"
+    },
+    "68d1f784108b1afd6162": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2017/11/12/jlptn2-grammar-quiz-part1/",
+      "title": "【JLPT N2】文法クイズ Part1",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-26",
+      "grammar_ids": [
+        "N2-G-0003"
+      ],
+      "locator": "文型・例文区／原题区",
+      "evidence_path": "quizzes/sources/cache/68d1f784108b1afd6162-3404057ce7bd.md",
+      "content_sha256": "3404057ce7bd35503e3cebfa3455472bbbdfcadd2a37e0493cbf26253bfe6027"
     }
   }
 }

@@ -1,0 +1,1603 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-26-n2-1-10-test-1",
+    "title": "N2 第1～10课语法选择练习（20题）",
+    "date": "2026-09-26",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0001",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "人気のラーメン店に２時間も並んだ（　）、売り切れで食べられなかった。",
+      "translation": "在热门拉面店排队两小时，结果售罄没吃到。",
+      "tested_cards": [
+        "N2-G-0001"
+      ],
+      "conjugation": "参见 N2-G-0001；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "あげく",
+        "2": "あまり",
+        "3": "以上",
+        "4": "得る"
+      },
+      "correct_option": "1",
+      "correct_explanation": "长时间排队后出现令人遗憾的结果。",
+      "option_explanations": {
+        "1": "正确：长时间排队后出现令人遗憾的结果。",
+        "2": "错误：「あまり」虽能接过去形，但这里着重久等后落空的结局，不是排队过度引发的异常状态。",
+        "3": "错误：「以上」表达既然如此的判断，不说明漫长过程后的坏结果。",
+        "4": "错误：「得る」表示情境可能，接续和句意都不合。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜あげく",
+        "url": "https://nihongokyoshi-net.com/2019/04/19/jlptn2-grammar-ageku/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/5e81a53816800084a87e-17d43d9c67fd.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "人気のラーメン店に２時間も並んだあげく、売り切れで食べられなかった。",
+        "transformations": [
+          "仅将「あげく」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜あげく的接续、意义与例句；N2-G-0001的语义边界。",
+        "distractor_basis": [
+          "1. 正确：长时间排队后出现令人遗憾的结果。",
+          "2. 错误：「あまり」虽能接过去形，但这里着重久等后落空的结局，不是排队过度引发的异常状态。",
+          "3. 错误：「以上」表达既然如此的判断，不说明漫长过程后的坏结果。",
+          "4. 错误：「得る」表示情境可能，接续和句意都不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第1项保留来源接续。",
+        "semantic_exclusion": "逐项排查：2=错误：「あまり」虽能接过去形，但这里着重久等后落空的结局；3=错误：「以上」不说明漫长过程后的坏结果；4=错误：「得る」接续和句意均不合。",
+        "unique_answer_rationale": "只有第1项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "1",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。 已按反馈修正「 あまり 」的接续说明并复查。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0002",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は１時間も私たちを待たせた（　）、今日の打ち合わせは中止したいと言った。",
+      "translation": "他让我们等了一小时，结果说想取消今天的会议。",
+      "tested_cards": [
+        "N2-G-0001"
+      ],
+      "conjugation": "参见 N2-G-0001；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "以上",
+        "2": "限り",
+        "3": "あげく",
+        "4": "あまり"
+      },
+      "correct_option": "3",
+      "correct_explanation": "久等之后又宣布取消，符合「～あげく」的失望语气。",
+      "option_explanations": {
+        "1": "错误：「以上」表示以既成事实为依据，不能表达这里的抱怨和坏结果。",
+        "2": "错误：「限り」表示状态持续的期间，此处是已经发生的长时间等待。",
+        "3": "正确：久等之后又宣布取消，符合「～あげく」的失望语气。",
+        "4": "错误：「あまり」虽能接过去形，但题句未表明久等直接导致他提出取消。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜あげく",
+        "url": "https://nihongokyoshi-net.com/2019/04/19/jlptn2-grammar-ageku/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/5e81a53816800084a87e-17d43d9c67fd.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼は１時間も私たちを待たせたあげく、今日の打ち合わせは中止したいと言った。",
+        "transformations": [
+          "仅将「あげく」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜あげく的接续、意义与例句；N2-G-0001的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「以上」表示以既成事实为依据，不能表达这里的抱怨和坏结果。",
+          "2. 错误：「限り」表示状态持续的期间，此处是已经发生的长时间等待。",
+          "3. 正确：久等之后又宣布取消，符合「～あげく」的失望语气。",
+          "4. 错误：「あまり」虽能接过去形，但题句未表明久等直接导致他提出取消。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第3项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「以上」不表达久等后的抱怨；2=错误：「限り」表示状态持续期间；4=错误：「あまり」虽能接过去形，但题句未表明久等直接导致他提出取消。",
+        "unique_answer_rationale": "只有第3项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "3",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。 已按反馈修正「 あまり 」的接续说明并复查。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0003",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "緊張の（　）、上手にプレゼンテーションができなかった。",
+      "translation": "因过度紧张，没能做好发表。",
+      "tested_cards": [
+        "N2-G-0002"
+      ],
+      "conjugation": "参见 N2-G-0002；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "以上",
+        "2": "あまり",
+        "3": "上で",
+        "4": "限り"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「緊張のあまり」表示程度过强导致失常。",
+      "option_explanations": {
+        "1": "错误：「緊張の以上」不是此义的接续。",
+        "2": "正确：「緊張のあまり」表示程度过强导致失常。",
+        "3": "错误：「緊張の上で」不表达强烈情绪导致的结果。",
+        "4": "错误：「緊張の限り」不表达因紧张而失败。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜あまり",
+        "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn2-grammar-amari/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/bc9c8a1ce53b67f179c0-ce8614ab4940.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "緊張のあまり、上手にプレゼンテーションができなかった。",
+        "transformations": [
+          "仅将「あまり」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜あまり的接续、意义与例句；N2-G-0002的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「緊張の以上」不是此义的接续。",
+          "2. 正确：「緊張のあまり」表示程度过强导致失常。",
+          "3. 错误：「緊張の上で」不表达强烈情绪导致的结果。",
+          "4. 错误：「緊張の限り」不表达因紧张而失败。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第2项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「緊張の以上」不是此义的接续。；3=错误：「緊張の上で」不表达强烈情绪导致的结果。；4=错误：「緊張の限り」不表达因紧张而失败。",
+        "unique_answer_rationale": "只有第2项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0004",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "（　）暑さに、エアコンなしでは生活できない。",
+      "translation": "天气热得无法在没有空调的情况下生活。",
+      "tested_cards": [
+        "N2-G-0002"
+      ],
+      "conjugation": "参见 N2-G-0002；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "あげくの",
+        "2": "限りの",
+        "3": "一方の",
+        "4": "あまりの"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「あまりの＋名词＋に」表示程度极高造成异常结果。",
+      "option_explanations": {
+        "1": "错误：「あげく」接长时间过程及其结果，不能修饰「暑さ」表程度。",
+        "2": "错误：「限りの暑さ」不构成表示过热的固定表达。",
+        "3": "错误：「一方の暑さ」指对比中的一方，不表程度。",
+        "4": "正确：「あまりの＋名词＋に」表示程度极高造成异常结果。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：あまりの〜に",
+        "url": "https://nihongokyoshi-net.com/2019/07/28/jlptn2-grammar-amarino-ni/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/d61ef68d89d64d289b8e-fe1186d19bba.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "あまりの暑さに、エアコンなしでは生活できない。",
+        "transformations": [
+          "仅将「あまりの」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：あまりの〜に的接续、意义与例句；N2-G-0002的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「あげく」接长时间过程及其结果，不能修饰「暑さ」表程度。",
+          "2. 错误：「限りの暑さ」不构成表示过热的固定表达。",
+          "3. 错误：「一方の暑さ」指对比中的一方，不表程度。",
+          "4. 正确：「あまりの＋名词＋に」表示程度极高造成异常结果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第4项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「あげく」接长时间过程及其结果，不能修饰「暑さ」表程度。；2=错误：「限りの暑さ」不构成表示过热的固定表达。；3=错误：「一方の暑さ」指对比中的一方，不表程度。",
+        "unique_answer_rationale": "只有第4项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "4",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0005",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "バッテリーに問題があるとわかった（ 　　　　）このPCを売り出すわけにはいかない。",
+      "translation": "既然发现电池有问题，就不能出售这台电脑。",
+      "tested_cards": [
+        "N2-G-0003"
+      ],
+      "conjugation": "参见 N2-G-0003；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "にも関わらず",
+        "2": "あげく",
+        "3": "あまり",
+        "4": "以上は"
+      },
+      "correct_option": "4",
+      "correct_explanation": "以已发现的问题为依据，作出不能出售的判断。",
+      "option_explanations": {
+        "1": "错误：逆接与「发现问题，所以不能卖」的因果判断冲突。",
+        "2": "错误：没有长时间反复尝试后出现坏结果的语境。",
+        "3": "错误：这里不是程度过强导致异常结果。",
+        "4": "正确：以已发现的问题为依据，作出不能出售的判断。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法クイズ Part1",
+        "url": "https://nihongokyoshi-net.com/2017/11/12/jlptn2-grammar-quiz-part1/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/68d1f784108b1afd6162-3404057ce7bd.md"
+        ],
+        "kind": "teaching_exercise",
+        "answer_locator": "Question 2 后的 ●Answer (4)",
+        "original_answer": "(4)",
+        "option_mapping": "原选项 (1)→1、(2)→2、(3)→3、(4)→4，文字与顺序不变",
+        "adaptation": "原题逐字保留；仅在答案解析中添加中文翻译和四项解释。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第4项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：逆接与「发现问题，所以不能卖」的因果判断冲突。；2=错误：没有长时间反复尝试后出现坏结果的语境。；3=错误：这里不是程度过强导致异常结果。",
+        "unique_answer_rationale": "只有第4项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "4",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "日本語NET原题逐字核对题干、空格、全部选项顺序及来源答案。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0006",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "犯人がまだ誰かわからない（　）、彼を責めるのはよくない。",
+      "translation": "既然还不知道犯人是谁，就不该责备他。",
+      "tested_cards": [
+        "N2-G-0003"
+      ],
+      "conjugation": "参见 N2-G-0003；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "上で",
+        "2": "以上",
+        "3": "あまり",
+        "4": "一方で"
+      },
+      "correct_option": "2",
+      "correct_explanation": "以犯人未确定这一事实为依据，推出不应责备。",
+      "option_explanations": {
+        "1": "错误：「上で」表示做某事时的条件或先后，不据未知事实作判断。",
+        "2": "正确：以犯人未确定这一事实为依据，推出不应责备。",
+        "3": "错误：「あまり」表示程度过强，不能接此处否定状态。",
+        "4": "错误：「一方で」要求对比或并列的两面。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜以上は",
+        "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-ijoowa/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/44292c3c930cfa2c3635-2572b07f54a9.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "犯人がまだ誰かわからない以上、彼を責めるのはよくない。",
+        "transformations": [
+          "仅将「以上」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜以上は的接续、意义与例句；N2-G-0003的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「上で」表示做某事时的条件或先后，不据未知事实作判断。",
+          "2. 正确：以犯人未确定这一事实为依据，推出不应责备。",
+          "3. 错误：「あまり」表示程度过强，不能接此处否定状态。",
+          "4. 错误：「一方で」要求对比或并列的两面。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第2项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「上で」表示做某事时的条件或先后，不据未知事实作判断。；3=错误：「あまり」表示程度过强，不能接此处否定状态。；4=错误：「一方で」要求对比或并列的两面。",
+        "unique_answer_rationale": "只有第2项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0007",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "オンラインでの売り上げが上がる（　）、店舗での売り上げが落ちている。",
+      "translation": "线上销售上涨，而实体店销售下降。",
+      "tested_cards": [
+        "N2-G-0004"
+      ],
+      "conjugation": "参见 N2-G-0004；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "上は",
+        "2": "あまり",
+        "3": "一方で",
+        "4": "得る"
+      },
+      "correct_option": "3",
+      "correct_explanation": "线上上涨与实体店下降形成对比。",
+      "option_explanations": {
+        "1": "错误：「上は」接决意、责任或当然判断，不表两组销售数据的对比。",
+        "2": "错误：「あまり」表示程度过强导致结果。",
+        "3": "正确：线上上涨与实体店下降形成对比。",
+        "4": "错误：「得る」表示可能性，不能连接这两项对比事实。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜一方で",
+        "url": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-ippode/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/90e87237add607aef4d1-f7a5fbc0b1d0.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "オンラインでの売り上げが上がる一方で、店舗での売り上げが落ちている。",
+        "transformations": [
+          "仅将「一方で」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜一方で的接续、意义与例句；N2-G-0004的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「上は」接决意、责任或当然判断，不表两组销售数据的对比。",
+          "2. 错误：「あまり」表示程度过强导致结果。",
+          "3. 正确：线上上涨与实体店下降形成对比。",
+          "4. 错误：「得る」表示可能性，不能连接这两项对比事实。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第3项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「上は」接决意、责任或当然判断，不表两组销售数据的对比。；2=错误：「あまり」表示程度过强导致结果。；4=错误：「得る」表示可能性，不能连接这两项对比事实。",
+        "unique_answer_rationale": "只有第3项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "3",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0008",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は俳優である（　）、歌手としても活躍している。",
+      "translation": "他既是演员，也作为歌手活跃。",
+      "tested_cards": [
+        "N2-G-0004"
+      ],
+      "conjugation": "参见 N2-G-0004；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "一方で",
+        "2": "あげく",
+        "3": "上で",
+        "4": "限り"
+      },
+      "correct_option": "1",
+      "correct_explanation": "同一人的演员和歌手两种身份并存。",
+      "option_explanations": {
+        "1": "正确：同一人的演员和歌手两种身份并存。",
+        "2": "错误：「あげく」要求较长过程后的结果，这里没有。",
+        "3": "错误：「上で」表示目的条件或先后，不表示两个身份并存。",
+        "4": "错误：「限り」表示状态持续期间，不表示并列身份。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜一方で",
+        "url": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-ippode/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/90e87237add607aef4d1-f7a5fbc0b1d0.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼は俳優である一方で、歌手としても活躍している。",
+        "transformations": [
+          "仅将「一方で」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜一方で的接续、意义与例句；N2-G-0004的语义边界。",
+        "distractor_basis": [
+          "1. 正确：同一人的演员和歌手两种身份并存。",
+          "2. 错误：「あげく」要求较长过程后的结果，这里没有。",
+          "3. 错误：「上で」表示目的条件或先后，不表示两个身份并存。",
+          "4. 错误：「限り」表示状态持续期间，不表示并列身份。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第1项保留来源接续。",
+        "semantic_exclusion": "逐项排查：2=错误：「あげく」要求较长过程后的结果，这里没有。；3=错误：「上で」表示目的条件或先后，不表示两个身份并存。；4=错误：「限り」表示状态持续期间，不表示并列身份。",
+        "unique_answer_rationale": "只有第1项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "1",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0009",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "外国人を採用する（　）、私たちが見ているのは日本語能力だけではありません。",
+      "translation": "在招聘外国人时，我们考察的不只有日语能力。",
+      "tested_cards": [
+        "N2-G-0005"
+      ],
+      "conjugation": "参见 N2-G-0005；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "上で",
+        "2": "あまり",
+        "3": "一方で",
+        "4": "得る"
+      },
+      "correct_option": "1",
+      "correct_explanation": "在招聘这一目的或场合下，说明评估所需的事项。",
+      "option_explanations": {
+        "1": "正确：在招聘这一目的或场合下，说明评估所需的事项。",
+        "2": "错误：「あまり」表达过度造成结果，接续也不合。",
+        "3": "错误：「一方で」表示两事对比或并行，这里只说明招聘标准。",
+        "4": "错误：「得る」表示可能性，不能接在此处连接两句。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜上で（目的）",
+        "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-uede-2/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/35cd1585a0a1670d58ab-18c8e6d83bd4.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "外国人を採用する上で、私たちが見ているのは日本語能力だけではありません。",
+        "transformations": [
+          "仅将「上で」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜上で（目的）的接续、意义与例句；N2-G-0005的语义边界。",
+        "distractor_basis": [
+          "1. 正确：在招聘这一目的或场合下，说明评估所需的事项。",
+          "2. 错误：「あまり」表达过度造成结果，接续也不合。",
+          "3. 错误：「一方で」表示两事对比或并行，这里只说明招聘标准。",
+          "4. 错误：「得る」表示可能性，不能接在此处连接两句。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第1项保留来源接续。",
+        "semantic_exclusion": "逐项排查：2=错误：「あまり」表达过度造成结果，接续也不合。；3=错误：「一方で」表示两事对比或并行，这里只说明招聘标准。；4=错误：「得る」表示可能性，不能接在此处连接两句。",
+        "unique_answer_rationale": "只有第1项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "1",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0010",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "言語を学習する（　）大切なのは、インプットとアウトプットのバランスだ。",
+      "translation": "学习语言时重要的是输入与输出的平衡。",
+      "tested_cards": [
+        "N2-G-0005"
+      ],
+      "conjugation": "参见 N2-G-0005；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "あげく",
+        "2": "一方で",
+        "3": "上で",
+        "4": "得る"
+      },
+      "correct_option": "3",
+      "correct_explanation": "学习语言时所需要的重要事项接在「上で」之后。",
+      "option_explanations": {
+        "1": "错误：「あげく」表示经较长过程后的结果，不接原形表达学习所需条件。",
+        "2": "错误：「一方で」表示对比或并行，不修饰「大切なのは」中的学习条件。",
+        "3": "正确：学习语言时所需要的重要事项接在「上で」之后。",
+        "4": "错误：「得る」表示可能性，与「学習する」的接续不合。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜上で（目的）",
+        "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-uede-2/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/35cd1585a0a1670d58ab-18c8e6d83bd4.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "言語を学習する上で大切なのは、インプットとアウトプットのバランスだ。",
+        "transformations": [
+          "仅将「上で」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜上で（目的）的接续、意义与例句；N2-G-0005的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「あげく」表示经较长过程后的结果，不接原形表达学习所需条件。",
+          "2. 错误：「一方で」表示对比或并行，不修饰「大切なのは」中的学习条件。",
+          "3. 正确：学习语言时所需要的重要事项接在「上で」之后。",
+          "4. 错误：「得る」表示可能性，与「学習する」的接续不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第3项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「あげく」表示经较长过程后的结果，不接原形表达学习所需条件。；2=错误：「一方で」表示对比或并行，不修饰「大切なのは」中的学习条件。；4=错误：「得る」表示可能性，与「学習する」的接续不合。",
+        "unique_answer_rationale": "只有第3项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "3",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0011",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "こちらの商品は、きちんと取扱説明書を読んだ（　）、使用してください。",
+      "translation": "使用本商品前，请先仔细阅读说明书。",
+      "tested_cards": [
+        "N2-G-0006"
+      ],
+      "conjugation": "参见 N2-G-0006；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "一方で",
+        "2": "上で",
+        "3": "あまり",
+        "4": "得る"
+      },
+      "correct_option": "2",
+      "correct_explanation": "先完成阅读，才进行后续使用。",
+      "option_explanations": {
+        "1": "错误：此处是先读说明书再使用，并非并行或对比。",
+        "2": "正确：先完成阅读，才进行后续使用。",
+        "3": "错误：「あまり」表示程度过强的结果，不能接此语境。",
+        "4": "错误：「得る」表示可能性，接续和句意都不合。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜上で（先后）",
+        "url": "https://nihongokyoshi-net.com/2019/05/26/jlptn2-grammar-uede-3/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/47445db62956c2968329-d9a0396543c2.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "こちらの商品は、きちんと取扱説明書を読んだ上で、使用してください。",
+        "transformations": [
+          "仅将「上で」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜上で（先后）的接续、意义与例句；N2-G-0006的语义边界。",
+        "distractor_basis": [
+          "1. 错误：此处是先读说明书再使用，并非并行或对比。",
+          "2. 正确：先完成阅读，才进行后续使用。",
+          "3. 错误：「あまり」表示程度过强的结果，不能接此语境。",
+          "4. 错误：「得る」表示可能性，接续和句意都不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第2项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：此处是先读说明书再使用，并非并行或对比。；3=错误：「あまり」表示程度过强的结果，不能接此语境。；4=错误：「得る」表示可能性，接续和句意都不合。",
+        "unique_answer_rationale": "只有第2项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0012",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "進学先は親と話し合った（　）、決めます。",
+      "translation": "升学去向要先和父母商量，再决定。",
+      "tested_cards": [
+        "N2-G-0006"
+      ],
+      "conjugation": "参见 N2-G-0006；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "上で",
+        "2": "一方で",
+        "3": "あまり",
+        "4": "得る"
+      },
+      "correct_option": "1",
+      "correct_explanation": "与父母商量是决定升学去向的前提。",
+      "option_explanations": {
+        "1": "正确：与父母商量是决定升学去向的前提。",
+        "2": "错误：不是商量与决定的对比或并行。",
+        "3": "错误：不是商量过度造成意外结果。",
+        "4": "错误：「得る」不用于此处连接两个行为。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜上で（先后）",
+        "url": "https://nihongokyoshi-net.com/2019/05/26/jlptn2-grammar-uede-3/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/47445db62956c2968329-d9a0396543c2.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "進学先は親と話し合った上で、決めます。",
+        "transformations": [
+          "仅将「上で」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜上で（先后）的接续、意义与例句；N2-G-0006的语义边界。",
+        "distractor_basis": [
+          "1. 正确：与父母商量是决定升学去向的前提。",
+          "2. 错误：不是商量与决定的对比或并行。",
+          "3. 错误：不是商量过度造成意外结果。",
+          "4. 错误：「得る」不用于此处连接两个行为。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第1项保留来源接续。",
+        "semantic_exclusion": "逐项排查：2=错误：不是商量与决定的对比或并行。；3=错误：不是商量过度造成意外结果。；4=错误：「得る」不用于此处连接两个行为。",
+        "unique_answer_rationale": "只有第1项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "1",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0013",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "留学すると決心した（　）、必ず成果を出して見せる。",
+      "translation": "既然下决心留学，就一定要取得成果。",
+      "tested_cards": [
+        "N2-G-0007"
+      ],
+      "conjugation": "参见 N2-G-0007；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "あまり",
+        "2": "上は",
+        "3": "一方で",
+        "4": "得る"
+      },
+      "correct_option": "2",
+      "correct_explanation": "作出留学决定后表明实现成果的决心。",
+      "option_explanations": {
+        "1": "错误：不是程度过强引发的结果。",
+        "2": "正确：作出留学决定后表明实现成果的决心。",
+        "3": "错误：不是两项情况的对比或并行。",
+        "4": "错误：「得る」不表达既然决定就负责到底的决意。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜上は",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-uewa/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/f8451304edce2d2f48e7-f1ae10cca278.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "留学すると決心した上は、必ず成果を出して見せる。",
+        "transformations": [
+          "仅将「上は」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜上は的接续、意义与例句；N2-G-0007的语义边界。",
+        "distractor_basis": [
+          "1. 错误：不是程度过强引发的结果。",
+          "2. 正确：作出留学决定后表明实现成果的决心。",
+          "3. 错误：不是两项情况的对比或并行。",
+          "4. 错误：「得る」不表达既然决定就负责到底的决意。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第2项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：不是程度过强引发的结果。；3=错误：不是两项情况的对比或并行。；4=错误：「得る」不表达既然决定就负责到底的决意。",
+        "unique_answer_rationale": "只有第2项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0014",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "プロジェクトリーダーに選ばれた（　）、必ず成功させてみせる。",
+      "translation": "既然被选为项目负责人，我一定要使项目成功。",
+      "tested_cards": [
+        "N2-G-0007"
+      ],
+      "conjugation": "参见 N2-G-0007；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "一方で",
+        "2": "得る",
+        "3": "上は",
+        "4": "あまり"
+      },
+      "correct_option": "3",
+      "correct_explanation": "既成事实引出责任与强烈决意。",
+      "option_explanations": {
+        "1": "错误：不是被选中与实现成功的并列或对比。",
+        "2": "错误：不是对成功可能性的描述。",
+        "3": "正确：既成事实引出责任与强烈决意。",
+        "4": "错误：被选中不是程度过强造成异常结果。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜上は",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-uewa/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/f8451304edce2d2f48e7-f1ae10cca278.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "プロジェクトリーダーに選ばれた上は、必ず成功させてみせる。",
+        "transformations": [
+          "仅将「上は」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜上は的接续、意义与例句；N2-G-0007的语义边界。",
+        "distractor_basis": [
+          "1. 错误：不是被选中与实现成功的并列或对比。",
+          "2. 错误：不是对成功可能性的描述。",
+          "3. 正确：既成事实引出责任与强烈决意。",
+          "4. 错误：被选中不是程度过强造成异常结果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第3项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：不是被选中与实现成功的并列或对比。；2=错误：不是对成功可能性的描述。；4=错误：被选中不是程度过强造成异常结果。",
+        "unique_answer_rationale": "只有第3项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "3",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0015",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ボーナスも出たことだし、みんなで旅行に（　）。",
+      "translation": "奖金也发了，我们一起去旅行吧。",
+      "tested_cards": [
+        "N2-G-0008"
+      ],
+      "conjugation": "参见 N2-G-0008；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "行くのではないか",
+        "2": "行こうではないか",
+        "3": "行ったではないか",
+        "4": "行き得ない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "意向形「行こう」接「ではないか」，强烈提议同行。",
+      "option_explanations": {
+        "1": "错误：这是推测或反问的形式，不是邀大家一起旅行。",
+        "2": "正确：意向形「行こう」接「ではないか」，强烈提议同行。",
+        "3": "错误：过去形「行った」不构成这项劝诱表达。",
+        "4": "错误：表示不可能去，与邀请语境相反。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "ようではないか①（誘いかけ）｜日本語能力試験 JLPT N2文法",
+        "url": "https://www.edewakaru.com/archives/26947255.html",
+        "locator": "接続・意味・例文①〜⑤・説明",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-1-10-test-1/n2-0008-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "①ボーナスもでたことだし、旅行（りょこう）に **行こうではないか**",
+        "transformations": [
+          "去掉「旅行」的读音标注；把「でた」改为汉字「出た」；补入原页释义中的「みんなで」；将「行こうではないか」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "ようではないか①（誘いかけ）｜日本語能力試験 JLPT N2文法的接续、意义与例句；N2-G-0008的语义边界。",
+        "distractor_basis": [
+          "1. 错误：这是推测或反问的形式，不是邀大家一起旅行。",
+          "2. 正确：意向形「行こう」接「ではないか」，强烈提议同行。",
+          "3. 错误：过去形「行った」不构成这项劝诱表达。",
+          "4. 错误：表示不可能去，与邀请语境相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第2项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：这是推测或反问的形式，不是邀大家一起旅行。；3=错误：过去形「行った」不构成这项劝诱表达。；4=错误：表示不可能去，与邀请语境相反。",
+        "unique_answer_rationale": "只有第2项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0016",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "みんなそろったね。では会議を（　）。",
+      "translation": "大家都到齐了，那么开始会议吧。",
+      "tested_cards": [
+        "N2-G-0008"
+      ],
+      "conjugation": "参见 N2-G-0008；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "始めたではないか",
+        "2": "始めるはずがない",
+        "3": "始めかねない",
+        "4": "始めようじゃないか"
+      },
+      "correct_option": "4",
+      "correct_explanation": "意向形「始めよう」接「じゃないか」，向在场者提议开始。",
+      "option_explanations": {
+        "1": "错误：表示回顾已经开始，与“人刚到齐，现在开始”冲突。",
+        "2": "错误：表示不可能开始，与发起会议的语境冲突。",
+        "3": "错误：表示可能发生不好的事，不能用于这项共同提议。",
+        "4": "正确：意向形「始めよう」接「じゃないか」，向在场者提议开始。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "ようではないか①（誘いかけ）｜日本語能力試験 JLPT N2文法",
+        "url": "https://www.edewakaru.com/archives/26947255.html",
+        "locator": "接続・意味・例文①〜⑤・説明",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-26-n2-1-10-test-1/n2-0008-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "⑤みんなそろったね。では会議（かいぎ）を **始（はじ）めようじゃないか**",
+        "transformations": [
+          "去掉「会議」「始め」的读音标注；将「始めようじゃないか」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "ようではないか①（誘いかけ）｜日本語能力試験 JLPT N2文法的接续、意义与例句；N2-G-0008的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示回顾已经开始，与“人刚到齐，现在开始”冲突。",
+          "2. 错误：表示不可能开始，与发起会议的语境冲突。",
+          "3. 错误：表示可能发生不好的事，不能用于这项共同提议。",
+          "4. 正确：意向形「始めよう」接「じゃないか」，向在场者提议开始。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第4项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：表示回顾已经开始，与“人刚到齐，现在开始”冲突。；2=错误：表示不可能开始，与发起会议的语境冲突。；3=错误：表示可能发生不好的事，不能用于这项共同提议。",
+        "unique_answer_rationale": "只有第4项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "4",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0017",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日頃から気をつけていても、事故は（　）ものだ。",
+      "translation": "即使平时注意，事故仍可能发生。",
+      "tested_cards": [
+        "N2-G-0009"
+      ],
+      "conjugation": "参见 N2-G-0009；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "起こり得ない",
+        "2": "起こりきる",
+        "3": "起こり得る",
+        "4": "起こりかねる"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「起こり得る」表示即使注意仍存在发生的可能。",
+      "option_explanations": {
+        "1": "错误：说事故不可能发生，与「注意していても」的让步相反。",
+        "2": "错误：「起こりきる」不表示情境可能，搭配不自然。",
+        "3": "正确：「起こり得る」表示即使注意仍存在发生的可能。",
+        "4": "错误：「起こりかねる」不表示事故可能发生。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜得る／〜得ない",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-uru/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/431bc8a3b7501d392dc5-fe54a2d257e1.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "日頃から気をつけていても、事故は起こり得るものだ。",
+        "transformations": [
+          "将「起こり得る」整体挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜得る／〜得ない的接续、意义与例句；N2-G-0009的语义边界。",
+        "distractor_basis": [
+          "1. 错误：说事故不可能发生，与「注意していても」的让步相反。",
+          "2. 错误：「起こりきる」不表示情境可能，搭配不自然。",
+          "3. 正确：「起こり得る」表示即使注意仍存在发生的可能。",
+          "4. 错误：「起こりかねる」不表示事故可能发生。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第3项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：说事故不可能发生，与「注意していても」的让步相反。；2=错误：「起こりきる」不表示情境可能，搭配不自然。；4=错误：「起こりかねる」不表示事故可能发生。",
+        "unique_answer_rationale": "只有第3项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "3",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0018",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "地震がいつ起こるかは、専門家でさえ正確には（　）。だから、事前に避難場所を決めておこう。",
+      "translation": "因为无法预测地震何时发生，所以先定好避难地点。",
+      "tested_cards": [
+        "N2-G-0009"
+      ],
+      "conjugation": "参见 N2-G-0009；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "予想し得る",
+        "2": "予想し得ない",
+        "3": "予想し続ける",
+        "4": "予想したがる"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「専門家でさえ正確には」という限定说明连专家都无法准确预测发生时间。",
+      "option_explanations": {
+        "1": "错误：表示可以预测，与「専門家でさえ正確には」及后续预防理由相反。",
+        "2": "正确：连专家也无法准确预测地震何时发生，故先定避难地点。",
+        "3": "错误：表示持续预测，不能接「正確には」表达无法预测。",
+        "4": "错误：表示想预测的心情，不能说明事先防备的理由。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜得る／〜得ない",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-uru/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/431bc8a3b7501d392dc5-fe54a2d257e1.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "地震はいつ起こるか予想し得ないから、事前に家族との連絡方法や避難場所などを決めておいた方がいいでしょう。",
+        "transformations": [
+          "将长句后半缩为「事前に避難場所を決めておこう」；将「予想し得ない」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。",
+          "第1轮修订：把「地震はいつ起こるか」调整为「地震がいつ起こるかは」；加入「専門家でさえ正確には」和独立的预防句，以明确否定可能性并使语序自然。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜得る／〜得ない的接续、意义与例句；N2-G-0009的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示可以预测，与「専門家でさえ正確には」冲突。",
+          "2. 正确：表示连专家也无法准确预测。",
+          "3. 错误：表示持续预测，不能接「正確には」表达无法预测。",
+          "4. 错误：表示想预测的心情，不说明事先防备的理由。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「正確には」可修饰四个动词候选；第2项以可能性的否定与后句接续自然。",
+        "semantic_exclusion": "「専門家でさえ」与「だから事前に」共同排除可以预测、持续预测与想预测三项。",
+        "unique_answer_rationale": "只有第2项能说明连专家也无法准确预测，因而应预先确定避难地点。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。 修订后题源与唯一解依据已复核。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0019",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私はSEである（　）、いつまでも最新の技術を勉強し続けなければならない。",
+      "translation": "只要我还是软件工程师，就必须一直学习新技术。",
+      "tested_cards": [
+        "N2-G-0010"
+      ],
+      "conjugation": "参见 N2-G-0010；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "限りでは",
+        "2": "に限り",
+        "3": "あげく",
+        "4": "限り"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「である限り」表示职业身份持续的整个期间。",
+      "option_explanations": {
+        "1": "错误：「限りでは」表示在所知信息范围内，不能表示身份持续期间。",
+        "2": "错误：「に限り」限定对象，不接「である」表示持续期间。",
+        "3": "错误：「あげく」表示过程后的结果，接续也不合。",
+        "4": "正确：「である限り」表示职业身份持续的整个期间。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜限り（条件の範囲）",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kagiri/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/12f36fa7d8c905f4fc09-cfa3bfc9588a.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "私はSEである限り、いつまでも最新の技術を勉強し続けなければならない。",
+        "transformations": [
+          "仅将「限り」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜限り（条件の範囲）的接续、意义与例句；N2-G-0010的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「限りでは」表示在所知信息范围内，不能表示身份持续期间。",
+          "2. 错误：「に限り」限定对象，不接「である」表示持续期间。",
+          "3. 错误：「あげく」表示过程后的结果，接续也不合。",
+          "4. 正确：「である限り」表示职业身份持续的整个期间。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第4项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「限りでは」表示在所知信息范围内，不能表示身份持续期间。；2=错误：「に限り」限定对象，不接「である」表示持续期间。；3=错误：「あげく」表示过程后的结果，接续也不合。",
+        "unique_answer_rationale": "只有第4项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "4",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0020",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "体が動く（　）、80歳になっても仕事を続けたい。",
+      "translation": "只要身体还能活动，即使到80岁也想继续工作。",
+      "tested_cards": [
+        "N2-G-0010"
+      ],
+      "conjugation": "参见 N2-G-0010；正确项须与空格前后接续，并保持来源例句的语义。",
+      "options": {
+        "1": "限りでは",
+        "2": "限りは",
+        "3": "に限り",
+        "4": "あまり"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「限りは」表示身体还能活动的期间。",
+      "option_explanations": {
+        "1": "错误：「限りでは」表示信息范围，不表示身体状态持续期间。",
+        "2": "正确：「限りは」表示身体还能活动的期间。",
+        "3": "错误：「に限り」用于限定对象，不能这样接动词原形。",
+        "4": "错误：「あまり」表示程度过强的结果，不符合希望持续工作的语境。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜限り（条件の範囲）",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kagiri/",
+        "locator": "文型・例文区／原题区",
+        "accessed_at": "2026-09-26",
+        "evidence_paths": [
+          "quizzes/sources/cache/12f36fa7d8c905f4fc09-cfa3bfc9588a.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "体が動く限りは80歳になっても、90歳になっても何かビジネスをしたいと考えています。",
+        "transformations": [
+          "把后半句简化为「80歳になっても仕事を続けたい」；在空格后补逗号；将「限りは」挖空。",
+          "从已核实例句补设四项选项，正确项保留原语法；其他项按接续与语义排除。"
+        ],
+        "answer_basis": "【JLPT N2】文法・例文：〜限り（条件の範囲）的接续、意义与例句；N2-G-0010的语义边界。",
+        "distractor_basis": [
+          "1. 错误：「限りでは」表示信息范围，不表示身体状态持续期间。",
+          "2. 正确：「限りは」表示身体还能活动的期间。",
+          "3. 错误：「に限り」用于限定对象，不能这样接动词原形。",
+          "4. 错误：「あまり」表示程度过强的结果，不符合希望持续工作的语境。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "已逐项核对空格前后与四项形式；第2项保留来源接续。",
+        "semantic_exclusion": "逐项排查：1=错误：「限りでは」表示信息范围，不表示身体状态持续期间。；3=错误：「に限り」用于限定对象，不能这样接动词原形。；4=错误：「あまり」表示程度过强的结果，不符合希望持续工作的语境。",
+        "unique_answer_rationale": "只有第2项同时保留原例句的接续、含义和完整语境。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立盲审子代理（第18题修订后由另一独立子代理复审）",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "answer": "2",
+          "notes": "独立答题与标准答案一致；逐题说明理由及信心，未发现多解。第18题修订后另行盲审通过。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立题源复核子代理",
+          "reviewed_at": "2026-09-26T11:47:01+08:00",
+          "notes": "原例句在最小证据中核实；改动、答案与四项依据通过复核。 已补记新增标点并复查。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-09-26T11:28:12+08:00",
+        "ended_at": "2026-09-26T11:28:34+08:00",
+        "duration_seconds": 22.378,
+        "metrics": {
+          "cards": 10,
+          "questions": 20,
+          "cache_hits": 0
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-09-26T11:28:40+08:00",
+        "ended_at": "2026-09-26T11:30:09+08:00",
+        "duration_seconds": 89.37,
+        "metrics": {
+          "queries": 11,
+          "cache_hits": 0
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-09-26T11:30:17+08:00",
+        "ended_at": "2026-09-26T11:36:18+08:00",
+        "duration_seconds": 361.104,
+        "metrics": {
+          "pages_adopted": 12,
+          "new_cache_pages": 11,
+          "alternative_site_pages": 1
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-09-26T11:37:31+08:00",
+        "ended_at": "2026-09-26T11:39:36+08:00",
+        "duration_seconds": 125.877,
+        "metrics": {
+          "questions": 20,
+          "cards": 10,
+          "originals": 1,
+          "derived": 19
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-26T11:39:45+08:00",
+        "ended_at": "2026-09-26T11:39:51+08:00",
+        "duration_seconds": 6.807,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T11:39:58+08:00",
+        "ended_at": "2026-09-26T11:39:58+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-26T11:42:44+08:00",
+        "ended_at": "2026-09-26T11:43:35+08:00",
+        "duration_seconds": 51.433,
+        "metrics": {
+          "revised_questions": 1,
+          "rereview_passed": 1
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-26T11:40:23+08:00",
+        "ended_at": "2026-09-26T11:46:37+08:00",
+        "duration_seconds": 374.927,
+        "metrics": {
+          "blind_passed": 20,
+          "source_passed": 20,
+          "revised_questions": 1
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-26T11:47:22+08:00",
+        "ended_at": "2026-09-26T11:47:22+08:00",
+        "duration_seconds": 0.015,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-26T11:47:33+08:00",
+        "ended_at": "2026-09-26T11:48:20+08:00",
+        "duration_seconds": 47.036,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "linked_assets_ok": 1
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0018",
+        "revision": 2,
+        "reason": "地震发生时间的主语和范围表达不够自然；增加专家也无法准确预测的语境以锁定唯一解",
+        "at": "2026-09-26T11:41:23+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}
