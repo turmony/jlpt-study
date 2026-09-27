@@ -785,3 +785,23 @@
 {"question_id": "N2-Q-0038", "revision": 2, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
 {"question_id": "N2-Q-0039", "revision": 2, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
 {"question_id": "N2-Q-0040", "revision": 2, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-09-26"}
+{"question_id":"N2-Q-0041","revision":1,"item_type":"form_choice","selected_option":"2","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0042","revision":2,"item_type":"form_choice","selected_option":"1","is_correct":false,"uncertain":true,"error_tags":["げ与ことなく混淆","接续错误"],"date":"2026-09-27"}
+{"question_id":"N2-Q-0043","revision":1,"item_type":"form_choice","selected_option":"1","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0044","revision":1,"item_type":"form_choice","selected_option":"3","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0045","revision":1,"item_type":"form_choice","selected_option":"4","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0046","revision":1,"item_type":"form_choice","selected_option":"2","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0047","revision":1,"item_type":"form_choice","selected_option":"3","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0048","revision":1,"item_type":"form_choice","selected_option":"3","is_correct":false,"uncertain":false,"error_tags":["ことなく与ことだ混淆","连接后项错误"],"date":"2026-09-27"}
+{"question_id":"N2-Q-0049","revision":1,"item_type":"form_choice","selected_option":"1","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0050","revision":1,"item_type":"form_choice","selected_option":"4","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0051","revision":1,"item_type":"form_choice","selected_option":"2","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0052","revision":1,"item_type":"form_choice","selected_option":"3","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0053","revision":1,"item_type":"form_choice","selected_option":"3","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0054","revision":1,"item_type":"form_choice","selected_option":"2","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0055","revision":1,"item_type":"form_choice","selected_option":"1","is_correct":false,"uncertain":false,"error_tags":["次第だ与次第で混淆","句末形式错误"],"date":"2026-09-27"}
+{"question_id":"N2-Q-0056","revision":1,"item_type":"form_choice","selected_option":"1","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0057","revision":1,"item_type":"form_choice","selected_option":"4","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0058","revision":1,"item_type":"form_choice","selected_option":"1","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0059","revision":2,"item_type":"form_choice","selected_option":"3","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
+{"question_id":"N2-Q-0060","revision":1,"item_type":"form_choice","selected_option":"2","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-27"}
