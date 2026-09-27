@@ -1,0 +1,1672 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-27-n2-31-40-test-1",
+    "title": "N2 第31～40课语法选择练习（20题）",
+    "date": "2026-09-27",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0061",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女に騙されていると知り（　）、またお金を貸してしまった。",
+      "translation": "虽然知道被她骗了，还是又借钱给她。",
+      "tested_cards": [
+        "N2-G-0035"
+      ],
+      "conjugation": "动词ます形去「ます」＋つつも",
+      "options": {
+        "1": "次第",
+        "2": "つつも",
+        "3": "っぱなしで",
+        "4": "つつある"
+      },
+      "correct_option": "2",
+      "correct_explanation": "明知被骗却再次借钱，前后言行相反，所以用逆接「つつも」。",
+      "option_explanations": {
+        "1": "错误：表示一知道就立即做后项，不能表达这里的逆接。",
+        "2": "正确：明知被骗却再次借钱，前后言行相反，所以用逆接「つつも」。",
+        "3": "错误：表示放任某状态持续，不能表达知情与行动相反。",
+        "4": "错误：表示变化正在发展，不表示明知被骗却仍借钱。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜つつ",
+        "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-tsutsu/",
+        "locator": "文型１・例文１（逆接）／文型２・例文２（同時進行）",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/69aac5663573fd8a7547-70c21c19eca2.md"
+        ],
+        "original_example": "彼女に騙されてると知りつつも、またお金を貸してしまった。",
+        "transformations": [
+          "去除来源页面的粗体排版，保留原日文例句。",
+          "只将原例句中的「つつも」挖空。",
+          "依据目标语法和上下文增设三个干扰项。",
+          "第1轮修订：将来源口语缩约騙されてる规范化为騙されている以协调书面语つつも"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0035的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示一知道就立即做后项，不能表达这里的逆接。",
+          "2. 正确：明知被骗却再次借钱，前后言行相反，所以用逆接「つつも」。",
+          "3. 错误：表示放任某状态持续，不能表达知情与行动相反。",
+          "4. 错误：表示变化正在发展，不表示明知被骗却仍借钱。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「知り」为「知る」的ます形词干，可接「つつも」。",
+        "semantic_exclusion": "「次第」表示立即继起；「っぱなしで」表示放任状态；「つつある」表示渐变，均不表达明知被骗仍借钱。",
+        "unique_answer_rationale": "只有选项2「つつも」连接明知被骗与仍然借钱的逆接关系。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "2",
+          "reviewed_revision": 2,
+          "notes": "修订后定向盲审通过；唯一自然选项。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 2,
+          "notes": "源例句核实；騙されてる展开为騙されている已记录。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0062",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この店のカレーはとても辛い。ちょっと食べたら、水を飲ま（　）。",
+      "translation": "这家店的咖喱很辣，吃一点就忍不住要喝水。",
+      "tested_cards": [
+        "N2-G-0031"
+      ],
+      "conjugation": "动词ない形去「ない」＋ずにはいられない",
+      "options": {
+        "1": "ずに済む",
+        "2": "ずにはならない",
+        "3": "ずにいられる",
+        "4": "ずにはいられない"
+      },
+      "correct_option": "4",
+      "correct_explanation": "辣得无法忍住不喝水，「飲まずにはいられない」表示无法克制的行为。",
+      "option_explanations": {
+        "1": "错误：表示不用喝也能解决，与辣到必须喝水相反。",
+        "2": "错误：不构成表达忍不住喝水的自然句型。",
+        "3": "错误：表示能够忍住不喝，与句意相反。",
+        "4": "正确：辣得无法忍住不喝水，「飲まずにはいられない」表示无法克制的行为。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ずにはいられない / 〜ないではいられない",
+        "url": "https://nihongokyoshi-net.com/2018/04/01/jlptn2-grammar-zuniwa-irarenai/",
+        "locator": "文型・例文：カレー／いじめ",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/b8a59c8bd15f1b53c5c5-1368eeeb117d.md"
+        ],
+        "original_example": "この店のカレーはとても辛い。ちょっと食べたら、水を飲まずにはいられない。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「ずにはいられない」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0031的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不用喝也能解决，与辣到必须喝水相反。",
+          "2. 错误：不构成表达忍不住喝水的自然句型。",
+          "3. 错误：表示能够忍住不喝，与句意相反。",
+          "4. 正确：辣得无法忍住不喝水，「飲まずにはいられない」表示无法克制的行为。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「ずにはいられない」接续成立：动词ない形去「ない」＋ずにはいられない。",
+        "semantic_exclusion": "表示不用喝也能解决，与辣到必须喝水相反。；表示能够忍住不喝，与句意相反。；不构成表达忍不住喝水的自然句型。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：辣得无法忍住不喝水，「飲まずにはいられない」表示无法克制的行为。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0063",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "クーラーをつけ（　）で寝てしまい、母にさんざん怒られた。",
+      "translation": "空调开着没关就睡着了，被母亲狠狠训了一顿。",
+      "tested_cards": [
+        "N2-G-0037"
+      ],
+      "conjugation": "动词ます形去「ます」＋っぱなし",
+      "options": {
+        "1": "次第",
+        "2": "っこない",
+        "3": "つつ",
+        "4": "っぱなし"
+      },
+      "correct_option": "4",
+      "correct_explanation": "空调开着而没关，导致挨骂，「つけっぱなし」表达放置不管。",
+      "option_explanations": {
+        "1": "错误：表示一开空调就做后项，不能构成「つけ次第で」。",
+        "2": "错误：表示绝不会开空调，既不表达开着未关也不能连接「で」。",
+        "3": "错误：表示边开空调边做事，且不能构成这里的「つけつつで」。",
+        "4": "正确：空调开着而没关，导致挨骂，「つけっぱなし」表达放置不管。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜っぱなし",
+        "url": "https://nihongokyoshi-net.com/2018/07/20/jlptn2-grammar-ppanashi/",
+        "locator": "文型・例文：クーラー／立ちっぱなし",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/a62613b0befd16d72811-345ec70ebb9c.md"
+        ],
+        "original_example": "クーラーをつけっぱなしで寝てしまい、母にさんざん怒られた。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「っぱなし」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0037的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示一开空调就做后项，不能构成「つけ次第で」。",
+          "2. 错误：表示绝不会开空调，既不表达开着未关也不能连接「で」。",
+          "3. 错误：表示边开空调边做事，且不能构成这里的「つけつつで」。",
+          "4. 正确：空调开着而没关，导致挨骂，「つけっぱなし」表达放置不管。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「っぱなし」接续成立：动词ます形去「ます」＋っぱなし。",
+        "semantic_exclusion": "表示边开空调边做事，且不能构成这里的「つけつつで」。；表示一开空调就做后项，不能构成「つけ次第で」。；表示绝不会开空调，既不表达开着未关也不能连接「で」。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：空调开着而没关，导致挨骂，「つけっぱなし」表达放置不管。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0064",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "大阪の食べ物（　）、たこ焼きです。",
+      "translation": "说到大阪的食物，就会想到章鱼烧。",
+      "tested_cards": [
+        "N2-G-0040"
+      ],
+      "conjugation": "名词＋といえば",
+      "options": {
+        "1": "としたら",
+        "2": "といっても",
+        "3": "といえば",
+        "4": "といったところで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "从大阪食物联想到章鱼烧，「といえば」用于引出典型代表。",
+      "option_explanations": {
+        "1": "错误：表示假设，不是从话题联想典型事物。",
+        "2": "错误：表示虽说如此却有限制，不能直接引出代表食物。",
+        "3": "正确：从大阪食物联想到章鱼烧，「といえば」用于引出典型代表。",
+        "4": "错误：表示即便提起也无用，不适合回答代表食物。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N3】文法・例文：〜といえば",
+        "url": "https://nihongokyoshi-net.com/2018/04/27/jlptn3-grammar-toieba/",
+        "locator": "文型・例文：大阪の食べ物",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/fb5aad95aca00ed9a60a-2e2f2cef0877.md"
+        ],
+        "original_example": "大阪の食べ物といえば、たこ焼きです。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「といえば」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0040的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示假设，不是从话题联想典型事物。",
+          "2. 错误：表示虽说如此却有限制，不能直接引出代表食物。",
+          "3. 正确：从大阪食物联想到章鱼烧，「といえば」用于引出典型代表。",
+          "4. 错误：表示即便提起也无用，不适合回答代表食物。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「といえば」接续成立：名词＋といえば。",
+        "semantic_exclusion": "表示虽说如此却有限制，不能直接引出代表食物。；表示假设，不是从话题联想典型事物。；表示即便提起也无用，不适合回答代表食物。",
+        "unique_answer_rationale": "只有选项3同时保留原句接续与语义：从大阪食物联想到章鱼烧，「といえば」用于引出典型代表。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "3",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0065",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "息子は大したスキルもないのに、フリーランスとして生きていくと言っているので、私は心配（　）。",
+      "translation": "儿子没什么本事却说要当自由职业者，我担心得不得了。",
+      "tested_cards": [
+        "N2-G-0039"
+      ],
+      "conjugation": "な形容词＋でならない（礼貌形：でなりません）",
+      "options": {
+        "1": "になりません",
+        "2": "ではありません",
+        "3": "で済みません",
+        "4": "でなりません"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「心配」是な形容词，接「でなりません」表示无法抑制的担忧。",
+      "option_explanations": {
+        "1": "错误：表示不会变得担心，与前项引出的强烈担忧相反。",
+        "2": "错误：仅否定担心，不能表达“担心得不得了”。",
+        "3": "错误：表示不能就此了结，不是表达强烈担忧的句型。",
+        "4": "正确：「心配」是な形容词，接「でなりません」表示无法抑制的担忧。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜てならない",
+        "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn2-grammar-tenaranai/",
+        "locator": "文型・例文：心配でならない／気になってならない",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/5e7dc392ea0071ceb6ca-771d905e1d9a.md"
+        ],
+        "original_example": "息子は大したスキルもないのに、フリーランスとして生きていくと言っているので、私は心配でなりません。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「でなりません」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0039的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不会变得担心，与前项引出的强烈担忧相反。",
+          "2. 错误：仅否定担心，不能表达“担心得不得了”。",
+          "3. 错误：表示不能就此了结，不是表达强烈担忧的句型。",
+          "4. 正确：「心配」是な形容词，接「でなりません」表示无法抑制的担忧。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「でなりません」接续成立：な形容词＋でならない（礼貌形：でなりません）。",
+        "semantic_exclusion": "表示不会变得担心，与前项引出的强烈担忧相反。；仅否定担心，不能表达“担心得不得了”。；表示不能就此了结，不是表达强烈担忧的句型。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：「心配」是な形容词，接「でなりません」表示无法抑制的担忧。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0066",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "いろいろな環境問題により、人々の意識は、変わり（　）。",
+      "translation": "受各种环境问题影响，人们的意识正在逐渐变化。",
+      "tested_cards": [
+        "N2-G-0036"
+      ],
+      "conjugation": "变化动词ます形去「ます」＋つつある",
+      "options": {
+        "1": "つつも",
+        "2": "次第だ",
+        "3": "つつある",
+        "4": "てならない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "环境问题推动意识发生逐步变化，「変わりつつある」表示变化中的过程。",
+      "option_explanations": {
+        "1": "错误：逆接形式后需有与变化相反的内容，本句在此结束。",
+        "2": "错误：「変わり次第だ」不能在此表示意识正逐渐变化。",
+        "3": "正确：环境问题推动意识发生逐步变化，「変わりつつある」表示变化中的过程。",
+        "4": "错误：表示难抑的感受，不能把「変わり」接成此处的渐变。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜つつある",
+        "url": "https://nihongokyoshi-net.com/2018/03/28/jlptn2-grammar-tsutsuaru/",
+        "locator": "文型・例文：足の回復／人々の意識",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/f05a3da66533f254b80a-0453b9b8e126.md"
+        ],
+        "original_example": "いろいろな環境問題により、人々の意識は、変わりつつある。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「つつある」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0036的语义边界。",
+        "distractor_basis": [
+          "1. 错误：逆接形式后需有与变化相反的内容，本句在此结束。",
+          "2. 错误：「変わり次第だ」不能在此表示意识正逐渐变化。",
+          "3. 正确：环境问题推动意识发生逐步变化，「変わりつつある」表示变化中的过程。",
+          "4. 错误：表示难抑的感受，不能把「変わり」接成此处的渐变。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「つつある」接续成立：变化动词ます形去「ます」＋つつある。",
+        "semantic_exclusion": "逆接形式后需有与变化相反的内容，本句在此结束。；「変わり次第だ」不能在此表示意识正逐渐变化。；表示难抑的感受，不能把「変わり」接成此处的渐变。",
+        "unique_answer_rationale": "只有选项3同时保留原句接续与语义：环境问题推动意识发生逐步变化，「変わりつつある」表示变化中的过程。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "3",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0067",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "さっきからずっと立ち（　）だけど、座らなくて大丈夫？",
+      "translation": "从刚才起一直站着，不坐一下没事吗？",
+      "tested_cards": [
+        "N2-G-0037"
+      ],
+      "conjugation": "动词ます形去「ます」＋っぱなし",
+      "options": {
+        "1": "っぱなし",
+        "2": "つつ",
+        "3": "っこない",
+        "4": "つつある"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「さっきからずっと」提示站立持续，「立ちっぱなし」与之呼应。",
+      "option_explanations": {
+        "1": "正确：「さっきからずっと」提示站立持续，「立ちっぱなし」与之呼应。",
+        "2": "错误：表示边站边做另一动作，不能接成「立ちつつだけど」。",
+        "3": "错误：表示绝不会站，与已站了一段时间相反。",
+        "4": "错误：表示逐渐变化，站着不是此处的变化过程。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜っぱなし",
+        "url": "https://nihongokyoshi-net.com/2018/07/20/jlptn2-grammar-ppanashi/",
+        "locator": "文型・例文：クーラー／立ちっぱなし",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/a62613b0befd16d72811-345ec70ebb9c.md"
+        ],
+        "original_example": "さっきからずっと立ちっぱなしだけど、座らなくて大丈夫？",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「っぱなし」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0037的语义边界。",
+        "distractor_basis": [
+          "1. 正确：「さっきからずっと」提示站立持续，「立ちっぱなし」与之呼应。",
+          "2. 错误：表示边站边做另一动作，不能接成「立ちつつだけど」。",
+          "3. 错误：表示绝不会站，与已站了一段时间相反。",
+          "4. 错误：表示逐渐变化，站着不是此处的变化过程。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「っぱなし」接续成立：动词ます形去「ます」＋っぱなし。",
+        "semantic_exclusion": "表示边站边做另一动作，不能接成「立ちつつだけど」。；表示逐渐变化，站着不是此处的变化过程。；表示绝不会站，与已站了一段时间相反。",
+        "unique_answer_rationale": "只有选项1同时保留原句接续与语义：「さっきからずっと」提示站立持续，「立ちっぱなし」与之呼应。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "1",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0068",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "健康に良くないとは知り（　）、タバコがやめられない。",
+      "translation": "虽知道吸烟有害健康，却戒不掉烟。",
+      "tested_cards": [
+        "N2-G-0035"
+      ],
+      "conjugation": "动词ます形去「ます」＋つつ（逆接）",
+      "options": {
+        "1": "次第",
+        "2": "つつある",
+        "3": "っこない",
+        "4": "つつ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "知道有害与戒不掉烟构成逆接，这里「知りつつ」相当于“虽知道”。",
+      "option_explanations": {
+        "1": "错误：表示得知后立即采取动作，不表示“虽知道却……”。",
+        "2": "错误：表示变化过程，不表示认知与行动冲突。",
+        "3": "错误：表示绝不可能，无法连接后项构成此处逆接。",
+        "4": "正确：知道有害与戒不掉烟构成逆接，这里「知りつつ」相当于“虽知道”。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜つつ",
+        "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-tsutsu/",
+        "locator": "文型１・例文１（逆接）／文型２・例文２（同時進行）",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/69aac5663573fd8a7547-70c21c19eca2.md"
+        ],
+        "original_example": "健康に良くないとは知りつつ、タバコがやめられない。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「つつ」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0035的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示得知后立即采取动作，不表示“虽知道却……”。",
+          "2. 错误：表示变化过程，不表示认知与行动冲突。",
+          "3. 错误：表示绝不可能，无法连接后项构成此处逆接。",
+          "4. 正确：知道有害与戒不掉烟构成逆接，这里「知りつつ」相当于“虽知道”。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「つつ」接续成立：动词ます形去「ます」＋つつ（逆接）。",
+        "semantic_exclusion": "表示变化过程，不表示认知与行动冲突。；表示得知后立即采取动作，不表示“虽知道却……”。；表示绝不可能，无法连接后项构成此处逆接。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：知道有害与戒不掉烟构成逆接，这里「知りつつ」相当于“虽知道”。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0069",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "毎日、漢字を１００個ノートに書くなんて、でき（　）。",
+      "translation": "每天在本子上写100个汉字，根本办不到啊。",
+      "tested_cards": [
+        "N2-G-0033"
+      ],
+      "conjugation": "动词ます形去「ます」＋っこない",
+      "options": {
+        "1": "ずにはいられないよ",
+        "2": "っこないよ",
+        "3": "ざるを得ないよ",
+        "4": "かねないよ"
+      },
+      "correct_option": "2",
+      "correct_explanation": "每天写100个汉字被说话人强烈认为不可能，所以用「できっこないよ」。",
+      "option_explanations": {
+        "1": "错误：表示忍不住要做，与“做不到”的判断相反。",
+        "2": "正确：每天写100个汉字被说话人强烈认为不可能，所以用「できっこないよ」。",
+        "3": "错误：表示迫于情况不得不做，不表示办不到。",
+        "4": "错误：表示可能发生不良结果，与“绝对做不到”方向相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：～っこない",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kkonai/",
+        "locator": "文型・例文：漢字100個／JLPT N1",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/a976f4ba222832804fa6-729de290f388.md"
+        ],
+        "original_example": "毎日、漢字を１００個ノートに書くなんて、できっこないよ。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「っこないよ」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0033的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示忍不住要做，与“做不到”的判断相反。",
+          "2. 正确：每天写100个汉字被说话人强烈认为不可能，所以用「できっこないよ」。",
+          "3. 错误：表示迫于情况不得不做，不表示办不到。",
+          "4. 错误：表示可能发生不良结果，与“绝对做不到”方向相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「っこないよ」接续成立：动词ます形去「ます」＋っこない。",
+        "semantic_exclusion": "表示可能发生不良结果，与“绝对做不到”方向相反。；表示迫于情况不得不做，不表示办不到。；表示忍不住要做，与“做不到”的判断相反。",
+        "unique_answer_rationale": "只有选项2同时保留原句接续与语义：每天写100个汉字被说话人强烈认为不可能，所以用「できっこないよ」。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "2",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0070",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日本に来て（　）、毎日家族にメールを送っている。",
+      "translation": "自从来到日本后，我每天都给家人发邮件。",
+      "tested_cards": [
+        "N2-G-0038"
+      ],
+      "conjugation": "动词て形＋以来",
+      "options": {
+        "1": "ことなく",
+        "2": "だけに",
+        "3": "以来",
+        "4": "次第"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「毎日」和「送っている」显示持续习惯，「来て以来」标出起点。",
+      "option_explanations": {
+        "1": "错误：要求动词辞书形，表示不做某事，与每天发送相反。",
+        "2": "错误：接在普通形后表原因，不表示持续到现在的起点。",
+        "3": "正确：「毎日」和「送っている」显示持续习惯，「来て以来」标出起点。",
+        "4": "错误：要求动词ます形词干，且表示一发生就立即做。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜以来",
+        "url": "https://nihongokyoshi-net.com/2018/03/27/jlptn2-grammar-irai/",
+        "locator": "文型・例文：日本に来て以来／入社以来",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/a5812fbda885cf74d0ba-ec8b18bf56fa.md"
+        ],
+        "original_example": "日本に来て以来、毎日家族にメールを送っている。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「以来」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0038的语义边界。",
+        "distractor_basis": [
+          "1. 错误：要求动词辞书形，表示不做某事，与每天发送相反。",
+          "2. 错误：接在普通形后表原因，不表示持续到现在的起点。",
+          "3. 正确：「毎日」和「送っている」显示持续习惯，「来て以来」标出起点。",
+          "4. 错误：要求动词ます形词干，且表示一发生就立即做。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「以来」接续成立：动词て形＋以来。",
+        "semantic_exclusion": "要求动词ます形词干，且表示一发生就立即做。；接在普通形后表原因，不表示持续到现在的起点。；要求动词辞书形，表示不做某事，与每天发送相反。",
+        "unique_answer_rationale": "只有选项3同时保留原句接续与语义：「毎日」和「送っている」显示持续习惯，「来て以来」标出起点。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "3",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0071",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "試験の結果が気になっ（　）。",
+      "translation": "考试结果让我在意得不得了。",
+      "tested_cards": [
+        "N2-G-0039"
+      ],
+      "conjugation": "动词て形＋ならない",
+      "options": {
+        "1": "てはならない",
+        "2": "ていられない",
+        "3": "て済む",
+        "4": "てならない"
+      },
+      "correct_option": "4",
+      "correct_explanation": "「気になってならない」表达对考试结果的在意无法抑制。",
+      "option_explanations": {
+        "1": "错误：表示不可以在意，是禁止表达，不合原例句的自发心情。",
+        "2": "错误：表示不能继续处于在意的状态，焦点与强烈在意相反。",
+        "3": "错误：表示在意后就解决了，不表示难以抑制。",
+        "4": "正确：「気になってならない」表达对考试结果的在意无法抑制。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜てならない",
+        "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn2-grammar-tenaranai/",
+        "locator": "文型・例文：心配でならない／気になってならない",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/5e7dc392ea0071ceb6ca-771d905e1d9a.md"
+        ],
+        "original_example": "試験の結果が気になってならない。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「てならない」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0039的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不可以在意，是禁止表达，不合原例句的自发心情。",
+          "2. 错误：表示不能继续处于在意的状态，焦点与强烈在意相反。",
+          "3. 错误：表示在意后就解决了，不表示难以抑制。",
+          "4. 正确：「気になってならない」表达对考试结果的在意无法抑制。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「てならない」接续成立：动词て形＋ならない。",
+        "semantic_exclusion": "表示不可以在意，是禁止表达，不合原例句的自发心情。；表示不能继续处于在意的状态，焦点与强烈在意相反。；表示在意后就解决了，不表示难以抑制。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：「気になってならない」表达对考试结果的在意无法抑制。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0072",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼はまだ日本語の勉強を始めて、１年未満だし、JLPT N1に受かり（　）。",
+      "translation": "他学日语还不到一年，不可能通过JLPT N1的。",
+      "tested_cards": [
+        "N2-G-0033"
+      ],
+      "conjugation": "动词ます形去「ます」＋っこない",
+      "options": {
+        "1": "ざるを得ないよ",
+        "2": "かねないよ",
+        "3": "ずにはいられないよ",
+        "4": "っこないよ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "以学习时间不足为理由，强烈否定通过N1的可能性。",
+      "option_explanations": {
+        "1": "错误：表示不得不通过，既不合接续语感也与前项相反。",
+        "2": "错误：表示有发生不良结果的风险，不是否定通过的可能。",
+        "3": "错误：表示忍不住做某事，不表示考试绝不可能通过。",
+        "4": "正确：以学习时间不足为理由，强烈否定通过N1的可能性。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：～っこない",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kkonai/",
+        "locator": "文型・例文：漢字100個／JLPT N1",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/a976f4ba222832804fa6-729de290f388.md"
+        ],
+        "original_example": "彼はまだ日本語の勉強を始めて、１年未満だし、JLPT N1に受かりっこないよ。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「っこないよ」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0033的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不得不通过，既不合接续语感也与前项相反。",
+          "2. 错误：表示有发生不良结果的风险，不是否定通过的可能。",
+          "3. 错误：表示忍不住做某事，不表示考试绝不可能通过。",
+          "4. 正确：以学习时间不足为理由，强烈否定通过N1的可能性。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「っこないよ」接续成立：动词ます形去「ます」＋っこない。",
+        "semantic_exclusion": "表示有发生不良结果的风险，不是否定通过的可能。；表示不得不通过，既不合接续语感也与前项相反。；表示忍不住做某事，不表示考试绝不可能通过。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：以学习时间不足为理由，强烈否定通过N1的可能性。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0073",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "カレンダーを眺め（　）、次の旅行の計画を立てます。",
+      "translation": "一边看日历，一边安排下次旅行。",
+      "tested_cards": [
+        "N2-G-0034"
+      ],
+      "conjugation": "动词ます形去「ます」＋つつ",
+      "options": {
+        "1": "つつある",
+        "2": "次第",
+        "3": "つつも",
+        "4": "つつ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "看日历与制定旅行计划同时进行，属于「つつ」的同时进行用法。",
+      "option_explanations": {
+        "1": "错误：表示逐渐变化，“看日历”不是朝某方向变化的过程。",
+        "2": "错误：表示一做完就立刻做后项，不表示边看边计划。",
+        "3": "错误：强调“虽然看日历却……”，后项并无逆接关系。",
+        "4": "正确：看日历与制定旅行计划同时进行，属于「つつ」的同时进行用法。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜つつ",
+        "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-tsutsu/",
+        "locator": "文型１・例文１（逆接）／文型２・例文２（同時進行）",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/69aac5663573fd8a7547-70c21c19eca2.md"
+        ],
+        "original_example": "カレンダーを眺めつつ、次の旅行の計画を立てます。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「つつ」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0034的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示逐渐变化，“看日历”不是朝某方向变化的过程。",
+          "2. 错误：表示一做完就立刻做后项，不表示边看边计划。",
+          "3. 错误：强调“虽然看日历却……”，后项并无逆接关系。",
+          "4. 正确：看日历与制定旅行计划同时进行，属于「つつ」的同时进行用法。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「つつ」接续成立：动词ます形去「ます」＋つつ。",
+        "semantic_exclusion": "强调“虽然看日历却……”，后项并无逆接关系。；表示逐渐变化，“看日历”不是朝某方向变化的过程。；表示一做完就立刻做后项，不表示边看边计划。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：看日历与制定旅行计划同时进行，属于「つつ」的同时进行用法。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0074",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "富士山の頂上から見た日の出の美しさ（　）、今でも忘れられません。",
+      "translation": "从富士山顶看到的日出美得令人难忘，至今仍记得。",
+      "tested_cards": [
+        "N2-G-0040"
+      ],
+      "conjugation": "名词＋といったら",
+      "options": {
+        "1": "といっても",
+        "2": "といったところで",
+        "3": "といったら",
+        "4": "としたら"
+      },
+      "correct_option": "3",
+      "correct_explanation": "以难忘的日出之美表达强烈感动，「といったら」引出程度评价。",
+      "option_explanations": {
+        "1": "错误：表示虽说是某种美，却要作限定，不合后项赞叹。",
+        "2": "错误：表示即使提起也无济于事，不表达赞叹。",
+        "3": "正确：以难忘的日出之美表达强烈感动，「といったら」引出程度评价。",
+        "4": "错误：表示假设，并非回忆实际看到的日出。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜といったら",
+        "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn2-grammar-toittara/",
+        "locator": "文型・例文：富士山の日の出",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/fbacaef3124bfc648ef6-a8eb88647776.md"
+        ],
+        "original_example": "富士山の頂上から見た日の出の美しさといったら、今でも忘れられません。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「といったら」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0040的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示虽说是某种美，却要作限定，不合后项赞叹。",
+          "2. 错误：表示即使提起也无济于事，不表达赞叹。",
+          "3. 正确：以难忘的日出之美表达强烈感动，「といったら」引出程度评价。",
+          "4. 错误：表示假设，并非回忆实际看到的日出。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「といったら」接续成立：名词＋といったら。",
+        "semantic_exclusion": "表示虽说是某种美，却要作限定，不合后项赞叹。；表示假设，并非回忆实际看到的日出。；表示即使提起也无济于事，不表达赞叹。",
+        "unique_answer_rationale": "只有选项3同时保留原句接续与语义：以难忘的日出之美表达强烈感动，「といったら」引出程度评价。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "3",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0075",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "友達がいじめられているところを見たので、何か言わ（　）。",
+      "translation": "看到朋友被欺负，我忍不住说了些什么。",
+      "tested_cards": [
+        "N2-G-0031"
+      ],
+      "conjugation": "动词ない形去「ない」＋ずにはいられない（过去形：ずにはいられなかった）",
+      "options": {
+        "1": "ずに済んだ",
+        "2": "ずにはいられなかった",
+        "3": "ずにいられた",
+        "4": "ずにおいた"
+      },
+      "correct_option": "2",
+      "correct_explanation": "朋友受欺负引发无法抑制的发言冲动，应说「言わずにはいられなかった」。",
+      "option_explanations": {
+        "1": "错误：表示不用说也解决了，与因目睹欺凌而忍不住开口相反。",
+        "2": "正确：朋友受欺负引发无法抑制的发言冲动，应说「言わずにはいられなかった」。",
+        "3": "错误：表示忍得住不说，与本句的行动动机相反。",
+        "4": "错误：「言わずにおいた」表示有意不说，与忍不住开口的情境相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ずにはいられない / 〜ないではいられない",
+        "url": "https://nihongokyoshi-net.com/2018/04/01/jlptn2-grammar-zuniwa-irarenai/",
+        "locator": "文型・例文：カレー／いじめ",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/b8a59c8bd15f1b53c5c5-1368eeeb117d.md"
+        ],
+        "original_example": "友達がいじめられているところを見たので、何か言わずにはいられなかった。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「ずにはいられなかった」挖空。",
+          "依据目标语法和上下文增设三个干扰项。",
+          "第1轮修订：替换可能近义的ずにはならなかった以恢复严格唯一解"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0031的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不用说也解决了，与因目睹欺凌而忍不住开口相反。",
+          "2. 正确：朋友受欺负引发无法抑制的发言冲动，应说「言わずにはいられなかった」。",
+          "3. 错误：表示忍得住不说，与本句的行动动机相反。",
+          "4. 错误：「言わずにおいた」表示有意不说，与忍不住开口的情境相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「言わ」为「言う」的ない形词干，可接「ずにはいられなかった」。",
+        "semantic_exclusion": "选项1表示不用说也解决，选项3表示能够忍住不说，选项4表示有意不说；都与目睹朋友被欺负后忍不住开口相反。",
+        "unique_answer_rationale": "只有选项2表示无法克制地说了些什么，且与原例句一致。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "2",
+          "reviewed_revision": 2,
+          "notes": "修订后定向盲审通过；唯一自然选项。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 2,
+          "notes": "源例句核实；近义干扰项已替换并复核。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0076",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "落ちるとは思っていなかった（　）、結果を見たときはショックを受けた。",
+      "translation": "正因为没想到会落榜，看到结果时才格外震惊。",
+      "tested_cards": [
+        "N2-G-0032"
+      ],
+      "conjugation": "动词普通形＋だけに",
+      "options": {
+        "1": "だけなら",
+        "2": "だけでは",
+        "3": "だけのことはあって",
+        "4": "だけに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "原本不认为会落榜，因此结果更令人震惊；该页明确用此例对比「だけあって」。",
+      "option_explanations": {
+        "1": "错误：表示“如果只是没想到会落榜”，与后面叙述实际受到冲击的因果关系不合。",
+        "2": "错误：表示仅凭前项还不够，不能在此表达“正因为如此更震惊”。",
+        "3": "错误：通常肯定前项付出或身份的价值，不适合意外落榜的震惊。",
+        "4": "正确：原本不认为会落榜，因此结果更令人震惊；该页明确用此例对比「だけあって」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜だけあって / 〜だけのことはあって",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-dakeatte/",
+        "locator": "文型・例文・だけにとの違い：落ちる／５つ星ホテル",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/6bb33a87ca6336839b90-c80b554ea441.md"
+        ],
+        "original_example": "落ちるとは思っていなかっただけに、結果を見たときはショックを受けた。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「だけに」挖空。",
+          "依据目标语法和上下文增设三个干扰项。",
+          "第1轮修订：だけあって在负面结果下仅不易使用而非绝对不成立，替换为严格不合的条件表达"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0032的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示“如果只是没想到会落榜”，与后面叙述实际受到冲击的因果关系不合。",
+          "2. 错误：表示仅凭前项还不够，不能在此表达“正因为如此更震惊”。",
+          "3. 错误：通常肯定前项付出或身份的价值，不适合意外落榜的震惊。",
+          "4. 正确：原本不认为会落榜，因此结果更令人震惊；该页明确用此例对比「だけあって」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「思っていなかった」是动词普通形，可接「だけに」引出后项。",
+        "semantic_exclusion": "选项1是假设条件而非实际因果；选项2表示仅凭前项不够；选项3偏正面价值评价，均不能表达落榜后格外震惊。",
+        "unique_answer_rationale": "只有选项4「だけに」与实际发生的负面结果和加深的震惊相符。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 2,
+          "notes": "定向复审：だけなら仅作条件，だけに为唯一自然因果表达。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 2,
+          "notes": "源例句与比较说明均核实；旧だけあって仅属不易使用，已换为だけなら并复核唯一解。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0077",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このホテルは５つ星ホテル（　）、サービスが素晴らしい。",
+      "translation": "这家酒店不愧是五星级酒店，服务很出色。",
+      "tested_cards": [
+        "N2-G-0032"
+      ],
+      "conjugation": "名词＋だけあって",
+      "options": {
+        "1": "だけあって",
+        "2": "どころか",
+        "3": "だけでは",
+        "4": "ばかりに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "五星级酒店与优质服务相称，带佩服和赞赏，符合「だけあって」。",
+      "option_explanations": {
+        "1": "正确：五星级酒店与优质服务相称，带佩服和赞赏，符合「だけあって」。",
+        "2": "错误：表示“别说是五星级酒店，反而……”，与本句赞赏五星级服务的关系不合。",
+        "3": "错误：表示仅有前项还不足，不能引出这里的正面评价。",
+        "4": "错误：多用于“只因前项而遭致坏结果”，不适合称赞服务。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜だけあって / 〜だけのことはあって",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-dakeatte/",
+        "locator": "文型・例文・だけにとの違い：落ちる／５つ星ホテル",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/6bb33a87ca6336839b90-c80b554ea441.md"
+        ],
+        "original_example": "このホテルは５つ星ホテルだけあって、サービスが素晴らしい。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「だけあって」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0032的语义边界。",
+        "distractor_basis": [
+          "1. 正确：五星级酒店与优质服务相称，带佩服和赞赏，符合「だけあって」。",
+          "2. 错误：表示“别说是五星级酒店，反而……”，与本句赞赏五星级服务的关系不合。",
+          "3. 错误：表示仅有前项还不足，不能引出这里的正面评价。",
+          "4. 错误：多用于“只因前项而遭致坏结果”，不适合称赞服务。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「だけあって」接续成立：名词＋だけあって。",
+        "semantic_exclusion": "多用于“只因前项而遭致坏结果”，不适合称赞服务。；表示“别说是五星级酒店，反而……”，与本句赞赏五星级服务的关系不合。；表示仅有前项还不足，不能引出这里的正面评价。",
+        "unique_answer_rationale": "只有选项1同时保留原句接续与语义：五星级酒店与优质服务相称，带佩服和赞赏，符合「だけあって」。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "1",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0078",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "大怪我をしましたが、彼の足は徐々に回復に向かい（　）ようです。",
+      "translation": "虽然受了重伤，但他的腿似乎正在逐渐恢复。",
+      "tested_cards": [
+        "N2-G-0036"
+      ],
+      "conjugation": "变化动词ます形去「ます」＋つつある",
+      "options": {
+        "1": "つつも",
+        "2": "つつある",
+        "3": "っこない",
+        "4": "っぱなし"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「徐々に」说明恢复在推进，「向かいつつある」聚焦这一变化过程。",
+      "option_explanations": {
+        "1": "错误：表示让步，需要与之相反的后项，不能直接接「ようです」描述恢复进程。",
+        "2": "正确：「徐々に」说明恢复在推进，「向かいつつある」聚焦这一变化过程。",
+        "3": "错误：强烈否定可能性，与「徐々に回復」相反。",
+        "4": "错误：表示某动作一直持续或放任不管，不表示逐渐恢复。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜つつある",
+        "url": "https://nihongokyoshi-net.com/2018/03/28/jlptn2-grammar-tsutsuaru/",
+        "locator": "文型・例文：足の回復／人々の意識",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/f05a3da66533f254b80a-0453b9b8e126.md"
+        ],
+        "original_example": "大怪我をしましたが、彼の足は徐々に回復に向かいつつあるようです。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「つつある」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0036的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示让步，需要与之相反的后项，不能直接接「ようです」描述恢复进程。",
+          "2. 正确：「徐々に」说明恢复在推进，「向かいつつある」聚焦这一变化过程。",
+          "3. 错误：强烈否定可能性，与「徐々に回復」相反。",
+          "4. 错误：表示某动作一直持续或放任不管，不表示逐渐恢复。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「つつある」接续成立：变化动词ます形去「ます」＋つつある。",
+        "semantic_exclusion": "表示让步，需要与之相反的后项，不能直接接「ようです」描述恢复进程。；表示某动作一直持续或放任不管，不表示逐渐恢复。；强烈否定可能性，与「徐々に回復」相反。",
+        "unique_answer_rationale": "只有选项2同时保留原句接续与语义：「徐々に」说明恢复在推进，「向かいつつある」聚焦这一变化过程。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "2",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0079",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "入社（　）、彼とは毎日のように相談し合っている。",
+      "translation": "自入职以来，我几乎每天都与他商量。",
+      "tested_cards": [
+        "N2-G-0038"
+      ],
+      "conjugation": "名词＋以来",
+      "options": {
+        "1": "だけに",
+        "2": "以来",
+        "3": "上では",
+        "4": "次第"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「入社」是起点，「毎日のように」说明之后持续发生，名词直接接「以来」。",
+      "option_explanations": {
+        "1": "错误：表示原因理由，不标出持续到现在的起点。",
+        "2": "正确：「入社」是起点，「毎日のように」说明之后持续发生，名词直接接「以来」。",
+        "3": "错误：表示某个判断角度，不表示自入职以来。",
+        "4": "错误：表示一发生就立即做，不能表达入职以来的持续习惯。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜以来",
+        "url": "https://nihongokyoshi-net.com/2018/03/27/jlptn2-grammar-irai/",
+        "locator": "文型・例文：日本に来て以来／入社以来",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/a5812fbda885cf74d0ba-ec8b18bf56fa.md"
+        ],
+        "original_example": "入社以来、彼とは毎日のように相談し合っている。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「以来」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0038的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示原因理由，不标出持续到现在的起点。",
+          "2. 正确：「入社」是起点，「毎日のように」说明之后持续发生，名词直接接「以来」。",
+          "3. 错误：表示某个判断角度，不表示自入职以来。",
+          "4. 错误：表示一发生就立即做，不能表达入职以来的持续习惯。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「以来」接续成立：名词＋以来。",
+        "semantic_exclusion": "表示一发生就立即做，不能表达入职以来的持续习惯。；表示原因理由，不标出持续到现在的起点。；表示某个判断角度，不表示自入职以来。",
+        "unique_answer_rationale": "只有选项2同时保留原句接续与语义：「入社」是起点，「毎日のように」说明之后持续发生，名词直接接「以来」。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "2",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0080",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私は大学に通い（　）、病気の母に代わり弟の面倒も見ている。",
+      "translation": "我一边上大学，一边代替生病的母亲照顾弟弟。",
+      "tested_cards": [
+        "N2-G-0034"
+      ],
+      "conjugation": "动词ます形去「ます」＋つつ",
+      "options": {
+        "1": "次第",
+        "2": "つつある",
+        "3": "っこない",
+        "4": "つつ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "上大学与照顾弟弟并行，「通いつつ」表达兼顾。",
+      "option_explanations": {
+        "1": "错误：表示完成前项后马上做后项，不表示长期兼顾。",
+        "2": "错误：表示向某方向逐渐变化，“通学”在这里是持续活动。",
+        "3": "错误：表示强烈否定可能性，与实际正在兼顾相反。",
+        "4": "正确：上大学与照顾弟弟并行，「通いつつ」表达兼顾。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜つつ",
+        "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-tsutsu/",
+        "locator": "文型１・例文１（逆接）／文型２・例文２（同時進行）",
+        "accessed_at": "2026-09-27",
+        "evidence_paths": [
+          "quizzes/sources/cache/69aac5663573fd8a7547-70c21c19eca2.md"
+        ],
+        "original_example": "私は大学に通いつつ、病気の母に代わり弟の面倒も見ている。",
+        "transformations": [
+          "去除来源页面的粗体排版及比较标记，保留原日文例句。",
+          "只将原例句中的「つつ」挖空。",
+          "依据目标语法和上下文增设三个干扰项。"
+        ],
+        "answer_basis": "日本語NET实际页面的意义、接续和例句；N2-G-0034的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示完成前项后马上做后项，不表示长期兼顾。",
+          "2. 错误：表示向某方向逐渐变化，“通学”在这里是持续活动。",
+          "3. 错误：表示强烈否定可能性，与实际正在兼顾相反。",
+          "4. 正确：上大学与照顾弟弟并行，「通いつつ」表达兼顾。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原句中「つつ」接续成立：动词ます形去「ます」＋つつ。",
+        "semantic_exclusion": "表示向某方向逐渐变化，“通学”在这里是持续活动。；表示完成前项后马上做后项，不表示长期兼顾。；表示强烈否定可能性，与实际正在兼顾相反。",
+        "unique_answer_rationale": "只有选项4同时保留原句接续与语义：上大学与照顾弟弟并行，「通いつつ」表达兼顾。"
+      },
+      "review": {
+        "blind": {
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "status": "passed",
+          "answer": "4",
+          "reviewed_revision": 1,
+          "notes": "首次独立盲答与预设一致；未见竞争性自然答案。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewer": "独立审题子代理 /root/blind_review",
+          "reviewed_at": "2026-09-27T21:01:17+08:00",
+          "reviewed_revision": 1,
+          "notes": "原例句见缓存摘录；页面直接讲解目标用法；改动及四项解析核实。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-09-27T20:36:47+08:00",
+        "ended_at": "2026-09-27T20:37:17+08:00",
+        "duration_seconds": 30.851,
+        "metrics": {
+          "cards": 10,
+          "questions": 20,
+          "cache_hits": 0
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-09-27T20:37:09+08:00",
+        "ended_at": "2026-09-27T20:38:51+08:00",
+        "duration_seconds": 102.708,
+        "metrics": {
+          "searches": 10,
+          "urls": 11
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-09-27T20:38:57+08:00",
+        "ended_at": "2026-09-27T20:45:10+08:00",
+        "duration_seconds": 373.999,
+        "metrics": {
+          "pages": 10,
+          "new_cache_records": 10
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-09-27T20:46:53+08:00",
+        "ended_at": "2026-09-27T20:50:34+08:00",
+        "duration_seconds": 221.898,
+        "metrics": {
+          "questions": 20,
+          "derived": 20
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-27T20:51:22+08:00",
+        "ended_at": "2026-09-27T20:52:30+08:00",
+        "duration_seconds": 68.969,
+        "metrics": {
+          "reviewed": 20,
+          "revised_before_blind": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-27T20:52:37+08:00",
+        "ended_at": "2026-09-27T20:52:38+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-27T20:52:57+08:00",
+        "ended_at": "2026-09-27T20:54:09+08:00",
+        "duration_seconds": 72.275,
+        "metrics": {
+          "reviewed": 20,
+          "flagged": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-27T20:55:55+08:00",
+        "ended_at": "2026-09-27T20:55:55+08:00",
+        "duration_seconds": 0.032,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-27T20:54:27+08:00",
+        "ended_at": "2026-09-27T20:56:14+08:00",
+        "duration_seconds": 107.981,
+        "metrics": {
+          "revised": 2,
+          "rounds": 1
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-27T20:59:36+08:00",
+        "ended_at": "2026-09-27T20:59:36+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-27T20:58:44+08:00",
+        "ended_at": "2026-09-27T21:00:30+08:00",
+        "duration_seconds": 106.212,
+        "metrics": {
+          "revised": 1,
+          "rounds": 1
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-27T21:01:42+08:00",
+        "ended_at": "2026-09-27T21:01:42+08:00",
+        "duration_seconds": 0.032,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-27T21:01:32+08:00",
+        "ended_at": "2026-09-27T21:02:35+08:00",
+        "duration_seconds": 63.614,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0,
+          "link_errors": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0061",
+        "revision": 2,
+        "reason": "将来源口语缩约騙されてる规范化为騙されている以协调书面语つつも",
+        "at": "2026-09-27T20:54:34+08:00"
+      },
+      {
+        "question_id": "N2-Q-0075",
+        "revision": 2,
+        "reason": "替换可能近义的ずにはならなかった以恢复严格唯一解",
+        "at": "2026-09-27T20:54:48+08:00"
+      },
+      {
+        "question_id": "N2-Q-0076",
+        "revision": 2,
+        "reason": "だけあって在负面结果下仅不易使用而非绝对不成立，替换为严格不合的条件表达",
+        "at": "2026-09-27T20:58:52+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}

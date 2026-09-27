@@ -637,6 +637,137 @@
       "locator": "文型・例文区",
       "evidence_path": "quizzes/sources/cache/f05c84590ad7a53b241d-7c1544b27fc1.md",
       "content_sha256": "7c1544b27fc1905695b0df09bb615537a523432b9a30436314fd7013270985bd"
+    },
+    "b8a59c8bd15f1b53c5c5": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/01/jlptn2-grammar-zuniwa-irarenai/",
+      "title": "【JLPT N2】文法・例文：〜ずにはいられない / 〜ないではいられない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0031"
+      ],
+      "locator": "文型・例文：カレー／いじめ",
+      "evidence_path": "quizzes/sources/cache/b8a59c8bd15f1b53c5c5-1368eeeb117d.md",
+      "content_sha256": "1368eeeb117da02d38d560db876aa988dafe995273f75e5740dcc614aca47565"
+    },
+    "6bb33a87ca6336839b90": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-dakeatte/",
+      "title": "【JLPT N2】文法・例文：〜だけあって / 〜だけのことはあって",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0032"
+      ],
+      "locator": "文型・例文・だけにとの違い：落ちる／５つ星ホテル",
+      "evidence_path": "quizzes/sources/cache/6bb33a87ca6336839b90-c80b554ea441.md",
+      "content_sha256": "c80b554ea4416d3dbee59022edf4f3db823f44344f3fa230f1ca76302d5f0c34"
+    },
+    "a976f4ba222832804fa6": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-kkonai/",
+      "title": "【JLPT N２】文法・例文：～っこない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0033"
+      ],
+      "locator": "文型・例文：漢字100個／JLPT N1",
+      "evidence_path": "quizzes/sources/cache/a976f4ba222832804fa6-729de290f388.md",
+      "content_sha256": "729de290f388cdb346e7289819ecba458730f9bfb4efe54a1c1eb7ca32c20fec"
+    },
+    "69aac5663573fd8a7547": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-tsutsu/",
+      "title": "【JLPT N2】文法・例文：〜つつ",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0034",
+        "N2-G-0035"
+      ],
+      "locator": "文型１・例文１（逆接）／文型２・例文２（同時進行）",
+      "evidence_path": "quizzes/sources/cache/69aac5663573fd8a7547-70c21c19eca2.md",
+      "content_sha256": "70c21c19eca26665fd322951ed2eca6c6e6b5577afc95b66715ddcbe995270eb"
+    },
+    "f05a3da66533f254b80a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/03/28/jlptn2-grammar-tsutsuaru/",
+      "title": "【JLPT N2】文法・例文：〜つつある",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0036"
+      ],
+      "locator": "文型・例文：足の回復／人々の意識",
+      "evidence_path": "quizzes/sources/cache/f05a3da66533f254b80a-0453b9b8e126.md",
+      "content_sha256": "0453b9b8e1260090ac068f03eab3fc50a555ce980ad711ae95f0c62a29e3422a"
+    },
+    "a62613b0befd16d72811": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/20/jlptn2-grammar-ppanashi/",
+      "title": "【JLPT N２】文法・例文：〜っぱなし",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0037"
+      ],
+      "locator": "文型・例文：クーラー／立ちっぱなし",
+      "evidence_path": "quizzes/sources/cache/a62613b0befd16d72811-345ec70ebb9c.md",
+      "content_sha256": "345ec70ebb9c535db27c43f3b6d1fa1daef1c00ffc634af175eea4a038b663aa"
+    },
+    "a5812fbda885cf74d0ba": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/03/27/jlptn2-grammar-irai/",
+      "title": "【JLPT N2】文法・例文：〜以来",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0038"
+      ],
+      "locator": "文型・例文：日本に来て以来／入社以来",
+      "evidence_path": "quizzes/sources/cache/a5812fbda885cf74d0ba-ec8b18bf56fa.md",
+      "content_sha256": "ec8b18bf56fa7ccb70c3420f29dd2750d0c44034fef3a43fcf67f244ea208739"
+    },
+    "5e7dc392ea0071ceb6ca": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn2-grammar-tenaranai/",
+      "title": "【JLPT N2】文法・例文：〜てならない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0039"
+      ],
+      "locator": "文型・例文：心配でならない／気になってならない",
+      "evidence_path": "quizzes/sources/cache/5e7dc392ea0071ceb6ca-771d905e1d9a.md",
+      "content_sha256": "771d905e1d9a6e6f8dd9324b02b526b7adecd31431433ef46b06988685ce8c42"
+    },
+    "fb5aad95aca00ed9a60a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/27/jlptn3-grammar-toieba/",
+      "title": "【JLPT N3】文法・例文：〜といえば",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0040"
+      ],
+      "locator": "文型・例文：大阪の食べ物",
+      "evidence_path": "quizzes/sources/cache/fb5aad95aca00ed9a60a-2e2f2cef0877.md",
+      "content_sha256": "2e2f2cef087703bcb57ad75039f8cbbe173b39efea53ce252441750b7cac2086"
+    },
+    "fbacaef3124bfc648ef6": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/30/jlptn2-grammar-toittara/",
+      "title": "【JLPT N２】文法・例文：〜といったら",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-27",
+      "grammar_ids": [
+        "N2-G-0040"
+      ],
+      "locator": "文型・例文：富士山の日の出",
+      "evidence_path": "quizzes/sources/cache/fbacaef3124bfc648ef6-a8eb88647776.md",
+      "content_sha256": "a8eb8864777687684ef0e44d2d4eda65076094112c319df793a817660a1b2b6b"
     }
   }
 }
