@@ -1,0 +1,1627 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-29-n2-41-50-test-1",
+    "title": "N2 第41～50课语法选择练习（20题）",
+    "date": "2026-09-29",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0081",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "母：宿題やったの？　娘：やったよ。母：宿題したの？　娘：…したよ。母：ねぇ、宿題…　娘：やった（　）！！！",
+      "translation": "母亲反复追问作业，女儿焦躁地强调：我说了做了！",
+      "tested_cards": [
+        "N2-G-0041"
+      ],
+      "conjugation": "动词普通形＋ってば",
+      "options": {
+        "1": "とか",
+        "2": "ってば",
+        "3": "というものだ",
+        "4": "どころか"
+      },
+      "correct_option": "2",
+      "correct_explanation": "重复回答仍被追问，用句末「ってば」强调自己的话并流露焦躁。",
+      "option_explanations": {
+        "1": "错误：表示不确定的传闻，不能承担本句要表达的关系。",
+        "2": "正确：重复回答仍被追问，用句末「ってば」强调自己的话并流露焦躁。",
+        "3": "错误：用于断定评价，不能承担本句要表达的关系。",
+        "4": "错误：用于与预期相反或递进，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "〜ってば",
+        "url": "https://www.edewakaru.com/archives/7559371.html",
+        "locator": "【接続】【例文１】",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-29-n2-41-50-test-1/edewakaru-41-tteba.md"
+        ],
+        "original_example": "母：宿題やったの？／娘：やったよ〜／母：宿題したの？／娘：…したよ／母：ねぇ、宿題…／娘：やったってば！！！",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "将来源对话里的「やったよ〜」改为「やったよ。」；统一各句的句读和空格。"
+        ],
+        "answer_basis": "絵でわかる日本語页面的接续、语义和例句；N2-G-0041的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不确定的传闻，不能承担本句要表达的关系。",
+          "2. 正确：重复回答仍被追问，用句末「ってば」强调自己的话并流露焦躁。",
+          "3. 错误：用于断定评价，不能承担本句要表达的关系。",
+          "4. 错误：用于与预期相反或递进，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词普通形＋ってば」接入「ってば」后句子成立。",
+        "semantic_exclusion": "1：错误：表示不确定的传闻，不能承担本句要表达的关系。 3：错误：用于断定评价，不能承担本句要表达的关系。 4：错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "重复回答仍被追问，用句末「ってば」强调自己的话并流露焦躁。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0082",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "一口食べてみ（　）、美味しいかどうかわかりません。",
+      "translation": "不尝一口，就不知道好不好吃。",
+      "tested_cards": [
+        "N2-G-0048"
+      ],
+      "conjugation": "动词ない形去「ない」＋ないことには",
+      "options": {
+        "1": "ないことには",
+        "2": "ないことはない",
+        "3": "ないこともない",
+        "4": "ないどころか"
+      },
+      "correct_option": "1",
+      "correct_explanation": "尝一口是判断味道的必要条件，后句为‘不知道’，用「ないことには」。",
+      "option_explanations": {
+        "1": "正确：尝一口是判断味道的必要条件，后句为‘不知道’，用「ないことには」。",
+        "2": "错误：表示并非不可能，不能承担本句要表达的关系。",
+        "3": "错误：表示并非不可能，不能承担本句要表达的关系。",
+        "4": "错误：「ないどころか」表示“非但不……”，与后句“不知道味道”的条件关系不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ないことには〜ない",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-naikotowa-nai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/78a1c264855213dadd98-bb2bee230c07.md"
+        ],
+        "original_example": "一口食べてみないことには、美味しいかどうかわかりません。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "第1轮修订：移除可能成立的「ないうちに」干扰项"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0048的语义边界。",
+        "distractor_basis": [
+          "1. 正确：尝一口是判断味道的必要条件，后句为‘不知道’，用「ないことには」。",
+          "2. 错误：表示并非不可能，不能承担本句要表达的关系。",
+          "3. 错误：表示并非不可能，不能承担本句要表达的关系。",
+          "4. 错误：「ないどころか」表示“非但不……”，与后句“不知道味道”的条件关系不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「食べてみないことには」接续正确；「食べてみないどころか」虽可接续，语义不合。",
+        "semantic_exclusion": "2、3是弱肯定，与“不知道”相反；4表示“非但不”，无法引出本句必要条件。",
+        "unique_answer_rationale": "尝一口是判断味道的必要条件，后句为‘不知道’，用「ないことには」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "1",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0083",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "スポーツはただ練習すればできるようになる（　）。才能や教え方も関係する。",
+      "translation": "运动不是只要练习就一定能做好；天赋和指导方法也有关系。",
+      "tested_cards": [
+        "N2-G-0043"
+      ],
+      "conjugation": "普通形＋というものではない",
+      "options": {
+        "1": "というものだ",
+        "2": "どころではない",
+        "3": "というものではない",
+        "4": "とかで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "后句指出其他条件，否定‘只靠练习就一定能做好’的笼统判断。",
+      "option_explanations": {
+        "1": "错误：用于断定评价，不能承担本句要表达的关系。",
+        "2": "错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+        "3": "正确：后句指出其他条件，否定‘只靠练习就一定能做好’的笼统判断。",
+        "4": "错误：表示传闻中的原因，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜というものではない",
+        "url": "https://nihongokyoshi-net.com/2018/05/08/jlptn2-grammar-toiumonodewanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/734d2ed624aee13f34f9-a6f3823113d0.md"
+        ],
+        "original_example": "スポーツはただ練習すればできるようになるというものではない。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "原例句后增补「才能や教え方も関係する。」以明确不能仅凭练习作出判断。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0043的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于断定评价，不能承担本句要表达的关系。",
+          "2. 错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+          "3. 正确：后句指出其他条件，否定‘只靠练习就一定能做好’的笼统判断。",
+          "4. 错误：表示传闻中的原因，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「普通形＋というものではない」接入「というものではない」后句子成立。",
+        "semantic_exclusion": "1：错误：用于断定评价，不能承担本句要表达的关系。 2：错误：表示没有余裕做某事，不能承担本句要表达的关系。 4：错误：表示传闻中的原因，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "后句指出其他条件，否定‘只靠练习就一定能做好’的笼统判断。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "3",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0084",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女はダイエットすると言っておき（　）、今日もケーキを食べている。",
+      "translation": "她明明说要减肥，今天却又在吃蛋糕。",
+      "tested_cards": [
+        "N2-G-0050"
+      ],
+      "conjugation": "动词ます形去「ます」＋ながら（逆接）",
+      "options": {
+        "1": "とともに",
+        "2": "どころか",
+        "3": "ながら",
+        "4": "というものだ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "‘说要减肥’与‘又吃蛋糕’相反，用逆接「言っておきながら」。",
+      "option_explanations": {
+        "1": "错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+        "2": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "3": "正确：‘说要减肥’与‘又吃蛋糕’相反，用逆接「言っておきながら」。",
+        "4": "错误：用于断定评价，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ながら（逆接）",
+        "url": "https://nihongokyoshi-net.com/2018/11/19/jlptn2-grammar-nagara/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md"
+        ],
+        "original_example": "彼女はダイエットすると言っておきながら、今日もケーキを食べている。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0050的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+          "2. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "3. 正确：‘说要减肥’与‘又吃蛋糕’相反，用逆接「言っておきながら」。",
+          "4. 错误：用于断定评价，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词ます形去「ます」＋ながら（逆接）」接入「ながら」后句子成立。",
+        "semantic_exclusion": "1：错误：表示共同或伴随变化，不能承担本句要表达的关系。 2：错误：用于与预期相反或递进，不能承担本句要表达的关系。 4：错误：用于断定评价，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "‘说要减肥’与‘又吃蛋糕’相反，用逆接「言っておきながら」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "3",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0085",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "医者に出された薬を飲んでいるのに、よくなる（　）、症状はひどくなる一方だよ。",
+      "translation": "明明在吃医生开的药，病情非但没好转，反而越来越严重。",
+      "tested_cards": [
+        "N2-G-0045"
+      ],
+      "conjugation": "普通形＋どころか",
+      "options": {
+        "1": "どころではない",
+        "2": "どころか",
+        "3": "とともに",
+        "4": "というものだ"
+      },
+      "correct_option": "2",
+      "correct_explanation": "预期好转，现实却恶化，前后方向相反，用「どころか」。",
+      "option_explanations": {
+        "1": "错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+        "2": "正确：预期好转，现实却恶化，前后方向相反，用「どころか」。",
+        "3": "错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+        "4": "错误：用于断定评价，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜どころか",
+        "url": "https://nihongokyoshi-net.com/2019/05/28/jlptn2-grammar-dokoroka/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/4fc3f2773c2e6f9c1ec2-302bb5630b96.md"
+        ],
+        "original_example": "医者に出された薬を飲んでいるのに、よくなるどころか、症状はひどくなる一方だよ。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0045的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+          "2. 正确：预期好转，现实却恶化，前后方向相反，用「どころか」。",
+          "3. 错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+          "4. 错误：用于断定评价，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「普通形＋どころか」接入「どころか」后句子成立。",
+        "semantic_exclusion": "1：错误：表示没有余裕做某事，不能承担本句要表达的关系。 3：错误：表示共同或伴随变化，不能承担本句要表达的关系。 4：错误：用于断定评价，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "预期好转，现实却恶化，前后方向相反，用「どころか」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0086",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "５分で英語の単語を１００個覚えるなんて、普通に考えれば無理（　）。",
+      "translation": "五分钟背一百个英语单词，按常理想根本不可能。",
+      "tested_cards": [
+        "N2-G-0042"
+      ],
+      "conjugation": "名词／な形容词词干＋というものだ",
+      "options": {
+        "1": "とか",
+        "2": "というものだ",
+        "3": "というものではない",
+        "4": "どころではない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "说话人断定这种要求不可能，用「無理というものだ」。",
+      "option_explanations": {
+        "1": "错误：表示不确定的传闻，不能承担本句要表达的关系。",
+        "2": "正确：说话人断定这种要求不可能，用「無理というものだ」。",
+        "3": "错误：表示并非一概如此，不能承担本句要表达的关系。",
+        "4": "错误：表示没有余裕做某事，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "というものだ①（当然）",
+        "url": "https://www.edewakaru.com/archives/23920059.html",
+        "locator": "【接続】【例文】①②",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-29-n2-41-50-test-1/edewakaru-42-toiumonoda.md"
+        ],
+        "original_example": "５分で英語の単語を１００個覚えるなんて、無理というものだ。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "在「無理」前增补「普通に考えれば」，强化来源讲解中的一般判断语境。"
+        ],
+        "answer_basis": "絵でわかる日本語页面的接续、语义和例句；N2-G-0042的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不确定的传闻，不能承担本句要表达的关系。",
+          "2. 正确：说话人断定这种要求不可能，用「無理というものだ」。",
+          "3. 错误：表示并非一概如此，不能承担本句要表达的关系。",
+          "4. 错误：表示没有余裕做某事，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「名词／な形容词词干＋というものだ」接入「というものだ」后句子成立。",
+        "semantic_exclusion": "1：错误：表示不确定的传闻，不能承担本句要表达的关系。 3：错误：表示并非一概如此，不能承担本句要表达的关系。 4：错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "说话人断定这种要求不可能，用「無理というものだ」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0087",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "時間がたつ（　）、手の痛みが引いてきた。",
+      "translation": "随着时间过去，手的疼痛逐渐减轻。",
+      "tested_cards": [
+        "N2-G-0047"
+      ],
+      "conjugation": "动词辞书形＋とともに",
+      "options": {
+        "1": "どころか",
+        "2": "ながら",
+        "3": "とともに",
+        "4": "というものだ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "时间推移和疼痛减轻同步变化，用相伴变化的「とともに」。",
+      "option_explanations": {
+        "1": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "2": "错误：表示同时进行或逆接，不能承担本句要表达的关系。",
+        "3": "正确：时间推移和疼痛减轻同步变化，用相伴变化的「とともに」。",
+        "4": "错误：用于断定评价，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜とともに（相関関係）",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-totomoni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/86aa761c0caded7623cb-3041f61c6203.md"
+        ],
+        "original_example": "時間がたつとともに、手の痛みが引いてきた。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0047的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "2. 错误：表示同时进行或逆接，不能承担本句要表达的关系。",
+          "3. 正确：时间推移和疼痛减轻同步变化，用相伴变化的「とともに」。",
+          "4. 错误：用于断定评价，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词辞书形＋とともに」接入「とともに」后句子成立。",
+        "semantic_exclusion": "1：错误：用于与预期相反或递进，不能承担本句要表达的关系。 2：错误：表示同时进行或逆接，不能承担本句要表达的关系。 4：错误：用于断定评价，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "时间推移和疼痛减轻同步变化，用相伴变化的「とともに」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "3",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0088",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "さっき聞いたんだけど、黒田さんは来年、会社を辞める（　）。噂になっていたよ。本当なのかなぁ。",
+      "translation": "刚听说黑田先生明年要辞职，好像成了传闻，不知是不是真的。",
+      "tested_cards": [
+        "N2-G-0044"
+      ],
+      "conjugation": "动词普通形＋とか",
+      "options": {
+        "1": "というものだ",
+        "2": "どころか",
+        "3": "とか",
+        "4": "以来"
+      },
+      "correct_option": "3",
+      "correct_explanation": "‘听说、传闻、真假未定’提示不确定传闻，用句末「とか」。",
+      "option_explanations": {
+        "1": "错误：用于断定评价，不能承担本句要表达的关系。",
+        "2": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "3": "正确：‘听说、传闻、真假未定’提示不确定传闻，用句末「とか」。",
+        "4": "错误：表示从过去起持续到现在，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜とか（で）",
+        "url": "https://nihongokyoshi-net.com/2019/01/15/jlptn2-grammar-tokade/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/bc613bd0c83da54d1965-71054f816de7.md"
+        ],
+        "original_example": "さっき聞いたんだけど、黒田さんは来年、会社を辞めるとか。噂になっていたよ。本当なのかなぁ。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0044的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于断定评价，不能承担本句要表达的关系。",
+          "2. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "3. 正确：‘听说、传闻、真假未定’提示不确定传闻，用句末「とか」。",
+          "4. 错误：表示从过去起持续到现在，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词普通形＋とか」接入「とか」后句子成立。",
+        "semantic_exclusion": "1：错误：用于断定评价，不能承担本句要表达的关系。 2：错误：用于与预期相反或递进，不能承担本句要表达的关系。 4：错误：表示从过去起持续到现在，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "‘听说、传闻、真假未定’提示不确定传闻，用句末「とか」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "3",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0089",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "A：これ、まだ食べられる？　B：う〜ん、食べられ（　）けど、賞味期限が切れているのでやめておいた方がいいと思うよ。",
+      "translation": "这还能吃吗？也不是不能吃，但已过保质期，最好别吃。",
+      "tested_cards": [
+        "N2-G-0049"
+      ],
+      "conjugation": "动词ない形去「ない」＋ないことはない",
+      "options": {
+        "1": "ないことには",
+        "2": "ないどころか",
+        "3": "ないことはない",
+        "4": "ないものだ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "承认‘也不是不能吃’却保留意见，用「ないことはない」。",
+      "option_explanations": {
+        "1": "错误：表示不满足前项就无法实现后项，不能承担本句要表达的关系。",
+        "2": "错误：表示‘非但不’，与本句要表达的关系不同。",
+        "3": "正确：承认‘也不是不能吃’却保留意见，用「ないことはない」。",
+        "4": "错误：表示一般性否定或感慨，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ないことはない / 〜ないこともない",
+        "url": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-naikotowanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/dabfceeee2c774835989-47be5ef5f37e.md"
+        ],
+        "original_example": "A：これ、まだ食べられる？／B：う〜ん、食べられないことはないけど、賞味期限が切れているのでやめておいた方がいいと思うよ。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0049的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示不满足前项就无法实现后项，不能承担本句要表达的关系。",
+          "2. 错误：表示‘非但不’，与本句要表达的关系不同。",
+          "3. 正确：承认‘也不是不能吃’却保留意见，用「ないことはない」。",
+          "4. 错误：表示一般性否定或感慨，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词ない形去「ない」＋ないことはない」接入「ないことはない」后句子成立。",
+        "semantic_exclusion": "1：错误：表示不满足前项就无法实现后项，不能承担本句要表达的关系。 2：错误：表示‘非但不’，与本句要表达的关系不同。 4：错误：表示一般性否定或感慨，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "承认‘也不是不能吃’却保留意见，用「ないことはない」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "3",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0090",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "隣の部屋がうるさすぎて、寝る（　）。",
+      "translation": "隔壁太吵，根本没法睡。",
+      "tested_cards": [
+        "N2-G-0046"
+      ],
+      "conjugation": "动词辞书形＋どころではない",
+      "options": {
+        "1": "というものだ",
+        "2": "どころではない",
+        "3": "どころか",
+        "4": "とともに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "吵得没有睡觉的条件或余裕，用「寝るどころではない」。",
+      "option_explanations": {
+        "1": "错误：用于断定评价，不能承担本句要表达的关系。",
+        "2": "正确：吵得没有睡觉的条件或余裕，用「寝るどころではない」。",
+        "3": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "4": "错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜どころではない",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-dokorojanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/393ac9181f2c9f5bbf35-b011d9f68bc9.md"
+        ],
+        "original_example": "隣の部屋がうるさすぎて、寝るどころではない。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0046的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于断定评价，不能承担本句要表达的关系。",
+          "2. 正确：吵得没有睡觉的条件或余裕，用「寝るどころではない」。",
+          "3. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "4. 错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词辞书形＋どころではない」接入「どころではない」后句子成立。",
+        "semantic_exclusion": "1：错误：用于断定评价，不能承担本句要表达的关系。 3：错误：用于与预期相反或递进，不能承担本句要表达的关系。 4：错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "吵得没有睡觉的条件或余裕，用「寝るどころではない」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0091",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "うちの息子（　）、ゲームしてばかりいるの……。",
+      "translation": "说起我儿子呀，整天只顾着打游戏……（带着失望）",
+      "tested_cards": [
+        "N2-G-0041"
+      ],
+      "conjugation": "名词＋ったら",
+      "options": {
+        "1": "ったら",
+        "2": "とかで",
+        "3": "というものではない",
+        "4": "どころではない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "以「うちの息子」为话题，并带着失望情绪说他的行为，用名词后的「ったら」。",
+      "option_explanations": {
+        "1": "正确：以「うちの息子」为话题，并带着失望情绪说他的行为，用名词后的「ったら」。",
+        "2": "错误：「とかで」引出传闻中的原因，不能在此表达对儿子的情绪。",
+        "3": "错误：「というものではない」否定一般判断，此处没有判断可否定。",
+        "4": "错误：「どころではない」表示无余裕，此处没有这种含义。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "〜ったら（Nったら）｜日本語能力試験 JLPT N2",
+        "url": "https://www.edewakaru.com/archives/10384780.html",
+        "locator": "【接続】【意味】【例文】②【説明】",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-29-n2-41-50-test-1/edewakaru-41-n-ttara.md"
+        ],
+        "original_example": "うちの息子ったら、ゲームしてばかりいるの…",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "第1轮修订：改为名词话题「ったら」以匹配第41课范围",
+          "改用同站「Nったら」例文②，以名词话题用法替换句末重申用法。",
+          "将来源结尾省略号「…」统一为「……」。"
+        ],
+        "answer_basis": "絵でわかる日本語的「Nったら」接续、话题与情绪说明及例文②；N2-G-0041的语义边界。",
+        "distractor_basis": [
+          "1. 正确：以「うちの息子」为话题，并带着失望情绪说他的行为，用名词后的「ったら」。",
+          "2. 错误：「とかで」引出传闻中的原因，不能在此表达对儿子的情绪。",
+          "3. 错误：「というものではない」否定一般判断，此处没有判断可否定。",
+          "4. 错误：「どころではない」表示无余裕，此处没有这种含义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「うちの息子ったら」符合名词＋ったら；其余选项不表达这种带情绪的话题提示。",
+        "semantic_exclusion": "2是传闻列举；3否定一般判断；4表示无余裕，均不符合后续抱怨。",
+        "unique_answer_rationale": "以「うちの息子」为话题，并带着失望情绪说他的行为，用名词后的「ったら」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "1",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0092",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "外国語はただ文法を覚えれば話せる（　）。会話の練習も必要だ。",
+      "translation": "外语并不是只记住语法就能说；还需要会话练习。",
+      "tested_cards": [
+        "N2-G-0043"
+      ],
+      "conjugation": "普通形＋というものではない",
+      "options": {
+        "1": "どころではない",
+        "2": "というものではない",
+        "3": "というものだ",
+        "4": "とともに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "‘还需要会话练习’排除简单充分条件，用部分否定「というものではない」。",
+      "option_explanations": {
+        "1": "错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+        "2": "正确：‘还需要会话练习’排除简单充分条件，用部分否定「というものではない」。",
+        "3": "错误：用于断定评价，不能承担本句要表达的关系。",
+        "4": "错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜というものではない",
+        "url": "https://nihongokyoshi-net.com/2018/05/08/jlptn2-grammar-toiumonodewanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/734d2ed624aee13f34f9-a6f3823113d0.md"
+        ],
+        "original_example": "外国語はただ文法を覚えれば話せるというものではない。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "原例句后增补「会話の練習も必要だ。」以明确不能只背语法。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0043的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+          "2. 正确：‘还需要会话练习’排除简单充分条件，用部分否定「というものではない」。",
+          "3. 错误：用于断定评价，不能承担本句要表达的关系。",
+          "4. 错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「普通形＋というものではない」接入「というものではない」后句子成立。",
+        "semantic_exclusion": "1：错误：表示没有余裕做某事，不能承担本句要表达的关系。 3：错误：用于断定评价，不能承担本句要表达的关系。 4：错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "‘还需要会话练习’排除简单充分条件，用部分否定「というものではない」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0093",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ジェシカさんは１０年日本に住んでいるのに、漢字（　）ひらがなも書けない。",
+      "translation": "杰西卡在日本住了十年，别说汉字，连平假名也不会写。",
+      "tested_cards": [
+        "N2-G-0045"
+      ],
+      "conjugation": "名词＋どころか",
+      "options": {
+        "1": "どころか",
+        "2": "とかで",
+        "3": "以来",
+        "4": "というものではない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "连较基础的平假名也不会写，突出比汉字更意外的事实，用「どころか」。",
+      "option_explanations": {
+        "1": "正确：连较基础的平假名也不会写，突出比汉字更意外的事实，用「どころか」。",
+        "2": "错误：「とかで」引出传闻中的原因，不能接在「漢字」后与「ひらがなも書けない」构成此处的递进关系。",
+        "3": "错误：表示从过去起持续到现在，不能承担本句要表达的关系。",
+        "4": "错误：表示并非一概如此，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜どころか",
+        "url": "https://nihongokyoshi-net.com/2019/05/28/jlptn2-grammar-dokoroka/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/4fc3f2773c2e6f9c1ec2-302bb5630b96.md"
+        ],
+        "original_example": "ジェシカさんは１０年日本に住んでいるのに、漢字どころかひらがなも書けない。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "第1轮修订：移除可能成立的「とともに」干扰项"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0045的语义边界。",
+        "distractor_basis": [
+          "1. 正确：连较基础的平假名也不会写，突出比汉字更意外的事实，用「どころか」。",
+          "2. 错误：「とかで」引出传闻中的原因，不能接在「漢字」后与「ひらがなも書けない」构成此处的递进关系。",
+          "3. 错误：表示从过去起持续到现在，不能承担本句要表达的关系。",
+          "4. 错误：表示并非一概如此，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "「漢字どころかひらがなも」接续正确；其余选项不构成此处的递进句。",
+        "semantic_exclusion": "2是传闻原因；3表示从过去起持续；4否定一般判断，均不表达“连较易者也不会”。",
+        "unique_answer_rationale": "连较基础的平假名也不会写，突出比汉字更意外的事实，用「どころか」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "1",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0094",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼が来（　）、会議を始めることができない。",
+      "translation": "他不来，会议就无法开始。",
+      "tested_cards": [
+        "N2-G-0048"
+      ],
+      "conjugation": "动词ない形去「ない」＋ないことには",
+      "options": {
+        "1": "ないことはない",
+        "2": "ないことには",
+        "3": "ないこともない",
+        "4": "ないわけではない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "他的到来是开会的必要条件，后句明确说‘无法开始’，用「ないことには」。",
+      "option_explanations": {
+        "1": "错误：表示并非不可能，不能承担本句要表达的关系。",
+        "2": "正确：他的到来是开会的必要条件，后句明确说‘无法开始’，用「ないことには」。",
+        "3": "错误：表示并非不可能，不能承担本句要表达的关系。",
+        "4": "错误：表示并非完全不，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ないことには〜ない",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-naikotowa-nai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/78a1c264855213dadd98-bb2bee230c07.md"
+        ],
+        "original_example": "彼が来ないことには、会議を始めることができない。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0048的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示并非不可能，不能承担本句要表达的关系。",
+          "2. 正确：他的到来是开会的必要条件，后句明确说‘无法开始’，用「ないことには」。",
+          "3. 错误：表示并非不可能，不能承担本句要表达的关系。",
+          "4. 错误：表示并非完全不，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词ない形去「ない」＋ないことには」接入「ないことには」后句子成立。",
+        "semantic_exclusion": "1：错误：表示并非不可能，不能承担本句要表达的关系。 3：错误：表示并非不可能，不能承担本句要表达的关系。 4：错误：表示并非完全不，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "他的到来是开会的必要条件，后句明确说‘无法开始’，用「ないことには」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0095",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ミクちゃんは子供（　）、しっかりとしている。",
+      "translation": "小美虽然还是孩子，却很稳重。",
+      "tested_cards": [
+        "N2-G-0050"
+      ],
+      "conjugation": "名词＋ながら（逆接）",
+      "options": {
+        "1": "ながら",
+        "2": "どころか",
+        "3": "だけに",
+        "4": "とともに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "‘还是孩子’与‘很稳重’形成反预期，用逆接「ながら」。",
+      "option_explanations": {
+        "1": "正确：‘还是孩子’与‘很稳重’形成反预期，用逆接「ながら」。",
+        "2": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "3": "错误：表示正因为前项而后项更显突出，不能承担本句要表达的关系。",
+        "4": "错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ながら（逆接）",
+        "url": "https://nihongokyoshi-net.com/2018/11/19/jlptn2-grammar-nagara/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md"
+        ],
+        "original_example": "ミクちゃんは子供ながら、しっかりとしている。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0050的语义边界。",
+        "distractor_basis": [
+          "1. 正确：‘还是孩子’与‘很稳重’形成反预期，用逆接「ながら」。",
+          "2. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "3. 错误：表示正因为前项而后项更显突出，不能承担本句要表达的关系。",
+          "4. 错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「名词＋ながら（逆接）」接入「ながら」后句子成立。",
+        "semantic_exclusion": "2：错误：用于与预期相反或递进，不能承担本句要表达的关系。 3：错误：表示正因为前项而后项更显突出，不能承担本句要表达的关系。 4：错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "‘还是孩子’与‘很稳重’形成反预期，用逆接「ながら」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "1",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0096",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "地方への転勤が決まったので、家族（　）引っ越すことにした。",
+      "translation": "因为决定调往外地，我打算和家人一起搬家。",
+      "tested_cards": [
+        "N2-G-0047"
+      ],
+      "conjugation": "名词＋とともに",
+      "options": {
+        "1": "とかで",
+        "2": "とともに",
+        "3": "どころか",
+        "4": "以来"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「家族とともに」表示与家人一道搬家。",
+      "option_explanations": {
+        "1": "错误：表示传闻中的原因，不能承担本句要表达的关系。",
+        "2": "正确：「家族とともに」表示与家人一道搬家。",
+        "3": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "4": "错误：表示从过去起持续到现在，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N3】文法・例文：〜とともに（いっしょに）",
+        "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn3-grammar-totomoni/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/bb63fc3fca206b057c3b-a39db93f5294.md"
+        ],
+        "original_example": "地方への転勤が決まったので、家族とともに引っ越すことにした。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0047的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示传闻中的原因，不能承担本句要表达的关系。",
+          "2. 正确：「家族とともに」表示与家人一道搬家。",
+          "3. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "4. 错误：表示从过去起持续到现在，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「名词＋とともに」接入「とともに」后句子成立。",
+        "semantic_exclusion": "1：错误：表示传闻中的原因，不能承担本句要表达的关系。 3：错误：用于与预期相反或递进，不能承担本句要表达的关系。 4：错误：表示从过去起持续到现在，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "「家族とともに」表示与家人一道搬家。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0097",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "よく遅刻する山田くんと給料が同じなのは、どう考えても不公平（　）。",
+      "translation": "总迟到的山田君和我拿一样的工资，无论怎么想都太不公平了。",
+      "tested_cards": [
+        "N2-G-0042"
+      ],
+      "conjugation": "名词／な形容词词干＋というものだ",
+      "options": {
+        "1": "というものではない",
+        "2": "どころではない",
+        "3": "というものだ",
+        "4": "とかで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「どう考えても」锁定强烈评价，断定这种情形不公平，用「というものだ」。",
+      "option_explanations": {
+        "1": "错误：表示并非一概如此，不能承担本句要表达的关系。",
+        "2": "错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+        "3": "正确：「どう考えても」锁定强烈评价，断定这种情形不公平，用「というものだ」。",
+        "4": "错误：表示传闻中的原因，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "というものだ①（当然）",
+        "url": "https://www.edewakaru.com/archives/23920059.html",
+        "locator": "【接続】【例文】①②",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-29-n2-41-50-test-1/edewakaru-42-toiumonoda.md"
+        ],
+        "original_example": "よく遅刻する山田くんと給料が同じなのは不公平というものだ。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "在「不公平」前增补「、どう考えても」，强化说话人的断定评价。"
+        ],
+        "answer_basis": "絵でわかる日本語页面的接续、语义和例句；N2-G-0042的语义边界。",
+        "distractor_basis": [
+          "1. 错误：表示并非一概如此，不能承担本句要表达的关系。",
+          "2. 错误：表示没有余裕做某事，不能承担本句要表达的关系。",
+          "3. 正确：「どう考えても」锁定强烈评价，断定这种情形不公平，用「というものだ」。",
+          "4. 错误：表示传闻中的原因，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「名词／な形容词词干＋というものだ」接入「というものだ」后句子成立。",
+        "semantic_exclusion": "1：错误：表示并非一概如此，不能承担本句要表达的关系。 2：错误：表示没有余裕做某事，不能承担本句要表达的关系。 4：错误：表示传闻中的原因，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "「どう考えても」锁定强烈评价，断定这种情形不公平，用「というものだ」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "3",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0098",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "A：自転車で通えるかな？　B：通え（　）けど、この辺の道は車が多いし、ちょっと危険だと思うよ。",
+      "translation": "能骑车通勤吗？也不是不能骑，但这附近车多，有点危险。",
+      "tested_cards": [
+        "N2-G-0049"
+      ],
+      "conjugation": "动词ない形去「ない」＋ないこともない",
+      "options": {
+        "1": "ないこともない",
+        "2": "ないことには",
+        "3": "ないものだ",
+        "4": "ないどころか"
+      },
+      "correct_option": "1",
+      "correct_explanation": "弱肯定‘并非不能通勤’，随即指出风险，用「ないこともない」。",
+      "option_explanations": {
+        "1": "正确：弱肯定‘并非不能通勤’，随即指出风险，用「ないこともない」。",
+        "2": "错误：表示不满足前项就无法实现后项，不能承担本句要表达的关系。",
+        "3": "错误：表示一般性否定或感慨，不能承担本句要表达的关系。",
+        "4": "错误：表示‘非但不’，与本句要表达的关系不同。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ないことはない / 〜ないこともない",
+        "url": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-naikotowanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/dabfceeee2c774835989-47be5ef5f37e.md"
+        ],
+        "original_example": "A：今度、ここに引っ越そうと思っているんだけど、ここなら自転車で通えるかな？／B：通えないこともないけど、この辺の道は車が多いし、ちょっと危険だと思うよ。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。",
+          "缩短A的提问，删去「今度、ここに引っ越そうと思っているんだけど、ここなら」，保留自転車で通えるか这一核心问题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0049的语义边界。",
+        "distractor_basis": [
+          "1. 正确：弱肯定‘并非不能通勤’，随即指出风险，用「ないこともない」。",
+          "2. 错误：表示不满足前项就无法实现后项，不能承担本句要表达的关系。",
+          "3. 错误：表示一般性否定或感慨，不能承担本句要表达的关系。",
+          "4. 错误：表示‘非但不’，与本句要表达的关系不同。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「动词ない形去「ない」＋ないこともない」接入「ないこともない」后句子成立。",
+        "semantic_exclusion": "2：错误：表示不满足前项就无法实现后项，不能承担本句要表达的关系。 3：错误：表示一般性否定或感慨，不能承担本句要表达的关系。 4：错误：表示‘非但不’，与本句要表达的关系不同。",
+        "unique_answer_rationale": "弱肯定‘并非不能通勤’，随即指出风险，用「ないこともない」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "1",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0099",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "田中さんは熱がある（　）、今日は休むそうです。",
+      "translation": "听说田中先生发烧了，今天因此请假。",
+      "tested_cards": [
+        "N2-G-0044"
+      ],
+      "conjugation": "普通形＋とかで",
+      "options": {
+        "1": "どころか",
+        "2": "とかで",
+        "3": "というものだ",
+        "4": "とともに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "说话人未直接确认发烧，把听来的原因作为请假缘由，用「とかで」。",
+      "option_explanations": {
+        "1": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "2": "正确：说话人未直接确认发烧，把听来的原因作为请假缘由，用「とかで」。",
+        "3": "错误：用于断定评价，不能承担本句要表达的关系。",
+        "4": "错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜とか（で）",
+        "url": "https://nihongokyoshi-net.com/2019/01/15/jlptn2-grammar-tokade/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/bc613bd0c83da54d1965-71054f816de7.md"
+        ],
+        "original_example": "田中さんは熱があるとかで、今日は休むそうです。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0044的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "2. 正确：说话人未直接确认发烧，把听来的原因作为请假缘由，用「とかで」。",
+          "3. 错误：用于断定评价，不能承担本句要表达的关系。",
+          "4. 错误：表示共同或伴随变化，不能承担本句要表达的关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「普通形＋とかで」接入「とかで」后句子成立。",
+        "semantic_exclusion": "1：错误：用于与预期相反或递进，不能承担本句要表达的关系。 3：错误：用于断定评价，不能承担本句要表达的关系。 4：错误：表示共同或伴随变化，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "说话人未直接确认发烧，把听来的原因作为请假缘由，用「とかで」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "2",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0100",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "アメリカに住み始めた頃は、英語の勉強に必死で、遊び（　）。",
+      "translation": "刚开始住在美国时忙于学英语，根本没工夫玩。",
+      "tested_cards": [
+        "N2-G-0046"
+      ],
+      "conjugation": "名词＋どころではない（过去：どころではなかった）",
+      "options": {
+        "1": "どころか",
+        "2": "というものだった",
+        "3": "とかで",
+        "4": "どころではなかった"
+      },
+      "correct_option": "4",
+      "correct_explanation": "忙于英语学习而没有余裕玩，过去情况用「遊びどころではなかった」。",
+      "option_explanations": {
+        "1": "错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+        "2": "错误：表示过去的断定评价，不能承担本句要表达的关系。",
+        "3": "错误：表示传闻中的原因，不能承担本句要表达的关系。",
+        "4": "正确：忙于英语学习而没有余裕玩，过去情况用「遊びどころではなかった」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜どころではない",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-dokorojanai/",
+        "locator": "文型・例文区",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/393ac9181f2c9f5bbf35-b011d9f68bc9.md"
+        ],
+        "original_example": "アメリカに住み始めた頃は、英語の勉強に必死で、遊びどころではなかった。",
+        "transformations": [
+          "去除来源页面的粗体、注音或排版符号，保留原日文例句。",
+          "将目标语法挖空；为锁定语义，必要时保留或补足原例句上下文。",
+          "增设三个干扰项；未把改编题标作网站原题。"
+        ],
+        "answer_basis": "日本語NET页面的接续、语义和例句；N2-G-0046的语义边界。",
+        "distractor_basis": [
+          "1. 错误：用于与预期相反或递进，不能承担本句要表达的关系。",
+          "2. 错误：表示过去的断定评价，不能承担本句要表达的关系。",
+          "3. 错误：表示传闻中的原因，不能承担本句要表达的关系。",
+          "4. 正确：忙于英语学习而没有余裕玩，过去情况用「遊びどころではなかった」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "题干空格处按「名词＋どころではない（过去：どころではなかった）」接入「どころではなかった」后句子成立。",
+        "semantic_exclusion": "1：错误：用于与预期相反或递进，不能承担本句要表达的关系。 2：错误：表示过去的断定评价，不能承担本句要表达的关系。 3：错误：表示传闻中的原因，不能承担本句要表达的关系。",
+        "unique_answer_rationale": "忙于英语学习而没有余裕玩，过去情况用「遊びどころではなかった」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "answer": "4",
+          "notes": "独立盲答，核对唯一自然答案、接续与课程范围；修订题已单独重审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-29T11:15:13+08:00",
+          "notes": "逐题核对最小题源摘录、原例句、题干变换、答案依据及每课覆盖；变换记录缺口已补齐。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "draft",
+        "started_at": "2026-09-29T11:03:56+08:00",
+        "ended_at": "2026-09-29T11:06:10+08:00",
+        "duration_seconds": 134.616,
+        "metrics": {
+          "questions": 20
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-29T11:06:10+08:00",
+        "ended_at": "2026-09-29T11:06:38+08:00",
+        "duration_seconds": 28.337,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-29T11:06:38+08:00",
+        "ended_at": "2026-09-29T11:06:38+08:00",
+        "duration_seconds": 0.047,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-29T11:06:38+08:00",
+        "ended_at": "2026-09-29T11:06:38+08:00",
+        "duration_seconds": 0.764,
+        "metrics": {
+          "mode": "preview"
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-29T11:12:07+08:00",
+        "ended_at": "2026-09-29T11:12:08+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-29T11:12:26+08:00",
+        "ended_at": "2026-09-29T11:14:55+08:00",
+        "duration_seconds": 149.824,
+        "metrics": {
+          "reviewed": 20,
+          "revised_questions": 3,
+          "source_checked": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-29T11:15:36+08:00",
+        "ended_at": "2026-09-29T11:15:36+08:00",
+        "duration_seconds": 0.032,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-29T11:15:23+08:00",
+        "ended_at": "2026-09-29T11:16:19+08:00",
+        "duration_seconds": 56.417,
+        "metrics": {
+          "structure_errors": 0,
+          "cache_errors": 0,
+          "link_errors": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0082",
+        "revision": 2,
+        "reason": "移除可能成立的「ないうちに」干扰项",
+        "at": "2026-09-29T11:10:49+08:00"
+      },
+      {
+        "question_id": "N2-Q-0091",
+        "revision": 2,
+        "reason": "改为名词话题「ったら」以匹配第41课范围",
+        "at": "2026-09-29T11:10:50+08:00"
+      },
+      {
+        "question_id": "N2-Q-0093",
+        "revision": 2,
+        "reason": "移除可能成立的「とともに」干扰项",
+        "at": "2026-09-29T11:10:52+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}

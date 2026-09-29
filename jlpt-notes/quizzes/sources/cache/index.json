@@ -768,6 +768,123 @@
       "locator": "文型・例文：富士山の日の出",
       "evidence_path": "quizzes/sources/cache/fbacaef3124bfc648ef6-a8eb88647776.md",
       "content_sha256": "a8eb8864777687684ef0e44d2d4eda65076094112c319df793a817660a1b2b6b"
+    },
+    "734d2ed624aee13f34f9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/05/08/jlptn2-grammar-toiumonodewanai/",
+      "title": "【JLPT N2】文法・例文：〜というものではない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0043"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/734d2ed624aee13f34f9-a6f3823113d0.md",
+      "content_sha256": "a6f3823113d04d0a7098601e24de05bb290a4ff583eff6e050a7f7e7a6812682"
+    },
+    "bc613bd0c83da54d1965": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/15/jlptn2-grammar-tokade/",
+      "title": "【JLPT N2】文法・例文：〜とか（で）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0044"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/bc613bd0c83da54d1965-71054f816de7.md",
+      "content_sha256": "71054f816de7755719fe43c29f04832275346f97f148f6cd04957afc99b83dec"
+    },
+    "4fc3f2773c2e6f9c1ec2": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/28/jlptn2-grammar-dokoroka/",
+      "title": "【JLPT N2】文法・例文：〜どころか",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0045"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/4fc3f2773c2e6f9c1ec2-302bb5630b96.md",
+      "content_sha256": "302bb5630b9671d760a00593f35eff1bec7dbd24462ae45680fb7977f92ddd60"
+    },
+    "393ac9181f2c9f5bbf35": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-dokorojanai/",
+      "title": "【JLPT N2】文法・例文：〜どころではない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0046"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/393ac9181f2c9f5bbf35-b011d9f68bc9.md",
+      "content_sha256": "b011d9f68bc9284381c93647e86e6cdf69edd59fc57751ba8091cbb9aa01c031"
+    },
+    "86aa761c0caded7623cb": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-totomoni/",
+      "title": "【JLPT N2】文法・例文：〜とともに（相関関係）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0047"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/86aa761c0caded7623cb-3041f61c6203.md",
+      "content_sha256": "3041f61c6203af7fd09bd7672e65f1caa98ad1dc74537cbdf24826e21defc053"
+    },
+    "bb63fc3fca206b057c3b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn3-grammar-totomoni/",
+      "title": "【JLPT N3】文法・例文：〜とともに（いっしょに）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0047"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/bb63fc3fca206b057c3b-a39db93f5294.md",
+      "content_sha256": "a39db93f52945d8ec106c6f4f306e301cc9e222e511cb60ac8e90e7d31d4a72a"
+    },
+    "78a1c264855213dadd98": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-naikotowa-nai/",
+      "title": "【JLPT N2】文法・例文：〜ないことには〜ない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0048"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/78a1c264855213dadd98-bb2bee230c07.md",
+      "content_sha256": "bb2bee230c07fe1e9b599d3c5e850c773b4bd75d9d7d0f4b22e4109d46594161"
+    },
+    "dabfceeee2c774835989": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-naikotowanai/",
+      "title": "【JLPT N2】文法・例文：〜ないことはない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0049"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/dabfceeee2c774835989-47be5ef5f37e.md",
+      "content_sha256": "47be5ef5f37ee15a5af9ceb73342cd278e3957389c6cc9ddd0c7e58a44c732ce"
+    },
+    "7e39a8ef9ac3c9bc61a1": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/11/19/jlptn2-grammar-nagara/",
+      "title": "【JLPT N2】文法・例文：〜ながら（逆接）",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-29",
+      "grammar_ids": [
+        "N2-G-0050"
+      ],
+      "locator": "文型・例文区",
+      "evidence_path": "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md",
+      "content_sha256": "98f0402cfde841b20d0e9db7aeacdd710ae97127a62c31b2a761945e962272f6"
     }
   }
 }
