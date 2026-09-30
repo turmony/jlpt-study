@@ -1028,6 +1028,149 @@
       "locator": "Question 9・Answer",
       "evidence_path": "quizzes/sources/cache/fafcff7599ed6cf85e82-0eba0cc19206.md",
       "content_sha256": "0eba0cc19206ebec18320044500cb611f611aeb20bbf4cd39fb1d74def2ae2c1"
+    },
+    "12822a8ee2b9ea3743bc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-sakidatte/",
+      "title": "【JLPT N２】文法・例文：〜に先立って / 〜に先立ち",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0061"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/12822a8ee2b9ea3743bc-a26d5847f1a5.md",
+      "content_sha256": "a26d5847f1a547ad0cb72247847aedfaca33822da0eff3cf20c14739c103575b"
+    },
+    "720471fcbb58217c25a4": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/16/jlptn2-grammar-nishitara/",
+      "title": "【JLPT N２】文法・例文：～にしたら / ～にすれば / ～にしてみたら / ～にしてみれば",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0062"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/720471fcbb58217c25a4-dd26bf7bb4f7.md",
+      "content_sha256": "dd26bf7bb4f72129f832a0a2e59d0672a27a1d4df777c2bd50b3d37de4a9a0fb"
+    },
+    "5afd4520bce1d033c2c4": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/11/23/jlptn2-grammar-nishitewa/",
+      "title": "【JLPT N２】文法・例文：～にしては",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0063"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/5afd4520bce1d033c2c4-e7269a021252.md",
+      "content_sha256": "e7269a021252f2dc34b71c313c82ca4126149383f52486ced4a76c56e0ac2d83"
+    },
+    "61245a12304ed9688a8c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/25/jlptn3-grammar-nishitemo-nishitemo/",
+      "title": "【JLPT N3】文法・例文：〜にしても〜にしても / 〜にせよ〜にせよ / 〜にしろ〜にしろ",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0064"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/61245a12304ed9688a8c-e42c1693370c.md",
+      "content_sha256": "e42c1693370c0094391461a25a9a5aad114e1f8a440709715ec2ff2ce18b1c36"
+    },
+    "f9f074e295776eb19262": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/12/jlptn2-grammar-nisuginai/",
+      "title": "【JLPT N2】文法・例文：〜にすぎない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0065"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/f9f074e295776eb19262-55398420d695.md",
+      "content_sha256": "55398420d695dec07b49f9667e66c8b04578a83fb5569a54e7cf121b1ffb181c"
+    },
+    "225953d5bc73f7c50a93": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/08/31/jlptn2-grammar-nisotte/",
+      "title": "【JLPT N２】文法・例文：〜に沿って",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0066"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/225953d5bc73f7c50a93-5b916fde2f44.md",
+      "content_sha256": "5b916fde2f44593bf4549e05338f2dae3f2413606205c3cebda1c1141f3e67ee"
+    },
+    "a407b0ab256c18560de8": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-nitsukete/",
+      "title": "【JLPT N２】文法・例文：〜につけて",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0067"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/a407b0ab256c18560de8-9265fa154e99.md",
+      "content_sha256": "9265fa154e99c566f2371a50e90638f7fa21c2e9f7dfbf7a422a5f54c54df8f2"
+    },
+    "e74b9cec989f7bec44e8": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/16/jlptn2-grammar-tomonatte/",
+      "title": "【JLPT N2】文法・例文：〜にともなって",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0068"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/e74b9cec989f7bec44e8-b4bdb1277b93.md",
+      "content_sha256": "b4bdb1277b937b39f26f22a475969bb05c27f87f8523b1f723e62b10b16dac86"
+    },
+    "59dce942f9f45ac09553": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/14/jlptn2-grammar-hokanaranai/",
+      "title": "【JLPT N２】文法・例文：〜にほかならない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0069"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/59dce942f9f45ac09553-1c79ac4b9ae1.md",
+      "content_sha256": "1c79ac4b9ae1e7aa3a2f0724ec32f568ff8bcceaa5950f8becde08265e944926"
+    },
+    "16ea8c5429f4a8c02eed": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/02/jlptn2-grammar-motoduite/",
+      "title": "【JLPT N2】文法・例文：〜に基づいて",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0070"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/16ea8c5429f4a8c02eed-4d6bf5250145.md",
+      "content_sha256": "4d6bf525014525630caf81bfc7ff1ce370b51391a24949530a1637d253a6bfd3"
+    },
+    "1e6dd3e3e422df887fdd": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part11/",
+      "title": "【JLPT N2】文法クイズ Part11",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0069"
+      ],
+      "locator": "Question 5・Answer",
+      "evidence_path": "quizzes/sources/cache/1e6dd3e3e422df887fdd-4812dc871783.md",
+      "content_sha256": "4812dc871783b0fb1c0ecd1fe732fdc76d1c23346884aee5f1773b1281732775"
     }
   }
 }

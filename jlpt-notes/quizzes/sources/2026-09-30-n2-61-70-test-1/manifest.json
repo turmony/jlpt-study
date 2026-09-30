@@ -1,0 +1,1595 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-30-n2-61-70-test-1",
+    "title": "N2 第61～70课语法选择练习（20题）",
+    "date": "2026-09-30",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0121",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "世界一周（　）、保険に加入したり、新しくクレジットカードを作ったりした。",
+      "translation": "环游世界之前，我先投保并办理了新信用卡。",
+      "tested_cards": [
+        "N2-G-0061"
+      ],
+      "conjugation": "名词＋に先立って",
+      "options": {
+        "1": "にしては",
+        "2": "に先立って",
+        "3": "にすぎない",
+        "4": "にほかならない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "投保、办卡是为环游世界预先做的准备。",
+      "option_explanations": {
+        "1": "错误：并非与环游世界的预期相反。",
+        "2": "正确：投保、办卡是为环游世界预先做的准备。",
+        "3": "错误：并非“只不过是环游世界”。",
+        "4": "错误：并非断定“正是环游世界”。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜に先立って / 〜に先立ち",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-sakidatte/",
+        "locator": "例文：世界一周",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/12822a8ee2b9ea3743bc-a26d5847f1a5.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "世界一周に先立って、保険に加入したり、新しくクレジットカードを作ったりした。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0061卡片：投保、办卡是为环游世界预先做的准备。",
+        "distractor_basis": [
+          "1. 错误：并非与环游世界的预期相反。",
+          "2. 正确：投保、办卡是为环游世界预先做的准备。",
+          "3. 错误：并非“只不过是环游世界”。",
+          "4. 错误：并非断定“正是环游世界”。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に先立って；正确项可接入题干。",
+        "semantic_exclusion": "错误：并非与环游世界的预期相反。 错误：并非“只不过是环游世界”。 错误：并非断定“正是环游世界”。",
+        "unique_answer_rationale": "投保、办卡是为环游世界预先做的准备。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0122",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "新作映画の公開（　）、試写会が開かれた。",
+      "translation": "新电影公映之前，举行了试映会。",
+      "tested_cards": [
+        "N2-G-0061"
+      ],
+      "conjugation": "名词＋に先立ち",
+      "options": {
+        "1": "に基づき",
+        "2": "に先立ち",
+        "3": "につけ",
+        "4": "にすぎず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "试映会发生在正式公映之前，是先行活动。",
+      "option_explanations": {
+        "1": "错误：并非依据公映内容举行。",
+        "2": "正确：试映会发生在正式公映之前，是先行活动。",
+        "3": "错误：并非每次公映都引出同一情感。",
+        "4": "错误：并非说试映会只不过是公映。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜に先立って / 〜に先立ち",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-sakidatte/",
+        "locator": "例文：新作映画の公開",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/12822a8ee2b9ea3743bc-a26d5847f1a5.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "新作映画の公開に先立ち、試写会が開かれた。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0061卡片：试映会发生在正式公映之前，是先行活动。",
+        "distractor_basis": [
+          "1. 错误：并非依据公映内容举行。",
+          "2. 正确：试映会发生在正式公映之前，是先行活动。",
+          "3. 错误：并非每次公映都引出同一情感。",
+          "4. 错误：并非说试映会只不过是公映。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に先立ち；正确项可接入题干。",
+        "semantic_exclusion": "错误：并非依据公映内容举行。 错误：并非每次公映都引出同一情感。 错误：并非说试映会只不过是公映。",
+        "unique_answer_rationale": "试映会发生在正式公映之前，是先行活动。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0123",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日本人（　）簡単な漢字でも、外国人にしてみたらとても難しいことかもしれない。",
+      "translation": "即使从日本人立场看很简单的汉字，对外国人也可能很难。",
+      "tested_cards": [
+        "N2-G-0062"
+      ],
+      "conjugation": "表示人的名词＋にすれば",
+      "options": {
+        "1": "に伴って",
+        "2": "にすれば",
+        "3": "に先立って",
+        "4": "に沿って"
+      },
+      "correct_option": "2",
+      "correct_explanation": "前后对比日本人与外国人的立场，前半应是“对日本人来说”。",
+      "option_explanations": {
+        "1": "错误：不是伴随日本人的变化而变化。",
+        "2": "正确：前后对比日本人与外国人的立场，前半应是“对日本人来说”。",
+        "3": "错误：不是在日本人之前做准备。",
+        "4": "错误：不是沿着日本人这一线索或方针。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：～にしたら / ～にすれば / ～にしてみたら / ～にしてみれば",
+        "url": "https://nihongokyoshi-net.com/2019/01/16/jlptn2-grammar-nishitara/",
+        "locator": "例文：日本人にすれば",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/720471fcbb58217c25a4-dd26bf7bb4f7.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "日本人にすれば簡単な漢字でも、外国人にしてみたらとても難しいことかもしれない",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。",
+          "来源原句无句末句号；试卷为排版一致补「。」。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0062卡片：前后对比日本人与外国人的立场，前半应是“对日本人来说”。",
+        "distractor_basis": [
+          "1. 错误：不是伴随日本人的变化而变化。",
+          "2. 正确：前后对比日本人与外国人的立场，前半应是“对日本人来说”。",
+          "3. 错误：不是在日本人之前做准备。",
+          "4. 错误：不是沿着日本人这一线索或方针。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "表示人的名词＋にすれば；正确项可接入题干。",
+        "semantic_exclusion": "错误：不是伴随日本人的变化而变化。 错误：不是在日本人之前做准备。 错误：不是沿着日本人这一线索或方针。",
+        "unique_answer_rationale": "前后对比日本人与外国人的立场，前半应是“对日本人来说”。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0124",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "部長（　）、部下のことを思って厳しく叱っているつもりだろうが、正直もう少し優しくしてほしいものだ。",
+      "translation": "站在部长的立场，他大概觉得严厉批评是为部下好；但我希望他温和些。",
+      "tested_cards": [
+        "N2-G-0062"
+      ],
+      "conjugation": "表示人的名词＋にすれば",
+      "options": {
+        "1": "にすれば",
+        "2": "に基づいて",
+        "3": "につけて",
+        "4": "にすぎず"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「部長」是被代入的判断立场，后句说明他可能的想法。",
+      "option_explanations": {
+        "1": "正确：「部長」是被代入的判断立场，后句说明他可能的想法。",
+        "2": "错误：部长不是判断依据的数据或规则。",
+        "3": "错误：不是每逢部长就产生固定感受。",
+        "4": "错误：不是把部长评价为低程度。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：～にしたら / ～にすれば / ～にしてみたら / ～にしてみれば",
+        "url": "https://nihongokyoshi-net.com/2019/01/16/jlptn2-grammar-nishitara/",
+        "locator": "例文：部長にすれば",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/720471fcbb58217c25a4-dd26bf7bb4f7.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "部長にすれば、部下のことを思って厳しく叱っているつもりだろうが、正直もう少し優しくしてほしいものだ。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0062卡片：「部長」是被代入的判断立场，后句说明他可能的想法。",
+        "distractor_basis": [
+          "1. 正确：「部長」是被代入的判断立场，后句说明他可能的想法。",
+          "2. 错误：部长不是判断依据的数据或规则。",
+          "3. 错误：不是每逢部长就产生固定感受。",
+          "4. 错误：不是把部长评价为低程度。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "表示人的名词＋にすれば；正确项可接入题干。",
+        "semantic_exclusion": "错误：部长不是判断依据的数据或规则。 错误：不是每逢部长就产生固定感受。 错误：不是把部长评价为低程度。",
+        "unique_answer_rationale": "「部長」是被代入的判断立场，后句说明他可能的想法。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0125",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ラグビー選手（　）、体が小さいよね。",
+      "translation": "作为橄榄球选手，他身材算小。",
+      "tested_cards": [
+        "N2-G-0063"
+      ],
+      "conjugation": "名词＋にしては",
+      "options": {
+        "1": "に基づいて",
+        "2": "に伴って",
+        "3": "にしては",
+        "4": "につけて"
+      },
+      "correct_option": "3",
+      "correct_explanation": "以橄榄球选手通常的体格为基准，评价其身材出乎预料地小。",
+      "option_explanations": {
+        "1": "错误：身材大小不是基于选手这一证据算出。",
+        "2": "错误：不是伴随选手的变化而变小。",
+        "3": "正确：以橄榄球选手通常的体格为基准，评价其身材出乎预料地小。",
+        "4": "错误：不是每逢选手就产生回忆或感受。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：～にしては",
+        "url": "https://nihongokyoshi-net.com/2018/11/23/jlptn2-grammar-nishitewa/",
+        "locator": "例文：ラグビー選手",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/5afd4520bce1d033c2c4-e7269a021252.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "ラグビー選手にしては、体が小さいよね。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0063卡片：以橄榄球选手通常的体格为基准，评价其身材出乎预料地小。",
+        "distractor_basis": [
+          "1. 错误：身材大小不是基于选手这一证据算出。",
+          "2. 错误：不是伴随选手的变化而变小。",
+          "3. 正确：以橄榄球选手通常的体格为基准，评价其身材出乎预料地小。",
+          "4. 错误：不是每逢选手就产生回忆或感受。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にしては；正确项可接入题干。",
+        "semantic_exclusion": "错误：身材大小不是基于选手这一证据算出。 错误：不是伴随选手的变化而变小。 错误：不是每逢选手就产生回忆或感受。",
+        "unique_answer_rationale": "以橄榄球选手通常的体格为基准，评价其身材出乎预料地小。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0126",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "有名な監督がとった映画（　）、あまりおもしろくないね。",
+      "translation": "就名导演拍的电影而言，倒不怎么有趣。",
+      "tested_cards": [
+        "N2-G-0063"
+      ],
+      "conjugation": "名词＋にしては",
+      "options": {
+        "1": "にすぎず",
+        "2": "にしては",
+        "3": "に先立って",
+        "4": "に沿って"
+      },
+      "correct_option": "2",
+      "correct_explanation": "名导演作品通常被期待有趣，而实际评价与预期不同。",
+      "option_explanations": {
+        "1": "错误：不是把电影限定为低程度的某物。",
+        "2": "正确：名导演作品通常被期待有趣，而实际评价与预期不同。",
+        "3": "错误：不是在电影之前准备。",
+        "4": "错误：不是沿着电影的路线或方针。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：～にしては",
+        "url": "https://nihongokyoshi-net.com/2018/11/23/jlptn2-grammar-nishitewa/",
+        "locator": "例文：有名な監督",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/5afd4520bce1d033c2c4-e7269a021252.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "有名な監督がとった映画にしては、あまりおもしろくないね。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0063卡片：名导演作品通常被期待有趣，而实际评价与预期不同。",
+        "distractor_basis": [
+          "1. 错误：不是把电影限定为低程度的某物。",
+          "2. 正确：名导演作品通常被期待有趣，而实际评价与预期不同。",
+          "3. 错误：不是在电影之前准备。",
+          "4. 错误：不是沿着电影的路线或方针。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にしては；正确项可接入题干。",
+        "semantic_exclusion": "错误：不是把电影限定为低程度的某物。 错误：不是在电影之前准备。 错误：不是沿着电影的路线或方针。",
+        "unique_answer_rationale": "名导演作品通常被期待有趣，而实际评价与预期不同。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0127",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "飲み会に参加する（　）、しない（　）明日までに参加の可否をご連絡ください。",
+      "translation": "无论参加还是不参加聚会，请在明天前告知是否参加。",
+      "tested_cards": [
+        "N2-G-0064"
+      ],
+      "conjugation": "动词辞书形／ない形＋にしろ、〜にしろ",
+      "options": {
+        "1": "に先立って／に先立って",
+        "2": "にしろ／にしろ",
+        "3": "につけて／につけて",
+        "4": "に基づいて／に基づいて"
+      },
+      "correct_option": "2",
+      "correct_explanation": "参加与不参加是两种相反选择；无论哪种，都必须回复。",
+      "option_explanations": {
+        "1": "错误：该表达说准备先于某事，不表示两种选择都一样。",
+        "2": "正确：参加与不参加是两种相反选择；无论哪种，都必须回复。",
+        "3": "错误：不表示每次发生某事就产生固定情感。",
+        "4": "错误：不表示以两种选择作为判断依据。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N3】文法・例文：〜にしても〜にしても / 〜にせよ〜にせよ / 〜にしろ〜にしろ",
+        "url": "https://nihongokyoshi-net.com/2019/05/25/jlptn3-grammar-nishitemo-nishitemo/",
+        "locator": "例文：飲み会に参加する",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/61245a12304ed9688a8c-e42c1693370c.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "飲み会に参加するにしろ、しないにしろ明日までに参加可否を連絡ください。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将两个相同语法位置分别挖空，选项以“／”给出两个空格的填法。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。",
+          "第1轮修订：来源例句末尾表述生硬，将参加可否を連絡ください改为参加の可否をご連絡ください，并记录改写。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0064卡片：参加与不参加是两种相反选择；无论哪种，都必须回复。",
+        "distractor_basis": [
+          "1. 错误：该表达说准备先于某事，不表示两种选择都一样。",
+          "2. 正确：参加与不参加是两种相反选择；无论哪种，都必须回复。",
+          "3. 错误：不表示每次发生某事就产生固定情感。",
+          "4. 错误：不表示以两种选择作为判断依据。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形／ない形＋にしろ、〜にしろ；两个空均可正确接续。",
+        "semantic_exclusion": "其余三组成对选项都不表示“参加与否结论相同”。",
+        "unique_answer_rationale": "参加与不参加是两种相反选择；无论哪种，都必须回复。其余三组成对选项不表达这一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0128",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "JLPTを受ける（　）、受けない（　）しっかりと勉強する必要がある。",
+      "translation": "不管参加不参加JLPT，都需要认真学习。",
+      "tested_cards": [
+        "N2-G-0064"
+      ],
+      "conjugation": "动词辞书形／ない形＋にせよ、〜にせよ",
+      "options": {
+        "1": "にせよ／にせよ",
+        "2": "に沿って／に沿って",
+        "3": "にすぎず／にすぎず",
+        "4": "に先立ち／に先立ち"
+      },
+      "correct_option": "1",
+      "correct_explanation": "参加与不参加两种情况并列，结论“认真学习”不变。",
+      "option_explanations": {
+        "1": "正确：参加与不参加两种情况并列，结论“认真学习”不变。",
+        "2": "错误：不表示沿着两种选择行动。",
+        "3": "错误：不表示两种选择程度低。",
+        "4": "错误：不表示在两种选择之前准备。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N3】文法・例文：〜にしても〜にしても / 〜にせよ〜にせよ / 〜にしろ〜にしろ",
+        "url": "https://nihongokyoshi-net.com/2019/05/25/jlptn3-grammar-nishitemo-nishitemo/",
+        "locator": "例文：JLPTを受ける",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/61245a12304ed9688a8c-e42c1693370c.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "JLPTを受けるにせよ、受けないにせよしっかりと勉強する必要がある。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将两个相同语法位置分别挖空，选项以“／”给出两个空格的填法。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0064卡片：参加JLPT考试与不参加两种情况并列，结论“认真学习”不变。",
+        "distractor_basis": [
+          "1. 正确：参加与不参加两种情况并列，结论“认真学习”不变。",
+          "2. 错误：不表示沿着两种选择行动。",
+          "3. 错误：不表示两种选择程度低。",
+          "4. 错误：不表示在两种选择之前准备。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形／ない形＋にせよ、〜にせよ；正确项可接入题干。",
+        "semantic_exclusion": "错误：不表示沿着两种选择行动。 错误：不表示两种选择程度低。 错误：不表示在两种选择之前准备。",
+        "unique_answer_rationale": "参加与不参加两种情况并列，结论“认真学习”不变。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0129",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私はこの会社の一社員（　）から、決定権はありません。",
+      "translation": "我只是这家公司的一名普通员工，所以没有决定权。",
+      "tested_cards": [
+        "N2-G-0065"
+      ],
+      "conjugation": "名词＋にすぎません",
+      "options": {
+        "1": "に先立ちません",
+        "2": "に沿いません",
+        "3": "にすぎません",
+        "4": "に伴いません"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「一社員」强调身份和权限有限，后句说明没有决定权。",
+      "option_explanations": {
+        "1": "错误：「に先立つ」指先于某事或事前准备，不能表示“一名普通员工”这一身份很低。",
+        "2": "错误：不表示沿着员工行动。",
+        "3": "正确：「一社員」强调身份和权限有限，后句说明没有决定权。",
+        "4": "错误：不表示伴随员工发生变化。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にすぎない",
+        "url": "https://nihongokyoshi-net.com/2018/04/12/jlptn2-grammar-nisuginai/",
+        "locator": "例文：一社員",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/f9f074e295776eb19262-55398420d695.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "私はこの会社の一社員にすぎませんから、決定権はありません。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。",
+          "第1轮修订：选项1 にほかなりません 与语境可兼容，替换为不可成立的干扰项。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0065卡片：「一社員」强调身份和权限有限，后句说明没有决定权。",
+        "distractor_basis": [
+          "1. 错误：「に先立つ」指先于某事或事前准备，不能表示“一名普通员工”这一身份很低。",
+          "2. 错误：不表示沿着员工行动。",
+          "3. 正确：「一社員」强调身份和权限有限，后句说明没有决定权。",
+          "4. 错误：不表示伴随员工发生变化。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にすぎません；「一社員にすぎません」接续成立。",
+        "semantic_exclusion": "「に先立ちません」「に沿いません」「に伴いません」均不表示身份有限，不能解释后句没有决定权。",
+        "unique_answer_rationale": "「一社員にすぎません」强调仅是普通员工，因而没有决定权；其余三项不表达程度低。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0130",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "アルバイトの収入は１ヶ月１万円（　）。",
+      "translation": "打工收入每月仅一万日元。",
+      "tested_cards": [
+        "N2-G-0065"
+      ],
+      "conjugation": "数量名词＋にすぎない",
+      "options": {
+        "1": "に基づかない",
+        "2": "にすぎない",
+        "3": "に先立たない",
+        "4": "に沿わない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "一万日元被说话人评价为数额低，“仅仅”符合原句。",
+      "option_explanations": {
+        "1": "错误：不是说收入不依据一万日元。",
+        "2": "正确：一万日元被说话人评价为数额低，“仅仅”符合原句。",
+        "3": "错误：不是说收入不先于一万日元。",
+        "4": "错误：不是说收入不沿着一万日元。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にすぎない",
+        "url": "https://nihongokyoshi-net.com/2018/04/12/jlptn2-grammar-nisuginai/",
+        "locator": "例文：１ヶ月１万円",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/f9f074e295776eb19262-55398420d695.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "アルバイトの収入は１ヶ月１万円にすぎない。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0065卡片：一万日元被说话人评价为数额低，“仅仅”符合原句。",
+        "distractor_basis": [
+          "1. 错误：不是说收入不依据一万日元。",
+          "2. 正确：一万日元被说话人评价为数额低，“仅仅”符合原句。",
+          "3. 错误：不是说收入不先于一万日元。",
+          "4. 错误：不是说收入不沿着一万日元。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "数量名词＋にすぎない；正确项可接入题干。",
+        "semantic_exclusion": "错误：不是说收入不依据一万日元。 错误：不是说收入不先于一万日元。 错误：不是说收入不沿着一万日元。",
+        "unique_answer_rationale": "一万日元被说话人评价为数额低，“仅仅”符合原句。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0131",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "川（　）２００メートルぐらい歩くと、右に灰色の建物が見えます。",
+      "translation": "沿着河走约二百米，右边能看到一栋灰色建筑。",
+      "tested_cards": [
+        "N2-G-0066"
+      ],
+      "conjugation": "名词＋に沿って",
+      "options": {
+        "1": "に基づいて",
+        "2": "にすぎず",
+        "3": "に伴って",
+        "4": "に沿って"
+      },
+      "correct_option": "4",
+      "correct_explanation": "河流提供实际移动路线，沿河行走用「に沿って」。",
+      "option_explanations": {
+        "1": "错误：河流不是证明路线的证据。",
+        "2": "错误：不是说河流只不过是什么。",
+        "3": "错误：不表示河流变化伴随行走。",
+        "4": "正确：河流提供实际移动路线，沿河行走用「に沿って」。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜に沿って",
+        "url": "https://nihongokyoshi-net.com/2018/08/31/jlptn2-grammar-nisotte/",
+        "locator": "例文：川に沿って",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/225953d5bc73f7c50a93-5b916fde2f44.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "川 に沿って ２００メートルぐらい歩くと、右に灰色の建物が見えます。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "清除网页在「川」及「に沿って」之间的排版空格，再挖空语法。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0066卡片：河流提供实际移动路线，沿河行走用「に沿って」。",
+        "distractor_basis": [
+          "1. 错误：河流不是证明路线的证据。",
+          "2. 错误：不是说河流只不过是什么。",
+          "3. 错误：不表示河流变化伴随行走。",
+          "4. 正确：河流提供实际移动路线，沿河行走用「に沿って」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に沿って；正确项可接入题干。",
+        "semantic_exclusion": "错误：河流不是证明路线的证据。 错误：不是说河流只不过是什么。 错误：不表示河流变化伴随行走。",
+        "unique_answer_rationale": "河流提供实际移动路线，沿河行走用「に沿って」。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "4",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0132",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私は学校のシラバス（　）、日本語を教えています。",
+      "translation": "我按照学校的教学大纲教授日语。",
+      "tested_cards": [
+        "N2-G-0066"
+      ],
+      "conjugation": "名词＋に沿って",
+      "options": {
+        "1": "に先立って",
+        "2": "につけて",
+        "3": "に沿って",
+        "4": "にすぎず"
+      },
+      "correct_option": "3",
+      "correct_explanation": "教学大纲是应遵循的既定方针，教学活动沿其内容展开。",
+      "option_explanations": {
+        "1": "错误：不是在教学大纲出现之前准备。",
+        "2": "错误：不是每逢教学大纲就产生情感。",
+        "3": "正确：教学大纲是应遵循的既定方针，教学活动沿其内容展开。",
+        "4": "错误：不是说大纲仅仅是教学。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜に沿って",
+        "url": "https://nihongokyoshi-net.com/2018/08/31/jlptn2-grammar-nisotte/",
+        "locator": "例文：シラバス",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/225953d5bc73f7c50a93-5b916fde2f44.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "私は学校のシラバス に沿って、日本語を教えています。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "清除网页在「シラバス」与「に沿って」之间的排版空格，再挖空语法。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0066卡片：教学大纲是应遵循的既定方针，教学活动沿其内容展开。",
+        "distractor_basis": [
+          "1. 错误：不是在教学大纲出现之前准备。",
+          "2. 错误：不是每逢教学大纲就产生情感。",
+          "3. 正确：教学大纲是应遵循的既定方针，教学活动沿其内容展开。",
+          "4. 错误：不是说大纲仅仅是教学。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に沿って；正确项可接入题干。",
+        "semantic_exclusion": "错误：不是在教学大纲出现之前准备。 错误：不是每逢教学大纲就产生情感。 错误：不是说大纲仅仅是教学。",
+        "unique_answer_rationale": "教学大纲是应遵循的既定方针，教学活动沿其内容展开。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0133",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このメロディーを聞く（　）、子供の頃を思い出す。",
+      "translation": "每当听到这段旋律，就想起小时候。",
+      "tested_cards": [
+        "N2-G-0067"
+      ],
+      "conjugation": "动词辞书形＋につけて",
+      "options": {
+        "1": "に沿って",
+        "2": "につけて",
+        "3": "に基づいて",
+        "4": "にすぎず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "每次听旋律都引出同一种回忆，符合「につけて」的反复联想。",
+      "option_explanations": {
+        "1": "错误：不是沿着听旋律这一方针行动。",
+        "2": "正确：每次听旋律都引出同一种回忆，符合「につけて」的反复联想。",
+        "3": "错误：不是依据听旋律作判断。",
+        "4": "错误：不是说听旋律仅有低程度。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜につけて",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-nitsukete/",
+        "locator": "例文：このメロディー",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/a407b0ab256c18560de8-9265fa154e99.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "このメロディーを聞くにつけて、子供の頃を思い出す。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0067卡片：每次听旋律都引出同一种回忆，符合「につけて」的反复联想。",
+        "distractor_basis": [
+          "1. 错误：不是沿着听旋律这一方针行动。",
+          "2. 正确：每次听旋律都引出同一种回忆，符合「につけて」的反复联想。",
+          "3. 错误：不是依据听旋律作判断。",
+          "4. 错误：不是说听旋律仅有低程度。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋につけて；正确项可接入题干。",
+        "semantic_exclusion": "错误：不是沿着听旋律这一方针行动。 错误：不是依据听旋律作判断。 错误：不是说听旋律仅有低程度。",
+        "unique_answer_rationale": "每次听旋律都引出同一种回忆，符合「につけて」的反复联想。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0134",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この写真を見る（　）、昔、家族で旅行したことを思い出す。",
+      "translation": "每当看到这张照片，就想起以前与家人旅行的事。",
+      "tested_cards": [
+        "N2-G-0067"
+      ],
+      "conjugation": "动词辞书形＋につけて",
+      "options": {
+        "1": "にすぎず",
+        "2": "に先立って",
+        "3": "につけて",
+        "4": "にともなって"
+      },
+      "correct_option": "3",
+      "correct_explanation": "每次看到照片便勾起相同回忆，是「につけて」的固定感情反应。",
+      "option_explanations": {
+        "1": "错误：不表示“看照片只不过是”。",
+        "2": "错误：不是在看照片前做旅行准备。",
+        "3": "正确：每次看到照片便勾起相同回忆，是「につけて」的固定感情反应。",
+        "4": "错误：「見るにともなって」把看照片当成伴随变化的事件；后句说的是每次观看都引出的固定回忆。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜につけて",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-nitsukete/",
+        "locator": "例文：この写真",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/a407b0ab256c18560de8-9265fa154e99.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "この写真を見るにつけて、昔、家族で旅行したことを思い出す。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0067卡片：每次看到照片便勾起相同回忆，是「につけて」的固定感情反应。",
+        "distractor_basis": [
+          "1. 错误：不表示“看照片只不过是”。",
+          "2. 错误：不是在看照片前做旅行准备。",
+          "3. 正确：每次看到照片便勾起相同回忆，是「につけて」的固定感情反应。",
+          "4. 错误：「見るにともなって」把看照片当成伴随变化的事件；后句说的是每次观看都引出的固定回忆。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋につけて；正确项可接入题干。",
+        "semantic_exclusion": "错误：不表示“看照片只不过是”。 错误：不是在看照片前做旅行准备。 错误：「見るにともなって」把看照片当成伴随变化的事件；后句说的是每次观看都引出的固定回忆。",
+        "unique_answer_rationale": "每次看到照片便勾起相同回忆，是「につけて」的固定感情反应。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0135",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "時代の変化（　）、人々の考え方も変わってきた。",
+      "translation": "随着时代变化，人们的想法也变了。",
+      "tested_cards": [
+        "N2-G-0068"
+      ],
+      "conjugation": "变化名词＋にともなって",
+      "options": {
+        "1": "に先立って",
+        "2": "にともなって",
+        "3": "にすぎず",
+        "4": "にしては"
+      },
+      "correct_option": "2",
+      "correct_explanation": "时代变化与观念变化相伴发生，原句强调两者的联动。",
+      "option_explanations": {
+        "1": "错误：观念变化不是在时代变化之前准备。",
+        "2": "正确：时代变化与观念变化相伴发生，原句强调两者的联动。",
+        "3": "错误：不表示时代变化程度低。",
+        "4": "错误：不是对时代变化作出意外评价。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にともなって",
+        "url": "https://nihongokyoshi-net.com/2018/04/16/jlptn2-grammar-tomonatte/",
+        "locator": "例文：時代の変化",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/e74b9cec989f7bec44e8-b4bdb1277b93.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "時代の変化にともなって、人々の考え方も変わってきた。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0068卡片：时代变化与观念变化相伴发生，原句强调两者的联动。",
+        "distractor_basis": [
+          "1. 错误：观念变化不是在时代变化之前准备。",
+          "2. 正确：时代变化与观念变化相伴发生，原句强调两者的联动。",
+          "3. 错误：不表示时代变化程度低。",
+          "4. 错误：不是对时代变化作出意外评价。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "变化名词＋にともなって；正确项可接入题干。",
+        "semantic_exclusion": "错误：观念变化不是在时代变化之前准备。 错误：不表示时代变化程度低。 错误：不是对时代变化作出意外评价。",
+        "unique_answer_rationale": "时代变化与观念变化相伴发生，原句强调两者的联动。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0136",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "インターネットの普及（　）、ネットで買い物をする人が増えた。",
+      "translation": "随着互联网普及，网购人数增加。",
+      "tested_cards": [
+        "N2-G-0068"
+      ],
+      "conjugation": "变化名词＋にともなって",
+      "options": {
+        "1": "に沿って",
+        "2": "にほかならず",
+        "3": "にともなって",
+        "4": "につけて"
+      },
+      "correct_option": "3",
+      "correct_explanation": "互联网普及与网购人数增加同步关联，属于相伴的社会变化。",
+      "option_explanations": {
+        "1": "错误：“普及”不是供人沿行的路线或方针。",
+        "2": "错误：不表示网购人数“正是普及”。",
+        "3": "正确：互联网普及与网购人数增加同步关联，属于相伴的社会变化。",
+        "4": "错误：不表示每次普及就勾起固定情感。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にともなって",
+        "url": "https://nihongokyoshi-net.com/2018/04/16/jlptn2-grammar-tomonatte/",
+        "locator": "例文：インターネットの普及",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/e74b9cec989f7bec44e8-b4bdb1277b93.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "インターネットの普及にともなって、ネットで買い物をする人が増えた。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0068卡片：互联网普及与网购人数增加同步关联，属于相伴的社会变化。",
+        "distractor_basis": [
+          "1. 错误：“普及”不是供人沿行的路线或方针。",
+          "2. 错误：不表示网购人数“正是普及”。",
+          "3. 正确：互联网普及与网购人数增加同步关联，属于相伴的社会变化。",
+          "4. 错误：不表示每次普及就勾起固定情感。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "变化名词＋にともなって；正确项可接入题干。",
+        "semantic_exclusion": "错误：“普及”不是供人沿行的路线或方针。 错误：不表示网购人数“正是普及”。 错误：不表示每次普及就勾起固定情感。",
+        "unique_answer_rationale": "互联网普及与网购人数增加同步关联，属于相伴的社会变化。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0137",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "教えるということは、教わるということ（　　　　）。",
+      "translation": "教人这一行为，正意味着自己也在学习。",
+      "tested_cards": [
+        "N2-G-0069"
+      ],
+      "conjugation": "名词化小句＋にほかならない",
+      "options": {
+        "1": "にほかならない",
+        "2": "よりほかない",
+        "3": "になっている",
+        "4": "だけのことはある"
+      },
+      "correct_option": "1",
+      "correct_explanation": "将“教”明确断定为“学”，应选强调唯一同一判断的「にほかならない」。",
+      "option_explanations": {
+        "1": "正确：将“教”明确断定为“学”，应选强调唯一同一判断的「にほかならない」。",
+        "2": "错误：「よりほかない」表示没有别的办法，不能把两种行为等同。",
+        "3": "错误：「になっている」表示制度或预定状态，不能表达定义式判断。",
+        "4": "错误：「だけのことはある」表示果然有相应价值，与等同判断不合。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法クイズ Part11",
+        "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part11/",
+        "locator": "Question 5・Answer",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/1e6dd3e3e422df887fdd-4812dc871783.md"
+        ],
+        "kind": "teaching_exercise",
+        "answer_locator": "Question 5・Answer (1)",
+        "original_answer": "(1)",
+        "option_mapping": "网站选项(1)～(4)原顺序对应本题1～4。",
+        "adaptation": "无；原题题干、空格、选项及其顺序全部保留。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词化小句＋にほかならない；正确项可接入题干。",
+        "semantic_exclusion": "错误：「よりほかない」表示没有别的办法，不能把两种行为等同。 错误：「になっている」表示制度或预定状态，不能表达定义式判断。 错误：「だけのことはある」表示果然有相应价值，与等同判断不合。",
+        "unique_answer_rationale": "将“教”明确断定为“学”，应选强调唯一同一判断的「にほかならない」。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0138",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今回の商談がうまくいったのは、上司のサポートがあったから（　）。",
+      "translation": "这次洽谈成功，正是因为有上司的支持。",
+      "tested_cards": [
+        "N2-G-0069"
+      ],
+      "conjugation": "原因小句＋からにほかならない",
+      "options": {
+        "1": "に先立たない",
+        "2": "にほかならない",
+        "3": "に沿わない",
+        "4": "につけない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "说话人将上司的支持断定为成功的原因。",
+      "option_explanations": {
+        "1": "错误：不是“成功不先于支持”。",
+        "2": "正确：说话人将上司的支持断定为成功的原因。",
+        "3": "错误：不是“成功不沿着支持”。",
+        "4": "错误：不是“成功不每逢支持”。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N２】文法・例文：〜にほかならない",
+        "url": "https://nihongokyoshi-net.com/2019/05/14/jlptn2-grammar-hokanaranai/",
+        "locator": "例文：今回の商談",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/59dce942f9f45ac09553-1c79ac4b9ae1.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "今回の商談がうまくいったのは、上司のサポートがあったからにほかならない。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0069卡片：说话人将上司的支持断定为成功的原因。",
+        "distractor_basis": [
+          "1. 错误：不是“成功不先于支持”。",
+          "2. 正确：说话人将上司的支持断定为成功的原因。",
+          "3. 错误：不是“成功不沿着支持”。",
+          "4. 错误：不是“成功不每逢支持”。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "原因小句＋からにほかならない；正确项可接入题干。",
+        "semantic_exclusion": "错误：不是“成功不先于支持”。 错误：不是“成功不沿着支持”。 错误：不是“成功不每逢支持”。",
+        "unique_answer_rationale": "说话人将上司的支持断定为成功的原因。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0139",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "これは実験データ（　）立てた仮説でございます。",
+      "translation": "这是根据实验数据提出的假说。",
+      "tested_cards": [
+        "N2-G-0070"
+      ],
+      "conjugation": "依据名词＋に基づいて",
+      "options": {
+        "1": "に伴って",
+        "2": "に基づいて",
+        "3": "に先立って",
+        "4": "にしては"
+      },
+      "correct_option": "2",
+      "correct_explanation": "实验数据是假说的事实依据，故用「に基づいて」。",
+      "option_explanations": {
+        "1": "错误：不表示数据变化同时假说变化。",
+        "2": "正确：实验数据是假说的事实依据，故用「に基づいて」。",
+        "3": "错误：不是在得到实验数据之前立假说。",
+        "4": "错误：不是评价假说与数据预期相反。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に基づいて",
+        "url": "https://nihongokyoshi-net.com/2018/07/02/jlptn2-grammar-motoduite/",
+        "locator": "例文：実験データ",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/16ea8c5429f4a8c02eed-4d6bf5250145.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "これは実験データに基づいて立てた仮説でございます。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0070卡片：实验数据是假说的事实依据，故用「に基づいて」。",
+        "distractor_basis": [
+          "1. 错误：不表示数据变化同时假说变化。",
+          "2. 正确：实验数据是假说的事实依据，故用「に基づいて」。",
+          "3. 错误：不是在得到实验数据之前立假说。",
+          "4. 错误：不是评价假说与数据预期相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "依据名词＋に基づいて；正确项可接入题干。",
+        "semantic_exclusion": "错误：不表示数据变化同时假说变化。 错误：不是在得到实验数据之前立假说。 错误：不是评价假说与数据预期相反。",
+        "unique_answer_rationale": "实验数据是假说的事实依据，故用「に基づいて」。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0140",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "警察は、男の子の証言（　）犯人を特定した。",
+      "translation": "警方根据男孩的证词锁定了犯人。",
+      "tested_cards": [
+        "N2-G-0070"
+      ],
+      "conjugation": "依据名词＋に基づいて",
+      "options": {
+        "1": "に基づいて",
+        "2": "につけて",
+        "3": "にすぎず",
+        "4": "にほかならず"
+      },
+      "correct_option": "1",
+      "correct_explanation": "证词是确定嫌疑人的证据依据。",
+      "option_explanations": {
+        "1": "正确：证词是确定嫌疑人的证据依据。",
+        "2": "错误：不是每逢证词就引起固定感受。",
+        "3": "错误：不是说证词只是某物。",
+        "4": "错误：「にほかならず」断定“正是证言”，不能表示警方以证言为证据锁定犯人。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に基づいて",
+        "url": "https://nihongokyoshi-net.com/2018/07/02/jlptn2-grammar-motoduite/",
+        "locator": "例文：男の子の証言",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/16ea8c5429f4a8c02eed-4d6bf5250145.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "警察は、男の子の証言に基づいて犯人を特定した。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留例句日文。",
+          "将目标语法挖空；添加三个干扰项，标为例句派生题。",
+          "第1轮修订：选项4 に先立って 可表示证言前，替换为不可成立的干扰项。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0070卡片：证词是确定嫌疑人的证据依据。",
+        "distractor_basis": [
+          "1. 正确：证词是确定嫌疑人的证据依据。",
+          "2. 错误：不是每逢证词就引起固定感受。",
+          "3. 错误：不是说证词只是某物。",
+          "4. 错误：「にほかならず」断定“正是证言”，不能表示警方以证言为证据锁定犯人。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "依据名词＋に基づいて；「証言に基づいて犯人を特定した」接续成立。",
+        "semantic_exclusion": "「につけて」「にすぎず」「にほかならず」都不表示以证言作侦查依据。",
+        "unique_answer_rationale": "证言是锁定嫌犯的证据依据，只有「に基づいて」表达这一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷与目标语法卡，逐题给出答案和理由；第7、9、20题修订后单独重答，未发现多解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T22:38:13+08:00",
+          "notes": "核对日本語NET最小证据摘录、原题答案或原例句、改写记录、干扰项与唯一性；第3、7、8、14题记录修正后通过。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "preflight",
+        "started_at": "2026-09-30T22:23:00+08:00",
+        "ended_at": "2026-09-30T22:23:28+08:00",
+        "duration_seconds": 28.375,
+        "metrics": {
+          "questions": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T22:23:29+08:00",
+        "ended_at": "2026-09-30T22:23:29+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T22:26:36+08:00",
+        "ended_at": "2026-09-30T22:26:36+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T22:34:48+08:00",
+        "ended_at": "2026-09-30T22:34:48+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-30T22:27:33+08:00",
+        "ended_at": "2026-09-30T22:35:15+08:00",
+        "duration_seconds": 462.992,
+        "metrics": {
+          "revised_questions": 3
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-30T22:24:54+08:00",
+        "ended_at": "2026-09-30T22:37:39+08:00",
+        "duration_seconds": 765.033,
+        "metrics": {
+          "questions": 20,
+          "rereviewed": 3
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T22:38:32+08:00",
+        "ended_at": "2026-09-30T22:38:32+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-30T22:38:15+08:00",
+        "ended_at": "2026-09-30T22:39:32+08:00",
+        "duration_seconds": 77.426,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0127",
+        "revision": 2,
+        "reason": "来源例句末尾表述生硬，将参加可否を連絡ください改为参加の可否をご連絡ください，并记录改写。",
+        "at": "2026-09-30T22:25:52+08:00"
+      },
+      {
+        "question_id": "N2-Q-0129",
+        "revision": 2,
+        "reason": "选项1 にほかなりません 与语境可兼容，替换为不可成立的干扰项。",
+        "at": "2026-09-30T22:32:38+08:00"
+      },
+      {
+        "question_id": "N2-Q-0140",
+        "revision": 2,
+        "reason": "选项4 に先立って 可表示证言前，替换为不可成立的干扰项。",
+        "at": "2026-09-30T22:32:40+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}
