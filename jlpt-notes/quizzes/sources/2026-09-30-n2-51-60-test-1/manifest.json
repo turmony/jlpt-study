@@ -1,0 +1,1620 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-30-n2-51-60-test-1",
+    "title": "N2 第51～60课语法选择练习（20题）",
+    "date": "2026-09-30",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0101",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "皆さん、JLPTを受ける（　）、大切なことを伝えておきます。",
+      "translation": "各位，在参加JLPT考试之前，我要告诉大家一件重要的事。",
+      "tested_cards": [
+        "N2-G-0051"
+      ],
+      "conjugation": "动词辞书形＋にあたって",
+      "options": {
+        "1": "に応じて",
+        "2": "にあたって",
+        "3": "に限って",
+        "4": "に関して"
+      },
+      "correct_option": "2",
+      "correct_explanation": "参加JLPT是重要事项，讲话发生在参加考试之际，应接「にあたって」。",
+      "option_explanations": {
+        "1": "错误：「に応じて」表示随条件或情况调整；题干是在重要考试之际预先讲话。",
+        "2": "正确：参加JLPT是重要事项，讲话发生在参加考试之际，应接「にあたって」。",
+        "3": "错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干是在重要考试之际预先讲话。",
+        "4": "错误：「に関して」表示谈论或调查所涉及的主题；题干是在重要考试之际预先讲话。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にあたって / 〜にあたり",
+        "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-niatari/",
+        "locator": "例文第1句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/541e408bb343535f293c-680e12db4072.md"
+        ],
+        "original_example": "皆さん、JLPTを受けるにあたって、大切なことを伝えておきます。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第1句、文型讲解及N2-G-0051语义边界：参加JLPT是重要事项，讲话发生在参加考试之际，应接「にあたって」。",
+        "distractor_basis": [
+          "1. 错误：「に応じて」表示随条件或情况调整；题干是在重要考试之际预先讲话。",
+          "2. 正确：参加JLPT是重要事项，讲话发生在参加考试之际，应接「にあたって」。",
+          "3. 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干是在重要考试之际预先讲话。",
+          "4. 错误：「に関して」表示谈论或调查所涉及的主题；题干是在重要考试之际预先讲话。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋にあたって；正确项接入后：皆さん、JLPTを受けるにあたって、大切なことを伝えておきます。",
+        "semantic_exclusion": "错误：「に応じて」表示随条件或情况调整；题干是在重要考试之际预先讲话。 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干是在重要考试之际预先讲话。 错误：「に関して」表示谈论或调查所涉及的主题；题干是在重要考试之际预先讲话。",
+        "unique_answer_rationale": "参加JLPT是重要事项，讲话发生在参加考试之际，应接「にあたって」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "2",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0102",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "卒業（　）、皆さんに贈りたい言葉があります。",
+      "translation": "值此毕业之际，我有几句话想送给大家。",
+      "tested_cards": [
+        "N2-G-0051"
+      ],
+      "conjugation": "名词＋にあたり",
+      "options": {
+        "1": "に相違ない",
+        "2": "にもかかわらず",
+        "3": "にあたり",
+        "4": "に応じて"
+      },
+      "correct_option": "3",
+      "correct_explanation": "毕业是重要时刻，正式讲话用「卒業にあたり」。",
+      "option_explanations": {
+        "1": "错误：「に相違ない」表示说话人确信的推断；题干是在毕业这一重要时刻致辞。",
+        "2": "错误：「にもかかわらず」表示与前项预期相反的结果；题干是在毕业这一重要时刻致辞。",
+        "3": "正确：毕业是重要时刻，正式讲话用「卒業にあたり」。",
+        "4": "错误：「に応じて」表示随条件或情况调整；题干是在毕业这一重要时刻致辞。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にあたって / 〜にあたり",
+        "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-niatari/",
+        "locator": "例文第3句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/541e408bb343535f293c-680e12db4072.md"
+        ],
+        "original_example": "卒業にあたり、皆さんに贈りたい言葉があります。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第3句、文型讲解及N2-G-0051语义边界：毕业是重要时刻，正式讲话用「卒業にあたり」。",
+        "distractor_basis": [
+          "1. 错误：「に相違ない」表示说话人确信的推断；题干是在毕业这一重要时刻致辞。",
+          "2. 错误：「にもかかわらず」表示与前项预期相反的结果；题干是在毕业这一重要时刻致辞。",
+          "3. 正确：毕业是重要时刻，正式讲话用「卒業にあたり」。",
+          "4. 错误：「に応じて」表示随条件或情况调整；题干是在毕业这一重要时刻致辞。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にあたり；正确项接入后：卒業にあたり、皆さんに贈りたい言葉があります。",
+        "semantic_exclusion": "错误：「に相違ない」表示说话人确信的推断；题干是在毕业这一重要时刻致辞。 错误：「にもかかわらず」表示与前项预期相反的结果；题干是在毕业这一重要时刻致辞。 错误：「に応じて」表示随条件或情况调整；题干是在毕业这一重要时刻致辞。",
+        "unique_answer_rationale": "毕业是重要时刻，正式讲话用「卒業にあたり」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "3",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0103",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ご予算（　　　　）お食事が楽しめます。",
+      "translation": "可以根据您的预算享用餐食。",
+      "tested_cards": [
+        "N2-G-0052"
+      ],
+      "conjugation": "名词＋に応じて",
+      "options": {
+        "1": "に対して",
+        "2": "に際して",
+        "3": "に比べて",
+        "4": "に応じて"
+      },
+      "correct_option": "4",
+      "correct_explanation": "餐食选择随预算变化，原网站答案为第4项「に応じて」。",
+      "option_explanations": {
+        "1": "错误：「に対して」表示对象或对比；题干餐食内容需要按预算调整。",
+        "2": "错误：「に際して」表示某个特别事件或手续发生之际；题干餐食内容需要按预算调整。",
+        "3": "错误：「に比べて」表示比较；题干餐食内容需要按预算调整。",
+        "4": "正确：餐食选择随预算变化，原网站答案为第4项「に応じて」。"
+      },
+      "source": {
+        "kind": "teaching_exercise",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法クイズ Part8",
+        "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part8/",
+        "locator": "Question 9・●Answer (4)",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/fafcff7599ed6cf85e82-0eba0cc19206.md"
+        ],
+        "answer_locator": "Question 9 后的 ●Answer (4)",
+        "original_answer": "(4)",
+        "option_mapping": "原选项 (1)→1、(2)→2、(3)→3、(4)→4，文字和顺序不变",
+        "adaptation": "原题题干、空格和四项逐字保留；仅添加中文翻译与四项解析。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に応じて；正确项接入后：ご予算に応じてお食事が楽しめます。",
+        "semantic_exclusion": "错误：「に対して」表示对象或对比；题干餐食内容需要按预算调整。 错误：「に際して」表示某个特别事件或手续发生之际；题干餐食内容需要按预算调整。 错误：「に比べて」表示比较；题干餐食内容需要按预算调整。",
+        "unique_answer_rationale": "餐食选择随预算变化，原网站答案为第4项「に応じて」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "4",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET原题题干、四项顺序及来源答案；无来源冲突。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0104",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日本語のレベル（　）、クラスを分けます。",
+      "translation": "按照日语水平分班。",
+      "tested_cards": [
+        "N2-G-0052"
+      ],
+      "conjugation": "名词＋に応じて",
+      "options": {
+        "1": "に限らず",
+        "2": "に応じて",
+        "3": "に限り",
+        "4": "にもかかわらず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "分班标准随学习者日语水平而变，使用「に応じて」。",
+      "option_explanations": {
+        "1": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干班级按不同水平调整。",
+        "2": "正确：分班标准随学习者日语水平而变，使用「に応じて」。",
+        "3": "错误：「に限り」在公告中明确限定适用对象或条件；题干班级按不同水平调整。",
+        "4": "错误：「にもかかわらず」表示与前项预期相反的结果；题干班级按不同水平调整。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に応じて",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-oujite/",
+        "locator": "例文第2句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/4d41d32bf55186c6416d-244d766b5ef9.md"
+        ],
+        "original_example": "日本語のレベルに応じて、クラスを分けます。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第2句、文型讲解及N2-G-0052语义边界：分班标准随学习者日语水平而变，使用「に応じて」。",
+        "distractor_basis": [
+          "1. 错误：「に限らず」表示不只限于前项，还包括其他范围；题干班级按不同水平调整。",
+          "2. 正确：分班标准随学习者日语水平而变，使用「に応じて」。",
+          "3. 错误：「に限り」在公告中明确限定适用对象或条件；题干班级按不同水平调整。",
+          "4. 错误：「にもかかわらず」表示与前项预期相反的结果；题干班级按不同水平调整。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に応じて；正确项接入后：日本語のレベルに応じて、クラスを分けます。",
+        "semantic_exclusion": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干班级按不同水平调整。 错误：「に限り」在公告中明确限定适用对象或条件；题干班级按不同水平调整。 错误：「にもかかわらず」表示与前项预期相反的结果；题干班级按不同水平调整。",
+        "unique_answer_rationale": "分班标准随学习者日语水平而变，使用「に応じて」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "2",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0105",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "症状（　）、薬を変える必要があります。",
+      "translation": "有必要根据症状调整药物。",
+      "tested_cards": [
+        "N2-G-0052"
+      ],
+      "conjugation": "名词＋に応じて",
+      "options": {
+        "1": "に関して",
+        "2": "に限って",
+        "3": "に応じて",
+        "4": "に相違ない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "药物随症状不同而调整，使用「症状に応じて」。",
+      "option_explanations": {
+        "1": "错误：「に関して」表示谈论或调查所涉及的主题；题干药物按症状变化而调整。",
+        "2": "错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干药物按症状变化而调整。",
+        "3": "正确：药物随症状不同而调整，使用「症状に応じて」。",
+        "4": "错误：「に相違ない」表示说话人确信的推断；题干药物按症状变化而调整。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に応じて",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-oujite/",
+        "locator": "例文第5句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/4d41d32bf55186c6416d-244d766b5ef9.md"
+        ],
+        "original_example": "症状に応じて、薬を変える必要があります。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第5句、文型讲解及N2-G-0052语义边界：药物随症状不同而调整，使用「症状に応じて」。",
+        "distractor_basis": [
+          "1. 错误：「に関して」表示谈论或调查所涉及的主题；题干药物按症状变化而调整。",
+          "2. 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干药物按症状变化而调整。",
+          "3. 正确：药物随症状不同而调整，使用「症状に応じて」。",
+          "4. 错误：「に相違ない」表示说话人确信的推断；题干药物按症状变化而调整。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に応じて；正确项接入后：症状に応じて、薬を変える必要があります。",
+        "semantic_exclusion": "错误：「に関して」表示谈论或调查所涉及的主题；题干药物按症状变化而调整。 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干药物按症状变化而调整。 错误：「に相違ない」表示说话人确信的推断；题干药物按症状变化而调整。",
+        "unique_answer_rationale": "药物随症状不同而调整，使用「症状に応じて」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "3",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0106",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ご利用経験の有無（　）、講習は必ずお受けください。",
+      "translation": "无论以前是否使用过，都请务必参加培训。",
+      "tested_cards": [
+        "N2-G-0053"
+      ],
+      "conjugation": "名词（有無）＋にかかわらず",
+      "options": {
+        "1": "にかかわらず",
+        "2": "にもかかわらず",
+        "3": "に応じて",
+        "4": "に限って"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「有無」列出有与没有两种情况，培训对两者都强制适用，用「にかかわらず」。",
+      "option_explanations": {
+        "1": "正确：「有無」列出有与没有两种情况，培训对两者都强制适用，用「にかかわらず」。",
+        "2": "错误：「にもかかわらず」表示与前项预期相反的结果；题干无论有无经验都必须参加。",
+        "3": "错误：「に応じて」表示随条件或情况调整；题干无论有无经验都必须参加。",
+        "4": "错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干无论有无经验都必须参加。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "できる日本語：中級 第4課 地域を知って生活する",
+        "url": "https://nihongokyoshi-net.com/2018/03/19/dekiru-nihongo-int-lesson4/",
+        "locator": "教师问答及板书例句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/3a14090e9edb76f4cbe4-0fb8435db44a.md"
+        ],
+        "original_example": "ご利用経験の有無にかかわらず、講習は必ずお受けください。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的教师问答及板书例句、文型讲解及N2-G-0053语义边界：「有無」列出有与没有两种情况，培训对两者都强制适用，用「にかかわらず」。",
+        "distractor_basis": [
+          "1. 正确：「有無」列出有与没有两种情况，培训对两者都强制适用，用「にかかわらず」。",
+          "2. 错误：「にもかかわらず」表示与前项预期相反的结果；题干无论有无经验都必须参加。",
+          "3. 错误：「に応じて」表示随条件或情况调整；题干无论有无经验都必须参加。",
+          "4. 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干无论有无经验都必须参加。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词（有無）＋にかかわらず；正确项接入后：ご利用経験の有無にかかわらず、講習は必ずお受けください。",
+        "semantic_exclusion": "错误：「にもかかわらず」表示与前项预期相反的结果；题干无论有无经验都必须参加。 错误：「に応じて」表示随条件或情况调整；题干无论有无经验都必须参加。 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干无论有无经验都必须参加。",
+        "unique_answer_rationale": "「有無」列出有与没有两种情况，培训对两者都强制适用，用「にかかわらず」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "1",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。教案问答和板书直接解释「有無にかかわらず」。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0107",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "一生懸命勉強した（　）、行きたかった大学の試験に落ちてしまった。",
+      "translation": "明明拼命学习了，却没考上想去的大学。",
+      "tested_cards": [
+        "N2-G-0054"
+      ],
+      "conjugation": "动词普通形＋にもかかわらず",
+      "options": {
+        "1": "に応じて",
+        "2": "に限らず",
+        "3": "にもかかわらず",
+        "4": "に関して"
+      },
+      "correct_option": "3",
+      "correct_explanation": "努力学习后却落榜，后项是违背预期的结果，用「にもかかわらず」。",
+      "option_explanations": {
+        "1": "错误：「に応じて」表示随条件或情况调整；题干努力与落榜形成出乎预期的逆接。",
+        "2": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干努力与落榜形成出乎预期的逆接。",
+        "3": "正确：努力学习后却落榜，后项是违背预期的结果，用「にもかかわらず」。",
+        "4": "错误：「に関して」表示谈论或调查所涉及的主题；题干努力与落榜形成出乎预期的逆接。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にもかかわらず",
+        "url": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-nimokakawarazu/",
+        "locator": "例文第2句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/476292c76338875cecbc-566faca919a2.md"
+        ],
+        "original_example": "一生懸命勉強したにもかかわらず、行きたかった大学の試験に落ちてしまった。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第2句、文型讲解及N2-G-0054语义边界：努力学习后却落榜，后项是违背预期的结果，用「にもかかわらず」。",
+        "distractor_basis": [
+          "1. 错误：「に応じて」表示随条件或情况调整；题干努力与落榜形成出乎预期的逆接。",
+          "2. 错误：「に限らず」表示不只限于前项，还包括其他范围；题干努力与落榜形成出乎预期的逆接。",
+          "3. 正确：努力学习后却落榜，后项是违背预期的结果，用「にもかかわらず」。",
+          "4. 错误：「に関して」表示谈论或调查所涉及的主题；题干努力与落榜形成出乎预期的逆接。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词普通形＋にもかかわらず；正确项接入后：一生懸命勉強したにもかかわらず、行きたかった大学の試験に落ちてしまった。",
+        "semantic_exclusion": "错误：「に応じて」表示随条件或情况调整；题干努力与落榜形成出乎预期的逆接。 错误：「に限らず」表示不只限于前项，还包括其他范围；题干努力与落榜形成出乎预期的逆接。 错误：「に関して」表示谈论或调查所涉及的主题；题干努力与落榜形成出乎预期的逆接。",
+        "unique_answer_rationale": "努力学习后却落榜，后项是违背预期的结果，用「にもかかわらず」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "3",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0108",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "田中さんのおじいさんは９０歳（　）、毎日5km走るほど元気だ。",
+      "translation": "田中先生的祖父尽管已90岁，仍健康到每天跑5公里。",
+      "tested_cards": [
+        "N2-G-0054"
+      ],
+      "conjugation": "名词＋にもかかわらず",
+      "options": {
+        "1": "に限り",
+        "2": "にもかかわらず",
+        "3": "に応じて",
+        "4": "に関して"
+      },
+      "correct_option": "2",
+      "correct_explanation": "90岁仍能每天跑步，与通常预期相反，用「にもかかわらず」。",
+      "option_explanations": {
+        "1": "错误：「に限り」在公告中明确限定适用对象或条件；题干高龄与每天长跑构成逆接。",
+        "2": "正确：90岁仍能每天跑步，与通常预期相反，用「にもかかわらず」。",
+        "3": "错误：「に応じて」表示随条件或情况调整；题干高龄与每天长跑构成逆接。",
+        "4": "错误：「に関して」表示谈论或调查所涉及的主题；题干高龄与每天长跑构成逆接。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にもかかわらず",
+        "url": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-nimokakawarazu/",
+        "locator": "例文第6句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/476292c76338875cecbc-566faca919a2.md"
+        ],
+        "original_example": "田中さんのおじいさんは９０歳にもかかわらず、毎日5km走るほど元気だ。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第6句、文型讲解及N2-G-0054语义边界：90岁仍能每天跑步，与通常预期相反，用「にもかかわらず」。",
+        "distractor_basis": [
+          "1. 错误：「に限り」在公告中明确限定适用对象或条件；题干高龄与每天长跑构成逆接。",
+          "2. 正确：90岁仍能每天跑步，与通常预期相反，用「にもかかわらず」。",
+          "3. 错误：「に応じて」表示随条件或情况调整；题干高龄与每天长跑构成逆接。",
+          "4. 错误：「に関して」表示谈论或调查所涉及的主题；题干高龄与每天长跑构成逆接。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にもかかわらず；正确项接入后：田中さんのおじいさんは９０歳にもかかわらず、毎日5km走るほど元気だ。",
+        "semantic_exclusion": "错误：「に限り」在公告中明确限定适用对象或条件；题干高龄与每天长跑构成逆接。 错误：「に応じて」表示随条件或情况调整；题干高龄与每天长跑构成逆接。 错误：「に関して」表示谈论或调查所涉及的主题；题干高龄与每天长跑构成逆接。",
+        "unique_answer_rationale": "90岁仍能每天跑步，与通常预期相反，用「にもかかわらず」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "2",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0109",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "うちの子（　）、そんなことをするはずはない。",
+      "translation": "唯独我家孩子，不可能做那种事。",
+      "tested_cards": [
+        "N2-G-0055"
+      ],
+      "conjugation": "名词＋に限って",
+      "options": {
+        "1": "に限って",
+        "2": "に際して",
+        "3": "に相違ない",
+        "4": "に応じて"
+      },
+      "correct_option": "1",
+      "correct_explanation": "说话人为自己的孩子作强烈辩护，使用「うちの子に限って」。",
+      "option_explanations": {
+        "1": "正确：说话人为自己的孩子作强烈辩护，使用「うちの子に限って」。",
+        "2": "错误：「に際して」表示某个特别事件或手续发生之际；题干是“唯独这个人绝不会”的辩护。",
+        "3": "错误：「に相違ない」表示说话人确信的推断；题干是“唯独这个人绝不会”的辩护。",
+        "4": "错误：「に応じて」表示随条件或情况调整；题干是“唯独这个人绝不会”的辩护。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に限って",
+        "url": "https://nihongokyoshi-net.com/2019/07/04/jlptn2-grammar-nikagitte/",
+        "locator": "例文・絶対に〜ない第1句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/2268d9feceee03791b56-e49259885431.md"
+        ],
+        "original_example": "うちの子に限って、そんなことをするはずはない。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文・絶対に〜ない第1句、文型讲解及N2-G-0055语义边界：说话人为自己的孩子作强烈辩护，使用「うちの子に限って」。",
+        "distractor_basis": [
+          "1. 正确：说话人为自己的孩子作强烈辩护，使用「うちの子に限って」。",
+          "2. 错误：「に際して」表示某个特别事件或手续发生之际；题干是“唯独这个人绝不会”的辩护。",
+          "3. 错误：「に相違ない」表示说话人确信的推断；题干是“唯独这个人绝不会”的辩护。",
+          "4. 错误：「に応じて」表示随条件或情况调整；题干是“唯独这个人绝不会”的辩护。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に限って；正确项接入后：うちの子に限って、そんなことをするはずはない。",
+        "semantic_exclusion": "错误：「に際して」表示某个特别事件或手续发生之际；题干是“唯独这个人绝不会”的辩护。 错误：「に相違ない」表示说话人确信的推断；题干是“唯独这个人绝不会”的辩护。 错误：「に応じて」表示随条件或情况调整；题干是“唯独这个人绝不会”的辩护。",
+        "unique_answer_rationale": "说话人为自己的孩子作强烈辩护，使用「うちの子に限って」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "1",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0110",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "普段は早起きできるのに、大事な日（　）、なぜか朝寝坊してしまう。",
+      "translation": "偏偏在重要的日子睡过头。",
+      "tested_cards": [
+        "N2-G-0055"
+      ],
+      "conjugation": "名词＋に限って",
+      "options": {
+        "1": "に応じて",
+        "2": "に限って",
+        "3": "に限らず",
+        "4": "に関して"
+      },
+      "correct_option": "2",
+      "correct_explanation": "平常能早起，却偏偏在重要日子睡过头，表达倒霉的特例，用「に限って」。",
+      "option_explanations": {
+        "1": "错误：「に応じて」表示随条件或情况调整；题干平时不发生，偏偏重要日子出错。",
+        "2": "正确：平常能早起，却偏偏在重要日子睡过头，表达倒霉的特例，用「に限って」。",
+        "3": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干平时不发生，偏偏重要日子出错。",
+        "4": "错误：「に関して」表示谈论或调查所涉及的主题；题干平时不发生，偏偏重要日子出错。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に限って",
+        "url": "https://nihongokyoshi-net.com/2019/07/04/jlptn2-grammar-nikagitte/",
+        "locator": "例文・運悪くそうなる第6句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/2268d9feceee03791b56-e49259885431.md"
+        ],
+        "original_example": "大事な日に限って、朝寝坊してしまう。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "为排除「に限らず」，补充“平常能早起”的对比语境，并将语法挖空。"
+        ],
+        "answer_basis": "日本語NET的例文・運悪くそうなる第6句、文型讲解及N2-G-0055语义边界：平常能早起，却偏偏在重要日子睡过头，表达倒霉的特例，用「に限って」。",
+        "distractor_basis": [
+          "1. 错误：「に応じて」表示随条件或情况调整；题干平时不发生，偏偏重要日子出错。",
+          "2. 正确：平常能早起，却偏偏在重要日子睡过头，表达倒霉的特例，用「に限って」。",
+          "3. 错误：「に限らず」表示不只限于前项，还包括其他范围；题干平时不发生，偏偏重要日子出错。",
+          "4. 错误：「に関して」表示谈论或调查所涉及的主题；题干平时不发生，偏偏重要日子出错。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に限って；正确项接入后：普段は早起きできるのに、大事な日に限って、なぜか朝寝坊してしまう。",
+        "semantic_exclusion": "错误：「に応じて」表示随条件或情况调整；题干平时不发生，偏偏重要日子出错。 错误：「に限らず」表示不只限于前项，还包括其他范围；题干平时不发生，偏偏重要日子出错。 错误：「に関して」表示谈论或调查所涉及的主题；题干平时不发生，偏偏重要日子出错。",
+        "unique_answer_rationale": "平常能早起，却偏偏在重要日子睡过头，表达倒霉的特例，用「に限って」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "2",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0111",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この映画は子供（　）、大人も楽しめます。",
+      "translation": "这部电影不只孩子，大人也能欣赏。",
+      "tested_cards": [
+        "N2-G-0056"
+      ],
+      "conjugation": "名词＋に限らず",
+      "options": {
+        "1": "に限り",
+        "2": "に応じて",
+        "3": "に限らず",
+        "4": "に限って"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「子供」之外还包括大人，范围扩大，用「に限らず」。",
+      "option_explanations": {
+        "1": "错误：「に限り」在公告中明确限定适用对象或条件；题干不只孩子，大人也属于适用范围。",
+        "2": "错误：「に応じて」表示随条件或情况调整；题干不只孩子，大人也属于适用范围。",
+        "3": "正确：「子供」之外还包括大人，范围扩大，用「に限らず」。",
+        "4": "错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干不只孩子，大人也属于适用范围。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に限らず",
+        "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-nikagirazu/",
+        "locator": "例文第1句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/9b385b2cf5c11224512b-220eeed98081.md"
+        ],
+        "original_example": "この映画は子供に限らず、大人も楽しめます。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第1句、文型讲解及N2-G-0056语义边界：「子供」之外还包括大人，范围扩大，用「に限らず」。",
+        "distractor_basis": [
+          "1. 错误：「に限り」在公告中明确限定适用对象或条件；题干不只孩子，大人也属于适用范围。",
+          "2. 错误：「に応じて」表示随条件或情况调整；题干不只孩子，大人也属于适用范围。",
+          "3. 正确：「子供」之外还包括大人，范围扩大，用「に限らず」。",
+          "4. 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干不只孩子，大人也属于适用范围。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に限らず；正确项接入后：この映画は子供に限らず、大人も楽しめます。",
+        "semantic_exclusion": "错误：「に限り」在公告中明确限定适用对象或条件；题干不只孩子，大人也属于适用范围。 错误：「に応じて」表示随条件或情况调整；题干不只孩子，大人也属于适用范围。 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干不只孩子，大人也属于适用范围。",
+        "unique_answer_rationale": "「子供」之外还包括大人，范围扩大，用「に限らず」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "3",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0112",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "最近は女性（　）、男性も育児を積極的にするようになった。",
+      "translation": "最近不只是女性，男性也开始积极参与育儿。",
+      "tested_cards": [
+        "N2-G-0056"
+      ],
+      "conjugation": "名词＋に限らず",
+      "options": {
+        "1": "に限り",
+        "2": "にもかかわらず",
+        "3": "に相違ない",
+        "4": "に限らず"
+      },
+      "correct_option": "4",
+      "correct_explanation": "育儿主体从女性扩展到男性，使用「に限らず」。",
+      "option_explanations": {
+        "1": "错误：「に限り」在公告中明确限定适用对象或条件；题干不只女性，男性也被纳入范围。",
+        "2": "错误：「にもかかわらず」表示与前项预期相反的结果；题干不只女性，男性也被纳入范围。",
+        "3": "错误：「に相違ない」表示说话人确信的推断；题干不只女性，男性也被纳入范围。",
+        "4": "正确：育儿主体从女性扩展到男性，使用「に限らず」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に限らず",
+        "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-nikagirazu/",
+        "locator": "例文第3句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/9b385b2cf5c11224512b-220eeed98081.md"
+        ],
+        "original_example": "最近は女性に限らず、男性も育児を積極的にするようになった。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第3句、文型讲解及N2-G-0056语义边界：育儿主体从女性扩展到男性，使用「に限らず」。",
+        "distractor_basis": [
+          "1. 错误：「に限り」在公告中明确限定适用对象或条件；题干不只女性，男性也被纳入范围。",
+          "2. 错误：「にもかかわらず」表示与前项预期相反的结果；题干不只女性，男性也被纳入范围。",
+          "3. 错误：「に相違ない」表示说话人确信的推断；题干不只女性，男性也被纳入范围。",
+          "4. 正确：育儿主体从女性扩展到男性，使用「に限らず」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に限らず；正确项接入后：最近は女性に限らず、男性も育児を積極的にするようになった。",
+        "semantic_exclusion": "错误：「に限り」在公告中明确限定适用对象或条件；题干不只女性，男性也被纳入范围。 错误：「にもかかわらず」表示与前项预期相反的结果；题干不只女性，男性也被纳入范围。 错误：「に相違ない」表示说话人确信的推断；题干不只女性，男性也被纳入范围。",
+        "unique_answer_rationale": "育儿主体从女性扩展到男性，使用「に限らず」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "4",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0113",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "2,000円以上お買い上げのお客様（　）、今なら10%割引します。",
+      "translation": "现在仅对消费满2000日元的顾客打九折。",
+      "tested_cards": [
+        "N2-G-0057"
+      ],
+      "conjugation": "名词＋に限り",
+      "options": {
+        "1": "にあたって",
+        "2": "に限り",
+        "3": "に応じて",
+        "4": "にもかかわらず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "促销公告明确优惠仅适用于达到消费门槛的顾客，用「に限り」。",
+      "option_explanations": {
+        "1": "错误：「にあたって」表示开始重要事项之际；题干公告限定唯一享受折扣的顾客群。",
+        "2": "正确：促销公告明确优惠仅适用于达到消费门槛的顾客，用「に限り」。",
+        "3": "错误：「に応じて」表示随条件或情况调整；题干公告限定唯一享受折扣的顾客群。",
+        "4": "错误：「にもかかわらず」表示与前项预期相反的结果；题干公告限定唯一享受折扣的顾客群。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にかぎり",
+        "url": "https://nihongokyoshi-net.com/2018/11/21/jlptn2-grammar-nikagiri/",
+        "locator": "例文第1句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/9c28d47fdbcd7088e80d-d0e092171ba9.md"
+        ],
+        "original_example": "2,000円以上お買い上げのお客様に限り、今なら10%割引します。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第1句、文型讲解及N2-G-0057语义边界：促销公告明确优惠仅适用于达到消费门槛的顾客，用「に限り」。",
+        "distractor_basis": [
+          "1. 错误：「にあたって」表示开始重要事项之际；题干公告限定唯一享受折扣的顾客群。",
+          "2. 正确：促销公告明确优惠仅适用于达到消费门槛的顾客，用「に限り」。",
+          "3. 错误：「に応じて」表示随条件或情况调整；题干公告限定唯一享受折扣的顾客群。",
+          "4. 错误：「にもかかわらず」表示与前项预期相反的结果；题干公告限定唯一享受折扣的顾客群。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に限り；正确项接入后：2,000円以上お買い上げのお客様に限り、今なら10%割引します。",
+        "semantic_exclusion": "错误：「にあたって」表示开始重要事项之际；题干公告限定唯一享受折扣的顾客群。 错误：「に応じて」表示随条件或情况调整；题干公告限定唯一享受折扣的顾客群。 错误：「にもかかわらず」表示与前项预期相反的结果；题干公告限定唯一享受折扣的顾客群。",
+        "unique_answer_rationale": "促销公告明确优惠仅适用于达到消费门槛的顾客，用「に限り」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "2",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0114",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "電話での問い合わせは、急用の場合（　）受け付けます。それ以外はメールでお願いします。",
+      "translation": "仅在有急事时接受电话咨询。",
+      "tested_cards": [
+        "N2-G-0057"
+      ],
+      "conjugation": "名词＋に限り",
+      "options": {
+        "1": "に限らず",
+        "2": "に関して",
+        "3": "に相違ない",
+        "4": "に限り"
+      },
+      "correct_option": "4",
+      "correct_explanation": "受理电话咨询的条件被正式限定为急用，用「に限り」。",
+      "option_explanations": {
+        "1": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干仅在急用时才受理电话咨询。",
+        "2": "错误：「に関して」表示谈论或调查所涉及的主题；题干仅在急用时才受理电话咨询。",
+        "3": "错误：「に相違ない」表示说话人确信的推断；题干仅在急用时才受理电话咨询。",
+        "4": "正确：受理电话咨询的条件被正式限定为急用，用「に限り」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜にかぎり",
+        "url": "https://nihongokyoshi-net.com/2018/11/21/jlptn2-grammar-nikagiri/",
+        "locator": "例文第4句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/9c28d47fdbcd7088e80d-d0e092171ba9.md"
+        ],
+        "original_example": "急用の場合に限り、電話での問い合わせを受け付けます。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "重排原例句并补充“其余情况请用邮件”的限定语境，以排除非限定读法。"
+        ],
+        "answer_basis": "日本語NET的例文第4句、文型讲解及N2-G-0057语义边界：受理电话咨询的条件被正式限定为急用，用「に限り」。",
+        "distractor_basis": [
+          "1. 错误：「に限らず」表示不只限于前项，还包括其他范围；题干仅在急用时才受理电话咨询。",
+          "2. 错误：「に関して」表示谈论或调查所涉及的主题；题干仅在急用时才受理电话咨询。",
+          "3. 错误：「に相違ない」表示说话人确信的推断；题干仅在急用时才受理电话咨询。",
+          "4. 正确：受理电话咨询的条件被正式限定为急用，用「に限り」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に限り；正确项接入后：電話での問い合わせは、急用の場合に限り受け付けます。それ以外はメールでお願いします。",
+        "semantic_exclusion": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干仅在急用时才受理电话咨询。 错误：「に関して」表示谈论或调查所涉及的主题；题干仅在急用时才受理电话咨询。 错误：「に相違ない」表示说话人确信的推断；题干仅在急用时才受理电话咨询。",
+        "unique_answer_rationale": "受理电话咨询的条件被正式限定为急用，用「に限り」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "4",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0115",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "事故の原因（　）、現在調査が進められている。",
+      "translation": "目前正在调查事故原因。",
+      "tested_cards": [
+        "N2-G-0058"
+      ],
+      "conjugation": "名词＋に関して",
+      "options": {
+        "1": "に関して",
+        "2": "に応じて",
+        "3": "にもかかわらず",
+        "4": "に相違ない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「事故の原因」是调查所涉及的主题，使用「に関して」。",
+      "option_explanations": {
+        "1": "正确：「事故の原因」是调查所涉及的主题，使用「に関して」。",
+        "2": "错误：「に応じて」表示随条件或情况调整；题干原因是调查的对象而非调整条件。",
+        "3": "错误：「にもかかわらず」表示与前项预期相反的结果；题干原因是调查的对象而非调整条件。",
+        "4": "错误：「に相違ない」表示说话人确信的推断；题干原因是调查的对象而非调整条件。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N3】文法・例文：〜に関して",
+        "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn3-grammar-nikanshite/",
+        "locator": "例文第4句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/a6670a2ebea7a9a4b716-2bd9d119b806.md"
+        ],
+        "original_example": "事故の原因に関して、現在調査が進められている。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第4句、文型讲解及N2-G-0058语义边界：「事故の原因」是调查所涉及的主题，使用「に関して」。",
+        "distractor_basis": [
+          "1. 正确：「事故の原因」是调查所涉及的主题，使用「に関して」。",
+          "2. 错误：「に応じて」表示随条件或情况调整；题干原因是调查的对象而非调整条件。",
+          "3. 错误：「にもかかわらず」表示与前项预期相反的结果；题干原因是调查的对象而非调整条件。",
+          "4. 错误：「に相違ない」表示说话人确信的推断；题干原因是调查的对象而非调整条件。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に関して；正确项接入后：事故の原因に関して、現在調査が進められている。",
+        "semantic_exclusion": "错误：「に応じて」表示随条件或情况调整；题干原因是调查的对象而非调整条件。 错误：「にもかかわらず」表示与前项预期相反的结果；题干原因是调查的对象而非调整条件。 错误：「に相違ない」表示说话人确信的推断；题干原因是调查的对象而非调整条件。",
+        "unique_answer_rationale": "「事故の原因」是调查所涉及的主题，使用「に関して」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "1",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。该网站把「に関して」列为N3；本卷按目标课程N2第58课归档。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0116",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今晩、日本の歴史（　）特集があるから、見ておいた方がいいよ。",
+      "translation": "今晚有关于日本历史的专题节目，最好看看。",
+      "tested_cards": [
+        "N2-G-0058"
+      ],
+      "conjugation": "名词＋に関する＋名词",
+      "options": {
+        "1": "に応じた",
+        "2": "に際した",
+        "3": "に関する",
+        "4": "に相違ない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "后面接名词「特集」，主题是日本历史，要用连体形「に関する」。",
+      "option_explanations": {
+        "1": "错误：「に応じた」修饰依条件调整的事物；题干日本历史是专题节目的主题。",
+        "2": "错误：「に際した」修饰与特别事件相关的名词；题干日本历史是专题节目的主题。",
+        "3": "正确：后面接名词「特集」，主题是日本历史，要用连体形「に関する」。",
+        "4": "错误：「に相違ない」表示说话人确信的推断；题干日本历史是专题节目的主题。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N3】文法・例文：〜に関して",
+        "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn3-grammar-nikanshite/",
+        "locator": "例文第3句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/a6670a2ebea7a9a4b716-2bd9d119b806.md"
+        ],
+        "original_example": "今晩、日本の歴史に関する特集があるから、見ておいた方がいいよ。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第3句、文型讲解及N2-G-0058语义边界：后面接名词「特集」，主题是日本历史，要用连体形「に関する」。",
+        "distractor_basis": [
+          "1. 错误：「に応じた」修饰依条件调整的事物；题干日本历史是专题节目的主题。",
+          "2. 错误：「に際した」修饰与特别事件相关的名词；题干日本历史是专题节目的主题。",
+          "3. 正确：后面接名词「特集」，主题是日本历史，要用连体形「に関する」。",
+          "4. 错误：「に相違ない」表示说话人确信的推断；题干日本历史是专题节目的主题。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に関する＋名词；正确项接入后：今晩、日本の歴史に関する特集があるから、見ておいた方がいいよ。",
+        "semantic_exclusion": "错误：「に応じた」修饰依条件调整的事物；题干日本历史是专题节目的主题。 错误：「に際した」修饰与特别事件相关的名词；题干日本历史是专题节目的主题。 错误：「に相違ない」表示说话人确信的推断；题干日本历史是专题节目的主题。",
+        "unique_answer_rationale": "后面接名词「特集」，主题是日本历史，要用连体形「に関する」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "3",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。该网站把「に関して」列为N3；本卷按目标课程N2第58课归档。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0117",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "毎日１０時間以上勉強しており、模試の判定もAだったので、彼は合格する（　）。",
+      "translation": "他每天学习十小时以上，模拟考试判定也是A，一定能考上。",
+      "tested_cards": [
+        "N2-G-0059"
+      ],
+      "conjugation": "动词普通形＋に相違ない",
+      "options": {
+        "1": "に限り",
+        "2": "に相違ない",
+        "3": "に応じて",
+        "4": "にもかかわらず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "长期努力且模拟考试成绩优异，正式语境下以「に相違ない」表达有依据的确信推断。",
+      "option_explanations": {
+        "1": "错误：「に限り」在公告中明确限定适用对象或条件；题干依据学习时间与模拟考试成绩作强烈推断。",
+        "2": "正确：长期努力且模拟考试成绩优异，正式语境下以「に相違ない」表达有依据的确信推断。",
+        "3": "错误：「に応じて」表示随条件或情况调整；题干依据学习时间与模拟考试成绩作强烈推断。",
+        "4": "错误：「にもかかわらず」表示与前项预期相反的结果；题干依据学习时间与模拟考试成绩作强烈推断。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に相違ない",
+        "url": "https://nihongokyoshi-net.com/2019/11/05/jlptn2-grammar-nisouinai/",
+        "locator": "例文第5句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/8fdfb21fcabb4eaa8ed1-f56fccbd8750.md"
+        ],
+        "original_example": "毎日１０時間以上勉強しているし、模試の判定もAだったので、彼は余裕で合格するに相違ない。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "第1轮修订：统一书面文体，移除口语余裕で并调整前句",
+          "将来源例句的「勉強しているし」调整为较正式的「勉強しており」，删去口语「余裕で」，保留原推断依据。"
+        ],
+        "answer_basis": "日本語NET例文第5句、文型讲解及N2-G-0059语义边界：长期努力且模拟考试成绩优异，正式语境下以「に相違ない」表达有依据的确信推断。",
+        "distractor_basis": [
+          "1. 错误：「に限り」在公告中明确限定适用对象或条件；题干依据学习时间与模拟考试成绩作强烈推断。",
+          "2. 正确：长期努力且模拟考试成绩优异，正式语境下以「に相違ない」表达有依据的确信推断。",
+          "3. 错误：「に応じて」表示随条件或情况调整；题干依据学习时间与模拟考试成绩作强烈推断。",
+          "4. 错误：「にもかかわらず」表示与前项预期相反的结果；题干依据学习时间与模拟考试成绩作强烈推断。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词普通形＋に相違ない；正确项接入后：毎日１０時間以上勉強しており、模試の判定もAだったので、彼は合格するに相違ない。",
+        "semantic_exclusion": "错误：「に限り」在公告中明确限定适用对象或条件；题干依据学习时间与模拟考试成绩作强烈推断。 错误：「に応じて」表示随条件或情况调整；题干依据学习时间与模拟考试成绩作强烈推断。 错误：「にもかかわらず」表示与前项预期相反的结果；题干依据学习时间与模拟考试成绩作强烈推断。",
+        "unique_answer_rationale": "长期努力且模拟考试成绩优异，正式语境下以「に相違ない」表达有依据的确信推断。其余三项无法表达此处的确信推断。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:26:29+08:00",
+          "answer": "2",
+          "notes": "仅看修订版试卷与目标语法卡，独立重答；高信心，无多解，书面文体已协调。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0118",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この会社は離職率が高く、何か問題がある（　）。",
+      "translation": "这家公司离职率很高，一定存在某种问题。",
+      "tested_cards": [
+        "N2-G-0059"
+      ],
+      "conjugation": "动词普通形＋に相違ない",
+      "options": {
+        "1": "に関して",
+        "2": "に限って",
+        "3": "に応じて",
+        "4": "に相違ない"
+      },
+      "correct_option": "4",
+      "correct_explanation": "说话人根据高离职率强烈推断公司有问题，用「に相違ない」。",
+      "option_explanations": {
+        "1": "错误：「に関して」表示谈论或调查所涉及的主题；题干高离职率是确信推断的依据。",
+        "2": "错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干高离职率是确信推断的依据。",
+        "3": "错误：「に応じて」表示随条件或情况调整；题干高离职率是确信推断的依据。",
+        "4": "正确：说话人根据高离职率强烈推断公司有问题，用「に相違ない」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に相違ない",
+        "url": "https://nihongokyoshi-net.com/2019/11/05/jlptn2-grammar-nisouinai/",
+        "locator": "例文第7句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/8fdfb21fcabb4eaa8ed1-f56fccbd8750.md"
+        ],
+        "original_example": "この会社は離職率が高いし、何か問題があるに相違ない。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "第1轮修订：将句中口语し改为书面连接以匹配に相違ない",
+          "将来源例句的口语连接「高いし」调整为较正式的「高く」，保留高离职率与推断的关系。"
+        ],
+        "answer_basis": "日本語NET的例文第7句、文型讲解及N2-G-0059语义边界：说话人根据高离职率强烈推断公司有问题，用「に相違ない」。",
+        "distractor_basis": [
+          "1. 错误：「に関して」表示谈论或调查所涉及的主题；题干高离职率是确信推断的依据。",
+          "2. 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干高离职率是确信推断的依据。",
+          "3. 错误：「に応じて」表示随条件或情况调整；题干高离职率是确信推断的依据。",
+          "4. 正确：说话人根据高离职率强烈推断公司有问题，用「に相違ない」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词普通形＋に相違ない；正确项接入后：この会社は離職率が高く、何か問題があるに相違ない。",
+        "semantic_exclusion": "错误：「に関して」表示谈论或调查所涉及的主题；题干高离职率是确信推断的依据。 错误：「に限って」表示偏偏在此情况发生，或为某人作强烈辩护；题干高离职率是确信推断的依据。 错误：「に応じて」表示随条件或情况调整；题干高离职率是确信推断的依据。",
+        "unique_answer_rationale": "说话人根据高离职率强烈推断公司有问题，用「に相違ない」。其余三项无法表达此处的确信推断。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:26:29+08:00",
+          "answer": "4",
+          "notes": "仅看修订版试卷与目标语法卡，独立重答；高信心，无多解，书面文体已协调。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0119",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "入居（　）の注意事項を説明します。",
+      "translation": "现在说明入住时的注意事项。",
+      "tested_cards": [
+        "N2-G-0060"
+      ],
+      "conjugation": "动作性名词＋に際しての＋名词",
+      "options": {
+        "1": "に際して",
+        "2": "に応じて",
+        "3": "に限り",
+        "4": "に相違ない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "入住这一特定手续发生之际，后接「の注意事項」用「に際しての」。",
+      "option_explanations": {
+        "1": "正确：入住这一特定手续发生之际，后接「の注意事項」用「に際しての」。",
+        "2": "错误：「に応じて」表示随条件或情况调整；题干说明的是入住之际应注意的事项。",
+        "3": "错误：「に限り」在公告中明确限定适用对象或条件；题干说明的是入住之际应注意的事项。",
+        "4": "错误：「に相違ない」表示说话人确信的推断；题干说明的是入住之际应注意的事项。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に際して",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nisaishite/",
+        "locator": "例文第2句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/555c1326cee79ec2a5c5-bb0b6fd191c3.md"
+        ],
+        "original_example": "入居に際しての注意事項を説明します。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第2句、文型讲解及N2-G-0060语义边界：入住这一特定手续发生之际，后接「の注意事項」用「に際しての」。",
+        "distractor_basis": [
+          "1. 正确：入住这一特定手续发生之际，后接「の注意事項」用「に際しての」。",
+          "2. 错误：「に応じて」表示随条件或情况调整；题干说明的是入住之际应注意的事项。",
+          "3. 错误：「に限り」在公告中明确限定适用对象或条件；题干说明的是入住之际应注意的事项。",
+          "4. 错误：「に相違ない」表示说话人确信的推断；题干说明的是入住之际应注意的事项。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动作性名词＋に際しての＋名词；正确项接入后：入居に際しての注意事項を説明します。",
+        "semantic_exclusion": "错误：「に応じて」表示随条件或情况调整；题干说明的是入住之际应注意的事项。 错误：「に限り」在公告中明确限定适用对象或条件；题干说明的是入住之际应注意的事项。 错误：「に相違ない」表示说话人确信的推断；题干说明的是入住之际应注意的事项。",
+        "unique_answer_rationale": "入住这一特定手续发生之际，后接「の注意事項」用「に際しての」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "1",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0120",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "当サイトを利用する（　）、まず利用規約をご一読ください。",
+      "translation": "使用本网站之前，请先阅读使用条款。",
+      "tested_cards": [
+        "N2-G-0060"
+      ],
+      "conjugation": "动词辞书形＋に際して",
+      "options": {
+        "1": "に応じて",
+        "2": "に関して",
+        "3": "に際して",
+        "4": "に限らず"
+      },
+      "correct_option": "3",
+      "correct_explanation": "开始使用网站前的正式说明，用「利用するに際して」。",
+      "option_explanations": {
+        "1": "错误：「に応じて」表示随条件或情况调整；题干先读条款是开始使用网站时的正式手续。",
+        "2": "错误：「に関して」表示谈论或调查所涉及的主题；题干先读条款是开始使用网站时的正式手续。",
+        "3": "正确：开始使用网站前的正式说明，用「利用するに際して」。",
+        "4": "错误：「に限らず」表示不只限于前项，还包括其他范围；题干先读条款是开始使用网站时的正式手续。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜に際して",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nisaishite/",
+        "locator": "例文第4句",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/555c1326cee79ec2a5c5-bb0b6fd191c3.md"
+        ],
+        "original_example": "当サイトを利用するに際して、まず利用規約をご一読ください。",
+        "transformations": [
+          "去除网页粗体等排版标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET的例文第4句、文型讲解及N2-G-0060语义边界：开始使用网站前的正式说明，用「利用するに際して」。",
+        "distractor_basis": [
+          "1. 错误：「に応じて」表示随条件或情况调整；题干先读条款是开始使用网站时的正式手续。",
+          "2. 错误：「に関して」表示谈论或调查所涉及的主题；题干先读条款是开始使用网站时的正式手续。",
+          "3. 正确：开始使用网站前的正式说明，用「利用するに際して」。",
+          "4. 错误：「に限らず」表示不只限于前项，还包括其他范围；题干先读条款是开始使用网站时的正式手续。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋に際して；正确项接入后：当サイトを利用するに際して、まず利用規約をご一読ください。",
+        "semantic_exclusion": "错误：「に応じて」表示随条件或情况调整；题干先读条款是开始使用网站时的正式手续。 错误：「に関して」表示谈论或调查所涉及的主题；题干先读条款是开始使用网站时的正式手续。 错误：「に限らず」表示不只限于前项，还包括其他范围；题干先读条款是开始使用网站时的正式手续。",
+        "unique_answer_rationale": "开始使用网站前的正式说明，用「利用するに際して」。其余三项在此语境下不能表达同一关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:23:05+08:00",
+          "answer": "3",
+          "notes": "独立盲答；给出逐题理由与信心，核查其他选项是否构成自然解。第17、18题提出文体修订，修订后单独复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review",
+          "reviewed_at": "2026-09-30T20:30:56+08:00",
+          "notes": "独立核对日本語NET最小例句证据、全部变换、接续、四项解释与唯一解。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-09-30T19:52:12+08:00",
+        "ended_at": "2026-09-30T19:53:31+08:00",
+        "duration_seconds": 79.483,
+        "metrics": {
+          "cards": 10
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-09-30T19:54:01+08:00",
+        "ended_at": "2026-09-30T19:56:04+08:00",
+        "duration_seconds": 123.022,
+        "metrics": {
+          "pages_found": 9
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-09-30T19:56:19+08:00",
+        "ended_at": "2026-09-30T20:02:49+08:00",
+        "duration_seconds": 390.682,
+        "metrics": {
+          "pages_adopted": 11
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-09-30T20:09:56+08:00",
+        "ended_at": "2026-09-30T20:15:38+08:00",
+        "duration_seconds": 342.263,
+        "metrics": {
+          "questions": 20
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-30T20:15:48+08:00",
+        "ended_at": "2026-09-30T20:18:38+08:00",
+        "duration_seconds": 170.182,
+        "metrics": {
+          "passed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T20:18:48+08:00",
+        "ended_at": "2026-09-30T20:18:48+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-30T20:19:01+08:00",
+        "ended_at": "2026-09-30T20:22:17+08:00",
+        "duration_seconds": 196.537,
+        "metrics": {
+          "reviewed": 20
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T20:24:49+08:00",
+        "ended_at": "2026-09-30T20:24:49+08:00",
+        "duration_seconds": 0.015,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-30T20:22:34+08:00",
+        "ended_at": "2026-09-30T20:26:40+08:00",
+        "duration_seconds": 246.268,
+        "metrics": {
+          "revised": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T20:31:37+08:00",
+        "ended_at": "2026-09-30T20:31:38+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T20:31:23+08:00",
+        "ended_at": "2026-09-30T20:31:48+08:00",
+        "duration_seconds": 25.738,
+        "metrics": {
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-30T20:32:20+08:00",
+        "ended_at": "2026-09-30T20:32:57+08:00",
+        "duration_seconds": 37.038,
+        "metrics": {
+          "errors": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0117",
+        "revision": 2,
+        "reason": "统一书面文体，移除口语余裕で并调整前句",
+        "at": "2026-09-30T20:23:16+08:00"
+      },
+      {
+        "question_id": "N2-Q-0118",
+        "revision": 2,
+        "reason": "将句中口语し改为书面连接以匹配に相違ない",
+        "at": "2026-09-30T20:23:26+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}

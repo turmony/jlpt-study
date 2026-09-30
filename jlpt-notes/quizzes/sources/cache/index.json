@@ -885,6 +885,149 @@
       "locator": "文型・例文区",
       "evidence_path": "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md",
       "content_sha256": "98f0402cfde841b20d0e9db7aeacdd710ae97127a62c31b2a761945e962272f6"
+    },
+    "541e408bb343535f293c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-niatari/",
+      "title": "【JLPT N2】文法・例文：〜にあたって / 〜にあたり",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0051"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/541e408bb343535f293c-680e12db4072.md",
+      "content_sha256": "680e12db4072d61dc236a312b90238f97457b9911052caabbd30d3923224f8bd"
+    },
+    "4d41d32bf55186c6416d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammar-oujite/",
+      "title": "【JLPT N2】文法・例文：〜に応じて",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0052"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/4d41d32bf55186c6416d-244d766b5ef9.md",
+      "content_sha256": "244d766b5ef9e27712fe551a7e8dcadabaef89f62bbb3591034d28f3331f4bd9"
+    },
+    "3a14090e9edb76f4cbe4": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/03/19/dekiru-nihongo-int-lesson4/",
+      "title": "できる日本語：中級 第4課 地域を知って生活する",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0053"
+      ],
+      "locator": "ご利用経験の有無にかかわらず・板書",
+      "evidence_path": "quizzes/sources/cache/3a14090e9edb76f4cbe4-0fb8435db44a.md",
+      "content_sha256": "0fb8435db44a77c9cb9772323ad98491d18e44a6a818202897cb7d4e50f1d7b7"
+    },
+    "476292c76338875cecbc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/17/jlptn2-grammar-nimokakawarazu/",
+      "title": "【JLPT N2】文法・例文：〜にもかかわらず",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0054"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/476292c76338875cecbc-566faca919a2.md",
+      "content_sha256": "566faca919a2a63436f2b7346a8171ff649ce231022a0ae475cb346027f1b4ba"
+    },
+    "2268d9feceee03791b56": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/04/jlptn2-grammar-nikagitte/",
+      "title": "【JLPT N2】文法・例文：〜に限って",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0055"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/2268d9feceee03791b56-e49259885431.md",
+      "content_sha256": "e4925988543172085882acb023eef3a20e82c39b28b2ddc54de8d5e6e1945423"
+    },
+    "9b385b2cf5c11224512b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-nikagirazu/",
+      "title": "【JLPT N2】文法・例文：〜に限らず",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0056"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/9b385b2cf5c11224512b-220eeed98081.md",
+      "content_sha256": "220eeed98081ace3ffc93fecbfcbb77d7731a5d029ed6bae29b8b109f327d193"
+    },
+    "9c28d47fdbcd7088e80d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/11/21/jlptn2-grammar-nikagiri/",
+      "title": "【JLPT N2】文法・例文：〜にかぎり",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0057"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/9c28d47fdbcd7088e80d-d0e092171ba9.md",
+      "content_sha256": "d0e092171ba9563b4533fc9218eefa0de565fdc900d3d303ad56b34a029bcf7e"
+    },
+    "a6670a2ebea7a9a4b716": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn3-grammar-nikanshite/",
+      "title": "【JLPT N3】文法・例文：〜に関して",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0058"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/a6670a2ebea7a9a4b716-2bd9d119b806.md",
+      "content_sha256": "2bd9d119b806bb14b728e6fa2347061d84b26695e94c4b6cafa5e2a00e450465"
+    },
+    "8fdfb21fcabb4eaa8ed1": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/11/05/jlptn2-grammar-nisouinai/",
+      "title": "【JLPT N2】文法・例文：〜に相違ない",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0059"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/8fdfb21fcabb4eaa8ed1-f56fccbd8750.md",
+      "content_sha256": "f56fccbd8750221599d6a81aa245f8ad69d1ead2dc917cb074bef3d94f8a9787"
+    },
+    "555c1326cee79ec2a5c5": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nisaishite/",
+      "title": "【JLPT N2】文法・例文：〜に際して",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0060"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/555c1326cee79ec2a5c5-bb0b6fd191c3.md",
+      "content_sha256": "bb0b6fd191c377135fc47352b5d444f712959a9b8a5ff572492adc55ec0ec976"
+    },
+    "fafcff7599ed6cf85e82": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part8/",
+      "title": "【JLPT N2】文法クイズ Part8",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0052"
+      ],
+      "locator": "Question 9・Answer",
+      "evidence_path": "quizzes/sources/cache/fafcff7599ed6cf85e82-0eba0cc19206.md",
+      "content_sha256": "0eba0cc19206ebec18320044500cb611f611aeb20bbf4cd39fb1d74def2ae2c1"
     }
   }
 }
