@@ -1171,6 +1171,149 @@
       "locator": "Question 5・Answer",
       "evidence_path": "quizzes/sources/cache/1e6dd3e3e422df887fdd-4812dc871783.md",
       "content_sha256": "4812dc871783b0fb1c0ecd1fe732fdc76d1c23346884aee5f1773b1281732775"
+    },
+    "6b7e9750732e1f67503b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammarasateoki/",
+      "title": "【JLPT N2】文法・例文：〜はさておき",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0071"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/6b7e9750732e1f67503b-ecb4b089b852.md",
+      "content_sha256": "ecb4b089b8526cf933beda30f3d5c91ed8645574b27954ccd7ad76859306ddd8"
+    },
+    "fdec9424f31c94206590": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/19/jlptn2-grammar-motoyori/",
+      "title": "【JLPT N2】文法・例文：〜はもとより",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0072"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/fdec9424f31c94206590-2637c30c77af.md",
+      "content_sha256": "2637c30c77af069ca69838840aa4dae8e3aad4c1c3ffc81cd1d4a540de4648f4"
+    },
+    "cdcef4a7bc088aead398": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-nukinishite/",
+      "title": "【JLPT N2】文法・例文：〜ぬきにして / 〜ぬきで",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0073"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/cdcef4a7bc088aead398-bc3cc31702d4.md",
+      "content_sha256": "bc3cc31702d439873b173e4040e03c37b7da253814b2b8167f4b2b8d702f9af3"
+    },
+    "a549abb49308d1177665": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/08/jlptn2-grammar-sueni/",
+      "title": "【JLPT N2】文法・例文：〜末に / 〜末の",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0074"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/a549abb49308d1177665-c3c44398cd31.md",
+      "content_sha256": "c3c44398cd31ae7abdb6d42ee8c78f0619e141a46296e7240b66402e4cf23dd6"
+    },
+    "d60abddf0d7c4152ec77": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn2-grammar-nominarazu/",
+      "title": "【JLPT N2】文法・例文：〜のみならず",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0075"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/d60abddf0d7c4152ec77-17a1d1f05081.md",
+      "content_sha256": "17a1d1f05081595d560ebf0731d6e940e132e63dae7656c00a0c1d68b2775cd5"
+    },
+    "73dfb7a5f0b94fc5ccdd": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn2-grammar-bakarika/",
+      "title": "【JLPT N2】文法・例文：〜ばかりか",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0076"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/73dfb7a5f0b94fc5ccdd-2f522aa738e2.md",
+      "content_sha256": "2f522aa738e2dd097c0836ec60cb0452ee7f1f0aa6dd04b6e8b6daea2bd32266"
+    },
+    "f8d14d0074cc1c3b5b03": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-bakarini/",
+      "title": "【JLPT N2】文法・例文：〜ばかりに",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0077"
+      ],
+      "locator": "文型・接続・例文：手を洗わず／受験票",
+      "evidence_path": "quizzes/sources/cache/f8d14d0074cc1c3b5b03-741759cfd05f.md",
+      "content_sha256": "741759cfd05f6e3f2158d7bdde145e7fae395e794481ea24da0be81acb110cc9"
+    },
+    "5679f74f4049424e8bd9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/07/jlptn2-grammar-kurainara/",
+      "title": "【JLPT N2】文法・例文：〜くらいなら",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0078"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/5679f74f4049424e8bd9-d638489e3de0.md",
+      "content_sha256": "d638489e3de0a0e52a8ea85476fe81eec1bcd92a5128b9fa57b35e1ecf03a87c"
+    },
+    "21b4076933e85dd33f6b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/21/jlptn2-grammar-mai/",
+      "title": "【JLPT N2】文法・例文：〜まい",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0079"
+      ],
+      "locator": "文型・接続・例文区",
+      "evidence_path": "quizzes/sources/cache/21b4076933e85dd33f6b-2dffc30d6f39.md",
+      "content_sha256": "2dffc30d6f39374cd04974ad10e7a0fdb6dc0bc3a8deff75eed06cb83a9716f0"
+    },
+    "7eb4ca4a361b98161041": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2017/11/29/jlptn2-grammar-quiz-part3/",
+      "title": "【JLPT N2】文法クイズ Part3",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0076"
+      ],
+      "locator": "Question 8・Answer",
+      "evidence_path": "quizzes/sources/cache/7eb4ca4a361b98161041-ee8fe3101aa6.md",
+      "content_sha256": "ee8fe3101aa61c9bb12892b557cc24ad7899a89dc4221ef0d05a8f17caa9d994"
+    },
+    "38c9a0314d9ff192e3a7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part10/",
+      "title": "【JLPT N2】文法クイズ Part10",
+      "publisher": "日本語NET／ノッチ",
+      "accessed_at": "2026-09-30",
+      "grammar_ids": [
+        "N2-G-0079"
+      ],
+      "locator": "Question 3・Answer",
+      "evidence_path": "quizzes/sources/cache/38c9a0314d9ff192e3a7-a5e691fcbc32.md",
+      "content_sha256": "a5e691fcbc32370c68c641f9daff38b358bce22a7da8aef2d8bd71ab59752e1a"
     }
   }
 }

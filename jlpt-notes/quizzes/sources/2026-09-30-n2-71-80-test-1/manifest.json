@@ -1,0 +1,1621 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-09-30-n2-71-80-test-1",
+    "title": "N2 第71～80课语法选择练习（20题）",
+    "date": "2026-09-30",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0141",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "冗談（　）、そろそろ本題に入ろう。",
+      "translation": "玩笑先放一边，我们进入正题吧。",
+      "tested_cards": [
+        "N2-G-0071"
+      ],
+      "conjugation": "名词＋はさておき",
+      "options": {
+        "1": "はもとより",
+        "2": "はさておき",
+        "3": "ばかりに",
+        "4": "のみならず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "先放下玩笑这一话题，转而讨论正题。",
+      "option_explanations": {
+        "1": "错误：「はもとより」表示A理所当然、B也成立，不是话题转换。",
+        "2": "正确：先放下玩笑这一话题，转而讨论正题。",
+        "3": "错误：「ばかりに」表示仅因A导致坏结果，非此处语义。",
+        "4": "错误：「のみならず」表示不仅A还有B，非此处语义。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜はさておき",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammarasateoki/",
+        "locator": "例文：冗談",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/6b7e9750732e1f67503b-ecb4b089b852.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "冗談はさておき、そろそろ本題に入ろう。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0071卡片：先放下玩笑这一话题，转而讨论正题。",
+        "distractor_basis": [
+          "1. 错误：「はもとより」表示A理所当然、B也成立，不是话题转换。",
+          "2. 正确：先放下玩笑这一话题，转而讨论正题。",
+          "3. 错误：「ばかりに」表示仅因A导致坏结果，非此处语义。",
+          "4. 错误：「のみならず」表示不仅A还有B，非此处语义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋はさておき；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「はもとより」表示A理所当然、B也成立，不是话题转换。 错误：「ばかりに」表示仅因A导致坏结果，非此处语义。 错误：「のみならず」表示不仅A还有B，非此处语义。",
+        "unique_answer_rationale": "先放下玩笑这一话题，转而讨论正题。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0142",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "誰がミスしたのか（　）、今後ミスが起きないようにはどうしたら良いかを考えることが大事だ。",
+      "translation": "先不追究是谁犯错，重要的是考虑今后如何避免再犯。",
+      "tested_cards": [
+        "N2-G-0071"
+      ],
+      "conjugation": "疑问小句＋はさておき",
+      "options": {
+        "1": "ばかりか",
+        "2": "ばかりに",
+        "3": "はさておき",
+        "4": "末に"
+      },
+      "correct_option": "3",
+      "correct_explanation": "暂缓追究责任，把注意力转到今后的预防办法。",
+      "option_explanations": {
+        "1": "错误：「ばかりか」是递进补充，不表示暂缓一个议题。",
+        "2": "错误：「ばかりに」表示因前项招致坏结果，不能用来暂搁“谁犯错”的议题。",
+        "3": "正确：暂缓追究责任，把注意力转到今后的预防办法。",
+        "4": "错误：「末に」表示一番过程后的结果，不表示话题优先级。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜はさておき",
+        "url": "https://nihongokyoshi-net.com/2019/04/29/jlptn2-grammarasateoki/",
+        "locator": "例文：誰がミス",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/6b7e9750732e1f67503b-ecb4b089b852.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "誰がミスしたのかはさておき、今後ミスが起きないようにはどうしたら良いかを考えることが大事だ。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "第1轮修订：选项はもとより可能解作责任人当然重要，替换有歧义的干扰项。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0071卡片：暂缓追究责任，把注意力转到今后的预防办法。",
+        "distractor_basis": [
+          "1. 错误：「ばかりか」是递进补充，不表示暂缓一个议题。",
+          "2. 错误：「ばかりに」表示因前项招致坏结果，不能用来暂搁“谁犯错”的议题。",
+          "3. 正确：暂缓追究责任，把注意力转到今后的预防办法。",
+          "4. 错误：「末に」表示一番过程后的结果，不表示话题优先级。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "疑问小句＋はさておき；正确项接入自然。",
+        "semantic_exclusion": "错误：「ばかりか」是递进补充，不表示暂缓一个议题。 错误：「ばかりに」表示因前项招致坏结果，不能用来暂搁“谁犯错”的议题。 错误：「末に」表示一番过程后的结果，不表示话题优先级。",
+        "unique_answer_rationale": "题干暂缓追究责任，转而讨论防止再犯；其余三项不表达这一话题转换。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0143",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "東京オリンピックには日本人（　）多くの外国人が観戦に来ました。",
+      "translation": "东京奥运会不仅有日本人，许多外国人也来观看。",
+      "tested_cards": [
+        "N2-G-0072"
+      ],
+      "conjugation": "名词＋はもとより",
+      "options": {
+        "1": "はもとより",
+        "2": "ばかりに",
+        "3": "末に",
+        "4": "くらいなら"
+      },
+      "correct_option": "1",
+      "correct_explanation": "日本人到场是预期内的事，再补充外国观众也到场。",
+      "option_explanations": {
+        "1": "正确：日本人到场是预期内的事，再补充外国观众也到场。",
+        "2": "错误：「ばかりに」表示不利结果的原因。",
+        "3": "错误：「末に」表示漫长过程后的结果。",
+        "4": "错误：「くらいなら」比较两个选项，不表示递进。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜はもとより",
+        "url": "https://nihongokyoshi-net.com/2019/05/19/jlptn2-grammar-motoyori/",
+        "locator": "例文：東京オリンピック",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/fdec9424f31c94206590-2637c30c77af.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "東京オリンピックには日本人はもとより多くの外国人が観戦に来ました。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0072卡片：日本人到场是预期内的事，再补充外国观众也到场。",
+        "distractor_basis": [
+          "1. 正确：日本人到场是预期内的事，再补充外国观众也到场。",
+          "2. 错误：「ばかりに」表示不利结果的原因。",
+          "3. 错误：「末に」表示漫长过程后的结果。",
+          "4. 错误：「くらいなら」比较两个选项，不表示递进。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋はもとより；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示不利结果的原因。 错误：「末に」表示漫长过程后的结果。 错误：「くらいなら」比较两个选项，不表示递进。",
+        "unique_answer_rationale": "日本人到场是预期内的事，再补充外国观众也到场。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0144",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "インターネットがあれば、都会（　）、田舎でも仕事ができる。",
+      "translation": "有网络的话，城市自不待言，乡村也能工作。",
+      "tested_cards": [
+        "N2-G-0072"
+      ],
+      "conjugation": "名词＋はもとより",
+      "options": {
+        "1": "につけて",
+        "2": "くらいなら",
+        "3": "はもとより",
+        "4": "ばかりに"
+      },
+      "correct_option": "3",
+      "correct_explanation": "城市能工作是理所当然，再强调连乡村也可以。",
+      "option_explanations": {
+        "1": "错误：「につけて」表示每逢某事引发同一感受，不能说明城市和乡村都能工作。",
+        "2": "错误：「くらいなら」表示与其A不如B。",
+        "3": "正确：城市能工作是理所当然，再强调连乡村也可以。",
+        "4": "错误：「ばかりに」表示因A招致坏结果。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜はもとより",
+        "url": "https://nihongokyoshi-net.com/2019/05/19/jlptn2-grammar-motoyori/",
+        "locator": "例文：インターネット",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/fdec9424f31c94206590-2637c30c77af.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "インターネットがあれば、都会はもとより、田舎でも仕事ができる。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0072卡片：城市能工作是理所当然，再强调连乡村也可以。",
+        "distractor_basis": [
+          "1. 错误：「につけて」表示每逢某事引发同一感受，不能说明城市和乡村都能工作。",
+          "2. 错误：「くらいなら」表示与其A不如B。",
+          "3. 正确：城市能工作是理所当然，再强调连乡村也可以。",
+          "4. 错误：「ばかりに」表示因A招致坏结果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋はもとより；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「につけて」表示每逢某事引发同一感受，不能说明城市和乡村都能工作。 错误：「くらいなら」表示与其A不如B。 错误：「ばかりに」表示因A招致坏结果。",
+        "unique_answer_rationale": "城市能工作是理所当然，再强调连乡村也可以。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0145",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "すみません、ワサビ（　）お願いできますか。",
+      "translation": "不好意思，可以不要芥末吗？",
+      "tested_cards": [
+        "N2-G-0073"
+      ],
+      "conjugation": "名词＋抜きで",
+      "options": {
+        "1": "末に",
+        "2": "抜きで",
+        "3": "のみならず",
+        "4": "はもとより"
+      },
+      "correct_option": "2",
+      "correct_explanation": "点餐时要求省去通常会加入的芥末。",
+      "option_explanations": {
+        "1": "错误：「末に」表示经过过程后的结果。",
+        "2": "正确：点餐时要求省去通常会加入的芥末。",
+        "3": "错误：「のみならず」表示不仅芥末还要别的。",
+        "4": "错误：「はもとより」表示芥末理所当然，再加其他。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ぬきにして / 〜ぬきで",
+        "url": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-nukinishite/",
+        "locator": "例文：ワサビ",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/cdcef4a7bc088aead398-bc3cc31702d4.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "すみません、ワサビ抜きでお願いできますか。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0073卡片：点餐时要求省去通常会加入的芥末。",
+        "distractor_basis": [
+          "1. 错误：「末に」表示经过过程后的结果。",
+          "2. 正确：点餐时要求省去通常会加入的芥末。",
+          "3. 错误：「のみならず」表示不仅芥末还要别的。",
+          "4. 错误：「はもとより」表示芥末理所当然，再加其他。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋抜きで；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「末に」表示经过过程后的结果。 错误：「のみならず」表示不仅芥末还要别的。 错误：「はもとより」表示芥末理所当然，再加其他。",
+        "unique_answer_rationale": "点餐时要求省去通常会加入的芥末。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0146",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼（　）、このプロジェクトは成功しなかっただろう。",
+      "translation": "要是没有他，这个项目大概不会成功。",
+      "tested_cards": [
+        "N2-G-0073"
+      ],
+      "conjugation": "名词＋抜きでは",
+      "options": {
+        "1": "抜きでは",
+        "2": "ばかりか",
+        "3": "末に",
+        "4": "はさておき"
+      },
+      "correct_option": "1",
+      "correct_explanation": "后项是否定可能，说明他不可或缺，故用「抜きでは」。",
+      "option_explanations": {
+        "1": "正确：后项是否定可能，说明他不可或缺，故用「抜きでは」。",
+        "2": "错误：「ばかりか」表示递进，不提出“缺少他”的条件。",
+        "3": "错误：「末に」表示经过某一过程的结局。",
+        "4": "错误：「はさておき」把他暂时搁置，不能建立不可缺少的条件。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ぬきにして / 〜ぬきで",
+        "url": "https://nihongokyoshi-net.com/2019/06/01/jlptn2-grammar-nukinishite/",
+        "locator": "例文：彼抜きでは",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/cdcef4a7bc088aead398-bc3cc31702d4.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼抜きでは、このプロジェクトは成功しなかっただろう。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0073卡片：后项是否定可能，说明他不可或缺，故用「抜きでは」。",
+        "distractor_basis": [
+          "1. 正确：后项是否定可能，说明他不可或缺，故用「抜きでは」。",
+          "2. 错误：「ばかりか」表示递进，不提出“缺少他”的条件。",
+          "3. 错误：「末に」表示经过某一过程的结局。",
+          "4. 错误：「はさておき」把他暂时搁置，不能建立不可缺少的条件。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋抜きでは；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりか」表示递进，不提出“缺少他”的条件。 错误：「末に」表示经过某一过程的结局。 错误：「はさておき」把他暂时搁置，不能建立不可缺少的条件。",
+        "unique_answer_rationale": "后项是否定可能，说明他不可或缺，故用「抜きでは」。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0147",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "二年浪人した（　）、やっと医学部に合格できた。",
+      "translation": "复读两年之后，终于考上了医学院。",
+      "tested_cards": [
+        "N2-G-0074"
+      ],
+      "conjugation": "动词た形＋末に",
+      "options": {
+        "1": "ばかりに",
+        "2": "末に",
+        "3": "くらいなら",
+        "4": "抜きで"
+      },
+      "correct_option": "2",
+      "correct_explanation": "经历两年复读这一漫长过程，最终出现考上的结果。",
+      "option_explanations": {
+        "1": "错误：「ばかりに」表示仅因A造成坏结果；考上是好结果。",
+        "2": "正确：经历两年复读这一漫长过程，最终出现考上的结果。",
+        "3": "错误：「くらいなら」表示与其A不如B，非结果。",
+        "4": "错误：「抜きで」表示排除某物后做事。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜末に / 〜末の",
+        "url": "https://nihongokyoshi-net.com/2019/05/08/jlptn2-grammar-sueni/",
+        "locator": "例文：二年浪人",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/a549abb49308d1177665-c3c44398cd31.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "二年浪人した末に、やっと医学部に合格できた。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0074卡片：经历两年复读这一漫长过程，最终出现考上的结果。",
+        "distractor_basis": [
+          "1. 错误：「ばかりに」表示仅因A造成坏结果；考上是好结果。",
+          "2. 正确：经历两年复读这一漫长过程，最终出现考上的结果。",
+          "3. 错误：「くらいなら」表示与其A不如B，非结果。",
+          "4. 错误：「抜きで」表示排除某物后做事。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋末に；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示仅因A造成坏结果；考上是好结果。 错误：「くらいなら」表示与其A不如B，非结果。 错误：「抜きで」表示排除某物后做事。",
+        "unique_answer_rationale": "经历两年复读这一漫长过程，最终出现考上的结果。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0148",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "試行錯誤の（　）、完成した製品がこちらです。",
+      "translation": "经过反复试验，最后完成的产品就是这个。",
+      "tested_cards": [
+        "N2-G-0074"
+      ],
+      "conjugation": "过程名词＋の末に",
+      "options": {
+        "1": "のみならず",
+        "2": "末に",
+        "3": "ばかりか",
+        "4": "はさておき"
+      },
+      "correct_option": "2",
+      "correct_explanation": "反复试验是一个过程，完成产品是其最终结果。",
+      "option_explanations": {
+        "1": "错误：「のみならず」为递进，不表示最后的成果。",
+        "2": "正确：反复试验是一个过程，完成产品是其最终结果。",
+        "3": "错误：「ばかりか」为递进，不表示过程结局。",
+        "4": "错误：「はさておき」表示搁置话题。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜末に / 〜末の",
+        "url": "https://nihongokyoshi-net.com/2019/05/08/jlptn2-grammar-sueni/",
+        "locator": "例文：試行錯誤",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/a549abb49308d1177665-c3c44398cd31.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "試行錯誤の末に、完成した製品がこちらです。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0074卡片：反复试验是一个过程，完成产品是其最终结果。",
+        "distractor_basis": [
+          "1. 错误：「のみならず」为递进，不表示最后的成果。",
+          "2. 正确：反复试验是一个过程，完成产品是其最终结果。",
+          "3. 错误：「ばかりか」为递进，不表示过程结局。",
+          "4. 错误：「はさておき」表示搁置话题。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "过程名词＋の末に；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「のみならず」为递进，不表示最后的成果。 错误：「ばかりか」为递进，不表示过程结局。 错误：「はさておき」表示搁置话题。",
+        "unique_answer_rationale": "反复试验是一个过程，完成产品是其最终结果。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0149",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は英語（　）、スペイン語も話せる。",
+      "translation": "他不只会英语，也会说西班牙语。",
+      "tested_cards": [
+        "N2-G-0075"
+      ],
+      "conjugation": "名词＋のみならず",
+      "options": {
+        "1": "ばかりに",
+        "2": "のみならず",
+        "3": "末に",
+        "4": "抜きで"
+      },
+      "correct_option": "2",
+      "correct_explanation": "英语之外还会西班牙语，用书面语的递进表达「のみならず」。",
+      "option_explanations": {
+        "1": "错误：「ばかりに」表示不利原因。",
+        "2": "正确：英语之外还会西班牙语，用书面语的递进表达「のみならず」。",
+        "3": "错误：「末に」表示一番过程后的结局。",
+        "4": "错误：「抜きで」表示不带英语，和“也会说”相矛盾。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜のみならず",
+        "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn2-grammar-nominarazu/",
+        "locator": "例文：彼は英語",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/d60abddf0d7c4152ec77-17a1d1f05081.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼は英語のみならず、スペイン語も話せる。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0075卡片：英语之外还会西班牙语，用书面语的递进表达「のみならず」。",
+        "distractor_basis": [
+          "1. 错误：「ばかりに」表示不利原因。",
+          "2. 正确：英语之外还会西班牙语，用书面语的递进表达「のみならず」。",
+          "3. 错误：「末に」表示一番过程后的结局。",
+          "4. 错误：「抜きで」表示不带英语，和“也会说”相矛盾。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋のみならず；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示不利原因。 错误：「末に」表示一番过程后的结局。 错误：「抜きで」表示不带英语，和“也会说”相矛盾。",
+        "unique_answer_rationale": "英语之外还会西班牙语，用书面语的递进表达「のみならず」。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0150",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "あの歌手は若い人（　）、おじいさんやお婆さんにも人気がある。",
+      "translation": "那位歌手不只受年轻人欢迎，也受老年人欢迎。",
+      "tested_cards": [
+        "N2-G-0075"
+      ],
+      "conjugation": "名词＋のみならず",
+      "options": {
+        "1": "ばかりに",
+        "2": "末に",
+        "3": "のみならず",
+        "4": "くらいなら"
+      },
+      "correct_option": "3",
+      "correct_explanation": "受欢迎的对象从年轻人进一步扩展到老年人。",
+      "option_explanations": {
+        "1": "错误：「ばかりに」表示因年轻人而招致坏结果，不能表达歌手也受老年人欢迎。",
+        "2": "错误：「末に」表示经过过程产生结果。",
+        "3": "正确：受欢迎的对象从年轻人进一步扩展到老年人。",
+        "4": "错误：「くらいなら」表示比较取舍。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜のみならず",
+        "url": "https://nihongokyoshi-net.com/2019/02/20/jlptn2-grammar-nominarazu/",
+        "locator": "例文：あの歌手",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/d60abddf0d7c4152ec77-17a1d1f05081.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "あの歌手は若い人のみならず、おじいさんやお婆さんにも人気がある。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "第1轮修订：选项はさておき可解作暂搁年轻人话题，替换有歧义的干扰项。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0075卡片：受欢迎的对象从年轻人进一步扩展到老年人。",
+        "distractor_basis": [
+          "1. 错误：「ばかりに」表示因年轻人而招致坏结果，不能表达歌手也受老年人欢迎。",
+          "2. 错误：「末に」表示经过过程产生结果。",
+          "3. 正确：受欢迎的对象从年轻人进一步扩展到老年人。",
+          "4. 错误：「くらいなら」表示比较取舍。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋のみならず；正确项接入自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示因年轻人而招致坏结果，不能表达歌手也受老年人欢迎。 错误：「末に」表示经过过程产生结果。 错误：「くらいなら」表示比较取舍。",
+        "unique_answer_rationale": "受欢迎的对象从年轻人扩展到老年人；其余三项不表达递进扩展。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0151",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼はよく遅刻をする（　　　　　）、しばしば欠席もする。",
+      "translation": "他不但经常迟到，还时常缺席。",
+      "tested_cards": [
+        "N2-G-0076"
+      ],
+      "conjugation": "普通形＋ばかりか",
+      "options": {
+        "1": "ばかりか",
+        "2": "ばかりに",
+        "3": "ばかりを",
+        "4": "ばかりで"
+      },
+      "correct_option": "1",
+      "correct_explanation": "迟到之外还有更严重的缺席，来源网站给出答案(1)。",
+      "option_explanations": {
+        "1": "正确：迟到之外还有更严重的缺席，来源网站给出答案(1)。",
+        "2": "错误：「ばかりに」表示前项是后项坏结果的原因，不表示两种行为递进。",
+        "3": "错误：「ばかりを」在此接续和语义都不成立。",
+        "4": "错误：「ばかりで」表示只做前项，不能自然接后项“也缺席”。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法クイズ Part3",
+        "url": "https://nihongokyoshi-net.com/2017/11/29/jlptn2-grammar-quiz-part3/",
+        "locator": "Question 8・Answer",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/7eb4ca4a361b98161041-ee8fe3101aa6.md"
+        ],
+        "kind": "teaching_exercise",
+        "answer_locator": "Question 8・Answer",
+        "original_answer": "(1)",
+        "option_mapping": "网站选项(1)～(4)原顺序对应本题1～4。",
+        "adaptation": "无；原题题干、空格、选项及其顺序全部保留。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋ばかりか；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示前项是后项坏结果的原因，不表示两种行为递进。 错误：「ばかりを」在此接续和语义都不成立。 错误：「ばかりで」表示只做前项，不能自然接后项“也缺席”。",
+        "unique_answer_rationale": "迟到之外还有更严重的缺席，来源网站给出答案(1)。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0152",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "薬を飲んでいるのに、咳が止まらない（　）、ひどくなる一方だ。",
+      "translation": "明明吃了药，咳嗽不但没停，反而越来越严重。",
+      "tested_cards": [
+        "N2-G-0076"
+      ],
+      "conjugation": "普通形＋ばかりか",
+      "options": {
+        "1": "ばかりか",
+        "2": "くらいなら",
+        "3": "末に",
+        "4": "はさておき"
+      },
+      "correct_option": "1",
+      "correct_explanation": "不仅咳嗽未停，情况还进一步恶化，是递进。",
+      "option_explanations": {
+        "1": "正确：不仅咳嗽未停，情况还进一步恶化，是递进。",
+        "2": "错误：「くらいなら」表示与其A不如B，不描述症状递进。",
+        "3": "错误：「末に」表示长期过程的最终结局。",
+        "4": "错误：「はさておき」表示搁置话题，不表示症状加重。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ばかりか",
+        "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn2-grammar-bakarika/",
+        "locator": "例文：薬を飲んで",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/73dfb7a5f0b94fc5ccdd-2f522aa738e2.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "薬を飲んでいるのに、咳が止まらないばかりか、ひどくなる一方だ。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0076卡片：不仅咳嗽未停，情况还进一步恶化，是递进。",
+        "distractor_basis": [
+          "1. 正确：不仅咳嗽未停，情况还进一步恶化，是递进。",
+          "2. 错误：「くらいなら」表示与其A不如B，不描述症状递进。",
+          "3. 错误：「末に」表示长期过程的最终结局。",
+          "4. 错误：「はさておき」表示搁置话题，不表示症状加重。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋ばかりか；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「くらいなら」表示与其A不如B，不描述症状递进。 错误：「末に」表示长期过程的最终结局。 错误：「はさておき」表示搁置话题，不表示症状加重。",
+        "unique_answer_rationale": "不仅咳嗽未停，情况还进一步恶化，是递进。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0153",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "手を洗わず、ハンバーガーを食べた（　）、お腹を壊してしまった。",
+      "translation": "就因为没洗手便吃了汉堡，结果吃坏了肚子。",
+      "tested_cards": [
+        "N2-G-0077"
+      ],
+      "conjugation": "动词た形＋ばかりに",
+      "options": {
+        "1": "末に",
+        "2": "ばかりに",
+        "3": "はもとより",
+        "4": "くらいなら"
+      },
+      "correct_option": "2",
+      "correct_explanation": "没有洗手就吃汉堡这一行为导致了肚子不舒服的不利结果。",
+      "option_explanations": {
+        "1": "错误：「末に」强调一番或长期过程后的结局；这里强调仅因一次行为招致坏结果。",
+        "2": "正确：没有洗手就吃汉堡这一行为导致了肚子不舒服的不利结果。",
+        "3": "错误：「はもとより」表示A理所当然、B也成立，不表示因果。",
+        "4": "错误：「くらいなら」表示与其A不如B，不表示已经发生的不利结果。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ばかりに",
+        "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-bakarini/",
+        "locator": "例文：手を洗わず",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/f8d14d0074cc1c3b5b03-741759cfd05f.md"
+        ],
+        "original_example": "手を洗わず、ハンバーガーを食べたばかりに、お腹を壊してしまった。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "弃用原网站选择题，另选教学页面例句制作新题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0077卡片：一次行为造成不利结果。",
+        "distractor_basis": [
+          "1. 错误：「末に」强调一番或长期过程后的结局；这里强调仅因一次行为招致坏结果。",
+          "2. 正确：没有洗手就吃汉堡这一行为导致了肚子不舒服的不利结果。",
+          "3. 错误：「はもとより」表示A理所当然、B也成立，不表示因果。",
+          "4. 错误：「くらいなら」表示与其A不如B，不表示已经发生的不利结果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋ばかりに；正确项接入后为「食べたばかりに」。",
+        "semantic_exclusion": "错误：「末に」强调一番或长期过程后的结局；这里强调仅因一次行为招致坏结果。 错误：「はもとより」表示A理所当然、B也成立，不表示因果。 错误：「くらいなら」表示与其A不如B，不表示已经发生的不利结果。",
+        "unique_answer_rationale": "没有洗手就吃汉堡这一行为导致了肚子不舒服的不利结果。 其余三项不能表达这一不利因果关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0154",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "受験票を忘れた（　）、テストを受けることができなかった。",
+      "translation": "就因为忘带准考证，结果无法参加考试。",
+      "tested_cards": [
+        "N2-G-0077"
+      ],
+      "conjugation": "动词た形＋ばかりに",
+      "options": {
+        "1": "ばかりか",
+        "2": "末に",
+        "3": "ばかりに",
+        "4": "はもとより"
+      },
+      "correct_option": "3",
+      "correct_explanation": "忘带准考证是导致无法考试这一不利结果的唯一突出原因。",
+      "option_explanations": {
+        "1": "错误：「ばかりか」表示递进，不说明无法考试的原因。",
+        "2": "错误：「末に」表示一番过程后的结局，不适合一次遗忘。",
+        "3": "正确：忘带准考证是导致无法考试这一不利结果的唯一突出原因。",
+        "4": "错误：「はもとより」表示A当然成立、B也成立。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜ばかりに",
+        "url": "https://nihongokyoshi-net.com/2019/05/21/jlptn2-grammar-bakarini/",
+        "locator": "例文：受験票",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/f8d14d0074cc1c3b5b03-741759cfd05f.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "受験票を忘れたばかりに、テストを受けることができなかった。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0077卡片：忘带准考证是导致无法考试这一不利结果的唯一突出原因。",
+        "distractor_basis": [
+          "1. 错误：「ばかりか」表示递进，不说明无法考试的原因。",
+          "2. 错误：「末に」表示一番过程后的结局，不适合一次遗忘。",
+          "3. 正确：忘带准考证是导致无法考试这一不利结果的唯一突出原因。",
+          "4. 错误：「はもとより」表示A当然成立、B也成立。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋ばかりに；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりか」表示递进，不说明无法考试的原因。 错误：「末に」表示一番过程后的结局，不适合一次遗忘。 错误：「はもとより」表示A当然成立、B也成立。",
+        "unique_answer_rationale": "忘带准考证是导致无法考试这一不利结果的唯一突出原因。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0155",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "あの先生の授業を受ける（　）、自分で勉強したほうが効率がいい。",
+      "translation": "与其上那位老师的课，自己学更有效率。",
+      "tested_cards": [
+        "N2-G-0078"
+      ],
+      "conjugation": "动词辞书形＋くらいなら",
+      "options": {
+        "1": "くらいなら",
+        "2": "ばかりに",
+        "3": "末に",
+        "4": "抜きで"
+      },
+      "correct_option": "1",
+      "correct_explanation": "说话人把上课与自学比较，明确认为后者更好。",
+      "option_explanations": {
+        "1": "正确：说话人把上课与自学比较，明确认为后者更好。",
+        "2": "错误：「ばかりに」表示不利原因，不表示选择。",
+        "3": "错误：「末に」表示最终结果，不表示比较。",
+        "4": "错误：「抜きで」表示省去某物，不能表达“与其”。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜くらいなら",
+        "url": "https://nihongokyoshi-net.com/2019/06/07/jlptn2-grammar-kurainara/",
+        "locator": "例文：あの先生",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/5679f74f4049424e8bd9-d638489e3de0.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "あの先生の授業を受けるくらいなら、自分で勉強したほうが効率がいい。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0078卡片：说话人把上课与自学比较，明确认为后者更好。",
+        "distractor_basis": [
+          "1. 正确：说话人把上课与自学比较，明确认为后者更好。",
+          "2. 错误：「ばかりに」表示不利原因，不表示选择。",
+          "3. 错误：「末に」表示最终结果，不表示比较。",
+          "4. 错误：「抜きで」表示省去某物，不能表达“与其”。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋くらいなら；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示不利原因，不表示选择。 错误：「末に」表示最终结果，不表示比较。 错误：「抜きで」表示省去某物，不能表达“与其”。",
+        "unique_answer_rationale": "说话人把上课与自学比较，明确认为后者更好。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "1",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0156",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "転勤する（　）、いっそ会社を辞めます。",
+      "translation": "与其调职，不如干脆辞职。",
+      "tested_cards": [
+        "N2-G-0078"
+      ],
+      "conjugation": "动词辞书形＋くらいなら",
+      "options": {
+        "1": "末に",
+        "2": "ばかりに",
+        "3": "くらいなら",
+        "4": "抜きで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "不愿调职，认为辞职反而更可取。",
+      "option_explanations": {
+        "1": "错误：「末に」表示经历过程后的结果，不表示取舍。",
+        "2": "错误：「ばかりに」表示仅因调职而发生不利结果；此处是主动选择辞职。",
+        "3": "正确：不愿调职，认为辞职反而更可取。",
+        "4": "错误：「抜きで」表示省去某物后做事。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜くらいなら",
+        "url": "https://nihongokyoshi-net.com/2019/06/07/jlptn2-grammar-kurainara/",
+        "locator": "例文：転勤する",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/5679f74f4049424e8bd9-d638489e3de0.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "転勤するくらいなら、いっそ会社を辞めます。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0078卡片：不愿调职，认为辞职反而更可取。",
+        "distractor_basis": [
+          "1. 错误：「末に」表示经历过程后的结果，不表示取舍。",
+          "2. 错误：「ばかりに」表示仅因调职而发生不利结果；此处是主动选择辞职。",
+          "3. 正确：不愿调职，认为辞职反而更可取。",
+          "4. 错误：「抜きで」表示省去某物后做事。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋くらいなら；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「末に」表示经历过程后的结果，不表示取舍。 错误：「ばかりに」表示仅因调职而发生不利结果；此处是主动选择辞职。 错误：「抜きで」表示省去某物后做事。",
+        "unique_answer_rationale": "不愿调职，认为辞职反而更可取。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0157",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "あんな失礼な人は、二度と誘う（　　　　　）。",
+      "translation": "那么失礼的人，我决不会再邀请了。",
+      "tested_cards": [
+        "N2-G-0079"
+      ],
+      "conjugation": "动词辞书形＋まい（否定意志）",
+      "options": {
+        "1": "もん",
+        "2": "まい",
+        "3": "こそ",
+        "4": "ね"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「二度と」配合说话人不再邀请的决心，来源网站给出答案(2)。",
+      "option_explanations": {
+        "1": "错误：「もん」表达口语理由或情绪，不承接此处的决心。",
+        "2": "正确：「二度と」配合说话人不再邀请的决心，来源网站给出答案(2)。",
+        "3": "错误：「こそ」强调成分，不能接在「誘う」后表达否定意志。",
+        "4": "错误：「ね」是句末语气词，不能表达“不再邀请”。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法クイズ Part10",
+        "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part10/",
+        "locator": "Question 3・Answer",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/38c9a0314d9ff192e3a7-a5e691fcbc32.md"
+        ],
+        "kind": "teaching_exercise",
+        "answer_locator": "Question 3・Answer",
+        "original_answer": "(2)",
+        "option_mapping": "网站选项(1)～(4)原顺序对应本题1～4。",
+        "adaptation": "无；原题题干、空格、选项及其顺序全部保留。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋まい（否定意志）；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「もん」表达口语理由或情绪，不承接此处的决心。 错误：「こそ」强调成分，不能接在「誘う」后表达否定意志。 错误：「ね」是句末语气词，不能表达“不再邀请”。",
+        "unique_answer_rationale": "「二度と」配合说话人不再邀请的决心，来源网站给出答案(2)。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0158",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私はさっき幽霊を見たが、誰も信じ（　）。",
+      "translation": "我刚才见到幽灵了，但恐怕谁都不会相信。",
+      "tested_cards": [
+        "N2-G-0079"
+      ],
+      "conjugation": "动词ます形去ます＋まい（否定推量）",
+      "options": {
+        "1": "ばかりに",
+        "2": "まい",
+        "3": "末に",
+        "4": "はさておき"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「誰も」指别人；说话人推测他们大概不会相信。",
+      "option_explanations": {
+        "1": "错误：「ばかりに」表示因“相信”造成坏结果。",
+        "2": "正确：「誰も」指别人；说话人推测他们大概不会相信。",
+        "3": "错误：「末に」表示过程后的结果。",
+        "4": "错误：「はさておき」表示将相信这一话题暂时搁置。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ",
+        "title": "【JLPT N2】文法・例文：〜まい",
+        "url": "https://nihongokyoshi-net.com/2019/02/21/jlptn2-grammar-mai/",
+        "locator": "例文２：私はさっき",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/cache/21b4076933e85dd33f6b-2dffc30d6f39.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "私はさっき幽霊を見たが、誰も信じまい。",
+        "transformations": [
+          "清除来源 Markdown 加粗标记，保留原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語NET文型说明、原例句及N2-G-0079卡片：「誰も」指别人；说话人推测他们大概不会相信。",
+        "distractor_basis": [
+          "1. 错误：「ばかりに」表示因“相信”造成坏结果。",
+          "2. 正确：「誰も」指别人；说话人推测他们大概不会相信。",
+          "3. 错误：「末に」表示过程后的结果。",
+          "4. 错误：「はさておき」表示将相信这一话题暂时搁置。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます形去ます＋まい（否定推量）；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ばかりに」表示因“相信”造成坏结果。 错误：「末に」表示过程后的结果。 错误：「はさておき」表示将相信这一话题暂时搁置。",
+        "unique_answer_rationale": "「誰も」指别人；说话人推测他们大概不会相信。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0159",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この仕事を（　）、まだ迷っている。",
+      "translation": "这份工作接还是不接，我还在犹豫。",
+      "tested_cards": [
+        "N2-G-0080"
+      ],
+      "conjugation": "意向形＋か＋辞书形＋まいか",
+      "options": {
+        "1": "引き受けようが引き受けまいが",
+        "2": "引き受けようか引き受けまいか",
+        "3": "引き受けるにせよ引き受けないにせよ",
+        "4": "引き受けたばかりに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「まだ迷っている」要求“做还是不做”的犹豫表达。",
+      "option_explanations": {
+        "1": "错误：「ようが～まいが」表示无论怎样结论不变，不表达犹豫。",
+        "2": "正确：「まだ迷っている」要求“做还是不做”的犹豫表达。",
+        "3": "错误：「にせよ～にせよ」列出两种情况并说明同一结论，不表达斟酌。",
+        "4": "错误：「ばかりに」表示已做某事导致坏结果，不表达是否接受的犹豫。"
+      },
+      "source": {
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ／むきえび",
+        "title": "「ようか～まいか」の例文・文法解説【JLPT N2 grammar】",
+        "url": "https://japanese-language-education.com/for-overseas-learners/youka-maika/",
+        "locator": "意味・例文：この仕事",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-30-n2-71-80-test-1/n2-80-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "この仕事を引き受けようか引き受けまいか、まだ迷っている。",
+        "transformations": [
+          "保留网站原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。"
+        ],
+        "answer_basis": "日本語教育ナビ文型说明、原例句及N2-G-0080卡片：「まだ迷っている」要求“做还是不做”的犹豫表达。",
+        "distractor_basis": [
+          "1. 错误：「ようが～まいが」表示无论怎样结论不变，不表达犹豫。",
+          "2. 正确：「まだ迷っている」要求“做还是不做”的犹豫表达。",
+          "3. 错误：「にせよ～にせよ」列出两种情况并说明同一结论，不表达斟酌。",
+          "4. 错误：「ばかりに」表示已做某事导致坏结果，不表达是否接受的犹豫。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "意向形＋か＋辞书形＋まいか；正确项接入题干自然。",
+        "semantic_exclusion": "错误：「ようが～まいが」表示无论怎样结论不变，不表达犹豫。 错误：「にせよ～にせよ」列出两种情况并说明同一结论，不表达斟酌。 错误：「ばかりに」表示已做某事导致坏结果，不表达是否接受的犹豫。",
+        "unique_answer_rationale": "「まだ迷っている」要求“做还是不做”的犹豫表达。 其余三项均不表达本句所需关系。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "2",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0160",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "まだ彼には何も伝えていない。彼に本当のことを（　）、ずっと悩んでいる。",
+      "translation": "还没告诉他任何事；要不要说出真相，我一直拿不定主意。",
+      "tested_cards": [
+        "N2-G-0080"
+      ],
+      "conjugation": "意向形＋か＋辞书形＋まいか",
+      "options": {
+        "1": "言おうが言うまいが",
+        "2": "言ったばかりに",
+        "3": "言おうか言うまいか",
+        "4": "言う末に"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「ずっと悩んでいる」要求是否说出真相的两难。",
+      "option_explanations": {
+        "1": "错误：「ようが～まいが」表示无论说不说结果不变，非犹豫。",
+        "2": "错误：「言ったばかりに」表示已说出真相而导致苦恼；前句明确还未告诉他。",
+        "3": "正确：「ずっと悩んでいる」要求是否说出真相的两难。",
+        "4": "错误：「末に」表示长期过程后的结果，不能直接构成犹豫二选一。"
+      },
+      "source": {
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ／むきえび",
+        "title": "「ようか～まいか」の例文・文法解説【JLPT N2 grammar】",
+        "url": "https://japanese-language-education.com/for-overseas-learners/youka-maika/",
+        "locator": "意味・例文：彼に本当のこと",
+        "accessed_at": "2026-09-30",
+        "evidence_paths": [
+          "quizzes/sources/2026-09-30-n2-71-80-test-1/n2-80-evidence.md"
+        ],
+        "kind": "derived_from_example",
+        "original_example": "彼に本当のことを言おうか言うまいか、ずっと悩んでいる。",
+        "transformations": [
+          "保留网站原日文例句。",
+          "将目标语法挖空；添加三个干扰项，标记为例句派生题。",
+          "第1轮修订：选项言ったばかりに与原语境可构成第二解，增加尚未告知的上下文锁定犹豫义。",
+          "在原例句前补「まだ彼には何も伝えていない。」以排除已说出真相的解释。"
+        ],
+        "answer_basis": "日本語教育ナビ文型说明、原例句及N2-G-0080卡片：「ずっと悩んでいる」要求是否说出真相的两难。",
+        "distractor_basis": [
+          "1. 错误：「ようが～まいが」表示无论说不说结果不变，非犹豫。",
+          "2. 错误：「言ったばかりに」表示已说出真相而导致苦恼；前句明确还未告诉他。",
+          "3. 正确：「ずっと悩んでいる」要求是否说出真相的两难。",
+          "4. 错误：「末に」表示长期过程后的结果，不能直接构成犹豫二选一。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "意向形＋か＋辞书形＋まいか；正确项接入自然。",
+        "semantic_exclusion": "错误：「ようが～まいが」表示无论说不说结果不变，非犹豫。 错误：「言ったばかりに」表示已说出真相而导致苦恼；前句明确还未告诉他。 错误：「末に」表示长期过程后的结果，不能直接构成犹豫二选一。",
+        "unique_answer_rationale": "前句明确尚未告诉他，后句是说还是不说的犹豫；其余三项不表达未决的二选一。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "answer": "3",
+          "notes": "独立阅读无答案试卷及目标语法卡，逐题给出答案和理由；第2、10、13、20题修订后单独重答，确认唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_71_80",
+          "reviewed_at": "2026-09-30T23:30:24+08:00",
+          "notes": "核对最小证据摘录、原题答案或原例句、改写与四项解释；第13题弃用有歧义网站原题，第19、20题经用户许可使用日本語教育ナビ。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-09-30T22:47:57+08:00",
+        "ended_at": "2026-09-30T22:48:36+08:00",
+        "duration_seconds": 39.04,
+        "metrics": {
+          "cards": 10,
+          "cached_pages": 0
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-09-30T22:48:37+08:00",
+        "ended_at": "2026-09-30T22:51:05+08:00",
+        "duration_seconds": 148.925,
+        "metrics": {
+          "calls": 3,
+          "pages_found": 9
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-09-30T22:51:07+08:00",
+        "ended_at": "2026-09-30T23:07:55+08:00",
+        "duration_seconds": 1008.609,
+        "metrics": {
+          "adopted_pages": 13,
+          "teaching_pages": 10,
+          "original_quiz_pages": 3
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-09-30T23:07:57+08:00",
+        "ended_at": "2026-09-30T23:14:44+08:00",
+        "duration_seconds": 407.846,
+        "metrics": {
+          "questions": 20
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-09-30T23:14:46+08:00",
+        "ended_at": "2026-09-30T23:16:40+08:00",
+        "duration_seconds": 114.963,
+        "metrics": {
+          "questions": 20,
+          "fixed_before_review": 1
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T23:16:42+08:00",
+        "ended_at": "2026-09-30T23:16:42+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T23:26:24+08:00",
+        "ended_at": "2026-09-30T23:26:24+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-09-30T23:24:33+08:00",
+        "ended_at": "2026-09-30T23:29:36+08:00",
+        "duration_seconds": 303.743,
+        "metrics": {
+          "revised_questions": 4
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-09-30T23:17:22+08:00",
+        "ended_at": "2026-09-30T23:29:38+08:00",
+        "duration_seconds": 736.489,
+        "metrics": {
+          "questions": 20,
+          "rereviewed": 4
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-09-30T23:30:40+08:00",
+        "ended_at": "2026-09-30T23:30:40+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-09-30T23:30:26+08:00",
+        "ended_at": "2026-09-30T23:31:28+08:00",
+        "duration_seconds": 62.797,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0153",
+        "revision": 2,
+        "reason": "弃用网站原题：かわりに可被理解为高个的代价，存在第二解；改用同语法教学例句派生。",
+        "at": "2026-09-30T23:20:28+08:00"
+      },
+      {
+        "question_id": "N2-Q-0142",
+        "revision": 2,
+        "reason": "选项はもとより可能解作责任人当然重要，替换有歧义的干扰项。",
+        "at": "2026-09-30T23:24:35+08:00"
+      },
+      {
+        "question_id": "N2-Q-0150",
+        "revision": 2,
+        "reason": "选项はさておき可解作暂搁年轻人话题，替换有歧义的干扰项。",
+        "at": "2026-09-30T23:24:36+08:00"
+      },
+      {
+        "question_id": "N2-Q-0160",
+        "revision": 2,
+        "reason": "选项言ったばかりに与原语境可构成第二解，增加尚未告知的上下文锁定犹豫义。",
+        "at": "2026-09-30T23:24:38+08:00"
+      }
+    ],
+    "active_phases": {}
+  }
+}
