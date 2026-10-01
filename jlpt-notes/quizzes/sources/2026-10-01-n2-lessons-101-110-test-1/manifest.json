@@ -1,0 +1,1718 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-01-n2-lessons-101-110-test-1",
+    "title": "N2 第101～110课语法选择练习（20题）",
+    "date": "2026-10-01",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0201",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この問題がわからない（　）、N１には合格できないよ。",
+      "translation": "如果连这道题都不懂，就无法通过N1考试。",
+      "tested_cards": [
+        "N2-G-0101"
+      ],
+      "conjugation": "动词ない形＋ようでは",
+      "options": {
+        "1": "ようでは",
+        "2": "わりには",
+        "3": "にしては",
+        "4": "からといって"
+      },
+      "correct_option": "1",
+      "correct_explanation": "不了解这道题的状态被评价为不足以通过考试，用ようでは。",
+      "option_explanations": {
+        "1": "正确：不了解这道题的状态被评价为不足以通过考试，用ようでは。",
+        "2": "错误：わりには表示程度与结果不相称；不懂题导致考不过并不出乎预期。",
+        "3": "错误：にしては表示与基准不相称；本句是对不足状态作顺乎预期的负面判断。",
+        "4": "错误：からといって通常用于驳斥简单推论，如合格できないとは限らない；本句直接作负面评价。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語（该站日语教学文章）",
+        "url": "https://www.edewakaru.com/archives/16286661.html",
+        "title": "ようでは｜日本語能力試験 JLPT N2",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-101-110-test-1/edewakaru-101.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：この問題がわからないようではN１には合格できないよ。",
+        "original_example": "この問題がわからないようではN１には合格できないよ。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "不了解这道题的状态被评价为不足以通过考试，用ようでは。；依据来源文型讲解与N2-G-0101。",
+        "distractor_basis": [
+          "1. 正确：不了解这道题的状态被评价为不足以通过考试，用ようでは。",
+          "2. 错误：わりには表示程度与结果不相称；不懂题导致考不过并不出乎预期。",
+          "3. 错误：にしては表示与基准不相称；本句是对不足状态作顺乎预期的负面判断。",
+          "4. 错误：からといって通常用于驳斥简单推论，如合格できないとは限らない；本句直接作负面评价。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ない形＋ようでは；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "不了解这道题的状态被评价为不足以通过考试，用ようでは。；わりには表示程度与结果不相称；不懂题导致考不过并不出乎预期。；にしては表示与基准不相称；本句是对不足状态作顺乎预期的负面判断。；からといって通常用于驳斥简单推论，如合格できないとは限らない；本句直接作负面评价。",
+        "unique_answer_rationale": "不了解这道题的状态被评价为不足以通过考试，用ようでは。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "ようでは表示若连这一程度都做不到，后项难以实现。わりには／にしては不合接续及对比方向；からといって与此断言不合常见让步含义。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。 絵でわかる日本語属于已授权的第101／110课题源例外。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0202",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "英語のテストで０点を取っている（　）、留学は無理だな。",
+      "translation": "英语考试一直得零分，这样的话留学可就难了。",
+      "tested_cards": [
+        "N2-G-0101"
+      ],
+      "conjugation": "动词ている形＋ようでは",
+      "options": {
+        "1": "かわりに",
+        "2": "にしては",
+        "3": "ようでは",
+        "4": "わりには"
+      },
+      "correct_option": "3",
+      "correct_explanation": "零分的状态被评价为无法留学，用ようでは。",
+      "option_explanations": {
+        "1": "错误：かわりに表示替代或一得一失的交换；零分和不能留学不是这种关系。",
+        "2": "错误：にしては要求与零分基准不相称的评价；无法留学符合零分的预期。",
+        "3": "正确：零分的状态被评价为无法留学，用ようでは。",
+        "4": "错误：わりには表示程度与结果不相称；本句是不足状态带来的不利结果。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語（该站日语教学文章）",
+        "url": "https://www.edewakaru.com/archives/16286661.html",
+        "title": "ようでは｜日本語能力試験 JLPT N2",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-101-110-test-1/edewakaru-101.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：英語のテストで０点を取っているようでは留学は無理だな。",
+        "original_example": "英語のテストで０点を取っているようでは留学は無理だな。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "第1轮修订：からこそ可强调原因，换为かわりに以排除第二解"
+        ],
+        "answer_basis": "零分的状态被评价为无法留学，用ようでは。；来源说明与考点卡。",
+        "distractor_basis": [
+          "1. 错误：かわりに表示替代或一得一失的交换；零分和不能留学不是这种关系。",
+          "2. 错误：にしては要求与零分基准不相称的评价；无法留学符合零分的预期。",
+          "3. 正确：零分的状态被评价为无法留学，用ようでは。",
+          "4. 错误：わりには表示程度与结果不相称；本句是不足状态带来的不利结果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ている形＋ようでは；逐项插入检查，排除不适用的意义或结构。",
+        "semantic_exclusion": "错误：かわりに表示替代或一得一失的交换；零分和不能留学不是这种关系。；错误：にしては要求与零分基准不相称的评价；无法留学符合零分的预期。；正确：零分的状态被评价为无法留学，用ようでは。；错误：わりには表示程度与结果不相称；本句是不足状态带来的不利结果。",
+        "unique_answer_rationale": "零分的状态被评价为无法留学，用ようでは。；其他项无法承担题境所需功能。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "ようでは表示按目前零分的状态留学无法实现。かわりに要求替代或补偿关系；にしては／わりには要求出乎预期的反差，此处无法留学恰是低成绩的自然结果。已消除からこそ带来的多解。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。 絵でわかる日本語属于已授权的第101／110课题源例外。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0203",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "お店の商品を壊してしまったが、必死に謝ったら弁償は不要だと言われ、お金を（　）。",
+      "translation": "弄坏了店里的商品，但拼命道歉后对方说不用赔偿，因此免去了付款。",
+      "tested_cards": [
+        "N2-G-0102"
+      ],
+      "conjugation": "动词ない形去ない＋ずに済む",
+      "options": {
+        "1": "払わざるを得なかった",
+        "2": "払わずには済まなかった",
+        "3": "払うほかなかった",
+        "4": "払わずに済んだ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "原本可能需要付款，现在不付款也解决了问题。",
+      "option_explanations": {
+        "1": "错误：表示不得不付款，与弁償は不要相反。",
+        "2": "错误：表示不能不付款，与免除赔偿相反。",
+        "3": "错误：表示只能付款，与不用赔偿相反。",
+        "4": "正确：原本可能需要付款，现在不付款也解决了问题。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/06/10/jlptn2-grammar-naidesumu/",
+        "title": "【JLPT N2】文法・例文：〜ないで済む / 〜ずに済む",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/a71662ca9a15e1459160-0ddf359a6873.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：お店の商品を壊してしまったが、必死に謝ったらお金を払わずに済んだ。",
+        "original_example": "お店の商品を壊してしまったが、必死に謝ったらお金を払わずに済んだ。",
+        "transformations": [
+          "将払わずに済んだ整体挖空；补入弁償は不要だと言われ，明确原例句付款义务被免除的语义。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "原本可能需要付款，现在不付款也解决了问题。；依据来源文型讲解与N2-G-0102。",
+        "distractor_basis": [
+          "1. 错误：表示不得不付款，与弁償は不要相反。",
+          "2. 错误：表示不能不付款，与免除赔偿相反。",
+          "3. 错误：表示只能付款，与不用赔偿相反。",
+          "4. 正确：原本可能需要付款，现在不付款也解决了问题。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ない形去ない＋ずに済む；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "表示不得不付款，与弁償は不要相反。；表示不能不付款，与免除赔偿相反。；表示只能付款，与不用赔偿相反。；原本可能需要付款，现在不付款也解决了问题。",
+        "unique_answer_rationale": "原本可能需要付款，现在不付款也解决了问题。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "明确被告知不用赔偿，因此払わずに済んだ；其他三项都表示不得不付钱，与前文冲突。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0204",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "先輩が、もう使わないからと、私が欲しかった参考書をくれたので、（　）。",
+      "translation": "学长把不用的、我想要的参考书送给了我，所以不用买了。",
+      "tested_cards": [
+        "N2-G-0102"
+      ],
+      "conjugation": "动词ない形去ない＋ずに済みました",
+      "options": {
+        "1": "買わずに済みました",
+        "2": "買うしかありませんでした",
+        "3": "買わずには済みませんでした",
+        "4": "買わざるを得ませんでした"
+      },
+      "correct_option": "1",
+      "correct_explanation": "参考书已经由学长赠送，原本需要购买的事情被免除。",
+      "option_explanations": {
+        "1": "正确：参考书已经由学长赠送，原本需要购买的事情被免除。",
+        "2": "错误：只能购买，与已经得到赠书的因果相反。",
+        "3": "错误：不能不买，与免去购买的因果相反。",
+        "4": "错误：不得不买，与赠书带来的免除相反。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/06/10/jlptn2-grammar-naidesumu/",
+        "title": "【JLPT N2】文法・例文：〜ないで済む / 〜ずに済む",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/a71662ca9a15e1459160-0ddf359a6873.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：先輩が、もう使わないからと、私が欲しかった参考書をくれたので、買わずに済みました。",
+        "original_example": "先輩が、もう使わないからと、私が欲しかった参考書をくれたので、買わずに済みました。",
+        "transformations": [
+          "将買わずに済みました整体挖空，清除加粗，保留礼貌体。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "参考书已经由学长赠送，原本需要购买的事情被免除。；依据来源文型讲解与N2-G-0102。",
+        "distractor_basis": [
+          "1. 正确：参考书已经由学长赠送，原本需要购买的事情被免除。",
+          "2. 错误：只能购买，与已经得到赠书的因果相反。",
+          "3. 错误：不能不买，与免去购买的因果相反。",
+          "4. 错误：不得不买，与赠书带来的免除相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ない形去ない＋ずに済みました；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "参考书已经由学长赠送，原本需要购买的事情被免除。；只能购买，与已经得到赠书的因果相反。；不能不买，与免去购买的因果相反。；不得不买，与赠书带来的免除相反。",
+        "unique_answer_rationale": "参考书已经由学长赠送，原本需要购买的事情被免除。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "获得想要的书，免去购买，故買わずに済みました；其余均表示仍不得不购买。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0205",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【試験の規則】テストのときは携帯電話はカバンの中にしまう（　）。",
+      "translation": "【考试规则】考试时必须把手机放进包里。",
+      "tested_cards": [
+        "N2-G-0103"
+      ],
+      "conjugation": "动词辞书形＋こと（书面指示）",
+      "options": {
+        "1": "ことはない",
+        "2": "こと",
+        "3": "ことがある",
+        "4": "ことにした"
+      },
+      "correct_option": "2",
+      "correct_explanation": "句末こと发布必须把手机收进包里的书面指示。",
+      "option_explanations": {
+        "1": "错误：しまうことはない表示不必放入，与必须遵守的指示相反。",
+        "2": "正确：句末こと发布必须把手机收进包里的书面指示。",
+        "3": "错误：表示有时如此或有这种情况，不构成必须遵守的指示。",
+        "4": "错误：表示某人已经作决定，不是对考生发布规则。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn3-grammar-koto/",
+        "title": "【JLPT N3】文法・例文：〜こと",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/56ce28497c1c09b29ba7-707c11bdbb42.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：テストのときは携帯電話はカバンの中にしまうこと。",
+        "original_example": "テストのときは携帯電話はカバンの中にしまうこと。",
+        "transformations": [
+          "将句末こと挖空，补入试验规则题境，明确这是书面指示而非描述。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "第1轮修订：移除题境说明中与目标答案相同的こと形式，保留规则场景"
+        ],
+        "answer_basis": "句末こと发布必须把手机收进包里的书面指示。；依据来源文型讲解与N2-G-0103。",
+        "distractor_basis": [
+          "1. 错误：しまうことはない表示不必放入，与必须遵守的指示相反。",
+          "2. 正确：句末こと发布必须把手机收进包里的书面指示。",
+          "3. 错误：表示有时如此或有这种情况，不构成必须遵守的指示。",
+          "4. 错误：表示某人已经作决定，不是对考生发布规则。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "semantic_exclusion": "错误：しまうことはない表示不必放入，与必须遵守的指示相反。；正确：句末こと发布必须把手机收进包里的书面指示。；错误：表示有时如此或有这种情况，不构成必须遵守的指示。；错误：表示某人已经作决定，不是对考生发布规则。",
+        "surface_connection": "动词辞书形＋こと（书面指示）；四项均为真实文末表达，逐项核对其指示／否定义务／事实／个人决定的区别。",
+        "unique_answer_rationale": "句末こと发布必须把手机收进包里的书面指示。；规则场景要求直接书面指示，其他选项改变句子功能。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:59:38+08:00",
+          "notes": "規則という書面題境中，句末こと发布收纳手机的指示；ことがある和ことにした是描述，ことはない是不必做的建议，均不符合此处规则文体。移除必ず守ること后仍可唯一合理作答。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:59:38+08:00",
+          "notes": "日本語NET原例句存在，规则题境及去除显式答案提示的改动有记录；接续、四选项解释和唯一合理答案均通过。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0206",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【提出規則】レポートは来週の火曜日までに提出する（　）。",
+      "translation": "【提交规则】报告必须在下周二前提交。",
+      "tested_cards": [
+        "N2-G-0103"
+      ],
+      "conjugation": "动词辞书形＋こと（书面指示）",
+      "options": {
+        "1": "ことがある",
+        "2": "ことにした",
+        "3": "ことはない",
+        "4": "こと"
+      },
+      "correct_option": "4",
+      "correct_explanation": "截止期限与必守规则对应书面指示，用提出すること。",
+      "option_explanations": {
+        "1": "错误：表示可能发生或偶尔提交，不是义务指示。",
+        "2": "错误：表示个人已经作出决定，不是面向提交者的规则。",
+        "3": "错误：表示不必提交，与规则相反。",
+        "4": "正确：截止期限与必守规则对应书面指示，用提出すること。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn3-grammar-koto/",
+        "title": "【JLPT N3】文法・例文：〜こと",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/56ce28497c1c09b29ba7-707c11bdbb42.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：レポートは来週の火曜日までに提出すること。",
+        "original_example": "レポートは来週の火曜日までに提出すること。",
+        "transformations": [
+          "将句末こと挖空，补入提交规则题境，明确是书面指示。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "第1轮修订：移除题境说明中与目标答案相同的こと形式，保留规则场景"
+        ],
+        "answer_basis": "截止期限与必守规则对应书面指示，用提出すること。；依据来源文型讲解与N2-G-0103。",
+        "distractor_basis": [
+          "1. 错误：表示可能发生或偶尔提交，不是义务指示。",
+          "2. 错误：表示个人已经作出决定，不是面向提交者的规则。",
+          "3. 错误：表示不必提交，与规则相反。",
+          "4. 正确：截止期限与必守规则对应书面指示，用提出すること。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "semantic_exclusion": "错误：表示可能发生或偶尔提交，不是义务指示。；错误：表示个人已经作出决定，不是面向提交者的规则。；错误：表示不必提交，与规则相反。；正确：截止期限与必守规则对应书面指示，用提出すること。",
+        "surface_connection": "动词辞书形＋こと（书面指示）；四项均为真实文末表达，逐项核对其指示／否定义务／事实／个人决定的区别。",
+        "unique_answer_rationale": "截止期限与必守规则对应书面指示，用提出すること。；规则场景要求直接书面指示，其他选项改变句子功能。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:59:38+08:00",
+          "notes": "提出規則及明确截止日构成提交义务，句末こと自然；偶发描述、个人决定与不必提交不能承担本句规则功能。移除显式こと提示后通过。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:59:38+08:00",
+          "notes": "日本語NET原例句存在，规则题境及去除显式答案提示的改动有记录；接续、四选项解释和唯一合理答案均通过。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0207",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "会社の先輩との飲み会は楽しくないのに、友達との飲み会はなんて楽しい（　）。",
+      "translation": "和公司前辈聚会并不开心，可和朋友聚会是多么开心啊。",
+      "tested_cards": [
+        "N2-G-0104"
+      ],
+      "conjugation": "い形容词普通形＋ことだろう（与なんて呼应）",
+      "options": {
+        "1": "わけがない",
+        "2": "ものではない",
+        "3": "ことだろう",
+        "4": "はずがない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "なんて楽しいことだろう表示多么开心啊。",
+      "option_explanations": {
+        "1": "错误：わけがない强烈否定开心，不是感叹开心程度。",
+        "2": "错误：ものではない否定或劝诫，不表达程度感叹。",
+        "3": "正确：なんて楽しいことだろう表示多么开心啊。",
+        "4": "错误：はずがない表示不可能开心，与正面感叹相反。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/05/28/jlptn2-grammar-kotodarou/",
+        "title": "【JLPT N2】文法・例文：〜ことだろう / 〜ことか",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/a91a600944492ba86287-8f025e0c3b99.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：会社の先輩との飲み会は楽しくないのに、友達との飲み会はなんて楽しいことだろう。",
+        "original_example": "会社の先輩との飲み会は楽しくないのに、友達との飲み会はなんて楽しいことだろう。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "なんて楽しいことだろう表示多么开心啊。；依据来源文型讲解与N2-G-0104。",
+        "distractor_basis": [
+          "1. 错误：わけがない强烈否定开心，不是感叹开心程度。",
+          "2. 错误：ものではない否定或劝诫，不表达程度感叹。",
+          "3. 正确：なんて楽しいことだろう表示多么开心啊。",
+          "4. 错误：はずがない表示不可能开心，与正面感叹相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "い形容词普通形＋ことだろう（与なんて呼应）；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "わけがない强烈否定开心，不是感叹开心程度。；ものではない否定或劝诫，不表达程度感叹。；なんて楽しいことだろう表示多么开心啊。；はずがない表示不可能开心，与正面感叹相反。",
+        "unique_answer_rationale": "なんて楽しいことだろう表示多么开心啊。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "なんて楽しいことだろう为感叹；其余三个是否定快乐或劝诫形式，与上下文冲突。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0208",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "５回目の受験にして、ようやくJLPT N1に合格したジョンさんは、どんなに嬉しかった（　）。",
+      "translation": "第五次考试才终于通过JLPT N1的约翰，该有多么高兴啊。",
+      "tested_cards": [
+        "N2-G-0104"
+      ],
+      "conjugation": "い形容词过去形＋ことだろう（与どんなに呼应）",
+      "options": {
+        "1": "ことだろう",
+        "2": "わけがない",
+        "3": "はずがない",
+        "4": "ものではない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "多次努力后终于合格，推想并感叹其喜悦程度之深。",
+      "option_explanations": {
+        "1": "正确：多次努力后终于合格，推想并感叹其喜悦程度之深。",
+        "2": "错误：强烈否定喜悦，不符合终于合格的感慨。",
+        "3": "错误：否定喜悦的可能性，不符合本句感慨。",
+        "4": "错误：不能承担与どんなに呼应的正面程度感叹。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/05/28/jlptn2-grammar-kotodarou/",
+        "title": "【JLPT N2】文法・例文：〜ことだろう / 〜ことか",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/a91a600944492ba86287-8f025e0c3b99.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：５回目の受験にして、ようやくJLPT N1に合格したジョンさんは、どんなに嬉しかったことだろう。",
+        "original_example": "５回目の受験にして、ようやくJLPT N1に合格したジョンさんは、どんなに嬉しかったことだろう。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "多次努力后终于合格，推想并感叹其喜悦程度之深。；依据来源文型讲解与N2-G-0104。",
+        "distractor_basis": [
+          "1. 正确：多次努力后终于合格，推想并感叹其喜悦程度之深。",
+          "2. 错误：强烈否定喜悦，不符合终于合格的感慨。",
+          "3. 错误：否定喜悦的可能性，不符合本句感慨。",
+          "4. 错误：不能承担与どんなに呼应的正面程度感叹。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "い形容词过去形＋ことだろう（与どんなに呼应）；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "多次努力后终于合格，推想并感叹其喜悦程度之深。；强烈否定喜悦，不符合终于合格的感慨。；否定喜悦的可能性，不符合本句感慨。；不能承担与どんなに呼应的正面程度感叹。",
+        "unique_answer_rationale": "多次努力后终于合格，推想并感叹其喜悦程度之深。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "どんなに嬉しかったことだろう为推想他人的强烈喜悦；其他项否定喜悦，不合合格背景。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0209",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女は「ダイエットのために甘いものは食べない」と言っ（　）、今日もケーキを食べている。",
+      "translation": "她明明说为了减肥不吃甜食，今天却又在吃蛋糕。",
+      "tested_cards": [
+        "N2-G-0105"
+      ],
+      "conjugation": "动词て形＋おきながら（言っておきながら）",
+      "options": {
+        "1": "たとおり",
+        "2": "ておきながら",
+        "3": "たおかげで",
+        "4": "た以上"
+      },
+      "correct_option": "2",
+      "correct_explanation": "先说不吃甜食，后又吃蛋糕，言行矛盾，含责难。",
+      "option_explanations": {
+        "1": "错误：たとおり表示按说过的话行事；吃蛋糕与不吃甜食相反。",
+        "2": "正确：先说不吃甜食，后又吃蛋糕，言行矛盾，含责难。",
+        "3": "错误：たおかげで表示前项带来有利结果，本句是在批评矛盾言行。",
+        "4": "错误：た以上应引出由发言产生的义务，不是由承诺推出吃蛋糕。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2018/11/19/jlptn2-grammar-nagara/",
+        "title": "【JLPT N2】文法・例文：〜ながら（逆接）",
+        "publisher": "日本語NET／ノッチ",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：彼女はダイエットすると言っておきながら、今日もケーキを食べている。",
+        "original_example": "彼女はダイエットすると言っておきながら、今日もケーキを食べている。",
+        "transformations": [
+          "依据来源的言っておきながら逆接例句，将ダイエットすると改为明确引语ダイエットのために甘いものは食べない，排除减肥也可偶尔吃蛋糕的解释；将ておきながら挖空。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "先说不吃甜食，后又吃蛋糕，言行矛盾，含责难。；依据来源文型讲解与N2-G-0105。",
+        "distractor_basis": [
+          "1. 错误：たとおり表示按说过的话行事；吃蛋糕与不吃甜食相反。",
+          "2. 正确：先说不吃甜食，后又吃蛋糕，言行矛盾，含责难。",
+          "3. 错误：たおかげで表示前项带来有利结果，本句是在批评矛盾言行。",
+          "4. 错误：た以上应引出由发言产生的义务，不是由承诺推出吃蛋糕。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋おきながら（言っておきながら）；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "たとおり表示按说过的话行事；吃蛋糕与不吃甜食相反。；先说不吃甜食，后又吃蛋糕，言行矛盾，含责难。；たおかげで表示前项带来有利结果，本句是在批评矛盾言行。；た以上应引出由发言产生的义务，不是由承诺推出吃蛋糕。",
+        "unique_answer_rationale": "先说不吃甜食，后又吃蛋糕，言行矛盾，含责难。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "言っておきながら表示先前声明与现行为矛盾；とおり／おかげで／以上与已声明不吃甜食却吃蛋糕不合。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "日本語NETながら逆接页面直接包含对应言っておきながら原例句，足以支持本题目标组合形式；第9题明确不吃甜食的改动有记录，仍是教学例句派生题，未冒称网站原题。接续、唯一合理答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0210",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は洋楽が嫌いだと言っ（　）、海外アーティストのCDをたくさん持っている。",
+      "translation": "他明明说讨厌西洋音乐，却拥有很多海外艺人的CD。",
+      "tested_cards": [
+        "N2-G-0105"
+      ],
+      "conjugation": "动词て形＋おきながら（言っておきながら）",
+      "options": {
+        "1": "た以上",
+        "2": "たとおり",
+        "3": "ておきながら",
+        "4": "たおかげで"
+      },
+      "correct_option": "3",
+      "correct_explanation": "嫌い这一发言与大量CD所有形成反差，指出矛盾。",
+      "option_explanations": {
+        "1": "错误：た以上应引出由发言产生的要求，不是批评发言与所有物的反差。",
+        "2": "错误：たとおり表示言行一致；源句表达言行矛盾。",
+        "3": "正确：嫌い这一发言与大量CD所有形成反差，指出矛盾。",
+        "4": "错误：たおかげで表示发言带来的好结果，本句不是这样的因果。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2018/11/19/jlptn2-grammar-nagara/",
+        "title": "【JLPT N2】文法・例文：〜ながら（逆接）",
+        "publisher": "日本語NET／ノッチ",
+        "accessed_at": "2026-09-29",
+        "evidence_paths": [
+          "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：彼は洋楽が嫌いだと言っておきながら、海外アーティストのCDをたくさん持っている。",
+        "original_example": "彼は洋楽が嫌いだと言っておきながら、海外アーティストのCDをたくさん持っている。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "嫌い这一发言与大量CD所有形成反差，指出矛盾。；依据来源文型讲解与N2-G-0105。",
+        "distractor_basis": [
+          "1. 错误：た以上应引出由发言产生的要求，不是批评发言与所有物的反差。",
+          "2. 错误：たとおり表示言行一致；源句表达言行矛盾。",
+          "3. 正确：嫌い这一发言与大量CD所有形成反差，指出矛盾。",
+          "4. 错误：たおかげで表示发言带来的好结果，本句不是这样的因果。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋おきながら（言っておきながら）；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "た以上应引出由发言产生的要求，不是批评发言与所有物的反差。；たとおり表示言行一致；源句表达言行矛盾。；嫌い这一发言与大量CD所有形成反差，指出矛盾。；たおかげで表示发言带来的好结果，本句不是这样的因果。",
+        "unique_answer_rationale": "嫌い这一发言与大量CD所有形成反差，指出矛盾。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "言っておきながら表示言行矛盾；其他项的遵照、结果或既然关系不合。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "日本語NETながら逆接页面直接包含对应言っておきながら原例句，足以支持本题目标组合形式；第9题明确不吃甜食的改动有记录，仍是教学例句派生题，未冒称网站原题。接续、唯一合理答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0211",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "もう１時間も待ってるのにまだ来ない。もうこれ以上（　）よ。",
+      "translation": "已经等了一小时还没来，不能再等下去了。",
+      "tested_cards": [
+        "N2-G-0106"
+      ],
+      "conjugation": "动词て形＋はいられない",
+      "options": {
+        "1": "待たずにはいられない",
+        "2": "待ちたくてたまらない",
+        "3": "待ち続けるつもりだ",
+        "4": "待ってはいられない"
+      },
+      "correct_option": "4",
+      "correct_explanation": "已经久等且对方未到，表达不能再维持等待状态。",
+      "option_explanations": {
+        "1": "错误：待たずにはいられない表示忍不住要等，方向相反。",
+        "2": "错误：表示非常想等，与无法再等相反。",
+        "3": "错误：表示打算继续等，与无法再等相反。",
+        "4": "正确：已经久等且对方未到，表达不能再维持等待状态。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2020/01/16/jlptn2-grammar-tewairarenai/",
+        "title": "【JLPT N2】文法・例文：〜てはいられない",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/0c124105a007a53180af-6051d09334e0.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：もう１時間も待ってるのにまだ来ない。もうこれ以上待ってはいられないよ。",
+        "original_example": "もう１時間も待ってるのにまだ来ない。もうこれ以上待ってはいられないよ。",
+        "transformations": [
+          "将待ってはいられない整体挖空；清除加粗，保留前句久等的题境。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "已经久等且对方未到，表达不能再维持等待状态。；依据来源文型讲解与N2-G-0106。",
+        "distractor_basis": [
+          "1. 错误：待たずにはいられない表示忍不住要等，方向相反。",
+          "2. 错误：表示非常想等，与无法再等相反。",
+          "3. 错误：表示打算继续等，与无法再等相反。",
+          "4. 正确：已经久等且对方未到，表达不能再维持等待状态。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋はいられない；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "待たずにはいられない表示忍不住要等，方向相反。；表示非常想等，与无法再等相反。；表示打算继续等，与无法再等相反。；已经久等且对方未到，表达不能再维持等待状态。",
+        "unique_answer_rationale": "已经久等且对方未到，表达不能再维持等待状态。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "待ってはいられない表达不能继续等待；待ち続けるつもりだ受もうこれ以上限制而很不自然，另两项与抱怨语气不合。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0212",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "あと３日で試験なのに、試験範囲の勉強がまだ終わっていない。勉強を急がなければならないので、のんびり（　）。",
+      "translation": "再过三天就要考试，考试范围还没学完。必须赶紧学习，不能再悠闲下去了。",
+      "tested_cards": [
+        "N2-G-0106"
+      ],
+      "conjugation": "动词て形＋はいられない",
+      "options": {
+        "1": "するべきだ",
+        "2": "するしかない",
+        "3": "してはいられない",
+        "4": "せずにはいられない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "只剩三天且备考未完成，明确要求赶紧学习，因此不能维持悠闲状态。",
+      "option_explanations": {
+        "1": "错误：するべきだ要求悠闲，与备考的紧迫感相反。",
+        "2": "错误：するしかない表示只能悠闲，不符合临近考试需要行动。",
+        "3": "正确：考试临近，需要转入备考，不能维持悠闲状态。",
+        "4": "错误：せずにはいられない表示抑制不住想悠闲，意义相反。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2020/01/16/jlptn2-grammar-tewairarenai/",
+        "title": "【JLPT N2】文法・例文：〜てはいられない",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/0c124105a007a53180af-6051d09334e0.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：あと半年で試験だから、のんびりしてはいられない。",
+        "original_example": "あと半年で試験だから、のんびりしてはいられない。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "第1轮修订：补充考试仅剩三天且范围尚未学完，明确需要赶紧备考"
+        ],
+        "answer_basis": "只剩三天且备考未完成，明确要求赶紧学习，因此不能维持悠闲状态。；来源说明与考点卡。",
+        "distractor_basis": [
+          "1. 错误：するべきだ要求悠闲，与备考的紧迫感相反。",
+          "2. 错误：するしかない表示只能悠闲，不符合临近考试需要行动。",
+          "3. 正确：考试临近，需要转入备考，不能维持悠闲状态。",
+          "4. 错误：せずにはいられない表示抑制不住想悠闲，意义相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋はいられない；逐项插入检查，排除不适用的意义或结构。",
+        "semantic_exclusion": "错误：するべきだ要求悠闲，与备考的紧迫感相反。；错误：するしかない表示只能悠闲，不符合临近考试需要行动。；正确：考试临近，需要转入备考，不能维持悠闲状态。；错误：せずにはいられない表示抑制不住想悠闲，意义相反。",
+        "unique_answer_rationale": "只剩三天且备考未完成，明确要求赶紧学习，因此不能维持悠闲状态。；其他项无法承担题境所需功能。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "明确仅剩三天、范围未学完且必须加快进度，因此してはいられない唯一符合因果。其他三项表示应当、只能或忍不住悠闲，与明确的急迫结论冲突。措辞稍重复，但日语自然且信息充分。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0213",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "店内改装中（　）、しばらく休業いたします。",
+      "translation": "因店内装修，暂时停业。",
+      "tested_cards": [
+        "N2-G-0107"
+      ],
+      "conjugation": "名词＋につき（告示中的理由）",
+      "options": {
+        "1": "につき",
+        "2": "に先立ち",
+        "3": "に沿って",
+        "4": "に限らず"
+      },
+      "correct_option": "1",
+      "correct_explanation": "装修是暂时停业的原因，正式告示使用につき。",
+      "option_explanations": {
+        "1": "正确：装修是暂时停业的原因，正式告示使用につき。",
+        "2": "错误：に先立ち表示装修之前，改装中表示已经处于装修过程，时间关系不符。",
+        "3": "错误：に沿って表示按照方针，改装中不是执行路线或方针。",
+        "4": "错误：に限らず表示不只限于此，还包括其他范围；本句只是解释停业理由。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2018/06/04/jlptn2-grammar-nitsuki/",
+        "title": "【JLPT N2】文法・例文：〜につき（理由）",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/257ce0efc5e24cda0b55-1ce0702bc61e.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：店内改装中につき、しばらく休業いたします。",
+        "original_example": "店内改装中につき、しばらく休業いたします。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "装修是暂时停业的原因，正式告示使用につき。；依据来源文型讲解与N2-G-0107。",
+        "distractor_basis": [
+          "1. 正确：装修是暂时停业的原因，正式告示使用につき。",
+          "2. 错误：に先立ち表示装修之前，改装中表示已经处于装修过程，时间关系不符。",
+          "3. 错误：に沿って表示按照方针，改装中不是执行路线或方针。",
+          "4. 错误：に限らず表示不只限于此，还包括其他范围；本句只是解释停业理由。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋につき（告示中的理由）；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "装修是暂时停业的原因，正式告示使用につき。；に先立ち表示装修之前，改装中表示已经处于装修过程，时间关系不符。；に沿って表示按照方针，改装中不是执行路线或方针。；に限らず表示不只限于此，还包括其他范围；本句只是解释停业理由。",
+        "unique_answer_rationale": "装修是暂时停业的原因，正式告示使用につき。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "につき为公告中的原因表达；に先立ち指改装之前，与改装中休业不同；に沿って／に限らず语义不合。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0214",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "こちらのセール品は１人（　）２つまでとさせていただいております。",
+      "translation": "这些特价商品每人限购两个。",
+      "tested_cards": [
+        "N2-G-0107"
+      ],
+      "conjugation": "数量单位＋につき（每单位）",
+      "options": {
+        "1": "に先立ち",
+        "2": "につき",
+        "3": "に伴って",
+        "4": "をめぐって"
+      },
+      "correct_option": "2",
+      "correct_explanation": "１人是分配单位，２つ是每人的限购数量。",
+      "option_explanations": {
+        "1": "错误：に先立ち表示先于某人或事件，不是按人分配。",
+        "2": "正确：１人是分配单位，２つ是每人的限购数量。",
+        "3": "错误：に伴って表示随变化而变化，不是每人固定两个。",
+        "4": "错误：をめぐって表示围绕某人争论等，不是数量分配。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2018/09/12/jlptn3-grammar-nitsuki/",
+        "title": "【JLPT N3】文法・例文：〜につき（比率）",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/462ec6bd5b822861662b-a7cf0ddd46e0.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：こちらのセール品は１人につき２つまでとさせていただいております。",
+        "original_example": "こちらのセール品は１人につき２つまでとさせていただいております。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "１人是分配单位，２つ是每人的限购数量。；依据来源文型讲解与N2-G-0107。",
+        "distractor_basis": [
+          "1. 错误：に先立ち表示先于某人或事件，不是按人分配。",
+          "2. 正确：１人是分配单位，２つ是每人的限购数量。",
+          "3. 错误：に伴って表示随变化而变化，不是每人固定两个。",
+          "4. 错误：をめぐって表示围绕某人争论等，不是数量分配。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "数量单位＋につき（每单位）；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "に先立ち表示先于某人或事件，不是按人分配。；１人是分配单位，２つ是每人的限购数量。；に伴って表示随变化而变化，不是每人固定两个。；をめぐって表示围绕某人争论等，不是数量分配。",
+        "unique_answer_rationale": "１人是分配单位，２つ是每人的限购数量。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "１人につき表示每人数量；其他项既不能表示每人分配，也不合上下文。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0215",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "本日のイベントは１階の広場（　）行います。",
+      "translation": "今天的活动在一楼广场举行。",
+      "tested_cards": [
+        "N2-G-0108"
+      ],
+      "conjugation": "场所名词＋にて",
+      "options": {
+        "1": "につき",
+        "2": "に向けて",
+        "3": "に反して",
+        "4": "にて"
+      },
+      "correct_option": "4",
+      "correct_explanation": "広場是活动发生的地点，正式表达で可用にて。",
+      "option_explanations": {
+        "1": "错误：につき表示理由或每单位，广场在此是地点。",
+        "2": "错误：に向けて表示面向目标或朝某处，不表示举行地点。",
+        "3": "错误：に反して表示违背要求或预期，广场不是这种标准。",
+        "4": "正确：広場是活动发生的地点，正式表达で可用にて。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nite/",
+        "title": "【JLPT N2】文法・例文：〜にて",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/c65be5e7e587c279eeff-31c1beb2b921.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：本日のイベントは１階の広場にて行います。",
+        "original_example": "本日のイベントは１階の広場にて行います。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "広場是活动发生的地点，正式表达で可用にて。；依据来源文型讲解与N2-G-0108。",
+        "distractor_basis": [
+          "1. 错误：につき表示理由或每单位，广场在此是地点。",
+          "2. 错误：に向けて表示面向目标或朝某处，不表示举行地点。",
+          "3. 错误：に反して表示违背要求或预期，广场不是这种标准。",
+          "4. 正确：広場是活动发生的地点，正式表达で可用にて。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "场所名词＋にて；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "につき表示理由或每单位，广场在此是地点。；に向けて表示面向目标或朝某处，不表示举行地点。；に反して表示违背要求或预期，广场不是这种标准。；広場是活动发生的地点，正式表达で可用にて。",
+        "unique_answer_rationale": "広場是活动发生的地点，正式表达で可用にて。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "にて表示举办场所，属正式表达；其他项的原因、目标、违背均不合。此题大部分干扰仅靠名词语义排除，难度较低。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0216",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "当日欠席される方は、メールまたは電話（　）ご連絡ください。",
+      "translation": "当天缺席的人，请通过邮件或电话联系。",
+      "tested_cards": [
+        "N2-G-0108"
+      ],
+      "conjugation": "手段名词＋にて",
+      "options": {
+        "1": "をめぐって",
+        "2": "にて",
+        "3": "に先立って",
+        "4": "に反して"
+      },
+      "correct_option": "2",
+      "correct_explanation": "邮件或电话是联系的手段，正式表达用にて。",
+      "option_explanations": {
+        "1": "错误：をめぐって表示围绕邮件电话这一主题，不是用其联系。",
+        "2": "正确：邮件或电话是联系的手段，正式表达用にて。",
+        "3": "错误：に先立って表示在邮件电话之前，不是联系方法。",
+        "4": "错误：に反して表示违背某种预期或规则，不是联系方法。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nite/",
+        "title": "【JLPT N2】文法・例文：〜にて",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/c65be5e7e587c279eeff-31c1beb2b921.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：当日欠席される方は、メールまたは電話にてご連絡ください。",
+        "original_example": "当日欠席される方は、メールまたは電話にてご連絡ください。",
+        "transformations": [
+          "将目标语法挖空，清除加粗及括号读音，保留其他日文内容。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。"
+        ],
+        "answer_basis": "邮件或电话是联系的手段，正式表达用にて。；依据来源文型讲解与N2-G-0108。",
+        "distractor_basis": [
+          "1. 错误：をめぐって表示围绕邮件电话这一主题，不是用其联系。",
+          "2. 正确：邮件或电话是联系的手段，正式表达用にて。",
+          "3. 错误：に先立って表示在邮件电话之前，不是联系方法。",
+          "4. 错误：に反して表示违背某种预期或规则，不是联系方法。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "手段名词＋にて；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "をめぐって表示围绕邮件电话这一主题，不是用其联系。；邮件或电话是联系的手段，正式表达用にて。；に先立って表示在邮件电话之前，不是联系方法。；に反して表示违背某种预期或规则，不是联系方法。",
+        "unique_answer_rationale": "邮件或电话是联系的手段，正式表达用にて。；其余三项的语义或接续排除见逐项解析。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "にて表示联络方式；其他项的争议、先行、违背均不合。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0217",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今、ちょうど焼き上がりました。さぁ、パンは焼き（　）で美味しいですよ。おひとついかがでしょうか。",
+      "translation": "刚刚烤好。来，面包刚出炉，很好吃。要来一个吗？",
+      "tested_cards": [
+        "N2-G-0109"
+      ],
+      "conjugation": "动词ます形去ます＋たて",
+      "options": {
+        "1": "すぎ",
+        "2": "かけ",
+        "3": "っぱなし",
+        "4": "たて"
+      },
+      "correct_option": "4",
+      "correct_explanation": "刚完成烘烤且新鲜可口，用たて强调刚出炉的状态。",
+      "option_explanations": {
+        "1": "错误：焼きすぎ表示程度过量，不能表达刚完成的新鲜感；题境正面介绍刚出炉的新鲜状态，应选たて。ちょうど在前句表示时间上刚好完成，不表示程度适中。",
+        "2": "错误：焼きかけ表示烤到一半，与刚刚烤完相反。",
+        "3": "错误：焼きっぱなし强调放任烘烤不管，不表达刚完成的新鲜感。",
+        "4": "正确：刚完成烘烤且新鲜可口，用たて强调刚出炉的状态。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn2-grammar-tate/",
+        "title": "【JLPT N2】文法・例文：〜たて",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/589253813f70e6058492-81599281fa24.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：さぁ、パンは焼きたてで美味しいですよ。おひとついかがでしょうか。",
+        "original_example": "さぁ、パンは焼きたてで美味しいですよ。おひとついかがでしょうか。",
+        "transformations": [
+          "将たて挖空；补入今、ちょうど焼き上がりました，明确刚完成这一时间背景和后句新鲜可口的状态。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "来源复核后仅校正解析：ちょうど表示时间上刚好；すぎ与たて的区别按过量程度／刚完成的新鲜状态解释，题干与选项未变。"
+        ],
+        "answer_basis": "刚完成烘烤且新鲜可口，用たて强调刚出炉的状态。；依据来源文型讲解与N2-G-0109。",
+        "distractor_basis": [
+          "1. 错误：焼きすぎ表示程度过量，不能表达刚完成的新鲜感；题境正面介绍刚出炉的新鲜状态，应选たて。ちょうど在前句表示时间上刚好完成，不表示程度适中。",
+          "2. 错误：焼きかけ表示烤到一半，与刚刚烤完相反。",
+          "3. 错误：焼きっぱなし强调放任烘烤不管，不表达刚完成的新鲜感。",
+          "4. 正确：刚完成烘烤且新鲜可口，用たて强调刚出炉的状态。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます形去ます＋たて；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "错误：焼きすぎ表示程度过量，不能表达刚完成的新鲜感；题境正面介绍刚出炉的新鲜状态，应选たて。ちょうど在前句表示时间上刚好完成，不表示程度适中。；错误：焼きかけ表示烤到一半，与刚刚烤完相反。；错误：焼きっぱなし强调放任烘烤不管，不表达刚完成的新鲜感。；正确：刚完成烘烤且新鲜可口，用たて强调刚出炉的状态。",
+        "unique_answer_rationale": "刚完成烘烤且新鲜可口，用たて强调刚出炉的状态。；たて表达刚完成的新鲜状态，すぎ只表达过量，かけ是未完成，っぱなし是放任，各自不表达本题所需的新鲜感。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "刚出炉故焼きたて；かけ与完成矛盾，すぎ通常负面且不自然，っぱなし无持续放置信息。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:59:38+08:00",
+          "notes": "日本語NET原例句存在；已正确区分ちょうど的时间意义与すぎ的过度程度意义。解析、transformations及preflight已移除先前错误的程度适中断言，按正面刚完成的新鲜状态解释目标たて，复核通过。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0218",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今、ちょうど干し終えたところです。干し（　）の布団はふかふかして気持ちがいい。",
+      "translation": "刚刚晒好，刚晒好的被子蓬松又舒服。",
+      "tested_cards": [
+        "N2-G-0109"
+      ],
+      "conjugation": "动词ます形去ます＋たて＋の＋名词",
+      "options": {
+        "1": "たて",
+        "2": "かけ",
+        "3": "すぎ",
+        "4": "っぱなし"
+      },
+      "correct_option": "1",
+      "correct_explanation": "刚完成晾晒，突出新鲜蓬松的好状态。",
+      "option_explanations": {
+        "1": "正确：刚完成晾晒，突出新鲜蓬松的好状态。",
+        "2": "错误：干しかけ表示晾晒未完成，与干し終えた相反。",
+        "3": "错误：干しすぎ表示程度过量，不能表达刚完成的新鲜感；题境正面介绍刚晒好后的蓬松状态，应选たて。ちょうど在前句表示时间上刚好完成，不表示程度适中。",
+        "4": "错误：干しっぱなし表示晒着不管，不表达刚完成的好状态。"
+      },
+      "source": {
+        "site_name": "日本語NET",
+        "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn2-grammar-tate/",
+        "title": "【JLPT N2】文法・例文：〜たて",
+        "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/589253813f70e6058492-81599281fa24.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：干したての布団はふかふかして気持ちがいい。",
+        "original_example": "干したての布団はふかふかして気持ちがいい。",
+        "transformations": [
+          "将たて挖空；补入今、ちょうど干し終えたところです以明确刚完成后的时间背景。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "来源复核后仅校正解析：ちょうど表示时间上刚好；すぎ与たて的区别按过量程度／刚完成的新鲜状态解释，题干与选项未变。"
+        ],
+        "answer_basis": "刚完成晾晒，突出新鲜蓬松的好状态。；依据来源文型讲解与N2-G-0109。",
+        "distractor_basis": [
+          "1. 正确：刚完成晾晒，突出新鲜蓬松的好状态。",
+          "2. 错误：干しかけ表示晾晒未完成，与干し終えた相反。",
+          "3. 错误：干しすぎ表示程度过量，不能表达刚完成的新鲜感；题境正面介绍刚晒好后的蓬松状态，应选たて。ちょうど在前句表示时间上刚好完成，不表示程度适中。",
+          "4. 错误：干しっぱなし表示晒着不管，不表达刚完成的好状态。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます形去ます＋たて＋の＋名词；逐项插入并对照解析检查，未虚构任何形式。",
+        "semantic_exclusion": "正确：刚完成晾晒，突出新鲜蓬松的好状态。；错误：干しかけ表示晾晒未完成，与干し終えた相反。；错误：干しすぎ表示程度过量，不能表达刚完成的新鲜感；题境正面介绍刚晒好后的蓬松状态，应选たて。ちょうど在前句表示时间上刚好完成，不表示程度适中。；错误：干しっぱなし表示晒着不管，不表达刚完成的好状态。",
+        "unique_answer_rationale": "刚完成晾晒，突出新鲜蓬松的好状态。；たて表达刚完成的新鲜状态，すぎ只表达过量，かけ是未完成，っぱなし是放任，各自不表达本题所需的新鲜感。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "刚晒好故干したて；かけ与完成矛盾，すぎ及っぱなし不符合蓬松舒适的说明。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:59:38+08:00",
+          "notes": "日本語NET原例句存在；已正确区分ちょうど的时间意义与すぎ的过度程度意义。解析、transformations及preflight已移除先前错误的程度适中断言，按正面刚完成的新鲜状态解释目标たて，复核通过。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0219",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "明日は娘の結婚式だ。どう表現したらいいかわからないが、嬉しい（　）さみしい（　）、複雑な気持ちだ。",
+      "translation": "明天是女儿的婚礼，不知怎么表达，说是高兴还是寂寞呢，心情很复杂。",
+      "tested_cards": [
+        "N2-G-0110"
+      ],
+      "conjugation": "普通形＋というか、普通形＋というか",
+      "options": {
+        "1": "といえば／といえば",
+        "2": "からといって／からといって",
+        "3": "というか／というか",
+        "4": "というものだ／というものだ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "不知如何准确形容心情，一边提出两个说法一边摸索表达。",
+      "option_explanations": {
+        "1": "错误：といえば用于提示话题，不表达在高兴和寂寞之间摸索哪个描述妥当。",
+        "2": "错误：からといって用于提出前提并否定由此前提推出的判断；本句是摸索心情的描述。",
+        "3": "正确：というか重复使用，表示不知说成高兴还是寂寞才准确。",
+        "4": "错误：というものだ用于评价或说明理所当然，不是犹豫如何措辞；两个断定也无法按本句连接。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語（该站日语教学文章）",
+        "url": "https://www.edewakaru.com/archives/27089106.html",
+        "title": "というか｜日本語能力試験 JLPT N2文法",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-101-110-test-1/edewakaru-110.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：明日は娘の結婚式だ。嬉しいというかさみしいというか、複雑な気持ちだ。",
+        "original_example": "明日は娘の結婚式だ。嬉しいというかさみしいというか、複雑な気持ちだ。",
+        "transformations": [
+          "两个というか均挖空，以／给出配对填法；补入来源说明对应的どう表現したらいいかわからないが；清除括号读音及加粗。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "第1轮修订：改用其他真实という系列与からといって，提高语义辨析"
+        ],
+        "answer_basis": "不知如何准确形容心情，一边提出两个说法一边摸索表达。；来源说明与考点卡。",
+        "distractor_basis": [
+          "1. 错误：といえば用于提示话题，不表达在高兴和寂寞之间摸索哪个描述妥当。",
+          "2. 错误：からといって用于提出前提并否定由此前提推出的判断；本句是摸索心情的描述。",
+          "3. 正确：というか重复使用，表示不知说成高兴还是寂寞才准确。",
+          "4. 错误：というものだ用于评价或说明理所当然，不是犹豫如何措辞；两个断定也无法按本句连接。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋というか、普通形＋というか；逐项插入检查，排除不适用的意义或结构。",
+        "semantic_exclusion": "错误：といえば用于提示话题，不表达在高兴和寂寞之间摸索哪个描述妥当。；错误：からといって用于提出前提并否定由此前提推出的判断；本句是摸索心情的描述。；正确：というか重复使用，表示不知说成高兴还是寂寞才准确。；错误：というものだ用于评价或说明理所当然，不是犹豫如何措辞；两个断定也无法按本句连接。",
+        "unique_answer_rationale": "不知如何准确形容心情，一边提出两个说法一边摸索表达。；其他项无法承担题境所需功能。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "というか反复列举难以命名的喜忧并存感受，与どう表現したらいいかわからない直接吻合。といえば要求主题联想而非并列修辞，からといって要求否定推论，というものだ反复句末判断不能自然衔接。唯一解。干扰1、2都能接续嬉しい／さみしい，须结合语义排除。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。 絵でわかる日本語属于已授权的第101／110课题源例外。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0220",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "私がN１に合格するなんて、どう表現したらいいかわからないけど、奇跡（　）ラッキーだった（　）、信じられないわ！",
+      "translation": "我居然通过N1，不知该怎么形容，是奇迹还是走运呢，真难以置信！",
+      "tested_cards": [
+        "N2-G-0110"
+      ],
+      "conjugation": "名词／普通形＋というか、普通形＋というか",
+      "options": {
+        "1": "というか／というか",
+        "2": "といえば／といえば",
+        "3": "からといって／からといって",
+        "4": "というものだ／というものだ"
+      },
+      "correct_option": "1",
+      "correct_explanation": "在奇迹与走运之间摸索合适描述，用というか。",
+      "option_explanations": {
+        "1": "正确：というか表示在奇迹与走运之间摸索合适的说法。",
+        "2": "错误：といえば提示相关话题，不表示该说是奇迹还是走运的犹豫。",
+        "3": "错误：からといって用于提出条件后驳斥推论；本句是摸索描述，信じられない表示惊讶而非驳斥推论；奇跡后另需だからといって。",
+        "4": "错误：というものだ表达评价或理所当然，不是摸索措辞；两个断定也不能按本句结构连接。"
+      },
+      "source": {
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語（该站日语教学文章）",
+        "url": "https://www.edewakaru.com/archives/27089106.html",
+        "title": "というか｜日本語能力試験 JLPT N2文法",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-101-110-test-1/edewakaru-110.md"
+        ],
+        "kind": "derived_from_example",
+        "locator": "例文：私がN１に合格するなんて、奇跡というかラッキーだったというか信じられないわ！",
+        "original_example": "私がN１に合格するなんて、奇跡というかラッキーだったというか信じられないわ！",
+        "transformations": [
+          "两个というか均挖空，以／给出配对填法；补入来源说明对应的どう表現したらいいかわからないけど；清除括号读音及加粗。",
+          "添加三个有具体排除依据的干扰项，标为教学例句派生题。",
+          "第1轮修订：替换不适配名词或过去形的干扰项，避免纯接续排除"
+        ],
+        "answer_basis": "在奇迹与走运之间摸索合适描述，用というか。；来源说明与考点卡。",
+        "distractor_basis": [
+          "1. 正确：というか表示在奇迹与走运之间摸索合适的说法。",
+          "2. 错误：といえば提示相关话题，不表示该说是奇迹还是走运的犹豫。",
+          "3. 错误：からといって用于提出条件后驳斥推论；本句是摸索描述，信じられない表示惊讶而非驳斥推论；奇跡后另需だからといって。",
+          "4. 错误：というものだ表达评价或理所当然，不是摸索措辞；两个断定也不能按本句结构连接。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词／普通形＋というか、普通形＋というか；逐项插入检查，排除不适用的意义或结构。",
+        "semantic_exclusion": "正确：というか表示在奇迹与走运之间摸索合适的说法。；错误：といえば提示相关话题，不表示该说是奇迹还是走运的犹豫。；错误：からといって用于提出条件后驳斥推论；本句是摸索描述，信じられない表示惊讶而非驳斥推论；奇跡后另需だからといって。；错误：というものだ表达评价或理所当然，不是摸索措辞；两个断定也不能按本句结构连接。",
+        "unique_answer_rationale": "在奇迹与走运之间摸索合适描述，用というか。；其他项无法承担题境所需功能。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:55:17+08:00",
+          "notes": "奇跡というかラッキーだったというか自然地斟酌合格的表述。といえば的主题联想、からといって的让步与本句不合，というものだ连续判断不自然。干扰2可接名词和过去普通形，改善了仅凭接续解题的问题；干扰3在奇跡后仍需だ，但另有有效语义干扰，整体通过。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_101110",
+          "reviewed_at": "2026-10-01T20:57:11+08:00",
+          "notes": "原例句已在指定最小证据中核实；挖空及补充题境可追溯，派生题标识准确，接续、最佳答案及四选项解析通过。 絵でわかる日本語属于已授权的第101／110课题源例外。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-10-01T20:36:09+08:00",
+        "ended_at": "2026-10-01T20:36:09+08:00",
+        "duration_seconds": 0.902,
+        "metrics": {
+          "cards": 10,
+          "cache_lookups": 10
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-10-01T20:36:10+08:00",
+        "ended_at": "2026-10-01T20:37:33+08:00",
+        "duration_seconds": 83.628,
+        "metrics": {
+          "calls": 10
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-01T20:37:33+08:00",
+        "ended_at": "2026-10-01T20:40:55+08:00",
+        "duration_seconds": 202.582,
+        "metrics": {
+          "calls": 13,
+          "adopted_pages": 11
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-01T20:40:55+08:00",
+        "ended_at": "2026-10-01T20:49:25+08:00",
+        "duration_seconds": 510.682,
+        "metrics": {}
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-01T20:49:25+08:00",
+        "ended_at": "2026-10-01T20:49:26+08:00",
+        "duration_seconds": 1.164,
+        "metrics": {}
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T20:49:26+08:00",
+        "ended_at": "2026-10-01T20:49:26+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-01T20:50:03+08:00",
+        "ended_at": "2026-10-01T20:53:23+08:00",
+        "duration_seconds": 200.506,
+        "metrics": {}
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T20:53:24+08:00",
+        "ended_at": "2026-10-01T20:53:24+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T20:53:23+08:00",
+        "ended_at": "2026-10-01T20:55:17+08:00",
+        "duration_seconds": 114.459,
+        "metrics": {
+          "revised_questions": 4,
+          "revision_rounds": 1
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-01T20:55:17+08:00",
+        "ended_at": "2026-10-01T20:57:10+08:00",
+        "duration_seconds": 113.848,
+        "metrics": {}
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T20:57:28+08:00",
+        "ended_at": "2026-10-01T20:57:28+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T20:57:10+08:00",
+        "ended_at": "2026-10-01T20:59:38+08:00",
+        "duration_seconds": 148.556,
+        "metrics": {
+          "prompt_revisions": 2,
+          "explanation_fixes": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T20:59:38+08:00",
+        "ended_at": "2026-10-01T20:59:38+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-01T20:59:38+08:00",
+        "ended_at": "2026-10-01T21:00:49+08:00",
+        "duration_seconds": 71.297,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0202",
+        "revision": 2,
+        "reason": "からこそ可强调原因，换为かわりに以排除第二解",
+        "at": "2026-10-01T20:53:23+08:00"
+      },
+      {
+        "question_id": "N2-Q-0212",
+        "revision": 2,
+        "reason": "补充考试仅剩三天且范围尚未学完，明确需要赶紧备考",
+        "at": "2026-10-01T20:53:23+08:00"
+      },
+      {
+        "question_id": "N2-Q-0219",
+        "revision": 2,
+        "reason": "改用其他真实という系列与からといって，提高语义辨析",
+        "at": "2026-10-01T20:53:24+08:00"
+      },
+      {
+        "question_id": "N2-Q-0220",
+        "revision": 2,
+        "reason": "替换不适配名词或过去形的干扰项，避免纯接续排除",
+        "at": "2026-10-01T20:53:24+08:00"
+      },
+      {
+        "question_id": "N2-Q-0205",
+        "revision": 2,
+        "reason": "移除题境说明中与目标答案相同的こと形式，保留规则场景",
+        "at": "2026-10-01T20:57:11+08:00"
+      },
+      {
+        "question_id": "N2-Q-0206",
+        "revision": 2,
+        "reason": "移除题境说明中与目标答案相同的こと形式，保留规则场景",
+        "at": "2026-10-01T20:57:11+08:00"
+      }
+    ],
+    "active_phases": {},
+    "source_policy": "学习者于2026-10-01明确允许第101、105、110课缺口补用其他日语教育网站；最终第105课找到日本語NET含ておきながら的教学例句，只有第101、110课采用絵でわかる日本語。",
+    "selection_timing_note": "selection自动计时在前置读卡与缓存查找后开启，未包含前置阅读，不代表完整选卡耗时。",
+    "cache_note": "第105课最终复用2026-09-29既有缓存并保留访问日；检索阶段曾重复抓取该页，未将重复抓取计为缓存节省。第101、110课为授权补充网站。",
+    "review_artifacts": [
+      "首次20题独立盲答；仅对2、12、19、20题进行第一轮修订后的复审；来源复核另记。"
+    ],
+    "calls_summary": {
+      "cache_grammar_lookups": 10,
+      "search_calls": 17,
+      "scrape_phase_calls": 13,
+      "selection_index_scrape_calls": 1,
+      "adopted_pages": 11,
+      "reused_final_cache_pages": 1,
+      "new_adopted_pages": 10,
+      "discarded_quiz_page": 1
+    },
+    "explanation_corrections": [
+      {
+        "question_id": "N2-Q-0217",
+        "at": "2026-10-01T20:57:11+08:00",
+        "change": "校正ちょうど及すぎ排除说明；题目和选项未变，保留原盲答。"
+      },
+      {
+        "question_id": "N2-Q-0218",
+        "at": "2026-10-01T20:57:11+08:00",
+        "change": "校正ちょうど及すぎ排除说明；题目和选项未变，保留原盲答。"
+      }
+    ]
+  }
+}

@@ -7,6 +7,32 @@ PIPELINE = Path(__file__).resolve().parents[1] / "quiz_pipeline.py"
 VALIDATOR = Path(__file__).resolve().parents[1] / "validate_quiz.py"
 
 
+def test_authorized_supplement_sites_and_unknown_host(env_basic, tmp_path):
+    evidence = env_basic / "jlpt-notes/quizzes/sources/cache/evidence.md"
+    evidence.parent.mkdir(parents=True)
+    evidence.write_text("教学原例句。", encoding="utf-8")
+    sites = {
+        "大修館書店 国語メディア": "www.taishukan.co.jp",
+        "Iku老師日文": "jp.ikuchannel.com",
+        "EduJapa!": "edujapa.com",
+        "Maggie Sensei": "maggiesensei.com",
+        "時雨の町": "www.sigure.tw",
+    }
+    draft = tmp_path / "supplement.json"
+    for name, host in sites.items():
+        data = make_draft()
+        data["workflow"]["source_policy"] = "学习者已允许缺口补用其他日语教育网站。"
+        source = data["questions"][0]["source"]
+        source.update(site_name=name, url=f"https://{host}/example/")
+        draft.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        result = run_script(PIPELINE, "validate", "--root", env_basic, "--draft", draft, "--stage", "preflight")
+        assert result.returncode == 0, result.stdout + result.stderr
+    source["url"] = "https://unverified.example/example/"
+    draft.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    result = run_script(PIPELINE, "validate", "--root", env_basic, "--draft", draft, "--stage", "preflight")
+    assert result.returncode != 0
+
+
 def run_script(script, *args):
     return subprocess.run(
         [sys.executable, str(script), *map(str, args)],

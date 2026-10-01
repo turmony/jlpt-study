@@ -880,7 +880,8 @@
       "publisher": "日本語NET／ノッチ",
       "accessed_at": "2026-09-29",
       "grammar_ids": [
-        "N2-G-0050"
+        "N2-G-0050",
+        "N2-G-0105"
       ],
       "locator": "文型・例文区",
       "evidence_path": "quizzes/sources/cache/7e39a8ef9ac3c9bc61a1-98f0402cfde8.md",
@@ -1576,6 +1577,175 @@
       "locator": "文型及例文区",
       "evidence_path": "quizzes/sources/cache/89868a1f1473713e1bca-f18f7400666a.md",
       "content_sha256": "f18f7400666a81025a4706ebe8ea08085949a7d6b8f37b5f89f17671205c21e5"
+    },
+    "a71662ca9a15e1459160": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/10/jlptn2-grammar-naidesumu/",
+      "title": "【JLPT N2】文法・例文：〜ないで済む / 〜ずに済む",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0102"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/a71662ca9a15e1459160-0ddf359a6873.md",
+      "content_sha256": "0ddf359a6873a5d5a68987b6fc6428dbe48379f79c40281e1cc2b336970aad91"
+    },
+    "56ce28497c1c09b29ba7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn3-grammar-koto/",
+      "title": "【JLPT N3】文法・例文：〜こと",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0103"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/56ce28497c1c09b29ba7-707c11bdbb42.md",
+      "content_sha256": "707c11bdbb4285a670c1b2de2aae55e1bed9ccedadb066efec28d2e472be7c5f"
+    },
+    "a91a600944492ba86287": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/28/jlptn2-grammar-kotodarou/",
+      "title": "【JLPT N2】文法・例文：〜ことだろう / 〜ことか",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0104"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/a91a600944492ba86287-8f025e0c3b99.md",
+      "content_sha256": "8f025e0c3b9998a391416187db9b2a0ed70beb2e6340faa42c76d33cc51b214e"
+    },
+    "0c124105a007a53180af": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/01/16/jlptn2-grammar-tewairarenai/",
+      "title": "【JLPT N2】文法・例文：〜てはいられない",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0106"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/0c124105a007a53180af-6051d09334e0.md",
+      "content_sha256": "6051d09334e047e633fbc6582ddf0b5f429dbe5753d170cca691c9f1c04c1e58"
+    },
+    "257ce0efc5e24cda0b55": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/06/04/jlptn2-grammar-nitsuki/",
+      "title": "【JLPT N2】文法・例文：〜につき（理由）",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0107"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/257ce0efc5e24cda0b55-1ce0702bc61e.md",
+      "content_sha256": "1ce0702bc61e89c874f85f9dcb505e5dfb6fdab29bed1f6f6cdd6676af4fe3b3"
+    },
+    "c65be5e7e587c279eeff": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-nite/",
+      "title": "【JLPT N2】文法・例文：〜にて",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0108"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/c65be5e7e587c279eeff-31c1beb2b921.md",
+      "content_sha256": "31c1beb2b921245f98098f428cd3a7680697064208e7f3338d38bb21e19a9a50"
+    },
+    "589253813f70e6058492": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/20/jlptn2-grammar-tate/",
+      "title": "【JLPT N2】文法・例文：〜たて",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0109"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/589253813f70e6058492-81599281fa24.md",
+      "content_sha256": "81599281fa2418f9ee74e71fde7603faecfa56add352b97d325ce878c33e3128"
+    },
+    "462ec6bd5b822861662b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/09/12/jlptn3-grammar-nitsuki/",
+      "title": "【JLPT N3】文法・例文：〜につき（比率）",
+      "publisher": "日本語NET／ノッチ（资格背景复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0107"
+      ],
+      "locator": "文型说明与例文区",
+      "evidence_path": "quizzes/sources/cache/462ec6bd5b822861662b-a7cf0ddd46e0.md",
+      "content_sha256": "a7cf0ddd46e0c00015773d35c2eab59b066ad972f6d217d1283727e269195c01"
+    },
+    "12e42cc729ca9fb916b2": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-tokorodatta/",
+      "title": "～ところだった",
+      "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0111"
+      ],
+      "locator": "文型讲解与本卷已采用例句",
+      "evidence_path": "quizzes/sources/cache/12e42cc729ca9fb916b2-c4887a4eb11d.md",
+      "content_sha256": "c4887a4eb11d1b05db140b5fd1d788aae3349ff924695850b27670951f17e76d"
+    },
+    "585358d1de64d9156422": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-orini/",
+      "title": "～折に",
+      "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0113"
+      ],
+      "locator": "文型讲解与本卷已采用例句",
+      "evidence_path": "quizzes/sources/cache/585358d1de64d9156422-b2daa5b09f16.md",
+      "content_sha256": "b2daa5b09f1662fac3b740d6c6aaa844827c187f328463f9d037ace483ea8c76"
+    },
+    "bf58bfbe76d2b3ea93fd": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-dakemashi/",
+      "title": "～だけまし",
+      "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0114"
+      ],
+      "locator": "文型讲解与本卷已采用例句",
+      "evidence_path": "quizzes/sources/cache/bf58bfbe76d2b3ea93fd-c56b988f4453.md",
+      "content_sha256": "c56b988f44531e7bbda1febfcfd83013f5033c41754c1000f1ec6cf729318e13"
+    },
+    "3e6bb58e8ac1a72ffefa": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/01/21/jlptn3-grammar-gotoni/",
+      "title": "～ごとに",
+      "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0116"
+      ],
+      "locator": "文型讲解与本卷已采用例句",
+      "evidence_path": "quizzes/sources/cache/3e6bb58e8ac1a72ffefa-cf53921cdfe2.md",
+      "content_sha256": "cf53921cdfe2cd69917480d2349156b8a66987ebcdf04afaec64595875b95d5d"
+    },
+    "181448ab112782a5b27a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/01/22/jlptn3-grammar-okini/",
+      "title": "～おきに",
+      "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0116"
+      ],
+      "locator": "文型讲解与本卷已采用例句",
+      "evidence_path": "quizzes/sources/cache/181448ab112782a5b27a-bd4d7ed85860.md",
+      "content_sha256": "bd4d7ed85860bec547056170a1d990ee3c5d77daf5f698b7216db29af5b6d7ea"
     }
   }
 }

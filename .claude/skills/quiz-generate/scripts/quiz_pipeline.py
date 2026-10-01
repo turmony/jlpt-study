@@ -27,6 +27,8 @@ ALLOWED_HOSTS = {
     "nihongokyoshi-net.com", "www.nihongokyoshi-net.com",
     "edewakaru.com", "www.edewakaru.com",
     "japanese-language-education.com", "www.japanese-language-education.com",
+    "www.taishukan.co.jp", "taishukan.co.jp", "jp.ikuchannel.com",
+    "edujapa.com", "maggiesensei.com", "www.sigure.tw", "sigure.tw",
 }
 PHASES = {
     "selection", "search", "scrape", "draft", "preflight",
@@ -71,7 +73,7 @@ def source_errors(source: dict, notes_root: Path, prefix: str) -> list[str]:
     errors = []
     if not isinstance(source, dict):
         return [f"{prefix}.source 必须是对象"]
-    if source.get("site_name") not in {"日本語NET", "絵でわかる日本語", "日本語教育ナビ"}:
+    if source.get("site_name") not in {"日本語NET", "絵でわかる日本語", "日本語教育ナビ", "大修館書店 国語メディア", "Iku老師日文", "EduJapa!", "Maggie Sensei", "時雨の町"}:
         errors.append(f"{prefix}.source.site_name 必须是已核实的日本教学网站")
     for field in ("publisher", "title", "url", "locator", "accessed_at"):
         if not nonempty(source.get(field)):

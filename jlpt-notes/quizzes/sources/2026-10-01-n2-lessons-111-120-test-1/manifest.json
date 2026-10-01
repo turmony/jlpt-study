@@ -1,0 +1,1693 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-01-n2-lessons-111-120-test-1",
+    "title": "N2 第111～120课语法选择练习（20题）",
+    "date": "2026-10-01",
+    "level": "N2",
+    "suggested_minutes": 30
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0221",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "車を運転してると、突然猫が飛び出してきました。急ブレーキをかけて猫には当たりませんでしたが、もう少しでひいてしまう（　）。",
+      "translation": "开车时突然有只猫冲出来。急刹车后没有撞到它，但险些就撞上了。",
+      "tested_cards": [
+        "N2-G-0111"
+      ],
+      "conjugation": "动词辞书形＋ところだった",
+      "options": {
+        "1": "ことになった",
+        "2": "ところだった",
+        "3": "ようになった",
+        "4": "に違いなかった"
+      },
+      "correct_option": "2",
+      "correct_explanation": "过去险些撞猫，实际上没有撞上，用ところだった。",
+      "option_explanations": {
+        "1": "错误：表示已经发展成撞猫的结果，与明确没有撞上矛盾。",
+        "2": "正确：过去险些撞猫，实际上没有撞上，用ところだった。",
+        "3": "错误：表示习惯或状态变化，不表达这次险些撞猫。",
+        "4": "错误：推断实际撞到了猫，与明示的没有撞上相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～ところだった",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-tokorodatta/",
+        "locator": "例文：車を運転してると、突然猫が飛び出してきて、もう少しでひいてしまうところでした。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/12e42cc729ca9fb916b2-c4887a4eb11d.md"
+        ],
+        "original_example": "車を運転してると、突然猫が飛び出してきて、もう少しでひいてしまうところでした。",
+        "transformations": [
+          "第1轮修订：替换为同页已核实的撞猫险情例句；把叙述拆成两句，补入急刹未撞的实际事实；ところでした改为普通体ところだった并挖空。",
+          "设置同样四个选项，排除已发生结果、习惯变化及实际结果的强推断。"
+        ],
+        "answer_basis": "过去险些撞猫，实际上没有撞上，用ところだった。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：表示已经发展成撞猫的结果，与明确没有撞上矛盾。",
+          "2. 正确：过去险些撞猫，实际上没有撞上，用ところだった。",
+          "3. 错误：表示习惯或状态变化，不表达这次险些撞猫。",
+          "4. 错误：推断实际撞到了猫，与明示的没有撞上相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋ところだった；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：表示已经发展成撞猫的结果，与明确没有撞上矛盾。；正确：过去险些撞猫，实际上没有撞上，用ところだった。；错误：表示习惯或状态变化，不表达这次险些撞猫。；错误：推断实际撞到了猫，与明示的没有撞上相反。",
+        "unique_answer_rationale": "过去险些撞猫，实际上没有撞上，用ところだった。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "answer": "2",
+          "confidence": 1,
+          "notes": "明示未撞到猫，もう少しでひいてしまうところだった为险些而未实现。ことになった和に違いなかった描述结果或推断实际撞到，不符未撞事实；ようになった状态习惯变化也不合一次险情。；首次为严格盲答，本次是接触旧来源后的增量无答案复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "增量复审：NET缓存明确有突然猫冲出、もう少しでひいてしまうところでした的原句。拆句、增加急刹未撞、改普通体及挖空均记录准确。新题为非条件叙述，选项1实际结果/4实际结果确信可由未撞事实排除，3习惯变化不合一次险情。唯一解2；中文及四项解析正确。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0222",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "トムさんが言ってくれたので忘れずに済みました。言ってくれなかったら、うっかり忘れる（　）。",
+      "translation": "汤姆提醒了我，才没忘；要是没提醒我，就会忘记。",
+      "tested_cards": [
+        "N2-G-0111"
+      ],
+      "conjugation": "动词辞书形＋ところでした",
+      "options": {
+        "1": "ことにしました",
+        "2": "ようにしました",
+        "3": "ことになりました",
+        "4": "ところでした"
+      },
+      "correct_option": "4",
+      "correct_explanation": "未发生的险情，用ところでした。",
+      "option_explanations": {
+        "1": "错误：表示主动决定忘记，不是险些无意忘记。",
+        "2": "错误：表示主动采取措施忘记，与うっかり不符。",
+        "3": "错误：ことになりました陈述决定或既成结果，不能在这里表达被提醒后避免的险情；反事实推演结果通常需ことになっていた等形式。",
+        "4": "正确：未发生的险情，用ところでした。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～ところだった",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-tokorodatta/",
+        "locator": "教学例句／词例：トムさんが言ってくれなかったら、うっかり忘れるところでした。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/12e42cc729ca9fb916b2-c4887a4eb11d.md"
+        ],
+        "original_example": "トムさんが言ってくれなかったら、うっかり忘れるところでした。",
+        "transformations": [
+          "补入已获提醒而未忘的事实；保留原条件句并挖空。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。",
+          "来源复核修正解析：不以未忘事实直接排除条件句的假想结果；说明ことになりました不能承担本句过去反事实险情的表达。"
+        ],
+        "answer_basis": "未发生的险情，用ところでした。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：表示主动决定忘记，不是险些无意忘记。",
+          "2. 错误：表示主动采取措施忘记，与うっかり不符。",
+          "3. 错误：ことになりました陈述决定或既成结果，不能在这里表达被提醒后避免的险情；反事实推演结果通常需ことになっていた等形式。",
+          "4. 正确：未发生的险情，用ところでした。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋ところでした；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：表示主动决定忘记，不是险些无意忘记。；错误：表示主动采取措施忘记，与うっかり不符。；错误：ことになりました陈述决定或既成结果，不能在这里表达被提醒后避免的险情；反事实推演结果通常需ことになっていた等形式。；正确：未发生的险情，用ところでした。",
+        "unique_answer_rationale": "未发生的险情，用ところでした。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "4",
+          "confidence": 0.99,
+          "notes": "提示者避免了遗忘，忘れるところでした为未发生的险些。其余是自主决定、自主安排或外部决定，与うっかり忘れる不协调。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "增量复审：题干和选项未变，原例句已核实。本次正式解析、source.distractor_basis及preflight.semantic_exclusion均已同步，按反事实通常需ことになっていた等形式说明选项3的表达不足，不再把假想后件直接判成实际结果矛盾。中文已改为要是没提醒就会忘记。答案4和四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0223",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【古い形容動詞の表現】「親愛（　）友へ」「確固（　）アリバイ」の順に入る組み合わせはどれか。",
+      "translation": "【古典形容动词表达】致亲爱的朋友／确凿的不在场证明。",
+      "tested_cards": [
+        "N2-G-0112"
+      ],
+      "conjugation": "ナリ活用连体形なる／タリ活用连体形たる",
+      "options": {
+        "1": "たる／なる",
+        "2": "なり／たり",
+        "3": "なる／たる",
+        "4": "なれ／たれ"
+      },
+      "correct_option": "3",
+      "correct_explanation": "亲爱用なる、确固用たる修饰后面的名词。",
+      "option_explanations": {
+        "1": "错误：反转固定搭配，不是親愛なる・確固たる。",
+        "2": "错误：终止形不能在此直接修饰名词。",
+        "3": "正确：亲爱用なる、确固用たる修饰后面的名词。",
+        "4": "错误：已然或命令形不能在此修饰名词。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "大修館書店 国語メディア",
+        "publisher": "大修館書店／田中草大（日本语历史学者）",
+        "title": "第6回 形容動詞 ――「なり」を活用させられますか",
+        "url": "https://www.taishukan.co.jp/kokugo/media/blog/?act=detail&id=595",
+        "locator": "教学例句／词例：親愛なる○○へ。／確固たるアリバイ",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-112.md"
+        ],
+        "original_example": "親愛なる○○へ。／確固たるアリバイ",
+        "transformations": [
+          "合并同页两个已核实例语；○○替换为友；两空配对选择。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "亲爱用なる、确固用たる修饰后面的名词。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：反转固定搭配，不是親愛なる・確固たる。",
+          "2. 错误：终止形不能在此直接修饰名词。",
+          "3. 正确：亲爱用なる、确固用たる修饰后面的名词。",
+          "4. 错误：已然或命令形不能在此修饰名词。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "ナリ活用连体形なる／タリ活用连体形たる；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：反转固定搭配，不是親愛なる・確固たる。；错误：终止形不能在此直接修饰名词。；正确：亲爱用なる、确固用たる修饰后面的名词。；错误：已然或命令形不能在此修饰名词。",
+        "unique_answer_rationale": "亲爱用なる、确固用たる修饰后面的名词。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "3",
+          "confidence": 1,
+          "notes": "亲爱用ナリ活用连体形なる，确固用タリ活用连体形たる。其余组合词类或活用位置不合。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "同页存在親愛なる○○へ和確固たるアリバイ；替换友、合并和挖空记录准确。ナリ/タリ连体形及四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0224",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【古い形容詞の表現】「親し（　）仲にも礼儀あり」「仰げば尊（　）」の順に入る組み合わせはどれか。",
+      "translation": "【古典形容词表达】亲密关系亦须守礼／仰望恩师之德。",
+      "tested_cards": [
+        "N2-G-0112"
+      ],
+      "conjugation": "古典形容词连体形き／终止形し",
+      "options": {
+        "1": "き／し",
+        "2": "し／き",
+        "3": "く／く",
+        "4": "い／い"
+      },
+      "correct_option": "1",
+      "correct_explanation": "名词前用親しき，句末用尊し。",
+      "option_explanations": {
+        "1": "正确：名词前用親しき，句末用尊し。",
+        "2": "错误：连体与终止形位置反了。",
+        "3": "错误：く是连用形，不承担这里的两种功能。",
+        "4": "错误：现代形式不能恢复题目指定的古典固定表达。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "大修館書店 国語メディア",
+        "publisher": "大修館書店／田中草大（日本语历史学者）",
+        "title": "第5回 形容詞 ――補助活用はどこで使う？",
+        "url": "https://www.taishukan.co.jp/kokugo/media/blog/?act=detail&id=591",
+        "locator": "教学例句／词例：親しき仲にも礼儀あり／仰げば尊し",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-112b.md"
+        ],
+        "original_example": "親しき仲にも礼儀あり／仰げば尊し",
+        "transformations": [
+          "合并同页两个固定例语；挖空末尾き和し并明确要求古典表达。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "名词前用親しき，句末用尊し。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 正确：名词前用親しき，句末用尊し。",
+          "2. 错误：连体与终止形位置反了。",
+          "3. 错误：く是连用形，不承担这里的两种功能。",
+          "4. 错误：现代形式不能恢复题目指定的古典固定表达。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "古典形容词连体形き／终止形し；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "正确：名词前用親しき，句末用尊し。；错误：连体与终止形位置反了。；错误：く是连用形，不承担这里的两种功能。；错误：现代形式不能恢复题目指定的古典固定表达。",
+        "unique_answer_rationale": "名词前用親しき，句末用尊し。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "1",
+          "confidence": 1,
+          "notes": "親しき修饰仲，尊し为古典终止形。2反转活用，3为连用，4虽现代化表达可读，但不符合古い形容詞限定。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "同页明确列出亲しき与尊し的固定表达及连体/终止讲解；合并挖空可追溯。现代形式因古典限定排除，唯一解成立。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0225",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "中国へ旅行に行った（　）、偶然昔の生徒に会った。",
+      "translation": "去中国旅行时，偶然遇到以前的学生。",
+      "tested_cards": [
+        "N2-G-0113"
+      ],
+      "conjugation": "动词た形＋折に",
+      "options": {
+        "1": "末に",
+        "2": "あげく",
+        "3": "折に",
+        "4": "一方で"
+      },
+      "correct_option": "3",
+      "correct_explanation": "表示去旅行的时候或机缘。",
+      "option_explanations": {
+        "1": "错误：强调经过过程后终于出现结果，本句只是时间机缘。",
+        "2": "错误：突出折腾后的不良结果，本句只是偶遇。",
+        "3": "正确：表示去旅行的时候或机缘。",
+        "4": "错误：一方で连接对照或并行事实；这里偶然会面是旅行时发生的事件。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～折に",
+        "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-orini/",
+        "locator": "教学例句／词例：中国へ旅行に行った折に、偶然昔の生徒に会った。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/585358d1de64d9156422-b2daa5b09f16.md"
+        ],
+        "original_example": "中国へ旅行に行った折に、偶然昔の生徒に会った。",
+        "transformations": [
+          "挖空目标形式，保留原句；增加四选一选项。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "表示去旅行的时候或机缘。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：强调经过过程后终于出现结果，本句只是时间机缘。",
+          "2. 错误：突出折腾后的不良结果，本句只是偶遇。",
+          "3. 正确：表示去旅行的时候或机缘。",
+          "4. 错误：一方で连接对照或并行事实；这里偶然会面是旅行时发生的事件。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋折に；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：强调经过过程后终于出现结果，本句只是时间机缘。；错误：突出折腾后的不良结果，本句只是偶遇。；正确：表示去旅行的时候或机缘。；错误：一方で连接对照或并行事实；这里偶然会面是旅行时发生的事件。",
+        "unique_answer_rationale": "表示去旅行的时候或机缘。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "3",
+          "confidence": 0.95,
+          "notes": "折に表示旅行之际偶遇，末に和あげく需经历过程而非一次旅行简单事实，一方で缺乏可理解的对比面。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "来源原句完整存在，接续与挖空准确。特别核查一方で：当前旅行事实与旅行途中偶遇没有独立对照的两个方面，读作一方で明显突兀，无法形成自然等价答案。四项解析可用；应避免概括成一方で不能连接并行事实。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0226",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "次回の会議中に説明する予定です。今後の方針については、次回の会議の（　）詳しくご説明いたします。",
+      "translation": "计划在下次会议中说明。今后的方针将在下次会议时详细说明。",
+      "tested_cards": [
+        "N2-G-0113"
+      ],
+      "conjugation": "名词の＋折に",
+      "options": {
+        "1": "折に",
+        "2": "せいで",
+        "3": "代わりに",
+        "4": "結果"
+      },
+      "correct_option": "1",
+      "correct_explanation": "会议之际进行说明，用折に。",
+      "option_explanations": {
+        "1": "正确：会议之际进行说明，用折に。",
+        "2": "错误：将会议视为负面原因，与此正式预告不符。",
+        "3": "错误：表示替代会议，与已说明是在会议中进行的计划矛盾。",
+        "4": "错误：会议结果并非说明发生的时间；次回表未来机会。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～折に",
+        "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-orini/",
+        "locator": "教学例句／词例：今後の方針については、次回の会議の折に詳しくご説明いたします。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/585358d1de64d9156422-b2daa5b09f16.md"
+        ],
+        "original_example": "今後の方針については、次回の会議の折に詳しくご説明いたします。",
+        "transformations": [
+          "挖空目标形式，保留原句；增加四选一选项。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。",
+          "第1轮修订：代わりに可解释替代会议，补明会议中说明",
+          "第1轮修订：补入次回の会議中に説明する予定です，排除代わりに替代会议的读法。"
+        ],
+        "answer_basis": "会议之际进行说明，用折に。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 正确：会议之际进行说明，用折に。",
+          "2. 错误：将会议视为负面原因，与此正式预告不符。",
+          "3. 错误：表示替代会议，与已说明是在会议中进行的计划矛盾。",
+          "4. 错误：会议结果并非说明发生的时间；次回表未来机会。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词の＋折に；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "正确：会议之际进行说明，用折に。；错误：将会议视为负面原因，与此正式预告不符。；错误：表示替代会议，与已说明是在会议中进行的计划矛盾。；错误：会议结果并非说明发生的时间；次回表未来机会。",
+        "unique_answer_rationale": "会议之际进行说明，用折に。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "answer": "1",
+          "confidence": 1,
+          "notes": "明确下次会议中说明，折に为之际；代わりに替代会议已由前文排除，せいで负面因果及結果结果均与预告会议时说明不合。；首次为严格盲答，本次是接触旧来源后的增量无答案复审。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "增量复审：NET缓存确有次回の会議の折に原句；增加会议中说明的事实约束、挖空及修订原因可追溯。代わりに替代会议读法现与前文明确冲突，负面原因与结果也不表达既定会议中说明。唯一解1；中文及四项解析正确。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0227",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "車とぶつかって私の自転車が壊れてしまったが、怪我がなかった（　）。",
+      "translation": "与车相撞，自行车坏了，但好在没有受伤。",
+      "tested_cards": [
+        "N2-G-0114"
+      ],
+      "conjugation": "普通形＋だけましだ",
+      "options": {
+        "1": "わけがない",
+        "2": "はずがない",
+        "3": "に違いない",
+        "4": "だけましだ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "虽然损失自行车，没受伤是其中值得庆幸的一点。",
+      "option_explanations": {
+        "1": "错误：否定没受伤的可能，不是庆幸幸免。",
+        "2": "错误：否定没受伤，与题干认定幸免相反。",
+        "3": "错误：强烈推断没受伤，不表达已知坏境况中的安慰评价。",
+        "4": "正确：虽然损失自行车，没受伤是其中值得庆幸的一点。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～だけまし",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-dakemashi/",
+        "locator": "教学例句／词例：車とぶつかって私の自転車が壊れてしまったが、怪我がなかっただけましだ。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/bf58bfbe76d2b3ea93fd-c56b988f4453.md"
+        ],
+        "original_example": "車とぶつかって私の自転車が壊れてしまったが、怪我がなかっただけましだ。",
+        "transformations": [
+          "挖空目标形式，保留原句；增加四选一选项。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "虽然损失自行车，没受伤是其中值得庆幸的一点。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：否定没受伤的可能，不是庆幸幸免。",
+          "2. 错误：否定没受伤，与题干认定幸免相反。",
+          "3. 错误：强烈推断没受伤，不表达已知坏境况中的安慰评价。",
+          "4. 正确：虽然损失自行车，没受伤是其中值得庆幸的一点。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋だけましだ；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：否定没受伤的可能，不是庆幸幸免。；错误：否定没受伤，与题干认定幸免相反。；错误：强烈推断没受伤，不表达已知坏境况中的安慰评价。；正确：虽然损失自行车，没受伤是其中值得庆幸的一点。",
+        "unique_answer_rationale": "虽然损失自行车，没受伤是其中值得庆幸的一点。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "4",
+          "confidence": 0.99,
+          "notes": "虽自行车损坏但没受伤是最低限度的幸运。1/2否定没受伤，3对已知亲身事实作推断突兀。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "来源事故例句完整存在。特别核查に違いない：在直接亲历事故且自行车已损坏的叙述中再推断自己当时未受伤，缺少认识上的依据与对照关系，明显不如だけましだ自然，未发现自然同等答案。四项解析均覆盖。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0228",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "残業代は全額支払われている。毎日毎日残業で大変だが、残業代が全て出る（　）。",
+      "translation": "每天加班很辛苦，但好在加班费全部发放。",
+      "tested_cards": [
+        "N2-G-0114"
+      ],
+      "conjugation": "普通形＋だけましだ",
+      "options": {
+        "1": "わけがない",
+        "2": "だけましだ",
+        "3": "はずがない",
+        "4": "とは限らない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "坏境况中还有全额加班费，算是较好的底线。",
+      "option_explanations": {
+        "1": "错误：否定发放，与把发放当安慰的语境相反。",
+        "2": "正确：坏境况中还有全额加班费，算是较好的底线。",
+        "3": "错误：否定发放可能，与语境相反。",
+        "4": "错误：表示未必全额发放，与前句已确认的全额发放事实矛盾。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～だけまし",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-dakemashi/",
+        "locator": "教学例句／词例：毎日毎日残業で大変だが、残業代が全て出るだけましだ。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/bf58bfbe76d2b3ea93fd-c56b988f4453.md"
+        ],
+        "original_example": "毎日毎日残業で大変だが、残業代が全て出るだけましだ。",
+        "transformations": [
+          "挖空目标形式，保留原句；增加四选一选项。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。",
+          "第1轮修订：盲审发现とは限らない也自然，补明加班费全付事实",
+          "第1轮修订：增加残業代は全額支払われている，明确全额发放的既知事实，排除とは限らない。"
+        ],
+        "answer_basis": "坏境况中还有全额加班费，算是较好的底线。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：否定发放，与把发放当安慰的语境相反。",
+          "2. 正确：坏境况中还有全额加班费，算是较好的底线。",
+          "3. 错误：否定发放可能，与语境相反。",
+          "4. 错误：表示未必全额发放，与前句已确认的全额发放事实矛盾。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋だけましだ；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：否定发放，与把发放当安慰的语境相反。；正确：坏境况中还有全额加班费，算是较好的底线。；错误：否定发放可能，与语境相反。；错误：表示未必全额发放，与前句已确认的全额发放事实矛盾。",
+        "unique_answer_rationale": "坏境况中还有全额加班费，算是较好的底线。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "2",
+          "confidence": 1,
+          "notes": "明确全额支付事实，排除否定支付的1/3和不保证全付的4；只有だけましだ表达最低限度的幸运。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "来源加班例句完整存在，增加全额支付事实可追溯；反问否定或未必支付均与事实不合，多解问题已消除。四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0229",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "住民から道路の改修を求められ、市はその要求に対応することにした。住民からの要請（　）、市は道路の改修工事を進めることを決定した。",
+      "translation": "居民要求修路，市政府回应请求，决定推进道路整修。",
+      "tested_cards": [
+        "N2-G-0115"
+      ],
+      "conjugation": "名词＋を受けて",
+      "options": {
+        "1": "に反して",
+        "2": "をよそに",
+        "3": "を受けて",
+        "4": "に先立って"
+      },
+      "correct_option": "3",
+      "correct_explanation": "承接请求后采取对应措施。",
+      "option_explanations": {
+        "1": "错误：违背请求，与改修满足请求矛盾。",
+        "2": "错误：置请求于不顾，与回应请求矛盾。",
+        "3": "正确：承接请求后采取对应措施。",
+        "4": "错误：请求已提出，不是在请求之前作决定。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "Iku老師日文",
+        "publisher": "Iku老師（页面自述东京出身、在台湾教学17年）",
+        "title": "N＋を受けて＋因應的措施",
+        "url": "https://jp.ikuchannel.com/grammar/pattern-wo-ukete",
+        "locator": "教学例句／词例：住民からの要請を受けて、市は道路の改修工事を進めることを決定した。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-115.md"
+        ],
+        "original_example": "住民からの要請を受けて、市は道路の改修工事を進めることを決定した。",
+        "transformations": [
+          "删除来源附加读音；补入请求内容与回应时间，排除违背、无视及事前关系。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "承接请求后采取对应措施。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：违背请求，与改修满足请求矛盾。",
+          "2. 错误：置请求于不顾，与回应请求矛盾。",
+          "3. 正确：承接请求后采取对应措施。",
+          "4. 错误：请求已提出，不是在请求之前作决定。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋を受けて；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：违背请求，与改修满足请求矛盾。；错误：置请求于不顾，与回应请求矛盾。；正确：承接请求后采取对应措施。；错误：请求已提出，不是在请求之前作决定。",
+        "unique_answer_rationale": "承接请求后采取对应措施。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "3",
+          "confidence": 1,
+          "notes": "明确因应居民要求，用を受けて；1反意愿、2无视、4事先均与已提出且回应相冲突。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "115页公告及例句中存在原句。人工去读音准确：住民じゅうみん、要請ようせい、受う、道路どうろ、改修工事かいしゅうこうじ、進すす、決定けってい逐一还原为住民/要請/受けて/道路/改修工事/進める/決定した；未误删送り仮名。补充请求内容与回应事实锁定唯一解。仅采用实际自然例句，不沿用来源『个人绝不能用』等过度绝对化讲解。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0230",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "利用者から営業時間を延ばしてほしいという声が寄せられた。その声に対応するため、利用者の声（　）、営業時間を延長することにした。",
+      "translation": "用户提出延长营业时间的意见，店方回应意见决定延长。",
+      "tested_cards": [
+        "N2-G-0115"
+      ],
+      "conjugation": "名词＋を受けて",
+      "options": {
+        "1": "を受けて",
+        "2": "に反して",
+        "3": "をよそに",
+        "4": "に先立って"
+      },
+      "correct_option": "1",
+      "correct_explanation": "意见到来后采取对应措施，用を受けて。",
+      "option_explanations": {
+        "1": "正确：意见到来后采取对应措施，用を受けて。",
+        "2": "错误：延长营业时间符合请求，没有违背。",
+        "3": "错误：题干明确回应请求，不是无视。",
+        "4": "错误：先有意见后有决定，不是在意见之前。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "Iku老師日文",
+        "publisher": "Iku老師（页面自述东京出身、在台湾教学17年）",
+        "title": "N＋を受けて＋因應的措施",
+        "url": "https://jp.ikuchannel.com/grammar/pattern-wo-ukete",
+        "locator": "教学例句／词例：利用者の声を受けて、営業時間を延長することにした。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-115.md"
+        ],
+        "original_example": "利用者の声を受けて、営業時間を延長することにした。",
+        "transformations": [
+          "补入意见具体内容和回应目的；删除来源读音，挖空を受けて。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "意见到来后采取对应措施，用を受けて。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 正确：意见到来后采取对应措施，用を受けて。",
+          "2. 错误：延长营业时间符合请求，没有违背。",
+          "3. 错误：题干明确回应请求，不是无视。",
+          "4. 错误：先有意见后有决定，不是在意见之前。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋を受けて；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "正确：意见到来后采取对应措施，用を受けて。；错误：延长营业时间符合请求，没有违背。；错误：题干明确回应请求，不是无视。；错误：先有意见后有决定，不是在意见之前。",
+        "unique_answer_rationale": "意见到来后采取对应措施，用を受けて。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "1",
+          "confidence": 1,
+          "notes": "明确为回应声音延长营业，用を受けて；反对、无视、先于均与前文不合。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "115页用法①第二例确有利用者的声及延长营业句。人工去读音正确保留利用者の声を受けて、営業時間を延長することにした。补充呼声内容及回应目的可追溯；四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0231",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【失敗を繰り返すたびに成長する、という変化を述べる】人は失敗する（　）成長していくものだ。",
+      "translation": "人每经历一次失败，就会有所成长。",
+      "tested_cards": [
+        "N2-G-0116"
+      ],
+      "conjugation": "动词辞书形＋ごとに",
+      "options": {
+        "1": "だけに",
+        "2": "ごとに",
+        "3": "最中に",
+        "4": "前に"
+      },
+      "correct_option": "2",
+      "correct_explanation": "每失败一次就成长，表示逐次变化。",
+      "option_explanations": {
+        "1": "错误：だけに可以强调正因为失败而成长，但不能表达题目指定的每次失败都发生的逐次变化。",
+        "2": "正确：每失败一次就成长，表示逐次变化。",
+        "3": "错误：最中に指某一次过程正在进行之中，不表示逐次增长。",
+        "4": "错误：前に说失败前成长，与每次经历后成长的语义相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～ごとに",
+        "url": "https://nihongokyoshi-net.com/2020/01/21/jlptn3-grammar-gotoni/",
+        "locator": "教学例句／词例：人は失敗するごとに成長していくものだ。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/3e6bb58e8ac1a72ffefa-cf53921cdfe2.md"
+        ],
+        "original_example": "人は失敗するごとに成長していくものだ。",
+        "transformations": [
+          "挖空目标形式，保留原句；增加四选一选项。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。",
+          "第1轮修订：盲审发现だけに因果解释，明确逐次变化表达意图",
+          "第1轮修订：明确要求逐次变化表达，排除だけに仅强调因果的解释。"
+        ],
+        "answer_basis": "每失败一次就成长，表示逐次变化。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：だけに可以强调正因为失败而成长，但不能表达题目指定的每次失败都发生的逐次变化。",
+          "2. 正确：每失败一次就成长，表示逐次变化。",
+          "3. 错误：最中に指某一次过程正在进行之中，不表示逐次增长。",
+          "4. 错误：前に说失败前成长，与每次经历后成长的语义相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋ごとに；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：だけに可以强调正因为失败而成长，但不能表达题目指定的每次失败都发生的逐次变化。；正确：每失败一次就成长，表示逐次变化。；错误：最中に指某一次过程正在进行之中，不表示逐次增长。；错误：前に说失败前成长，与每次经历后成长的语义相反。",
+        "unique_answer_rationale": "每失败一次就成长，表示逐次变化。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "2",
+          "confidence": 1,
+          "notes": "明确每次失败的反复变化，ごとに符合。だけに为原因而非每次发生，最中に与前に均不合指定意义。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "NET原句完整存在，辞书形接ごとに真实。明确反复逐次变化后，だけに仅因果读法被排除；修订记录及四项解析准确。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0232",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【服用時刻は午前６時、正午、午後６時、午前０時です】この薬は、６時間（　）１錠飲んでください。",
+      "translation": "【服药时间为6点、12点、18点、0点】请每隔六小时服用一片。",
+      "tested_cards": [
+        "N2-G-0116"
+      ],
+      "conjugation": "数量词＋おきに",
+      "options": {
+        "1": "以内に",
+        "2": "までに",
+        "3": "ぶりに",
+        "4": "おきに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "四个时刻依次相隔六小时，用おきに。",
+      "option_explanations": {
+        "1": "错误：以内仅规定上限，不规定各次固定间隔。",
+        "2": "错误：まで仅规定期限，不规定连续间隔。",
+        "3": "错误：ぶり表示隔一段时间再做，不是这个连续服药指示。",
+        "4": "正确：四个时刻依次相隔六小时，用おきに。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格沿用既有缓存证据）",
+        "title": "～おきに",
+        "url": "https://nihongokyoshi-net.com/2020/01/22/jlptn3-grammar-okini/",
+        "locator": "教学例句／词例：この薬は、６時間おきに１錠飲んでください。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/181448ab112782a5b27a-bd4d7ed85860.md"
+        ],
+        "original_example": "この薬は、６時間おきに１錠飲んでください。",
+        "transformations": [
+          "补入明确服药时刻；挖空おきに；不以可互换的ごとに作干扰项。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "四个时刻依次相隔六小时，用おきに。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：以内仅规定上限，不规定各次固定间隔。",
+          "2. 错误：まで仅规定期限，不规定连续间隔。",
+          "3. 错误：ぶり表示隔一段时间再做，不是这个连续服药指示。",
+          "4. 正确：四个时刻依次相隔六小时，用おきに。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "数量词＋おきに；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：以内仅规定上限，不规定各次固定间隔。；错误：まで仅规定期限，不规定连续间隔。；错误：ぶり表示隔一段时间再做，不是这个连续服药指示。；正确：四个时刻依次相隔六小时，用おきに。",
+        "unique_answer_rationale": "四个时刻依次相隔六小时，用おきに。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "4",
+          "confidence": 1,
+          "notes": "明确连续六小时间隔用おきに；以内に/までに是期限，ぶりに是长时间后再次发生，不能说明列出的定时重复。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "NET六小时服药例句存在；增加四个时点固定六小时可追溯，且避免ごとに作干扰项，解析没有不当推广日数规则。唯一解成立。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0233",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【肯定的な見通しを、断定を避けて述べる】読書の機会を増やすことで、より豊かな思考力が育まれる（　）。",
+      "translation": "【委婉表达肯定的展望】增加阅读机会，或许能培养更丰富的思考能力。",
+      "tested_cards": [
+        "N2-G-0117"
+      ],
+      "conjugation": "普通形＋のではないだろうか",
+      "options": {
+        "1": "わけがない",
+        "2": "に決まっている",
+        "3": "ものではない",
+        "4": "のではないだろうか"
+      },
+      "correct_option": "4",
+      "correct_explanation": "反问形式委婉表达认为能够培养的判断。",
+      "option_explanations": {
+        "1": "错误：强烈否定可能性，与肯定展望相反。",
+        "2": "错误：强烈断定，与断定を避けて不符。",
+        "3": "错误：表达否定或不应如此，不是委婉肯定展望。",
+        "4": "正确：反问形式委婉表达认为能够培养的判断。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "EduJapa!",
+        "publisher": "EduJapa!／Mikke! 日本语教学资源",
+        "title": "〜のではないだろうか JLPT N2",
+        "url": "https://edujapa.com/mikke/level/5/nodehanaidarouka/",
+        "locator": "教学例句／词例：読書の機会を増やすことで、より豊かな思考力が育まれるのではないだろうか。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-117.md"
+        ],
+        "original_example": "読書の機会を増やすことで、より豊かな思考力が育まれるのではないだろうか。",
+        "transformations": [
+          "加入表达意图，排除否定和强断定；挖空句末。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "反问形式委婉表达认为能够培养的判断。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：强烈否定可能性，与肯定展望相反。",
+          "2. 错误：强烈断定，与断定を避けて不符。",
+          "3. 错误：表达否定或不应如此，不是委婉肯定展望。",
+          "4. 正确：反问形式委婉表达认为能够培养的判断。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋のではないだろうか；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：强烈否定可能性，与肯定展望相反。；错误：强烈断定，与断定を避けて不符。；错误：表达否定或不应如此，不是委婉肯定展望。；正确：反问形式委婉表达认为能够培养的判断。",
+        "unique_answer_rationale": "反问形式委婉表达认为能够培养的判断。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "4",
+          "confidence": 1,
+          "notes": "のではないだろうか为保留断言的肯定推测。2同样是肯定但断定过强，1/3否定。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "117页例文确有读书培养思考力句，意义明确为避免断定委婉意见；挖空及表达意图有记录，全部选项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0234",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【「今が頑張りどきだと思う」という意見を柔らかく述べる】頑張りどきは、今（　）。",
+      "translation": "【委婉说出我认为现在正是努力的时候】现在或许正是努力的时候。",
+      "tested_cards": [
+        "N2-G-0117"
+      ],
+      "conjugation": "名词＋なのではないだろうか",
+      "options": {
+        "1": "に決まっている",
+        "2": "なのではないだろうか",
+        "3": "ではあり得ない",
+        "4": "であるはずがない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "名词接なのではないだろうか，表达委婉的肯定意见。",
+      "option_explanations": {
+        "1": "错误：强断定，违反柔らかく的要求。",
+        "2": "正确：名词接なのではないだろうか，表达委婉的肯定意见。",
+        "3": "错误：否定现在为努力时机，与给定意见相反。",
+        "4": "错误：否定该时机的可能，与给定意见相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "EduJapa!",
+        "publisher": "EduJapa!／Mikke! 日本语教学资源",
+        "title": "〜のではないだろうか JLPT N2",
+        "url": "https://edujapa.com/mikke/level/5/nodehanaidarouka/",
+        "locator": "教学例句／词例：頑張りどきは、今なのではないだろうか。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-117.md"
+        ],
+        "original_example": "頑張りどきは、今なのではないだろうか。",
+        "transformations": [
+          "加入给定肯定意见与表达语气要求，整段句末挖空。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "名词接なのではないだろうか，表达委婉的肯定意见。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：强断定，违反柔らかく的要求。",
+          "2. 正确：名词接なのではないだろうか，表达委婉的肯定意见。",
+          "3. 错误：否定现在为努力时机，与给定意见相反。",
+          "4. 错误：否定该时机的可能，与给定意见相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋なのではないだろうか；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：强断定，违反柔らかく的要求。；正确：名词接なのではないだろうか，表达委婉的肯定意见。；错误：否定现在为努力时机，与给定意见相反。；错误：否定该时机的可能，与给定意见相反。",
+        "unique_answer_rationale": "名词接なのではないだろうか，表达委婉的肯定意见。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "2",
+          "confidence": 1,
+          "notes": "名词今接なのではないだろうか委婉提出见解。1断言，3/4否定今。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "117页N接续明确用今なのではないだろうか；原句存在，柔和肯定意见限定排除其他项，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0235",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【会話で「この機械は」と話題を提示する】この機械（　）、何を作るためのものですか？",
+      "translation": "【口语提示话题】这台机器是用来做什么的？",
+      "tested_cards": [
+        "N2-G-0118"
+      ],
+      "conjugation": "名词＋って（主題）",
+      "options": {
+        "1": "って",
+        "2": "だけ",
+        "3": "まで",
+        "4": "さえ"
+      },
+      "correct_option": "1",
+      "correct_explanation": "って口语提示主題，相当于は。",
+      "option_explanations": {
+        "1": "正确：って口语提示主題，相当于は。",
+        "2": "错误：だけ限制为只有这台机器，增加原句没有的限定。",
+        "3": "错误：まで突出连这台机器也包括在内，不是单纯主題。",
+        "4": "错误：さえ突出连这台机器也如此，不是单纯主題。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ／むきえび",
+        "title": "主題を表す「って」の例文・文法解説",
+        "url": "https://japanese-language-education.com/for-overseas-learners/tte-shudai/",
+        "locator": "教学例句／词例：この機械って、何を作るためのものですか？",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-118.md"
+        ],
+        "original_example": "この機械って、何を作るためのものですか？",
+        "transformations": [
+          "增加话题提示而不带限定强调的功能要求；挖空って。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "って口语提示主題，相当于は。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 正确：って口语提示主題，相当于は。",
+          "2. 错误：だけ限制为只有这台机器，增加原句没有的限定。",
+          "3. 错误：まで突出连这台机器也包括在内，不是单纯主題。",
+          "4. 错误：さえ突出连这台机器也如此，不是单纯主題。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋って（主題）；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "正确：って口语提示主題，相当于は。；错误：だけ限制为只有这台机器，增加原句没有的限定。；错误：まで突出连这台机器也包括在内，不是单纯主題。；错误：さえ突出连这台机器也如此，不是单纯主題。",
+        "unique_answer_rationale": "って口语提示主題，相当于は。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "1",
+          "confidence": 1,
+          "notes": "って是会话话题提示；其他提示限制、极端范围或举例，且没有は/が时不能完成目标含义。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "118页主題意义开头确有この機械って例句，明确可替换は/というのは，名词接续准确。未使用该页混入的必要だって初めて聞きました引用例；四项解释及唯一解成立。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0236",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【会話で「仕事をするというのは」と話題を提示する】仕事をする（　）、大変ですね。",
+      "translation": "【口语提示话题】工作可真不容易啊。",
+      "tested_cards": [
+        "N2-G-0118"
+      ],
+      "conjugation": "动词辞书形＋って（主題）",
+      "options": {
+        "1": "からには",
+        "2": "ために",
+        "3": "って",
+        "4": "にしては"
+      },
+      "correct_option": "3",
+      "correct_explanation": "以工作这件事为主題，口语用って。",
+      "option_explanations": {
+        "1": "错误：からには引出既然做就应承担的义务，不只是提示工作话题。",
+        "2": "错误：ために是目的或原因，不能承担给定话题提示。",
+        "3": "正确：以工作这件事为主題，口语用って。",
+        "4": "错误：にしては作基准与评价的反差比较，不是给定话题提示。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語教育ナビ",
+        "publisher": "日本語教育ナビ／むきえび",
+        "title": "主題を表す「って」の例文・文法解説",
+        "url": "https://japanese-language-education.com/for-overseas-learners/tte-shudai/",
+        "locator": "教学例句／词例：仕事をするって、大変ですね。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-118.md"
+        ],
+        "original_example": "仕事をするって、大変ですね。",
+        "transformations": [
+          "明确等价话题提示功能；挖空って，保留感叹评价。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "以工作这件事为主題，口语用って。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：からには引出既然做就应承担的义务，不只是提示工作话题。",
+          "2. 错误：ために是目的或原因，不能承担给定话题提示。",
+          "3. 正确：以工作这件事为主題，口语用って。",
+          "4. 错误：にしては作基准与评价的反差比较，不是给定话题提示。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋って（主題）；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：からには引出既然做就应承担的义务，不只是提示工作话题。；错误：ために是目的或原因，不能承担给定话题提示。；正确：以工作这件事为主題，口语用って。；错误：にしては作基准与评价的反差比较，不是给定话题提示。",
+        "unique_answer_rationale": "以工作这件事为主題，口语用って。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "3",
+          "confidence": 1,
+          "notes": "动词普通形＋って提示做工作这个话题。からには责任义务、ために目的、にしては反预期比较，不表达指定话题功能。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "118页主題意义开头确有仕事をするって，大変ですね。采用该明示主題例而非引用例；辞书形接续与转换意图明确，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0237",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【何度も誘う相手に、いら立って自分の発言を強調する】「だから今、忙しい（　）！」",
+      "translation": "【对反复邀约的人不耐烦地强调】都说了我现在很忙！",
+      "tested_cards": [
+        "N2-G-0119"
+      ],
+      "conjugation": "普通形＋って（句末强调）",
+      "options": {
+        "1": "っけ",
+        "2": "らしい",
+        "3": "とか",
+        "4": "って"
+      },
+      "correct_option": "4",
+      "correct_explanation": "句末って重复强调自己的发言，含烦躁。",
+      "option_explanations": {
+        "1": "错误：っけ回想自己不确定的事情，不是坚持自己说过的话。",
+        "2": "错误：らしい依据外部迹象推测，不是强调自己当前状态。",
+        "3": "错误：とか模糊引用或列举，不承担这里明确而烦躁的主张。",
+        "4": "正确：句末って重复强调自己的发言，含烦躁。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "Maggie Sensei",
+        "publisher": "Maggie Sensei（日语教学网站、教师正文及答疑）",
+        "title": "Direct & Indirect speech ＆って",
+        "url": "https://maggiesensei.com/2012/05/07/direct-indirect-speech-%EF%BC%86%E3%81%A3%E3%81%A6tte/",
+        "locator": "教学例句／词例：だから今、忙しいって",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-119.md"
+        ],
+        "original_example": "だから今、忙しいって",
+        "transformations": [
+          "补入反复邀约和强调自己发言的题境；挖空句末って。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "句末って重复强调自己的发言，含烦躁。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：っけ回想自己不确定的事情，不是坚持自己说过的话。",
+          "2. 错误：らしい依据外部迹象推测，不是强调自己当前状态。",
+          "3. 错误：とか模糊引用或列举，不承担这里明确而烦躁的主张。",
+          "4. 正确：句末って重复强调自己的发言，含烦躁。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋って（句末强调）；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：っけ回想自己不确定的事情，不是坚持自己说过的话。；错误：らしい依据外部迹象推测，不是强调自己当前状态。；错误：とか模糊引用或列举，不承担这里明确而烦躁的主张。；正确：句末って重复强调自己的发言，含烦躁。",
+        "unique_answer_rationale": "句末って重复强调自己的发言，含烦躁。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "4",
+          "confidence": 1,
+          "notes": "句末って强调反复告知忙碌；っけ回忆，らしい推测传闻，とか传闻不定，不符合自己愤怒强调。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "119摘录明确强调自己的话和焦躁，だから今、忙しいって真实存在，新增反复邀约可追溯，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0238",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "A：「明日の公演は中止になりました。」\nB：【今の発言に驚き、丁寧に聞き返す】「なん（　）？」",
+      "translation": "A：明天的演出取消了。B：【惊讶地礼貌反问】您说什么？",
+      "tested_cards": [
+        "N2-G-0119"
+      ],
+      "conjugation": "なん＋ですって？（礼貌听后反问）",
+      "options": {
+        "1": "ですって",
+        "2": "だっけ",
+        "3": "でもない",
+        "4": "だったかな"
+      },
+      "correct_option": "1",
+      "correct_explanation": "ですって？礼貌地对刚听到的发言反问。",
+      "option_explanations": {
+        "1": "正确：ですって？礼貌地对刚听到的发言反问。",
+        "2": "错误：だっけ用于回忆，且不是要求的礼貌反问。",
+        "3": "错误：なんでもない表示没什么，不是反问。",
+        "4": "错误：だったかな回忆过去且不是礼貌体，不符合题意。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "Maggie Sensei",
+        "publisher": "Maggie Sensei（日语教学网站、教师正文及答疑）",
+        "title": "Direct & Indirect speech ＆って",
+        "url": "https://maggiesensei.com/2012/05/07/direct-indirect-speech-%EF%BC%86%E3%81%A3%E3%81%A6tte/",
+        "locator": "教学例句／词例：なんですって？",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-119.md"
+        ],
+        "original_example": "なんですって？",
+        "transformations": [
+          "依据教师答疑礼貌反问例语，增加演出取消消息及反问意图；保留なんですって的形式。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "ですって？礼貌地对刚听到的发言反问。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 正确：ですって？礼貌地对刚听到的发言反问。",
+          "2. 错误：だっけ用于回忆，且不是要求的礼貌反问。",
+          "3. 错误：なんでもない表示没什么，不是反问。",
+          "4. 错误：だったかな回忆过去且不是礼貌体，不符合题意。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "なん＋ですって？（礼貌听后反问）；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "正确：ですって？礼貌地对刚听到的发言反问。；错误：だっけ用于回忆，且不是要求的礼貌反问。；错误：なんでもない表示没什么，不是反问。；错误：だったかな回忆过去且不是礼貌体，不符合题意。",
+        "unique_answer_rationale": "ですって？礼貌地对刚听到的发言反问。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "1",
+          "confidence": 1,
+          "notes": "なんですって为惊讶礼貌反问。2/4回忆且不礼貌，3构成なんでもない否认，与当前反问不符。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "119教师答疑replytocom=73713确有礼貌形式なんですって及惊讶听后反问说明；新增取消公演情境可追溯，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0239",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "何があっても最後まで続けると決めた。何があっても諦め（　）。",
+      "translation": "已经决定坚持到底；无论发生什么都绝不放弃。",
+      "tested_cards": [
+        "N2-G-0120"
+      ],
+      "conjugation": "动词ます形词干＋はしない",
+      "options": {
+        "1": "てしまう",
+        "2": "ざるを得ない",
+        "3": "はしない",
+        "4": "るしかない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "はしない强调坚决不放弃。",
+      "option_explanations": {
+        "1": "错误：表示最终放弃，与坚持到底相反。",
+        "2": "错误：表示不得不放弃，与决心相反。",
+        "3": "正确：はしない强调坚决不放弃。",
+        "4": "错误：表示只能放弃，与坚持决心相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "Maggie Sensei",
+        "publisher": "Maggie Sensei（日语教学网站、教师正文及答疑）",
+        "title": "Verb →Noun : 〜はしない & 〜もしない & 〜やしない",
+        "url": "https://maggiesensei.com/2017/06/26/verb-%E2%86%92noun-%E3%80%9C%E3%81%AF%E3%81%97%E3%81%AA%E3%81%84-%E3%80%9C%E3%82%82%E3%81%97%E3%81%AA%E3%81%84-%E3%80%9C%E3%82%84%E3%81%97%E3%81%AA%E3%81%84-wa-shinai-mo-shinai-y/",
+        "locator": "教学例句／词例：何があっても諦めはしない。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-120.md"
+        ],
+        "original_example": "何があっても諦めはしない。",
+        "transformations": [
+          "补入坚持到底的决心锁定否定意志；挖空はしない。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。"
+        ],
+        "answer_basis": "はしない强调坚决不放弃。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：表示最终放弃，与坚持到底相反。",
+          "2. 错误：表示不得不放弃，与决心相反。",
+          "3. 正确：はしない强调坚决不放弃。",
+          "4. 错误：表示只能放弃，与坚持决心相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます形词干＋はしない；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：表示最终放弃，与坚持到底相反。；错误：表示不得不放弃，与决心相反。；正确：はしない强调坚决不放弃。；错误：表示只能放弃，与坚持决心相反。",
+        "unique_answer_rationale": "はしない强调坚决不放弃。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "3",
+          "confidence": 1,
+          "notes": "諦めはしない强烈否定放弃，其余全为放弃，与继续到底的明确决定相冲突。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "120页明确强烈不做某事意志，确有何があっても諦めはしない；新增坚持到底决定可追溯。词干＋はしない接续、四项解析和唯一解均成立。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0240",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "【それぞれ、後半でその点を否定する】「報告書を受け取りはしたが、まだ確認し（　）」「ゲームが好きだけど、うま（　）」の順に入る組み合わせはどれか。",
+      "translation": "【后半句分别否定这一点】报告收到了，但还没有确认；喜欢游戏，但玩得不擅长。",
+      "tested_cards": [
+        "N2-G-0120"
+      ],
+      "conjugation": "动词て形＋はいない／い形容词词干＋くはない",
+      "options": {
+        "1": "てはいる／くはある",
+        "2": "てはいない／くはない",
+        "3": "てはいる／くはない",
+        "4": "てはいない／くはある"
+      },
+      "correct_option": "2",
+      "correct_explanation": "分别否定确认状态及熟练程度，与收到、喜欢形成对比。",
+      "option_explanations": {
+        "1": "错误：两项都是肯定，与后半否定要求相反。",
+        "2": "正确：分别否定确认状态及熟练程度，与收到、喜欢形成对比。",
+        "3": "错误：第一项肯定确认，违背第一句否定要求。",
+        "4": "错误：第二项肯定熟练，违背第二句否定要求。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "時雨の町",
+        "publisher": "時雨の町（日语教学网站）",
+        "title": "「～くない」和「～くはない」的差別",
+        "url": "https://www.sigure.tw/learn-japanese/mix/difference/kunai-kuhanai",
+        "locator": "教学例句／词例：報告書を受け取りはしたが、まだ確認してはいない。／ゲームが好きだけど、上手くはない。",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/source-120b.md"
+        ],
+        "original_example": "報告書を受け取りはしたが、まだ確認してはいない。／ゲームが好きだけど、上手くはない。",
+        "transformations": [
+          "合并同页两个自然例句；删除假名标注；两空配对选择，明确对比否定功能。",
+          "设置三个真实形式的干扰项，逐项记录排除依据。",
+          "第1轮修订：盲审建议用うま明确上手く的读法",
+          "第1轮修订：上手改写为うま，明确原例句上手く的读法。"
+        ],
+        "answer_basis": "分别否定确认状态及熟练程度，与收到、喜欢形成对比。；对应直接教学来源与目标卡。",
+        "distractor_basis": [
+          "1. 错误：两项都是肯定，与后半否定要求相反。",
+          "2. 正确：分别否定确认状态及熟练程度，与收到、喜欢形成对比。",
+          "3. 错误：第一项肯定确认，违背第一句否定要求。",
+          "4. 错误：第二项肯定熟练，违背第二句否定要求。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋はいない／い形容词词干＋くはない；逐一代入检查真实形式及对应位置。",
+        "semantic_exclusion": "错误：两项都是肯定，与后半否定要求相反。；正确：分别否定确认状态及熟练程度，与收到、喜欢形成对比。；错误：第一项肯定确认，违背第一句否定要求。；错误：第二项肯定熟练，违背第二句否定要求。",
+        "unique_answer_rationale": "分别否定确认状态及熟练程度，与收到、喜欢形成对比。；题境及逐项解析排除其他选项。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:19:30+08:00",
+          "answer": "2",
+          "confidence": 1,
+          "notes": "确认行为否定为確認してはいない，い形容词うまい的否定为うまくはない，其他至少一项为肯定。；第8、11、20题修改后逐题重盲答，其他题沿用首次结果。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review_111120",
+          "reviewed_at": "2026-10-01T21:23:57+08:00",
+          "notes": "120b页确有报告未确认及喜欢游戏不擅长两句。逐字去括号读音准确，且来源明确标上手（うま）く，改うま有直接证据。てはいない/くはない为对比否定，合并、限定否定及读法修订可追溯；四项解析成立。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-10-01T21:04:28+08:00",
+        "ended_at": "2026-10-01T21:05:47+08:00",
+        "duration_seconds": 79.423,
+        "metrics": {}
+      },
+      {
+        "name": "search",
+        "started_at": "2026-10-01T21:05:47+08:00",
+        "ended_at": "2026-10-01T21:07:32+08:00",
+        "duration_seconds": 105.412,
+        "metrics": {
+          "calls": 16
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-01T21:07:32+08:00",
+        "ended_at": "2026-10-01T21:14:40+08:00",
+        "duration_seconds": 428.55,
+        "metrics": {
+          "adopted_pages": 13,
+          "calls": 20
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-01T21:14:40+08:00",
+        "ended_at": "2026-10-01T21:14:56+08:00",
+        "duration_seconds": 16.697,
+        "metrics": {}
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T21:14:57+08:00",
+        "ended_at": "2026-10-01T21:14:57+08:00",
+        "duration_seconds": 0.032,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-01T21:14:56+08:00",
+        "ended_at": "2026-10-01T21:14:57+08:00",
+        "duration_seconds": 1.343,
+        "metrics": {}
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T21:18:09+08:00",
+        "ended_at": "2026-10-01T21:19:29+08:00",
+        "duration_seconds": 80.897,
+        "metrics": {
+          "revised_questions": 3
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T21:21:01+08:00",
+        "ended_at": "2026-10-01T21:23:58+08:00",
+        "duration_seconds": 177.093,
+        "metrics": {
+          "revised_questions": 2
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-01T21:14:57+08:00",
+        "ended_at": "2026-10-01T21:23:58+08:00",
+        "duration_seconds": 541.416,
+        "metrics": {
+          "first_blind_questions": 20,
+          "changed_questions": 5
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T21:23:59+08:00",
+        "ended_at": "2026-10-01T21:23:59+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T21:23:58+08:00",
+        "ended_at": "2026-10-01T21:24:15+08:00",
+        "duration_seconds": 17.665,
+        "metrics": {}
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-01T21:24:15+08:00",
+        "ended_at": "2026-10-01T21:24:26+08:00",
+        "duration_seconds": 11.933,
+        "metrics": {}
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0228",
+        "revision": 2,
+        "reason": "盲审发现とは限らない也自然，补明加班费全付事实",
+        "at": "2026-10-01T21:18:09+08:00"
+      },
+      {
+        "question_id": "N2-Q-0231",
+        "revision": 2,
+        "reason": "盲审发现だけに因果解释，明确逐次变化表达意图",
+        "at": "2026-10-01T21:18:10+08:00"
+      },
+      {
+        "question_id": "N2-Q-0240",
+        "revision": 2,
+        "reason": "盲审建议用うま明确上手く的读法",
+        "at": "2026-10-01T21:18:10+08:00"
+      },
+      {
+        "question_id": "N2-Q-0221",
+        "revision": 2,
+        "reason": "来源复核要求消除反事实条件对解析的干扰，换同页非条件险情例句",
+        "at": "2026-10-01T21:21:01+08:00"
+      },
+      {
+        "question_id": "N2-Q-0226",
+        "revision": 2,
+        "reason": "代わりに可解释替代会议，补明会议中说明",
+        "at": "2026-10-01T21:21:01+08:00"
+      }
+    ],
+    "active_phases": {},
+    "source_policy": "沿用学习者允许缺口补用其他日语教育网站的授权；111、113、114、116采用日本語NET；112、115、117—120补用直接教学页。全部为明确标识的例句派生题。",
+    "selection_timing_note": "selection计时不含上一上下文的前置阅读和本轮首次规则复读。search的最初3次查询在selection阶段内完成，阶段计时按实际记录，不冒充严格串行耗时。",
+    "research_counts": {
+      "search_calls": 16,
+      "scrape_calls": 20,
+      "adopted_pages": 13,
+      "net_pages": 5,
+      "supplement_pages": 8,
+      "initial_cache_hits": 0,
+      "feedback": "未提交搜索反馈；不把反馈记为已完成。"
+    },
+    "blind_review_evidence": [
+      ".firecrawl/blind-111120.json",
+      ".firecrawl/reblind-111120.json"
+    ],
+    "explanation_corrections": [
+      {
+        "number": 2,
+        "revision": 1,
+        "note": "题干和选项未变；按来源复核修正反事实解释及中文翻译，不重复盲答，须复核解析。"
+      }
+    ],
+    "independent_review_summary": "20题首次严格盲答；8/11/20题先复盲再看来源；1/6题在来源反馈后增量无答案复审，审题者已接触旧来源，明确记录此限制。全部题最终来源复核通过。",
+    "validation_report": "quizzes/sources/2026-10-01-n2-lessons-111-120-test-1/validation-report.md",
+    "validation_results": {
+      "pipeline_final": "passed",
+      "quiz": "0 errors, 0 warnings",
+      "links": "passed",
+      "cache": "134 pages verified",
+      "pipeline_tests": "6 passed",
+      "git_diff_check": "passed",
+      "git_commit": "not requested; not executed"
+    }
+  }
+}
