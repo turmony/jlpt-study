@@ -1314,6 +1314,150 @@
       "locator": "Question 3・Answer",
       "evidence_path": "quizzes/sources/cache/38c9a0314d9ff192e3a7-a5e691fcbc32.md",
       "content_sha256": "a5e691fcbc32370c68c641f9daff38b358bce22a7da8aef2d8bd71ab59752e1a"
+    },
+    "e5700dc32dc3095fa978": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-kamawazu/",
+      "title": "【JLPT N２】文法・例文：〜もかまわず",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0081"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/e5700dc32dc3095fa978-8fa6045d9809.md",
+      "content_sha256": "8fa6045d980911ac1e276b329e2f9b784328fd36d75f6c54766f8aec4b847985"
+    },
+    "aa3b1798581931f9b648": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-monogaaru/",
+      "title": "【JLPT N２】文法・例文：〜ものがある",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0082"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/aa3b1798581931f9b648-b30b02f122cb.md",
+      "content_sha256": "b30b02f122cb1b8d37df13f91cc569b02df97d7c54fe518c988e137eb4068e69"
+    },
+    "69f02b94cee24d8d87cc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/09/11/jlptn2-grammar-monoda/",
+      "title": "【JLPT N２】文法・例文：〜ものだ（当然 / 忠告・義務）",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0083"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/69f02b94cee24d8d87cc-c433a737efa5.md",
+      "content_sha256": "c433a737efa569c2faa77774dc691423ab14a53999efa1917435285e41f33187"
+    },
+    "f9d9773f7d0d8706df6f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-monoda-kangai/",
+      "title": "【JLPT N２】文法・例文：ものだ（感慨）",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0084"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/f9d9773f7d0d8706df6f-985a6944d084.md",
+      "content_sha256": "985a6944d084e3e56c584bb2bc6024275c4622709959f1e8fe123a602d634de9"
+    },
+    "9c143ec7612f212a0c26": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/27/jlptn3-grammar-monoda/",
+      "title": "【JLPT N3】文法・例文：〜たものだ",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0084"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/9c143ec7612f212a0c26-8d930629129b.md",
+      "content_sha256": "8d930629129b8e460c32b482b122d9cf8fb5767d4683e56962c592f0bda78795"
+    },
+    "9dda306283b6cd195403": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/10/13/jlptn2-grammar-mononara/",
+      "title": "【JLPT N２】文法・例文：〜ものなら",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0085"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/9dda306283b6cd195403-de0c4e3ad033.md",
+      "content_sha256": "de0c4e3ad033e3e2adfa44323451dda11214c02262568a08af81f5d178a12def"
+    },
+    "7bdf5ad42ab7a19f6709": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/25/jlptn2-grammar-youmononara/",
+      "title": "【JLPT N２】文法・例文：〜ようものなら",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0087"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/7bdf5ad42ab7a19f6709-d911a17ac5a1.md",
+      "content_sha256": "d911a17ac5a1deed070a9fc7a3e042d4b6b4f72814b4e66e153b3e48ecb430d4"
+    },
+    "379b492466d7782246d0": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/13/jlptn2-grammar-monono/",
+      "title": "【JLPT N2】文法・例文：〜ものの",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0088"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/379b492466d7782246d0-80891efbf387.md",
+      "content_sha256": "80891efbf38716233e6d76ea3567acd4b3a03d25951d871f0555d7e4e698564d"
+    },
+    "2f55c21e461738332955": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/19/jlptn2-grammar-yara-yara/",
+      "title": "【JLPT N2】文法・例文：〜やら〜やら",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0089"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/2f55c21e461738332955-637c0a92488c.md",
+      "content_sha256": "637c0a92488ca1c80df0593c407083d2f92b7d0f92acb7fade473391bde3ff9f"
+    },
+    "1bc4633acbfd75ea7686": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/14/jlptn3-grammar-yooganai/",
+      "title": "【JLPT N３】文法・例文：〜ようがない / 〜ようもない",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0090"
+      ],
+      "locator": "文型说明及例文区",
+      "evidence_path": "quizzes/sources/cache/1bc4633acbfd75ea7686-7aa33a81f245.md",
+      "content_sha256": "7aa33a81f2450c78335916b031435a2886cdef36ad448baaddadb4318679452c"
+    },
+    "a53cb908e1cb40b3b129": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/02/21/jlptn2-grammar-quiz-part4/",
+      "title": "【JLPT N2】文法クイズ Part4",
+      "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0085",
+        "N2-G-0088"
+      ],
+      "locator": "Question 2、5及各自Answer",
+      "evidence_path": "quizzes/sources/cache/a53cb908e1cb40b3b129-7466bfeeeab4.md",
+      "content_sha256": "7466bfeeeab4bc59414c65a8ccdbef5754ca2aa21838427535b084d9b28144c4"
     }
   }
 }

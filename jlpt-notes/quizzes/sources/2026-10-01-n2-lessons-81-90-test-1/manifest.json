@@ -1,0 +1,1709 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-01-n2-lessons-81-90-test-1",
+    "title": "N2 第81–90条语法练习（20道选择题）",
+    "date": "2026-10-01",
+    "level": "N2",
+    "suggested_minutes": 20
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0161",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "あの男は人目（　）、電車の中で弁当を食べている。",
+      "translation": "那个男人不顾旁人的目光，在电车里吃便当。",
+      "tested_cards": [
+        "N2-G-0081"
+      ],
+      "conjugation": "名词＋もかまわず：不顾通常会在意的事。",
+      "options": {
+        "1": "に応じて",
+        "2": "もかまわず",
+        "3": "をきっかけに",
+        "4": "に沿って"
+      },
+      "correct_option": "2",
+      "correct_explanation": "不在意旁人的目光而吃便当，符合原例句。",
+      "option_explanations": {
+        "1": "に応じて表示按情况采取相应行动；人目不是吃便当时调整做法的标准。",
+        "2": "不在意旁人的目光而吃便当，符合原例句。",
+        "3": "をきっかけに表示以某事为契机；此处并非目光触发吃饭。",
+        "4": "に沿って表示沿着路线或遵循方针；不能把人目当作遵循的方针。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜もかまわず",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-kamawazu/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/e5700dc32dc3095fa978-8fa6045d9809.md"
+        ],
+        "original_example": "あの男は人目もかまわず、電車の中で弁当を食べている。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "名词＋もかまわず：不顾通常会在意的事。 不在意旁人的目光而吃便当，符合原例句。",
+        "distractor_basis": [
+          "1. に応じて：に応じて表示按情况采取相应行动；人目不是吃便当时调整做法的标准。",
+          "2. もかまわず：不在意旁人的目光而吃便当，符合原例句。",
+          "3. をきっかけに：をきっかけに表示以某事为契机；此处并非目光触发吃饭。",
+          "4. に沿って：に沿って表示沿着路线或遵循方针；不能把人目当作遵循的方针。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋もかまわず：不顾通常会在意的事。",
+        "semantic_exclusion": "に応じて表示按情况采取相应行动；人目不是吃便当时调整做法的标准。；不在意旁人的目光而吃便当，符合原例句。；をきっかけに表示以某事为契机；此处并非目光触发吃饭。；に沿って表示沿着路线或遵循方针；不能把人目当作遵循的方针。",
+        "unique_answer_rationale": "不在意旁人的目光而吃便当，符合原例句。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "「人目もかまわず」表示不顾旁人目光，其他关系表达与该行为不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0162",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "トムさんは明日試験がある（　）、友達とカラオケに行ってしまった。",
+      "translation": "汤姆不顾明天有考试，和朋友去唱卡拉OK了。",
+      "tested_cards": [
+        "N2-G-0081"
+      ],
+      "conjugation": "普通形＋のもかまわず：不顾明天有考试。",
+      "options": {
+        "1": "につれて",
+        "2": "に応じて",
+        "3": "を通して",
+        "4": "のもかまわず"
+      },
+      "correct_option": "4",
+      "correct_explanation": "の将试験がある名词化，もかまわず表示不顾此事。",
+      "option_explanations": {
+        "1": "につれて要求变化伴随变化；有考试和唱歌不是同步发展的两个变化。",
+        "2": "に応じて前接名词，且唱歌不是按考试情况采取的应对。",
+        "3": "を通して前接名词，表示通过媒介或贯穿期间；此处不是经由考试去唱歌。",
+        "4": "の将试験がある名词化，もかまわず表示不顾此事。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜もかまわず",
+        "url": "https://nihongokyoshi-net.com/2019/06/04/jlptn2-grammar-kamawazu/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/e5700dc32dc3095fa978-8fa6045d9809.md"
+        ],
+        "original_example": "トムさんは明日試験があるのもかまわず、友達とカラオケに行ってしまった。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "普通形＋のもかまわず：不顾明天有考试。 の将试験がある名词化，もかまわず表示不顾此事。",
+        "distractor_basis": [
+          "1. につれて：につれて要求变化伴随变化；有考试和唱歌不是同步发展的两个变化。",
+          "2. に応じて：に応じて前接名词，且唱歌不是按考试情况采取的应对。",
+          "3. を通して：を通して前接名词，表示通过媒介或贯穿期间；此处不是经由考试去唱歌。",
+          "4. のもかまわず：の将试験がある名词化，もかまわず表示不顾此事。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋のもかまわず：不顾明天有考试。",
+        "semantic_exclusion": "につれて要求变化伴随变化；有考试和唱歌不是同步发展的两个变化。；に応じて前接名词，且唱歌不是按考试情况采取的应对。；を通して前接名词，表示通过媒介或贯穿期间；此处不是经由考试去唱歌。；の将试験がある名词化，もかまわず表示不顾此事。",
+        "unique_answer_rationale": "の将试験がある名词化，もかまわず表示不顾此事。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "「明日試験があるのもかまわず」普通形＋の＋もかまわず；其他选项无法接ある。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0163",
+      "revision": 3,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "その男の証言を聞いた人は、皆「不自然だ」と感じた。その証言には、どこか不自然な（　）。",
+      "translation": "听了那个男人证词的人都觉得“不自然”。那份证词总让人感到有些不自然。",
+      "tested_cards": [
+        "N2-G-0082"
+      ],
+      "conjugation": "な形容词＋な＋ものがある：感受到某种特点；此处为过去时。",
+      "options": {
+        "1": "ものがあった",
+        "2": "印象は一切なかった",
+        "3": "感じは全然しなかった",
+        "4": "雰囲気は少しもなかった"
+      },
+      "correct_option": "1",
+      "correct_explanation": "ものがあった表示感受到不自然这一特点，与所有听者都感到不自然一致。",
+      "option_explanations": {
+        "1": "ものがあった表示感受到不自然这一特点，与所有听者都感到不自然一致。",
+        "2": "完全没有不自然的印象，否定听者的感受，与前文所有人都觉得不自然矛盾。",
+        "3": "完全没有不自然的感觉，直接否定前文听者共有的感受。",
+        "4": "毫无不自然的氛围，否定证词所给的总体印象，与听者共同感到不自然不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ものがある",
+        "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-monogaaru/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/aa3b1798581931f9b648-b30b02f122cb.md"
+        ],
+        "original_example": "その男の証言には、どこか不自然なものがあった。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。",
+          "第1轮修订：首次独立盲审要求消除潜在多解或改善干扰项",
+          "第1轮修订具体改动：その男の証言を聞いて、妙な違和感が残った。その証言には、どこか不自然な（　）。；更新选项为ものがあった／点は見当たらなかった／ところはなかった／印象はなかった",
+          "第2轮修订：重盲审发现主观违和感与找不到具体疑点可共存；改为三个明确否定印象的干扰项",
+          "第2轮修订：前文改为所有听者明确觉得不自然；三干扰项改为完全否定不自然印象、感觉、氛围，去掉找不到具体疑点的表述。"
+        ],
+        "answer_basis": "な形容词＋な＋ものがある：感受到某种特点；此处为过去时。 ものがあった表示感受到不自然这一特点，与所有听者都感到不自然一致。",
+        "distractor_basis": [
+          "1. ものがあった：ものがあった表示感受到不自然这一特点，与所有听者都感到不自然一致。",
+          "2. 印象は一切なかった：完全没有不自然的印象，否定听者的感受，与前文所有人都觉得不自然矛盾。",
+          "3. 感じは全然しなかった：完全没有不自然的感觉，直接否定前文听者共有的感受。",
+          "4. 雰囲気は少しもなかった：毫无不自然的氛围，否定证词所给的总体印象，与听者共同感到不自然不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "な形容词＋な＋ものがある：感受到某种特点；此处为过去时。",
+        "semantic_exclusion": "ものがあった表示感受到不自然这一特点，与所有听者都感到不自然一致。；完全没有不自然的印象，否定听者的感受，与前文所有人都觉得不自然矛盾。；完全没有不自然的感觉，直接否定前文听者共有的感受。；毫无不自然的氛围，否定证词所给的总体印象，与听者共同感到不自然不合。",
+        "unique_answer_rationale": "ものがあった表示感受到不自然这一特点，与所有听者都感到不自然一致。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 3,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "全体听者均明确觉得不自然，三个干扰项均直接否定不自然的感受/印象/氛围，与前句冲突。1表示存在令人感到不自然之处，自然并承接前文。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 3,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：revision3第2轮修改日志与当前盲审版一致；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0164",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ジョンさんは、たった半年で流暢に話せるようになった。その日本語の上達の速さには、驚くべき（　）。",
+      "translation": "约翰只花半年就能流畅地讲话了，他日语进步的速度令人惊叹。",
+      "tested_cards": [
+        "N2-G-0082"
+      ],
+      "conjugation": "驚くべき＋ものがある：某种特点令人惊叹。",
+      "options": {
+        "1": "点はまったくない",
+        "2": "ところは見当たらない",
+        "3": "ものがある",
+        "4": "特徴は何もない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "ものがある表示受到的评价与印象；半年即可流畅讲话，令人惊叹。",
+      "option_explanations": {
+        "1": "否定值得惊叹的地方，与半年即可流畅讲话所展示的惊人进步相反。",
+        "2": "否定值得惊叹之处，与上文的惊人进步相反。",
+        "3": "ものがある表示受到的评价与印象；半年即可流畅讲话，令人惊叹。",
+        "4": "否定值得惊叹的特点，与上文展示的惊人进步相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ものがある",
+        "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn2-grammar-monogaaru/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/aa3b1798581931f9b648-b30b02f122cb.md"
+        ],
+        "original_example": "ジョンさんの日本語の上達の速さには、驚くべきものがある。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。",
+          "第1轮修订：首次独立盲审要求消除潜在多解或改善干扰项",
+          "第1轮修订具体改动：ジョンさんは、たった半年で流暢に話せるようになった。その日本語の上達の速さには、驚くべき（　）。；更新选项为点はまったくない／ところは見当たらない／ものがある／特徴は何もない"
+        ],
+        "answer_basis": "驚くべき＋ものがある：某种特点令人惊叹。 ものがある表示受到的评价与印象；半年即可流畅讲话，令人惊叹。",
+        "distractor_basis": [
+          "1. 点はまったくない：否定值得惊叹的地方，与半年即可流畅讲话所展示的惊人进步相反。",
+          "2. ところは見当たらない：否定值得惊叹之处，与上文的惊人进步相反。",
+          "3. ものがある：ものがある表示受到的评价与印象；半年即可流畅讲话，令人惊叹。",
+          "4. 特徴は何もない：否定值得惊叹的特点，与上文展示的惊人进步相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "驚くべき＋ものがある：某种特点令人惊叹。",
+        "semantic_exclusion": "否定值得惊叹的地方，与半年即可流畅讲话所展示的惊人进步相反。；否定值得惊叹之处，与上文的惊人进步相反。；ものがある表示受到的评价与印象；半年即可流畅讲话，令人惊叹。；否定值得惊叹的特点，与上文展示的惊人进步相反。",
+        "unique_answer_rationale": "ものがある表示受到的评价与印象；半年即可流畅讲话，令人惊叹。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "たった半年で流暢的强调支持惊讶的正面评价，三个全否定项语境不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0165",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "完璧な人なんていない。人は誰でも間違いをする（　）。",
+      "translation": "人本来就难免犯错。",
+      "tested_cards": [
+        "N2-G-0083"
+      ],
+      "conjugation": "动词辞书形＋ものだ：陈述一般性质。",
+      "options": {
+        "1": "ものではない",
+        "2": "はずがない",
+        "3": "わけにはいかない",
+        "4": "ものだ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "陈述人人难免犯错这一一般情况。",
+      "option_explanations": {
+        "1": "ものではない把句子变成不该犯错的训诫，否定原句所陈述的人都会犯错的性质。",
+        "2": "はずがない表示不可能犯错，与誰でも表达的普遍情况相反。",
+        "3": "わけにはいかない表示不能允许自己犯错，改变成情理限制而非一般性质。",
+        "4": "陈述人人难免犯错这一一般情况。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ものだ（当然 / 忠告・義務）",
+        "url": "https://nihongokyoshi-net.com/2018/09/11/jlptn2-grammar-monoda/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/69f02b94cee24d8d87cc-c433a737efa5.md"
+        ],
+        "original_example": "人は誰でも間違いをするものだ。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。",
+          "增加完璧な人なんていない，锁定承认人人难免犯错的一般性质。"
+        ],
+        "answer_basis": "动词辞书形＋ものだ：陈述一般性质。 陈述人人难免犯错这一一般情况。",
+        "distractor_basis": [
+          "1. ものではない：ものではない把句子变成不该犯错的训诫，否定原句所陈述的人都会犯错的性质。",
+          "2. はずがない：はずがない表示不可能犯错，与誰でも表达的普遍情况相反。",
+          "3. わけにはいかない：わけにはいかない表示不能允许自己犯错，改变成情理限制而非一般性质。",
+          "4. ものだ：陈述人人难免犯错这一一般情况。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋ものだ：陈述一般性质。",
+        "semantic_exclusion": "ものではない把句子变成不该犯错的训诫，否定原句所陈述的人都会犯错的性质。；はずがない表示不可能犯错，与誰でも表达的普遍情况相反。；わけにはいかない表示不能允许自己犯错，改变成情理限制而非一般性质。；陈述人人难免犯错这一一般情况。",
+        "unique_answer_rationale": "陈述人人难免犯错这一一般情况。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "完璧な人はいない明确支持一般本质「誰でも間違いをするものだ」。其余均否认或禁止犯错，与前句不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0166",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "人の悪口は言う（　）。人を傷つけるので、やめなさい。",
+      "translation": "不该说别人的坏话。那会伤害别人，别说了。",
+      "tested_cards": [
+        "N2-G-0083"
+      ],
+      "conjugation": "动词辞书形＋ものじゃない：口语的ものではない，表示不应该。",
+      "options": {
+        "1": "ものだ",
+        "2": "ものじゃない",
+        "3": "に違いない",
+        "4": "しかない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "表示不该说坏话，后文明确为劝诫，排除单纯事实判断。",
+      "option_explanations": {
+        "1": "ものだ会表达应该说或本来会说坏话，与后面的制止相反。",
+        "2": "表示不该说坏话，后文明确为劝诫，排除单纯事实判断。",
+        "3": "に違いない表示确信会说坏话，不是应当停止的忠告。",
+        "4": "しかない表示只好说坏话，与やめなさい相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ものだ（当然 / 忠告・義務）",
+        "url": "https://nihongokyoshi-net.com/2018/09/11/jlptn2-grammar-monoda/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/69f02b94cee24d8d87cc-c433a737efa5.md"
+        ],
+        "original_example": "人の悪口は言うものじゃない。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。",
+          "补充「人を傷つけるので、やめなさい。」锁定禁止忠告，排除事实判断。"
+        ],
+        "answer_basis": "动词辞书形＋ものじゃない：口语的ものではない，表示不应该。 表示不该说坏话，后文明确为劝诫，排除单纯事实判断。",
+        "distractor_basis": [
+          "1. ものだ：ものだ会表达应该说或本来会说坏话，与后面的制止相反。",
+          "2. ものじゃない：表示不该说坏话，后文明确为劝诫，排除单纯事实判断。",
+          "3. に違いない：に違いない表示确信会说坏话，不是应当停止的忠告。",
+          "4. しかない：しかない表示只好说坏话，与やめなさい相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋ものじゃない：口语的ものではない，表示不应该。",
+        "semantic_exclusion": "ものだ会表达应该说或本来会说坏话，与后面的制止相反。；表示不该说坏话，后文明确为劝诫，排除单纯事实判断。；に違いない表示确信会说坏话，不是应当停止的忠告。；しかない表示只好说坏话，与やめなさい相反。",
+        "unique_answer_rationale": "表示不该说坏话，后文明确为劝诫，排除单纯事实判断。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "后句「やめなさい」明确禁止，选「言うものじゃない」。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0167",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "月日が経つのは早い（　）。もう、あっという間に１年がたってしまった。",
+      "translation": "时光过得真快啊。一转眼已经过去一年了。",
+      "tested_cards": [
+        "N2-G-0084"
+      ],
+      "conjugation": "い形容词＋ものだ：带感慨强调感受。",
+      "options": {
+        "1": "わけがない",
+        "2": "にすぎない",
+        "3": "ものだ",
+        "4": "ことはない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "强调时光飞逝的感慨，后文说明其感受由来。",
+      "option_explanations": {
+        "1": "わけがない否定时间过得快，和转眼已过一年相冲突。",
+        "2": "にすぎない表示只不过如此，限制评价程度；此处后文强调一年转眼已过，需要表达时光飞逝的感慨，ものだ最合适。",
+        "3": "强调时光飞逝的感慨，后文说明其感受由来。",
+        "4": "ことはない在这里会是否定早い的存在或程度，并非由一年转眼过去引出的感慨。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：ものだ（感慨）",
+        "url": "https://nihongokyoshi-net.com/2019/01/23/jlptn2-grammar-monoda-kangai/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/f9d9773f7d0d8706df6f-985a6944d084.md"
+        ],
+        "original_example": "月日が経つのは早いものだ。もう、あっという間に１年がたってしまった。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "い形容词＋ものだ：带感慨强调感受。 强调时光飞逝的感慨，后文说明其感受由来。",
+        "distractor_basis": [
+          "1. わけがない：わけがない否定时间过得快，和转眼已过一年相冲突。",
+          "2. にすぎない：にすぎない表示只不过如此，限制评价程度；此处后文强调一年转眼已过，需要表达时光飞逝的感慨，ものだ最合适。",
+          "3. ものだ：强调时光飞逝的感慨，后文说明其感受由来。",
+          "4. ことはない：ことはない在这里会是否定早い的存在或程度，并非由一年转眼过去引出的感慨。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "い形容词＋ものだ：带感慨强调感受。",
+        "semantic_exclusion": "わけがない否定时间过得快，和转眼已过一年相冲突。；にすぎない表示只不过如此，限制评价程度；此处后文强调一年转眼已过，需要表达时光飞逝的感慨，ものだ最合适。；强调时光飞逝的感慨，后文说明其感受由来。；ことはない在这里会是否定早い的存在或程度，并非由一年转眼过去引出的感慨。",
+        "unique_answer_rationale": "强调时光飞逝的感慨，后文说明其感受由来。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "后句感叹一年已过，选「早いものだ」。其他否定或轻视表达不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed：已只读核对当前draft，选项2改为语境排除，无绝对接续禁令；source.distractor_basis同步更新；passed"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0168",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今では川へ行くこともなくなったが、懐かしく思い出す。子供の頃は、よく川へ遊びに（　）ものだ。",
+      "translation": "现在已不再去河边，但想起来很怀念：小时候经常去河边玩。",
+      "tested_cards": [
+        "N2-G-0084"
+      ],
+      "conjugation": "动词た形＋ものだ：回忆过去反复发生的事。",
+      "options": {
+        "1": "行った",
+        "2": "行こう",
+        "3": "行く",
+        "4": "行っている"
+      },
+      "correct_option": "1",
+      "correct_explanation": "た形搭配今では行かなくなった、懐かしく思い出す，明确回忆已结束的童年经历。",
+      "option_explanations": {
+        "1": "た形搭配今では行かなくなった、懐かしく思い出す，明确回忆已结束的童年经历。",
+        "2": "意向形不能表达回忆过去反复发生的事。",
+        "3": "辞书形表示一般性质或感慨，此处明确回忆已结束的亲身经历，不能代替过去形。",
+        "4": "ている描写持续状态，此处回忆童年已结束的反复经历，应为た形。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N3】文法・例文：〜たものだ",
+        "url": "https://nihongokyoshi-net.com/2018/04/27/jlptn3-grammar-monoda/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/9c143ec7612f212a0c26-8d930629129b.md"
+        ],
+        "original_example": "子供の頃は、よく川へ遊びに行ったものだ。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。",
+          "第1轮修订：首次独立盲审要求消除潜在多解或改善干扰项",
+          "第1轮修订具体改动：今では川へ行くこともなくなったが、懐かしく思い出す。子供の頃は、よく川へ遊びに（　）ものだ。；更新选项为行った／行こう／行く／行っている"
+        ],
+        "answer_basis": "动词た形＋ものだ：回忆过去反复发生的事。 た形搭配今では行かなくなった、懐かしく思い出す，明确回忆已结束的童年经历。",
+        "distractor_basis": [
+          "1. 行った：た形搭配今では行かなくなった、懐かしく思い出す，明确回忆已结束的童年经历。",
+          "2. 行こう：意向形不能表达回忆过去反复发生的事。",
+          "3. 行く：辞书形表示一般性质或感慨，此处明确回忆已结束的亲身经历，不能代替过去形。",
+          "4. 行っている：ている描写持续状态，此处回忆童年已结束的反复经历，应为た形。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋ものだ：回忆过去反复发生的事。",
+        "semantic_exclusion": "た形搭配今では行かなくなった、懐かしく思い出す，明确回忆已结束的童年经历。；意向形不能表达回忆过去反复发生的事。；辞书形表示一般性质或感慨，此处明确回忆已结束的亲身经历，不能代替过去形。；ている描写持续状态，此处回忆童年已结束的反复经历，应为た形。",
+        "unique_answer_rationale": "た形搭配今では行かなくなった、懐かしく思い出す，明确回忆已结束的童年经历。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "今では行かない＋懐かしく思い出す明确个人今昔对比，排除泛指行く。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0169",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "病気の子を見ていると、代われる（　　　　）代わってやりたいと思う。",
+      "translation": "看着生病的孩子，就想要是能替他生病，真想替他。",
+      "tested_cards": [
+        "N2-G-0085"
+      ],
+      "conjugation": "可能形＋ものなら：若能实现困难的事，就想这样做。",
+      "options": {
+        "1": "ものか",
+        "2": "ものの",
+        "3": "ものなら",
+        "4": "ものだから"
+      },
+      "correct_option": "3",
+      "correct_explanation": "表示若能替孩子承受病痛，就想替他。",
+      "option_explanations": {
+        "1": "ものか是强烈否定或反问，不能把代われる接成后面的愿望条件。",
+        "2": "ものの表示承认能够代替这一事实再转折；与因难实现而想代替的愿望不符。",
+        "3": "表示若能替孩子承受病痛，就想替他。",
+        "4": "ものだから表示原因，把代替作为既有能力的理由，不能表达若能替代这一难实现条件。"
+      },
+      "source": {
+        "kind": "teaching_exercise",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法クイズ Part4",
+        "url": "https://nihongokyoshi-net.com/2018/02/21/jlptn2-grammar-quiz-part4/",
+        "locator": "Question 5",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/a53cb908e1cb40b3b129-7466bfeeeab4.md"
+        ],
+        "answer_locator": "同题下方こたえ／Answer",
+        "original_answer": "(3)",
+        "option_mapping": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        },
+        "adaptation": "题干、空格、上下文、四项及顺序全部保留；仅Markdown排版，翻译与解析另列。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "可能形＋ものなら：若能实现困难的事，就想这样做。",
+        "semantic_exclusion": "ものか是强烈否定或反问，不能把代われる接成后面的愿望条件。；ものの表示承认能够代替这一事实再转折；与因难实现而想代替的愿望不符。；表示若能替孩子承受病痛，就想替他。；ものだから表示原因，把代替作为既有能力的理由，不能表达若能替代这一难实现条件。",
+        "unique_answer_rationale": "表示若能替孩子承受病痛，就想替他。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "潜在难以实现的代替愿望用「代われるものなら」。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0170",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "辞められる（　）、今すぐこの会社を辞めたいけど、生活を考えると無理だ。",
+      "translation": "要是能辞职，真想马上离开这家公司，但考虑到生活办不到。",
+      "tested_cards": [
+        "N2-G-0085"
+      ],
+      "conjugation": "可能形＋ものなら：难实现的假定条件，后接愿望。",
+      "options": {
+        "1": "ものなら",
+        "2": "ものの",
+        "3": "ものだから",
+        "4": "につれて"
+      },
+      "correct_option": "1",
+      "correct_explanation": "想辞职但生活上做不到，锁定难实现的假定条件。",
+      "option_explanations": {
+        "1": "想辞职但生活上做不到，锁定难实现的假定条件。",
+        "2": "ものの承认能够辞职再转折，与句末生活上无法辞职矛盾。",
+        "3": "ものだから把能够辞职当成原因，与無理だ以及未实现的愿望不合。",
+        "4": "につれて要求随变化而变化；不是单个困难条件引出的愿望。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ものなら",
+        "url": "https://nihongokyoshi-net.com/2019/10/13/jlptn2-grammar-mononara/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/9dda306283b6cd195403-de0c4e3ad033.md"
+        ],
+        "original_example": "辞められるものなら、今すぐこの会社を辞めたいけど、生活を考えると無理だ。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "可能形＋ものなら：难实现的假定条件，后接愿望。 想辞职但生活上做不到，锁定难实现的假定条件。",
+        "distractor_basis": [
+          "1. ものなら：想辞职但生活上做不到，锁定难实现的假定条件。",
+          "2. ものの：ものの承认能够辞职再转折，与句末生活上无法辞职矛盾。",
+          "3. ものだから：ものだから把能够辞职当成原因，与無理だ以及未实现的愿望不合。",
+          "4. につれて：につれて要求随变化而变化；不是单个困难条件引出的愿望。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "可能形＋ものなら：难实现的假定条件，后接愿望。",
+        "semantic_exclusion": "想辞职但生活上做不到，锁定难实现的假定条件。；ものの承认能够辞职再转折，与句末生活上无法辞职矛盾。；ものだから把能够辞职当成原因，与無理だ以及未实现的愿望不合。；につれて要求随变化而变化；不是单个困难条件引出的愿望。",
+        "unique_answer_rationale": "想辞职但生活上做不到，锁定难实现的假定条件。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "生活原因使辞职难以实现，潜在形＋ものなら表达愿望。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "宗教間の対立をなくしたい。対立をなくすよい方法は（　）。",
+      "translation": "希望消除宗教间的对立。难道没有什么消除对立的好办法吗。",
+      "tested_cards": [
+        "N2-G-0086"
+      ],
+      "conjugation": "ない＋ものだろうか：以否定疑问表达难实现之事能够实现的愿望。",
+      "options": {
+        "1": "あるものか",
+        "2": "あるべきではない",
+        "3": "なくて済む",
+        "4": "ないものだろうか"
+      },
+      "correct_option": "4",
+      "correct_explanation": "否定疑问表达希望有办法能实现消除对立的愿望。",
+      "option_explanations": {
+        "1": "あるものか强烈否定有办法，不是寻求办法的愿望。",
+        "2": "表示不应该有办法，与希望消除对立相反。",
+        "3": "なくて済む表示无需这种方法也能解决，不是在寻找尚未知晓的办法。",
+        "4": "否定疑问表达希望有办法能实现消除对立的愿望。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "はごろも",
+        "publisher": "はごろも／日本語教育のためのコーパスに基づく文法項目データベース構築と検索システムの公開 科研グループ",
+        "title": "ないものだろうか（vid=1112）",
+        "url": "https://www.hagoromo-text.work/lookup?vid=1112",
+        "locator": "用例main（id=7715）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/hagoromo-1112.md"
+        ],
+        "original_example": "宗教間の対立をなくすよい方法はないものだろうか。",
+        "transformations": [
+          "保留原文关键问句，将ないものだろうか挖空。",
+          "增加宗教間の対立をなくしたい，锁定寻求办法的愿望。",
+          "第1轮修订：首次独立盲审要求消除潜在多解或改善干扰项",
+          "第1轮修订具体改动：宗教間の対立をなくしたい。対立をなくすよい方法は（　）。；更新选项为あるものか／あるべきではない／なくて済む／ないものだろうか"
+        ],
+        "answer_basis": "ない＋ものだろうか：以否定疑问表达难实现之事能够实现的愿望。 否定疑问表达希望有办法能实现消除对立的愿望。",
+        "distractor_basis": [
+          "1. あるものか：あるものか强烈否定有办法，不是寻求办法的愿望。",
+          "2. あるべきではない：表示不应该有办法，与希望消除对立相反。",
+          "3. なくて済む：なくて済む表示无需这种方法也能解决，不是在寻找尚未知晓的办法。",
+          "4. ないものだろうか：否定疑问表达希望有办法能实现消除对立的愿望。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "ない＋ものだろうか：以否定疑问表达难实现之事能够实现的愿望。",
+        "semantic_exclusion": "あるものか强烈否定有办法，不是寻求办法的愿望。；表示不应该有办法，与希望消除对立相反。；なくて済む表示无需这种方法也能解决，不是在寻找尚未知晓的办法。；否定疑问表达希望有办法能实现消除对立的愿望。",
+        "unique_answer_rationale": "否定疑问表达希望有办法能实现消除对立的愿望。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "寻找消除对立的方法，否定其存在/应有性或说无需方法均不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      },
+      "number": 11,
+      "id": "N2-Q-0171"
+    },
+    {
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "両者のつながりを見つけたい。「睡眠ににた状態」と「睡眠」とをつなぐ鎖の輪は（　）。",
+      "translation": "希望找到两者之间的联系。难道没有能把“类似睡眠的状态”和“睡眠”连接起来的那一环吗。",
+      "tested_cards": [
+        "N2-G-0086"
+      ],
+      "conjugation": "ない＋ものだろうか：以否定疑问表达难实现之事能够实现的愿望。",
+      "options": {
+        "1": "ないことにした",
+        "2": "ないものだろうか",
+        "3": "あるわけがない",
+        "4": "あるものではない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "否定疑问形式寄托找到联系的愿望，符合見つけたい。",
+      "option_explanations": {
+        "1": "ないことにした表示决定视为不存在，既不寻求联系，也不是表达愿望。",
+        "2": "否定疑问形式寄托找到联系的愿望，符合見つけたい。",
+        "3": "あるわけがない断定不可能有联系，否定前文寻求联系的愿望。",
+        "4": "あるものではない表示本质上没有或不应有此类联系，不是希望其存在的疑问。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "はごろも",
+        "publisher": "はごろも／日本語教育のためのコーパスに基づく文法項目データベース構築と検索システムの公開 科研グループ",
+        "title": "ないものだろうか（vid=1112）",
+        "url": "https://www.hagoromo-text.work/lookup?vid=1112",
+        "locator": "用例castelj（id=7716）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/hagoromo-1112.md"
+        ],
+        "original_example": "だから、行動からみて、下等動物には睡眠ににた状態がある、というようないいまわしをするわけだ。では、「睡眠ににた状態」と「睡眠」とをつなぐ鎖の輪はないものだろうか。",
+        "transformations": [
+          "保留原文关键问句，将ないものだろうか挖空。",
+          "在前文加入寻求办法或联系的明确愿望，排除强烈否定和断言。",
+          "第二题取原文后半问句，移除前面解释性背景。"
+        ],
+        "answer_basis": "ない＋ものだろうか：以否定疑问表达难实现之事能够实现的愿望。否定疑问形式寄托找到联系的愿望，符合見つけたい。",
+        "distractor_basis": [
+          "1. ないことにした：ないことにした表示决定视为不存在，既不寻求联系，也不是表达愿望。",
+          "2. ないものだろうか：否定疑问形式寄托找到联系的愿望，符合見つけたい。",
+          "3. あるわけがない：あるわけがない断定不可能有联系，否定前文寻求联系的愿望。",
+          "4. あるものではない：あるものではない表示本质上没有或不应有此类联系，不是希望其存在的疑问。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "ない＋ものだろうか：以否定疑问表达难实现之事能够实现的愿望。",
+        "semantic_exclusion": "ないことにした表示决定视为不存在，既不寻求联系，也不是表达愿望。；否定疑问形式寄托找到联系的愿望，符合見つけたい。；あるわけがない断定不可能有联系，否定前文寻求联系的愿望。；あるものではない表示本质上没有或不应有此类联系，不是希望其存在的疑问。",
+        "unique_answer_rationale": "否定疑问形式寄托找到联系的愿望，符合見つけたい。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "寻找连接环节的愿望用「ないものだろうか」。其他项否定存在或决定不保留，与前句不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      },
+      "number": 12,
+      "id": "N2-Q-0172"
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0173",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼女との記念日を忘れよう（　）、１週間は口を利いてもらえないだろう。",
+      "translation": "万一忘了和她的纪念日，她大概一个星期都不会和我说话。",
+      "tested_cards": [
+        "N2-G-0087"
+      ],
+      "conjugation": "意向形＋ものなら：万一做了，就有严重后果。",
+      "options": {
+        "1": "ものの",
+        "2": "ものがある",
+        "3": "ものだ",
+        "4": "ものなら"
+      },
+      "correct_option": "4",
+      "correct_explanation": "意向形接ものなら，后续为负面后果，符合警告用法。",
+      "option_explanations": {
+        "1": "ものの接普通形表达事实转折；忘れよう不是已承认事实的普通形。",
+        "2": "ものがある评价感受到的特点，不能把意向形接成这里的警告条件。",
+        "3": "ものだ不能接忘れよう来表达后面的万一条件。",
+        "4": "意向形接ものなら，后续为负面后果，符合警告用法。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ようものなら",
+        "url": "https://nihongokyoshi-net.com/2019/07/25/jlptn2-grammar-youmononara/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/7bdf5ad42ab7a19f6709-d911a17ac5a1.md"
+        ],
+        "original_example": "彼女との記念日を忘れようものなら、１週間は口を利いてもらえないだろう。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "意向形＋ものなら：万一做了，就有严重后果。 意向形接ものなら，后续为负面后果，符合警告用法。",
+        "distractor_basis": [
+          "1. ものの：ものの接普通形表达事实转折；忘れよう不是已承认事实的普通形。",
+          "2. ものがある：ものがある评价感受到的特点，不能把意向形接成这里的警告条件。",
+          "3. ものだ：ものだ不能接忘れよう来表达后面的万一条件。",
+          "4. ものなら：意向形接ものなら，后续为负面后果，符合警告用法。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "意向形＋ものなら：万一做了，就有严重后果。",
+        "semantic_exclusion": "ものの接普通形表达事实转折；忘れよう不是已承认事实的普通形。；ものがある评价感受到的特点，不能把意向形接成这里的警告条件。；ものだ不能接忘れよう来表达后面的万一条件。；意向形接ものなら，后续为负面后果，符合警告用法。",
+        "unique_answer_rationale": "意向形接ものなら，后续为负面后果，符合警告用法。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "意向形「忘れよう」＋ものなら，后接坏结果，只有4能接续。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0174",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この先生の授業で、宿題を（　）ものなら、どれだけ叱られるかわからない。",
+      "translation": "在这位老师的课上，万一忘了作业，不知道会被训得多厉害。",
+      "tested_cards": [
+        "N2-G-0087"
+      ],
+      "conjugation": "忘れる的意向形忘れよう＋ものなら，表示警告。",
+      "options": {
+        "1": "忘れて",
+        "2": "忘れよう",
+        "3": "忘れさせて",
+        "4": "忘れられる"
+      },
+      "correct_option": "2",
+      "correct_explanation": "意向形＋ものなら表示万一忘记就会遭到严厉训斥的警告。",
+      "option_explanations": {
+        "1": "て形不能直接接ものなら。",
+        "2": "意向形＋ものなら表示万一忘记就会遭到严厉训斥的警告。",
+        "3": "使役て形不能直接接ものなら，而且变成让别人忘记，与原句自己忘记不同。",
+        "4": "可能形表示若能忘记，与担心万一忘记会受罚的警告不同。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ようものなら",
+        "url": "https://nihongokyoshi-net.com/2019/07/25/jlptn2-grammar-youmononara/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/7bdf5ad42ab7a19f6709-d911a17ac5a1.md"
+        ],
+        "original_example": "この先生の授業で、宿題を忘れようものなら、どれだけ叱られるかわからない。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。",
+          "第1轮修订：首次独立盲审要求消除潜在多解或改善干扰项",
+          "第1轮修订具体改动：この先生の授業で、宿題を（　）ものなら、どれだけ叱られるかわからない。；更新选项为忘れて／忘れよう／忘れさせて／忘れられる"
+        ],
+        "answer_basis": "忘れる的意向形忘れよう＋ものなら，表示警告。 意向形＋ものなら表示万一忘记就会遭到严厉训斥的警告。",
+        "distractor_basis": [
+          "1. 忘れて：て形不能直接接ものなら。",
+          "2. 忘れよう：意向形＋ものなら表示万一忘记就会遭到严厉训斥的警告。",
+          "3. 忘れさせて：使役て形不能直接接ものなら，而且变成让别人忘记，与原句自己忘记不同。",
+          "4. 忘れられる：可能形表示若能忘记，与担心万一忘记会受罚的警告不同。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "忘れる的意向形忘れよう＋ものなら，表示警告。",
+        "semantic_exclusion": "て形不能直接接ものなら。；意向形＋ものなら表示万一忘记就会遭到严厉训斥的警告。；使役て形不能直接接ものなら，而且变成让别人忘记，与原句自己忘记不同。；可能形表示若能忘记，与担心万一忘记会受罚的警告不同。",
+        "unique_answer_rationale": "意向形＋ものなら表示万一忘记就会遭到严厉训斥的警告。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "意向形＋ものなら警告坏结果。1、3不能直接接ものなら，4表示能忘记的愿望，语境不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0175",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "読んではいる（　　　　）、本の内容はちっとも頭に入らない。",
+      "translation": "虽然确实在读，但书的内容一点也没进入脑子。",
+      "tested_cards": [
+        "N2-G-0088"
+      ],
+      "conjugation": "普通形＋ものの：承认在读，但实际未吸收内容。",
+      "options": {
+        "1": "ものの",
+        "2": "ものなら",
+        "3": "ものだから",
+        "4": "んだもの"
+      },
+      "correct_option": "1",
+      "correct_explanation": "承认正在读，后项却没有理解，符合转折。",
+      "option_explanations": {
+        "1": "承认正在读，后项却没有理解，符合转折。",
+        "2": "ものなら是难实现条件；此处已在读且读む能力不是假定愿望。",
+        "3": "ものだから将读书作为记不住内容的原因，缺乏因果且改变事实转折。",
+        "4": "んだもの用于句末解释理由，不是此处连接承认事实与相反结果的形式。"
+      },
+      "source": {
+        "kind": "teaching_exercise",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法クイズ Part4",
+        "url": "https://nihongokyoshi-net.com/2018/02/21/jlptn2-grammar-quiz-part4/",
+        "locator": "Question 2",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/a53cb908e1cb40b3b129-7466bfeeeab4.md"
+        ],
+        "answer_locator": "同题下方こたえ／Answer",
+        "original_answer": "(1)",
+        "option_mapping": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        },
+        "adaptation": "题干、空格、上下文、四项及顺序全部保留；仅Markdown排版，翻译与解析另列。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋ものの：承认在读，但实际未吸收内容。",
+        "semantic_exclusion": "承认正在读，后项却没有理解，符合转折。；ものなら是难实现条件；此处已在读且读む能力不是假定愿望。；ものだから将读书作为记不住内容的原因，缺乏因果且改变事实转折。；んだもの用于句末解释理由，不是此处连接承认事实与相反结果的形式。",
+        "unique_answer_rationale": "承认正在读，后项却没有理解，符合转折。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "承认读了但没理解，逆接「読んではいるものの」。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0176",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "暖かくなってきたとはいう（　）、まだまだ冬です。",
+      "translation": "虽说已经暖和起来了，但毕竟还处在冬天。",
+      "tested_cards": [
+        "N2-G-0088"
+      ],
+      "conjugation": "普通形＋とはいうものの：虽说如此，但实际仍有差别。",
+      "options": {
+        "1": "ものなら",
+        "2": "ものだから",
+        "3": "ものの",
+        "4": "ものがある"
+      },
+      "correct_option": "3",
+      "correct_explanation": "とはいうものの完整构成让步，后项说明并非已经彻底变暖。",
+      "option_explanations": {
+        "1": "ものなら把という作条件；不是承认天气转暖后的让步。",
+        "2": "ものだから表示原因，不能把天气转暖当作仍是冬天的原因。",
+        "3": "とはいうものの完整构成让步，后项说明并非已经彻底变暖。",
+        "4": "ものがある描述引起感受的特点，不构成此处事实让步。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜ものの",
+        "url": "https://nihongokyoshi-net.com/2018/04/13/jlptn2-grammar-monono/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/379b492466d7782246d0-80891efbf387.md"
+        ],
+        "original_example": "暖かくなってきたとはいうものの、まだまだ冬です。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "普通形＋とはいうものの：虽说如此，但实际仍有差别。 とはいうものの完整构成让步，后项说明并非已经彻底变暖。",
+        "distractor_basis": [
+          "1. ものなら：ものなら把という作条件；不是承认天气转暖后的让步。",
+          "2. ものだから：ものだから表示原因，不能把天气转暖当作仍是冬天的原因。",
+          "3. ものの：とはいうものの完整构成让步，后项说明并非已经彻底变暖。",
+          "4. ものがある：ものがある描述引起感受的特点，不构成此处事实让步。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "普通形＋とはいうものの：虽说如此，但实际仍有差别。",
+        "semantic_exclusion": "ものなら把という作条件；不是承认天气转暖后的让步。；ものだから表示原因，不能把天气转暖当作仍是冬天的原因。；とはいうものの完整构成让步，后项说明并非已经彻底变暖。；ものがある描述引起感受的特点，不构成此处事实让步。",
+        "unique_answer_rationale": "とはいうものの完整构成让步，后项说明并非已经彻底变暖。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "固定表达「とはいうものの」，表示虽说变暖实际仍冬天。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0177",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "大事に育てた娘が結婚することになって嬉しい（　）寂しいやら複雑な気持ちだ。",
+      "translation": "精心养大的女儿要结婚了，又高兴又寂寞，心情复杂。",
+      "tested_cards": [
+        "N2-G-0089"
+      ],
+      "conjugation": "い形容词＋やら、い形容词＋やら：列举并存的复杂感情。",
+      "options": {
+        "1": "ものなら",
+        "2": "に応じて",
+        "3": "にかけて",
+        "4": "やら"
+      },
+      "correct_option": "4",
+      "correct_explanation": "与后面的やら呼应，表示嬉しい与寂しい同时存在。",
+      "option_explanations": {
+        "1": "ものなら表示条件，不能和后面的寂しいやら构成两种并存情感的列举。",
+        "2": "に応じて前接名词，且表达相应调整，不是并存的两种感情。",
+        "3": "にかけて多接时间地点等名词表示范围；嬉しい不是范围起点。",
+        "4": "与后面的やら呼应，表示嬉しい与寂しい同时存在。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜やら〜やら",
+        "url": "https://nihongokyoshi-net.com/2019/02/19/jlptn2-grammar-yara-yara/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/2f55c21e461738332955-637c0a92488c.md"
+        ],
+        "original_example": "大事に育てた娘が結婚することになって嬉しいやら寂しいやら複雑な気持ちだ。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "い形容词＋やら、い形容词＋やら：列举并存的复杂感情。 与后面的やら呼应，表示嬉しい与寂しい同时存在。",
+        "distractor_basis": [
+          "1. ものなら：ものなら表示条件，不能和后面的寂しいやら构成两种并存情感的列举。",
+          "2. に応じて：に応じて前接名词，且表达相应调整，不是并存的两种感情。",
+          "3. にかけて：にかけて多接时间地点等名词表示范围；嬉しい不是范围起点。",
+          "4. やら：与后面的やら呼应，表示嬉しい与寂しい同时存在。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "い形容词＋やら、い形容词＋やら：列举并存的复杂感情。",
+        "semantic_exclusion": "ものなら表示条件，不能和后面的寂しいやら构成两种并存情感的列举。；に応じて前接名词，且表达相应调整，不是并存的两种感情。；にかけて多接时间地点等名词表示范围；嬉しい不是范围起点。；与后面的やら呼应，表示嬉しい与寂しい同时存在。",
+        "unique_answer_rationale": "与后面的やら呼应，表示嬉しい与寂しい同时存在。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "嬉しいやら寂しいやら列举复杂感情。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0178",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "１２月は部屋を掃除する（　）年賀状を書くやらで忙しい。",
+      "translation": "十二月忙着打扫房间、写贺年卡等等。",
+      "tested_cards": [
+        "N2-G-0089"
+      ],
+      "conjugation": "动词辞书形＋やら、动词辞书形＋やら：列举多件忙碌的事。",
+      "options": {
+        "1": "ものの",
+        "2": "やら",
+        "3": "ものなら",
+        "4": "につれて"
+      },
+      "correct_option": "2",
+      "correct_explanation": "与后项やら呼应，例示打扫与写卡片等事务。",
+      "option_explanations": {
+        "1": "ものの表示转折，打扫和写卡片是并列忙事，没有转折关系。",
+        "2": "与后项やら呼应，例示打扫与写卡片等事务。",
+        "3": "ものなら要求困难假定或意向形警告；这里是实际忙于多个事务。",
+        "4": "につれて表示随着某种变化同步变化，打扫和写卡片不是此种关系。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：〜やら〜やら",
+        "url": "https://nihongokyoshi-net.com/2019/02/19/jlptn2-grammar-yara-yara/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/2f55c21e461738332955-637c0a92488c.md"
+        ],
+        "original_example": "１２月は部屋を掃除するやら年賀状を書くやらで忙しい。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "动词辞书形＋やら、动词辞书形＋やら：列举多件忙碌的事。 与后项やら呼应，例示打扫与写卡片等事务。",
+        "distractor_basis": [
+          "1. ものの：ものの表示转折，打扫和写卡片是并列忙事，没有转折关系。",
+          "2. やら：与后项やら呼应，例示打扫与写卡片等事务。",
+          "3. ものなら：ものなら要求困难假定或意向形警告；这里是实际忙于多个事务。",
+          "4. につれて：につれて表示随着某种变化同步变化，打扫和写卡片不是此种关系。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋やら、动词辞书形＋やら：列举多件忙碌的事。",
+        "semantic_exclusion": "ものの表示转折，打扫和写卡片是并列忙事，没有转折关系。；与后项やら呼应，例示打扫与写卡片等事务。；ものなら要求困难假定或意向形警告；这里是实际忙于多个事务。；につれて表示随着某种变化同步变化，打扫和写卡片不是此种关系。",
+        "unique_answer_rationale": "与后项やら呼应，例示打扫与写卡片等事务。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "掃除するやら年賀状を書くやら列举忙碌事务。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0179",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "携帯電話もお金も盗まれてしまって、連絡の（　）。",
+      "translation": "手机和钱都被偷了，根本没办法联系。",
+      "tested_cards": [
+        "N2-G-0090"
+      ],
+      "conjugation": "连絡の＋する的ます词干し＋ようがない：没有联系手段。",
+      "options": {
+        "1": "しようがない",
+        "2": "しなければならない",
+        "3": "するに違いない",
+        "4": "するものだ"
+      },
+      "correct_option": "1",
+      "correct_explanation": "手机和钱都丢失，しようがない强调缺乏联系手段，連絡のしよう为名词结构。",
+      "option_explanations": {
+        "1": "手机和钱都丢失，しようがない强调缺乏联系手段，連絡のしよう为名词结构。",
+        "2": "しなければならない表示必须联系，与缺少手段不同；連絡の后不能如此接。",
+        "3": "するに違いない表示确信将会联系，与处境相反；連絡のする也不成立。",
+        "4": "するものだ表示联系是常识或惯例，不是缺乏手段；連絡のする接续也不成立。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N３】文法・例文：〜ようがない / 〜ようもない",
+        "url": "https://nihongokyoshi-net.com/2019/05/14/jlptn3-grammar-yooganai/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/1bc4633acbfd75ea7686-7aa33a81f245.md"
+        ],
+        "original_example": "携帯電話もお金も盗まれてしまって、連絡のしようがない。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "连絡の＋する的ます词干し＋ようがない：没有联系手段。 手机和钱都丢失，しようがない强调缺乏联系手段，連絡のしよう为名词结构。",
+        "distractor_basis": [
+          "1. しようがない：手机和钱都丢失，しようがない强调缺乏联系手段，連絡のしよう为名词结构。",
+          "2. しなければならない：しなければならない表示必须联系，与缺少手段不同；連絡の后不能如此接。",
+          "3. するに違いない：するに違いない表示确信将会联系，与处境相反；連絡のする也不成立。",
+          "4. するものだ：するものだ表示联系是常识或惯例，不是缺乏手段；連絡のする接续也不成立。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "连絡の＋する的ます词干し＋ようがない：没有联系手段。",
+        "semantic_exclusion": "手机和钱都丢失，しようがない强调缺乏联系手段，連絡のしよう为名词结构。；しなければならない表示必须联系，与缺少手段不同；連絡の后不能如此接。；するに違いない表示确信将会联系，与处境相反；連絡のする也不成立。；するものだ表示联系是常识或惯例，不是缺乏手段；連絡のする接续也不成立。",
+        "unique_answer_rationale": "手机和钱都丢失，しようがない强调缺乏联系手段，連絡のしよう为名词结构。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "「連絡のしようがない」缺少联络手段，其他项不能接连絡の。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0180",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "意見を求められたが、会議の内容が全然わからないので、（　）ようがない。",
+      "translation": "有人征求我的意见，但我完全不明白会议内容，因此无从回答。",
+      "tested_cards": [
+        "N2-G-0090"
+      ],
+      "conjugation": "答える的ます词干答え＋ようがない：无法找到回答的方法。",
+      "options": {
+        "1": "答える",
+        "2": "答えて",
+        "3": "答え",
+        "4": "答えよう"
+      },
+      "correct_option": "3",
+      "correct_explanation": "答えます去ます得到答え，构成答えようがない。",
+      "option_explanations": {
+        "1": "辞书形不能直接接ようがない；应去掉ます取得词干。",
+        "2": "て形不能直接接ようがない。",
+        "3": "答えます去ます得到答え，构成答えようがない。",
+        "4": "意向形答えよう再加ようがない会重复よう，不是此文型。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（运营者资格复用已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N３】文法・例文：〜ようがない / 〜ようもない",
+        "url": "https://nihongokyoshi-net.com/2019/05/14/jlptn3-grammar-yooganai/",
+        "locator": "文型说明及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/1bc4633acbfd75ea7686-7aa33a81f245.md"
+        ],
+        "original_example": "意見を求められたが、会議の内容が全然わからないので、答えようがない。",
+        "transformations": [
+          "移除网页粗体标记，保留日语原例句。",
+          "将考点所在语块挖空为（　），设置四个选项。"
+        ],
+        "answer_basis": "答える的ます词干答え＋ようがない：无法找到回答的方法。 答えます去ます得到答え，构成答えようがない。",
+        "distractor_basis": [
+          "1. 答える：辞书形不能直接接ようがない；应去掉ます取得词干。",
+          "2. 答えて：て形不能直接接ようがない。",
+          "3. 答え：答えます去ます得到答え，构成答えようがない。",
+          "4. 答えよう：意向形答えよう再加ようがない会重复よう，不是此文型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "答える的ます词干答え＋ようがない：无法找到回答的方法。",
+        "semantic_exclusion": "辞书形不能直接接ようがない；应去掉ます取得词干。；て形不能直接接ようがない。；答えます去ます得到答え，构成答えようがない。；意向形答えよう再加ようがない会重复よう，不是此文型。",
+        "unique_answer_rationale": "答えます去ます得到答え，构成答えようがない。其他三项见逐项排除。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "答え（ます形词干）＋ようがない，其他形式接续错误。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_review（独立子代理）",
+          "reviewed_at": "2026-10-01T15:32:22+08:00",
+          "notes": "passed；passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致；passed：改动可由日志追溯；passed；passed"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-10-01T15:10:53+08:00",
+        "ended_at": "2026-10-01T15:11:30+08:00",
+        "duration_seconds": 37.09,
+        "metrics": {}
+      },
+      {
+        "name": "search",
+        "started_at": "2026-10-01T15:11:30+08:00",
+        "ended_at": "2026-10-01T15:12:47+08:00",
+        "duration_seconds": 77.195,
+        "metrics": {
+          "calls": 2
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-01T15:12:47+08:00",
+        "ended_at": "2026-10-01T15:14:56+08:00",
+        "duration_seconds": 129.899,
+        "metrics": {
+          "calls": 13
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-01T15:14:57+08:00",
+        "ended_at": "2026-10-01T15:23:07+08:00",
+        "duration_seconds": 490.318,
+        "metrics": {}
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T15:23:07+08:00",
+        "ended_at": "2026-10-01T15:23:07+08:00",
+        "duration_seconds": 0.015,
+        "metrics": {
+          "mode": "preview",
+          "files": 23
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-01T15:23:07+08:00",
+        "ended_at": "2026-10-01T15:23:34+08:00",
+        "duration_seconds": 27.774,
+        "metrics": {}
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T15:26:48+08:00",
+        "ended_at": "2026-10-01T15:27:41+08:00",
+        "duration_seconds": 53.9,
+        "metrics": {
+          "revised_questions": 5
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T15:28:27+08:00",
+        "ended_at": "2026-10-01T15:28:56+08:00",
+        "duration_seconds": 29.134,
+        "metrics": {
+          "revised_questions": 1
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-01T15:23:34+08:00",
+        "ended_at": "2026-10-01T15:31:45+08:00",
+        "duration_seconds": 491.457,
+        "metrics": {
+          "review_agents": 1,
+          "reviewed_questions": 20,
+          "reblind_questions": 6
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T15:32:36+08:00",
+        "ended_at": "2026-10-01T15:32:37+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-01T15:31:45+08:00",
+        "ended_at": "2026-10-01T15:33:46+08:00",
+        "duration_seconds": 121.635,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0168",
+        "revision": 2,
+        "reason": "首次独立盲审要求消除潜在多解或改善干扰项",
+        "at": "2026-10-01T15:26:47+08:00"
+      },
+      {
+        "question_id": "N2-Q-0171",
+        "revision": 2,
+        "reason": "首次独立盲审要求消除潜在多解或改善干扰项",
+        "at": "2026-10-01T15:26:47+08:00"
+      },
+      {
+        "question_id": "N2-Q-0174",
+        "revision": 2,
+        "reason": "首次独立盲审要求消除潜在多解或改善干扰项",
+        "at": "2026-10-01T15:26:47+08:00"
+      },
+      {
+        "question_id": "N2-Q-0163",
+        "revision": 2,
+        "reason": "首次独立盲审要求消除潜在多解或改善干扰项",
+        "at": "2026-10-01T15:26:47+08:00"
+      },
+      {
+        "question_id": "N2-Q-0164",
+        "revision": 2,
+        "reason": "首次独立盲审要求消除潜在多解或改善干扰项",
+        "at": "2026-10-01T15:26:48+08:00"
+      },
+      {
+        "question_id": "N2-Q-0163",
+        "revision": 3,
+        "reason": "重盲审发现主观违和感与找不到具体疑点可共存；改为三个明确否定印象的干扰项",
+        "at": "2026-10-01T15:28:26+08:00"
+      }
+    ],
+    "active_phases": {},
+    "scope": {
+      "requested_questions": 20,
+      "coverage_per_card": 2,
+      "missing_cards": [],
+      "source_gap": "第86条已按用户明确许可改用Hagoromo；范围和题量均满足。",
+      "cache_hits": 0,
+      "adopted_new_pages": 12
+    },
+    "source_exception": {
+      "authorized_by": "用户2026-10-01明确答复：允许第86条使用Hagoromo",
+      "grammar_ids": [
+        "N2-G-0086"
+      ],
+      "allowed_host": "www.hagoromo-text.work",
+      "site_name": "はごろも",
+      "evidence_path": "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/hagoromo-1112.md",
+      "reason": "日本語NET未发现第86条愿望用法的直接教学材料；其余18题仍为日本語NET。"
+    },
+    "explanation_corrections": [
+      {
+        "question_id": "N2-Q-0167",
+        "revision": 1,
+        "change": "删除形容词不能接にすぎない的绝对禁令，以语境不合排除；题干选项答案未变。"
+      }
+    ],
+    "review_evidence": [
+      "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/n2-8190-blind-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/n2-8190-reblind-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/n2-8190-q3-final-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/n2-8190-source-review.json"
+    ],
+    "validation_exception_wrapper": "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/validate_with_exception.py",
+    "validation_results": {
+      "final_draft": "passed（用户Hagoromo例外专用wrapper，原流程其他门禁保留）",
+      "mechanical": "0 errors, 0 warnings; structure=20,0,0; level=N2",
+      "asset_links": "passed",
+      "source_cache": "passed, 112 total NET pages",
+      "coverage": "10 cards, 2 questions each",
+      "independent_review": "passed all current revisions; 5 first revisions and 1 second revision",
+      "existing_n2_similarity": "no matches >0.82",
+      "correct_position_distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5
+      }
+    }
+  }
+}

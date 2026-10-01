@@ -1,0 +1,314 @@
+{
+  "phase": 2,
+  "verdict": "passed",
+  "reviewed_questions": 20,
+  "source_counts": {
+    "derived_from_example": 18,
+    "teaching_exercise": 2
+  },
+  "authorized_exception": "第11、12题Hagoromo对应86卡，为用户明确许可",
+  "original_exercise_checks": [
+    {
+      "prompt_options_order_answer": "passed",
+      "locator": "Question 5",
+      "number": 9,
+      "answer": 3
+    },
+    {
+      "prompt_options_order_answer": "passed",
+      "locator": "Question 2",
+      "number": 15,
+      "answer": 1
+    }
+  ],
+  "blocking_questions": [],
+  "explanation_corrections": [],
+  "remarks": [
+    "全20题来源、四项解析及最终唯一解审核通过。",
+    "第3题revision3经第2轮修订后独立重盲审和最小题源复核通过。",
+    "第7题仅解析更正已复核通过，题干、选项、答案未变。",
+    "Hagoromo为用户许可例外；未修改draft或试题。"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "expected_answer": "2",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/e5700dc32dc3095fa978-8fa6045d9809.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 2,
+      "expected_answer": "4",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/e5700dc32dc3095fa978-8fa6045d9809.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 3,
+      "expected_answer": "1",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/aa3b1798581931f9b648-b30b02f122cb.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：revision3第2轮修改日志与当前盲审版一致",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "expected_answer": "3",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/aa3b1798581931f9b648-b30b02f122cb.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 5,
+      "expected_answer": "4",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/69f02b94cee24d8d87cc-c433a737efa5.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 6,
+      "expected_answer": "2",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/69f02b94cee24d8d87cc-c433a737efa5.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 7,
+      "expected_answer": "3",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/f9d9773f7d0d8706df6f-985a6944d084.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed：已只读核对当前draft，选项2改为语境排除，无绝对接续禁令；source.distractor_basis同步更新",
+      "unique_answer_check": "passed",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "expected_answer": "1",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/9c143ec7612f212a0c26-8d930629129b.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 9,
+      "expected_answer": "3",
+      "source_kind": "teaching_exercise",
+      "evidence_paths": [
+        "quizzes/sources/cache/a53cb908e1cb40b3b129-7466bfeeeab4.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 10,
+      "expected_answer": "1",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/9dda306283b6cd195403-de0c4e3ad033.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 11,
+      "expected_answer": "4",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/hagoromo-1112.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 12,
+      "expected_answer": "2",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/2026-10-01-n2-lessons-81-90-test-1/hagoromo-1112.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 13,
+      "expected_answer": "4",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/7bdf5ad42ab7a19f6709-d911a17ac5a1.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 14,
+      "expected_answer": "2",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/7bdf5ad42ab7a19f6709-d911a17ac5a1.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 15,
+      "expected_answer": "1",
+      "source_kind": "teaching_exercise",
+      "evidence_paths": [
+        "quizzes/sources/cache/a53cb908e1cb40b3b129-7466bfeeeab4.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 16,
+      "expected_answer": "3",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/379b492466d7782246d0-80891efbf387.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 17,
+      "expected_answer": "4",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/2f55c21e461738332955-637c0a92488c.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 18,
+      "expected_answer": "2",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/2f55c21e461738332955-637c0a92488c.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 19,
+      "expected_answer": "1",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/1bc4633acbfd75ea7686-7aa33a81f245.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    },
+    {
+      "number": 20,
+      "expected_answer": "3",
+      "source_kind": "derived_from_example",
+      "evidence_paths": [
+        "quizzes/sources/cache/1bc4633acbfd75ea7686-7aa33a81f245.md"
+      ],
+      "source_type_check": "passed",
+      "source_text_check": "passed：已核对原例句；原题9、15题干、选项及顺序、网站答案均一致",
+      "transformations_check": "passed：改动可由日志追溯",
+      "four_explanations_check": "passed",
+      "unique_answer_check": "passed",
+      "issues": null
+    }
+  ]
+}

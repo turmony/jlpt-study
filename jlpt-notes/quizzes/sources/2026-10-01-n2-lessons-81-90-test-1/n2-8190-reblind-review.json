@@ -1,0 +1,45 @@
+{
+  "phase": "reblind",
+  "blind": true,
+  "verdict": "revise",
+  "questions": [
+    {
+      "number": 3,
+      "answer": 1,
+      "confidence": "medium",
+      "unique": false,
+      "alternatives": [
+        2
+      ],
+      "reason": "1最贴合，但「妙な違和感が残った」是主观感觉，「不自然な点は見当たらなかった」是找不到具体疑点；两者可以共存，正与ものがある的模糊印象相对。因此否定干扰项未完全排除。建议将干扰项改为与残った違和感明确冲突的肯定印象，或增加认定确有不自然之处的线索。"
+    },
+    {
+      "number": 4,
+      "answer": 3,
+      "confidence": "high",
+      "unique": true,
+      "reason": "たった半年で流暢的强调支持惊讶的正面评价，三个全否定项语境不合。"
+    },
+    {
+      "number": 8,
+      "answer": 1,
+      "confidence": "high",
+      "unique": true,
+      "reason": "今では行かない＋懐かしく思い出す明确个人今昔对比，排除泛指行く。"
+    },
+    {
+      "number": 11,
+      "answer": 4,
+      "confidence": "high",
+      "unique": true,
+      "reason": "寻找消除对立的方法，否定其存在/应有性或说无需方法均不合。"
+    },
+    {
+      "number": 14,
+      "answer": 2,
+      "confidence": "high",
+      "unique": true,
+      "reason": "意向形＋ものなら警告坏结果。1、3不能直接接ものなら，4表示能忘记的愿望，语境不合。"
+    }
+  ]
+}

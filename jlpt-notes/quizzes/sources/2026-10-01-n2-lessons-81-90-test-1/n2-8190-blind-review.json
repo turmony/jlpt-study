@@ -1,0 +1,250 @@
+{
+  "phase": 1,
+  "blind": true,
+  "read_scope": [
+    "work/n2-8190-preview/quizzes/papers/2026-10-01-n2-lessons-81-90-test-1.md",
+    "jlpt-notes/grammar/n2/N2-G-0081.md 至 N2-G-0090.md"
+  ],
+  "answers": [
+    2,
+    4,
+    1,
+    3,
+    4,
+    2,
+    3,
+    1,
+    3,
+    1,
+    4,
+    2,
+    4,
+    2,
+    1,
+    3,
+    4,
+    2,
+    1,
+    3
+  ],
+  "verdict": "revise",
+  "blocking_questions": [
+    8,
+    11,
+    14
+  ],
+  "notes": [
+    "第11题选项3表达确信好方法存在，与希望消除对立相容，需替换选项3或收紧题干。",
+    "第14题たものなら也可表示假定条件，建议把忘れた干扰项换成不能接续的形式，或另换题干。",
+    "整体题型和干扰项偏基础接续辨认；第12题措辞抽象，建议改用生活语境。",
+    "第8题建议补「私は」「今は川へ行く機会がないが」或同类明确个人今昔对比，阻止一般常识的行くものだ阅读。第3、4题答案唯一，但干扰项主要靠词性/接续排除，质量偏弱。"
+  ],
+  "questions": [
+    {
+      "question": 1,
+      "selected_answer": 2,
+      "confidence": "high",
+      "reason": "「人目もかまわず」表示不顾旁人目光，其他关系表达与该行为不合。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 2,
+      "selected_answer": 4,
+      "confidence": "high",
+      "reason": "「明日試験があるのもかまわず」普通形＋の＋もかまわず；其他选项无法接ある。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 3,
+      "selected_answer": 1,
+      "confidence": "high",
+      "reason": "「不自然なものがあった」表示感到某种不自然。其他项不能直接接な。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "较弱，多项可直接靠接续排除"
+    },
+    {
+      "question": 4,
+      "selected_answer": 3,
+      "confidence": "high",
+      "reason": "「驚くべきものがある」评价进步之快令人惊讶；其他选项接续不成立。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "较弱，多项可直接靠接续排除"
+    },
+    {
+      "question": 5,
+      "selected_answer": 4,
+      "confidence": "high",
+      "reason": "完璧な人はいない明确支持一般本质「誰でも間違いをするものだ」。其余均否认或禁止犯错，与前句不合。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "较弱，多项可直接靠接续排除"
+    },
+    {
+      "question": 6,
+      "selected_answer": 2,
+      "confidence": "high",
+      "reason": "后句「やめなさい」明确禁止，选「言うものじゃない」。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 7,
+      "selected_answer": 3,
+      "confidence": "high",
+      "reason": "后句感叹一年已过，选「早いものだ」。其他否定或轻视表达不合。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 8,
+      "selected_answer": 1,
+      "confidence": "medium",
+      "reason": "首选「行ったものだ」表示个人过去怀旧；但题干没有「私は」「今では～なくなった」等明确怀旧线索，「子供の頃はよく川へ遊びに行くものだ」可解释为泛指儿童时期的习惯、一般常识。怀旧阅读很强，但不足以完全排除3。",
+      "unique_answer": false,
+      "alternative_answers": [
+        3
+      ],
+      "naturalness": "可接受",
+      "distractor_quality": "非过去形3可能借泛指常识阅读成立，需强化过去个人经历"
+    },
+    {
+      "question": 9,
+      "selected_answer": 3,
+      "confidence": "high",
+      "reason": "潜在难以实现的代替愿望用「代われるものなら」。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 10,
+      "selected_answer": 1,
+      "confidence": "high",
+      "reason": "生活原因使辞职难以实现，潜在形＋ものなら表达愿望。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 11,
+      "selected_answer": 4,
+      "confidence": "medium",
+      "reason": "首选「ないものだろうか」呼吁寻找好方法。但「対立をなくすよい方法はあるに決まっている」也是自然且与前句愿望相容的信念陈述，未被题干排除。",
+      "unique_answer": false,
+      "alternative_answers": [
+        3
+      ],
+      "naturalness": "可接受",
+      "distractor_quality": "存在可成立干扰项，需修订"
+    },
+    {
+      "question": 12,
+      "selected_answer": 2,
+      "confidence": "high",
+      "reason": "寻找连接环节的愿望用「ないものだろうか」。其他项否定存在或决定不保留，与前句不合。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "略显抽象且人为补上的「両者のつながりを見つけたい」与科学类比句不太统一，仍可理解。",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 13,
+      "selected_answer": 4,
+      "confidence": "high",
+      "reason": "意向形「忘れよう」＋ものなら，后接坏结果，只有4能接续。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 14,
+      "selected_answer": 2,
+      "confidence": "medium",
+      "reason": "首选意向形「忘れようものなら」警告后果。但「宿題を忘れたものなら、どれだけ叱られるかわからない」也可作既成/假定条件并得到自然的坏结果；仅意向形目标知识不能排除实际可用的たものなら。",
+      "unique_answer": false,
+      "alternative_answers": [
+        3
+      ],
+      "naturalness": "可接受",
+      "distractor_quality": "存在可成立干扰项，需修订"
+    },
+    {
+      "question": 15,
+      "selected_answer": 1,
+      "confidence": "high",
+      "reason": "承认读了但没理解，逆接「読んではいるものの」。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 16,
+      "selected_answer": 3,
+      "confidence": "high",
+      "reason": "固定表达「とはいうものの」，表示虽说变暖实际仍冬天。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 17,
+      "selected_answer": 4,
+      "confidence": "high",
+      "reason": "嬉しいやら寂しいやら列举复杂感情。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 18,
+      "selected_answer": 2,
+      "confidence": "high",
+      "reason": "掃除するやら年賀状を書くやら列举忙碌事务。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "合格"
+    },
+    {
+      "question": 19,
+      "selected_answer": 1,
+      "confidence": "high",
+      "reason": "「連絡のしようがない」缺少联络手段，其他项不能接连絡の。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "较弱，多项可直接靠接续排除"
+    },
+    {
+      "question": 20,
+      "selected_answer": 3,
+      "confidence": "high",
+      "reason": "答え（ます形词干）＋ようがない，其他形式接续错误。",
+      "unique_answer": true,
+      "alternative_answers": [],
+      "naturalness": "可接受",
+      "distractor_quality": "较弱，多项可直接靠接续排除"
+    }
+  ]
+}
