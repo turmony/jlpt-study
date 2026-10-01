@@ -865,3 +865,23 @@
 {"question_id":"N2-Q-0118","revision":2,"item_type":"form_choice","selected_option":"4","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-30"}
 {"question_id":"N2-Q-0119","revision":1,"item_type":"form_choice","selected_option":"1","is_correct":true,"uncertain":false,"error_tags":[],"date":"2026-09-30"}
 {"question_id":"N2-Q-0120","revision":1,"item_type":"form_choice","selected_option":"2","is_correct":false,"uncertain":false,"error_tags":["に際して与に関して混淆","动作时点与主题混淆"],"date":"2026-09-30"}
+{"question_id": "N2-Q-0121", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0122", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0123", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0124", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0125", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0126", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0127", "revision": 2, "item_type": "form_choice", "selected_option": "3", "is_correct": false, "uncertain": false, "error_tags": ["两种情况共同结论", "につけて适用边界"], "date": "2026-10-01"}
+{"question_id": "N2-Q-0128", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0129", "revision": 2, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0130", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0131", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0132", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": false, "uncertain": false, "error_tags": ["抽象方针接续", "に沿って与につけて混淆"], "date": "2026-10-01"}
+{"question_id": "N2-Q-0133", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0134", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0135", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0136", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0137", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0138", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0139", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0140", "revision": 2, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
