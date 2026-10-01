@@ -1,0 +1,1688 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-01-n2-lessons-91-100-test-1",
+    "title": "N2 第91–100条语法练习（20道选择题）",
+    "date": "2026-10-01",
+    "level": "N2",
+    "suggested_minutes": 20
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N2-Q-0181",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "入院（　）、今後はできるだけ毎日運動しようと思った。これが退院後の生活習慣を改めるきっかけとなった。",
+      "translation": "以住院为契机，决定今后尽量每天运动，这成为改变出院后生活习惯的契机。",
+      "tested_cards": [
+        "N2-G-0091"
+      ],
+      "conjugation": "名词＋を契機に：某事件成为开始新行动的契机。",
+      "options": {
+        "1": "を契機に",
+        "2": "を問わず",
+        "3": "を除いて",
+        "4": "をはじめ"
+      },
+      "correct_option": "1",
+      "correct_explanation": "住院成为新的运动决心及生活习惯改变的触发事件，符合契机。",
+      "option_explanations": {
+        "1": "住院成为新的运动决心及生活习惯改变的触发事件，符合契机。",
+        "2": "不论住院，与明确把这次住院当改变生活契机相反。",
+        "3": "排除住院，不符合以此事改变习惯。",
+        "4": "代表列举应接其他同类事项；这里是事件引发新的决心，而非列举。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜を契機に / 〜を契機として",
+        "url": "https://nihongokyoshi-net.com/2019/05/18/jlptn2-grammar-keiki/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/840b4b08dcc14e1ccd71-8c698df91568.md"
+        ],
+        "original_example": "入院を契機に、今後はできるだけ毎日運動しようと思った。",
+        "transformations": [
+          "以直接教学页的入院例句制作一题，替换多解的网站原题；不将新题标为原题。",
+          "挖空を契機に并设置四选项。",
+          "增加これが退院後の生活習慣を改めるきっかけとなった，明确触发事件。"
+        ],
+        "answer_basis": "名词＋を契機に：某事件成为开始新行动的契机。 住院成为新的运动决心及生活习惯改变的触发事件，符合契机。",
+        "distractor_basis": [
+          "1. を契機に：住院成为新的运动决心及生活习惯改变的触发事件，符合契机。",
+          "2. を問わず：不论住院，与明确把这次住院当改变生活契机相反。",
+          "3. を除いて：排除住院，不符合以此事改变习惯。",
+          "4. をはじめ：代表列举应接其他同类事项；这里是事件引发新的决心，而非列举。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋を契機に：某事件成为开始新行动的契机。",
+        "semantic_exclusion": "住院成为新的运动决心及生活习惯改变的触发事件，符合契机。；不论住院，与明确把这次住院当改变生活契机相反。；排除住院，不符合以此事改变习惯。；代表列举应接其他同类事项；这里是事件引发新的决心，而非列举。",
+        "unique_answer_rationale": "住院成为新的运动决心及生活习惯改变的触发事件，符合契机。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "1",
+          "notes": "退院后的生活习惯改变明确住院是契机，を契機に自然；不论住院、排除住院、以住院为代表均不合因果背景。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N2-Q-0182",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "転職（　）、次の会社では自分らしく働こうと決意した。",
+      "translation": "以换工作为契机，决定在下一家公司按自己的方式工作。",
+      "tested_cards": [
+        "N2-G-0091"
+      ],
+      "conjugation": "名词＋を契機に：以转职为出发点作出新的决定。",
+      "options": {
+        "1": "を問わず",
+        "2": "を除いて",
+        "3": "をはじめ",
+        "4": "を契機に"
+      },
+      "correct_option": "4",
+      "correct_explanation": "表示借转职这一机会形成新的工作决心。",
+      "option_explanations": {
+        "1": "表示不论是否转职，与把转职作为行动改变的触发事件不同。",
+        "2": "表示排除转职，与该事件成为契机相反。",
+        "3": "代表列举应接转职之外同类事物的列举，后项却是新的决心。",
+        "4": "表示借转职这一机会形成新的工作决心。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜を契機に / 〜を契機として",
+        "url": "https://nihongokyoshi-net.com/2019/05/18/jlptn2-grammar-keiki/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/840b4b08dcc14e1ccd71-8c698df91568.md"
+        ],
+        "original_example": "転職を契機に、次の会社では自分らしく働こうと決意した。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "名词＋を契機に：以转职为出发点作出新的决定。 表示借转职这一机会形成新的工作决心。",
+        "distractor_basis": [
+          "1. を問わず：表示不论是否转职，与把转职作为行动改变的触发事件不同。",
+          "2. を除いて：表示排除转职，与该事件成为契机相反。",
+          "3. をはじめ：代表列举应接转职之外同类事物的列举，后项却是新的决心。",
+          "4. を契機に：表示借转职这一机会形成新的工作决心。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋を契機に：以转职为出发点作出新的决定。",
+        "semantic_exclusion": "表示不论是否转职，与把转职作为行动改变的触发事件不同。；表示排除转职，与该事件成为契机相反。；代表列举应接转职之外同类事物的列举，后项却是新的决心。；表示借转职这一机会形成新的工作决心。",
+        "unique_answer_rationale": "表示借转职这一机会形成新的工作决心。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "4",
+          "notes": "转职作为重新立志的契机，用を契機に。を問わず无论转职与否、を除いて排除转职、をはじめ列举代表均不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N2-Q-0183",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "明日のパーティーは年齢（　）、どなたでもご参加いただけます。",
+      "translation": "明天的聚会不限年龄，任何人都可以参加。",
+      "tested_cards": [
+        "N2-G-0092"
+      ],
+      "conjugation": "名词＋を問わず：年龄不作为参加条件。",
+      "options": {
+        "1": "に応じて",
+        "2": "を問わず",
+        "3": "に限って",
+        "4": "を理由に"
+      },
+      "correct_option": "2",
+      "correct_explanation": "不问年龄，符合どなたでも。",
+      "option_explanations": {
+        "1": "に応じて表示按年龄作相应调整，与无差别任何人可参加不合。",
+        "2": "不问年龄，符合どなたでも。",
+        "3": "に限って表示限于某一年龄，与任何人皆可参加相反。",
+        "4": "を理由に表示以年龄为理由；此处强调年龄不构成限制。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜を問わず",
+        "url": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-towazu/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/950efd7f01802875728b-b549b2df7838.md"
+        ],
+        "original_example": "明日のパーティーは年齢を問わず、どなたでもご参加いただけます。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "名词＋を問わず：年龄不作为参加条件。 不问年龄，符合どなたでも。",
+        "distractor_basis": [
+          "1. に応じて：に応じて表示按年龄作相应调整，与无差别任何人可参加不合。",
+          "2. を問わず：不问年龄，符合どなたでも。",
+          "3. に限って：に限って表示限于某一年龄，与任何人皆可参加相反。",
+          "4. を理由に：を理由に表示以年龄为理由；此处强调年龄不构成限制。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋を問わず：年龄不作为参加条件。",
+        "semantic_exclusion": "に応じて表示按年龄作相应调整，与无差别任何人可参加不合。；不问年龄，符合どなたでも。；に限って表示限于某一年龄，与任何人皆可参加相反。；を理由に表示以年龄为理由；此处强调年龄不构成限制。",
+        "unique_answer_rationale": "不问年龄，符合どなたでも。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "2",
+          "notes": "どなたでも表示年龄不限制参加，を問わず对应无论年龄。其余分别按年龄、限于年龄、以年龄为由，不符合全员可参加。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N2-Q-0184",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このオンラインショップは購入数や購入金額（　）、送料無料です。１点でも、少額でも送料はかかりません。",
+      "translation": "这家网店不论购买数量或金额，都免运费。买一件或金额很少也不收运费。",
+      "tested_cards": [
+        "N2-G-0092"
+      ],
+      "conjugation": "名词＋を問わず：购买数量和金额不影响免费运送。",
+      "options": {
+        "1": "に応じて",
+        "2": "に限って",
+        "3": "を問わず",
+        "4": "を境に"
+      },
+      "correct_option": "3",
+      "correct_explanation": "表示两个条件都不影响免费运费。",
+      "option_explanations": {
+        "1": "按数量金额调整费用，与无论多少都免费相反。",
+        "2": "限定数量金额，与一件或少额也免费不合。",
+        "3": "表示两个条件都不影响免费运费。",
+        "4": "を境に以某个时间或事件为界发生改变；这里没有费用改变的界点。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜を問わず",
+        "url": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-towazu/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/950efd7f01802875728b-b549b2df7838.md"
+        ],
+        "original_example": "このオンラインショップは購入数や購入金額を問わず、送料無料です。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "补充少量、少额也免运费的说明，锁定条件无关。"
+        ],
+        "answer_basis": "名词＋を問わず：购买数量和金额不影响免费运送。 表示两个条件都不影响免费运费。",
+        "distractor_basis": [
+          "1. に応じて：按数量金额调整费用，与无论多少都免费相反。",
+          "2. に限って：限定数量金额，与一件或少额也免费不合。",
+          "3. を問わず：表示两个条件都不影响免费运费。",
+          "4. を境に：を境に以某个时间或事件为界发生改变；这里没有费用改变的界点。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋を問わず：购买数量和金额不影响免费运送。",
+        "semantic_exclusion": "按数量金额调整费用，与无论多少都免费相反。；限定数量金额，与一件或少额也免费不合。；表示两个条件都不影响免费运费。；を境に以某个时间或事件为界发生改变；这里没有费用改变的界点。",
+        "unique_answer_rationale": "表示两个条件都不影响免费运费。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "3",
+          "notes": "一件及少额也免运费排除按数量金额变化，选择を問わず。に応じて为相应变化，に限って限于，を境に为界限。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N2-Q-0185",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "本校では英語（　　　　　）とする７ヶ国語が学べます。",
+      "translation": "本校可以学习以英语为代表的七国语言。",
+      "tested_cards": [
+        "N2-G-0093"
+      ],
+      "conjugation": "名词＋をはじめとする＋名词：以英语为代表的七国语言。",
+      "options": {
+        "1": "からして",
+        "2": "をめぐり",
+        "3": "をはじめ",
+        "4": "において"
+      },
+      "correct_option": "3",
+      "correct_explanation": "与题干とする结合形成をはじめとする，列举代表。",
+      "option_explanations": {
+        "1": "からして表示从某一点即可判断；不能构成からしてとする的定语结构。",
+        "2": "をめぐり表示围绕讨论，不能构成をめぐりとする７ヶ国語。",
+        "3": "与题干とする结合形成をはじめとする，列举代表。",
+        "4": "において表示在某处或领域，不能构成においてとする。"
+      },
+      "source": {
+        "kind": "teaching_exercise",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法クイズ Part11",
+        "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part11/",
+        "locator": "Question 3",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/1e6dd3e3e422df887fdd-1284c935819e.md"
+        ],
+        "answer_locator": "同题下方こたえ／Answer",
+        "original_answer": "(3)",
+        "option_mapping": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
+        },
+        "adaptation": "题干、上下文、空格、全部选项及顺序原样保留，仅Markdown排版；翻译解析另列。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をはじめとする＋名词：以英语为代表的七国语言。",
+        "semantic_exclusion": "からして表示从某一点即可判断；不能构成からしてとする的定语结构。；をめぐり表示围绕讨论，不能构成をめぐりとする７ヶ国語。；与题干とする结合形成をはじめとする，列举代表。；において表示在某处或领域，不能构成においてとする。",
+        "unique_answer_rationale": "与题干とする结合形成をはじめとする，列举代表。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "3",
+          "notes": "をはじめとする修饰7种语言，英语是代表项；其余与とする接续不能形成此义。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "已比对当前1284c935819e.md的Question3：题干、全角空格、四选项及顺序原样，网站答案(3)与独立答案一致；四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N2-Q-0186",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "田中さんはピアノも上手に弾ける。ピアノ（　）、ギター、ドラム、バイオリンなど多くの楽器を演奏できる。",
+      "translation": "田中也很擅长钢琴。他能演奏以钢琴为代表的吉他、鼓、小提琴等多种乐器。",
+      "tested_cards": [
+        "N2-G-0093"
+      ],
+      "conjugation": "名词＋をはじめ：先举一个代表，再列举同类事物。",
+      "options": {
+        "1": "をはじめ",
+        "2": "を除いて",
+        "3": "を問わず",
+        "4": "をめぐって"
+      },
+      "correct_option": "1",
+      "correct_explanation": "钢琴是代表，后接同类乐器，符合语义。",
+      "option_explanations": {
+        "1": "钢琴是代表，后接同类乐器，符合语义。",
+        "2": "排除钢琴，与前文也擅长钢琴相反。",
+        "3": "を問わず需作为不受影响的条件；这里是在列举能演奏的乐器。",
+        "4": "をめぐって表示争执讨论，后项是演奏能力，非围绕钢琴讨论。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜をはじめ",
+        "url": "https://nihongokyoshi-net.com/2018/07/09/jlptn2-grammar-hajime/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/1e46dd80c3f4625d74c1-559d7bd716fe.md"
+        ],
+        "original_example": "田中さんはピアノをはじめ、ギター、ドラム、バイオリンなど多くの楽器を演奏できる。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "增加ピアノも上手に弾ける，排除排除钢琴的解读。"
+        ],
+        "answer_basis": "名词＋をはじめ：先举一个代表，再列举同类事物。 钢琴是代表，后接同类乐器，符合语义。",
+        "distractor_basis": [
+          "1. をはじめ：钢琴是代表，后接同类乐器，符合语义。",
+          "2. を除いて：排除钢琴，与前文也擅长钢琴相反。",
+          "3. を問わず：を問わず需作为不受影响的条件；这里是在列举能演奏的乐器。",
+          "4. をめぐって：をめぐって表示争执讨论，后项是演奏能力，非围绕钢琴讨论。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をはじめ：先举一个代表，再列举同类事物。",
+        "semantic_exclusion": "钢琴是代表，后接同类乐器，符合语义。；排除钢琴，与前文也擅长钢琴相反。；を問わず需作为不受影响的条件；这里是在列举能演奏的乐器。；をめぐって表示争执讨论，后项是演奏能力，非围绕钢琴讨论。",
+        "unique_answer_rationale": "钢琴是代表，后接同类乐器，符合语义。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "1",
+          "notes": "前句明确会弹钢琴，随后列举诸乐器，をはじめ自然；を除いて与前句冲突，其他不构成列举。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N2-Q-0187",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "残り１つしかないアイスクリーム（　）、息子たちが喧嘩している。",
+      "translation": "儿子们正为了最后剩下的那一个冰淇淋争吵。",
+      "tested_cards": [
+        "N2-G-0094"
+      ],
+      "conjugation": "名词＋をめぐって：围绕争夺的对象发生冲突。",
+      "options": {
+        "1": "を問わず",
+        "2": "を除いて",
+        "3": "をはじめ",
+        "4": "をめぐって"
+      },
+      "correct_option": "4",
+      "correct_explanation": "为争夺最后一个冰淇淋而发生争吵。",
+      "option_explanations": {
+        "1": "不论冰淇淋，与其是争夺中心不同。",
+        "2": "排除冰淇淋，把关键争夺对象排除，语义不合。",
+        "3": "代表列举应列举其他同类事物，此处没有列举，只有围绕唯一对象争吵。",
+        "4": "为争夺最后一个冰淇淋而发生争吵。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜をめぐって / 〜をめぐり",
+        "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-megutte/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/019df7d0ef44c4f408ef-6edc6b5bed33.md"
+        ],
+        "original_example": "残り１つしかないアイスクリームをめぐって、息子たちが喧嘩している。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "名词＋をめぐって：围绕争夺的对象发生冲突。 为争夺最后一个冰淇淋而发生争吵。",
+        "distractor_basis": [
+          "1. を問わず：不论冰淇淋，与其是争夺中心不同。",
+          "2. を除いて：排除冰淇淋，把关键争夺对象排除，语义不合。",
+          "3. をはじめ：代表列举应列举其他同类事物，此处没有列举，只有围绕唯一对象争吵。",
+          "4. をめぐって：为争夺最后一个冰淇淋而发生争吵。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をめぐって：围绕争夺的对象发生冲突。",
+        "semantic_exclusion": "不论冰淇淋，与其是争夺中心不同。；排除冰淇淋，把关键争夺对象排除，语义不合。；代表列举应列举其他同类事物，此处没有列举，只有围绕唯一对象争吵。；为争夺最后一个冰淇淋而发生争吵。",
+        "unique_answer_rationale": "为争夺最后一个冰淇淋而发生争吵。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "4",
+          "notes": "兄弟围绕最后一份冰淇淋争吵，用をめぐって。其他无法表达争夺对象。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N2-Q-0188",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "高層マンションの建設（　）、近隣住民と建設会社が対立している。",
+      "translation": "周边居民和建设公司围绕高层公寓的建设产生对立。",
+      "tested_cards": [
+        "N2-G-0094"
+      ],
+      "conjugation": "名词＋をめぐり：正式书面形式，围绕议题发生意见对立。",
+      "options": {
+        "1": "を除き",
+        "2": "をめぐり",
+        "3": "を問わず",
+        "4": "をはじめ"
+      },
+      "correct_option": "2",
+      "correct_explanation": "公寓建设为双方对立的议题，符合をめぐり。",
+      "option_explanations": {
+        "1": "排除建造公寓，使对立不以该事为议题，与原句不同。",
+        "2": "公寓建设为双方对立的议题，符合をめぐり。",
+        "3": "表示无论是否建公寓，与围绕建设这件事对立不同。",
+        "4": "代表列举需要后续同类议题，此处只有双方的对立。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜をめぐって / 〜をめぐり",
+        "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-megutte/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/019df7d0ef44c4f408ef-6edc6b5bed33.md"
+        ],
+        "original_example": "高層マンションの建設をめぐり、近隣住民と建設会社が対立している。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "名词＋をめぐり：正式书面形式，围绕议题发生意见对立。 公寓建设为双方对立的议题，符合をめぐり。",
+        "distractor_basis": [
+          "1. を除き：排除建造公寓，使对立不以该事为议题，与原句不同。",
+          "2. をめぐり：公寓建设为双方对立的议题，符合をめぐり。",
+          "3. を問わず：表示无论是否建公寓，与围绕建设这件事对立不同。",
+          "4. をはじめ：代表列举需要后续同类议题，此处只有双方的对立。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をめぐり：正式书面形式，围绕议题发生意见对立。",
+        "semantic_exclusion": "排除建造公寓，使对立不以该事为议题，与原句不同。；公寓建设为双方对立的议题，符合をめぐり。；表示无论是否建公寓，与围绕建设这件事对立不同。；代表列举需要后续同类议题，此处只有双方的对立。",
+        "unique_answer_rationale": "公寓建设为双方对立的议题，符合をめぐり。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "2",
+          "notes": "居民与公司围绕建设计划对立，をめぐり；其他排除、不论、代表列举不符。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N2-Q-0189",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このドラマは実話（　）、作られたそうだ。実際に起こった出来事を脚本の素材にしたという。",
+      "translation": "听说这部电视剧以真实故事为素材制作，实际发生的事情被用于剧本。",
+      "tested_cards": [
+        "N2-G-0095"
+      ],
+      "conjugation": "名词＋をもとにして：以真实事件为素材创作。",
+      "options": {
+        "1": "をめぐって",
+        "2": "を問わず",
+        "3": "をもとにして",
+        "4": "を除いて"
+      },
+      "correct_option": "3",
+      "correct_explanation": "实际事件作为创作素材，与补充说明一致。",
+      "option_explanations": {
+        "1": "围绕真实故事展开争议讨论，不能准确表达把事件当作剧本素材。",
+        "2": "不论真实故事，否定素材依托的关系。",
+        "3": "实际事件作为创作素材，与补充说明一致。",
+        "4": "排除真实故事，与把实际事件当素材相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：Nをもとに / もとにして",
+        "url": "https://nihongokyoshi-net.com/2018/04/14/jlptn2-grammar-motonishite/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/f64aba5b8c49604198f0-d9c110b94000.md"
+        ],
+        "original_example": "このドラマは実話をもとにして、作られたそうだ。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "补充実際に起こった出来事を脚本の素材にしたという，锁定素材关系。"
+        ],
+        "answer_basis": "名词＋をもとにして：以真实事件为素材创作。 实际事件作为创作素材，与补充说明一致。",
+        "distractor_basis": [
+          "1. をめぐって：围绕真实故事展开争议讨论，不能准确表达把事件当作剧本素材。",
+          "2. を問わず：不论真实故事，否定素材依托的关系。",
+          "3. をもとにして：实际事件作为创作素材，与补充说明一致。",
+          "4. を除いて：排除真实故事，与把实际事件当素材相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をもとにして：以真实事件为素材创作。",
+        "semantic_exclusion": "围绕真实故事展开争议讨论，不能准确表达把事件当作剧本素材。；不论真实故事，否定素材依托的关系。；实际事件作为创作素材，与补充说明一致。；排除真实故事，与把实际事件当素材相反。",
+        "unique_answer_rationale": "实际事件作为创作素材，与补充说明一致。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "3",
+          "notes": "实事作为剧本素材，をもとにして最贴切；をめぐって表示围绕话题但不能表达明确素材关系，其余语义不符。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N2-Q-0190",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "日本の漫画（　）、たくさんのアニメやゲームが作られている。原作の登場人物や物語が、新しい作品に使われている。",
+      "translation": "很多动画和游戏以日本漫画为素材创作，原作人物和故事用于新作品。",
+      "tested_cards": [
+        "N2-G-0095"
+      ],
+      "conjugation": "名词＋をもとにして：以既有漫画为材料制作新作品。",
+      "options": {
+        "1": "をもとにして",
+        "2": "を問わず",
+        "3": "を除いて",
+        "4": "をはじめとして"
+      },
+      "correct_option": "1",
+      "correct_explanation": "原作人物和故事被用于动画游戏，属于基于素材重新创作。",
+      "option_explanations": {
+        "1": "原作人物和故事被用于动画游戏，属于基于素材重新创作。",
+        "2": "不论漫画，与明显使用漫画内容作为素材不合。",
+        "3": "排除漫画，和使用原作人物故事相反。",
+        "4": "をはじめとして列举同类；漫画是素材，不是后文被制作的动画和游戏代表。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N2】文法・例文：Nをもとに / もとにして",
+        "url": "https://nihongokyoshi-net.com/2018/04/14/jlptn2-grammar-motonishite/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/f64aba5b8c49604198f0-d9c110b94000.md"
+        ],
+        "original_example": "日本の漫画をもとにして、たくさんのアニメやゲームが作られている。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "增加原作人物与故事被用于新作品的说明，限定创作素材。"
+        ],
+        "answer_basis": "名词＋をもとにして：以既有漫画为材料制作新作品。 原作人物和故事被用于动画游戏，属于基于素材重新创作。",
+        "distractor_basis": [
+          "1. をもとにして：原作人物和故事被用于动画游戏，属于基于素材重新创作。",
+          "2. を問わず：不论漫画，与明显使用漫画内容作为素材不合。",
+          "3. を除いて：排除漫画，和使用原作人物故事相反。",
+          "4. をはじめとして：をはじめとして列举同类；漫画是素材，不是后文被制作的动画和游戏代表。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をもとにして：以既有漫画为材料制作新作品。",
+        "semantic_exclusion": "原作人物和故事被用于动画游戏，属于基于素材重新创作。；不论漫画，与明显使用漫画内容作为素材不合。；排除漫画，和使用原作人物故事相反。；をはじめとして列举同类；漫画是素材，不是后文被制作的动画和游戏代表。",
+        "unique_answer_rationale": "原作人物和故事被用于动画游戏，属于基于素材重新创作。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "1",
+          "notes": "原作人物故事用于新作，明确漫画作为素材，因此をもとにして；をはじめとして要求同类列举而非素材创作。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "N2-Q-0191",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "会社に着くか（　）かのうちに雨が降り出しました。",
+      "translation": "刚到公司，雨就下起来了。",
+      "tested_cards": [
+        "N2-G-0096"
+      ],
+      "conjugation": "同一动词辞书形＋か＋ない形＋かのうちに：几乎同时发生。",
+      "options": {
+        "1": "着いている",
+        "2": "着こう",
+        "3": "着いた",
+        "4": "着かない"
+      },
+      "correct_option": "4",
+      "correct_explanation": "着く的ない形为着かない，形成完整句型。",
+      "option_explanations": {
+        "1": "ている形不能构成肯定与否定成对的定型句。",
+        "2": "意向形不是与着く对应的ない形。",
+        "3": "た形放在第二位置不能构成着くか着かないか的肯否定配对。",
+        "4": "着く的ない形为着かない，形成完整句型。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜か〜ないかのうちに",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-ka-naikanouchini/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/3e2db9e82be4798f5a0c-dbaae0a20e7a.md"
+        ],
+        "original_example": "会社に着くか着かないかのうちに雨が降り出しました。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "同一动词辞书形＋か＋ない形＋かのうちに：几乎同时发生。 着く的ない形为着かない，形成完整句型。",
+        "distractor_basis": [
+          "1. 着いている：ている形不能构成肯定与否定成对的定型句。",
+          "2. 着こう：意向形不是与着く对应的ない形。",
+          "3. 着いた：た形放在第二位置不能构成着くか着かないか的肯否定配对。",
+          "4. 着かない：着く的ない形为着かない，形成完整句型。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "同一动词辞书形＋か＋ない形＋かのうちに：几乎同时发生。",
+        "semantic_exclusion": "ている形不能构成肯定与否定成对的定型句。；意向形不是与着く对应的ない形。；た形放在第二位置不能构成着くか着かないか的肯否定配对。；着く的ない形为着かない，形成完整句型。",
+        "unique_answer_rationale": "着く的ない形为着かない，形成完整句型。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "4",
+          "notes": "固定形式着くか着かないかのうちに，重复同动词肯定与否定；其余形态不成立。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 12,
+      "id": "N2-Q-0192",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "映画が終わる（　）、観客は席を立った。映画が終わり切るより先に、観客が立ち上がり始めていた。",
+      "translation": "电影刚要结束，观众就起身离座了，电影尚未完全结束，人们已开始起身。",
+      "tested_cards": [
+        "N2-G-0096"
+      ],
+      "conjugation": "辞书形＋か＋ない形＋かのうちに：前项将完成之际后项已发生。",
+      "options": {
+        "1": "までずっと",
+        "2": "か終わらないかのうちに",
+        "3": "ようになってから",
+        "4": "のを待ってから"
+      },
+      "correct_option": "2",
+      "correct_explanation": "电影尚未完全结束就开始离座，符合几乎同时或前项将结束时。",
+      "option_explanations": {
+        "1": "までずっと表达一直持续到结束；席を立った是发生的动作，不是贯穿全程的状态。",
+        "2": "电影尚未完全结束就开始离座，符合几乎同时或前项将结束时。",
+        "3": "ようになってから表示变得会结束后才发生，不能表达一次电影将结束之际。",
+        "4": "明确等到结束后才起身，与补充的结束前起身相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜か〜ないかのうちに",
+        "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-ka-naikanouchini/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/3e2db9e82be4798f5a0c-dbaae0a20e7a.md"
+        ],
+        "original_example": "映画が終わるか終わらないかのうちに、観客は席を立った。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "增加映画が終わり切るより先に、観客が立ち上がり始めていた，排除单纯先后。"
+        ],
+        "answer_basis": "辞书形＋か＋ない形＋かのうちに：前项将完成之际后项已发生。 电影尚未完全结束就开始离座，符合几乎同时或前项将结束时。",
+        "distractor_basis": [
+          "1. までずっと：までずっと表达一直持续到结束；席を立った是发生的动作，不是贯穿全程的状态。",
+          "2. か終わらないかのうちに：电影尚未完全结束就开始离座，符合几乎同时或前项将结束时。",
+          "3. ようになってから：ようになってから表示变得会结束后才发生，不能表达一次电影将结束之际。",
+          "4. のを待ってから：明确等到结束后才起身，与补充的结束前起身相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "辞书形＋か＋ない形＋かのうちに：前项将完成之际后项已发生。",
+        "semantic_exclusion": "までずっと表达一直持续到结束；席を立った是发生的动作，不是贯穿全程的状态。；电影尚未完全结束就开始离座，符合几乎同时或前项将结束时。；ようになってから表示变得会结束后才发生，不能表达一次电影将结束之际。；明确等到结束后才起身，与补充的结束前起身相反。",
+        "unique_answer_rationale": "电影尚未完全结束就开始离座，符合几乎同时或前项将结束时。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "2",
+          "notes": "结束之前就已起立，与终不终之间的几乎同时发生对应；待结束后与ようになってから均晚于结束，までずっと表示持续起立的读法与立ち上がり始め不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 13,
+      "id": "N2-Q-0193",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "空がピカッと光った（　）、大きな雷の音が鳴った。間を置かずに雷鳴が続いた。",
+      "translation": "天空闪了一下，紧接着响起一声巨雷，雷声随即传来。",
+      "tested_cards": [
+        "N2-G-0097"
+      ],
+      "conjugation": "动词た形＋かと思うと：前项刚发生，后项紧接着发生。",
+      "options": {
+        "1": "かと思うと",
+        "2": "きり",
+        "3": "まま",
+        "4": "ことにして"
+      },
+      "correct_option": "1",
+      "correct_explanation": "前项闪光后立即雷响，符合紧接发生。",
+      "option_explanations": {
+        "1": "前项闪光后立即雷响，符合紧接发生。",
+        "2": "たきり表示闪光后未再闪光等持续状态；本句要表达闪光与雷响的紧接发生，并不表达闪光后未再发生或持续的状态，故不合语境。",
+        "3": "たまま表示前项状态持续不变；短暂闪光并非保持原状态。",
+        "4": "ことにして表示决定或当作做过，不用于说明天空闪光后雷响。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜かと思うと / 〜かと思ったら",
+        "url": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-katoomouto/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/2e0ac0ffdfeb0524a06c-9b0e63df1986.md"
+        ],
+        "original_example": "空がピカッと光ったかと思うと、大きな雷の音が鳴った。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "增加間を置かずに雷鳴が続いた，明确紧接发生。"
+        ],
+        "answer_basis": "动词た形＋かと思うと：前项刚发生，后项紧接着发生。 前项闪光后立即雷响，符合紧接发生。",
+        "distractor_basis": [
+          "1. かと思うと：前项闪光后立即雷响，符合紧接发生。",
+          "2. きり：たきり表示闪光后未再闪光等持续状态；本句要表达闪光与雷响的紧接发生，并不表达闪光后未再发生或持续的状态，故不合语境。",
+          "3. まま：たまま表示前项状态持续不变；短暂闪光并非保持原状态。",
+          "4. ことにして：ことにして表示决定或当作做过，不用于说明天空闪光后雷响。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋かと思うと：前项刚发生，后项紧接着发生。",
+        "semantic_exclusion": "前项闪光后立即雷响，符合紧接发生。；たきり表示闪光后未再闪光等持续状态；本句要表达闪光与雷响的紧接发生，并不表达闪光后未再发生或持续的状态，故不合语境。；たまま表示前项状态持续不变；短暂闪光并非保持原状态。；ことにして表示决定或当作做过，不用于说明天空闪光后雷响。",
+        "unique_answer_rationale": "前项闪光后立即雷响，符合紧接发生。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "1",
+          "notes": "闪光之后马上雷响，用たかと思うと；きり表示此后不再有变化，まま为保持闪光状态，ことにして为作出决定，均不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "来源例句及派生改动可追溯，独立答案为1；修订后的第2项解析准确限定たきり的相关动作或持续状态，没有禁止所有后续事件。option_explanations、source.distractor_basis与preflight已同步核对，题干选项答案未改变。"
+        }
+      }
+    },
+    {
+      "number": 14,
+      "id": "N2-Q-0194",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ようやく泣き止んだ（　）、また泣き出した。静かになったと思った直後のことだった。",
+      "translation": "刚觉得终于不哭了，马上又哭起来了，那是在以为已安静下来的紧接时刻。",
+      "tested_cards": [
+        "N2-G-0097"
+      ],
+      "conjugation": "动词た形＋かと思ったら：原以为前项刚完成，就出现新的变化。",
+      "options": {
+        "1": "きり",
+        "2": "まま",
+        "3": "かと思ったら",
+        "4": "ことにして"
+      },
+      "correct_option": "3",
+      "correct_explanation": "刚觉得不哭了就再哭，表示意外而紧接的变化。",
+      "option_explanations": {
+        "1": "たきり表示停止哭泣后状态未再变化，与马上又哭相反。",
+        "2": "たまま表示持续不哭的状态，与再次开始哭相反。",
+        "3": "刚觉得不哭了就再哭，表示意外而紧接的变化。",
+        "4": "ことにして表示决定或假定当作某事，不能说明实际突然又哭。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜かと思うと / 〜かと思ったら",
+        "url": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-katoomouto/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/2e0ac0ffdfeb0524a06c-9b0e63df1986.md"
+        ],
+        "original_example": "ようやく泣き止んだかと思ったら、また泣き出した。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "增加静かになったと思った直後のことだった，锁定实际紧接变化。"
+        ],
+        "answer_basis": "动词た形＋かと思ったら：原以为前项刚完成，就出现新的变化。 刚觉得不哭了就再哭，表示意外而紧接的变化。",
+        "distractor_basis": [
+          "1. きり：たきり表示停止哭泣后状态未再变化，与马上又哭相反。",
+          "2. まま：たまま表示持续不哭的状态，与再次开始哭相反。",
+          "3. かと思ったら：刚觉得不哭了就再哭，表示意外而紧接的变化。",
+          "4. ことにして：ことにして表示决定或假定当作某事，不能说明实际突然又哭。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋かと思ったら：原以为前项刚完成，就出现新的变化。",
+        "semantic_exclusion": "たきり表示停止哭泣后状态未再变化，与马上又哭相反。；たまま表示持续不哭的状态，与再次开始哭相反。；刚觉得不哭了就再哭，表示意外而紧接的变化。；ことにして表示决定或假定当作某事，不能说明实际突然又哭。",
+        "unique_answer_rationale": "刚觉得不哭了就再哭，表示意外而紧接的变化。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "3",
+          "notes": "刚止哭随即又哭，たかと思ったら。きり及まま要求止哭后保持/没有后续而与又哭冲突，ことにして表示有意决定不合观察事件。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 15,
+      "id": "N2-Q-0195",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は途中で足を負傷しながらも、42.195kmを走り（　）。途中でやめずに、ゴールまでたどり着いた。",
+      "translation": "他虽然中途伤了脚，仍坚持跑完42.195公里。他没有中途放弃，最终到达了终点。",
+      "tested_cards": [
+        "N2-G-0098"
+      ],
+      "conjugation": "动词ます词干＋ぬく：克服困难坚持做到底，此处过去形ぬいた。",
+      "options": {
+        "1": "かけた",
+        "2": "損ねた",
+        "3": "かねた",
+        "4": "ぬいた"
+      },
+      "correct_option": "4",
+      "correct_explanation": "跑步中受伤仍完成全程，体现坚持到底。",
+      "option_explanations": {
+        "1": "かけた表示开始或未完成阶段；后文明示没有中途放弃并抵达终点，因此不是仅开始或尚未完成。",
+        "2": "損ねた表示没能成功做到，与仍完成全程的让步结果相反。",
+        "3": "かねた表示难以做到、没法跑，与虽受伤仍完成的结果相反。",
+        "4": "跑步中受伤仍完成全程，体现坚持到底。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ぬく",
+        "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-nuku/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/9f88deea1a7cbf93c1cd-8d7010e4341f.md"
+        ],
+        "original_example": "彼は途中で足を負傷しながらも、42.195kmを走りぬいた。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "第1轮修订：独立盲审：原题1多解应替换；15补明完成；18改善自然搭配",
+          "第1轮修订：补充途中でやめずに、ゴールまでたどり着いた，明示完成全程。"
+        ],
+        "answer_basis": "动词ます词干＋ぬく：克服困难坚持做到底，此处过去形ぬいた。 跑步中受伤仍完成全程，体现坚持到底。",
+        "distractor_basis": [
+          "1. かけた：かけた表示开始或未完成阶段；后文明示没有中途放弃并抵达终点，因此不是仅开始或尚未完成。",
+          "2. 損ねた：損ねた表示没能成功做到，与仍完成全程的让步结果相反。",
+          "3. かねた：かねた表示难以做到、没法跑，与虽受伤仍完成的结果相反。",
+          "4. ぬいた：跑步中受伤仍完成全程，体现坚持到底。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます词干＋ぬく：克服困难坚持做到底，此处过去形ぬいた。",
+        "semantic_exclusion": "かけた表示开始或未完成阶段；后文明示没有中途放弃并抵达终点，因此不是仅开始或尚未完成。；損ねた表示没能成功做到，与仍完成全程的让步结果相反。；かねた表示难以做到、没法跑，与虽受伤仍完成的结果相反。；跑步中受伤仍完成全程，体现坚持到底。",
+        "unique_answer_rationale": "跑步中受伤仍完成全程，体现坚持到底。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "4",
+          "notes": "明确途中未放弃且抵达终点，完成全程只能走りぬいた；其余开始未完或不能完成均冲突。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "来源例句及派生改动可追溯，独立答案为4；修订后的第1项解析以未中止且抵达终点排除开始或未完成阶段。option_explanations、source.distractor_basis与preflight已同步核对，题干选项答案未改变。"
+        }
+      }
+    },
+    {
+      "number": 16,
+      "id": "N2-Q-0196",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "妻とは長い付き合いなので、私のことなら何でも知り（　）。",
+      "translation": "和妻子相处已久，所以她对我的事情了如指掌。",
+      "tested_cards": [
+        "N2-G-0098"
+      ],
+      "conjugation": "知ります去ます＋ぬいている：彻底了解、十分熟悉。",
+      "options": {
+        "1": "始めたばかりだ",
+        "2": "ぬいている",
+        "3": "かけている",
+        "4": "損ねている"
+      },
+      "correct_option": "2",
+      "correct_explanation": "知りぬく表示彻底了解，符合长期相处、何でも。",
+      "option_explanations": {
+        "1": "刚开始了解，与长期相处以及何でも表示的全面了解不合。",
+        "2": "知りぬく表示彻底了解，符合长期相处、何でも。",
+        "3": "知りかけ表示刚在逐步开始了解，未达到全面了解。",
+        "4": "知り損ね表示未能得知，与全部都了解相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜ぬく",
+        "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-nuku/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/9f88deea1a7cbf93c1cd-8d7010e4341f.md"
+        ],
+        "original_example": "妻とは長い付き合いなので、私のことなら何でも知りぬいている。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "知ります去ます＋ぬいている：彻底了解、十分熟悉。 知りぬく表示彻底了解，符合长期相处、何でも。",
+        "distractor_basis": [
+          "1. 始めたばかりだ：刚开始了解，与长期相处以及何でも表示的全面了解不合。",
+          "2. ぬいている：知りぬく表示彻底了解，符合长期相处、何でも。",
+          "3. かけている：知りかけ表示刚在逐步开始了解，未达到全面了解。",
+          "4. 損ねている：知り損ね表示未能得知，与全部都了解相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "知ります去ます＋ぬいている：彻底了解、十分熟悉。",
+        "semantic_exclusion": "刚开始了解，与长期相处以及何でも表示的全面了解不合。；知りぬく表示彻底了解，符合长期相处、何でも。；知りかけ表示刚在逐步开始了解，未达到全面了解。；知り損ね表示未能得知，与全部都了解相反。",
+        "unique_answer_rationale": "知りぬく表示彻底了解，符合长期相处、何でも。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "2",
+          "notes": "长年相处，什么都非常了解，知りぬいている。其余开始、尚未完成及错失了解均与长期什么都了解的背景矛盾。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 17,
+      "id": "N2-Q-0197",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今度こそ、絶対にJLPT N1に合格し（　）。",
+      "translation": "这次我一定要考过JLPT N1给大家看。",
+      "tested_cards": [
+        "N2-G-0099"
+      ],
+      "conjugation": "动词て形＋みせる：表明实现目标的强烈决心。",
+      "options": {
+        "1": "そうにない",
+        "2": "かねる",
+        "3": "まい",
+        "4": "てみせる"
+      },
+      "correct_option": "4",
+      "correct_explanation": "してみせる表示一定实现合格的决心。",
+      "option_explanations": {
+        "1": "そうにない表示看来不会合格，与絶対に的肯定决心相反。",
+        "2": "かねる表示难以合格，无法表达一定做到的决意。",
+        "3": "まい表示不打算合格或大概不会合格，与决心相反。",
+        "4": "してみせる表示一定实现合格的决心。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜てみせる",
+        "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn2-grammar-temiseru/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/89868a1f1473713e1bca-f18f7400666a.md"
+        ],
+        "original_example": "今度こそ、絶対にJLPT N1に合格してみせる。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。"
+        ],
+        "answer_basis": "动词て形＋みせる：表明实现目标的强烈决心。 してみせる表示一定实现合格的决心。",
+        "distractor_basis": [
+          "1. そうにない：そうにない表示看来不会合格，与絶対に的肯定决心相反。",
+          "2. かねる：かねる表示难以合格，无法表达一定做到的决意。",
+          "3. まい：まい表示不打算合格或大概不会合格，与决心相反。",
+          "4. てみせる：してみせる表示一定实现合格的决心。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋みせる：表明实现目标的强烈决心。",
+        "semantic_exclusion": "そうにない表示看来不会合格，与絶対に的肯定决心相反。；かねる表示难以合格，无法表达一定做到的决意。；まい表示不打算合格或大概不会合格，与决心相反。；してみせる表示一定实现合格的决心。",
+        "unique_answer_rationale": "してみせる表示一定实现合格的决心。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "4",
+          "notes": "今度こそ絶対に表达成功决心，してみせる。其余不太可能、难以、决不合格均与绝对要合格不符。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 18,
+      "id": "N2-Q-0198",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "コーチは「こうやってやるんだ」と、その動きを（　）。選手たちはコーチ自身の動きを見て、やり方を学んだ。",
+      "translation": "教练说“要这样做”，亲自示范，选手看着教练的动作学习做法。",
+      "tested_cards": [
+        "N2-G-0099"
+      ],
+      "conjugation": "动词て形＋みせる：亲自作出示范，让别人理解。",
+      "options": {
+        "1": "やってもらった",
+        "2": "やらせた",
+        "3": "やってみせた",
+        "4": "やめてしまった"
+      },
+      "correct_option": "3",
+      "correct_explanation": "教练自己做给选手看，属于示范用法。",
+      "option_explanations": {
+        "1": "やってもらった表示教练接受别人示范，与选手看教练自身的动作相反。",
+        "2": "やらせた表示教练让他人做，与亲自示范的说明不合。",
+        "3": "教练自己做给选手看，属于示范用法。",
+        "4": "やめてしまった表示停止做示范，与选手看动作学会做法相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+        "title": "【JLPT N２】文法・例文：〜てみせる",
+        "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn2-grammar-temiseru/",
+        "locator": "文型及例文区",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/cache/89868a1f1473713e1bca-f18f7400666a.md"
+        ],
+        "original_example": "コーチは「こうやってやるんだ」と、手本をやってみせた。",
+        "transformations": [
+          "去掉网页强调标记和排版空格，保留来源日语原例句。",
+          "挖空考点并添加四个选项。",
+          "增加選手たちはコーチ自身の動きを見て、やり方を学んだ，排除接受或让他人示范。",
+          "第1轮修订：独立盲审：原题1多解应替换；15补明完成；18改善自然搭配",
+          "第1轮修订：把手本を改为その動きを，使亲自示范动作的搭配自然。"
+        ],
+        "answer_basis": "动词て形＋みせる：亲自作出示范，让别人理解。 教练自己做给选手看，属于示范用法。",
+        "distractor_basis": [
+          "1. やってもらった：やってもらった表示教练接受别人示范，与选手看教练自身的动作相反。",
+          "2. やらせた：やらせた表示教练让他人做，与亲自示范的说明不合。",
+          "3. やってみせた：教练自己做给选手看，属于示范用法。",
+          "4. やめてしまった：やめてしまった表示停止做示范，与选手看动作学会做法相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词て形＋みせる：亲自作出示范，让别人理解。",
+        "semantic_exclusion": "やってもらった表示教练接受别人示范，与选手看教练自身的动作相反。；やらせた表示教练让他人做，与亲自示范的说明不合。；教练自己做给选手看，属于示范用法。；やめてしまった表示停止做示范，与选手看动作学会做法相反。",
+        "unique_answer_rationale": "教练自己做给选手看，属于示范用法。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "answer": "3",
+          "notes": "教练亲自演示动作，やってみせた自然；他人代做、命令他人做与自己动作矛盾，停止不表达演示。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "/root/blind_91100",
+          "reviewed_at": "2026-10-01T16:36:26+08:00",
+          "notes": "指定证据含所记原例句，仅剥离强调标记与排版空格；挖空及补充背景/措辞调整可追溯，明确标识派生题；正确项及其余三项均有解析，与独立答案一致。"
+        }
+      }
+    },
+    {
+      "number": 19,
+      "id": "N2-Q-0199",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "到着が遅れる（　）、あらかじめ連絡をください。遅れそうな場合に備えたお願いです。",
+      "translation": "如果会晚到，请提前联系。这是为可能迟到的情况作出的请求。",
+      "tested_cards": [
+        "N2-G-0100"
+      ],
+      "conjugation": "动词辞书形＋ようなら：如果出现所述情况，就采取后续行动。",
+      "options": {
+        "1": "ようなら",
+        "2": "ように",
+        "3": "ようになって",
+        "4": "ようにして"
+      },
+      "correct_option": "1",
+      "correct_explanation": "ようなら表示假定某情况出现时采取相应行动，符合迟到的条件及提前联系的请求。",
+      "option_explanations": {
+        "1": "ようなら表示假定某情况出现时采取相应行动，符合迟到的条件及提前联系的请求。",
+        "2": "ように表示目的等，并非此处的假定条件；到着が遅れるように会变成让到达延迟的目的。",
+        "3": "ようになって表示变得会发生某情况，无法表达为将来可能迟到而提前联系的条件。",
+        "4": "ようにして表示努力做到某事，遅れるようにして会变成设法迟到，与请求不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師（教学网站；采用用户明确许可的第100条题源）",
+        "title": "【Ｎ２文法】～ようなら／ようだったら／ようであれば／ようでしたら",
+        "url": "https://mainichi-nonbiri.com/grammar/n2-younara/",
+        "locator": "接続・解説及例文（３）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/mainichi-younara.md"
+        ],
+        "original_example": "到着が遅れるようなら、あらかじめ連絡をください。",
+        "transformations": [
+          "把条件语法挖空并添加四个选项。",
+          "增加说明后文行动取决于可能出现的情况，排除目的及变化关系。"
+        ],
+        "answer_basis": "动词辞书形＋ようなら：如果出现所述情况，就采取后续行动。 ようなら表示假定某情况出现时采取相应行动，符合迟到的条件及提前联系的请求。",
+        "distractor_basis": [
+          "1. ようなら：ようなら表示假定某情况出现时采取相应行动，符合迟到的条件及提前联系的请求。",
+          "2. ように：ように表示目的等，并非此处的假定条件；到着が遅れるように会变成让到达延迟的目的。",
+          "3. ようになって：ようになって表示变得会发生某情况，无法表达为将来可能迟到而提前联系的条件。",
+          "4. ようにして：ようにして表示努力做到某事，遅れるようにして会变成设法迟到，与请求不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋ようなら：如果出现所述情况，就采取后续行动。",
+        "semantic_exclusion": "ようなら表示假定某情况出现时采取相应行动，符合迟到的条件及提前联系的请求。；ように表示目的等，并非此处的假定条件；到着が遅れるように会变成让到达延迟的目的。；ようになって表示变得会发生某情况，无法表达为将来可能迟到而提前联系的条件。；ようにして表示努力做到某事，遅れるようにして会变成设法迟到，与请求不合。",
+        "unique_answer_rationale": "ようなら表示假定某情况出现时采取相应行动，符合迟到的条件及提前联系的请求。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100（独立子代理）",
+          "reviewed_at": "2026-10-01T17:42:58+08:00",
+          "answer": "1",
+          "notes": "遅れるようなら表示如果可能迟到，应提前联系，符合补句的条件请求。ように为目的，ようになって为变成，ようにして为设法造成，都不能表达若迟到才通知的条件。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100（独立子代理）",
+          "reviewed_at": "2026-10-01T17:42:58+08:00",
+          "notes": "指定摘录例文（3）与original_example逐字一致；挖空与新增条件说明已记录，派生标识准确。四项解析区分假定条件、目的、状态变化及设法实现，与独立答案1一致且唯一。"
+        }
+      }
+    },
+    {
+      "number": 20,
+      "id": "N2-Q-0200",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "明日も熱が下がらない（　）病院に行こうと思う。明日の状態を見て決めるつもりだ。",
+      "translation": "如果明天还不退烧，我打算去医院；准备根据明天的状态决定。",
+      "tested_cards": [
+        "N2-G-0100"
+      ],
+      "conjugation": "动词ない形＋ようだったら：如果处于该状态，后项可接意志或计划。",
+      "options": {
+        "1": "ようになって",
+        "2": "ようだったら",
+        "3": "ようにして",
+        "4": "ように"
+      },
+      "correct_option": "2",
+      "correct_explanation": "ようだったら是假定条件，表示如果明天依然不退烧，就考虑去医院。",
+      "option_explanations": {
+        "1": "ようになって表示变得不退烧后的变化，并非根据明天是否退烧决定就医的假定条件。",
+        "2": "ようだったら是假定条件，表示如果明天依然不退烧，就考虑去医院。",
+        "3": "ようにして表示设法不退烧，与等待观察病情并决定就医相反。",
+        "4": "ように表示目的等，意为为了不退烧去医院，不是判断病情后决定行动。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師（教学网站；采用用户明确许可的第100条题源）",
+        "title": "【Ｎ２文法】～ようなら／ようだったら／ようであれば／ようでしたら",
+        "url": "https://mainichi-nonbiri.com/grammar/n2-younara/",
+        "locator": "接続・解説及例文（４）",
+        "accessed_at": "2026-10-01",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/mainichi-younara.md"
+        ],
+        "original_example": "明日も熱が下がらないようだったら病院に行こうと思う。",
+        "transformations": [
+          "把条件语法挖空并添加四个选项。",
+          "增加说明后文行动取决于可能出现的情况，排除目的及变化关系。"
+        ],
+        "answer_basis": "动词ない形＋ようだったら：如果处于该状态，后项可接意志或计划。 ようだったら是假定条件，表示如果明天依然不退烧，就考虑去医院。",
+        "distractor_basis": [
+          "1. ようになって：ようになって表示变得不退烧后的变化，并非根据明天是否退烧决定就医的假定条件。",
+          "2. ようだったら：ようだったら是假定条件，表示如果明天依然不退烧，就考虑去医院。",
+          "3. ようにして：ようにして表示设法不退烧，与等待观察病情并决定就医相反。",
+          "4. ように：ように表示目的等，意为为了不退烧去医院，不是判断病情后决定行动。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ない形＋ようだったら：如果处于该状态，后项可接意志或计划。",
+        "semantic_exclusion": "ようになって表示变得不退烧后的变化，并非根据明天是否退烧决定就医的假定条件。；ようだったら是假定条件，表示如果明天依然不退烧，就考虑去医院。；ようにして表示设法不退烧，与等待观察病情并决定就医相反。；ように表示目的等，意为为了不退烧去医院，不是判断病情后决定行动。",
+        "unique_answer_rationale": "ようだったら是假定条件，表示如果明天依然不退烧，就考虑去医院。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100（独立子代理）",
+          "reviewed_at": "2026-10-01T17:42:58+08:00",
+          "answer": "2",
+          "notes": "明天仍不退烧时才考虑就医，ようだったら为假定条件。ようになって表达变得不退烧，ようにして及ように为促使不退烧，与视明天状态决定的背景不合。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "/root/blind_91100（独立子代理）",
+          "reviewed_at": "2026-10-01T17:42:58+08:00",
+          "notes": "指定摘录例文（4）与original_example逐字一致；挖空与新增根据明日病情决定的背景已记录，派生标识准确。四项解析与独立答案2一致，其他项不表达所要求假定条件，唯一解。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-10-01T16:20:37+08:00",
+        "ended_at": "2026-10-01T16:20:49+08:00",
+        "duration_seconds": 12.989,
+        "metrics": {}
+      },
+      {
+        "name": "search",
+        "started_at": "2026-10-01T16:20:50+08:00",
+        "ended_at": "2026-10-01T16:21:24+08:00",
+        "duration_seconds": 34.582,
+        "metrics": {
+          "calls": 2
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-01T16:21:24+08:00",
+        "ended_at": "2026-10-01T16:23:41+08:00",
+        "duration_seconds": 137.091,
+        "metrics": {
+          "calls": 11
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T16:29:50+08:00",
+        "ended_at": "2026-10-01T16:29:50+08:00",
+        "duration_seconds": 0.016,
+        "metrics": {
+          "mode": "preview",
+          "files": 21
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-01T16:32:56+08:00",
+        "ended_at": "2026-10-01T16:33:52+08:00",
+        "duration_seconds": 56.877,
+        "metrics": {
+          "revised_questions": 3
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-01T16:23:41+08:00",
+        "ended_at": "2026-10-01T16:35:46+08:00",
+        "duration_seconds": 725.179,
+        "metrics": {
+          "completed_questions": 18,
+          "pending_questions": 2
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-01T16:35:46+08:00",
+        "ended_at": "2026-10-01T16:35:46+08:00",
+        "duration_seconds": 0.682,
+        "metrics": {}
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-01T16:31:00+08:00",
+        "ended_at": "2026-10-01T16:36:26+08:00",
+        "duration_seconds": 326.436,
+        "metrics": {
+          "reviewed_questions": 18
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-01T17:40:20+08:00",
+        "ended_at": "2026-10-01T17:41:48+08:00",
+        "duration_seconds": 88.772,
+        "metrics": {
+          "added_questions": 2
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-01T17:41:48+08:00",
+        "ended_at": "2026-10-01T17:42:58+08:00",
+        "duration_seconds": 70.811,
+        "metrics": {
+          "added_reviewed_questions": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-01T17:43:09+08:00",
+        "ended_at": "2026-10-01T17:43:09+08:00",
+        "duration_seconds": 0.031,
+        "metrics": {
+          "mode": "final",
+          "files": 23
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-01T17:42:58+08:00",
+        "ended_at": "2026-10-01T17:44:29+08:00",
+        "duration_seconds": 91.659,
+        "metrics": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N2-Q-0181",
+        "revision": 2,
+        "reason": "独立盲审：原题1多解应替换；15补明完成；18改善自然搭配",
+        "at": "2026-10-01T16:32:56+08:00"
+      },
+      {
+        "question_id": "N2-Q-0195",
+        "revision": 2,
+        "reason": "独立盲审：原题1多解应替换；15补明完成；18改善自然搭配",
+        "at": "2026-10-01T16:32:56+08:00"
+      },
+      {
+        "question_id": "N2-Q-0198",
+        "revision": 2,
+        "reason": "独立盲审：原题1多解应替换；15补明完成；18改善自然搭配",
+        "at": "2026-10-01T16:32:56+08:00"
+      }
+    ],
+    "active_phases": {},
+    "scope": {
+      "requested_questions": 20,
+      "coverage_per_card": 2,
+      "missing_cards": [],
+      "cache_hits": 0,
+      "new_net_pages": 9,
+      "refreshed_existing_net_pages": 1
+    },
+    "discarded_questions": [
+      {
+        "original_source": "日本語NET Part11 Question6",
+        "reason": "独立盲审认为选项1和4均可成立；原题不改写，改用教学页另一例句派生题。"
+      }
+    ],
+    "explanation_corrections": [
+      {
+        "number": 13,
+        "option": "2",
+        "change": "たきり表示闪光后未再闪光等持续状态；本句要表达闪光与雷响的紧接发生，并不表达闪光后未再发生或持续的状态，故不合语境。",
+        "question_unchanged": true
+      },
+      {
+        "number": 15,
+        "option": "1",
+        "change": "かけた表示开始或未完成阶段；后文明示没有中途放弃并抵达终点，因此不是仅开始或尚未完成。",
+        "question_unchanged": true
+      }
+    ],
+    "source_exception": {
+      "authorized_by": "用户2026-10-01明确回复允许第100条2题使用毎日のんびり日本語教師",
+      "grammar_ids": [
+        "N2-G-0100"
+      ],
+      "allowed_url": "https://mainichi-nonbiri.com/grammar/n2-younara/",
+      "site_name": "毎日のんびり日本語教師"
+    },
+    "review_evidence": [
+      "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/n2-91100-blind18-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/n2-91100-reblind-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/n2-91100-source18-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/n2-91100-blind2-review.json",
+      "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/n2-91100-source2-review.json"
+    ],
+    "validation_exception_wrapper": "quizzes/sources/2026-10-01-n2-lessons-91-100-test-1/validate_with_exception.py",
+    "validation_results": {
+      "current_revision_reviews": "passed all 20",
+      "mechanical": "0 errors, 0 warnings; N2; 20,0,0",
+      "asset_links": "passed",
+      "source_cache": "121 NET records verified",
+      "coverage": "N2-G-0091 through N2-G-0100, 2 each",
+      "existing_n2_similarity": "no matches above .85 for first18; final mechanical duplicate check passed",
+      "authorized_exception": "Only grammar100: mainichi-nonbiri.com/grammar/n2-younara/"
+    }
+  }
+}

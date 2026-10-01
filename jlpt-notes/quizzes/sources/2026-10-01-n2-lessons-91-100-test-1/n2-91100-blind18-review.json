@@ -1,0 +1,166 @@
+{
+  "phase": "blind_review_questions_1_to_18",
+  "read_scope": [
+    ".firecrawl/n2-91100-preview18/quizzes/papers/2026-10-01-n2-lessons-91-100-test-1.md",
+    "jlpt-notes/grammar/n2/N2-G-0091.md–N2-G-0100.md"
+  ],
+  "verdict": "第1题未通过唯一解；其余为唯一最佳答案，第15、18题有可改善的措辞。未检查答案、来源或生成记录。",
+  "questions": [
+    {
+      "number": 1,
+      "answer": 1,
+      "confidence": 0.72,
+      "unique_answer": false,
+      "reason": "住院成为投保契机时选1；但4「入院にもかかわらず、保険に入った」也可自然表示虽然住院仍成功投保，题干没有排除逆接语境。",
+      "issues": [
+        "存在1与4的合理双解，不能靠现实投保规定排除4。建议原题保留标识但不入计分卷，或获得改编许可后增加明确因果背景。"
+      ]
+    },
+    {
+      "number": 2,
+      "answer": 4,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "转职作为重新立志的契机，用を契機に。を問わず无论转职与否、を除いて排除转职、をはじめ列举代表均不合。",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "answer": 2,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "どなたでも表示年龄不限制参加，を問わず对应无论年龄。其余分别按年龄、限于年龄、以年龄为由，不符合全员可参加。",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "answer": 3,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "一件及少额也免运费排除按数量金额变化，选择を問わず。に応じて为相应变化，に限って限于，を境に为界限。",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "answer": 3,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "をはじめとする修饰7种语言，英语是代表项；其余与とする接续不能形成此义。",
+      "issues": [
+        "干扰项多由接续直接排除，难度偏低，但唯一。"
+      ]
+    },
+    {
+      "number": 6,
+      "answer": 1,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "前句明确会弹钢琴，随后列举诸乐器，をはじめ自然；を除いて与前句冲突，其他不构成列举。",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "answer": 4,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "兄弟围绕最后一份冰淇淋争吵，用をめぐって。其他无法表达争夺对象。",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "answer": 2,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "居民与公司围绕建设计划对立，をめぐり；其他排除、不论、代表列举不符。",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "answer": 3,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "实事作为剧本素材，をもとにして最贴切；をめぐって表示围绕话题但不能表达明确素材关系，其余语义不符。",
+      "issues": []
+    },
+    {
+      "number": 10,
+      "answer": 1,
+      "confidence": 0.98,
+      "unique_answer": true,
+      "reason": "原作人物故事用于新作，明确漫画作为素材，因此をもとにして；をはじめとして要求同类列举而非素材创作。",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "answer": 4,
+      "confidence": 1,
+      "unique_answer": true,
+      "reason": "固定形式着くか着かないかのうちに，重复同动词肯定与否定；其余形态不成立。",
+      "issues": [
+        "纯接续题，干扰项易排除。"
+      ]
+    },
+    {
+      "number": 12,
+      "answer": 2,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "结束之前就已起立，与终不终之间的几乎同时发生对应；待结束后与ようになってから均晚于结束，までずっと表示持续起立的读法与立ち上がり始め不合。",
+      "issues": [
+        "补句明显直译目标意义，难度较低；时间关系无矛盾。"
+      ]
+    },
+    {
+      "number": 13,
+      "answer": 1,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "闪光之后马上雷响，用たかと思うと；きり表示此后不再有变化，まま为保持闪光状态，ことにして为作出决定，均不合。",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "answer": 3,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "刚止哭随即又哭，たかと思ったら。きり及まま要求止哭后保持/没有后续而与又哭冲突，ことにして表示有意决定不合观察事件。",
+      "issues": []
+    },
+    {
+      "number": 15,
+      "answer": 4,
+      "confidence": 0.91,
+      "unique_answer": true,
+      "reason": "途中负伤而仍坚持跑完全程，ながらも的克服阻碍与ぬいた匹配。かけた是开始或未完，損ねた与かねた均为未能完成，与本句的让步逻辑不自然。",
+      "issues": [
+        "唯一最佳答案为4，但完成事实只靠ながらも和全马距离暗示；建议加最终冲过终点的背景，进一步锁定完成而非失败，避免把ながらも当作绝对完成保证。"
+      ]
+    },
+    {
+      "number": 16,
+      "answer": 2,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "长年相处，什么都非常了解，知りぬいている。其余开始、尚未完成及错失了解均与长期什么都了解的背景矛盾。",
+      "issues": []
+    },
+    {
+      "number": 17,
+      "answer": 4,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "今度こそ絶対に表达成功决心，してみせる。其余不太可能、难以、决不合格均与绝对要合格不符。",
+      "issues": []
+    },
+    {
+      "number": 18,
+      "answer": 3,
+      "confidence": 0.97,
+      "unique_answer": true,
+      "reason": "教练亲自做动作让人学会，やってみせた。やってもらった与やらせた涉及他人做，后句明确教练自己动作，排除；やめてしまった为停止。",
+      "issues": [
+        "手本をやってみせた可理解且口语可接受，搭配稍显不如動きをやってみせた／実際にやってみせた自然。建议题干改为その動きを或删除手本を。"
+      ]
+    }
+  ]
+}

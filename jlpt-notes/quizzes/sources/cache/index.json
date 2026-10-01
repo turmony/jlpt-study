@@ -1163,14 +1163,15 @@
       "site_name": "日本語NET",
       "url": "https://nihongokyoshi-net.com/2018/02/24/jlptn2-grammar-quiz-part11/",
       "title": "【JLPT N2】文法クイズ Part11",
-      "publisher": "日本語NET／ノッチ",
-      "accessed_at": "2026-09-30",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
       "grammar_ids": [
-        "N2-G-0069"
+        "N2-G-0069",
+        "N2-G-0093"
       ],
-      "locator": "Question 5・Answer",
-      "evidence_path": "quizzes/sources/cache/1e6dd3e3e422df887fdd-4812dc871783.md",
-      "content_sha256": "4812dc871783b0fb1c0ecd1fe732fdc76d1c23346884aee5f1773b1281732775"
+      "locator": "Question 3（本卷）、Question 5（保留既有题源缓存）及同题Answer",
+      "evidence_path": "quizzes/sources/cache/1e6dd3e3e422df887fdd-1284c935819e.md",
+      "content_sha256": "1284c935819efc313774bd13941b2a6c86f70a98cfdf712819564d6c8f46a256"
     },
     "6b7e9750732e1f67503b": {
       "site_name": "日本語NET",
@@ -1458,6 +1459,123 @@
       "locator": "Question 2、5及各自Answer",
       "evidence_path": "quizzes/sources/cache/a53cb908e1cb40b3b129-7466bfeeeab4.md",
       "content_sha256": "7466bfeeeab4bc59414c65a8ccdbef5754ca2aa21838427535b084d9b28144c4"
+    },
+    "840b4b08dcc14e1ccd71": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/18/jlptn2-grammar-keiki/",
+      "title": "【JLPT N２】文法・例文：〜を契機に / 〜を契機として",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0091"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/840b4b08dcc14e1ccd71-8c698df91568.md",
+      "content_sha256": "8c698df91568e6f3ebae170b169ecb5cb4458aedde148bd4b97d754133fd591b"
+    },
+    "950efd7f01802875728b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/14/jlptn2-grammar-towazu/",
+      "title": "【JLPT N２】文法・例文：〜を問わず",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0092"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/950efd7f01802875728b-b549b2df7838.md",
+      "content_sha256": "b549b2df783818e99568eb7d1f1e0a5e026b1b48967357020b3715cf98b8f667"
+    },
+    "1e46dd80c3f4625d74c1": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/07/09/jlptn2-grammar-hajime/",
+      "title": "【JLPT N２】文法・例文：〜をはじめ",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0093"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/1e46dd80c3f4625d74c1-559d7bd716fe.md",
+      "content_sha256": "559d7bd716fe4375f8dad1727c2aa3de93a035ef6312746d7a405205cea86dad"
+    },
+    "019df7d0ef44c4f408ef": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/15/jlptn2-grammar-megutte/",
+      "title": "【JLPT N２】文法・例文：〜をめぐって / 〜をめぐり",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0094"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/019df7d0ef44c4f408ef-6edc6b5bed33.md",
+      "content_sha256": "6edc6b5bed33ee39716c0b89d6b2f24b3923f615ba7aa122526060785b915a06"
+    },
+    "f64aba5b8c49604198f0": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/04/14/jlptn2-grammar-motonishite/",
+      "title": "【JLPT N2】文法・例文：Nをもとに / もとにして",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0095"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/f64aba5b8c49604198f0-d9c110b94000.md",
+      "content_sha256": "d9c110b94000153864a96de7989e155312d5f43fd2ad8e21837d8ef92df174aa"
+    },
+    "3e2db9e82be4798f5a0c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/23/jlptn2-grammar-ka-naikanouchini/",
+      "title": "【JLPT N２】文法・例文：〜か〜ないかのうちに",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0096"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/3e2db9e82be4798f5a0c-dbaae0a20e7a.md",
+      "content_sha256": "dbaae0a20e7aa1f2f4ab9152c2c50550fb248517934a6b86ff94d2712c3d6097"
+    },
+    "2e0ac0ffdfeb0524a06c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/27/jlptn2-grammar-katoomouto/",
+      "title": "【JLPT N２】文法・例文：〜かと思うと / 〜かと思ったら",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0097"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/2e0ac0ffdfeb0524a06c-9b0e63df1986.md",
+      "content_sha256": "9b0e63df1986f809b0df3ba80afb82fd8622e690da4aad2ddab00c13bb88fc0e"
+    },
+    "9f88deea1a7cbf93c1cd": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-nuku/",
+      "title": "【JLPT N２】文法・例文：〜ぬく",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0098"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/9f88deea1a7cbf93c1cd-8d7010e4341f.md",
+      "content_sha256": "8d7010e4341f7b573469b0f10b0f719914d1749d45182e7518d43a10cf64d532"
+    },
+    "89868a1f1473713e1bca": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn2-grammar-temiseru/",
+      "title": "【JLPT N２】文法・例文：〜てみせる",
+      "publisher": "日本語NET／ノッチ（资格背景复用既有已核实记录：quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-01",
+      "grammar_ids": [
+        "N2-G-0099"
+      ],
+      "locator": "文型及例文区",
+      "evidence_path": "quizzes/sources/cache/89868a1f1473713e1bca-f18f7400666a.md",
+      "content_sha256": "f18f7400666a81025a4706ebe8ea08085949a7d6b8f37b5f89f17671205c21e5"
     }
   }
 }

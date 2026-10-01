@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "answer": 1,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "退院后的生活习惯改变明确住院是契机，を契機に自然；不论住院、排除住院、以住院为代表均不合因果背景。",
+      "issues": []
+    },
+    {
+      "number": 15,
+      "answer": 4,
+      "confidence": 1,
+      "unique_answer": true,
+      "reason": "明确途中未放弃且抵达终点，完成全程只能走りぬいた；其余开始未完或不能完成均冲突。",
+      "issues": []
+    },
+    {
+      "number": 18,
+      "answer": 3,
+      "confidence": 0.99,
+      "unique_answer": true,
+      "reason": "教练亲自演示动作，やってみせた自然；他人代做、命令他人做与自己动作矛盾，停止不表达演示。",
+      "issues": []
+    }
+  ]
+}

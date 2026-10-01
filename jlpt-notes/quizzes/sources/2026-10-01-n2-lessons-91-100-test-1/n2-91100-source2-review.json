@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "questions": [
+    {
+      "number": 19,
+      "status": "passed",
+      "notes": "指定摘录例文（3）与original_example逐字一致；挖空与新增条件说明已记录，派生标识准确。四项解析区分假定条件、目的、状态变化及设法实现，与独立答案1一致且唯一。",
+      "issues": []
+    },
+    {
+      "number": 20,
+      "status": "passed",
+      "notes": "指定摘录例文（4）与original_example逐字一致；挖空与新增根据明日病情决定的背景已记录，派生标识准确。四项解析与独立答案2一致，其他项不表达所要求假定条件，唯一解。",
+      "issues": []
+    }
+  ]
+}
