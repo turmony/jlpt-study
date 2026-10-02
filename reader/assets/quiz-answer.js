@@ -248,6 +248,9 @@
         elements.items.forEach((item, index) => {
           const digit = String(index + 1);
           const button = item.querySelector("button");
+          button.setAttribute("aria-pressed", answer.kind === "choice"
+            ? answer.value === digit
+            : answer.value.includes(digit));
           button.classList.remove("selected", "ordered");
           if (answer.kind === "choice") {
             if (answer.value === digit) button.classList.add("selected");
@@ -262,6 +265,7 @@
           }
         });
         elements.toggle.classList.toggle("active", answer.uncertain);
+        elements.toggle.setAttribute("aria-pressed", answer.uncertain);
         const itemState = progress.find((item) => item.number === question.number);
         if (elements.progress && itemState) {
           elements.progress.classList.toggle("answered", itemState.answered);
@@ -291,6 +295,9 @@
     const bar = document.createElement("div");
     bar.className = "jlpt-quiz-bar";
     const progress = document.createElement("span");
+    progress.setAttribute("role", "status");
+    progress.setAttribute("aria-live", "polite");
+    progress.setAttribute("aria-atomic", "true");
     const submit = document.createElement("button");
     submit.type = "button";
     submit.className = "jlpt-quiz-submit";

@@ -283,6 +283,16 @@ class ReaderPluginTests(unittest.TestCase):
             self.assertNotIn("serviceWorker.register", reader_js)
             self.assertNotIn("fonts.googleapis.com", reader_css + reader_js)
             self.assertNotRegex(reader_js, r"fetch\(\s*['\"]https?://")
+            # CSS font URLs must resolve locally, including on nested documents.
+            font_urls = re.findall(r'url\("(fonts/[^\"]+\.woff2)"\)', reader_css)
+            self.assertTrue(font_urls)
+            for font_url in font_urls:
+                font_file = site / "assets" / font_url
+                self.assertTrue(font_file.is_file(), font_url)
+                self.assertEqual(font_file.read_bytes()[:4], b"wOF2")
+            for license_name in ("googlesans", "notosansjp", "notosanssc"):
+                license_file = site / "assets/fonts" / f"{license_name}-OFL.txt"
+                self.assertIn("SIL OPEN FONT LICENSE", license_file.read_text(encoding="utf-8"))
 
             catalog_html = (site / "index.html").read_text(encoding="utf-8")
             self.assertIn('data-jlpt-fulltext=""', catalog_html)

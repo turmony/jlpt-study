@@ -219,12 +219,23 @@
 
   function catalogEntryFromNode(entry) {
     const link = entry.querySelector("a[href]");
+    let route = link ? link.getAttribute("href") || "" : "";
+    const pageLocation = entry.ownerDocument && entry.ownerDocument.location;
+    if (pageLocation && /^(?:https?:)?\/\//i.test(route)) {
+      try {
+        const resolved = new URL(route, pageLocation.origin);
+        // Material instant navigation rewrites href attributes to absolute URLs.
+        if (resolved.origin === pageLocation.origin) route = resolved.pathname;
+      } catch (_error) {
+        /* Leave malformed or external routes for normalizeSearchRoute to reject. */
+      }
+    }
     return {
       level: entry.dataset.level || "",
       type: entry.dataset.type || "",
       tags: (entry.dataset.tags || "").split(/\s+/).filter(Boolean),
       title: link ? link.textContent || "" : "",
-      route: link ? link.getAttribute("href") || "" : ""
+      route: route
     };
   }
 
@@ -441,6 +452,22 @@
     }
     const content = document.querySelector(".md-content__inner");
     if (content) content.prepend(controls);
+
+    // Keep full source provenance available without crowding the reading header.
+    const sourceChip = Array.from(document.querySelectorAll(".jlpt-meta-chip")).find(function (chip) {
+      const label = chip.querySelector("b");
+      return label && label.textContent.trim() === "来源";
+    });
+    if (sourceChip) {
+      const details = document.createElement("details");
+      details.className = "jlpt-source-details";
+      const summary = document.createElement("summary");
+      summary.textContent = "来源资料";
+      const sourceText = document.createElement("div");
+      sourceText.textContent = sourceChip.textContent.replace(/^来源\s*/, "");
+      details.append(summary, sourceText);
+      sourceChip.replaceWith(details);
+    }
 
     const previousOverview = document.querySelector(".jlpt-grammar-overview");
     if (previousOverview) previousOverview.remove();

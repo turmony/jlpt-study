@@ -168,6 +168,28 @@ test("catalog DOM mapping keeps the local relative route instead of browser-expa
   );
 });
 
+test("catalog search handles href attributes rewritten by instant navigation", () => {
+  const origin = "http://192.168.1.42:8765";
+  const corpus = core.buildSearchCorpus([
+    { location: "library/card/#examples", text: "京都へ行きたいです" }
+  ]);
+  function entryFor(href) {
+    return core.catalogEntryFromNode({
+      dataset: { level: "N3", type: "grammar", tags: "" },
+      ownerDocument: { location: { origin } },
+      querySelector: () => ({ textContent: "～うちに", getAttribute: () => href })
+    });
+  }
+  for (const href of [origin + "/library/card/", "//192.168.1.42:8765/library/card/"]) {
+    const entry = entryFor(href);
+    assert.equal(entry.route, "/library/card/");
+    assert.equal(core.catalogEntryMatchesSearch(entry, {}, "京都", corpus), true);
+  }
+  for (const href of ["https://attacker.example/library/card/", "http://["]) {
+    assert.equal(core.catalogEntryMatchesSearch(entryFor(href), {}, "京都", corpus), false);
+  }
+});
+
 test("full-text results combine with level type and exact tag filters", () => {
   const corpus = core.buildSearchCorpus([
     { location: "/library/card/", title: "～までに", text: "截止时限" }

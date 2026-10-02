@@ -195,6 +195,19 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
             )
             file.content_bytes = source_path.read_bytes()
             virtual.append(file)
+        # Self-hosted fonts keep the private reader independent of Google CDN.
+        fonts_dir = self._config_root / self.config.assets_dir / "fonts"
+        for source_path in sorted(fonts_dir.glob("*")):
+            if not source_path.is_file() or source_path.suffix not in {".woff2", ".txt"}:
+                continue
+            file = File(
+                f"assets/fonts/{source_path.name}",
+                str(self._source_root),
+                config.site_dir,
+                config.use_directory_urls,
+            )
+            file.content_bytes = source_path.read_bytes()
+            virtual.append(file)
         self._url_hashes = {
             file.url: self._pages_by_uri[file.src_uri].content_hash
             for file in virtual
