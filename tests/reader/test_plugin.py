@@ -53,6 +53,7 @@ class _DocumentContractParser(HTMLParser):
         self.metas: list[dict[str, str | None]] = []
         self.resources: list[str] = []
         self.page_state: dict[str, str | None] | None = None
+        self.sidebars: list[dict[str, str | None]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attributes = dict(attrs)
@@ -69,6 +70,8 @@ class _DocumentContractParser(HTMLParser):
             self.resources.append(attributes["href"] or "")
         if tag == "div" and "jlpt-page-state" in (attributes.get("class") or "").split():
             self.page_state = attributes
+        if tag == "div" and "md-sidebar" in (attributes.get("class") or "").split():
+            self.sidebars.append(attributes)
 
 
 def _assert_local_resources_exist(test: unittest.TestCase, site: Path, page: Path, html: str) -> None:
@@ -762,6 +765,12 @@ class QuizStateInjectionTests(unittest.TestCase):
                 ],
             )
             self.assertEqual([part["numbers"] for part in state["parts"]], [[1, 2], [3]])
+            parser = _DocumentContractParser()
+            parser.feed(rendered)
+            toc = next(sidebar for sidebar in parser.sidebars if sidebar.get("data-md-type") == "toc")
+            self.assertIn("hidden", toc, "Active answering must not reserve a second question directory")
+            navigation = next(sidebar for sidebar in parser.sidebars if sidebar.get("data-md-type") == "navigation")
+            self.assertNotIn("hidden", navigation)
 
     def test_grammar_page_exposes_its_reader_type_for_the_speed_overview(self) -> None:
         with TemporaryDirectory() as directory:
@@ -772,15 +781,24 @@ class QuizStateInjectionTests(unittest.TestCase):
             rendered = _site_page_containing(site, "正文。")
 
             self.assertIn('data-reader-type="grammar"', rendered)
+            parser = _DocumentContractParser()
+            parser.feed(rendered)
+            toc = next(sidebar for sidebar in parser.sidebars if sidebar.get("data-md-type") == "toc")
+            self.assertNotIn("hidden", toc, "Grammar cards keep their document directory")
 
     def test_filled_answer_area_marks_the_page_answered(self) -> None:
         filled = _PLUGIN_PAPER.replace("_1_ , _1_", "1-1 , 2-1", 1)
         with TemporaryDirectory() as directory:
             site = self._build_paper_site(directory, filled)
 
-            state = _quiz_state_from(_site_page_containing(site, "問題一"))
+            rendered = _site_page_containing(site, "問題一")
+            state = _quiz_state_from(rendered)
 
             self.assertEqual(state["answered"], True)
+            parser = _DocumentContractParser()
+            parser.feed(rendered)
+            toc = next(sidebar for sidebar in parser.sidebars if sidebar.get("data-md-type") == "toc")
+            self.assertNotIn("hidden", toc, "Submitted papers return to ordinary reading navigation")
 
     def test_nested_paper_paths_carry_no_quiz_state(self) -> None:
         with TemporaryDirectory() as directory:

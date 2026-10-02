@@ -266,9 +266,12 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
                 pager_previous,
                 pager_next,
             )
-        quiz_state = _quiz_state_div(source)
+        quiz_state = _quiz_state(source)
+        if quiz_state is not None and not quiz_state["answered"]:
+            page.meta["hide"] = [*page.meta.get("hide", []), "toc"]
+        quiz_markup = _quiz_state_div(quiz_state)
         return (
-            f"# {safe_title}\n\n{page_state}\n\n{quiz_state}"
+            f"# {safe_title}\n\n{page_state}\n\n{quiz_markup}"
             f"{render_metadata_block(source.metadata)}\n\n{warning}"
             + (f"{top_pager}\n\n" if top_pager else "")
             + markdown
@@ -347,8 +350,8 @@ def _generation_version(url_hashes: dict[str, str]) -> str:
     return sha256(version_source.encode("utf-8")).hexdigest()
 
 
-def _quiz_state_div(source: SourcePage) -> str:
-    """Embed machine-readable quiz state for paper pages only."""
+def _quiz_state(source: SourcePage) -> dict[str, Any] | None:
+    """Describe paper answering state for both navigation and quiz controls."""
     parts = source.relative_path.parts
     if (
         len(parts) != 3
@@ -356,12 +359,12 @@ def _quiz_state_div(source: SourcePage) -> str:
         or parts[1] != "papers"
         or source.relative_path.suffix.lower() != ".md"
     ):
-        return ""
+        return None
     questions, part_groups = parse_paper_structure(source.markdown)
     if not questions:
-        return ""
+        return None
     block = find_answer_block(source.markdown)
-    state = {
+    return {
         "paper": source.relative_path.name,
         "answered": block is not None and not is_blank_answer_area(block[2]),
         "questions": [
@@ -371,6 +374,12 @@ def _quiz_state_div(source: SourcePage) -> str:
             {"ordinal": ordinal, "numbers": list(numbers)} for ordinal, _title, numbers in part_groups
         ],
     }
+
+
+def _quiz_state_div(state: dict[str, Any] | None) -> str:
+    """Embed machine-readable quiz state for paper pages only."""
+    if state is None:
+        return ""
     payload = escape(json.dumps(state, ensure_ascii=False), quote=True)
     return f'<div class="jlpt-quiz-state" data-quiz-state="{payload}" hidden></div>\n\n'
 

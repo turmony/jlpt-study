@@ -152,7 +152,7 @@
     const draft = window.localStorage.getItem(core.draftKey(config.paper));
     if (draft) core.restoreDraft(state, draft);
 
-    const article = document.querySelector("article.md-content__inner, .md-content");
+    const article = document.querySelector("article.md-content__inner") || document.querySelector(".md-content");
     if (!article) return;
     // 幂等守卫：防止 document$ 重复触发导致按钮/工具条叠加
     if (article.querySelector(".jlpt-quiz-bar")) return;
@@ -204,13 +204,26 @@
       if (!heading) return;
       const list = findOptionsList(heading);
       if (!list) return;
+      list.classList.add("jlpt-quiz-options");
       const items = Array.from(list.children);
       items.forEach((item, index) => {
         const option = index + 1;
         const button = document.createElement("button");
         button.type = "button";
         button.className = "jlpt-quiz-option";
-        button.textContent = item.textContent;
+        const number = document.createElement("span");
+        number.className = "jlpt-quiz-option__number";
+        number.textContent = String(option);
+        const label = document.createElement("span");
+        label.className = "jlpt-quiz-option__label";
+        label.textContent = item.textContent;
+        const indicator = document.createElement("span");
+        indicator.className = "jlpt-quiz-option__indicator";
+        indicator.setAttribute("aria-hidden", "true");
+        if (question.kind === "choice") {
+          indicator.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12 4 4 10-10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+        }
+        button.append(number, label, indicator);
         button.addEventListener("click", () => {
           core.selectChoice(state, question.number, option);
           paint();
@@ -256,6 +269,9 @@
             if (answer.value === digit) button.classList.add("selected");
           } else {
             const position = answer.value.indexOf(digit);
+            const indicator = button.querySelector(".jlpt-quiz-option__indicator");
+            indicator.textContent = position === -1 ? "" : String(position + 1);
+            button.setAttribute("aria-label", `选项 ${digit}，${button.querySelector(".jlpt-quiz-option__label").textContent}${position === -1 ? "" : `，第 ${position + 1} 位`}`);
             if (position !== -1) {
               button.classList.add("ordered");
               button.dataset.order = String(position + 1);
