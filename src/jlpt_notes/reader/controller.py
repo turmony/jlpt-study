@@ -2,15 +2,17 @@
 
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass
 from pathlib import Path
-import sys
 from threading import Lock, RLock
 from typing import Callable
 
 from .builder import BuildResult, SiteStore, build_site
 from .firewall import (
     configure_firewall as configure_firewall_rule,
+)
+from .firewall import (
     firewall_rule_present,
 )
 from .network import private_lan_addresses
@@ -416,7 +418,7 @@ class ReaderController:
             return self._publication_error(temporary_root, destination, error)
         with self._lifecycle_lock:
             self._asset_warning_summary = (
-                f" 图片资源有 {len(result.warnings)} 个问题；{result.warnings[0]}；完整日志：{result.log_path}"
+                f" 资源链接有 {len(result.warnings)} 个问题；{result.warnings[0]}；完整日志：{result.log_path}"
                 if result.warnings else ""
             )
         return result

@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from ..git_state import committed_files
+from .links import EVIDENCE_SUFFIXES, is_evidence_path, local_target
 from .metadata import DocumentMetadata, ParsedMarkdown, parse_markdown
 
 _SUMMARY_FIELDS = (
@@ -45,6 +46,7 @@ class SourcePage:
     metadata: DocumentMetadata
     content_hash: str
     warning: str | None = None
+    catalogued: bool = True
 
 
 def load_source_pages(root: Path) -> tuple[SourcePage, ...]:
@@ -79,12 +81,58 @@ def load_source_pages(root: Path) -> tuple[SourcePage, ...]:
                 warning=parsed.warning,
             )
         )
+    pages.extend(_linked_evidence_pages(resolved_root, pages))
     return tuple(sorted(pages, key=lambda page: _path_sort_key(page.relative_path)))
+
+
+def iter_visible_evidence(root: Path) -> tuple[Path, ...]:
+    """Eligible evidence, including newly created targets not yet referenced."""
+    return tuple(path for path in iter_supported_visible_source_files(root, suffixes=EVIDENCE_SUFFIXES)
+                 if is_evidence_path(path.relative_to(root.resolve())))
+
+
+def _linked_evidence_pages(root: Path, pages: list[SourcePage]) -> list[SourcePage]:
+    from ..asset_links import rendered_links
+
+    eligible = {path.relative_to(root): path for path in iter_visible_evidence(root)}
+    requested: set[Path] = set()
+    for page in pages:
+        for href, image in rendered_links(page.markdown):
+            if image:
+                continue
+            try:
+                target = local_target(page.relative_path, href)
+            except ValueError:
+                continue
+            if target in eligible:
+                requested.add(target)
+    evidence = []
+    for relative in sorted(requested, key=_path_sort_key):
+        content = eligible[relative].read_bytes()
+        warning = None
+        try:
+            text = content.decode('utf-8-sig')
+        except UnicodeDecodeError:
+            text = content.decode('utf-8', errors='replace')
+            warning = '证据不是有效 UTF-8；无法解码的字符以替代字符显示。'
+        if relative.suffix.lower() == '.json':
+            try:
+                text = json.dumps(json.loads(text), ensure_ascii=False, indent=2)
+            except (ValueError, RecursionError):
+                warning = 'JSON 无法解析；以下显示原始文本。'
+        metadata = DocumentMetadata(f'证据｜{relative.name}', None, 'evidence', None, (), ())
+        evidence.append(SourcePage(
+            relative, relative.with_suffix(relative.suffix + '.md'),
+            f'<pre>{escape(text)}</pre>\n', metadata, sha256(content).hexdigest(), warning,
+            catalogued=False,
+        ))
+    return evidence
 
 
 def build_catalog_page(pages: tuple[SourcePage, ...]) -> SourcePage:
     """Create the generated root catalog used for navigation and filtering."""
-    entries = "\n".join(_catalog_entry(page) for page in sorted(pages, key=_catalog_sort_key))
+    entries = "\n".join(_catalog_entry(page) for page in sorted(pages, key=_catalog_sort_key)
+                        if page.catalogued)
     markdown = (
         "# JLPT 学习资料库\n\n"
         '<p class="jlpt-catalog-intro">仅在本机局域网内以只读方式浏览。</p>\n\n'

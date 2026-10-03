@@ -1,29 +1,36 @@
 """MkDocs integration for the read-only JLPT LAN reader."""
 
-from hashlib import sha256
-from html import escape
-from html.parser import HTMLParser
 import json
 import logging
 import posixpath
-from pathlib import Path
 import re
+from hashlib import sha256
+from html import escape
+from html.parser import HTMLParser
+from pathlib import Path
 from typing import Any
-from urllib.parse import quote, unquote, urlsplit, urlunsplit
+from urllib.parse import quote, urlsplit, urlunsplit
 from xml.etree import ElementTree
 
 import bleach
 from markdown.extensions import Extension
 from markdown.treeprocessors import Treeprocessor
 from mkdocs import plugins, utils
-from mkdocs.config import base, config_options as c
-from mkdocs.structure.files import File, Files
+from mkdocs.config import base
+from mkdocs.config import config_options as c
+from mkdocs.structure.files import File, Files, InclusionLevel
 from pymdownx.slugs import slugify
 
-from .metadata import render_metadata_block
-from .sources import SourcePage, build_catalog_page, load_source_pages, iter_visible_images
-from .submissions import find_answer_block, is_blank_answer_area, parse_paper_structure
 from ..asset_links import AssetIndex
+from .links import DocumentIndex, local_target
+from .metadata import render_metadata_block
+from .sources import (
+    SourcePage,
+    build_catalog_page,
+    iter_visible_images,
+    load_source_pages,
+)
+from .submissions import find_answer_block, is_blank_answer_area, parse_paper_structure
 
 
 class ReaderPluginConfig(base.Config):
@@ -59,6 +66,13 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
         self._config_root = self._config_path.parent
         _version_reader_asset_urls(config, self._config_root, self.config.assets_dir)
         self._pages = load_source_pages(self._source_root)
+        self._document_index = DocumentIndex(self._source_root, self._pages)
+        self._document_issues = {
+            source.relative_path: self._document_index.check(source.relative_path, source.markdown)
+            for source in self._pages
+        }
+        self.document_warnings = tuple(str(issue) for issues in self._document_issues.values()
+                                       for issue in issues)
         self._asset_index = AssetIndex(self._source_root)
         self._image_files: dict[Path, File] = {}
         self._asset_issues = {
@@ -116,6 +130,8 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
                 config.use_directory_urls,
             )
             file.content_string = source.markdown
+            if not source.catalogued:
+                file.inclusion = InclusionLevel.NOT_IN_NAV
             self._pages_by_uri[file.src_uri] = source
             self._files_by_relative_path[source.relative_path] = file
             virtual.append(file)
@@ -124,7 +140,10 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
         catalog = SourcePage(
             relative_path=catalog.relative_path,
             output_path=catalog.output_path,
-            markdown=_catalog_with_final_urls(catalog.markdown, self._files_by_relative_path),
+            markdown=_catalog_with_final_urls(catalog.markdown, {
+                source.relative_path: self._files_by_relative_path[source.relative_path]
+                for source in self._pages if source.catalogued
+            }),
             metadata=catalog.metadata,
             content_hash=catalog.content_hash,
             warning=catalog.warning,
@@ -136,6 +155,7 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
             config.use_directory_urls,
         )
         catalog_file.content_string = catalog.markdown
+        self._catalog_file = catalog_file
         self._pages_by_uri[catalog_file.src_uri] = catalog
         virtual.insert(0, catalog_file)
         source_files.insert(0, (catalog, catalog_file))
@@ -162,7 +182,8 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
         # Image additions/removals change link resolution; rebuild pages rather
         # than reuse HTML with stale URLs, and discard deleted copied assets.
         presentation_fingerprint = sha256(
-            (presentation_fingerprint + json.dumps(image_hashes, sort_keys=True)).encode("utf-8")
+            (presentation_fingerprint + json.dumps(image_hashes, sort_keys=True)
+             + json.dumps(self.document_warnings, ensure_ascii=False)).encode("utf-8")
         ).hexdigest()
         previous = self._previous_manifest or {}
         previous_hashes = previous.get("pages", {})
@@ -246,6 +267,11 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
             warning += '<div class="admonition warning"><p>图片资源读取提示</p><ul>' + ''.join(
                 f'<li>{escape(str(issue))}</li>' for issue in asset_issues
             ) + '</ul></div>\n\n'
+        document_issues = self._document_issues.get(source.relative_path, ())
+        if document_issues:
+            warning += '<div class="admonition warning"><p>本地链接读取提示</p><ul>' + ''.join(
+                f'<li>{escape(str(issue))}</li>' for issue in document_issues
+            ) + '</ul></div>\n\n'
         safe_title = escape(source.metadata.display_title)
         page_state = (
             '<div class="jlpt-page-state" aria-hidden="true" '
@@ -270,6 +296,7 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
         if quiz_state is not None and not quiz_state["answered"]:
             page.meta["hide"] = [*page.meta.get("hide", []), "toc"]
         quiz_markup = _quiz_state_div(quiz_state)
+        self._trusted_link_html = {block.strip() for block in (top_pager, bottom_pager) if block}
         return (
             f"# {safe_title}\n\n{page_state}\n\n{quiz_markup}"
             f"{render_metadata_block(source.metadata)}\n\n{warning}"
@@ -307,6 +334,17 @@ class JlptReaderPlugin(plugins.BasePlugin[ReaderPluginConfig]):
                     self._generation_version,
                     previous_generation,
                 )
+        evidence_urls = tuple(file.url for path, file in self._files_by_relative_path.items()
+                              if not self._pages_by_uri[file.src_uri].catalogued)
+        if evidence_urls:
+            search_path = Path(config.site_dir) / 'search/search_index.json'
+            if search_path.is_file():
+                search = json.loads(search_path.read_text(encoding='utf-8'))
+                search['docs'] = [doc for doc in search.get('docs', ())
+                                  if not any(_search_location_belongs_to(str(doc.get('location', '')), url)
+                                             for url in evidence_urls)]
+                search_path.write_text(json.dumps(search, ensure_ascii=False, separators=(',', ':')),
+                                       encoding='utf-8')
         manifest = {
             "version": self._generation_version,
             "navigation": self._navigation_hash,
@@ -401,8 +439,10 @@ class _ReaderLinkTreeprocessor(Treeprocessor):
     def run(self, root: ElementTree.Element) -> ElementTree.Element:
         plugin = self.plugin
         for i, raw in enumerate(self.md.htmlStash.rawHtmlBlocks):
-            if isinstance(raw, str) and ('<img' in raw.lower() or '<a ' in raw.lower()):
-                parser = _RawAssetRenderer(plugin)
+            if isinstance(raw, str) and re.search(r'<(?:img|a)\b', raw, re.IGNORECASE):
+                trusted = (plugin._current_file is plugin._catalog_file
+                           or raw.strip() in plugin._trusted_link_html)
+                parser = _RawAssetRenderer(plugin, trusted=trusted)
                 parser.feed(raw)
                 self.md.htmlStash.rawHtmlBlocks[i] = ''.join(parser.output)
         for element in root.iter('img'):
@@ -420,12 +460,17 @@ class _ReaderLinkTreeprocessor(Treeprocessor):
                 element.attrib.pop('href', None)
                 continue
             parsed = urlsplit(href)
-            if parsed.scheme or parsed.netloc or not parsed.path or parsed.path.startswith("/"):
+            if parsed.scheme or parsed.netloc or not parsed.path:
                 continue
-            relative = posixpath.normpath(posixpath.join(
-                plugin._current_source.relative_path.parent.as_posix(), unquote(parsed.path)
-            ))
-            target = plugin._files_by_relative_path.get(Path(relative))
+            issue = plugin._document_index.issue(plugin._current_source.relative_path, href)
+            if issue is not None:
+                element.tag = 'span'
+                element.attrib.pop('href', None)
+                element.set('class', 'jlpt-local-link-unavailable')
+                element.set('title', str(issue))
+                continue
+            relative = local_target(plugin._current_source.relative_path, href)
+            target = plugin._files_by_relative_path.get(relative)
             if target is None:
                 continue
             path = posixpath.relpath(target.src_uri, posixpath.dirname(plugin._current_file.src_uri))
@@ -436,9 +481,10 @@ class _ReaderLinkTreeprocessor(Treeprocessor):
 class _RawAssetRenderer(HTMLParser):
     """Apply the same asset policy to HTML stashed outside the Markdown tree."""
 
-    def __init__(self, plugin):
+    def __init__(self, plugin, *, trusted: bool = False):
         super().__init__(convert_charrefs=False)
         self.plugin = plugin
+        self.trusted = trusted
         self.output: list[str] = []
         self.code_depth = 0
 
@@ -448,7 +494,7 @@ class _RawAssetRenderer(HTMLParser):
         values = dict(attrs)
         attribute = 'src' if tag == 'img' else 'href'
         href = values.get(attribute)
-        if self.code_depth or tag not in {'img', 'a'} or href is None:
+        if self.code_depth or self.trusted or tag not in {'img', 'a'} or href is None:
             self.output.append(self.get_starttag_text())
             return
         plugin = self.plugin
@@ -461,12 +507,20 @@ class _RawAssetRenderer(HTMLParser):
             values.pop(attribute, None)
         else:
             parsed = urlsplit(href)
-            if not parsed.scheme and not parsed.netloc and parsed.path and not parsed.path.startswith('/'):
-                relative = posixpath.normpath(posixpath.join(source.parent.as_posix(), unquote(parsed.path)))
-                file = plugin._image_files.get(plugin._source_root / relative)
-                if file is not None:
-                    values[attribute] = urlunsplit(('', '', _pager_href(file.url, plugin._current_file.url),
-                                                   parsed.query, parsed.fragment))
+            if not parsed.scheme and not parsed.netloc and parsed.path:
+                document_issue = (plugin._document_index.issue(source, href) if tag == 'a' else None)
+                if document_issue:
+                    values.pop(attribute, None)
+                    values['title'] = str(document_issue)
+                    values['class'] = 'jlpt-local-link-unavailable'
+                else:
+                    relative = local_target(source, href)
+                    file = (plugin._files_by_relative_path.get(relative) if tag == 'a' else None)
+                    if file is None and relative is not None:
+                        file = plugin._image_files.get(plugin._source_root / relative)
+                    if file is not None:
+                        values[attribute] = urlunsplit(('', '', _pager_href(file.url, plugin._current_file.url),
+                                                       parsed.query, parsed.fragment))
         self.output.append('<' + tag + ''.join(
             f' {key}="{escape(value, quote=True)}"' if value is not None else f' {key}'
             for key, value in values.items()
@@ -573,7 +627,8 @@ def _demote_raw_html_h1_after_title(html: str) -> str:
 
 def _virtual_source_path(source: SourcePage) -> Path:
     """Return a collision-proof virtual Markdown path for one source file."""
-    source_kind = "jsonl" if source.relative_path.suffix.lower() == ".jsonl" else "markdown"
+    source_kind = ('evidence' if not source.catalogued else
+                   'jsonl' if source.relative_path.suffix.lower() == '.jsonl' else 'markdown')
     name = f"{source.relative_path.name}.__reader_{source_kind}__.md"
     return Path("library") / source.relative_path.parent / name
 
@@ -831,7 +886,7 @@ def _presentation_fingerprint(
     config_root: Path,
     assets_dir: str,
 ) -> str:
-    digest = sha256(b"jlpt-reader-rendering-v3-document-links\0")
+    digest = sha256(b"jlpt-reader-rendering-v4-evidence-links\0")
     candidates = [config_path]
     for directory in (config_root / assets_dir, config_root / "overrides"):
         if directory.is_dir():

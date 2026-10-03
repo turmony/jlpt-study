@@ -11,7 +11,11 @@ from hashlib import sha256
 from pathlib import Path
 from threading import Event, Lock, Thread, current_thread
 
-from .sources import iter_supported_visible_source_files, iter_visible_images
+from .sources import (
+    iter_supported_visible_source_files,
+    iter_visible_evidence,
+    iter_visible_images,
+)
 
 
 @dataclass(frozen=True, order=True)
@@ -33,7 +37,8 @@ def snapshot_sources(root: Path) -> tuple[FileStamp, ...]:
     """
     resolved = root.resolve(strict=True)
     stamps: list[FileStamp] = []
-    for path in (*iter_supported_visible_source_files(resolved), *iter_visible_images(resolved)):
+    for path in (*iter_supported_visible_source_files(resolved), *iter_visible_images(resolved),
+                 *iter_visible_evidence(resolved)):
         try:
             stat = path.stat()
         except OSError:

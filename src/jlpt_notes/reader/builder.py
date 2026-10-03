@@ -1,16 +1,15 @@
 """Build and publish disposable, read-only reader site generations."""
 
-from dataclasses import dataclass
-from contextlib import contextmanager
 import json
-from pathlib import Path
 import shutil
+from contextlib import contextmanager
+from dataclasses import dataclass
+from pathlib import Path
 from threading import RLock
 from typing import Iterator
 
 from mkdocs.commands.build import build
 from mkdocs.config import load_config
-
 
 _MAX_RETIRED_GENERATIONS = 2
 
@@ -74,7 +73,8 @@ def build_site(
         build(config, dirty=previous is not None)
         version = _read_generation_version(target)
         reader_plugin = config.plugins.get("jlpt_reader")
-        warnings = tuple(getattr(reader_plugin, 'asset_warnings', ()))
+        warnings = (tuple(getattr(reader_plugin, 'asset_warnings', ()))
+                    + tuple(getattr(reader_plugin, 'document_warnings', ())))
         warning_log = None
         if warnings:
             warning_log = target.parent / f'{target.name}.warnings.log'

@@ -1,9 +1,9 @@
 """Command-line entry points for the JLPT note repository."""
 
 import argparse
+import sys
 from datetime import date
 from pathlib import Path
-import sys
 
 from .analytics import aggregate_attempts, render_daily_report
 from .repository import Repository
@@ -15,6 +15,7 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
     for name, help_text in (("init", "create a learner data repository"), ("validate", "validate the repository"),
                             ("validate-links", "check publishable local image links without writing"),
+                            ("validate-reader-links", "check local reader document and image links without writing"),
                             ("report-daily", "render today's read-only review brief"), ("backup", "create a local backup")):
         command = subparsers.add_parser(name, help=help_text)
         command.add_argument("--root", default="jlpt-notes")
@@ -42,19 +43,22 @@ def main() -> int:
     if args.command == "init":
         repo.init_layout()
         print(f"已创建资料库：{repo.root}")
-    elif args.command in {"validate", "validate-links"}:
+    elif args.command in {"validate", "validate-links", "validate-reader-links"}:
         from .asset_links import audit_assets
 
         if not repo.root.is_dir():
             print(f"资料库不存在：{repo.root}", file=sys.stderr)
             return 1
         issues = audit_assets(repo.root)
+        if args.command == 'validate-reader-links':
+            from .reader.links import audit_document_links
+            issues += audit_document_links(repo.root)
         for issue in issues:
             print(issue, file=sys.stderr)
         if issues:
-            print(f"发现 {len(issues)} 个图片资源链接问题", file=sys.stderr)
+            print(f"发现 {len(issues)} 个资源链接问题", file=sys.stderr)
             return 1
-        print("图片资源链接校验通过")
+        print('阅读器资源链接校验通过' if args.command == 'validate-reader-links' else '图片资源链接校验通过')
     elif args.command == "report-daily":
         repo.init_layout()
         print(render_daily_report(aggregate_attempts([]), 0, 0, 0, args.limit))
