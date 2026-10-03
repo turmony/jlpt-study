@@ -78,9 +78,12 @@ uv run python .claude/skills/quiz-generate/scripts/quiz_pipeline.py validate --r
 uv run python .claude/skills/quiz-generate/scripts/quiz_pipeline.py render --root . --draft <draft.json> --final
 uv run python .claude/skills/quiz-generate/scripts/validate_quiz.py --paper <试卷路径> --answers <答案路径> --structure <形式,排序,完形> --level <N5|N4|N3|N2|N1>
 uv run python -m jlpt_notes validate-links --root jlpt-notes
+uv run python -m jlpt_notes validate-reader-links --root jlpt-notes
 ```
 
 网站原题有问题只能替换，不能改写后继续标为原题。派生题每次修订都写入 `transformations` 并重新盲审该题；两轮仍有问题则弃用。机械校验不能替代来源真实性、唯一解或语法判断。
+
+最终渲染在写入前自动校验新产物的阅读器链接。补写校验报告等 Markdown 后，仍须执行 `validate-reader-links`：它只读检查全库普通本地链接及图片，不得用图片专用的 `validate-links` 代替。证据链接以各 Markdown 所在目录为基准；`quizzes/sources/` 下被引用的 `.txt`、`.json` 由阅读器转为只读证据页，其他非发布类型不得写成可点击链接。检查失败时停止交付，报告源文档、原链接和原因；不得关闭 MkDocs 警告绕过问题。
 
 ## 第 5 步：交付
 

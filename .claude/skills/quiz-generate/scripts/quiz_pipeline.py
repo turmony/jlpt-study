@@ -5,13 +5,14 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import posixpath
 import re
 import sys
 import time
 from collections import Counter
 from datetime import date, datetime
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 
 LEVEL_RE = re.compile(r"^N[1-5]$")
 CARD_RE = re.compile(r"^(N[1-5])-Q-(\d{4})$")
@@ -317,7 +318,8 @@ def render_paper(data: dict) -> str:
 
 
 def render_answers(data: dict) -> str:
-    lines = [f"# {data['quiz']['title']} · 答案解析", ""]
+    manifest = f"../sources/{data['quiz']['slug']}/manifest.json"
+    lines = [f"# {data['quiz']['title']} · 答案解析", "", f"[生成清单]({manifest})", ""]
     current = None
     for q in data["questions"]:
         if q["section"] != current:
@@ -338,6 +340,9 @@ def render_answers(data: dict) -> str:
                   f"**解析**：{q['correct_explanation']}"]
         for key in "1234":
             lines.append(f"- 选项 {key}（{q['options'][key]}）：{q['option_explanations'][key]}")
+        evidence = [f"[证据 {n}]({quote(posixpath.relpath(path, 'quizzes/answers'), safe='/')})"
+                    for n, path in enumerate(q['source']['evidence_paths'], 1)]
+        lines.extend(['', '**证据**：' + '；'.join(evidence)])
         lines.append("")
     return "\n".join(lines)
 
@@ -411,6 +416,18 @@ def cmd_render(args) -> int:
     existing = [str(p) for p in targets if p.exists()]
     if existing:
         raise ValueError("拒绝覆盖既有产物：\n- " + "\n- ".join(existing))
+    if args.final:
+        from jlpt_notes.reader.links import audit_prospective_documents
+        documents = {
+            paths['paper'].relative_to(base): render_paper(data),
+            paths['answers'].relative_to(base): render_answers(data),
+            **{path.relative_to(base): render_card(q, data['quiz']['level'])
+               for q, path in zip(data['questions'], card_paths)},
+        }
+        issues = audit_prospective_documents(base, documents,
+                                            generated_paths=(paths['manifest'].relative_to(base),))
+        if issues:
+            raise ValueError('阅读器链接校验失败：\n- ' + '\n- '.join(map(str, issues)))
     atomic_text(paths["paper"], render_paper(data))
     atomic_text(paths["answers"], render_answers(data))
     for q, path in zip(data["questions"], card_paths):

@@ -129,6 +129,58 @@ def test_final_render_produces_validator_compatible_artifacts(env_basic, tmp_pat
     assert manifest["workflow"]["phases"][-1]["name"] == "render"
 
 
+def test_final_rejects_evidence_reader_cannot_publish_before_writing(env_basic, tmp_path):
+    evidence = env_basic / 'jlpt-notes/private/evidence.txt'
+    evidence.parent.mkdir(parents=True)
+    evidence.write_text('existing but not publishable', encoding='utf-8')
+    data = make_draft()
+    data['questions'][0]['source']['evidence_paths'] = ['private/evidence.txt']
+    draft = tmp_path / 'draft.json'
+    draft.write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')
+    rendered = run_script(PIPELINE, 'render', '--root', env_basic, '--draft', draft, '--final')
+    assert rendered.returncode != 0
+    assert '阅读器' in rendered.stdout + rendered.stderr
+    assert not (env_basic / 'jlpt-notes/quizzes/papers' / (data['quiz']['slug'] + '.md')).exists()
+
+
+def test_final_renders_traceable_evidence_and_manifest_links(env_basic, tmp_path):
+    evidence = env_basic / 'jlpt-notes/quizzes/sources/cache/evidence.md.txt'
+    evidence.parent.mkdir(parents=True)
+    evidence.write_text('original evidence', encoding='utf-8')
+    data = make_draft()
+    data['questions'][0]['source']['evidence_paths'] = ['quizzes/sources/cache/evidence.md.txt']
+    draft = tmp_path / 'draft.json'
+    draft.write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')
+    rendered = run_script(PIPELINE, 'render', '--root', env_basic, '--draft', draft, '--final')
+    assert rendered.returncode == 0, rendered.stdout + rendered.stderr
+    paths = json.loads(rendered.stdout)
+    body = Path(paths['answers']).read_text(encoding='utf-8')
+    assert '(../sources/cache/evidence.md.txt)' in body
+    assert f"(../sources/{data['quiz']['slug']}/manifest.json)" in body
+
+
+def test_final_rejects_linked_output_directory_without_partial_artifacts(env_basic, tmp_path):
+    evidence = env_basic / 'jlpt-notes/quizzes/sources/cache/evidence.md'
+    evidence.parent.mkdir(parents=True)
+    evidence.write_text('original evidence', encoding='utf-8')
+    data = make_draft()
+    outside = tmp_path / 'outside'
+    outside.mkdir()
+    alias = env_basic / 'jlpt-notes/quizzes/sources' / data['quiz']['slug']
+    try:
+        alias.symlink_to(outside, target_is_directory=True)
+    except OSError:
+        import pytest
+        pytest.skip('symlink privileges unavailable')
+    draft = tmp_path / 'draft.json'
+    draft.write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')
+    rendered = run_script(PIPELINE, 'render', '--root', env_basic, '--draft', draft, '--final')
+    assert rendered.returncode != 0
+    assert '阅读器' in rendered.stdout + rendered.stderr
+    assert not (env_basic / 'jlpt-notes/quizzes/papers' / (data['quiz']['slug'] + '.md')).exists()
+    assert not list(outside.iterdir())
+
+
 def test_final_requires_current_review_and_revise_resets_only_target(tmp_path):
     root = tmp_path / "repo"
     evidence = root / "jlpt-notes/quizzes/sources/cache/evidence.md"

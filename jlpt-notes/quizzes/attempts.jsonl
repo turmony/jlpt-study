@@ -885,3 +885,43 @@
 {"question_id": "N2-Q-0138", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
 {"question_id": "N2-Q-0139", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
 {"question_id": "N2-Q-0140", "revision": 2, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-01"}
+{"question_id": "N2-Q-0141", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0142", "revision": 2, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0143", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0144", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": false, "uncertain": false, "error_tags": ["追加与取舍混淆", "接续错误"], "date": "2026-10-02"}
+{"question_id": "N2-Q-0145", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0146", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": false, "uncertain": false, "error_tags": ["排除条件与话题暂搁混淆"], "date": "2026-10-02"}
+{"question_id": "N2-Q-0147", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0148", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0149", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0150", "revision": 2, "item_type": "form_choice", "selected_option": "1", "is_correct": false, "uncertain": false, "error_tags": ["递进与因果混淆"], "date": "2026-10-02"}
+{"question_id": "N2-Q-0151", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0152", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0153", "revision": 2, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0154", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0155", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0156", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0157", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0158", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0159", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-02"}
+{"question_id": "N2-Q-0160", "revision": 2, "item_type": "form_choice", "selected_option": "2", "is_correct": false, "uncertain": false, "error_tags": ["犹豫与不利因果混淆", "忽略未完成语境"], "date": "2026-10-02"}
+{"question_id": "N2-Q-0161", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0162", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0163", "revision": 3, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0164", "revision": 2, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0165", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0166", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0167", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0168", "revision": 2, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0169", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0170", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0171", "revision": 2, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0172", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0173", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0174", "revision": 2, "item_type": "form_choice", "selected_option": "4", "is_correct": false, "uncertain": false, "error_tags": ["可能形与意向形混淆", "愿望条件与警告条件混淆"], "date": "2026-10-03"}
+{"question_id": "N2-Q-0175", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0176", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0177", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0178", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0179", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
+{"question_id": "N2-Q-0180", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-03"}
