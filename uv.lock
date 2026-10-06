@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.10"
 
 [[package]]
@@ -291,6 +291,7 @@ dependencies = [
     { name = "bleach" },
     { name = "mkdocs" },
     { name = "mkdocs-material" },
+    { name = "watchdog" },
 ]
 
 [package.dev-dependencies]
@@ -306,6 +307,7 @@ requires-dist = [
     { name = "bleach", specifier = ">=6,<7" },
     { name = "mkdocs", specifier = ">=1.6,<2" },
     { name = "mkdocs-material", specifier = ">=9.6,<10" },
+    { name = "watchdog", specifier = ">=6,<7" },
 ]
 
 [package.metadata.requires-dev]

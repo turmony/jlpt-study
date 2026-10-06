@@ -6,8 +6,6 @@ from pathlib import Path
 from queue import Empty, SimpleQueue
 import sys
 from threading import Event, Thread
-import tkinter as tk
-from tkinter import messagebox, ttk
 from typing import Callable
 import webbrowser
 
@@ -71,6 +69,9 @@ def run(root: Path, config_path: Path, program_path: Path, port: int = 8765) -> 
     current_program = Path(sys.executable).resolve(strict=True)
     if serving_program != current_program or serving_program.name.casefold() != "pythonw.exe":
         raise ValueError("请通过“JLPT iPad 阅读器”桌面快捷方式启动（必须使用同一个 pythonw.exe）")
+
+    import tkinter as tk
+    from tkinter import messagebox, ttk
 
     window = tk.Tk()
     window.title("JLPT iPad 阅读器")

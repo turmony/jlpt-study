@@ -9,6 +9,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new()
 $name = 'JLPT iPad Reader (Private LAN)'
 $ruleParameters = [ordered]@{
     DisplayName   = $name

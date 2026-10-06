@@ -68,6 +68,7 @@ def private_lan_addresses(*, runner=None) -> tuple[LanAddress, ...]:
             command,
             capture_output=True,
             text=True,
+            encoding="utf-8",
             timeout=10,
             check=True,
         )
@@ -78,6 +79,7 @@ def private_lan_addresses(*, runner=None) -> tuple[LanAddress, ...]:
 
 
 _NETWORK_QUERY = r"""
+[Console]::OutputEncoding = [Text.UTF8Encoding]::new()
 $profiles = Get-NetConnectionProfile |
     Where-Object { $_.IPv4Connectivity -ne 'Disconnected' }
 $adapters = Get-NetAdapter -Physical -IncludeHidden

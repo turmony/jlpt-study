@@ -68,6 +68,26 @@ class _SignalingTextBuffer(StringIO):
 
 
 class ReaderServerTests(unittest.TestCase):
+    def test_subnet_filter_accepts_matching_peer_and_rejects_other_peer(self):
+        server = ReadOnlyServer(self.store, "127.0.0.1", 0, allowed_subnets=("127.0.0.1/32",))
+        server.start()
+        try:
+            connection = http.client.HTTPConnection("127.0.0.1", server.bound_port, timeout=3)
+            connection.request("GET", "/")
+            self.assertEqual(connection.getresponse().status, 200)
+            connection.close()
+            blocked = http.client.HTTPConnection(
+                "127.0.0.1", server.bound_port, timeout=3, source_address=("127.0.0.2", 0),
+            )
+            try:
+                with self.assertRaises((OSError, http.client.RemoteDisconnected)):
+                    blocked.request("GET", "/")
+                    blocked.getresponse()
+            finally:
+                blocked.close()
+        finally:
+            server.stop()
+
     def setUp(self) -> None:
         self.temporary = TemporaryDirectory()
         self.root = Path(self.temporary.name)

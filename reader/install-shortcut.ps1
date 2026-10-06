@@ -8,7 +8,7 @@ $ErrorActionPreference = 'Stop'
 # Piped stdout uses the console code page (GBK on zh-CN) unless pinned, which
 # would break the UTF-8 JSON contract of the -WhatIf preview on such systems.
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-$projectRoot = (Resolve-Path -LiteralPath (Split-Path $PSScriptRoot -Parent)).Path
+$projectRoot = (Resolve-Path -LiteralPath (Split-Path $PSScriptRoot -Parent)).ProviderPath
 
 if ([string]::IsNullOrWhiteSpace($Pythonw)) {
     # Prefer the project venv: a PATH python may live in a disposable tool cache
@@ -24,7 +24,7 @@ if ([string]::IsNullOrWhiteSpace($Pythonw)) {
 if (-not (Test-Path -LiteralPath $Pythonw -PathType Leaf)) {
     throw "pythonw.exe was not found: $Pythonw"
 }
-$resolvedPythonw = (Resolve-Path -LiteralPath $Pythonw).Path
+$resolvedPythonw = (Resolve-Path -LiteralPath $Pythonw).ProviderPath
 if ([IO.Path]::GetFileName($resolvedPythonw) -ine 'pythonw.exe') {
     throw "The reader shortcut must use pythonw.exe: $resolvedPythonw"
 }
@@ -35,7 +35,7 @@ if ([string]::IsNullOrWhiteSpace($DesktopPath)) {
 if (-not (Test-Path -LiteralPath $DesktopPath -PathType Container)) {
     throw "The desktop directory was not found: $DesktopPath"
 }
-$resolvedDesktop = (Resolve-Path -LiteralPath $DesktopPath).Path
+$resolvedDesktop = (Resolve-Path -LiteralPath $DesktopPath).ProviderPath
 $readerName = -join [char[]](0x9605, 0x8BFB, 0x5668)
 $shortcutPath = Join-Path $resolvedDesktop "JLPT iPad $readerName.lnk"
 $arguments = "-m jlpt_notes reader --root `"$projectRoot\jlpt-notes`" --config `"$projectRoot\reader\mkdocs.yml`" --port 8765"

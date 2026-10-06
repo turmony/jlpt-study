@@ -1,0 +1,112 @@
+{
+  "startup": {
+    "runs": [
+      {
+        "run": 0,
+        "seconds_to_listening": 121.13535814900024,
+        "builds": [
+          {
+            "seconds": 107.41260252700158,
+            "rendered": 1901,
+            "reused": 0,
+            "success": true,
+            "incremental": false
+          }
+        ],
+        "cache_hit": false,
+        "cache_directory": "/home/turmony/.cache/jlpt-reader"
+      },
+      {
+        "run": 1,
+        "seconds_to_listening": 12.808777735001058,
+        "builds": [],
+        "cache_hit": true,
+        "cache_directory": "/home/turmony/.cache/jlpt-reader"
+      },
+      {
+        "run": 2,
+        "seconds_to_listening": 12.247422261998508,
+        "builds": [],
+        "cache_hit": true,
+        "cache_directory": "/home/turmony/.cache/jlpt-reader"
+      },
+      {
+        "run": 3,
+        "seconds_to_listening": 12.299213226000575,
+        "builds": [],
+        "cache_hit": true,
+        "cache_directory": "/home/turmony/.cache/jlpt-reader"
+      },
+      {
+        "run": 4,
+        "seconds_to_listening": 12.49490530499861,
+        "builds": [],
+        "cache_hit": true,
+        "cache_directory": "/home/turmony/.cache/jlpt-reader"
+      },
+      {
+        "run": 5,
+        "seconds_to_listening": 13.770215360998918,
+        "builds": [],
+        "cache_hit": true,
+        "cache_directory": "/home/turmony/.cache/jlpt-reader"
+      }
+    ],
+    "learning_bytes_and_mtimes_unchanged": true
+  },
+  "old_startup": {
+    "seconds_to_listening": 106.7322940640006,
+    "samples": 1,
+    "controller": "HEAD plus pre-step5 prior.diff",
+    "watcher": "HEAD polling watcher",
+    "port": 46983
+  },
+  "idle": {
+    "elapsed_seconds": 600.0670649679996,
+    "cpu_seconds_self": 41.455721,
+    "cpu_seconds_git_children": 0.055212,
+    "one_core_percent": 6.917715606040416,
+    "strong_scan_5_seconds": [
+      0.8092094490002637,
+      0.7780937950010411,
+      0.7987697890002892,
+      0.873876134000966,
+      0.8567102880006132
+    ],
+    "inventory_stamps": 2941,
+    "reconciliations": 9,
+    "snapshot_seconds": 14.023184264997326,
+    "rebuild_callbacks": 0
+  },
+  "old_idle": {
+    "elapsed_seconds": 60.00124233599854,
+    "cpu_seconds_self": 24.613844,
+    "cpu_seconds_git_children": 0.440864,
+    "one_core_percent": 41.75698206329987,
+    "full_scans": 73,
+    "rebuild_callbacks": 0
+  },
+  "events": {
+    "fixture_files": 2900,
+    "file_event_to_callback_5_seconds": [
+      0.5055270110005949,
+      0.5053277900005924,
+      0.5055912329989951,
+      0.5050823540004785,
+      0.5054845989998284
+    ],
+    "full_scans_during_5_file_edits": 0,
+    "callbacks": 5
+  },
+  "cache": {
+    "unique_file_bytes": 2153230608,
+    "generations": 2,
+    "budget_bytes": 3221225472,
+    "directory": "/home/turmony/.cache/jlpt-reader"
+  },
+  "pytest": "399 passed, 1 skipped, 82 subtests passed in 196.40s (0:03:16)",
+  "warm_startup_median_seconds": 12.49490530499861,
+  "startup_elapsed_reduction_percent": 88.2932289476452,
+  "idle_monitor_cpu_reduction_percent": 83.43339182042952,
+  "scan_frequency_reduction_percent": 98.7672355523996
+}

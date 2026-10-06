@@ -174,7 +174,7 @@ class ReaderWatcherTests(unittest.TestCase):
         self.assertFalse(watcher.poll_once(now=1.0))
         self.assertFalse(watcher.poll_once(now=2.0))
 
-        self.assertEqual(len(errors), 1)
+        self.assertEqual(len(errors), 2)
         self.assertIn("on_change callback failed: RuntimeError: boom", errors[0])
 
     def test_watcher_start_and_stop_use_a_daemon_polling_lifecycle(self) -> None:

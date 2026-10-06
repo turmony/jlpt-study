@@ -9,9 +9,20 @@ from .analytics import aggregate_attempts, render_daily_report
 from .repository import Repository
 
 
+class _ReaderArgumentParser(argparse.ArgumentParser):
+    def parse_args(self, args=None, namespace=None):
+        parsed = super().parse_args(args, namespace)
+        if parsed.command == "reader":
+            if parsed.lan and not parsed.headless:
+                self.error("--lan 需要 --headless")
+            if parsed.configure_firewall and not (parsed.headless and parsed.lan):
+                self.error("--configure-firewall 需要 --headless --lan")
+        return parsed
+
+
 def build_parser() -> argparse.ArgumentParser:
     """Build the top-level command parser."""
-    parser = argparse.ArgumentParser(prog="jlpt-notes")
+    parser = _ReaderArgumentParser(prog="jlpt-notes")
     subparsers = parser.add_subparsers(dest="command", required=True)
     for name, help_text in (("init", "create a learner data repository"), ("validate", "validate the repository"),
                             ("validate-links", "check publishable local image links without writing"),
@@ -24,20 +35,40 @@ def build_parser() -> argparse.ArgumentParser:
     reader.add_argument("--root", default="jlpt-notes")
     reader.add_argument("--config", default="reader/mkdocs.yml")
     reader.add_argument("--port", type=_reader_port, default=8765)
+    reader.add_argument("--headless", action="store_true", help="run in the terminal for local preview without a GUI")
+    reader.add_argument("--lan", action="store_true", help="enable the mirrored WSL Private LAN after firewall checks")
+    reader.add_argument("--configure-firewall", action="store_true", help="configure the reader's WSL Private LAN firewall rules")
+    clean_cache = subparsers.add_parser('reader-cache-clean', help='clear this project\'s disposable reader cache')
+    clean_cache.add_argument('--root', default='jlpt-notes')
+    clean_cache.add_argument('--config', default='reader/mkdocs.yml')
     return parser
 
 
 def main() -> int:
     """Run the command-line application."""
     args = build_parser().parse_args()
+    if args.command == 'reader-cache-clean':
+        from .reader.cache import ReaderCache
+        cache = ReaderCache(Path(args.root), Path(args.config))
+        try:
+            removed = cache.clear()
+        except (OSError, ValueError) as error:
+            print(f'缓存清理未完成：{error}', file=sys.stderr)
+            return 1
+        print(f'已清理本项目 {removed} 个页面缓存版本：{cache.directory}')
+        return 0
     if args.command == "reader":
-        from .reader.launcher import run
+        if args.headless:
+            from .reader.headless import run
+        else:
+            from .reader.launcher import run
 
         return run(
             root=Path(args.root),
             config_path=Path(args.config),
             program_path=Path(sys.executable).resolve(),
             port=args.port,
+            **({"lan": True, "configure_firewall": args.configure_firewall} if args.lan else {}),
         )
     repo = Repository(Path(args.root))
     if args.command == "init":

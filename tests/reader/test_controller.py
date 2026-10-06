@@ -12,6 +12,8 @@ from jlpt_notes.reader.builder import BuildResult, SiteStore
 from jlpt_notes.reader.controller import ReaderController, ReaderStatus
 from jlpt_notes.reader.network import LanAddress, NetworkInspectionError
 
+from .windows_tools import POWERSHELL_AVAILABLE, local_path, run_powershell, windows_path
+
 
 class _FakeStore:
     instances = []
@@ -266,7 +268,9 @@ class ReaderControllerTests(unittest.TestCase):
                 self.assertFalse(controller.start())
 
             self.assertEqual(_FakeServer.instances, [])
-            self.assertEqual(_FakeWatcher.instances, [])
+            self.assertEqual(len(_FakeWatcher.instances), 1)
+            self.assertEqual(_FakeWatcher.instances[0].start_calls, 0)
+            self.assertEqual(_FakeWatcher.instances[0].stop_calls, 1)
             self.assertEqual(statuses[-1].state, "error")
             self.assertIn("broken markdown", statuses[-1].message)
             self.assertIn(str(log), statuses[-1].message)
@@ -668,7 +672,7 @@ class ReaderControllerTests(unittest.TestCase):
             self.assertEqual(_FakeServer.instances[0].stop_calls, 1)
             self.assertEqual(statuses[-1].state, "stopped")
 
-    def test_start_rejects_non_pythonw_and_invalid_inputs_before_build(self) -> None:
+    def test_start_rejects_unrelated_python_and_invalid_inputs_before_build(self) -> None:
         with TemporaryDirectory() as directory, patch(
             "jlpt_notes.reader.controller.build_site"
         ) as build:
@@ -680,7 +684,7 @@ class ReaderControllerTests(unittest.TestCase):
             python = base / "python.exe"
             python.write_bytes(b"test")
 
-            with self.assertRaisesRegex(ValueError, "pythonw.exe"):
+            with self.assertRaisesRegex(ValueError, "当前进程"):
                 ReaderController(root, config, python).start()
             with self.assertRaisesRegex(ValueError, "1024.*65535"):
                 ReaderController(root, config, python.with_name("pythonw.exe"), port=80)
@@ -713,16 +717,12 @@ class ReaderControllerTests(unittest.TestCase):
     def test_launcher_rejects_an_unrelated_pythonw_without_opening_tk(self) -> None:
         from jlpt_notes.reader.launcher import run
 
-        with TemporaryDirectory() as directory, patch(
-            "jlpt_notes.reader.launcher.tk.Tk"
-        ) as create_window:
+        with TemporaryDirectory() as directory, patch.dict(sys.modules, {"tkinter": None}):
             program = Path(directory) / "pythonw.exe"
             program.write_bytes(b"unrelated executable")
 
             with self.assertRaisesRegex(ValueError, "同一个 pythonw.exe"):
                 run(Path("notes"), Path("reader/mkdocs.yml"), program)
-
-            create_window.assert_not_called()
 
     def test_launcher_status_pump_never_calls_tk_from_worker_and_closes_safely(self) -> None:
         from jlpt_notes.reader.launcher import _StatusPump
@@ -885,6 +885,7 @@ class ReaderControllerTests(unittest.TestCase):
             self.assertEqual(_FakeStore.instances[0].close_calls, 1)
             self.assertEqual([status.state for status in statuses].count("stopped"), 1)
 
+    @unittest.skipUnless(POWERSHELL_AVAILABLE, "requires Windows PowerShell or WSL interop")
     def test_shortcut_whatif_reports_exact_pythonw_contract_without_creating_link(self) -> None:
         project = Path(__file__).resolve().parents[2]
         script = project / "reader" / "install-shortcut.ps1"
@@ -895,31 +896,13 @@ class ReaderControllerTests(unittest.TestCase):
             program.write_bytes(b"test executable")
             desktop = temporary / "desktop"
             desktop.mkdir()
-            completed = subprocess.run(
-                [
-                    "powershell.exe",
-                    "-NoProfile",
-                    "-NonInteractive",
-                    "-ExecutionPolicy",
-                    "Bypass",
-                    "-File",
-                    str(script),
-                    "-Pythonw",
-                    str(program),
-                    "-DesktopPath",
-                    str(desktop),
-                    "-WhatIf",
-                ],
-                capture_output=True,
-                text=True,
-                encoding="utf-8",
-                timeout=10,
-                check=True,
+            completed = run_powershell(
+                script, "-Pythonw", windows_path(program), "-DesktopPath", windows_path(desktop), "-WhatIf",
             )
 
             preview = json.loads(completed.stdout)
-            self.assertTrue(Path(preview["TargetPath"]).samefile(program))
-            self.assertEqual(preview["WorkingDirectory"], str(project.resolve()))
+            self.assertTrue(local_path(preview["TargetPath"]).samefile(program))
+            self.assertTrue(local_path(preview["WorkingDirectory"]).samefile(project))
             self.assertEqual(preview["Description"], "手动启动 JLPT iPad 局域网只读阅读器")
             self.assertIn('--root "', preview["Arguments"])
             self.assertIn('--config "', preview["Arguments"])

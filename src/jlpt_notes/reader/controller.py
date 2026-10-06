@@ -2,13 +2,16 @@
 
 from __future__ import annotations
 
+import logging
+import shutil
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from threading import Lock, RLock
+from threading import Event, Lock, RLock, Thread, current_thread
 from typing import Callable
 
 from .builder import BuildResult, SiteStore, build_site
+from .cache import ReaderCache, configuration_fingerprint, configuration_paths, input_fingerprint
 from .firewall import (
     configure_firewall as configure_firewall_rule,
 )
@@ -41,6 +44,10 @@ class ReaderController:
         program_path: Path,
         port: int = 8765,
         on_status: Callable[[ReaderStatus], None] | None = None,
+        *,
+        local_only: bool = False,
+        wsl_lan: bool = False,
+        cache_directory: Path | None = None,
     ) -> None:
         if isinstance(port, bool) or not isinstance(port, int) or not 1024 <= port <= 65535:
             raise ValueError("端口必须是 1024 到 65535 之间的整数")
@@ -49,6 +56,9 @@ class ReaderController:
         self.program_path = Path(program_path).resolve(strict=True)
         self.port = port
         self._on_status = on_status or (lambda status: None)
+        self._local_only = local_only
+        self._wsl_lan = wsl_lan
+        self._allowed_subnets: tuple[str, ...] | None = None
 
         self._lifecycle_lock = RLock()
         self._build_lock = Lock()
@@ -59,6 +69,7 @@ class ReaderController:
         self._server: ReadOnlyServer | None = None
         self._watcher: SourceWatcher | None = None
         self._build_number = 0
+        self._site_compatibility: str | None = None
         self._started = False
         self._starting = False
         self._stop_requested = False
@@ -67,6 +78,10 @@ class ReaderController:
         self._lan_enabled = False
         self._network_reason = ""
         self._asset_warning_summary = ""
+        self._cache = ReaderCache(self.root, self.config_path, directory=cache_directory)
+        self._maintenance_stop = Event()
+        self._maintenance: Thread | None = None
+        self._cache_errors: set[str] = set()
         # Cache the bound method under a distinct name so every construction
         # and rebind receives the same handler object, and tests can verify
         # wiring by identity.
@@ -91,12 +106,33 @@ class ReaderController:
             self._starting = True
 
         self._publish(ReaderStatus("preparing", "正在准备只读阅读器……"))
+        launch_complete = False
         try:
             with self._build_lock:
                 with self._lifecycle_lock:
                     if self._stop_requested:
                         return False
-                source_baseline = snapshot_sources(self.root)
+                try:
+                    extra_paths = configuration_paths(self.config_path)
+                except Exception:
+                    extra_paths = (self.config_path.parent,)
+                source_baseline = snapshot_sources(self.root, extra_paths=extra_paths, content_hashes=True)
+                watcher = SourceWatcher(
+                    self.root,
+                    self.rebuild,
+                    initial_snapshot=source_baseline,
+                    extra_paths=extra_paths,
+                    reconcile_seconds=60,
+                    on_error=lambda message: self._publish(
+                        ReaderStatus("error", f"资料更新监测出错：{message}", self._current_url())
+                    ),
+                )
+                with self._lifecycle_lock:
+                    self._watcher = watcher
+                prepare = getattr(watcher, 'prepare', None)
+                if prepare is not None:
+                    prepare()
+                self._cleanup_cache()
                 temporary = ReaderSessionDirectory()
                 with self._lifecycle_lock:
                     cancelled = self._stop_requested
@@ -132,7 +168,10 @@ class ReaderController:
             status = self._inspect_network()
             host = "0.0.0.0" if status.state == "running" else "127.0.0.1"
             try:
-                server = ReadOnlyServer(store, host, self.port, submit=self._submit_handler)
+                server = ReadOnlyServer(
+                    store, host, self.port, submit=self._submit_handler,
+                    **({"allowed_subnets": self._allowed_subnets} if self._allowed_subnets else {}),
+                )
                 server.start()
             except OSError as error:
                 self._publish(
@@ -143,14 +182,6 @@ class ReaderController:
                 )
                 return False
 
-            watcher = SourceWatcher(
-                self.root,
-                self.rebuild,
-                initial_snapshot=source_baseline,
-                on_error=lambda message: self._publish(
-                    ReaderStatus("error", f"资料更新监测出错：{message}", self._current_url())
-                ),
-            )
             with self._lifecycle_lock:
                 if self._stop_requested:
                     server.stop()
@@ -159,12 +190,23 @@ class ReaderController:
                 self._watcher = watcher
                 self._started = True
             watcher.start()
+            self._maintenance = Thread(target=self._cache_maintenance, name='jlpt-reader-cache-cleanup', daemon=True)
+            self._maintenance.start()
             self._publish(self._network_status(reminder=True))
+            launch_complete = True
             return True
         except Exception as error:
             self._publish(ReaderStatus("error", f"阅读器启动失败：{type(error).__name__}: {error}"))
             raise
         finally:
+            if not launch_complete:
+                with self._lifecycle_lock:
+                    prepared_watcher = self._watcher
+                if prepared_watcher is not None:
+                    prepared_watcher.stop()
+                    with self._lifecycle_lock:
+                        if self._watcher is prepared_watcher:
+                            self._watcher = None
             with self._lifecycle_lock:
                 self._starting = False
 
@@ -197,6 +239,9 @@ class ReaderController:
 
     def configure_firewall(self) -> bool:
         """Configure LAN access only after the launcher receives an explicit click."""
+        if self._local_only or self._wsl_lan:
+            self._publish(ReaderStatus("local-only", "命令行模式仅提供本机预览。", self._current_url()))
+            return False
         with self._configuration_lock:
             return self._configure_firewall_locked()
 
@@ -282,6 +327,11 @@ class ReaderController:
                     return
                 self._stop_requested = True
                 watcher = self._watcher
+
+            self._maintenance_stop.set()
+            if self._maintenance is not None and self._maintenance is not current_thread():
+                self._maintenance.join()
+            self._maintenance = None
 
             if watcher is not None:
                 watcher.stop()
@@ -394,15 +444,47 @@ class ReaderController:
         except Exception as error:
             return self._publication_error(temporary_root, destination, error)
         previous_site = store.current
-        if previous_site is None:
-            result = build_site(self.root, self.config_path, destination)
-        else:
-            result = build_site(
-                self.root,
-                self.config_path,
-                destination,
-                previous_site=previous_site,
-            )
+        if self._watcher is not None:
+            update_paths = getattr(self._watcher, 'update_extra_paths', None)
+            if update_paths is not None:
+                try:
+                    update_paths(configuration_paths(self.config_path))
+                except Exception as error:
+                    self._cache_warning(error)
+        change_token = getattr(self._watcher, 'change_token', None)
+        inputs = self._cache_inputs()
+        # An incremental build can retain presentation generated with old
+        # hooks/templates/configuration. Only reuse a compatible publication.
+        if inputs is None or inputs[1] != self._site_compatibility:
+            previous_site = None
+        result = None
+        restored_exact = False
+        seed = None
+        if previous_site is None and inputs is not None:
+            signature, compatibility = inputs
+            try:
+                if self._cache.restore(destination, signature):
+                    if self._cache_inputs() == inputs:
+                        result = self._cache.last_result
+                        restored_exact = result is not None
+                    else:
+                        shutil.rmtree(destination)
+                        inputs = self._cache_inputs()
+                if result is None and inputs is not None:
+                    seed = temporary_root / f'cache-seed-{self._build_number:06d}'
+                    if self._cache.restore_previous(seed, inputs[1]):
+                        previous_site = seed
+            except Exception as error:
+                self._cache_warning(error)
+        if result is None:
+            try:
+                if previous_site is None:
+                    result = build_site(self.root, self.config_path, destination)
+                else:
+                    result = build_site(self.root, self.config_path, destination, previous_site=previous_site)
+            finally:
+                if seed is not None:
+                    shutil.rmtree(seed, ignore_errors=True)
         if not result.success:
             return result
         try:
@@ -417,11 +499,51 @@ class ReaderController:
                 )
             return self._publication_error(temporary_root, destination, error)
         with self._lifecycle_lock:
+            self._site_compatibility = inputs[1] if inputs is not None else None
             self._asset_warning_summary = (
                 f" 资源链接有 {len(result.warnings)} 个问题；{result.warnings[0]}；完整日志：{result.log_path}"
                 if result.warnings else ""
             )
+        after_inputs = self._cache_inputs() if inputs is not None else None
+        stable_events = True
+        ensure_rebuild = getattr(self._watcher, 'ensure_rebuild_after', None)
+        if change_token is not None and ensure_rebuild is not None:
+            # Equality of before/after hashes alone misses an A→B→A edit while
+            # MkDocs reads B. Never persist such a publication; force a retry.
+            stable_events = ensure_rebuild(change_token)
+        if not restored_exact and stable_events and inputs is not None and after_inputs == inputs:
+            try:
+                # Cache only a published generation whose inputs stayed stable.
+                if not self._cache.save(destination, inputs[0], compatibility=inputs[1], warnings=result.warnings,
+                                        page_count=result.rendered_pages + result.reused_pages):
+                    self._cache_warning('本次页面缓存未保存；阅读器继续正常运行。')
+            except Exception as error:
+                self._cache_warning(error)
         return result
+
+    def _cache_inputs(self) -> tuple[str, str] | None:
+        try:
+            compatibility = configuration_fingerprint(self.config_path)
+            return input_fingerprint(self.root, self.config_path, compatibility=compatibility), compatibility
+        except Exception as error:
+            self._cache_warning(error)
+            return None
+
+    def _cache_warning(self, error) -> None:
+        message = str(error)
+        if message not in self._cache_errors and len(self._cache_errors) < 8:
+            self._cache_errors.add(message)
+            logging.getLogger(__name__).warning('页面缓存不可用（继续提供阅读）：%s', message)
+
+    def _cleanup_cache(self) -> None:
+        try:
+            self._cache.cleanup()
+        except Exception as error:
+            self._cache_warning(error)
+
+    def _cache_maintenance(self) -> None:
+        while not self._maintenance_stop.wait(60 * 60):
+            self._cleanup_cache()
 
     @staticmethod
     def _publication_error(
@@ -435,6 +557,29 @@ class ReaderController:
         return BuildResult(False, error=message, log_path=log_path)
 
     def _inspect_network(self) -> ReaderStatus:
+        if self._local_only:
+            with self._lifecycle_lock:
+                self._addresses = ()
+                self._lan_enabled = False
+                self._network_reason = "命令行模式仅提供本机预览；按 Ctrl+C 停止。"
+            return self._network_status()
+        if self._wsl_lan:
+            from .wsl import approved_lan
+
+            try:
+                lan = approved_lan(self.port)
+                with self._lifecycle_lock:
+                    self._addresses = (lan.address,)
+                    self._allowed_subnets = (lan.subnet, "127.0.0.0/8")
+                    self._lan_enabled = True
+                    self._network_reason = ""
+            except Exception as error:  # noqa: BLE001 - inspection must fall back to loopback
+                with self._lifecycle_lock:
+                    self._addresses = ()
+                    self._allowed_subnets = None
+                    self._lan_enabled = False
+                    self._network_reason = f"WSL 局域网检查未通过：{error}"
+            return self._network_status()
         try:
             addresses = private_lan_addresses()
         except Exception as error:
@@ -501,11 +646,9 @@ class ReaderController:
         return f"http://127.0.0.1:{self.port}"
 
     def _validate_start_inputs(self) -> None:
-        if self.program_path.name.casefold() != "pythonw.exe":
-            raise ValueError("阅读器必须由桌面快捷方式指定的 pythonw.exe 启动")
         current_program = Path(sys.executable).resolve(strict=True)
-        if current_program.name.casefold() != "pythonw.exe" or self.program_path != current_program:
-            raise ValueError("阅读器程序必须与当前进程使用同一个 pythonw.exe")
+        if self.program_path != current_program:
+            raise ValueError("阅读器程序必须与当前进程使用同一个 Python；Windows 图形入口使用 pythonw.exe")
         if not self.program_path.is_file():
             raise FileNotFoundError(f"找不到阅读器程序：{self.program_path}")
         if not self.root.is_dir():

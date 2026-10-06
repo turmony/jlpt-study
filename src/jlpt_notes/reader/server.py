@@ -2,6 +2,7 @@
 
 from collections.abc import Callable
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+import ipaddress
 import json
 import mimetypes
 import os
@@ -33,8 +34,12 @@ class ReadOnlyServer:
         host: str,
         port: int,
         submit: SubmitHandler | None = None,
+        *,
+        allowed_subnets: tuple[str, ...] | None = None,
     ) -> None:
-        self._httpd = _JoinableRequestServer((host, port), _handler_for(store, submit))
+        self._httpd = _JoinableRequestServer(
+            (host, port), _handler_for(store, submit), allowed_subnets=allowed_subnets,
+        )
         self._thread = Thread(
             target=self._httpd.serve_forever,
             name="jlpt-reader-http",
@@ -99,11 +104,21 @@ class _JoinableRequestServer(ThreadingHTTPServer):
     daemon_threads = False
     block_on_close = True
 
-    def __init__(self, *args, **kwargs) -> None:
+    def __init__(self, *args, allowed_subnets=None, **kwargs) -> None:
+        self._allowed_subnets = (
+            tuple(ipaddress.ip_network(value) for value in allowed_subnets)
+            if allowed_subnets is not None else None
+        )
         self._active_requests: set[socket.socket] = set()
         self._aborted_requests: set[socket.socket] = set()
         self._active_requests_lock = Lock()
         super().__init__(*args, **kwargs)
+
+    def verify_request(self, request, client_address) -> bool:
+        if self._allowed_subnets is None:
+            return True
+        peer = ipaddress.ip_address(client_address[0])
+        return any(peer in subnet for subnet in self._allowed_subnets)
 
     def process_request(self, request: socket.socket, client_address) -> None:
         with self._active_requests_lock:

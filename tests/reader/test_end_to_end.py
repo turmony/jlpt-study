@@ -76,19 +76,18 @@ def _route_containing(site: Path, text: str) -> str:
 
 
 class ReaderEndToEndTests(unittest.TestCase):
-    def test_user_docs_require_one_stable_same_runtime_install_chain(self) -> None:
+    def test_user_docs_default_to_wsl_and_preserve_legacy_windows_instructions(self) -> None:
         project = Path(__file__).resolve().parents[2]
         readme = (project / "README.md").read_text(encoding="utf-8")
 
-        self.assertIn(r"D:\PersonalProject\n5-n2-n1-1-2-3", readme)
-        self.assertIn("安装阅读器（稳定目录）", readme)
-        self.assertIn("创建桌面快捷方式", readme)
-        self.assertIn("Private + LocalSubnet", readme)
-        self.assertIn("python.exe", readme)
-        self.assertIn("pythonw.exe", readme)
-        self.assertIn(".worktrees", readme)
-        self.assertIn("重新安装", readme)
-        self.assertNotIn("首次设置包含两项", readme)
+        self.assertNotIn(r"D:\PersonalProject\n5-n2-n1-1-2-3", readme)
+        self.assertIn("uv run python -m jlpt_notes reader --headless --lan", readme)
+        self.assertIn("install-wsl-shortcut.ps1", readme)
+        self.assertIn("docs/reader-windows-legacy.md", readme)
+        legacy = (project / "docs/reader-windows-legacy.md").read_text(encoding="utf-8")
+        self.assertIn("pythonw.exe", legacy)
+        self.assertIn("Private + LocalSubnet", legacy)
+        self.assertIn(".worktrees", legacy)
 
     def test_committed_repository_build_is_strictly_read_only(self) -> None:
         project = Path(__file__).resolve().parents[2]
