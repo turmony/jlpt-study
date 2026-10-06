@@ -1,6 +1,8 @@
-# JLPT 本地学习系统
+# jlpt-study · JLPT 本地学习系统
 
 这是一个以本地 Markdown 为核心的 JLPT 日语学习资料库。系统保存学习输出、校对结果、固定七天复习记录、N5–N1 非听力练习和错题分析。
+
+项目名称为 `jlpt-study`；资料目录继续使用 `jlpt-notes`，Python 模块继续使用 `jlpt_notes`。
 
 ## 视频课程缓存
 
@@ -20,10 +22,10 @@ N5–N1 共用一条缓存命令：`uv run scripts/cache_course_videos.py <等�
 
 ### Ubuntu / WSL2：命令行本机预览
 
-当前开发目录是 `/home/turmony/projects/n5-n2-n1-1-2-3`。在 Ubuntu 终端运行：
+当前开发目录是 `/home/turmony/projects/jlpt-study`。在 Ubuntu 终端运行：
 
 ```bash
-cd /home/turmony/projects/n5-n2-n1-1-2-3
+cd /home/turmony/projects/jlpt-study
 uv run python -m jlpt_notes reader --headless
 ```
 
