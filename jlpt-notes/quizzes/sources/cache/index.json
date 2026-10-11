@@ -1746,6 +1746,136 @@
       "locator": "文型讲解与本卷已采用例句",
       "evidence_path": "quizzes/sources/cache/181448ab112782a5b27a-bd4d7ed85860.md",
       "content_sha256": "bd4d7ed85860bec547056170a1d990ee3c5d77daf5f698b7216db29af5b6d7ea"
+    },
+    "ff565b457c46e5be5cf3": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/09/jlptn1-grammar-zukume/",
+      "title": "【JLPT N１】文法・例文：〜ずくめ",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0021"
+      ],
+      "locator": "文型・接続・備考／例文第1文",
+      "evidence_path": "quizzes/sources/cache/ff565b457c46e5be5cf3-2280518b0462.txt",
+      "content_sha256": "2280518b0462d8b33b43d977b13ee2a7d9e17fbde57a7cf178439c0b1b9ab3b7"
+    },
+    "f1e248d29b08e5aa4728": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/17/jlptn1-grammar-zuniwaokanai/",
+      "title": "【JLPT N１】文法・例文：〜ずにはおかない / 〜ではおかない",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0022"
+      ],
+      "locator": "文型・意味・接続／例文第2文",
+      "evidence_path": "quizzes/sources/cache/f1e248d29b08e5aa4728-8e51f563ddb9.txt",
+      "content_sha256": "8e51f563ddb9aaab862a8bb97f3e22dc4abccf17de06764458b35794e581a5e7"
+    },
+    "ae5e4ee3edec1377bbcf": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/11/jlptn1-grammar-sura/",
+      "title": "【JLPT N１】文法・例文：〜すら",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0024"
+      ],
+      "locator": "文型・意味・接続／例文第1文",
+      "evidence_path": "quizzes/sources/cache/ae5e4ee3edec1377bbcf-04ab66704713.txt",
+      "content_sha256": "04ab66704713206ee69e5909110a8c957d3e6928f8c6b339c9598dbeea39c717"
+    },
+    "d57ca701457a0d065d8f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/09/jlptn1-grammar-sobakara/",
+      "title": "【JLPT N１】文法・例文：〜そばから",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0025"
+      ],
+      "locator": "文型・接続・備考／例文第3文",
+      "evidence_path": "quizzes/sources/cache/d57ca701457a0d065d8f-cb9cee141ab4.txt",
+      "content_sha256": "cb9cee141ab49cbdf81647f0dc205455643633479f2df7fc31d972c1242ffb5b"
+    },
+    "223eccb220fcc8ff2e77": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/01/20/jlptn1-grammar-tatokorode/",
+      "title": "【JLPT N１】文法・例文：〜たところで",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0026"
+      ],
+      "locator": "文型・意味・接続／例文「試験はもう終わった」",
+      "evidence_path": "quizzes/sources/cache/223eccb220fcc8ff2e77-0f2745cc66c9.txt",
+      "content_sha256": "0f2745cc66c96ad37db2d6081f7b50abc1ef17833ba171fcefb059ca01b8bb3c"
+    },
+    "51c7f32bf5201137921c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/17/jlptn1-grammar-taritomo-nai/",
+      "title": "【JLPT N１】文法・例文：〜たりとも〜ない",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0028"
+      ],
+      "locator": "文型・意味・接続／例文「これはみんなが寄付」",
+      "evidence_path": "quizzes/sources/cache/51c7f32bf5201137921c-3aed8ddfa36c.txt",
+      "content_sha256": "3aed8ddfa36cc26e5898c22dfe0ec2ceee62f093743d794b0305185e38b89017"
+    },
+    "4089ade1b18fa203edc2": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/18/jlptn1-grammar-tarumono/",
+      "title": "【JLPT N１】文法・例文：〜たるもの",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0029"
+      ],
+      "locator": "文型・意味・接続・備考／例文第4文",
+      "evidence_path": "quizzes/sources/cache/4089ade1b18fa203edc2-bfc4db9de067.txt",
+      "content_sha256": "bfc4db9de067e066a86a56a09edabc0886f4b3f619008074332a1ac1d0051ccf"
+    },
+    "b7c9b681d02e2eb1bac7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/15/jlptn1-grammar-tsu-tsu/",
+      "title": "【JLPT N１】文法・例文：〜つ〜つ",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0030"
+      ],
+      "locator": "文型・意味・接続／例文第2文",
+      "evidence_path": "quizzes/sources/cache/b7c9b681d02e2eb1bac7-411ca3b7d0a2.txt",
+      "content_sha256": "411ca3b7d0a2ef9698a500de03c960453d20b148de55c4d108af6eb64d56d3f2"
+    },
+    "ecf08a7944293e43fdf9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2017/11/22/jlptn1-grammar-quiz-part1/",
+      "title": "【JLPT N1】文法クイズ Part1",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0027"
+      ],
+      "locator": "Question 9 题干・四个选项・●Answer",
+      "evidence_path": "quizzes/sources/cache/ecf08a7944293e43fdf9-c3d6b1704ce9.txt",
+      "content_sha256": "c3d6b1704ce96e35f2416fa91a985c3b724e7b108bf80903b4ea0f9ec1f54729"
+    },
+    "e8f6f4624d876094b316": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/14/jlptn1-grammar-zuniwasumanai/",
+      "title": "【JLPT N１】文法・例文：〜ずにはすまない / 〜ないではすまない",
+      "publisher": "日本語NET／ノッチ（公开简介：日本语教师4年、420小时课程修了、日本语教育能力检定合格；既有证据 quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt）",
+      "accessed_at": "2026-10-10",
+      "grammar_ids": [
+        "N1-G-0023"
+      ],
+      "locator": "文型・意味・接続／例文第1文",
+      "evidence_path": "quizzes/sources/cache/e8f6f4624d876094b316-1071987d8f7f.txt",
+      "content_sha256": "1071987d8f7f24ae877851e422b3ec04923008f18dfe7c96176ef38a1dafdcb4"
     }
   }
 }

@@ -27,3 +27,17 @@
 - 图片技术修复不重启复习周期，不改学习者原文；提交日期由 Git 历史提供，复习日期由提交与复习事件推导。
 
 Python 一律通过 uv 执行：`uv run python <脚本>`。本机 PATH 中没有系统 Python（只有微软商店占位符），uv 托管的解释器仅能经 `uv run` 使用，直接调用 `python`/`python3` 会报错。
+
+<!-- jlpt-web-workflow:start -->
+## 网页对话上下文
+
+网页负责展示智能体的流式输出，包括回复、思考、工具调用和实际运行错误。
+按用户当前原文和资料库原有 skill 处理任务；判分、报告和学习记录由智能体处理，
+网页不会额外核对总分、逐题判定或报告，也不会自动追加作答历史或提交 Git。
+
+每轮上下文保存在 `jlpt-notes/quizzes/web/current-turn.json`，包含当前任务编号、轮次、
+操作提示以及已有网页试卷与正式作答。`operation` 仅为提示，不覆盖用户本轮原文。
+正式作答以 `jlpt-notes/quizzes/web/submissions/<submission_id>.json` 和对应 `.txt` 提供，
+保留用户的原始答案。原有 `handoff` 路径仅供旧流程参考；无需创建交接文件，
+网页不会用交接文件中的文字代替或追加智能体回复。
+<!-- jlpt-web-workflow:end -->

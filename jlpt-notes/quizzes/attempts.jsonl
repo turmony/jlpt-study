@@ -945,3 +945,13 @@
 {"question_id": "N2-Q-0198", "revision": 2, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-04"}
 {"question_id": "N2-Q-0199", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-04"}
 {"question_id": "N2-Q-0200", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-04"}
+{"question_id": "N1-Q-0001", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0002", "revision": 1, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0003", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0004", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0005", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": false, "uncertain": false, "error_tags": ["惯用搭配语义混淆", "主动被动交替误判"], "date": "2026-10-11"}
+{"question_id": "N1-Q-0006", "revision": 2, "item_type": "form_choice", "selected_option": "1", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0007", "revision": 1, "item_type": "form_choice", "selected_option": "3", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0008", "revision": 1, "item_type": "form_choice", "selected_option": "2", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0009", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
+{"question_id": "N1-Q-0010", "revision": 1, "item_type": "form_choice", "selected_option": "4", "is_correct": true, "uncertain": false, "error_tags": [], "date": "2026-10-11"}
