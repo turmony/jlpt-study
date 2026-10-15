@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "scope": "本卷结构、题数及链接校验；全库旧缓存哈希问题单列在manifest中，不计为通过",
+  "checks": [
+    {
+      "check": "mechanical",
+      "command": [
+        "uv",
+        "run",
+        "python",
+        ".claude/skills/quiz-generate/scripts/validate_quiz.py",
+        "--paper",
+        "jlpt-notes/quizzes/papers/2026-10-14-n1-101-110-test-1.md",
+        "--answers",
+        "jlpt-notes/quizzes/answers/2026-10-14-n1-101-110-test-1-answers.md",
+        "--structure",
+        "10,0,0",
+        "--level",
+        "N1"
+      ],
+      "exit_code": 0,
+      "output": "校验完成：0 错误 / 0 警告\n机械校验通过\n",
+      "started_at": "2026-10-14T12:05:02.658064+00:00",
+      "finished_at": "2026-10-14T12:05:04.449977+00:00"
+    },
+    {
+      "check": "image_links",
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "jlpt_notes",
+        "validate-links",
+        "--root",
+        "jlpt-notes"
+      ],
+      "exit_code": 0,
+      "output": "图片资源链接校验通过\n",
+      "started_at": "2026-10-14T12:05:02.743930+00:00",
+      "finished_at": "2026-10-14T12:05:19.239162+00:00"
+    },
+    {
+      "check": "reader_links",
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "jlpt_notes",
+        "validate-reader-links",
+        "--root",
+        "jlpt-notes"
+      ],
+      "exit_code": 0,
+      "output": "阅读器资源链接校验通过\n",
+      "started_at": "2026-10-14T12:05:02.736112+00:00",
+      "finished_at": "2026-10-14T12:05:34.709753+00:00"
+    }
+  ]
+}

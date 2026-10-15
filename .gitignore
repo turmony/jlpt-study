@@ -7,3 +7,4 @@ jlpt-notes/backups/*.zip
 .worktrees/
 .claude/worktrees/
 .firecrawl/
+/.vscode-ai-images/

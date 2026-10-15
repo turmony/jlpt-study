@@ -17,6 +17,8 @@ def test_authorized_supplement_sites_and_unknown_host(env_basic, tmp_path):
         "EduJapa!": "edujapa.com",
         "Maggie Sensei": "maggiesensei.com",
         "時雨の町": "www.sigure.tw",
+        "毎日のんびり日本語教師": "mainichi-nonbiri.com",
+        "日本語教師のまる得": "blognihongo.com",
     }
     draft = tmp_path / "supplement.json"
     for name, host in sites.items():

@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-12-n1-61-70-test-1",
+    "title": "N1 第61–70条语法乱序练习（10道单选题）",
+    "date": "2026-10-12",
+    "level": "N1",
+    "suggested_minutes": 10
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N1-Q-0031",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "命（　）病気ではないので、安心してください。",
+      "translation": "这不是危及生命的疾病，请放心。",
+      "tested_cards": [
+        "N1-G-0065"
+      ],
+      "conjugation": "名词＋にかかわる＋名词；表示关系到某个重要事物。",
+      "options": {
+        "1": "にかたくない",
+        "2": "にかかわる",
+        "3": "にたえる",
+        "4": "に則った"
+      },
+      "correct_option": "2",
+      "correct_explanation": "「命」和「病気」之间需要直接影响生命的关系，唯一符合的是「にかかわる」。",
+      "option_explanations": {
+        "1": "「にかたくない」常接想象或理解等有限词语，不能以「命」表达危及生命。",
+        "2": "正确。「命」和「病気」之间需要直接影响生命的关系，唯一符合的是「にかかわる」。",
+        "3": "「にたえる」表示具有做某事的价值；「命」不是该用法的动作名词。",
+        "4": "「に則った」表示依据规范；「命」不是病症遵守的规范。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜に関わる",
+        "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn1-grammar-nikakawaru/",
+        "locator": "接続・意味と例文「命に関わる病気ではないので、安心してください。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/1168bc81ecf653b1eacc-ad72dfb2b45c.txt"
+        ],
+        "original_example": "命に関わる病気ではないので、安心してください。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "「〜に影響する」\n「命」や「生死」など重要なものに影響すると言いたい時に使う。\nN + にかかわる；「命」和「病気」之间需要直接影响生命的关系，唯一符合的是「にかかわる」。",
+        "distractor_basis": [
+          "1. 「にかたくない」常接想象或理解等有限词语，不能以「命」表达危及生命。",
+          "2. 正确。「命」和「病気」之间需要直接影响生命的关系，唯一符合的是「にかかわる」。",
+          "3. 「にたえる」表示具有做某事的价值；「命」不是该用法的动作名词。",
+          "4. 「に則った」表示依据规范；「命」不是病症遵守的规范。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にかかわる＋名词；表示关系到某个重要事物。",
+        "semantic_exclusion": "「に則った」表示依据规范；「命」不是病症遵守的规范。；「にかたくない」常接想象或理解等有限词语，不能以「命」表达危及生命。；「にたえる」表示具有做某事的价值；「命」不是该用法的动作名词。",
+        "unique_answer_rationale": "「命」和「病気」之间需要直接影响生命的关系，唯一符合的是「にかかわる」。"
+      },
+      "review": {
+        "blind": {
+          "number": 1,
+          "answer": "2",
+          "confidence": "high",
+          "notes": "命にかかわる修饰病気，表示危及生命；其余三项均无适当接续或语义。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 1,
+          "notes": "缓存摘录与original_example一致；挖空及汉字转假名未改变关系到生命的意义。标准答案与独立盲答一致，四项解析支持唯一解。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N1-Q-0032",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "部長の説得も虚しく、田中さんは十年勤めた会社を退職する（　）。",
+      "translation": "部长的劝说也徒劳无功，田中最终还是辞去了工作十年的公司。",
+      "tested_cards": [
+        "N1-G-0063"
+      ],
+      "conjugation": "动词辞书形＋に至る；过去式「に至った」表示最终发展成某结果。",
+      "options": {
+        "1": "に即した",
+        "2": "にかかわった",
+        "3": "に至った",
+        "4": "にあった"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「説得も虚しく」提示劝说经过，句末需要表达最终仍辞职的结果；另三项不能直接接该动词。",
+      "option_explanations": {
+        "1": "「に即して」前接名词，表示依据现实或基准；不能直接接「退職する」。",
+        "2": "「にかかわる」前接名词，表示关联或影响；不能直接接「退職する」。",
+        "3": "正确。「説得も虚しく」提示劝说经过，句末需要表达最终仍辞职的结果；另三项不能直接接该动词。",
+        "4": "「にあって」前接名词，表示所处环境；不能直接接动词辞书形「退職する」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜に至る / 〜に至るまで",
+        "url": "https://nihongokyoshi-net.com/2019/05/31/jlptn1-grammar-niitaru/",
+        "locator": "接続・意味と例文「部長の説得も虚しく、田中さんは十年勤めた会社を退職するに至った。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/9a74e4a87e051180b149-d5ad6f096518.txt"
+        ],
+        "original_example": "部長の説得も虚しく、田中さんは十年勤めた会社を退職するに至った。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "「色々なことがあったが、最終的に結果として〜になった」と言いたい時に使う。\nV（辞書形）+ に至る\nN + に至る；「説得も虚しく」提示劝说经过，句末需要表达最终仍辞职的结果；另三项不能直接接该动词。",
+        "distractor_basis": [
+          "1. 「に即して」前接名词，表示依据现实或基准；不能直接接「退職する」。",
+          "2. 「にかかわる」前接名词，表示关联或影响；不能直接接「退職する」。",
+          "3. 正确。「説得も虚しく」提示劝说经过，句末需要表达最终仍辞职的结果；另三项不能直接接该动词。",
+          "4. 「にあって」前接名词，表示所处环境；不能直接接动词辞书形「退職する」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋に至る；过去式「に至った」表示最终发展成某结果。",
+        "semantic_exclusion": "「にあって」前接名词，表示所处环境；不能直接接动词辞书形「退職する」。；「にかかわる」前接名词，表示关联或影响；不能直接接「退職する」。；「に即して」前接名词，表示依据现实或基准；不能直接接「退職する」。",
+        "unique_answer_rationale": "「説得も虚しく」提示劝说经过，句末需要表达最终仍辞职的结果；另三项不能直接接该动词。"
+      },
+      "review": {
+        "blind": {
+          "number": 2,
+          "answer": "3",
+          "confidence": "high",
+          "notes": "退職するに至った表示经过劝说后最终辞职；另三项不可直接接辞书形动词。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 2,
+          "notes": "缓存摘录与original_example一致；动词辞书形接に至る有明确证据，改编忠实。标准答案和四项解析正确。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N1-Q-0033",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "若くして母を失った子の気持ちは、事情を知る私には容易に理解でき、想像（　）。",
+      "translation": "对于年幼时失去母亲的孩子的心情，了解情况的我很容易理解，也不难想象。",
+      "tested_cards": [
+        "N1-G-0066"
+      ],
+      "conjugation": "想像（する）＋にかたくない；不难想象。",
+      "options": {
+        "1": "にかたくない",
+        "2": "を余儀なくされる",
+        "3": "に至るまでだ",
+        "4": "にすぎない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "明确加入「事情を知る私には容易に理解でき」锁定易于体会，排除仅是想象和被迫想象。",
+      "option_explanations": {
+        "1": "正确。明确加入「事情を知る私には容易に理解でき」锁定易于体会，排除仅是想象和被迫想象。",
+        "2": "「を余儀なくされる」表示被迫进行想象，强调强制处境；题干说的是易于体会。",
+        "3": "「に至るまで」标示范围的终点；此句没有相应的范围结构，不能以「想像」作终点来表达易于理解心情。",
+        "4": "「にすぎない」表示仅仅是想象；与说话人从已知情况容易理解心情的判断不符。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜にかたくない",
+        "url": "https://nihongokyoshi-net.com/2019/07/12/jlptn1-grammar-nikatakunai/",
+        "locator": "接続・意味と例文「若くして母を失った子の気持ちは想像にかたくない。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/b7ad8c3a68d79349e794-802ba9c22adc.txt"
+        ],
+        "original_example": "若くして母を失った子の気持ちは想像にかたくない。",
+        "transformations": [
+          "挖空「にかたくない」。",
+          "补入「事情を知る私には容易に理解でき」锁定易于推知的含义。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "容易に〜できる / 〜するのは簡単だ\nV（辞書形）+ にかたくない\nN + にかたくない\n「想像」や「理解」、「推測」といった一部の言葉によく接続する。；明确加入「事情を知る私には容易に理解でき」锁定易于体会，排除仅是想象和被迫想象。",
+        "distractor_basis": [
+          "1. 正确。明确加入「事情を知る私には容易に理解でき」锁定易于体会，排除仅是想象和被迫想象。",
+          "2. 「を余儀なくされる」表示被迫进行想象，强调强制处境；题干说的是易于体会。",
+          "3. 「に至るまで」标示范围的终点；此句没有相应的范围结构，不能以「想像」作终点来表达易于理解心情。",
+          "4. 「にすぎない」表示仅仅是想象；与说话人从已知情况容易理解心情的判断不符。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "想像（する）＋にかたくない；不难想象。",
+        "semantic_exclusion": "正确。明确加入「事情を知る私には容易に理解でき」锁定易于体会，排除仅是想象和被迫想象。；「を余儀なくされる」表示被迫进行想象，强调强制处境；题干说的是易于体会。；「に至るまで」标示范围的终点；此句没有相应的范围结构，不能以「想像」作终点来表达易于理解心情。；「にすぎない」表示仅仅是想象；与说话人从已知情况容易理解心情的判断不符。",
+        "unique_answer_rationale": "明确加入「事情を知る私には容易に理解でき」锁定易于体会，排除仅是想象和被迫想象。"
+      },
+      "review": {
+        "blind": {
+          "number": 3,
+          "answer": "1",
+          "confidence": "high",
+          "notes": "事情を知る私には容易に理解でき明确易于理解，想像にかたくない成立；其余项不合该语境。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 3,
+          "notes": "缓存摘录与原例句一致，补入易于理解的语境忠实，答案1唯一。增量复核后选项3已正确说明范围终点结构不合此句；四项解析均通过。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N1-Q-0034",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "実際（　）改善案を提示していただけないと、現場はますます混乱する一方だ。",
+      "translation": "如果不提出符合实际情况的改善方案，现场只会越来越混乱。",
+      "tested_cards": [
+        "N1-G-0068"
+      ],
+      "conjugation": "名词＋に即した＋名词；以现实状况为依据的。",
+      "options": {
+        "1": "に至った",
+        "2": "に即した",
+        "3": "にかかわらない",
+        "4": "にたえない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "需要能改善现场的方案，前项实际是制订方案的依据；「に即した」连接后续名词「改善案」。",
+      "option_explanations": {
+        "1": "「に至った」表示到达结果；「実際に至った改善案」不能表示符合实际情况的方案。",
+        "2": "正确。需要能改善现场的方案，前项实际是制订方案的依据；「に即した」连接后续名词「改善案」。",
+        "3": "「にかかわらない」表示与实际无关；与必须避免现场继续混乱的改善要求相反。",
+        "4": "「にたえない」接限定动作或感情词；不能接「実際」表达方案符合现实。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜に即して",
+        "url": "https://nihongokyoshi-net.com/2019/07/01/jlptn1-grammar-nisokushite/",
+        "locator": "接続・意味と例文「実際に即した改善案を提示していただけないと、現場はますます混乱する一方だ。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/0024f5a116ad55c3bbd9-56e6937db877.txt"
+        ],
+        "original_example": "実際に即した改善案を提示していただけないと、現場はますます混乱する一方だ。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "「〜とおりに / 〜に従って / 〜を基準に」\n前に来る語が基準となるということを表す。\nN + に即して\n状況・経験などに付く場合は「即して」、法律・規則などに付く場合は「則して」となる；需要能改善现场的方案，前项实际是制订方案的依据；「に即した」连接后续名词「改善案」。",
+        "distractor_basis": [
+          "1. 「に至った」表示到达结果；「実際に至った改善案」不能表示符合实际情况的方案。",
+          "2. 正确。需要能改善现场的方案，前项实际是制订方案的依据；「に即した」连接后续名词「改善案」。",
+          "3. 「にかかわらない」表示与实际无关；与必须避免现场继续混乱的改善要求相反。",
+          "4. 「にたえない」接限定动作或感情词；不能接「実際」表达方案符合现实。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋に即した＋名词；以现实状况为依据的。",
+        "semantic_exclusion": "「に至った」表示到达结果；「実際に至った改善案」不能表示符合实际情况的方案。；「にかかわらない」表示与实际无关；与必须避免现场继续混乱的改善要求相反。；「にたえない」接限定动作或感情词；不能接「実際」表达方案符合现实。",
+        "unique_answer_rationale": "需要能改善现场的方案，前项实际是制订方案的依据；「に即した」连接后续名词「改善案」。"
+      },
+      "review": {
+        "blind": {
+          "number": 4,
+          "answer": "2",
+          "confidence": "high",
+          "notes": "実際に即した改善案表示符合现实的方案；其他项不合避免现场混乱的语境或搭配。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 4,
+          "notes": "缓存摘录一致；实际状况作判断基准的接续和含义有证据。答案及四项排除合理。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N1-Q-0035",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "３５歳（　）ようやく子宝に恵まれた。",
+      "translation": "到了35岁才终于有了孩子。",
+      "tested_cards": [
+        "N1-G-0067"
+      ],
+      "conjugation": "表示年龄或阶段的名词＋にして＋ようやく。",
+      "options": {
+        "1": "に即した",
+        "2": "にして",
+        "3": "にかかわって",
+        "4": "に則って"
+      },
+      "correct_option": "2",
+      "correct_explanation": "35岁是终于实现某事的阶段，「ようやく」与「にして」呼应。",
+      "option_explanations": {
+        "1": "「に即した」修饰后续名词，不能接「ようやく…恵まれた」这一谓语；语义上也不是配合年龄的方案。",
+        "2": "正确。35岁是终于实现某事的阶段，「ようやく」与「にして」呼应。",
+        "3": "「にかかわって」表示关联或影响；此处不是说生育关系到35岁，而是到了该年龄才实现。",
+        "4": "「に則って」表示遵守规则；年龄不是应遵循的准则。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N1】文法・例文：〜にして",
+        "url": "https://nihongokyoshi-net.com/2019/07/21/jlptn1-grammar-nishite/",
+        "locator": "接続・意味と例文「３５歳にしてようやく子宝に恵まれた。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/36d756684c7547f7626d-7027279c450b.txt"
+        ],
+        "original_example": "３５歳にしてようやく子宝に恵まれた。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "〜で / 〜になって\n強調表現で、程度に関して驚きやすごいという気持ちがある。\nN + にして；35岁是终于实现某事的阶段，「ようやく」与「にして」呼应。",
+        "distractor_basis": [
+          "1. 「に即した」修饰后续名词，不能接「ようやく…恵まれた」这一谓语；语义上也不是配合年龄的方案。",
+          "2. 正确。35岁是终于实现某事的阶段，「ようやく」与「にして」呼应。",
+          "3. 「にかかわって」表示关联或影响；此处不是说生育关系到35岁，而是到了该年龄才实现。",
+          "4. 「に則って」表示遵守规则；年龄不是应遵循的准则。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "表示年龄或阶段的名词＋にして＋ようやく。",
+        "semantic_exclusion": "「にかかわって」表示关联或影响；此处不是说生育关系到35岁，而是到了该年龄才实现。；「に則って」表示遵守规则；年龄不是应遵循的准则。；「に即した」修饰后续名词，不能接「ようやく…恵まれた」这一谓语；语义上也不是配合年龄的方案。",
+        "unique_answer_rationale": "35岁是终于实现某事的阶段，「ようやく」与「にして」呼应。"
+      },
+      "review": {
+        "blind": {
+          "number": 5,
+          "answer": "2",
+          "confidence": "high",
+          "notes": "年龄＋にして与ようやく呼应，表示到了35岁才终于实现；其他项不合接续或语义。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 5,
+          "notes": "缓存摘录一致；35岁＋にして＋ようやく与网站说明及语法卡一致，答案及四项解析合理。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N1-Q-0036",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "ダイエットしたいが、毎晩断食（　）。そんな生活には耐えられない。",
+      "translation": "想减肥，但每天晚上断食可受不了。那种生活我无法忍受。",
+      "tested_cards": [
+        "N1-G-0061"
+      ],
+      "conjugation": "名词＋ではかなわない；表示该状况让人无法忍受。",
+      "options": {
+        "1": "にたえる",
+        "2": "でもかまわない",
+        "3": "ではかなわない",
+        "4": "にかたくない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "后文「そんな生活には耐えられない」明确锁定对断食状况的无法忍受。",
+      "option_explanations": {
+        "1": "「にたえる」在目标语法中表示值得做某事，断食不属此处的鉴赏或评价行为；即使读作词汇用法「断食に耐える」（忍受断食），肯定的承受也与后句「耐えられない」矛盾。",
+        "2": "「でもかまわない」表示即使如此也可以；与后文无法忍受相反。",
+        "3": "正确。后文「そんな生活には耐えられない」明确锁定对断食状况的无法忍受。",
+        "4": "「にかたくない」表示不难想象或理解，不能用来评价断食难以忍受。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ１文法】～ては敵わない（かなわない）／ては遣り切れない（やりきれない）",
+        "url": "https://mainichi-nonbiri.com/grammar/n1-tehakanawanai/",
+        "locator": "接続・意味と例文「ダイエットしたいが、毎晩断食ではかなわない。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-12-n1-61-70-test-1/n1-0061-evidence.txt"
+        ],
+        "original_example": "ダイエットしたいが、毎晩断食ではかなわない。",
+        "transformations": [
+          "挖空「ではかなわない」。",
+          "补充「そんな生活には耐えられない。」明确不能忍受的语义。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "名詞＋で（は）かなわない。\n我慢できない、耐えられないという主観的な感情を強調します。；后文「そんな生活には耐えられない」明确锁定对断食状况的无法忍受。",
+        "distractor_basis": [
+          "1. 「にたえる」在目标语法中表示值得做某事，断食不属此处的鉴赏或评价行为；即使读作词汇用法「断食に耐える」（忍受断食），肯定的承受也与后句「耐えられない」矛盾。",
+          "2. 「でもかまわない」表示即使如此也可以；与后文无法忍受相反。",
+          "3. 正确。后文「そんな生活には耐えられない」明确锁定对断食状况的无法忍受。",
+          "4. 「にかたくない」表示不难想象或理解，不能用来评价断食难以忍受。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋ではかなわない；表示该状况让人无法忍受。",
+        "semantic_exclusion": "「にたえる」在目标语法中表示值得做某事，断食不属此处的鉴赏或评价行为；即使读作词汇用法「断食に耐える」（忍受断食），肯定的承受也与后句「耐えられない」矛盾。；「でもかまわない」表示即使如此也可以；与后文无法忍受相反。；正确。后文「そんな生活には耐えられない」明确锁定对断食状况的无法忍受。；「にかたくない」表示不难想象或理解，不能用来评价断食难以忍受。",
+        "unique_answer_rationale": "后文「そんな生活には耐えられない」明确锁定对断食状况的无法忍受。"
+      },
+      "review": {
+        "blind": {
+          "number": 6,
+          "answer": "3",
+          "confidence": "high",
+          "notes": "后句耐えられない明确无法承受断食，ではかなわない唯一合适；允许或肯定承受均矛盾。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 6,
+          "notes": "毎日のんびり日本語教師外站来源获用户明确授权。摘录与证据一致，补句忠实，答案3唯一。增量复核后选项1同时覆盖目标语法与词汇耐える用法，并以肯定承受与后句无法承受矛盾排除；四项解析均通过。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N1-Q-0037",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "同僚と飲みに行くと、いつも上司や先輩の悪口ばかりで聞く（　）。もう聞いていられない。",
+      "translation": "和同事去喝酒时，他们总是在说上司和前辈的坏话，令人听不下去。已经听不下去了。",
+      "tested_cards": [
+        "N1-G-0070"
+      ],
+      "conjugation": "見る、聞く、読む等动词辞书形＋にたえない（に堪えない）；不堪做某事。",
+      "options": {
+        "1": "にたえない",
+        "2": "に即している",
+        "3": "にかたくない",
+        "4": "にたえる"
+      },
+      "correct_option": "1",
+      "correct_explanation": "「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。后文明确无法继续听，排除值得听的正面评价。",
+      "option_explanations": {
+        "1": "正确。「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。",
+        "2": "「に即している」前接名词基准，不能直接接「聞く」，也不是对内容糟糕的评价。",
+        "3": "「にかたくない」常接想象、理解、推测等有限词语，不以「聞く」表达不堪入耳。",
+        "4": "「にたえる」表示值得听；后文「もう聞いていられない」明确相反。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜に堪える / 〜に堪えない",
+        "url": "https://nihongokyoshi-net.com/2019/07/15/jlptn1-grammar-taeru-taenai/",
+        "locator": "接続・意味と例文「同僚と飲みに行くと、いつも上司や先輩の悪口ばかりで聞くに堪えない。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/06ef51c6a11932d8b4ba-d6358109d4ce.txt"
+        ],
+        "original_example": "同僚と飲みに行くと、いつも上司や先輩の悪口ばかりで聞くに堪えない。",
+        "transformations": [
+          "挖空「に堪えない」。",
+          "选项中的「堪えない」改为平假名「たえない」，语义不变。",
+          "新增四选一选项并随机排列。",
+          "第1轮修订：根据独立盲审建议补充说话人无法继续听的明确负面评价，锁定不堪入耳。",
+          "补充「もう聞いていられない。」明确说话人无法继续听。"
+        ],
+        "answer_basis": "V（辞書形）+ に堪えない\n我慢できないほど〜だ。；「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。；「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。后文明确无法继续听，排除值得听的正面评价。",
+        "distractor_basis": [
+          "1. 正确。「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。",
+          "2. 「に即している」前接名词基准，不能直接接「聞く」，也不是对内容糟糕的评价。",
+          "3. 「にかたくない」常接想象、理解、推测等有限词语，不以「聞く」表达不堪入耳。",
+          "4. 「にたえる」表示值得听；后文「もう聞いていられない」明确相反。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "unique_answer_rationale": "「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。后文明确无法继续听，排除值得听的正面评价。",
+        "semantic_exclusion": "正确。「いつも…悪口ばかり」给出内容负面的评价，「聞くにたえない」表示不堪入耳。；「に即している」前接名词基准，不能直接接「聞く」，也不是对内容糟糕的评价。；「にかたくない」常接想象、理解、推测等有限词语，不以「聞く」表达不堪入耳。；「にたえる」表示值得听；后文「もう聞いていられない」明确相反。",
+        "surface_connection": "見る、聞く、読む等动词辞书形＋にたえない（に堪えない）；不堪做某事。"
+      },
+      "review": {
+        "blind": {
+          "number": 7,
+          "answer": "1",
+          "confidence": "high",
+          "notes": "revision 2补充もう聞いていられない明确负面评价，排除正向聞くにたえる；其他项接续不成立。",
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 7,
+          "notes": "缓存摘录一致，堪えない转假名及新增无法继续听的语境均有清晰记录，忠实于不堪入耳原义；revision 2答案与四项解析通过。",
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N1-Q-0038",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このアニメは子供から大人（　）幅広い層で人気があります。",
+      "translation": "这部动画在从儿童到成人的广泛人群中都很受欢迎。",
+      "tested_cards": [
+        "N1-G-0064"
+      ],
+      "conjugation": "名词＋から＋名词＋に至るまで；强调覆盖范围的终点。",
+      "options": {
+        "1": "にあって",
+        "2": "に則って",
+        "3": "に至るまで",
+        "4": "にかかわって"
+      },
+      "correct_option": "3",
+      "correct_explanation": "「子供から」与「幅広い層」共同锁定从儿童一直到成人的范围。",
+      "option_explanations": {
+        "1": "「にあって」说明所处状况，不与「子供から」形成从儿童到成人的范围。",
+        "2": "「に則って」表示按照规则；成人不是行为准则。",
+        "3": "正确。「子供から」与「幅広い層」共同锁定从儿童一直到成人的范围。",
+        "4": "「にかかわって」表示关联或涉及，不能形成「子供から大人」的完整范围。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜に至る / 〜に至るまで",
+        "url": "https://nihongokyoshi-net.com/2019/05/31/jlptn1-grammar-niitaru/",
+        "locator": "接続・意味と例文「このアニメは子供から大人に至るまで幅広い層で人気があります。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/9a74e4a87e051180b149-d5ad6f096518.txt"
+        ],
+        "original_example": "このアニメは子供から大人に至るまで幅広い層で人気があります。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "「〜までも / 〜に達するまでも」\n上限を強調して言う表現。\nN + に至るまで；「子供から」与「幅広い層」共同锁定从儿童一直到成人的范围。",
+        "distractor_basis": [
+          "1. 「にあって」说明所处状况，不与「子供から」形成从儿童到成人的范围。",
+          "2. 「に則って」表示按照规则；成人不是行为准则。",
+          "3. 正确。「子供から」与「幅広い層」共同锁定从儿童一直到成人的范围。",
+          "4. 「にかかわって」表示关联或涉及，不能形成「子供から大人」的完整范围。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋から＋名词＋に至るまで；强调覆盖范围的终点。",
+        "semantic_exclusion": "「にあって」说明所处状况，不与「子供から」形成从儿童到成人的范围。；「に則って」表示按照规则；成人不是行为准则。；「にかかわって」表示关联或涉及，不能形成「子供から大人」的完整范围。",
+        "unique_answer_rationale": "「子供から」与「幅広い層」共同锁定从儿童一直到成人的范围。"
+      },
+      "review": {
+        "blind": {
+          "number": 8,
+          "answer": "3",
+          "confidence": "high",
+          "notes": "子供から大人に至るまで构成范围，幅広い層再次限定范围解释；另三项不合。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 8,
+          "notes": "缓存摘录一致，子供から大人に至るまで范围用法有证据，答案与四项解析通过。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N1-Q-0039",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "この不景気（　）、私たちがすべきことは何だと思いますか。",
+      "translation": "在这样的经济低迷状况下，你认为我们应该做什么？",
+      "tested_cards": [
+        "N1-G-0062"
+      ],
+      "conjugation": "名词＋にあって；表示处于某种特殊状况。",
+      "options": {
+        "1": "にあって",
+        "2": "に至るまで",
+        "3": "にかたくなく",
+        "4": "に則って"
+      },
+      "correct_option": "1",
+      "correct_explanation": "前项不景气是当前环境；后项询问在该环境下应采取的行动。",
+      "option_explanations": {
+        "1": "正确。前项不景气是当前环境；后项询问在该环境下应采取的行动。",
+        "2": "「に至るまで」强调范围或终点，不能表达正处在不景气之中这一背景。",
+        "3": "「にかたくなく」表示不难做到想象、理解等；不与「不景気」搭配。",
+        "4": "「に則って」以规则或规范为依据；不景气是所处状况，不是应遵守的准则。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜にあって",
+        "url": "https://nihongokyoshi-net.com/2019/07/08/jlptn1-grammar-niatte/",
+        "locator": "接続・意味と例文「この不景気にあって、私たちがすべきことは何だと思いますか。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/04680607965a2e1eb957-5937085e15b0.txt"
+        ],
+        "original_example": "この不景気にあって、私たちがすべきことは何だと思いますか。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。"
+        ],
+        "answer_basis": "〜（という特別な事態や場所）において / で /に\nN + にあって\n「〜で」や「〜において」よりも硬い表現；前项不景气是当前环境；后项询问在该环境下应采取的行动。",
+        "distractor_basis": [
+          "1. 正确。前项不景气是当前环境；后项询问在该环境下应采取的行动。",
+          "2. 「に至るまで」强调范围或终点，不能表达正处在不景气之中这一背景。",
+          "3. 「にかたくなく」表示不难做到想象、理解等；不与「不景気」搭配。",
+          "4. 「に則って」以规则或规范为依据；不景气是所处状况，不是应遵守的准则。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋にあって；表示处于某种特殊状况。",
+        "semantic_exclusion": "「に則って」以规则或规范为依据；不景气是所处状况，不是应遵守的准则。；「に至るまで」强调范围或终点，不能表达正处在不景气之中这一背景。；「にかたくなく」表示不难做到想象、理解等；不与「不景気」搭配。",
+        "unique_answer_rationale": "前项不景气是当前环境；后项询问在该环境下应采取的行动。"
+      },
+      "review": {
+        "blind": {
+          "number": 9,
+          "answer": "1",
+          "confidence": "high",
+          "notes": "不景気为所处特殊状况，にあって成立；范围、容易与规范等解释均不合。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 9,
+          "notes": "缓存摘录一致，特殊状况下的背景义有证据；答案及四项解析通过。",
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N1-Q-0040",
+      "revision": 2,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "安全を確保するため、定められた手順を守りましょう。安全のガイドライン（　）、作業を行ってください。",
+      "translation": "为了确保安全，请遵守规定的程序。请按照安全指南进行作业。",
+      "tested_cards": [
+        "N1-G-0069"
+      ],
+      "conjugation": "法律、规则或指南等名词＋に則って；依照规范做某事。",
+      "options": {
+        "1": "にして",
+        "2": "に至るまで",
+        "3": "にかかわらず",
+        "4": "に則って"
+      },
+      "correct_option": "4",
+      "correct_explanation": "安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。前文明确要求遵守规定程序，排除不顾指南而作业的解释。",
+      "option_explanations": {
+        "1": "「にして」表示阶段或并列身份，安全指南不属于这两类含义。",
+        "2": "「に至るまで」强调范围的终点；不是依照准则开展作业。",
+        "3": "「にかかわらず」表示不论指南如何都作业；与前文明确要求遵守规定程序相反。",
+        "4": "正确。安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET／ノッチ先生",
+        "title": "【JLPT N１】文法・例文：〜に則って",
+        "url": "https://nihongokyoshi-net.com/2019/08/04/jlptn1-grammar-ninottotte/",
+        "locator": "接続・意味と例文「安全のガイドラインに則って、作業を行ってください。」",
+        "accessed_at": "2026-10-12",
+        "evidence_paths": [
+          "quizzes/sources/cache/29caa4e56eb020e71896-d82191044f1c.txt"
+        ],
+        "original_example": "安全のガイドラインに則って、作業を行ってください。",
+        "transformations": [
+          "挖空目标语法，保留原例句其余正文。",
+          "新增四选一选项并随机排列。",
+          "第1轮修订：盲审发现にかかわらず在缺乏明确遵守要求时可解释，补足安全作业必须遵守既定手续的语境。",
+          "前置「安全を確保するため、定められた手順を守りましょう。」明确遵守规范的语境。"
+        ],
+        "answer_basis": "〜を基準に・・・ / 〜に従って・・・\nルールや社会的常識、習慣などを基準にして、・・・すると言いたいときに使う表現\nN + に則って；安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。；安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。前文明确要求遵守规定程序，排除不顾指南而作业的解释。",
+        "distractor_basis": [
+          "1. 「にして」表示阶段或并列身份，安全指南不属于这两类含义。",
+          "2. 「に至るまで」强调范围的终点；不是依照准则开展作业。",
+          "3. 「にかかわらず」表示不论指南如何都作业；与前文明确要求遵守规定程序相反。",
+          "4. 正确。安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "unique_answer_rationale": "安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。前文明确要求遵守规定程序，排除不顾指南而作业的解释。",
+        "semantic_exclusion": "「にして」表示阶段或并列身份，安全指南不属于这两类含义。；「に至るまで」强调范围的终点；不是依照准则开展作业。；「にかかわらず」表示不论指南如何都作业；与前文明确要求遵守规定程序相反。；正确。安全指南是作业应遵循的规范，唯一能表示依照指南作业的是「に則って」。",
+        "surface_connection": "法律、规则或指南等名词＋に則って；依照规范做某事。"
+      },
+      "review": {
+        "blind": {
+          "number": 10,
+          "answer": "4",
+          "confidence": "high",
+          "notes": "revision 2前句明确安全目的并要求遵守既定程序，排除にかかわらず；に則って唯一符合。",
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        },
+        "source": {
+          "number": 10,
+          "notes": "缓存摘录一致，revision 2新增遵守既定程序的语境忠实于原句依照指南的意义；答案与四项解析现可排除原来的多解风险。",
+          "status": "passed",
+          "reviewed_revision": 2,
+          "reviewer": "独立子代理 /root/quiz_blind_review",
+          "reviewed_at": "2026-10-12T13:00:32+00:00"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-10-12T12:52:54+00:00",
+        "ended_at": "2026-10-12T12:53:05+00:00",
+        "duration_seconds": 11.044,
+        "metrics": {
+          "cards": 10,
+          "cache_hits": 0
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-10-12T12:53:05+00:00",
+        "ended_at": "2026-10-12T12:53:30+00:00",
+        "duration_seconds": 25.364,
+        "metrics": {
+          "search_calls": 2
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-12T12:53:30+00:00",
+        "ended_at": "2026-10-12T12:56:31+00:00",
+        "duration_seconds": 181.957,
+        "metrics": {
+          "opened_pages": 10,
+          "adopted_pages": 9
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-12T12:56:32+00:00",
+        "ended_at": "2026-10-12T12:56:49+00:00",
+        "duration_seconds": 17.781,
+        "metrics": {
+          "questions": 10
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-12T12:56:49+00:00",
+        "ended_at": "2026-10-12T12:56:49+00:00",
+        "duration_seconds": 0.976,
+        "metrics": {}
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-12T12:56:50+00:00",
+        "ended_at": "2026-10-12T12:56:50+00:00",
+        "duration_seconds": 0.004,
+        "metrics": {
+          "mode": "preview",
+          "files": 13
+        }
+      },
+      {
+        "name": "revision",
+        "started_at": "2026-10-12T12:58:19+00:00",
+        "ended_at": "2026-10-12T12:58:19+00:00",
+        "duration_seconds": 0.862,
+        "metrics": {
+          "revised_items": 2
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-12T12:56:50+00:00",
+        "ended_at": "2026-10-12T13:00:32+00:00",
+        "duration_seconds": 222.396,
+        "metrics": {
+          "reviewed_items": 10,
+          "rechecked_items": 2
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-12T13:00:32+00:00",
+        "ended_at": "2026-10-12T13:00:33+00:00",
+        "duration_seconds": 0.716,
+        "metrics": {
+          "mode": "final",
+          "files": 13
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-12T13:00:33+00:00",
+        "ended_at": "2026-10-12T13:02:09+00:00",
+        "duration_seconds": 96.084,
+        "metrics": {
+          "mechanical_errors": 0,
+          "link_errors": 0
+        }
+      }
+    ],
+    "revision_history": [
+      {
+        "question_id": "N1-Q-0040",
+        "revision": 2,
+        "reason": "盲审发现にかかわらず在缺乏明确遵守要求时可解释，补足安全作业必须遵守既定手续的语境。",
+        "at": "2026-10-12T12:58:19+00:00"
+      },
+      {
+        "question_id": "N1-Q-0037",
+        "revision": 2,
+        "reason": "根据独立盲审建议补充说话人无法继续听的明确负面评价，锁定不堪入耳。",
+        "at": "2026-10-12T12:58:19+00:00"
+      }
+    ],
+    "active_phases": {},
+    "source_policy_exception": {
+      "authorization": "学习者本轮明确说：可以使用外部网站信息",
+      "used_site": "毎日のんびり日本語教師",
+      "reason": "日本語NET目录与定向搜索未找到第61条带は的直接教学材料，按授权补用其直接教学页。"
+    },
+    "source_stats": {
+      "cache_hits": 0,
+      "fresh_adopted_pages": 9,
+      "original_exercises": 0,
+      "derived_items": 10,
+      "legacy_cache_verify_errors": 101,
+      "legacy_cache_action": "未复用哈希校验失败的既有证据；新采用缓存逐条另行核验。"
+    },
+    "publisher_evidence": "quizzes/sources/2026-09-21-n3-lessons-81-90-test-5/n3-8190-publisher2.json.txt",
+    "explanation_corrections": [
+      "来源复核建议纠正第3题选项3的范围表达解析，不改变题面、选项或答案。",
+      "来源复核建议在第6题选项1解析中补充耐える的词汇用法，同样与后文矛盾；不改变题面、选项或答案。"
+    ],
+    "validation_results": {
+      "mechanical": "0 errors / 0 warnings",
+      "validate_links": "passed; exit 0",
+      "validate_reader_links": "passed; exit 0",
+      "new_cache_records": "8 passed",
+      "independent_review": "10/10 passed"
+    }
+  }
+}

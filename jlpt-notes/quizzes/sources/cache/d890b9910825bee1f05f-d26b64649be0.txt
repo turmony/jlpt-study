@@ -1,0 +1,24 @@
+出典：日本語NET「〖JLPT N１〗文法・例文：〜なりに」
+URL：https://nihongokyoshi-net.com/2019/07/01/jlptn1-grammar-narini/
+アクセス日：2026-10-12
+位置：意味・接続・備考及び例文
+
+[意味]
+〜に見合った / 〜にふさわしい程度に
+
+[英訳]
+Used to express that someone or something, even if not perfect or of the highest level, does their best or acts in a way that is appropriate to their capacity, situation, or perspective. It implies doing something within one's own limitations or in one's own way.
+
+[接続]
+V
+（普通形）+ なりに
+イA（普通形） + なりに
+ナA~~だ~~ + なりに
+N~~だ~~ + なりに
+
+[JLPT レベル]
+N1
+
+[備考]
+後ろに名詞が来る場合「〜なりのN」となる
+私なりに頑張ったつもりだったが、結果はダメだった。

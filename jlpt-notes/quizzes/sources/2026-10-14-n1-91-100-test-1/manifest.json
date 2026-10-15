@@ -1,0 +1,884 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-14-n1-91-100-test-1",
+    "title": "N1 第91–100条语法乱序练习（10道单选题）",
+    "date": "2026-10-14",
+    "level": "N1",
+    "suggested_minutes": 12
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N1-Q-0061",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "地震で家を失った人々は仮設テントでの暮らし（　）。",
+      "translation": "因地震失去住房的人们被迫住在临时帐篷里。",
+      "tested_cards": [
+        "N1-G-0097"
+      ],
+      "conjugation": "动作性名词＋をよぎなくされる(余儀なくされる)。",
+      "options": {
+        "1": "を禁じ得なかった",
+        "2": "を余儀なくされた",
+        "3": "を皮切りにした",
+        "4": "をよそにした"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。失去家园这一外部情势迫使人们住帐篷，主语是被迫行动的人。",
+      "option_explanations": {
+        "1": "「禁じ得ない」用于压抑不住的情感；帐篷生活是被迫采取的生活方式。",
+        "2": "正确。失去家园这一外部情势迫使人们住帐篷，主语是被迫行动的人。",
+        "3": "「皮切りにする」表示把某事作为一连串活动的开端，本句没有后续同类活动的展开。",
+        "4": "「よそにする」表示不予理会，与被迫住进帐篷的处境不同。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜を余儀なくされる",
+        "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn1-grammar-woyoginakusareru/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/44b5a45bed8587f275c4-0227cb2bc978.txt"
+        ],
+        "original_example": "地震で家を失った人々は仮設テントでの暮らしを余儀なくされた。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "动作性名词＋をよぎなくされる(余儀なくされる)。 来源解释：\"残念ながら～するしかない。 / しかたなく～しなければならない\"",
+        "distractor_basis": [
+          "1. 「禁じ得ない」用于压抑不住的情感；帐篷生活是被迫采取的生活方式。",
+          "2. 正确。失去家园这一外部情势迫使人们住帐篷，主语是被迫行动的人。",
+          "3. 「皮切りにする」表示把某事作为一连串活动的开端，本句没有后续同类活动的展开。",
+          "4. 「よそにする」表示不予理会，与被迫住进帐篷的处境不同。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动作性名词＋をよぎなくされる(余儀なくされる)。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：「禁じ得ない」用于压抑不住的情感；帐篷生活是被迫采取的生活方式。；3：「皮切りにする」表示把某事作为一连串活动的开端，本句没有后续同类活动的展开。；4：「よそにする」表示不予理会，与被迫住进帐篷的处境不同。",
+        "unique_answer_rationale": "正确。失去家园这一外部情势迫使人们住帐篷，主语是被迫行动的人。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "2",
+          "confidence": 0.99,
+          "notes": "「地震で家を失った」という外的事情により、仮設テント生活を強いられたので「を余儀なくされた」。1は感情名詞に用いる表現で「暮らし」には合わない。3は後続する同種事態の連鎖がなく、4の「暮らしをよそにした」も当該被災状況を表せない。多解なし。文は自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与最小摘录逐字一致，挖空复原相符；接续、中文翻译、四项解析及唯一解通过。来源标题N1而正文等级N2的矛盾由主审另行指出；当前最小摘录未保留正文等级，不能据此独立验证该矛盾，但不影响按指定本地N1-G-0097卡出题。选项3解析已最终确认：仅以本句没有后续同类活动的展开排除，不再把主动选择误作「を皮切りに」的必要条件；source.distractor_basis及preflight已同步。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N1-Q-0062",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "次の社長にふさわしいのは、木村さん（　）他にはいない。",
+      "translation": "适合担任下任社长的，除木村先生之外别无他人。",
+      "tested_cards": [
+        "N1-G-0091"
+      ],
+      "conjugation": "名词＋をおいて＋他にはいない。",
+      "options": {
+        "1": "を皮切りに",
+        "2": "をよそに",
+        "3": "をおいて",
+        "4": "を限りに"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。「木村さんをおいて他にはいない」高度评价木村先生是唯一合适的人。",
+      "option_explanations": {
+        "1": "表示以某事为开端接连展开，不表示唯一合适的人选。",
+        "2": "表示不顾或不理会，不能与「他にはいない」构成排他的评价。",
+        "3": "正确。「木村さんをおいて他にはいない」高度评价木村先生是唯一合适的人。",
+        "4": "表示以某一时间或事件为终点停止持续的事情，不用于排他性选人。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜をおいて",
+        "url": "https://nihongokyoshi-net.com/2019/06/20/jlptn1-grammar-wooite/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/a7fa62af044893843f04-7dead7bb6bd5.txt"
+        ],
+        "original_example": "次の社長にふさわしいのは、木村さんをおいて他にはいない。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "名词＋をおいて＋他にはいない。 来源解释：〜以外にできない",
+        "distractor_basis": [
+          "1. 表示以某事为开端接连展开，不表示唯一合适的人选。",
+          "2. 表示不顾或不理会，不能与「他にはいない」构成排他的评价。",
+          "3. 正确。「木村さんをおいて他にはいない」高度评价木村先生是唯一合适的人。",
+          "4. 表示以某一时间或事件为终点停止持续的事情，不用于排他性选人。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をおいて＋他にはいない。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：表示以某事为开端接连展开，不表示唯一合适的人选。；2：表示不顾或不理会，不能与「他にはいない」构成排他的评价。；4：表示以某一时间或事件为终点停止持续的事情，不用于排他性选人。",
+        "unique_answer_rationale": "正确。「木村さんをおいて他にはいない」高度评价木村先生是唯一合适的人。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "3",
+          "confidence": 0.99,
+          "notes": "「木村さん以外に適任者はいない」という限定なので「をおいて」。1は一連の出来事の起点、2は無関心、4は終点を表し、この人物についての排他的評価と合わない。多解なし。文は自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致，挖空复原相符；来源明确高评价及否定后件，支持选项3。四项解析与中文翻译通过。附带运营者摘录表明管理人为ノッチ先生并有转任日语教师的经历，足以支持该来源为日本语教师运营的教学博客；不据此声称官方网站或官方题。唯一解通过。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N1-Q-0063",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "まだJLPT N1には合格していない。１年でJLPT N1に合格（　）、毎日１０時間以上勉強している。",
+      "translation": "尚未通过N1。为了在一年内通过N1，每天学习十小时以上。",
+      "tested_cards": [
+        "N1-G-0099"
+      ],
+      "conjugation": "合格する→合格せんがために；前后主语相同，表示目的。",
+      "options": {
+        "1": "したあげく",
+        "2": "するどころか",
+        "3": "せんがために",
+        "4": "したばかりに"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。以合格为目标而努力学习；「する」在此变为「せんがために」。",
+      "option_explanations": {
+        "1": "「したあげく」把已经发生的事作为过程并引出结果，与「まだ合格していない」矛盾。",
+        "2": "「するどころか」否定或超越前项并引出对照；后文努力学习是实现合格的手段，不构成这种对照。",
+        "3": "正确。以合格为目标而努力学习；「する」在此变为「せんがために」。",
+        "4": "「したばかりに」表示已经发生的事情导致不良结果；尚未合格，且这里表达的是目的。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜んがために",
+        "url": "https://nihongokyoshi-net.com/2019/08/02/jlptn1-grammar-ngatameni/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/75144a29e663803da81f-a7ebdb7e2733.txt"
+        ],
+        "original_example": "１年でJLPT N1に合格せんがために、毎日１０時間以上勉強している。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。",
+          "在原例句前增加「まだJLPT N1には合格していない。」锁定合格尚未实现，避免误读为结果或原因。"
+        ],
+        "answer_basis": "合格する→合格せんがために；前后主语相同，表示目的。 来源解释：（目的を達成する）ために",
+        "distractor_basis": [
+          "1. 「したあげく」把已经发生的事作为过程并引出结果，与「まだ合格していない」矛盾。",
+          "2. 「するどころか」否定或超越前项并引出对照；后文努力学习是实现合格的手段，不构成这种对照。",
+          "3. 正确。以合格为目标而努力学习；「する」在此变为「せんがために」。",
+          "4. 「したばかりに」表示已经发生的事情导致不良结果；尚未合格，且这里表达的是目的。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "合格する→合格せんがために；前后主语相同，表示目的。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：「したあげく」把已经发生的事作为过程并引出结果，与「まだ合格していない」矛盾。；2：「するどころか」否定或超越前项并引出对照；后文努力学习是实现合格的手段，不构成这种对照。；4：「したばかりに」表示已经发生的事情导致不良结果；尚未合格，且这里表达的是目的。",
+        "unique_answer_rationale": "正确。以合格为目标而努力学习；「する」在此变为「せんがために」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "3",
+          "confidence": 0.98,
+          "notes": "未合格で、合格実現のために勉強しているという目的なので「せんがために」。「する」は「せん」に接続する。1と4は既に合格したことを前提にし、冒頭の未合格と矛盾する。2は「合格どころか毎日長時間勉強」という比較の方向・対比がこの文脈では成立しない。多解なし。冒頭は排他性を確保する説明的な補足だが不自然ではない。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致；增加的“まだJLPT N1には合格していない。”已在transformations准确记录。摘录明确「する」变为「せんがために」及目的意义；题干同一主体以学习实现合格，接续正确。中文翻译直接对应日文；四项解析能排除过去既成事实及缺乏对照关系的干扰项，唯一解通过。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N1-Q-0064",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "最初の開催地は東京だ。東京のイベント（　）、今度は全国各地でイベントを開催する予定だ。",
+      "translation": "首站是东京。计划以东京的活动为开端，接着在全国各地举办活动。",
+      "tested_cards": [
+        "N1-G-0094"
+      ],
+      "conjugation": "名词＋をかわきりに(皮切りに)，后项为接连展开的同类活动。",
+      "options": {
+        "1": "をもって",
+        "2": "を限りに",
+        "3": "をおいて",
+        "4": "を皮切りに"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。东京是第一站，接下来在全国各地陆续举行同类活动。",
+      "option_explanations": {
+        "1": "用于手段或结束的界限；语境指定的是全国系列活动的首站，东京活动不是举办其他活动的手段。",
+        "2": "表示以某次为最后而结束，和随后在全国开展相反。",
+        "3": "表示除某项外别无其他，通常呼应后项否定；这里没有排他性否定。",
+        "4": "正确。东京是第一站，接下来在全国各地陆续举行同类活动。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜を皮切りに / 〜を皮切りとして",
+        "url": "https://nihongokyoshi-net.com/2019/07/26/jlptn1-grammar-wokawakirini/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/de858fef4e2b0079b9c7-c36fd9305c1e.txt"
+        ],
+        "original_example": "東京のイベントを皮切りに、今度は全国各地でイベントを開催する予定だ。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。",
+          "增加「最初の開催地は東京だ。」以明确系列活动的起点。"
+        ],
+        "answer_basis": "名词＋をかわきりに(皮切りに)，后项为接连展开的同类活动。 来源解释：〜を始まりとして、次々に・・・する",
+        "distractor_basis": [
+          "1. 用于手段或结束的界限；语境指定的是全国系列活动的首站，东京活动不是举办其他活动的手段。",
+          "2. 表示以某次为最后而结束，和随后在全国开展相反。",
+          "3. 表示除某项外别无其他，通常呼应后项否定；这里没有排他性否定。",
+          "4. 正确。东京是第一站，接下来在全国各地陆续举行同类活动。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をかわきりに(皮切りに)，后项为接连展开的同类活动。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：用于手段或结束的界限；语境指定的是全国系列活动的首站，东京活动不是举办其他活动的手段。；2：表示以某次为最后而结束，和随后在全国开展相反。；3：表示除某项外别无其他，通常呼应后项否定；这里没有排他性否定。",
+        "unique_answer_rationale": "正确。东京是第一站，接下来在全国各地陆续举行同类活动。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "4",
+          "confidence": 0.98,
+          "notes": "東京のイベントを最初として、全国で同種イベントを順次開催するので「を皮切りに」。1を終点として読むと「最初の開催地」という明示と合わず、手段としても「東京のイベントをもって全国各地でイベントを開催する」は自然な意味関係にならない。2は終点で矛盾、3は通常後件に否定が必要で不適合。多解なし。文はやや説明的だが自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致；增加首站为东京的句子已准确记录。来源“以……为开始，接连……”与题干全国系列活动相符，名词接续正确。中文翻译与四项解析通过，唯一解通过。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N1-Q-0065",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "息子は親の心配（　）、仕事もせずに毎日遊んでばかりいる。",
+      "translation": "儿子不顾父母的担心，既不工作，每天还只顾玩乐。",
+      "tested_cards": [
+        "N1-G-0098"
+      ],
+      "conjugation": "名词＋をよそに，表示不顾相关者的担忧或期待。",
+      "options": {
+        "1": "を踏まえて",
+        "2": "をよそに",
+        "3": "をもって",
+        "4": "を皮切りに"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。不顾本应在意的父母的担心，带有批评语气。",
+      "option_explanations": {
+        "1": "表示考虑到某事并以此为依据；父母担心与儿子持续玩乐的对照不支持这种表达。",
+        "2": "正确。不顾本应在意的父母的担心，带有批评语气。",
+        "3": "表示手段或终点，父母的担心不是每天玩乐的手段或结束时间。",
+        "4": "表示以某事为开端接连展开同类事件，担心不是一系列活动的首项。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜をよそに",
+        "url": "https://nihongokyoshi-net.com/2019/06/28/jlptn1-grammar-woyosoni/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/73156295f6394406a686-f309cf961d04.txt"
+        ],
+        "original_example": "息子は親の心配をよそに、仕事もせずに毎日遊んでばかりいる。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "名词＋をよそに，表示不顾相关者的担忧或期待。 来源解释：〜を心配しないで / 〜を恐れないで / 〜に関係なく",
+        "distractor_basis": [
+          "1. 表示考虑到某事并以此为依据；父母担心与儿子持续玩乐的对照不支持这种表达。",
+          "2. 正确。不顾本应在意的父母的担心，带有批评语气。",
+          "3. 表示手段或终点，父母的担心不是每天玩乐的手段或结束时间。",
+          "4. 表示以某事为开端接连展开同类事件，担心不是一系列活动的首项。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をよそに，表示不顾相关者的担忧或期待。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：表示考虑到某事并以此为依据；父母担心与儿子持续玩乐的对照不支持这种表达。；3：表示手段或终点，父母的担心不是每天玩乐的手段或结束时间。；4：表示以某事为开端接连展开同类事件，担心不是一系列活动的首项。",
+        "unique_answer_rationale": "正确。不顾本应在意的父母的担心，带有批评语气。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "2",
+          "confidence": 0.97,
+          "notes": "親の心配を気にせず遊び続けるので「をよそに」。1なら心配を判断の根拠として踏まえた結果が無職で遊ぶことになり、この通常の文脈には合わない。3では心配が手段にならず、4では心配に同種事態の連鎖が続かない。多解なし。文は自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致，挖空复原相符；来源意义、名词接续和常用于批评的备注均足够支持。中文翻译、四项解析和唯一解通过；「を踏まえて」在此须凭空增设相反背景才可解释，不构成自然的并列正确项。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N1-Q-0066",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "試験の結果は、２ヶ月以内に書面（　）通知いたします。",
+      "translation": "考试结果将在两个月内以书面形式通知。",
+      "tested_cards": [
+        "N1-G-0093"
+      ],
+      "conjugation": "名词＋をもって，表示正式场合的手段。",
+      "options": {
+        "1": "をもって",
+        "2": "をおいて",
+        "3": "を限りに",
+        "4": "をよそに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。「書面をもって」表示以书面为通知手段，适合正式通知语体。",
+      "option_explanations": {
+        "1": "正确。「書面をもって」表示以书面为通知手段，适合正式通知语体。",
+        "2": "表示除……外没有，后文没有「他にはない」等排他性内容。",
+        "3": "表示以某次或时间为最后，书面不是结束期限。",
+        "4": "表示不顾或不理会，与通过书面通知结果的语义不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜をもって（期限・手段・基準）",
+        "url": "https://nihongokyoshi-net.com/2019/06/18/jlptn1-grammar-womotte/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/c76498b652c1fe9b1e80-9770c9959315.txt"
+        ],
+        "original_example": "試験の結果は、２ヶ月以内に書面をもって通知いたします。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "名词＋をもって，表示正式场合的手段。 来源解释：〜で / 〜を最後として / 〜を基準に",
+        "distractor_basis": [
+          "1. 正确。「書面をもって」表示以书面为通知手段，适合正式通知语体。",
+          "2. 表示除……外没有，后文没有「他にはない」等排他性内容。",
+          "3. 表示以某次或时间为最后，书面不是结束期限。",
+          "4. 表示不顾或不理会，与通过书面通知结果的语义不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をもって，表示正式场合的手段。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "2：表示除……外没有，后文没有「他にはない」等排他性内容。；3：表示以某次或时间为最后，书面不是结束期限。；4：表示不顾或不理会，与通过书面通知结果的语义不合。",
+        "unique_answer_rationale": "正确。「書面をもって」表示以书面为通知手段，适合正式通知语体。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "1",
+          "confidence": 0.99,
+          "notes": "通知の手段・媒体が書面なので「をもって」。2は「書面以外にはない」という限定に必要な否定後件がなく、3は書面が終了時点にならず、4は書面を無視する意味で通知の手段を示せない。多解なし。公的通知の文として自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致，挖空复原相符；来源明确名词接续及手段用法的正式语体。书面是通知手段，中文翻译准确，四项解析与唯一解通过。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N1-Q-0067",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "その絵はあまりにもリアルで、今にも動き出さ（　）。",
+      "translation": "那幅画逼真极了，仿佛马上就要动起来。",
+      "tested_cards": [
+        "N1-G-0100"
+      ],
+      "conjugation": "动词ない形去ない＋んばかりだ：動き出さない→動き出さんばかりだ。",
+      "options": {
+        "1": "んがためだ",
+        "2": "ずにはすまない",
+        "3": "ざるを得ない",
+        "4": "んばかりだ"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。「動き出さんばかりだ」描写画看上去几乎要动起来，实际并未动。",
+      "option_explanations": {
+        "1": "表示为了实现某事这一目的；画并无动起来的意志，也不是说明某行动的目的。",
+        "2": "表示不做某事就无法了结的义务；这里描绘逼真到几乎动起来的样子。",
+        "3": "「ざるを得ない」表示受情况所迫而不得不如此；逼真只是视觉印象，不能推出画客观上必然动起来。",
+        "4": "正确。「動き出さんばかりだ」描写画看上去几乎要动起来，实际并未动。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜んばかりに",
+        "url": "https://nihongokyoshi-net.com/2019/07/26/jlptn1-grammar-nbakarini/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/da5ba72a8db662d0b51b-c21110dc956d.txt"
+        ],
+        "original_example": "その絵はあまりにもリアルで、今にも動き出さんばかりだ。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "动词ない形去ない＋んばかりだ：動き出さない→動き出さんばかりだ。 来源解释：ほとんど〜しそうに",
+        "distractor_basis": [
+          "1. 表示为了实现某事这一目的；画并无动起来的意志，也不是说明某行动的目的。",
+          "2. 表示不做某事就无法了结的义务；这里描绘逼真到几乎动起来的样子。",
+          "3. 「ざるを得ない」表示受情况所迫而不得不如此；逼真只是视觉印象，不能推出画客观上必然动起来。",
+          "4. 正确。「動き出さんばかりだ」描写画看上去几乎要动起来，实际并未动。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ない形去ない＋んばかりだ：動き出さない→動き出さんばかりだ。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：表示为了实现某事这一目的；画并无动起来的意志，也不是说明某行动的目的。；2：表示不做某事就无法了结的义务；这里描绘逼真到几乎动起来的样子。；3：「ざるを得ない」表示受情况所迫而不得不如此；逼真只是视觉印象，不能推出画客观上必然动起来。",
+        "unique_answer_rationale": "正确。「動き出さんばかりだ」描写画看上去几乎要动起来，实际并未动。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "4",
+          "confidence": 0.99,
+          "notes": "絵のリアルさから、実際には動かないのに今にも動き出しそうな様子を「動き出さんばかりだ」で表す。1は絵が動くことを意志的目的にする文になり不適切。2と3は与えられた語幹「動き出さ」にそれぞれ接続できても、絵が動くべき義務・不可避性は当該文脈にない。多解なし。文は自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致，挖空复原相符；来源未然形接续及原例句句末「んばかりだ」共同支持答案。中文翻译准确，四项均有解析，唯一解通过。选项3解析已最终确认：「ざるを得ない」表示受情况所迫而不得不如此；逼真只是视觉印象，不能推出画客观上必然动起来。不再把该语法局限为义务，source.distractor_basis及preflight已同步。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N1-Q-0068",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "津波で住む家も家族も失った彼には、私は同情（　）。",
+      "translation": "对于因海啸失去住房和家人的他，我不禁深感同情。",
+      "tested_cards": [
+        "N1-G-0095"
+      ],
+      "conjugation": "情感名词＋をきんじえない(禁じ得ない)。",
+      "options": {
+        "1": "を禁じ得ない",
+        "2": "を余儀なくされた",
+        "3": "をよそにしている",
+        "4": "をものともしていない"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。「同情」是自然涌起而无法抑制的感情。",
+      "option_explanations": {
+        "1": "正确。「同情」是自然涌起而无法抑制的感情。",
+        "2": "用于外部情势迫使采取某行动；这里的同情是情感，不是被迫履行的行动。",
+        "3": "表示把某事置于一旁；本句没有「谁的同情」等可置之不理的对象，不能表达我油然而生的同情。",
+        "4": "表示不把障碍当回事；此处没有把同情当作阻碍并加以克服的语境。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜を禁じ得ない",
+        "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn1-grammar-wokinjienai/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/d9fbe3eca360037e483f-5571ec4ec145.txt"
+        ],
+        "original_example": "津波で住む家も家族も失った彼には同情を禁じ得ない。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。",
+          "将隐含体验者明确写为「私は」，其余情境保留。"
+        ],
+        "answer_basis": "情感名词＋をきんじえない(禁じ得ない)。 来源解释：～という気持ちを抑えることができない",
+        "distractor_basis": [
+          "1. 正确。「同情」是自然涌起而无法抑制的感情。",
+          "2. 用于外部情势迫使采取某行动；这里的同情是情感，不是被迫履行的行动。",
+          "3. 表示把某事置于一旁；本句没有「谁的同情」等可置之不理的对象，不能表达我油然而生的同情。",
+          "4. 表示不把障碍当回事；此处没有把同情当作阻碍并加以克服的语境。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "情感名词＋をきんじえない(禁じ得ない)。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "2：用于外部情势迫使采取某行动；这里的同情是情感，不是被迫履行的行动。；3：表示把某事置于一旁；本句没有「谁的同情」等可置之不理的对象，不能表达我油然而生的同情。；4：表示不把障碍当回事；此处没有把同情当作阻碍并加以克服的语境。",
+        "unique_answer_rationale": "正确。「同情」是自然涌起而无法抑制的感情。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "1",
+          "confidence": 0.98,
+          "notes": "彼の被災状況に対して私が抑えられない同情を感じるので「を禁じ得ない」。2は外的圧力で同情という行動を強制されたという意味になり当該の感情表現に不適合。3・4は同情を無視・克服する対象にし、誰の同情かも定まらず、彼に対する私の感情を述べるこの文に合わない。多解なし。「彼には、私は」は対比が重なり少し硬いが、文法上・意味上の不自然さは許容範囲。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致；增写「私は」的改动已准确记录，未改原例句的受灾情境。来源明确压抑不住的情绪及情感名词接续，支持选项1。中文翻译、四项解析和唯一解通过。「彼には、私は」略显生硬但不构成实质问题；其余选项需额外补入强制或克服同情等题干未给出的情境。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N1-Q-0069",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "今日（　）、お酒とタバコはやめることにしました。",
+      "translation": "决定以今天为界，不再喝酒和吸烟。",
+      "tested_cards": [
+        "N1-G-0092"
+      ],
+      "conjugation": "时间名词＋をかぎりに(限りに)，后项停止此前持续的事情。",
+      "options": {
+        "1": "を皮切りに",
+        "2": "をよそに",
+        "3": "を限りに",
+        "4": "をおいて"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。以今天为界，结束以前持续的喝酒吸烟习惯。",
+      "option_explanations": {
+        "1": "表示以某事为首项接连开展；本句宣布停止持续的习惯，没有一系列新活动。",
+        "2": "表示不顾相关者的情绪或周围情况；「今日」不是所不顾的担忧或期待。",
+        "3": "正确。以今天为界，结束以前持续的喝酒吸烟习惯。",
+        "4": "表示除了某项以外没有；后文不是排他性判断。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜を限りに",
+        "url": "https://nihongokyoshi-net.com/2019/06/16/jlptn1-grammar-wokagirini/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/eca49625ec5715143b4d-dd2ab4294e0e.txt"
+        ],
+        "original_example": "今日を限りに、お酒とタバコはやめることにしました。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "时间名词＋をかぎりに(限りに)，后项停止此前持续的事情。 来源解释：〜を最後として、（今まで続いていたこと、続けていたことをやめる）",
+        "distractor_basis": [
+          "1. 表示以某事为首项接连开展；本句宣布停止持续的习惯，没有一系列新活动。",
+          "2. 表示不顾相关者的情绪或周围情况；「今日」不是所不顾的担忧或期待。",
+          "3. 正确。以今天为界，结束以前持续的喝酒吸烟习惯。",
+          "4. 表示除了某项以外没有；后文不是排他性判断。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "时间名词＋をかぎりに(限りに)，后项停止此前持续的事情。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：表示以某事为首项接连开展；本句宣布停止持续的习惯，没有一系列新活动。；2：表示不顾相关者的情绪或周围情况；「今日」不是所不顾的担忧或期待。；4：表示除了某项以外没有；后文不是排他性判断。",
+        "unique_answer_rationale": "正确。以今天为界，结束以前持续的喝酒吸烟习惯。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "3",
+          "confidence": 0.99,
+          "notes": "今日を最後に飲酒と喫煙をやめるという終点なので「を限りに」。1は開始後の同種事態の連続が必要で不適合、2は「今日」を無視する意味にならず、4は「今日以外にない」という限定の否定後件がない。多解なし。文は自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致，挖空复原相符；来源明确以某时为最后，停止过去持续之事。接续、中文翻译、四项解析及唯一解通过。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N1-Q-0070",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "そのスケート選手は緊張やプレッシャー（　）、見事に滑りきった。",
+      "translation": "那位滑冰运动员顶住紧张和压力，出色地完成了表演。",
+      "tested_cards": [
+        "N1-G-0096"
+      ],
+      "conjugation": "名词＋をものともせず，第三者克服障碍并取得成果。",
+      "options": {
+        "1": "を限りに",
+        "2": "をもって",
+        "3": "をものともせず",
+        "4": "をおいて"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。克服本可能妨碍发挥的紧张和压力，成功完成动作。",
+      "option_explanations": {
+        "1": "表示某一结束界限；紧张与压力不是截止时间或最后一次事件。",
+        "2": "表示手段或期限；紧张和压力在此是阻碍，不是完成表演的手段。",
+        "3": "正确。克服本可能妨碍发挥的紧张和压力，成功完成动作。",
+        "4": "表示除……之外没有，后文并非排他性否定。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜をものともせず",
+        "url": "https://nihongokyoshi-net.com/2019/06/12/jlptn1-grammar-womonotomosezu/",
+        "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/c94e2ca63447cd9a7599-6827d3e140ca.txt"
+        ],
+        "original_example": "そのスケート選手は緊張やプレッシャーをものともせず、見事に滑りきった。",
+        "transformations": [
+          "将原例句中的目标语法挖空，设置四个选项；题目顺序与语法卡顺序不同。"
+        ],
+        "answer_basis": "名词＋をものともせず，第三者克服障碍并取得成果。 来源解释：〜に負けないで / 〜を恐れないで / 〜を気にしないで",
+        "distractor_basis": [
+          "1. 表示某一结束界限；紧张与压力不是截止时间或最后一次事件。",
+          "2. 表示手段或期限；紧张和压力在此是阻碍，不是完成表演的手段。",
+          "3. 正确。克服本可能妨碍发挥的紧张和压力，成功完成动作。",
+          "4. 表示除……之外没有，后文并非排他性否定。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋をものともせず，第三者克服障碍并取得成果。 各选项按实际空格复原核对。",
+        "semantic_exclusion": "1：表示某一结束界限；紧张与压力不是截止时间或最后一次事件。；2：表示手段或期限；紧张和压力在此是阻碍，不是完成表演的手段。；4：表示除……之外没有，后文并非排他性否定。",
+        "unique_answer_rationale": "正确。克服本可能妨碍发挥的紧张和压力，成功完成动作。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:35:50.553810+00:00",
+          "answer": "3",
+          "confidence": 0.99,
+          "notes": "緊張やプレッシャーを障害とせず最後まで見事に滑ったので「をものともせず」。1は緊張やプレッシャーが終了期限にならず、2はこれらを成功の手段とする文脈がなく、4は否定後件がなく限定が成立しない。多解なし。文は自然。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-review-agent",
+          "reviewed_at": "2026-10-14T11:37:51.375460+00:00",
+          "notes": "原例句与摘录一致，挖空复原相符；来源明确不向恐惧困难屈服，名词接续正确。中文翻译合理体现滑完，四项解析及唯一解通过。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "search",
+        "started_at": "2026-10-14T11:32:12+00:00",
+        "ended_at": "2026-10-14T11:32:39+00:00",
+        "duration_seconds": 27.638,
+        "metrics": {
+          "search_calls": 1,
+          "discovery_opens": 1
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-14T11:32:39+00:00",
+        "ended_at": "2026-10-14T11:34:44+00:00",
+        "duration_seconds": 125.481,
+        "metrics": {
+          "pages_opened": 10,
+          "cached_hits": 0,
+          "supplementary_search_calls": 1
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-14T11:34:44+00:00",
+        "ended_at": "2026-10-14T11:34:57+00:00",
+        "duration_seconds": 13.633,
+        "metrics": {
+          "questions": 10
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-14T11:34:57+00:00",
+        "ended_at": "2026-10-14T11:34:57+00:00",
+        "duration_seconds": 0.846,
+        "metrics": {
+          "validation_calls": 1
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-14T11:34:57+00:00",
+        "ended_at": "2026-10-14T11:34:57+00:00",
+        "duration_seconds": 0.004,
+        "metrics": {
+          "mode": "preview",
+          "files": 13
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-14T11:34:57+00:00",
+        "ended_at": "2026-10-14T11:38:09+00:00",
+        "duration_seconds": 192.29,
+        "metrics": {
+          "blind_review_calls": 1,
+          "source_review_calls": 1,
+          "explanation_recheck_calls": 1,
+          "questions_passed": 10
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-14T11:38:09+00:00",
+        "ended_at": "2026-10-14T11:38:10+00:00",
+        "duration_seconds": 0.731,
+        "metrics": {
+          "mode": "final",
+          "files": 13
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-14T11:37:47+00:00",
+        "ended_at": "2026-10-14T11:38:55+00:00",
+        "duration_seconds": 68.444,
+        "metrics": {
+          "final_structure_validation": 1,
+          "mechanical_validation": 1,
+          "image_link_validation": 1,
+          "reader_link_validation": 1
+        }
+      }
+    ],
+    "revision_history": [],
+    "active_phases": {},
+    "selection": {
+      "requested_range": "N1-G-0091..N1-G-0100",
+      "coverage": "每卡一题",
+      "order": [
+        97,
+        91,
+        99,
+        94,
+        98,
+        93,
+        100,
+        95,
+        92,
+        96
+      ],
+      "cache_hits": 0,
+      "new_pages": 10,
+      "original_exercises": 0,
+      "derived_items": 10,
+      "original_search": "日本語NET检索未找到可核实完整题目及答案的十卡覆盖原题，使用已实际打开的直接教学页面例句。",
+      "baseline_cache_verify": "旧缓存101条证据哈希不匹配；不使用、不改动其记录；本卷10条新证据单独通过verify_record检查。",
+      "timing_note": "selection 阶段未使用计时器，不补造用时；有计时记录的阶段见 phases。"
+    },
+    "source_verification": {
+      "adopted_records": 10,
+      "hash_verified": true,
+      "baseline_failures": 101,
+      "scope": "only the 10 newly adopted entries verified successfully; full-cache verify failed for pre-existing unrelated records"
+    },
+    "explanation_polish": {
+      "reason": "根据来源复核意见精确化两条干扰项解析；题干、选项、答案及题目revision均未变。",
+      "questions": [
+        1,
+        7
+      ]
+    },
+    "delivery_notes": {
+      "git_commit": "未执行；本轮没有学习者明确提交指令，且旧缓存全库验证存在历史异常。",
+      "source_level_note": "第97条日本語NET页面标题为N1、正文等级写N2；保留此差异，试卷等级依学习者指定的本地N1卡片，不改原站内容。"
+    }
+  }
+}

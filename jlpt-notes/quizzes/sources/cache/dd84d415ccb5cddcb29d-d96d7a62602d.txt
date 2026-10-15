@@ -1,0 +1,24 @@
+出典：日本語NET「〖JLPT N１〗文法・例文：〜ともなると / 〜ともなれば」
+URL：https://nihongokyoshi-net.com/2019/06/27/jlptn1-grammar-tomonaruto-tomonareba/
+アクセス日：2026-10-12
+位置：意味・接続・備考及び例文
+
+## 文型：〜ともなると / 〜ともなれば
+
+[意味 ]
+〜という状況や立場になると・・・
+
+[英訳]
+"When one reaches a situation or position such as 〜, ..."
+Used to describe situations or conditions that change significantly when a certain level, stage, or status is reached.
+
+[接続]
+V（辞書形） + ともなると / ともなれば
+N + ともなると / ともなれば
+
+[JLPT レベル]
+N1
+
+[備考]
+後件には意志や希望を表す言葉は来ない。
+海外移住ともなると、保険のことや、仕事のことなど色々と考えなければならない。

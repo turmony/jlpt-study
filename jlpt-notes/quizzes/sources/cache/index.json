@@ -615,15 +615,15 @@
     "e1e29064033711aa8525": {
       "site_name": "日本語NET",
       "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-shidaida/",
-      "title": "【JLPT N2】文法・例文：〜次第だ / 〜次第で",
-      "publisher": "日本語NET／ノッチ",
-      "accessed_at": "2026-09-26",
+      "title": "【JLPT N２】文法・例文：〜次第だ / 〜次第で",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
       "grammar_ids": [
-        "N2-G-0028"
+        "N1-G-0101"
       ],
-      "locator": "文型・例文区",
-      "evidence_path": "quizzes/sources/cache/e1e29064033711aa8525-c9bf317b5a63.md",
-      "content_sha256": "c9bf317b5a63e210e457fc8a6efee1afd3990f6a4ef9e505c8c3786ca849ccb0"
+      "locator": "文型２・例文２",
+      "evidence_path": "quizzes/sources/cache/e1e29064033711aa8525-f2eea26c985d.txt",
+      "content_sha256": "f2eea26c985de462b7e392ef6dfe2ef75ad278e4c0b027f172d2963149f6a749"
     },
     "f05c84590ad7a53b241d": {
       "site_name": "日本語NET",
@@ -1876,6 +1876,814 @@
       "locator": "文型・意味・接続／例文第1文",
       "evidence_path": "quizzes/sources/cache/e8f6f4624d876094b316-1071987d8f7f.txt",
       "content_sha256": "1071987d8f7f24ae877851e422b3ec04923008f18dfe7c96176ef38a1dafdcb4"
+    },
+    "2d32d101d97e0c7d6947": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/02/jlptn1-grammar-toiedomo/",
+      "title": "〜といえども",
+      "publisher": "ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0041"
+      ],
+      "locator": "意味・接続・例文（たった１０円）",
+      "evidence_path": "quizzes/sources/cache/2d32d101d97e0c7d6947-ca9acc968bd0.txt",
+      "content_sha256": "ca9acc968bd097dcef36a3ba6bcf77014a88b47593077bf60529f1527e1324a0"
+    },
+    "524a48884af42e02671d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/16/jlptn1-grammar-katoomoikiya/",
+      "title": "〜かと思いきや",
+      "publisher": "ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0043"
+      ],
+      "locator": "意味・接続・備考・例文（映画）",
+      "evidence_path": "quizzes/sources/cache/524a48884af42e02671d-4ab90415547a.txt",
+      "content_sha256": "4ab90415547a280fbb0c9d8e7ea8e4dd7efe1e84676db34912750ac3b6cf80d9"
+    },
+    "7a31480c57408e47dcc7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/04/jlptn1-grammar-tokitara/",
+      "title": "〜ときたら",
+      "publisher": "ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0044"
+      ],
+      "locator": "意味・接続・例文（パソコン）",
+      "evidence_path": "quizzes/sources/cache/7a31480c57408e47dcc7-d8c7d6336109.txt",
+      "content_sha256": "d8c7d6336109088073a20d88bc0bebf21d07c660d7f42f863d098744b4b7f27d"
+    },
+    "cc87adb84f7c943c58b6": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/22/jlptn1-grammar-tokoro/",
+      "title": "〜ところを",
+      "publisher": "ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0045"
+      ],
+      "locator": "意味・接続・例文（本日はお忙しいところ）",
+      "evidence_path": "quizzes/sources/cache/cc87adb84f7c943c58b6-71ce792cefd0.txt",
+      "content_sha256": "71ce792cefd079e59006a188bb5c99c23f3f51ca09ddbd3c69a7d6ac93536736"
+    },
+    "9986475fda07af6b0327": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/17/jlptn1-grammar-towaie/",
+      "title": "〜とはいえ",
+      "publisher": "ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0048"
+      ],
+      "locator": "意味・接続・例文（最寄り駅）",
+      "evidence_path": "quizzes/sources/cache/9986475fda07af6b0327-b0dca6c9b97d.txt",
+      "content_sha256": "b0dca6c9b97d42e761911837778807e2709e9d98cd93a83e988cc94bb0ac7b58"
+    },
+    "b1787c1a52f155ac39ed": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/06/11/jlptn1-grammar-tomonaku/",
+      "title": "〜ともなく / 〜ともなしに",
+      "publisher": "ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0050"
+      ],
+      "locator": "意味①・接続①・例文（彼女は本を読む）",
+      "evidence_path": "quizzes/sources/cache/b1787c1a52f155ac39ed-3f1d3b97b46c.txt",
+      "content_sha256": "3f1d3b97b46c6d833aa482c798858cf84af1da147978e1c99e32fcef0859e64c"
+    },
+    "dd84d415ccb5cddcb29d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/27/jlptn1-grammar-tomonaruto-tomonareba/",
+      "title": "〖JLPT N１〗文法・例文：〜ともなると / 〜ともなれば",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0051"
+      ],
+      "locator": "意味・接続・備考及び例文（海外移住ともなると、保険のことや、仕事のことなど色々と考えなければならない。）",
+      "evidence_path": "quizzes/sources/cache/dd84d415ccb5cddcb29d-d96d7a62602d.txt",
+      "content_sha256": "d96d7a62602db981d7678534409cf73d0fca59d191473f1238e158ccc96e8eb4"
+    },
+    "63ab8aec1329c6add2b9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/17/jlptn1-grammar-naimademo/",
+      "title": "〖JLPT N１〗文法・例文：〜ないまでも",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0052"
+      ],
+      "locator": "意味・接続・備考及び例文（毎日とは言わないまでも、週に１回ぐらいは掃除して欲しい。）",
+      "evidence_path": "quizzes/sources/cache/63ab8aec1329c6add2b9-71391f7663b2.txt",
+      "content_sha256": "71391f7663b2b5cfe3ba53263b0234a7e6679f63d881a285db5fff741426e0ea"
+    },
+    "f18727ebbb3f3e065a70": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/10/jlptn2-grammar-naidemonai/",
+      "title": "〖JLPT N２〗文法・例文：〜ないでもない / 〜ないものでもない",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0053"
+      ],
+      "locator": "意味・接続・備考及び例文（新しく発売されたスマホは少し高いが、買えないでもない。）",
+      "evidence_path": "quizzes/sources/cache/f18727ebbb3f3e065a70-0bab62ae9896.txt",
+      "content_sha256": "0bab62ae9896904bb555872ad0bbbf6713aafe9029d34af136dbb4e1172717ce"
+    },
+    "01df781b7fd75f4abc0a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/18/jlptn1-grammar-nagara/",
+      "title": "〖JLPT N１〗文法・例文：〜ながら",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0054"
+      ],
+      "locator": "意味・接続・備考及び例文（彼女は当時の出来事を涙ながらに語った。）",
+      "evidence_path": "quizzes/sources/cache/01df781b7fd75f4abc0a-91812fe9ecc5.txt",
+      "content_sha256": "91812fe9ecc510cf95a506576c9738f115a56d59a1f36e024f94f3344caafc6a"
+    },
+    "adfe1d52415f4e3321c2": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/18/jlptn1-grammar-nakushitewa/",
+      "title": "〖JLPT N１〗文法・例文：〜なくしては",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0055"
+      ],
+      "locator": "意味・接続・備考及び例文（パスポートなくしては、海外へは行けません。）",
+      "evidence_path": "quizzes/sources/cache/adfe1d52415f4e3321c2-7fe8269ab52e.txt",
+      "content_sha256": "7fe8269ab52e8313edb7ee4d90cc8bc5761596975da1ede2d79cc6bbd78ee702"
+    },
+    "1de48e26f1d635c050fa": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/20/jlptn1-grammar-naradewa/",
+      "title": "〖JLPT N１〗文法・例文：〜ならでは",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0056"
+      ],
+      "locator": "意味・接続・備考及び例文（このバッグショップの鞄は手作りならではの味わいが魅力だ。）",
+      "evidence_path": "quizzes/sources/cache/1de48e26f1d635c050fa-52c873ca71fb.txt",
+      "content_sha256": "52c873ca71fbfdf99871fd7b2bdfcbb37757098f526f9878759c4aabd6e92a58"
+    },
+    "f2de49a1253c7d803ecc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/11/jlptn1-grammar-nari/",
+      "title": "〖JLPT N１〗文法・例文：〜なり",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0057"
+      ],
+      "locator": "意味・接続・備考及び例文（うちの子は、家に帰って来るなり、テレビゲームを始めた。）",
+      "evidence_path": "quizzes/sources/cache/f2de49a1253c7d803ecc-d675b03582be.txt",
+      "content_sha256": "d675b03582bea03f131a64bf8f39de6030cbd19e7004ccbcd9673365fdf28292"
+    },
+    "65b93513744f4cd0af5f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/19/jlptn1-grammar-nari-nari/",
+      "title": "〖JLPT N１〗文法・例文：〜なり〜なり",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0058"
+      ],
+      "locator": "意味・接続・備考及び例文（煮るなり焼くなり、好きなように調理してください。）",
+      "evidence_path": "quizzes/sources/cache/65b93513744f4cd0af5f-409478a3d027.txt",
+      "content_sha256": "409478a3d0271019313a6e17759cb6ef709186e9c88d540a4035b68a22a934c3"
+    },
+    "d890b9910825bee1f05f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/01/jlptn1-grammar-narini/",
+      "title": "〖JLPT N１〗文法・例文：〜なりに",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0059"
+      ],
+      "locator": "意味・接続・備考及び例文（私なりに頑張ったつもりだったが、結果はダメだった。）",
+      "evidence_path": "quizzes/sources/cache/d890b9910825bee1f05f-d26b64649be0.txt",
+      "content_sha256": "d26b64649be00bd6073088ab9001daca2ebf4c2b72e6f763887ffa0985c72999"
+    },
+    "0fd269f024228b30edc5": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/05/jlptn1-grammar-niwaataranai/",
+      "title": "〖JLPT N１〗文法・例文：〜にはあたらない",
+      "publisher": "日本語NET／ノッチ先生（沿用已核实运营者记录）",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0060"
+      ],
+      "locator": "意味・接続・備考及び例文（彼の実力からいって、JLPT N1に合格しても驚くには当たりません。）",
+      "evidence_path": "quizzes/sources/cache/0fd269f024228b30edc5-af72e55be8e6.txt",
+      "content_sha256": "af72e55be8e66ab042c88c1e2b35be19c0da261fa1bdf75b5fb993cb3f8f7260"
+    },
+    "04680607965a2e1eb957": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/08/jlptn1-grammar-niatte/",
+      "title": "【JLPT N１】文法・例文：〜にあって",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0062"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/04680607965a2e1eb957-5937085e15b0.txt",
+      "content_sha256": "5937085e15b0d026587680dd8a0e015597365876ba077d3df6f08170987c1fd2"
+    },
+    "9a74e4a87e051180b149": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/31/jlptn1-grammar-niitaru/",
+      "title": "【JLPT N１】文法・例文：〜に至る / 〜に至るまで",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0063",
+        "N1-G-0064"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/9a74e4a87e051180b149-d5ad6f096518.txt",
+      "content_sha256": "d5ad6f096518cfceb279435995daa3e775df262b018c69883e229175a97970b6"
+    },
+    "1168bc81ecf653b1eacc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/05/jlptn1-grammar-nikakawaru/",
+      "title": "【JLPT N１】文法・例文：〜に関わる",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0065"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/1168bc81ecf653b1eacc-ad72dfb2b45c.txt",
+      "content_sha256": "ad72dfb2b45c122cfbc787fdf5fea9745839993b812e197e2cca30e4d07629fd"
+    },
+    "b7ad8c3a68d79349e794": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/12/jlptn1-grammar-nikatakunai/",
+      "title": "【JLPT N１】文法・例文：〜にかたくない",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0066"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/b7ad8c3a68d79349e794-802ba9c22adc.txt",
+      "content_sha256": "802ba9c22adc0af4debe84ada0adcf7398e3a2e9767c2dc14a248f1fb29c0d9b"
+    },
+    "36d756684c7547f7626d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/21/jlptn1-grammar-nishite/",
+      "title": "【JLPT N1】文法・例文：〜にして",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0067"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/36d756684c7547f7626d-7027279c450b.txt",
+      "content_sha256": "7027279c450bdfb080e7c6a6394f89fea42bd1d26c82e95f786bc622d192cdd5"
+    },
+    "0024f5a116ad55c3bbd9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/01/jlptn1-grammar-nisokushite/",
+      "title": "【JLPT N１】文法・例文：〜に即して",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0068"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/0024f5a116ad55c3bbd9-56e6937db877.txt",
+      "content_sha256": "56e6937db8771615b8a78ef93dbbc2b8e4713f283abdb58a17343f50d5a731cf"
+    },
+    "29caa4e56eb020e71896": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/08/04/jlptn1-grammar-ninottotte/",
+      "title": "【JLPT N１】文法・例文：〜に則って",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0069"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/29caa4e56eb020e71896-d82191044f1c.txt",
+      "content_sha256": "d82191044f1ced809dd33d1ba8d21f58c574747a1308afbd7bc7c162c793ae04"
+    },
+    "06ef51c6a11932d8b4ba": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/15/jlptn1-grammar-taeru-taenai/",
+      "title": "【JLPT N１】文法・例文：〜に堪える / 〜に堪えない",
+      "publisher": "日本語NET／ノッチ先生",
+      "accessed_at": "2026-10-12",
+      "grammar_ids": [
+        "N1-G-0070"
+      ],
+      "locator": "文型の意味・接続と採用例文",
+      "evidence_path": "quizzes/sources/cache/06ef51c6a11932d8b4ba-d6358109d4ce.txt",
+      "content_sha256": "d6358109d4cef857c89ea1552d49ff02b1048f2ef95d2a291da2ef95410c0af9"
+    },
+    "0f55de682204f3bc73d6": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/15/jlptn1-grammar-nitaru/",
+      "title": "【JLPT N１】文法・例文：〜に足る",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0071"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/0f55de682204f3bc73d6-b53abe4dace3.txt",
+      "content_sha256": "b53abe4dace31c0615255612352fa44887c0362306151f540b4eb2e288a28354"
+    },
+    "d3a5d6feddf398929622": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/26/jlptn1-grammar-nihikikae/",
+      "title": "【JLPT N１】文法・例文：〜にひきかえ",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0072"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/d3a5d6feddf398929622-b083f8cb832c.txt",
+      "content_sha256": "b083f8cb832c867816cdd060c837de84337019c179f30a9ed85aa5197a53d88d"
+    },
+    "d6f518a02fbecaf4fa10": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/10/jlptn1-grammar-nimomashite/",
+      "title": "【JLPT N１】文法・例文：〜にもまして",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0073"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/d6f518a02fbecaf4fa10-814dd50f539f.txt",
+      "content_sha256": "814dd50f539ff97a6aa465314c830d227fa24cb9fecf8100314e3dbcc9fa52d7"
+    },
+    "eb411563d4ec8e5d02b3": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/18/jlptn1-grammar-itari/",
+      "title": "【JLPT N１】文法・例文：〜の至り（いたり）",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0074"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/eb411563d4ec8e5d02b3-60b23e4f9bf4.txt",
+      "content_sha256": "60b23e4f9bf4be9c31ad55f4a688d6a35b688dde31302823581d762b8f344ad0"
+    },
+    "1e84318fe3aeb330616d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/05/jlptn1-grammar-nokiwami/",
+      "title": "【JLPT N１】文法・例文：〜の極み",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0075"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/1e84318fe3aeb330616d-d5631698cb6a.txt",
+      "content_sha256": "d5631698cb6a2460193606fe47b00f1fa2a1d3e5fe6f9c0914eedfaefb628daf"
+    },
+    "72a8a6295e00ac0acd80": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/21/jlptn1-grammar-waoroka/",
+      "title": "【JLPT N１】文法・例文：〜はおろか",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0076"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/72a8a6295e00ac0acd80-5436a06a5a7f.txt",
+      "content_sha256": "5436a06a5a7f9ceb4f6b431f8dcaa2035e8eb4d4613ed42c93e816fd7723c303"
+    },
+    "6122a5c00a534192fb14": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/24/jlptn1-grammar-basoremadeda/",
+      "title": "【JLPT N１】文法・例文：〜ばそれまでだ / 〜たらそれまでだ",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0078"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/6122a5c00a534192fb14-e34edf4d4107.txt",
+      "content_sha256": "e34edf4d4107ec3e07097e87f58b7ab457e7d91eb668f2a74673e4f0616fad0c"
+    },
+    "1d9fbabf9ddc9586bdcb": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/16/jlptn1-grammar-bekarazu/",
+      "title": "【JLPT N１】文法・例文：〜べからず",
+      "publisher": "日本語NET／ノッチ（運営者は既存のプロフィール証拠で確認）",
+      "accessed_at": "2026-10-13",
+      "grammar_ids": [
+        "N1-G-0079"
+      ],
+      "locator": "文型：意味・接続、例文区の採用例",
+      "evidence_path": "quizzes/sources/cache/1d9fbabf9ddc9586bdcb-bf96e1c4f8c1.txt",
+      "content_sha256": "bf96e1c4f8c1fe2bb0126dac9e5db18df8ff8389038e52bfd683d3a0ba6c7f18"
+    },
+    "f35bdda429d8dbad4970": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/23/jlptn1-grammar-beku/",
+      "title": "【JLPT N1】文法・例文：〜べく",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0081"
+      ],
+      "locator": "文型 L17–34；例文 L51",
+      "evidence_path": "quizzes/sources/cache/f35bdda429d8dbad4970-4ec941f3ce09.txt",
+      "content_sha256": "4ec941f3ce0980a9d91ff93de9de11b518af43c4cb67cffbcdf44786320a802c"
+    },
+    "70035496e548ae416e19": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/16/jlptn1-grammar-majiki/",
+      "title": "【JLPT N1】文法・例文：〜まじき",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0082"
+      ],
+      "locator": "文型 L18–29；例文 L32",
+      "evidence_path": "quizzes/sources/cache/70035496e548ae416e19-82812a7f7b4c.txt",
+      "content_sha256": "82812a7f7b4ce63d390a455818eff976c6741624e4d82be32860e5ddc8131354"
+    },
+    "64d89509b7960d72e1d8": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/08/21/jlptn1-grammar-madeda/",
+      "title": "【JLPT N1】文法・例文：〜までだ / までのことだ",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0083"
+      ],
+      "locator": "文型 L18–33；例文 L44",
+      "evidence_path": "quizzes/sources/cache/64d89509b7960d72e1d8-11b061efc161.txt",
+      "content_sha256": "11b061efc16114e5d060a2ba277a6058e32d987599eaddc489a7c13d92d4cf0f"
+    },
+    "11f6b8926b2aeb313edc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2018/03/27/jlptn1-grammar-mademonai/",
+      "title": "【JLPT N1】文法・例文：〜までもない / までもなく",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0084"
+      ],
+      "locator": "文型与例文 L42；区别说明 L77–89",
+      "evidence_path": "quizzes/sources/cache/11f6b8926b2aeb313edc-63656e5bdd63.txt",
+      "content_sha256": "63656e5bdd63ec9a854f589ff93607f3224acfaadfd30c5710c905c319e23964"
+    },
+    "3f2bfc0b7db19139edcc": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/?p=8512",
+      "title": "【JLPT N1】文法・例文：〜まみれ",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0085"
+      ],
+      "locator": "文型 L24–40；例文 L43",
+      "evidence_path": "quizzes/sources/cache/3f2bfc0b7db19139edcc-42a8fc52366c.txt",
+      "content_sha256": "42a8fc52366cc7c28050298a89639fc7faabffeb0df1e6b8565ad77526864a31"
+    },
+    "25db9404681f28de22ce": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn1-grammar-meku/",
+      "title": "【JLPT N1】文法・例文：〜めく・めいて",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0086"
+      ],
+      "locator": "文型 L25–38；例文 L49",
+      "evidence_path": "quizzes/sources/cache/25db9404681f28de22ce-b2946727dbb5.txt",
+      "content_sha256": "b2946727dbb5a378ba994496f45f373892d90ba7d4a1927a9f5023a6f7c21ed8"
+    },
+    "13fbc9342accba20ae20": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/28/jlptn1-grammar-mosarukotonagara/",
+      "title": "【JLPT N1】文法・例文：〜もさることながら",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0087"
+      ],
+      "locator": "文型 L18–31；例文 L46",
+      "evidence_path": "quizzes/sources/cache/13fbc9342accba20ae20-6a59e17abc56.txt",
+      "content_sha256": "6a59e17abc56898b5290f813a6d88894e90fcadb5a03761d1ec2753b6d6652bf"
+    },
+    "813a5f8fe38c5c5a6aab": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/10/jlptn1-grammar-monowo/",
+      "title": "【JLPT N1】文法・例文：〜ものを",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0088"
+      ],
+      "locator": "文型 L18–34；例文 L52",
+      "evidence_path": "quizzes/sources/cache/813a5f8fe38c5c5a6aab-d4ca8d2db442.txt",
+      "content_sha256": "d4ca8d2db442131f2b32b047880470057b1b63a706a4ba8310067709c4e107a1"
+    },
+    "d8c09164b6daaa44f834": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/22/jlptn1-grammar-yainaya/",
+      "title": "【JLPT N1】文法・例文：〜や否や（やいなや）",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0089"
+      ],
+      "locator": "文型 L18–32；例文 L38",
+      "evidence_path": "quizzes/sources/cache/d8c09164b6daaa44f834-77ebc89b6cf9.txt",
+      "content_sha256": "77ebc89b6cf9f758c47d2d3fa405f0e1041f6757e8a50f71cfafe90f347caaae"
+    },
+    "bf47845573504585e8b7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/02/19/jlptn1-grammar-yueni/",
+      "title": "【JLPT N1】文法・例文：〜ゆえに",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0090"
+      ],
+      "locator": "文型 L18–27；例文 L41",
+      "evidence_path": "quizzes/sources/cache/bf47845573504585e8b7-429f704ee230.txt",
+      "content_sha256": "429f704ee23006e92c81fa7af6053b475c52d9330e091381e343ab6d1b9afe33"
+    },
+    "a7fa62af044893843f04": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/20/jlptn1-grammar-wooite/",
+      "title": "【JLPT N１】文法・例文：〜をおいて",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0091"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/a7fa62af044893843f04-7dead7bb6bd5.txt",
+      "content_sha256": "7dead7bb6bd5bff964c372518e17500131365956945447d8ea0f4f8fb7a8642a"
+    },
+    "eca49625ec5715143b4d": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/16/jlptn1-grammar-wokagirini/",
+      "title": "【JLPT N１】文法・例文：〜を限りに",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0092"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/eca49625ec5715143b4d-dd2ab4294e0e.txt",
+      "content_sha256": "dd2ab4294e0ee33d1e817338d15a8fdcfcd8d121832deaa663154b761c63f095"
+    },
+    "c76498b652c1fe9b1e80": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/18/jlptn1-grammar-womotte/",
+      "title": "【JLPT N１】文法・例文：〜をもって（期限・手段・基準）",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0093"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/c76498b652c1fe9b1e80-9770c9959315.txt",
+      "content_sha256": "9770c9959315b1ec1a575e38240bc0f7d3145a1dcfcb86bba1c0b674e27369ad"
+    },
+    "de858fef4e2b0079b9c7": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/26/jlptn1-grammar-wokawakirini/",
+      "title": "【JLPT N１】文法・例文：〜を皮切りに / 〜を皮切りとして",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0094"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/de858fef4e2b0079b9c7-c36fd9305c1e.txt",
+      "content_sha256": "c36fd9305c1e580641d34d1d2c39698863f5791f214933443a91df1134b133c6"
+    },
+    "d9fbe3eca360037e483f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn1-grammar-wokinjienai/",
+      "title": "【JLPT N１】文法・例文：〜を禁じ得ない",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0095"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/d9fbe3eca360037e483f-5571ec4ec145.txt",
+      "content_sha256": "5571ec4ec145558498dc36384bab4ce93482331b99554d0c81d352b715b50376"
+    },
+    "c94e2ca63447cd9a7599": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/12/jlptn1-grammar-womonotomosezu/",
+      "title": "【JLPT N１】文法・例文：〜をものともせず",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0096"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/c94e2ca63447cd9a7599-6827d3e140ca.txt",
+      "content_sha256": "6827d3e140ca7256d563047297e579e42f69927607fe195f9987bba56219aed7"
+    },
+    "44b5a45bed8587f275c4": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/15/jlptn1-grammar-woyoginakusareru/",
+      "title": "【JLPT N１】文法・例文：〜を余儀なくされる",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0097"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/44b5a45bed8587f275c4-0227cb2bc978.txt",
+      "content_sha256": "0227cb2bc9789ad49e2a3ea616cf2f8f60e3d5eca1befe55c58c5e92ef680a84"
+    },
+    "73156295f6394406a686": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/28/jlptn1-grammar-woyosoni/",
+      "title": "【JLPT N１】文法・例文：〜をよそに",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0098"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/73156295f6394406a686-f309cf961d04.txt",
+      "content_sha256": "f309cf961d0475a121975495b3f8aacd846e9e10c6f3f8956bb9fb58c0dab97b"
+    },
+    "75144a29e663803da81f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/08/02/jlptn1-grammar-ngatameni/",
+      "title": "【JLPT N１】文法・例文：〜んがために",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0099"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/75144a29e663803da81f-a7ebdb7e2733.txt",
+      "content_sha256": "a7ebdb7e27333bd125edb2047f286b4fd8ffed76c2e8d24af862a016b66333ba"
+    },
+    "da5ba72a8db662d0b51b": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/26/jlptn1-grammar-nbakarini/",
+      "title": "【JLPT N１】文法・例文：〜んばかりに",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0100"
+      ],
+      "locator": "文型の意味・接続・備考と例文（採用例を全文保存）",
+      "evidence_path": "quizzes/sources/cache/da5ba72a8db662d0b51b-c21110dc956d.txt",
+      "content_sha256": "c21110dc956d3fe2af281bb888914a516cb0fb6c7b50ea5c82ab5a8d17ffc81f"
+    },
+    "47d958cc5e499332fa21": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/06/02/jlptn1-grammar-tara-tade/",
+      "title": "【JLPT N１】文法・例文：〜たら〜たで",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0104",
+        "N1-G-0105"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/47d958cc5e499332fa21-3ee0c1043622.txt",
+      "content_sha256": "3ee0c1043622c924ecceda1e97956cd24ea50809e3ccdb2dada0358de63577cb"
+    },
+    "b73d8a14c1b0a77f536c": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/05/10/jlptn2-grammar-nikoshitakotowanai/",
+      "title": "【JLPT N２】文法・例文：〜に越したことはない",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0106"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/b73d8a14c1b0a77f536c-69c8d5def2ad.txt",
+      "content_sha256": "69c8d5def2ada695d4d9e5da2568d507f1930a10f605720cc14bfb854170f4c9"
+    },
+    "e0306146be9c15e6a63a": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/11/21/jlptn1-grammar-nimohodogaaru/",
+      "title": "【JLPT N１】文法・例文：〜にもほどがある",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0107"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/e0306146be9c15e6a63a-ef79166839e6.txt",
+      "content_sha256": "ef79166839e63dca5ca4d27a9e1ba434d95a93d275ae874709cffbd9d6bd17ba"
+    },
+    "7d940cbd99277044baa4": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn2-grammar-madashimo/",
+      "title": "【JLPT N２】文法・例文：〜はまだしも / 〜ならまだしも",
+      "publisher": "日本語NET（ノッチ先生）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0109"
+      ],
+      "locator": "文型・例文",
+      "evidence_path": "quizzes/sources/cache/7d940cbd99277044baa4-43d821836f0e.txt",
+      "content_sha256": "43d821836f0e1089f5ed06b28a4bc58990e7ce2c020b20412598e21dc113c82f"
+    },
+    "1eba339ade74c765dfc9": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/01/17/jlptn1-grammar-tahazumini/",
+      "title": "〜弾みに / 〜た拍子に",
+      "publisher": "日本語NET／ノッチ先生（既有运营者核实记录）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0111"
+      ],
+      "locator": "文型・接続／例文1",
+      "evidence_path": "quizzes/sources/cache/1eba339ade74c765dfc9-1fb799dcbeca.txt",
+      "content_sha256": "1fb799dcbeca0689510f43f05f119a251592a00e2bdc44792fbd7b541e996fb2"
+    },
+    "63833f6575a3aa3255cb": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-kaigaatte/",
+      "title": "〜かいあって / 〜かいもなく",
+      "publisher": "日本語NET／ノッチ先生（既有运营者核实记录）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0113"
+      ],
+      "locator": "意味・動詞接続／肯定例文2",
+      "evidence_path": "quizzes/sources/cache/63833f6575a3aa3255cb-ba89b431392e.txt",
+      "content_sha256": "ba89b431392e0370efc5b3a8c76fd554f9afa05f5a9bb376087dd7f8a848b1e2"
+    },
+    "78018ebf5b1dd58ca7c3": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/03/11/jlptn1-grammar-wa-wade/",
+      "title": "〜わ〜わで",
+      "publisher": "日本語NET／ノッチ先生（既有运营者核实记录）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0114"
+      ],
+      "locator": "意味・接続／例文1",
+      "evidence_path": "quizzes/sources/cache/78018ebf5b1dd58ca7c3-5cc12d2b9e27.txt",
+      "content_sha256": "5cc12d2b9e27a2d2dafc5e19d11e1462a441bd869eef8f3638bc8fe8422ef3e7"
+    },
+    "c0a189b458b72d57108f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/10/25/jlptn1-grammar-dano/",
+      "title": "〜だの〜だの",
+      "publisher": "日本語NET／ノッチ先生（既有运营者核实记录）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0115"
+      ],
+      "locator": "接続・備考／例文2",
+      "evidence_path": "quizzes/sources/cache/c0a189b458b72d57108f-b210d8fb6a69.txt",
+      "content_sha256": "b210d8fb6a692bb123375db452b703899cf1d6b5b080438a25c1ac401e91fef2"
+    },
+    "3d496131699e9d3a2d3f": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2019/07/10/lptn1-grammar-you/",
+      "title": "〜よう / 〜ようによっては",
+      "publisher": "日本語NET／ノッチ先生（既有运营者核实记录）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0118"
+      ],
+      "locator": "意味・接続／例文6",
+      "evidence_path": "quizzes/sources/cache/3d496131699e9d3a2d3f-7466ff6bc680.txt",
+      "content_sha256": "7466ff6bc680df2b0703e0da29b9f5c3d8d733512c5e7e040a3eca14c12299f9"
+    },
+    "9e7e6c2c16298bb6a980": {
+      "site_name": "日本語NET",
+      "url": "https://nihongokyoshi-net.com/2020/05/28/jlptn1-grammar-tatameshiganai/",
+      "title": "〜たためしがない",
+      "publisher": "日本語NET／ノッチ先生（既有运营者核实记录）",
+      "accessed_at": "2026-10-14",
+      "grammar_ids": [
+        "N1-G-0120"
+      ],
+      "locator": "意味・接続／例文1",
+      "evidence_path": "quizzes/sources/cache/9e7e6c2c16298bb6a980-f8dc7c16465f.txt",
+      "content_sha256": "f8dc7c16465f033b9a7c177e67b5afc0c4746d56c85024ea928cd0bf57c24854"
     }
   }
 }

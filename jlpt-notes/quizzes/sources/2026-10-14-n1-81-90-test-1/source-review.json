@@ -1,0 +1,77 @@
+{
+  "stage": "source",
+  "questions": [
+    {
+      "number": 1,
+      "status": "passed",
+      "reviewed_revision": 1,
+      "notes": "原例句在证据中逐字存在；名词接续、添加并强调后项一致。新增句明确两者优秀，四项解释符合当前语境，唯一解与首轮盲审一致。"
+    },
+    {
+      "number": 2,
+      "status": "passed",
+      "reviewed_revision": 2,
+      "notes": "定点复核通过：原例句及V辞书形接续、无需特意实施且可用更简单方法的意义有证据；transformations已明确心算句为基于已保存“更简单替代办法”说明所追加的AI情境，取消L84逐字原文声明。当前四项解析与修订后唯一解一致。"
+    },
+    {
+      "number": 3,
+      "status": "passed",
+      "reviewed_revision": 2,
+      "notes": "定点复核通过：原例句、辞书形接续及紧接事件意义有证据；选项4解析已承认V辞书形＋に先立って合法，并仅按看脸以前与目光相遇直后相反的时间关系排除，重复依据及preflight同步。题干选项未变化，锁定盲答和唯一解成立。"
+    },
+    {
+      "number": 4,
+      "status": "passed",
+      "reviewed_revision": 1,
+      "notes": "原例句逐字可追溯；まじき辞书形及身份不当行为谴责意义一致；仅挖空属于所声明派生操作，四项解释及唯一解通过。"
+    },
+    {
+      "number": 5,
+      "status": "passed",
+      "reviewed_revision": 1,
+      "notes": "原例句逐字可追溯；名词＋めく及めいた修饰名词一致；新增难辨真假句符合接近而不完全断定的意义。四项解释和唯一解通过。"
+    },
+    {
+      "number": 6,
+      "status": "passed",
+      "reviewed_revision": 1,
+      "notes": "定点复核通过：原例句、普通形＋ゆえに及文语因果意义有证据；选项2解析已取消までもなく仅接动作动词的过强限制，只按本句明确因果而非必要性判断排除，重复依据及preflight同步。题干选项未变化，锁定盲答和唯一解成立。"
+    },
+    {
+      "number": 7,
+      "status": "passed",
+      "reviewed_revision": 2,
+      "notes": "原例句逐字可追溯；辞书形接续和无其他手段的意义一致；补充无他人可求助、不能停止及独自完成决心记录完整。四项解释和修订唯一解通过。"
+    },
+    {
+      "number": 8,
+      "status": "passed",
+      "reviewed_revision": 1,
+      "notes": "原例句逐字可追溯；名词接续及表面附着污物意义一致；增补衣服手脚脏污与原意一致。避免だらけ作为干扰的记录合理，四项解释和唯一解通过。"
+    },
+    {
+      "number": 9,
+      "status": "passed",
+      "reviewed_revision": 2,
+      "notes": "原例句逐字可追溯；证据明确するべく与すべく均合法，转换记录真实；补句与时间先后干扰项解析一致。四项解释和修订唯一解通过。"
+    },
+    {
+      "number": 10,
+      "status": "passed",
+      "reviewed_revision": 1,
+      "notes": "原例句逐字可追溯；普通形接续、假想结果与现实对照的不满/遗憾一致；只挖空记录真实。四项解释及唯一解通过。"
+    }
+  ],
+  "evidence_scope": "读取draft声明的10个本地最小证据；均存在且包含原例句、接续和意义。未独立联网复取原网页。",
+  "blind_answers_unchanged": true,
+  "required_corrections": [],
+  "correction_review": {
+    "questions": [
+      2,
+      3,
+      6
+    ],
+    "status": "passed",
+    "scope": "仅复核来源记录及解析校正，未重做其他已通过题的审查，未改动盲审答案。"
+  }
+}

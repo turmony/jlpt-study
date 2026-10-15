@@ -1,0 +1,46 @@
+[
+  {
+    "grammar_id": "N1-G-0102",
+    "url": "https://mainichi-nonbiri.com/grammar/n1-ninai/",
+    "site_name": "毎日のんびり日本語教師",
+    "publisher": "毎日のんびり日本語教師",
+    "accessed_at": "2026-10-14",
+    "evidence_path": "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-102.txt",
+    "content_sha256": "2b312e27cf05579b144cde18f6754bae4e6b2b026d048f099e0d33b1d135e8fc",
+    "authorization": "学習者：101-110语法 允许使用外部信息。",
+    "cache_note": "source_cache.py仅接收日本語NET；授权补充站点证据独立保存并核对SHA-256，不绕过或修改该脚本。"
+  },
+  {
+    "grammar_id": "N1-G-0103",
+    "url": "https://mainichi-nonbiri.com/grammar/n1-izen/",
+    "site_name": "毎日のんびり日本語教師",
+    "publisher": "毎日のんびり日本語教師",
+    "accessed_at": "2026-10-14",
+    "evidence_path": "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-103.txt",
+    "content_sha256": "4fa7127e287aade8a6246fa7419dc59666111aae8bd410067f103773070e5f9d",
+    "authorization": "学習者：101-110语法 允许使用外部信息。",
+    "cache_note": "source_cache.py仅接收日本語NET；授权补充站点证据独立保存并核对SHA-256，不绕过或修改该脚本。"
+  },
+  {
+    "grammar_id": "N1-G-0108",
+    "url": "https://mainichi-nonbiri.com/grammar/n1-bekushite/",
+    "site_name": "毎日のんびり日本語教師",
+    "publisher": "毎日のんびり日本語教師",
+    "accessed_at": "2026-10-14",
+    "evidence_path": "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-108.txt",
+    "content_sha256": "d6529a910e3c457a2d7119aea8d533f932bf8cffde34e0838a355c242988c092",
+    "authorization": "学習者：101-110语法 允许使用外部信息。",
+    "cache_note": "source_cache.py仅接收日本語NET；授权补充站点证据独立保存并核对SHA-256，不绕过或修改该脚本。"
+  },
+  {
+    "grammar_id": "N1-G-0110",
+    "url": "https://mainichi-nonbiri.com/grammar/n1-nowoiikotoni/",
+    "site_name": "毎日のんびり日本語教師",
+    "publisher": "毎日のんびり日本語教師",
+    "accessed_at": "2026-10-14",
+    "evidence_path": "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-110.txt",
+    "content_sha256": "901607086cb441f1571018d969c3a2363e0dd8cf2c77a4ace1bd72fa22685e80",
+    "authorization": "学習者：101-110语法 允许使用外部信息。",
+    "cache_note": "source_cache.py仅接收日本語NET；授权补充站点证据独立保存并核对SHA-256，不绕过或修改该脚本。"
+  }
+]

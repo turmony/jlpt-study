@@ -1,0 +1,19 @@
+{
+  "stage": "blind",
+  "round": 1,
+  "paper": "/tmp/n1-81-90-preview/quizzes/papers/2026-10-14-n1-81-90-test-1.md",
+  "questions": [
+    {"number":1,"answer":1,"confidence":0.99,"unique":true,"natural":true,"reason":"两方面都优秀，尤其后项突出，用もさることながら；見た目も優れている排除にひきかえ的相反对照；其余不表达添加。"},
+    {"number":2,"answer":3,"confidence":0.97,"unique":false,"natural":true,"alternative_answers":[1],"reason":"简单可心算，までもない最合通常意图。但べからず可合法读作教师或出题者禁止使用计算器，后句也能支持禁令理由，题干未排除。"},
+    {"number":3,"answer":2,"confidence":0.96,"unique":false,"natural":true,"alternative_answers":[3],"reason":"一见脸即哭用や否や。但見るまでもなく可表示脸还不必看便哭，尚未说话与突然并不能排除此读法。べく目的关系不合，先立って规划性不自然。"},
+    {"number":4,"answer":4,"confidence":0.99,"unique":true,"natural":true,"reason":"教師としてあるまじき行為批评不符合教师身份的暴力；あるべき意义相反，另两项不形成合乎题干的批评。"},
+    {"number":5,"answer":4,"confidence":0.98,"unique":true,"natural":true,"reason":"冗談めいた言い方表示带玩笑样子，合乎难辨真假。に即した需要依据或准则，裸冗談不自然；に先立つ不表示外观，を禁じ得ない接续失当。"},
+    {"number":6,"answer":4,"confidence":0.99,"unique":true,"natural":true,"reason":"经济实力吸引就业构成因果，ゆえに自然；ものを反事实遗憾不合，までもなく和べく无法表达题干确认的因果。"},
+    {"number":7,"answer":1,"confidence":0.85,"unique":false,"natural":true,"alternative_answers":[2],"reason":"までのことです表示大不了独干；までもありません也自然，表示没人帮就不必独自承担任务。未说明必须完成任务或说话人的坚持态度，两个立场均成立。"},
+    {"number":8,"answer":2,"confidence":0.99,"unique":true,"natural":true,"reason":"泥附着在身上衣服用まみれ；泥ずくめ搭配不自然，抜き和がち不表达题干所说全身脏污。"},
+    {"number":9,"answer":2,"confidence":0.87,"unique":false,"natural":true,"alternative_answers":[4],"reason":"べく表示确保地点的目的；ことなく也自然，表示尚未预先确保地点便动身，现实情境合理，题干未明示出发目的。までもなく也存在弱读风险。"},
+    {"number":10,"answer":3,"confidence":0.98,"unique":true,"natural":true,"reason":"沉默本可避免暴露却说了，用ものを表达反事实遗憾和抱怨。其他因果形式不能自然连接当前追问。"}
+  ],
+  "required_revisions": [2,3,7,9],
+  "source_material_read": false
+}

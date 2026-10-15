@@ -1,0 +1,23 @@
+出典：日本語NET「〖JLPT N１〗文法・例文：〜ないまでも」
+URL：https://nihongokyoshi-net.com/2019/07/17/jlptn1-grammar-naimademo/
+アクセス日：2026-10-12
+位置：意味・接続・備考及び例文
+
+## 文型：〜ないまでも
+
+[意味]
+〜という程度には達しないが
+
+[英訳]
+"Although it doesn't reach the level of 〜"
+Used to indicate that while something may not reach a certain level or extent, it still somewhat meets a certain standard or condition.
+
+[接続]
+V（ナイ形）+ までも
+
+[JLPT レベル]
+N1
+
+[備考]
+後件には「少なくとも」、「せめて」といった言葉がよく使われる。
+毎日とは言わないまでも、週に１回ぐらいは掃除して欲しい。

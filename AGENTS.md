@@ -40,4 +40,10 @@ Python 一律通过 uv 执行：`uv run python <脚本>`。本机 PATH 中没有
 正式作答以 `jlpt-notes/quizzes/web/submissions/<submission_id>.json` 和对应 `.txt` 提供，
 保留用户的原始答案。原有 `handoff` 路径仅供旧流程参考；无需创建交接文件，
 网页不会用交接文件中的文字代替或追加智能体回复。
+
+出卷仍按资料库原有 skill 落盘：试卷写入 `jlpt-notes/quizzes/papers/<slug>.md`，
+答案写入 `jlpt-notes/quizzes/answers/<slug>-answers.md`，最终清单写入
+`jlpt-notes/quizzes/sources/<slug>/manifest.json`。网页在本轮结束后自动登记新增试卷，
+无需额外交接文件；有可用清单时提供在线作答，否则保留试卷 Markdown 原文供查看。
+不要仅在聊天中声明试卷已生成，完成回复中给出实际试卷文件路径。
 <!-- jlpt-web-workflow:end -->
