@@ -1,0 +1,14 @@
+{
+  "stage":"blind",
+  "round":2,
+  "paper":"/tmp/n1-81-90-revised-paper.md",
+  "questions":[
+    {"number":2,"answer":3,"confidence":0.99,"unique":true,"natural":true,"reason":"简单计算且心算立刻能得答案，表示无需动用计算器，选までもない。ほかない表示别无办法，与心算可行直接矛盾。までのことだ与に限る分别表示仅需如此和最佳办法，均不合以计算简单、可立即心算为理由的语境。原来的禁止语气歧义已经删除。"},
+    {"number":3,"answer":2,"confidence":0.99,"unique":true,"natural":true,"reason":"明确目光相遇直后才哭，や否や表达先看见脸、紧接着哭。に先立って表示看见脸之前，与直后矛盾。べく不合婴儿哭泣与看脸的目的关系；にひきかえ不能以当前接续自然构成所需时间关系。"},
+    {"number":7,"answer":1,"confidence":0.99,"unique":true,"natural":true,"reason":"无他人可求助且不可放弃，并明确必将独自完成，までのことです准确表达大不了独干的决心。までもありません的无需做与后续决心冲突。べくです和や否やです不能自然作当前句末述语。补充语境稍详细，但完整自然。"},
+    {"number":9,"answer":2,"confidence":0.99,"unique":true,"natural":true,"reason":"出发时尚未确保地点，べく说明赴公园的目的，前后同为若手社員。やいなや和なり都要求确保地点之后立即动身，均与补句矛盾；まじき表达不应确保地点并且修饰用法不合当前位置。"}
+  ],
+  "required_revisions":[],
+  "source_material_read":false,
+  "previously_passed_questions":[1,4,5,6,8,10]
+}

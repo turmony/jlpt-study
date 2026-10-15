@@ -1,0 +1,47 @@
+{
+  "paper_id": "2026-10-12-n1-41-50-test-1",
+  "id": "08f4c366-553d-4f3a-bf9d-61ef324471bb",
+  "answers": {
+    "1": {
+      "answer": "1",
+      "uncertain": false
+    },
+    "2": {
+      "answer": "3",
+      "uncertain": false
+    },
+    "3": {
+      "answer": "4",
+      "uncertain": false
+    },
+    "4": {
+      "answer": "1",
+      "uncertain": false
+    },
+    "5": {
+      "answer": "3",
+      "uncertain": false
+    },
+    "6": {
+      "answer": "1",
+      "uncertain": false
+    },
+    "7": {
+      "answer": "3",
+      "uncertain": false
+    },
+    "8": {
+      "answer": "1",
+      "uncertain": false
+    },
+    "9": {
+      "answer": "4",
+      "uncertain": false
+    },
+    "10": {
+      "answer": "2",
+      "uncertain": false
+    }
+  },
+  "time": 1791793774.395164
+}

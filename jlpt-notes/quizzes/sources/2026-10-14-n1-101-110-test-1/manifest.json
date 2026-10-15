@@ -1,0 +1,912 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-14-n1-101-110-test-1",
+    "title": "N1 第101–110条语法乱序练习（10道单选题）",
+    "date": "2026-10-14",
+    "level": "N1",
+    "suggested_minutes": 12
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N1-Q-0071",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "途中で仕事を投げ出すなんて、無責任（　）。",
+      "translation": "中途把工作扔下不管，实在太不负责任了。",
+      "tested_cards": [
+        "N1-G-0107"
+      ],
+      "conjugation": "な形容词词干＋にもほどがある(程がある)。",
+      "options": {
+        "1": "をものともせず",
+        "2": "ならまだしも",
+        "3": "を禁じ得ない",
+        "4": "にもほどがある"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。指出中途丢下工作过于不负责任，已经超出可容许限度。",
+      "option_explanations": {
+        "1": "表示不把障碍放在眼里，通常接续后续行动；这里并非克服无责任感取得成果。",
+        "2": "表示前项还可容忍并与更坏情况对比，这里没有后续对比，且说话人正严厉批评当前行为。",
+        "3": "用于压抑不住的情绪，如同情或愤怒；「無責任」不是自然涌起而无法克制的情感名词。",
+        "4": "正确。指出中途丢下工作过于不负责任，已经超出可容许限度。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜にもほどがある",
+        "url": "https://nihongokyoshi-net.com/2019/11/21/jlptn1-grammar-nimohodogaaru/",
+        "locator": "文型・例文",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/e0306146be9c15e6a63a-ef79166839e6.txt"
+        ],
+        "original_example": "途中で仕事を投げ出すなんて、無責任にもほどがある。",
+        "transformations": [
+          "将原例句的目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "\"〜にも限界がある\"\n相手の行為が限度を超えていて、それを非難する際に使う。\nナA + にもほどがある\nN + にもほどがある；な形容词词干＋にもほどがある(程がある)。",
+        "distractor_basis": [
+          "1. 表示不把障碍放在眼里，通常接续后续行动；这里并非克服无责任感取得成果。",
+          "2. 表示前项还可容忍并与更坏情况对比，这里没有后续对比，且说话人正严厉批评当前行为。",
+          "3. 用于压抑不住的情绪，如同情或愤怒；「無責任」不是自然涌起而无法克制的情感名词。",
+          "4. 正确。指出中途丢下工作过于不负责任，已经超出可容许限度。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "な形容词词干＋にもほどがある(程がある)。",
+        "semantic_exclusion": "1：表示不把障碍放在眼里，通常接续后续行动；这里并非克服无责任感取得成果。；2：表示前项还可容忍并与更坏情况对比，这里没有后续对比，且说话人正严厉批评当前行为。；3：用于压抑不住的情绪，如同情或愤怒；「無責任」不是自然涌起而无法克制的情感名词。",
+        "unique_answer_rationale": "正确。指出中途丢下工作过于不负责任，已经超出可容许限度。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "4『無責任にもほどがある』自然地谴责半途抛下工作的行为太不负责任。1『をものともせず』表示不把障碍放在眼里，既与无责任这一评价不搭配，句尾也缺少主句。2『ならまだしも』需要后续更不可接受的情况，不能在此结束。3『を禁じ得ない』通常接感情名词，如怒り・同情・失望；無責任不是这里可以抑制不住的感情。唯一解为4，未发现虚构形式或不自然题干。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于日本語NET指定证据；填回4后正文与原例句完全一致，仅挖空目标语法。原站对超越限度及非难的讲解和ナA接续支持答案，四项解析均成立，唯一解4。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N1-Q-0072",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼の仕草がとても面白かったが、周囲は真剣に聞いているので私は（　）。",
+      "translation": "他的举止非常滑稽，但周围的人都在认真听，我想笑也笑不出来。",
+      "tested_cards": [
+        "N1-G-0102"
+      ],
+      "conjugation": "动词辞书形＋に＋同一动词可能形否定：笑うに笑えない。",
+      "options": {
+        "1": "笑ってばかりいた",
+        "2": "笑うに笑えなかった",
+        "3": "笑いさえすればよかった",
+        "4": "笑ったに違いない"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。「笑うに笑えなかった」表示虽想笑，却受当时气氛等因素限制而笑不出来。",
+      "option_explanations": {
+        "1": "表示一直在笑，与周围认真倾听因而自己不便笑出来的因果关系不合。",
+        "2": "正确。「笑うに笑えなかった」表示虽想笑，却受当时气氛等因素限制而笑不出来。",
+        "3": "表示只要笑就能满足某个条件，并带有本可如此的意思；这里不是通过笑来解决问题。",
+        "4": "表示推断某人一定笑了；主语「私は」正在说明本人受气氛限制的经历，不是在推断已笑出来。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ１文法】～に～ない",
+        "url": "https://mainichi-nonbiri.com/grammar/n1-ninai/",
+        "locator": "接続・解説と採用原例文（全文）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-102.txt"
+        ],
+        "original_example": "彼の仕草がとても面白かったが、周囲は真剣に聞いているので私は笑うに笑えなかった。",
+        "transformations": [
+          "将目标语法挖空并设置四个选项。"
+        ],
+        "answer_basis": "したいけど何らかの理由でできないことを表します。心理的な理由の場合に使いやすいです。\n話者の「本当はしたいけどできない」という気持ちを表すのが特徴です。\n後件は動詞可能形の否定形が接続されます。\n前件と後件の動詞は同じ動詞を用います。；动词辞书形＋に＋同一动词可能形否定：笑うに笑えない。",
+        "distractor_basis": [
+          "1. 表示一直在笑，与周围认真倾听因而自己不便笑出来的因果关系不合。",
+          "2. 正确。「笑うに笑えなかった」表示虽想笑，却受当时气氛等因素限制而笑不出来。",
+          "3. 表示只要笑就能满足某个条件，并带有本可如此的意思；这里不是通过笑来解决问题。",
+          "4. 表示推断某人一定笑了；主语「私は」正在说明本人受气氛限制的经历，不是在推断已笑出来。"
+        ],
+        "external_source_exception": "学習者：101-110语法 允许使用外部信息。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋に＋同一动词可能形否定：笑うに笑えない。",
+        "semantic_exclusion": "1：表示一直在笑，与周围认真倾听因而自己不便笑出来的因果关系不合。；3：表示只要笑就能满足某个条件，并带有本可如此的意思；这里不是通过笑来解决问题。；4：表示推断某人一定笑了；主语「私は」正在说明本人受气氛限制的经历，不是在推断已笑出来。",
+        "unique_answer_rationale": "正确。「笑うに笑えなかった」表示虽想笑，却受当时气氛等因素限制而笑不出来。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "2『笑うに笑えなかった』表示虽然觉得好笑，却因旁人认真倾听而想笑也不能笑，因果和转折均自然。1『笑ってばかりいた』表示一直笑，不能自然承接以周围认真倾听为原因的『ので』。3『笑いさえすればよかった』表示只需笑便好或早知笑就好，缺少相应条件和后悔语境。4『笑ったに違いない』表示推断一定笑过，与叙述本人当时的心理抑制及既有因果不合。唯一解为2。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于毎日のんびり指定证据；填回2后与原例句完全一致。外部来源授权明确，摘录SHA-256与external-sources.json一致。心理原因导致想笑却不能笑、前后同一动词和后项可能否定均有讲解支持；全部干扰项排除理由合理，唯一解2。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N1-Q-0073",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "１０分（　）、１時間なんて待てませんよ。",
+      "translation": "等十分钟倒还可以，等一个小时可受不了。",
+      "tested_cards": [
+        "N1-G-0109"
+      ],
+      "conjugation": "时间数量名词＋ならまだしも，后项提出更难接受的情况。",
+      "options": {
+        "1": "ならまだしも",
+        "2": "を皮切りに",
+        "3": "にもまして",
+        "4": "をよそに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。承认十分钟尚在可接受范围内，再否定一个小时。",
+      "option_explanations": {
+        "1": "正确。承认十分钟尚在可接受范围内，再否定一个小时。",
+        "2": "表示以某件事为开端接连开展同类事件，十分钟与一小时在这里是容忍程度的对比。",
+        "3": "表示程度比前项更高，不用于构成「十分钟还行、一个小时无法容忍」这种让步对照。",
+        "4": "表示不顾某情况或相关者的情绪，不能表达等待时长的容忍边界。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N２】文法・例文：〜はまだしも / 〜ならまだしも",
+        "url": "https://nihongokyoshi-net.com/2019/06/03/jlptn2-grammar-madashimo/",
+        "locator": "文型・例文",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/7d940cbd99277044baa4-43d821836f0e.txt"
+        ],
+        "original_example": "１０分ならまだしも、１時間なんて待てませんよ。",
+        "transformations": [
+          "将原例句的目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "〜なら少しはいいが / 〜はまだ許容範囲であるが\nNは + まだしも\nNなら + まだしも\n[JLPT レベル]\nN2；时间数量名词＋ならまだしも，后项提出更难接受的情况。",
+        "distractor_basis": [
+          "1. 正确。承认十分钟尚在可接受范围内，再否定一个小时。",
+          "2. 表示以某件事为开端接连开展同类事件，十分钟与一小时在这里是容忍程度的对比。",
+          "3. 表示程度比前项更高，不用于构成「十分钟还行、一个小时无法容忍」这种让步对照。",
+          "4. 表示不顾某情况或相关者的情绪，不能表达等待时长的容忍边界。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "时间数量名词＋ならまだしも，后项提出更难接受的情况。",
+        "semantic_exclusion": "2：表示以某件事为开端接连开展同类事件，十分钟与一小时在这里是容忍程度的对比。；3：表示程度比前项更高，不用于构成「十分钟还行、一个小时无法容忍」这种让步对照。；4：表示不顾某情况或相关者的情绪，不能表达等待时长的容忍边界。",
+        "unique_answer_rationale": "正确。承认十分钟尚在可接受范围内，再否定一个小时。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "1『10分ならまだしも、1時間なんて待てませんよ』把尚可容忍的十分钟与不可容忍的一小时对比，自然成立。2『を皮切りに』表示以某事件为开端展开一系列活动，十分钟与不能等一小时不构成该关系。3『にもまして』表示比前者更加，不能表达这里等待时长的容忍界限，且缺少相应比较谓语。4『をよそに』表示无视某种情况或不受其影响，与两段时长的比较不合。唯一解为1。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于日本語NET指定证据；填回1后与原例句完全一致。名词＋ならまだしも和容忍范围的讲解支持十分钟与一小时的对比，四项解析成立，唯一解1。原站N2与本地N1-G-0109范围的差异已保留，没有篡改来源等级。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N1-Q-0074",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "もちろん、安く買えるほうがいいが、安かったら安かった（　）、少し不安になる。",
+      "translation": "当然能便宜买到比较好，但真便宜了，又会有点不放心。",
+      "tested_cards": [
+        "N1-G-0104"
+      ],
+      "conjugation": "い形容词かったら＋同一形容词かった＋で。",
+      "options": {
+        "1": "に",
+        "2": "を",
+        "3": "で",
+        "4": "が"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。「安かったら安かったで」表示真便宜了也会有相应的不安；重复的第二项后用「で」。",
+      "option_explanations": {
+        "1": "「に」不构成「安かったら安かったで」的固定重复条件表达。",
+        "2": "「を」不能连接这里的重复条件与后项评价。",
+        "3": "正确。「安かったら安かったで」表示真便宜了也会有相应的不安；重复的第二项后用「で」。",
+        "4": "「が」构成的「安かったら安かったが」不能替代「たら～たで」；后项不是对既成过去事实作普通转折。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜たら〜たで",
+        "url": "https://nihongokyoshi-net.com/2020/06/02/jlptn1-grammar-tara-tade/",
+        "locator": "文型・例文",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/47d958cc5e499332fa21-3ee0c1043622.txt"
+        ],
+        "original_example": "もちろん、安く買えるほうがいいが、安かったら安かったで少し不安になる。",
+        "transformations": [
+          "仅将「安かったら安かったで」中的「で」挖空，用四个真实助词检验固定接续。",
+          "在目标语法之后增加逗号便于阅读，语义不变。"
+        ],
+        "answer_basis": "〜の場合は、当然・・・すべきだ / 〜の場合は、必ず・・・という結果になる\nV（タ形）+ ら ＋ V（タ形） ＋ で\nNなら ＋ N ＋ で\n※同じ単語を繰り返して使う。；い形容词かったら＋同一形容词かった＋で。",
+        "distractor_basis": [
+          "1. 「に」不构成「安かったら安かったで」的固定重复条件表达。",
+          "2. 「を」不能连接这里的重复条件与后项评价。",
+          "3. 正确。「安かったら安かったで」表示真便宜了也会有相应的不安；重复的第二项后用「で」。",
+          "4. 「が」构成的「安かったら安かったが」不能替代「たら～たで」；后项不是对既成过去事实作普通转折。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "い形容词かったら＋同一形容词かった＋で。",
+        "semantic_exclusion": "1：「に」不构成「安かったら安かったで」的固定重复条件表达。；2：「を」不能连接这里的重复条件与后项评价。；4：「が」构成的「安かったら安かったが」不能替代「たら～たで」；后项不是对既成过去事实作普通转折。",
+        "unique_answer_rationale": "正确。「安かったら安かったで」表示真便宜了也会有相应的不安；重复的第二项后用「で」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "3构成『安かったら安かったで』，表示便宜固然好，但真的便宜又会产生相应的不安，与前后文吻合。1『安かったに』、2『安かったを』均不能直接接在该形容词过去式后构成本句所需的表达。4『安かったが』本身可以构成普通逆接，但放进『安かったら安かったが、少し不安になる』会使条件句、重复断言与一般状态的关系失去自然衔接，并非本句可替换的自然答案。唯一自然解为3，『たら～たで』形式真实。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于日本語NET指定证据；原例句直接证明い形容词『安かったら安かったで』的用法，接续与语义说明合理，四项解析成立，唯一解3。复核确认transformations已补记目标语法后增加逗号，来源改动记录完整。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N1-Q-0075",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "顔が見えない（　）、ひどいことを言う人は卑怯だ。",
+      "translation": "利用别人看不到自己的脸这一点，说过分话的人很卑鄙。",
+      "tested_cards": [
+        "N1-G-0110"
+      ],
+      "conjugation": "动词普通形＋のをいいことに。",
+      "options": {
+        "1": "のを皮切りに",
+        "2": "のをいいことに",
+        "3": "ことを禁じ得ず",
+        "4": "のをものともせず"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。把别人看不到脸当作对自己有利的条件，趁机说过分的话，体现批评。",
+      "option_explanations": {
+        "1": "表示以某事为开端接连展开同类活动；这里是利用匿名状态说恶言，没有系列活动的展开。",
+        "2": "正确。把别人看不到脸当作对自己有利的条件，趁机说过分的话，体现批评。",
+        "3": "用于某种感情难以抑制；别人看不到脸是一种状态，不是无法抑制的情感。",
+        "4": "表示克服障碍或困难；看不到脸在此被当作可利用的有利条件，不是须克服的障碍。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ１文法】～のをいいことに／ことをいいことに",
+        "url": "https://mainichi-nonbiri.com/grammar/n1-nowoiikotoni/",
+        "locator": "接続・解説と採用原例文（全文）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-110.txt"
+        ],
+        "original_example": "顔見えないのをいいことにひどいこと言う人は卑怯だ。",
+        "transformations": [
+          "将目标语法挖空并设置四个选项。",
+          "原例句口语省略了助词，题干补入「が」「を」，其余意义不变。",
+          "在目标语法之后增加逗号便于阅读，语义不变。"
+        ],
+        "answer_basis": "動詞普通形＋のをいいことに\nイ形普通形＋のをいいことに\nナ形語幹＋なのをいいことに\n名詞＋なのをいいことに\n（名詞＋をいいことに）\n～の状況を利用して；动词普通形＋のをいいことに。",
+        "distractor_basis": [
+          "1. 表示以某事为开端接连展开同类活动；这里是利用匿名状态说恶言，没有系列活动的展开。",
+          "2. 正确。把别人看不到脸当作对自己有利的条件，趁机说过分的话，体现批评。",
+          "3. 用于某种感情难以抑制；别人看不到脸是一种状态，不是无法抑制的情感。",
+          "4. 表示克服障碍或困难；看不到脸在此被当作可利用的有利条件，不是须克服的障碍。"
+        ],
+        "external_source_exception": "学習者：101-110语法 允许使用外部信息。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词普通形＋のをいいことに。",
+        "semantic_exclusion": "1：表示以某事为开端接连展开同类活动；这里是利用匿名状态说恶言，没有系列活动的展开。；3：用于某种感情难以抑制；别人看不到脸是一种状态，不是无法抑制的情感。；4：表示克服障碍或困难；看不到脸在此被当作可利用的有利条件，不是须克服的障碍。",
+        "unique_answer_rationale": "正确。把别人看不到脸当作对自己有利的条件，趁机说过分的话，体现批评。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "2『顔が見えないのをいいことに』表示利用别人看不到自己脸这一有利条件说难听话，与『卑怯だ』的谴责一致。1『のを皮切りに』要求以事件为起点展开后续系列，脸不可见的状态并非此处起点。3『ことを禁じ得ず』与脸看不见这一事实不构成抑制不住的感情关系。4『のをものともせず』把脸不可见当作需要克服的障碍，与本句利用匿名条件攻击他人的情境相反。唯一解为2；『のをいいことに』接续自然。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于毎日のんびり指定证据，且外部来源授权及SHA-256均核对通过。补入が、を及目标语法后新增逗号均已声明。负面行为和卑怯的评价支持利用匿名条件的解释，四项解析成立，唯一解2。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N1-Q-0076",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "急ぎの用事はないのだから、体調を優先しましょう。疲れている時には、ゆっくり休む（　）。",
+      "translation": "既然没有急事，就优先考虑身体状况吧。累的时候，最好好好休息。",
+      "tested_cards": [
+        "N1-G-0106"
+      ],
+      "conjugation": "动词辞书形＋にこしたことはありません(越したことはありません)。",
+      "options": {
+        "1": "わけにはいきません",
+        "2": "どころではありません",
+        "3": "にもほどがあります",
+        "4": "に越したことはありません"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。从常识角度提出最好好好休息的建议，而非强制义务。",
+      "option_explanations": {
+        "1": "表示由于责任或情况不能休息，与没有急事并优先照顾身体的建议相反。",
+        "2": "表示处境不允许休息或顾不上休息，与本句明确的休息建议不符。",
+        "3": "批评休息过度；题干只说疲劳应照顾身体，并未给出休息过量的事实。",
+        "4": "正确。从常识角度提出最好好好休息的建议，而非强制义务。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N２】文法・例文：〜に越したことはない",
+        "url": "https://nihongokyoshi-net.com/2019/05/10/jlptn2-grammar-nikoshitakotowanai/",
+        "locator": "文型・例文",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/b73d8a14c1b0a77f536c-69c8d5def2ad.txt"
+        ],
+        "original_example": "疲れている時には、ゆっくり休むに越したことはありません。",
+        "transformations": [
+          "将原例句的目标语法部分挖空并设置四个选项。",
+          "增加没有急事、应优先照顾身体的前提，锁定休息建议而非无法休息的处境。"
+        ],
+        "answer_basis": "常識的に考えて〜の方がいい。〜の方が安全だ。\nV（普通形）＋ に越したことはない\n[JLPT レベル]\nN2；动词辞书形＋にこしたことはありません(越したことはありません)。",
+        "distractor_basis": [
+          "1. 表示由于责任或情况不能休息，与没有急事并优先照顾身体的建议相反。",
+          "2. 表示处境不允许休息或顾不上休息，与本句明确的休息建议不符。",
+          "3. 批评休息过度；题干只说疲劳应照顾身体，并未给出休息过量的事实。",
+          "4. 正确。从常识角度提出最好好好休息的建议，而非强制义务。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋にこしたことはありません(越したことはありません)。",
+        "semantic_exclusion": "1：表示由于责任或情况不能休息，与没有急事并优先照顾身体的建议相反。；2：表示处境不允许休息或顾不上休息，与本句明确的休息建议不符。；3：批评休息过度；题干只说疲劳应照顾身体，并未给出休息过量的事实。",
+        "unique_answer_rationale": "正确。从常识角度提出最好好好休息的建议，而非强制义务。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "4『休むに越したことはありません』表示最好好好休息，与没有急事、优先身体状况这一明确建议一致。1『休むわけにはいきません』表示有社会或情理上的原因不能休息，违背题干已消除紧急事务并建议休养的前提。2『休むどころではありません』表示根本顾不上休息，同样违背前提。3『休むにもほどがあります』批评休息过度，题干没有过度休息的事实，且与建议方向相冲突。唯一解为4。",
+          "answer": "4",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于日本語NET指定证据。正文增加没有急事、优先体调的前提，已在transformations声明；其余填回后与原例句一致。原站常识性更好、更安全的讲解支持答案4，新增前提能排除不能休息及顾不上休息，过度休息的批评也无依据，四项解析充分。原站N2差异已保留。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N1-Q-0077",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "レポートを書ける書けない（　）問題で、そもそも考えがまとまっていない。",
+      "translation": "还谈不上能不能写出报告，首先是思路根本没有理清。",
+      "tested_cards": [
+        "N1-G-0103"
+      ],
+      "conjugation": "肯定形＋否定形＋いぜんの(以前の)＋問題。",
+      "options": {
+        "1": "以前の",
+        "2": "最中の",
+        "3": "途中の",
+        "4": "直後の"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。与其讨论写作能力，更前提的问题是尚未理清思路，属于「以前の問題」。",
+      "option_explanations": {
+        "1": "正确。与其讨论写作能力，更前提的问题是尚未理清思路，属于「以前の問題」。",
+        "2": "表示某动作正在进行之中；「能不能写」是能力判断，不是正在展开的动作阶段。",
+        "3": "表示某过程的中途，不能指出比写作能力更基础的思路问题。",
+        "4": "表示紧接在某事之后；这里强调的是前提尚未具备，并非写完之后的问题。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ１文法】～以前",
+        "url": "https://mainichi-nonbiri.com/grammar/n1-izen/",
+        "locator": "接続・解説と採用原例文（全文）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-103.txt"
+        ],
+        "original_example": "レポートを書ける書けない以前の問題でそもそも考えがまとまっていない。",
+        "transformations": [
+          "将目标语法挖空并设置四个选项。",
+          "增加一个逗号以便阅读，不改变原例句语义。"
+        ],
+        "answer_basis": "名詞＋以前\n名詞＋である以前\n～かどうか以前\n肯定形＋否定形＋以前\n取り上げるべき問題はそれではなく、それよりも前段階の問題であることを表す文型です。\n批判するときに用います。；肯定形＋否定形＋いぜんの(以前の)＋問題。",
+        "distractor_basis": [
+          "1. 正确。与其讨论写作能力，更前提的问题是尚未理清思路，属于「以前の問題」。",
+          "2. 表示某动作正在进行之中；「能不能写」是能力判断，不是正在展开的动作阶段。",
+          "3. 表示某过程的中途，不能指出比写作能力更基础的思路问题。",
+          "4. 表示紧接在某事之后；这里强调的是前提尚未具备，并非写完之后的问题。"
+        ],
+        "external_source_exception": "学習者：101-110语法 允许使用外部信息。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "肯定形＋否定形＋いぜんの(以前の)＋問題。",
+        "semantic_exclusion": "2：表示某动作正在进行之中；「能不能写」是能力判断，不是正在展开的动作阶段。；3：表示某过程的中途，不能指出比写作能力更基础的思路问题。；4：表示紧接在某事之后；这里强调的是前提尚未具备，并非写完之后的问题。",
+        "unique_answer_rationale": "正确。与其讨论写作能力，更前提的问题是尚未理清思路，属于「以前の問題」。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "1『書ける書けない以前の問題』表示尚未到讨论能否写报告的阶段，首先是思路没有理清的问题，与后句吻合。2『最中の』、3『途中の』、4『直後の』均表示某事件进行中或结束后的时间位置，而『書ける書けない』是对立的可能性表达，不是可处在过程中或结束后的一次事件；三者也无法表达更基础前提的问题。唯一解为1，题干自然。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于毎日のんびり指定证据，外部授权及SHA-256通过。除目标挖空外，新增逗号已准确声明。肯定形＋否定形＋以前及更基础阶段的讲解直接支持答案1；进行中、中途、刚结束均不能搭配本句的能力对立判断，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N1-Q-0078",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "これは無秩序な状態が招いた、起こる（　）起こった惨事だ。",
+      "translation": "这是混乱无序的状态招致的、必然会发生的惨剧。",
+      "tested_cards": [
+        "N1-G-0108"
+      ],
+      "conjugation": "动词辞书形＋べくして＋同一动词，常以后项た形叙述必然结果。",
+      "options": {
+        "1": "べく",
+        "2": "にしては",
+        "3": "べくして",
+        "4": "が早いか"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。前后重复「起こる」，表示具备发生的条件后，果然发生了预料之中的结果。",
+      "option_explanations": {
+        "1": "单独「べく」通常表示为实现某目的而行动；此处没有人以发生惨剧为目的采取行动。",
+        "2": "表示以某标准看结果出乎意料；「起こるにしては起こった」不能表达无序状态必然导致惨剧。",
+        "3": "正确。前后重复「起こる」，表示具备发生的条件后，果然发生了预料之中的结果。",
+        "4": "表示前一动作刚发生，另一动作立刻发生；这里重复的是同一次惨剧，不是两个动作的紧接。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ１文法】～べくして",
+        "url": "https://mainichi-nonbiri.com/grammar/n1-bekushite/",
+        "locator": "接続・解説と採用原例文（全文）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-101-110-test-1/mainichi-108.txt"
+        ],
+        "original_example": "これは無秩序な状態が招いた、起こるべくして起こった惨事だ。",
+        "transformations": [
+          "将目标语法挖空并设置四个选项。"
+        ],
+        "answer_basis": "動詞辞書形＋べくして＋動詞\n予想された事態が発生したことの必然性を表します。\n同じ動詞を２度使います。前項は辞書形で、後ろは過去形が来ることが多いです。；动词辞书形＋べくして＋同一动词，常以后项た形叙述必然结果。",
+        "distractor_basis": [
+          "1. 单独「べく」通常表示为实现某目的而行动；此处没有人以发生惨剧为目的采取行动。",
+          "2. 表示以某标准看结果出乎意料；「起こるにしては起こった」不能表达无序状态必然导致惨剧。",
+          "3. 正确。前后重复「起こる」，表示具备发生的条件后，果然发生了预料之中的结果。",
+          "4. 表示前一动作刚发生，另一动作立刻发生；这里重复的是同一次惨剧，不是两个动作的紧接。"
+        ],
+        "external_source_exception": "学習者：101-110语法 允许使用外部信息。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形＋べくして＋同一动词，常以后项た形叙述必然结果。",
+        "semantic_exclusion": "1：单独「べく」通常表示为实现某目的而行动；此处没有人以发生惨剧为目的采取行动。；2：表示以某标准看结果出乎意料；「起こるにしては起こった」不能表达无序状态必然导致惨剧。；4：表示前一动作刚发生，另一动作立刻发生；这里重复的是同一次惨剧，不是两个动作的紧接。",
+        "unique_answer_rationale": "正确。前后重复「起こる」，表示具备发生的条件后，果然发生了预料之中的结果。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "3『起こるべくして起こった』表示在无秩序的条件下灾祸必然发生，和『招いた』的原因评价一致。1『べく』单独使用主要表示目的或应当如此的意向；『起こるべく起こった惨事』不能自然表示无意志灾祸的必然结果。2『起こるにしては起こった』既缺少预期与实际不相称的评价，也不构成自然表述。4『起こるが早いか起こった』把同一灾祸的发生同时当作触发点与后续事件，无法构成『一……就……』的两个事件关系。唯一解为3。",
+          "answer": "3",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于毎日のんびり指定证据，填回3后与原例句完全一致；外部授权及SHA-256通过。同一动词重复、前项辞书形、后项常为过去式及必然结果均有明确讲解；其余三个真实形式无法构成本句的自然语义，四项解析成立，唯一解3。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N1-Q-0079",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "反対なら（　）、きちんとその理由を述べてください。",
+      "translation": "如果反对，那就请把反对的理由好好说明。",
+      "tested_cards": [
+        "N1-G-0105"
+      ],
+      "conjugation": "名词＋なら＋同一名词＋で，后项表达相应要求。",
+      "options": {
+        "1": "反対で",
+        "2": "反対にもかかわらず",
+        "3": "反対に限らず",
+        "4": "反対をよそに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。「反対なら反対で」重复同一名词，要求针对反对这一立场给出相应说明。",
+      "option_explanations": {
+        "1": "正确。「反対なら反対で」重复同一名词，要求针对反对这一立场给出相应说明。",
+        "2": "表示尽管反对却发生与之不符的事，而说明反对理由并不违背反对立场。",
+        "3": "表示不限于反对、还包括其他范围，不能自然表达既然反对就应作相应说明的要求。",
+        "4": "表示不理会反对意见；题干要求反对者自己说明其理由，并非忽视其他人的反对。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N１】文法・例文：〜たら〜たで",
+        "url": "https://nihongokyoshi-net.com/2020/06/02/jlptn1-grammar-tara-tade/",
+        "locator": "名詞なら名詞での接続・末尾例文",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/47d958cc5e499332fa21-3ee0c1043622.txt"
+        ],
+        "original_example": "反対なら反対で、きちんとその理由を述べてください。",
+        "transformations": [
+          "将原例句的目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "〜の場合は、当然・・・すべきだ / 〜の場合は、必ず・・・という結果になる\nNなら ＋ N ＋ で\n※同じ単語を繰り返して使う。；名词＋なら＋同一名词＋で，后项表达相应要求。",
+        "distractor_basis": [
+          "1. 正确。「反対なら反対で」重复同一名词，要求针对反对这一立场给出相应说明。",
+          "2. 表示尽管反对却发生与之不符的事，而说明反对理由并不违背反对立场。",
+          "3. 表示不限于反对、还包括其他范围，不能自然表达既然反对就应作相应说明的要求。",
+          "4. 表示不理会反对意见；题干要求反对者自己说明其理由，并非忽视其他人的反对。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋なら＋同一名词＋で，后项表达相应要求。",
+        "semantic_exclusion": "2：表示尽管反对却发生与之不符的事，而说明反对理由并不违背反对立场。；3：表示不限于反对、还包括其他范围，不能自然表达既然反对就应作相应说明的要求。；4：表示不理会反对意见；题干要求反对者自己说明其理由，并非忽视其他人的反对。",
+        "unique_answer_rationale": "正确。「反対なら反対で」重复同一名词，要求针对反对这一立场给出相应说明。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "1『反対なら反対で』表示既然反对，就应说明相应理由，重复名词后的『で』接续自然。2『反対なら反対にもかかわらず』把反对本身同时作为条件与让步，不能自然引出说明反对理由的要求。3『反対に限らず』需要进一步扩展到赞成等其他范围，此处只有反对时说明其理由，不支持该范围扩大。4『反対をよそに』表示无视反对而采取行动，不能表达反对者应该说明理由。唯一解为1，未发现多解。",
+          "answer": "1",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于日本語NET与第4题共用的指定证据；填回1后与原例句完全一致。来源页面虽题名为たら～たで，但明确列Nなら＋N＋で，且该原例句直接支持N1-G-0105所考察的相应要求。四项解析正确，未因页面题名而错配语法，唯一解1。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N1-Q-0080",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "先ほど戻ってきた経緯を説明します。システムトラブルが起こったと聞いて、急いで戻ってきた（　）。",
+      "translation": "说明刚才回来的经过：听说系统发生故障，所以急忙赶了回来。",
+      "tested_cards": [
+        "N1-G-0101"
+      ],
+      "conjugation": "动词普通形＋しだいです(次第です)，在此使用た形说明事由。",
+      "options": {
+        "1": "わけがありません",
+        "2": "次第です",
+        "3": "とは限りません",
+        "4": "ものではありません"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。「次第です」在此说明听到故障消息后赶回来的事由和经过，并非表示取决于某条件。",
+      "option_explanations": {
+        "1": "否定自己已经回来的事实，与开头说明已回来的经过相矛盾。",
+        "2": "正确。「次第です」在此说明听到故障消息后赶回来的事由和经过，并非表示取决于某条件。",
+        "3": "表示不一定如此，无法作为本人对已经发生的赶回行为的经过说明。",
+        "4": "通常否定应当进行某种行为或表达不适宜；这里是说明自己已实际返回的经过，没有劝诫含义。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "【JLPT N２】文法・例文：〜次第だ / 〜次第で",
+        "url": "https://nihongokyoshi-net.com/2019/05/16/jlptn2-grammar-shidaida/",
+        "locator": "文型２・例文２",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/e1e29064033711aa8525-f2eea26c985d.txt"
+        ],
+        "original_example": "システムトラブルが起こったと聞いて、急いで戻ってきた次第です。",
+        "transformations": [
+          "将原例句的目标语法部分挖空并设置四个选项。",
+          "在原例句前增加「先ほど戻ってきた経緯を説明します。」明确本人已实际返回且正在说明经过。"
+        ],
+        "answer_basis": "〜わけだ / 〜という事情だ\nV（普通形）+ 次第だ\n[JLPT レベル]\nN2；动词普通形＋しだいです(次第です)，在此使用た形说明事由。",
+        "distractor_basis": [
+          "1. 否定自己已经回来的事实，与开头说明已回来的经过相矛盾。",
+          "2. 正确。「次第です」在此说明听到故障消息后赶回来的事由和经过，并非表示取决于某条件。",
+          "3. 表示不一定如此，无法作为本人对已经发生的赶回行为的经过说明。",
+          "4. 通常否定应当进行某种行为或表达不适宜；这里是说明自己已实际返回的经过，没有劝诫含义。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词普通形＋しだいです(次第です)，在此使用た形说明事由。",
+        "semantic_exclusion": "1：否定自己已经回来的事实，与开头说明已回来的经过相矛盾。；3：表示不一定如此，无法作为本人对已经发生的赶回行为的经过说明。；4：通常否定应当进行某种行为或表达不适宜；这里是说明自己已实际返回的经过，没有劝诫含义。",
+        "unique_answer_rationale": "正确。「次第です」在此说明听到故障消息后赶回来的事由和经过，并非表示取决于某条件。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "2『急いで戻ってきた次第です』正式说明听到系统故障后返回的经过，直接呼应首句『戻ってきた経緯を説明します』。1『わけがありません』否定已明确发生的返回。3『とは限りません』将返回说成不一定，不能自然说明本人已经返回的经过。4『ものではありません』用于一般性劝诫、禁止或性质判断，不是这里说明实际经过的句尾。唯一解为2，语体自然。",
+          "answer": "2",
+          "confidence": "high"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-101-110",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字存在于日本語NET指定证据；增加说明已返回经过的前文已准确声明，原例句主体无其他改动。所引用的是说明事情缘由的次第だ义项，并非取决于的义项；普通形接续、答案解释和四项排除均成立，唯一解2。原站N2与本地N1-G-0101差异已正确保留。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "selection",
+        "started_at": "2026-10-14T11:45:11+00:00",
+        "ended_at": "2026-10-14T11:45:25+00:00",
+        "duration_seconds": 14.779,
+        "metrics": {
+          "cards": 11,
+          "cache_lookups": 11
+        }
+      },
+      {
+        "name": "search",
+        "started_at": "2026-10-14T11:45:25+00:00",
+        "ended_at": "2026-10-14T11:47:25+00:00",
+        "duration_seconds": 120.63,
+        "metrics": {
+          "search_calls": 3,
+          "direct_sources_found": 6,
+          "cards_covered": 7,
+          "source_gaps": 4
+        }
+      },
+      {
+        "name": "draft",
+        "started_at": "2026-10-14T11:47:25+00:00",
+        "ended_at": "2026-10-14T11:49:08+00:00",
+        "duration_seconds": 103.343,
+        "metrics": {
+          "internal_questions": 7,
+          "unresolved_source_cards": 4
+        }
+      },
+      {
+        "name": "scrape",
+        "started_at": "2026-10-14T11:59:24+00:00",
+        "ended_at": "2026-10-14T12:01:33+00:00",
+        "duration_seconds": 129.916,
+        "metrics": {
+          "additional_pages": 4,
+          "locator_opens": 2
+        }
+      },
+      {
+        "name": "preflight",
+        "started_at": "2026-10-14T12:01:34+00:00",
+        "ended_at": "2026-10-14T12:01:34+00:00",
+        "duration_seconds": 0.189,
+        "metrics": {
+          "validation_calls": 1
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-14T12:01:34+00:00",
+        "ended_at": "2026-10-14T12:01:34+00:00",
+        "duration_seconds": 0.004,
+        "metrics": {
+          "mode": "preview",
+          "files": 13
+        }
+      },
+      {
+        "name": "blind_review",
+        "started_at": "2026-10-14T12:01:34+00:00",
+        "ended_at": "2026-10-14T12:04:53+00:00",
+        "duration_seconds": 199.314,
+        "metrics": {
+          "blind_calls": 1,
+          "source_calls": 1,
+          "record_rechecks": 1,
+          "questions_passed": 10
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-14T12:04:53+00:00",
+        "ended_at": "2026-10-14T12:04:54+00:00",
+        "duration_seconds": 0.845,
+        "metrics": {
+          "mode": "final",
+          "files": 13
+        }
+      },
+      {
+        "name": "validation",
+        "started_at": "2026-10-14T12:04:53+00:00",
+        "ended_at": "2026-10-14T12:05:48+00:00",
+        "duration_seconds": 55.305,
+        "metrics": {
+          "structure_checks": 1,
+          "mechanical_checks": 1,
+          "image_link_checks": 1,
+          "reader_link_checks": 1
+        }
+      }
+    ],
+    "revision_history": [],
+    "active_phases": {},
+    "source_scope": {
+      "requested_cards": [
+        "N1-G-0101",
+        "N1-G-0102",
+        "N1-G-0103",
+        "N1-G-0104",
+        "N1-G-0105",
+        "N1-G-0106",
+        "N1-G-0107",
+        "N1-G-0108",
+        "N1-G-0109",
+        "N1-G-0110"
+      ],
+      "unresolved_cards": [],
+      "level_note": "来源将第101、106、109条标N2；本卷按学习者指定的本地N1卡片范围出题。",
+      "publisher_evidence": "复用上一卷第91条已核实的ノッチ先生管理人摘录。",
+      "authorization": "学习者明确指示：101-110语法 允许使用外部信息。允许补用已核实日语教育网站。",
+      "adopted_pages": {
+        "日本語NET": 5,
+        "毎日のんびり日本語教師": 4
+      },
+      "item_counts": {
+        "teaching_exercise": 0,
+        "derived_from_example": 10
+      },
+      "timing_note": "selection、search及第一段draft沿用本次组卷前一轮预备工作的实际计时；等待学习者授权的时间没有计入活动阶段。",
+      "cache_cleanup": "用户改为101–110后，已移除本任务上一轮采集且无任何引用的第111条独有证据及缓存条目。"
+    },
+    "source_integrity": {
+      "adopted_NET_hashes_verified": 5,
+      "external_excerpt_hashes_verified": 4,
+      "level": "10题均按本地N1卡片范围；保留原站等级差异",
+      "cache_reuse": "前一轮准备的5份已核实日本語NET证据复用，不重复抓取；本轮补充4份毎日のんびり证据",
+      "baseline": "旧全库缓存101条哈希不匹配（前轮发现）；本卷仅使用逐条验证通过的5份NET证据和4份新补充证据。",
+      "full_cache_verification": {
+        "exit_code": 1,
+        "summary": "缓存校验失败：100 个问题",
+        "scope_note": "历史异常记录均未用于本卷；本卷采用的5份日本語NET与4份补充证据已单独验证通过。"
+      }
+    },
+    "git_note": "本轮仅出卷并校验，不提交Git；正式学习卡、学习者原文及复习日期均未修改。",
+    "validation_results": {
+      "structure": "passed",
+      "mechanical": "0 errors / 0 warnings",
+      "image_links": "passed",
+      "reader_links": "passed",
+      "adopted_source_hashes": "9 passed",
+      "full_legacy_source_cache": "100 existing hash failures; excluded from adopted evidence"
+    }
+  }
+}

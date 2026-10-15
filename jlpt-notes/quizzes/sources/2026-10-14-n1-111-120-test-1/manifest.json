@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "quiz": {
+    "slug": "2026-10-14-n1-111-120-test-1",
+    "title": "N1 第111–120条语法乱序练习（10道单选题）",
+    "date": "2026-10-14",
+    "level": "N1",
+    "suggested_minutes": 12
+  },
+  "questions": [
+    {
+      "number": 1,
+      "id": "N1-Q-0081",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "彼は一度も、約束の時間通りに来た（　）。",
+      "translation": "他从来没有一次是按约定时间来的。",
+      "tested_cards": [
+        "N1-G-0120"
+      ],
+      "conjugation": "动词た形＋ためしがない。",
+      "options": {
+        "1": "までもない",
+        "2": "きらいがある",
+        "3": "ためしがない",
+        "4": "すべもない"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。「来たためしがない」表示至今没有过这样的前例，带有说话人的不满或埋怨。",
+      "option_explanations": {
+        "1": "表示没有必要做某事，接动词辞书形（来るまでもない）；接た形不成立，也不表示「从来没有」。",
+        "2": "表示有……的倾向（多为不好的倾向），接辞书形或名词の；不接た形，也不能表示前例为零。",
+        "3": "正确。「来たためしがない」表示至今没有过这样的前例，带有说话人的不满或埋怨。",
+        "4": "表示没有办法，接动词辞书形（来るすべ）；与「一度も……ない」的前例意义不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "〜たためしがない",
+        "url": "https://nihongokyoshi-net.com/2020/05/28/jlptn1-grammar-tatameshiganai/",
+        "locator": "意味・接続／例文1",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/9e7e6c2c16298bb6a980-f8dc7c16465f.txt"
+        ],
+        "original_example": "彼は一度も、約束の時間通りに来たためしがない。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "V（タ形）+ ためしがない；〜という前例がない / 〜ということは一度も見たり・聞いたりしたことがない；动词た形＋ためしがない。",
+        "distractor_basis": [
+          "1. 表示没有必要做某事，接动词辞书形（来るまでもない）；接た形不成立，也不表示「从来没有」。",
+          "2. 表示有……的倾向（多为不好的倾向），接辞书形或名词の；不接た形，也不能表示前例为零。",
+          "3. 正确。「来たためしがない」表示至今没有过这样的前例，带有说话人的不满或埋怨。",
+          "4. 表示没有办法，接动词辞书形（来るすべ）；与「一度も……ない」的前例意义不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋ためしがない。",
+        "semantic_exclusion": "1：表示没有必要做某事，接动词辞书形（来るまでもない）；接た形不成立，也不表示「从来没有」。；2：表示有……的倾向（多为不好的倾向），接辞书形或名词の；不接た形，也不能表示前例为零。；4：表示没有办法，接动词辞书形（来るすべ）；与「一度も……ない」的前例意义不合。",
+        "unique_answer_rationale": "正确。「来たためしがない」表示至今没有过这样的前例，带有说话人的不满或埋怨。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 2,
+      "id": "N1-Q-0082",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "毎日鏡の前で練習した（　）、プレゼンは大成功だった。",
+      "translation": "每天对着镜子练习果然有回报，演讲大获成功。",
+      "tested_cards": [
+        "N1-G-0113"
+      ],
+      "conjugation": "动词辞书形／た形＋かいがあって。",
+      "options": {
+        "1": "かいがあって",
+        "2": "かいもなく",
+        "3": "ばかりに",
+        "4": "あげくに"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。「練習したかいがあって」表示辛苦练习换来了成果，后项「大成功」正是好结果。",
+      "option_explanations": {
+        "1": "正确。「練習したかいがあって」表示辛苦练习换来了成果，后项「大成功」正是好结果。",
+        "2": "表示努力白费、没有得到成果；后项「大成功」与之矛盾。",
+        "3": "表示仅仅因为某事而招致不好的结果，多含后悔；后项是成功，语义不合。",
+        "4": "表示经过种种折腾之后的（多为不好的）结果；「練習した」「大成功」之间不是这种关系，且习惯用「～したあげく」。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "〜かいあって / 〜かいもなく",
+        "url": "https://nihongokyoshi-net.com/2019/04/23/jlptn2-grammar-kaigaatte/",
+        "locator": "意味・動詞接続／肯定例文2",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/63833f6575a3aa3255cb-ba89b431392e.txt"
+        ],
+        "original_example": "毎日鏡の前で練習したかいがあって、プレゼンは大成功だった。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "V（辞書形 / タ形） + かいがあって；大変だった、辛かったが〜したことで効果や成果が得られて、いい結果になったと言いたい時に使う。；动词辞书形／た形＋かいがあって。",
+        "distractor_basis": [
+          "1. 正确。「練習したかいがあって」表示辛苦练习换来了成果，后项「大成功」正是好结果。",
+          "2. 表示努力白费、没有得到成果；后项「大成功」与之矛盾。",
+          "3. 表示仅仅因为某事而招致不好的结果，多含后悔；后项是成功，语义不合。",
+          "4. 表示经过种种折腾之后的（多为不好的）结果；「練習した」「大成功」之间不是这种关系，且习惯用「～したあげく」。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词辞书形／た形＋かいがあって。",
+        "semantic_exclusion": "2：表示努力白费、没有得到成果；后项「大成功」与之矛盾。；3：表示仅仅因为某事而招致不好的结果，多含后悔；后项是成功，语义不合。；4：表示经过种种折腾之后的（多为不好的）结果；「練習した」「大成功」之间不是这种关系，且习惯用「～したあげく」。",
+        "unique_answer_rationale": "正确。「練習したかいがあって」表示辛苦练习换来了成果，后项「大成功」正是好结果。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 3,
+      "id": "N1-Q-0083",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "結論（　）会議では反論しても意味がない。",
+      "translation": "在以结论为前提的会议上，反驳也没有意义。",
+      "tested_cards": [
+        "N1-G-0116"
+      ],
+      "conjugation": "名词＋ありきの＋名词。",
+      "options": {
+        "1": "ならではの",
+        "2": "ずくめの",
+        "3": "ぬきの",
+        "4": "ありきの"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。「結論ありきの会議」表示以结论已定为前提的会议，所以反驳也没用。",
+      "option_explanations": {
+        "1": "表示只有某人或某地才有的独特之处，多为褒义；「結論ならではの会議」语义不通。",
+        "2": "表示全部都是同一种东西，接「黒・いいこと」等少数名词（黒ずくめ）；「結論ずくめ」不成立。",
+        "3": "表示去掉、没有……；「結論ぬき」的会议反而可以反驳，与「反論しても意味がない」的因果不合。",
+        "4": "正确。「結論ありきの会議」表示以结论已定为前提的会议，所以反驳也没用。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ０文法】～ありき",
+        "url": "https://mainichi-nonbiri.com/grammar/n0-ariki/",
+        "locator": "接続・意味／例文（２）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-111-120-test-1/source-116.txt"
+        ],
+        "original_example": "結論ありきの会議では反論しても意味がない。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "名詞＋ありきの＋名詞；「～ありき」は、「～の存在を前提として」という意味です。；名词＋ありきの＋名词。",
+        "distractor_basis": [
+          "1. 表示只有某人或某地才有的独特之处，多为褒义；「結論ならではの会議」语义不通。",
+          "2. 表示全部都是同一种东西，接「黒・いいこと」等少数名词（黒ずくめ）；「結論ずくめ」不成立。",
+          "3. 表示去掉、没有……；「結論ぬき」的会议反而可以反驳，与「反論しても意味がない」的因果不合。",
+          "4. 正确。「結論ありきの会議」表示以结论已定为前提的会议，所以反驳也没用。"
+        ],
+        "external_source_exception": "学習者：111-120语法 选择补用其他日语教育网站（日本語NET缺口）。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋ありきの＋名词。",
+        "semantic_exclusion": "1：表示只有某人或某地才有的独特之处，多为褒义；「結論ならではの会議」语义不通。；2：表示全部都是同一种东西，接「黒・いいこと」等少数名词（黒ずくめ）；「結論ずくめ」不成立。；3：表示去掉、没有……；「結論ぬき」的会议反而可以反驳，与「反論しても意味がない」的因果不合。",
+        "unique_answer_rationale": "正确。「結論ありきの会議」表示以结论已定为前提的会议，所以反驳也没用。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 4,
+      "id": "N1-Q-0084",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "転んだ（　）、頭を打ってしまった。",
+      "translation": "摔倒的时候，不小心撞到了头。",
+      "tested_cards": [
+        "N1-G-0111"
+      ],
+      "conjugation": "动词た形＋弾みに(はずみに)。",
+      "options": {
+        "1": "からには",
+        "2": "弾みに",
+        "3": "ことなく",
+        "4": "そばから"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。「転んだ弾みに」表示以摔倒为契机，不小心引发了撞头这一意外的事。",
+      "option_explanations": {
+        "1": "表示既然……就必须……，后项多是决心、义务；与意外撞头的偶发关系不合。",
+        "2": "正确。「転んだ弾みに」表示以摔倒为契机，不小心引发了撞头这一意外的事。",
+        "3": "表示不做某事就……，接动词辞书形；接た形不成立。",
+        "4": "表示刚做完就又重复（反复发生），如「覚えたそばから忘れる」；这里是一次性的偶发事件。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "〜弾みに / 〜た拍子に",
+        "url": "https://nihongokyoshi-net.com/2020/01/17/jlptn1-grammar-tahazumini/",
+        "locator": "文型・接続／例文1",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/1eba339ade74c765dfc9-1fb799dcbeca.txt"
+        ],
+        "original_example": "転んだ弾みに、頭を打ってしまった。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "V（タ形）+ 弾みに；ある事柄がきっかけとなって、「つい」、「うっかり」別の事柄が起こることを表す。；动词た形＋弾みに(はずみに)。",
+        "distractor_basis": [
+          "1. 表示既然……就必须……，后项多是决心、义务；与意外撞头的偶发关系不合。",
+          "2. 正确。「転んだ弾みに」表示以摔倒为契机，不小心引发了撞头这一意外的事。",
+          "3. 表示不做某事就……，接动词辞书形；接た形不成立。",
+          "4. 表示刚做完就又重复（反复发生），如「覚えたそばから忘れる」；这里是一次性的偶发事件。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词た形＋弾みに(はずみに)。",
+        "semantic_exclusion": "1：表示既然……就必须……，后项多是决心、义务；与意外撞头的偶发关系不合。；3：表示不做某事就……，接动词辞书形；接た形不成立。；4：表示刚做完就又重复（反复发生），如「覚えたそばから忘れる」；这里是一次性的偶发事件。",
+        "unique_answer_rationale": "正确。「転んだ弾みに」表示以摔倒为契机，不小心引发了撞头这一意外的事。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 5,
+      "id": "N1-Q-0085",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "語学の勉強はやり（　）、面白くもなるし、つまらなくもなる。",
+      "translation": "语言学习取决于怎么学，既可以变得有趣，也可能变得无聊。",
+      "tested_cards": [
+        "N1-G-0118"
+      ],
+      "conjugation": "动词ます形去ます＋ようによっては。",
+      "options": {
+        "1": "かけては",
+        "2": "っぱなしには",
+        "3": "がちでは",
+        "4": "ようによっては"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。「やりようによっては」表示根据做法的不同（结果会变），与后面「面白くもなるし、つまらなくもなる」对应。",
+      "option_explanations": {
+        "1": "「かけては」多用于「～にかけては」表示在某方面（接名词），接动词ます形去ます不成立。",
+        "2": "「～っぱなし」表示放任不管的状态，「やりっぱなし」是做完不收拾，与做法决定结果的意思不合。",
+        "3": "「～がち」表示容易……（多为不好的倾向），「やりがちでは」后不能接「面白くもなる」这类取决于方法的结果。",
+        "4": "正确。「やりようによっては」表示根据做法的不同（结果会变），与后面「面白くもなるし、つまらなくもなる」对应。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "〜よう / 〜ようによっては",
+        "url": "https://nihongokyoshi-net.com/2019/07/10/lptn1-grammar-you/",
+        "locator": "意味・接続／例文6",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/3d496131699e9d3a2d3f-7466ff6bc680.txt"
+        ],
+        "original_example": "語学の勉強はやりようによっては、面白くもなるし、つまらなくもなる。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "V（ます形）ますを除く+ よう；①〜のやりかた；动词ます形去ます＋ようによっては。",
+        "distractor_basis": [
+          "1. 「かけては」多用于「～にかけては」表示在某方面（接名词），接动词ます形去ます不成立。",
+          "2. 「～っぱなし」表示放任不管的状态，「やりっぱなし」是做完不收拾，与做法决定结果的意思不合。",
+          "3. 「～がち」表示容易……（多为不好的倾向），「やりがちでは」后不能接「面白くもなる」这类取决于方法的结果。",
+          "4. 正确。「やりようによっては」表示根据做法的不同（结果会变），与后面「面白くもなるし、つまらなくもなる」对应。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます形去ます＋ようによっては。",
+        "semantic_exclusion": "1：「～にかけては」表示在某方面（名词），接动词ます形去ます不成立。；2：「～っぱなし」表示放任不管的状态，「やりっぱなし」是做完不收拾，与做法决定结果的意思不合。；3：「～がち」表示容易……（多为不好的倾向），「やりがちでは」后不能接「面白くもなる」这类取决于方法的结果。",
+        "unique_answer_rationale": "正确。「やりようによっては」表示根据做法的不同（结果会变），与后面「面白くもなるし、つまらなくもなる」对应。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 6,
+      "id": "N1-Q-0086",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "昨日はスマホは壊れるわ、財布は（　）、散々な１日だった。",
+      "translation": "昨天手机坏了，钱包又丢了，真是糟糕透顶的一天。",
+      "tested_cards": [
+        "N1-G-0114"
+      ],
+      "conjugation": "动词普通形＋わ＋动词普通形＋わで。",
+      "options": {
+        "1": "落とすわで",
+        "2": "落とすどころか",
+        "3": "落とすものか",
+        "4": "落とすなり"
+      },
+      "correct_option": "1",
+      "correct_explanation": "正确。「壊れるわ、落とすわで」列举坏事接连发生，与「散々な１日」呼应。",
+      "option_explanations": {
+        "1": "正确。「壊れるわ、落とすわで」列举坏事接连发生，与「散々な１日」呼应。",
+        "2": "表示不仅不……反而……，前后需是对比的程度；与前句「壊れるわ」的叠加不合。",
+        "3": "「ものか」是强烈否定的反问，置于叙述句中意思不通。",
+        "4": "表示刚一……就……，接动词辞书形，前面「壊れるわ」无法并列；意思不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "〜わ〜わで",
+        "url": "https://nihongokyoshi-net.com/2020/03/11/jlptn1-grammar-wa-wade/",
+        "locator": "意味・接続／例文1",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/78018ebf5b1dd58ca7c3-5cc12d2b9e27.txt"
+        ],
+        "original_example": "昨日はスマホは壊れるわ、財布は落とすわで、散々な１日だった。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "V（普通形）＋わ＋V（普通形）＋わで；「良くないこと、悪いことが一度に起こって困った」という意味。；动词普通形＋わ＋动词普通形＋わで。",
+        "distractor_basis": [
+          "1. 正确。「壊れるわ、落とすわで」列举坏事接连发生，与「散々な１日」呼应。",
+          "2. 表示不仅不……反而……，前后需是对比的程度；与前句「壊れるわ」的叠加不合。",
+          "3. 「ものか」是强烈否定的反问，置于叙述句中意思不通。",
+          "4. 表示刚一……就……，接动词辞书形，前面「壊れるわ」无法并列；意思不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词普通形＋わ＋动词普通形＋わで。",
+        "semantic_exclusion": "2：表示不仅不……反而……，前后需是对比的程度；与前句「壊れるわ」的叠加不合。；3：「ものか」是强烈否定的反问，置于叙述句中意思不通。；4：表示刚一……就……，接动词辞书形，前面「壊れるわ」无法并列；意思不合。",
+        "unique_answer_rationale": "正确。「壊れるわ、落とすわで」列举坏事接连发生，与「散々な１日」呼应。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "1",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 7,
+      "id": "N1-Q-0087",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "結局はあなたの気持ちの持ち（　）、いくらでも人生を変えることができますよ。",
+      "translation": "说到底，全凭你心态怎么调整，人生可以改变很多。",
+      "tested_cards": [
+        "N1-G-0119"
+      ],
+      "conjugation": "动词ます形去ます＋ようひとつで。",
+      "options": {
+        "1": "ようがなくて",
+        "2": "ようひとつで",
+        "3": "ようにも",
+        "4": "ようものなら"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。「持ちようひとつで」表示仅取决于心态怎么持有，后项结果随之决定。",
+      "option_explanations": {
+        "1": "「～ようがない」表示没有办法做……，「持ちようがなくて」不能引出「いくらでも変えられる」。",
+        "2": "正确。「持ちようひとつで」表示仅取决于心态怎么持有，后项结果随之决定。",
+        "3": "「～ようにも～ない」表示想做也做不到，需要后面出现同一动词的否定；这里没有。",
+        "4": "「～ようものなら」表示万一……就糟了，接动词意志形，后项多为严重后果；与「いくらでも変えられる」不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語教師のまる得",
+        "publisher": "日本語教師のまる得",
+        "title": "N1文法　～よう",
+        "url": "https://blognihongo.com/n1/grammar_you/",
+        "locator": "解説「方法」補足（〜ようひとつで）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-111-120-test-1/source-119.txt"
+        ],
+        "original_example": "結局はあなたの気持ちの持ちようひとつで、いくらでも人生を変えることができますよ。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "「～ようひとつで」という形で、それだけで後のことが決まるという意味を表す。；动词ます形去ます＋ようひとつで。",
+        "distractor_basis": [
+          "1. 「～ようがない」表示没有办法做……，「持ちようがなくて」不能引出「いくらでも変えられる」。",
+          "2. 正确。「持ちようひとつで」表示仅取决于心态怎么持有，后项结果随之决定。",
+          "3. 「～ようにも～ない」表示想做也做不到，需要后面出现同一动词的否定；这里没有。",
+          "4. 「～ようものなら」表示万一……就糟了，接动词意志形，后项多为严重后果；与「いくらでも変えられる」不合。"
+        ],
+        "external_source_exception": "学習者：111-120语法 选择补用其他日语教育网站（日本語NET缺口）。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词ます形去ます＋ようひとつで。",
+        "semantic_exclusion": "1：「～ようがない」表示没有办法做……，「持ちようがなくて」不能引出「いくらでも変えられる」。；3：「～ようにも～ない」表示想做也做不到，需要后面出现同一动词的否定；这里没有。；4：「～ようものなら」表示万一……就糟了，接动词意志形，后项多为严重后果；与「いくらでも変えられる」不合。",
+        "unique_answer_rationale": "正确。「持ちようひとつで」表示仅取决于心态怎么持有，后项结果随之决定。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 8,
+      "id": "N1-Q-0088",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "いとことは年が近い（　）、とても気が合う。",
+      "translation": "也因为和表兄弟年纪相近，所以非常合得来。",
+      "tested_cards": [
+        "N1-G-0112"
+      ],
+      "conjugation": "动词・形容词普通形＋こともあって。",
+      "options": {
+        "1": "ばかりに",
+        "2": "ことなく",
+        "3": "ともなると",
+        "4": "こともあって"
+      },
+      "correct_option": "4",
+      "correct_explanation": "正确。「年が近いこともあって」表示除主要原因外，年纪相近也是理由之一，合得来是结果。",
+      "option_explanations": {
+        "1": "表示仅因为某个原因而招致不好的结果，多带后悔；「気が合う」是好结果，不合。",
+        "2": "表示不做某事而……，接动词辞书形；接形容词「近い」不成立。",
+        "3": "表示一到某种程度／立场就……，前接名词性成分；不能表示附加理由。",
+        "4": "正确。「年が近いこともあって」表示除主要原因外，年纪相近也是理由之一，合得来是结果。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "絵でわかる日本語",
+        "publisher": "絵でわかる日本語",
+        "title": "〜こともあって｜日本語能力試験　JLPT　N１文法",
+        "url": "https://www.edewakaru.com/archives/26539117.html",
+        "locator": "接続・意味／例文③",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-111-120-test-1/source-112.txt"
+        ],
+        "original_example": "いとことは年（とし）が近いこともあって、とても気が合う",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。",
+          "去掉原文的读音注（とし）和句末标点差异，仅作排版规范化。"
+        ],
+        "answer_basis": "動詞・形容詞［普通形］＋こともあって；他にも理由があるが、〜ので；动词・形容词普通形＋こともあって。",
+        "distractor_basis": [
+          "1. 表示仅因为某个原因而招致不好的结果，多带后悔；「気が合う」是好结果，不合。",
+          "2. 表示不做某事而……，接动词辞书形；接形容词「近い」不成立。",
+          "3. 表示一到某种程度／立场就……，前接名词性成分；不能表示附加理由。",
+          "4. 正确。「年が近いこともあって」表示除主要原因外，年纪相近也是理由之一，合得来是结果。"
+        ],
+        "external_source_exception": "学習者：111-120语法 选择补用其他日语教育网站（日本語NET缺口）。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词・形容词普通形＋こともあって。",
+        "semantic_exclusion": "1：表示仅因为某个原因而招致不好的结果，多带后悔；「気が合う」是好结果，不合。；2：表示不做某事而……，接动词辞书形；接形容词「近い」不成立。；3：表示一到某种程度／立场就……，前接名词性成分；不能表示附加理由。",
+        "unique_answer_rationale": "正确。「年が近いこともあって」表示除主要原因外，年纪相近也是理由之一，合得来是结果。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "4",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 9,
+      "id": "N1-Q-0089",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "このような詐欺手法は２０年前（　）、現代においては通用しない。",
+      "translation": "这样的诈骗手法，20年前或许还行，现在可行不通了。",
+      "tested_cards": [
+        "N1-G-0117"
+      ],
+      "conjugation": "名词＋ならいざしらず。",
+      "options": {
+        "1": "ともなると",
+        "2": "をふまえて",
+        "3": "ならいざしらず",
+        "4": "ならではの"
+      },
+      "correct_option": "3",
+      "correct_explanation": "正确。「２０年前ならいざしらず」表示20年前的话另当别论，但现在就行不通了。",
+      "option_explanations": {
+        "1": "表示一到某个阶段就……，「２０年前ともなると」与「現代では通用しない」的对比关系不通。",
+        "2": "表示以……为基础，接名词；与表示时代对比的意思不合。",
+        "3": "正确。「２０年前ならいざしらず」表示20年前的话另当别论，但现在就行不通了。",
+        "4": "表示只有……才有的特色，是褒义；与「通用しない」不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "毎日のんびり日本語教師",
+        "publisher": "毎日のんびり日本語教師",
+        "title": "【Ｎ１文法】～ならいざしらず／はいざしらず",
+        "url": "https://mainichi-nonbiri.com/grammar/n1-naraizashirazu/",
+        "locator": "接続／例文（３）",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/2026-10-14-n1-111-120-test-1/source-117.txt"
+        ],
+        "original_example": "このような詐欺手法は２０年前ならいざしらず、現代においては通用しない。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "名詞＋ならいざしらず／はいざしらず；如果…的话,另当别论,但是…的话,（就很严重了）；名词＋ならいざしらず。",
+        "distractor_basis": [
+          "1. 表示一到某个阶段就……，「２０年前ともなると」与「現代では通用しない」的对比关系不通。",
+          "2. 表示以……为基础，接名词；与表示时代对比的意思不合。",
+          "3. 正确。「２０年前ならいざしらず」表示20年前的话另当别论，但现在就行不通了。",
+          "4. 表示只有……才有的特色，是褒义；与「通用しない」不合。"
+        ],
+        "external_source_exception": "学習者：111-120语法 选择补用其他日语教育网站（日本語NET缺口）。"
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "名词＋ならいざしらず。",
+        "semantic_exclusion": "1：表示一到某个阶段就……，「２０年前ともなると」与「現代では通用しない」的对比关系不通。；2：表示以……为基础，接名词；与表示时代对比的意思不合。；4：表示只有……才有的特色，是褒义；与「通用しない」不合。",
+        "unique_answer_rationale": "正确。「２０年前ならいざしらず」表示20年前的话另当别论，但现在就行不通了。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "3",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    },
+    {
+      "number": 10,
+      "id": "N1-Q-0090",
+      "revision": 1,
+      "section": "form",
+      "item_type": "form_choice",
+      "prompt": "マークさんは授業がつまらないだの、（　）文句ばかりだ。",
+      "translation": "马克一会儿说课无聊，一会儿说听不懂，净是抱怨。",
+      "tested_cards": [
+        "N1-G-0115"
+      ],
+      "conjugation": "动词・形容词普通形＋だの…だの。",
+      "options": {
+        "1": "わからないなりに",
+        "2": "わからないだの",
+        "3": "わからないまでも",
+        "4": "わからないことには"
+      },
+      "correct_option": "2",
+      "correct_explanation": "正确。「つまらないだの、わからないだの」并列列举不满的内容，带有抱怨的语气。",
+      "option_explanations": {
+        "1": "表示就那个水平而言（尽管有限）也尽力，是肯定评价；不能与前面的「だの」并列。",
+        "2": "正确。「つまらないだの、わからないだの」并列列举不满的内容，带有抱怨的语气。",
+        "3": "表示即使不到……的程度，至少……；前后意思与「文句ばかり」不合。",
+        "4": "表示如果不……就（不能）……，后接否定；与「文句ばかりだ」不合。"
+      },
+      "source": {
+        "kind": "derived_from_example",
+        "site_name": "日本語NET",
+        "publisher": "日本語NET（ノッチ先生）",
+        "title": "〜だの〜だの",
+        "url": "https://nihongokyoshi-net.com/2019/10/25/jlptn1-grammar-dano/",
+        "locator": "接続・備考／例文2",
+        "accessed_at": "2026-10-14",
+        "evidence_paths": [
+          "quizzes/sources/cache/c0a189b458b72d57108f-b210d8fb6a69.txt"
+        ],
+        "original_example": "マークさんは授業がつまらないだの、わからないだの文句ばかりだ。",
+        "transformations": [
+          "将目标语法部分挖空并设置四个选项。"
+        ],
+        "answer_basis": "V（普通形） + だの；話し手の不満や非難の気持ちが含まれる。；动词・形容词普通形＋だの…だの。",
+        "distractor_basis": [
+          "1. 表示就那个水平而言（尽管有限）也尽力，是肯定评价；不能与前面的「だの」并列。",
+          "2. 正确。「つまらないだの、わからないだの」并列列举不满的内容，带有抱怨的语气。",
+          "3. 表示即使不到……的程度，至少……；前后意思与「文句ばかり」不合。",
+          "4. 表示如果不……就（不能）……，后接否定；与「文句ばかりだ」不合。"
+        ]
+      },
+      "preflight": {
+        "status": "passed",
+        "surface_connection": "动词・形容词普通形＋だの…だの。",
+        "semantic_exclusion": "1：表示就那个水平而言（尽管有限）也尽力，是肯定评价；不能与前面的「だの」并列。；3：表示即使不到……的程度，至少……；前后意思与「文句ばかり」不合。；4：表示如果不……就（不能）……，后接否定；与「文句ばかりだ」不合。",
+        "unique_answer_rationale": "正确。「つまらないだの、わからないだの」并列列举不满的内容，带有抱怨的语气。"
+      },
+      "review": {
+        "blind": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-blind-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "answer": "2",
+          "confidence": "high",
+          "notes": "独立子代理仅看试卷与卡片标题盲答，答案与标准答案一致，判定唯一解。"
+        },
+        "source": {
+          "status": "passed",
+          "reviewed_revision": 1,
+          "reviewer": "independent-source-reviewer-111-120",
+          "reviewed_at": "2026-10-14",
+          "notes": "original_example逐字见于证据，填回正确项后一致，证据讲解支持答案，四项解析成立。"
+        }
+      }
+    }
+  ],
+  "workflow": {
+    "phases": [
+      {
+        "name": "render",
+        "started_at": "2026-10-14T14:22:43+00:00",
+        "ended_at": "2026-10-14T14:22:43+00:00",
+        "duration_seconds": 0.004,
+        "metrics": {
+          "mode": "preview",
+          "files": 13
+        }
+      },
+      {
+        "name": "render",
+        "started_at": "2026-10-14T14:23:43+00:00",
+        "ended_at": "2026-10-14T14:23:44+00:00",
+        "duration_seconds": 0.784,
+        "metrics": {
+          "mode": "final",
+          "files": 13
+        }
+      }
+    ],
+    "revision_history": [],
+    "source_policy": "学习者已允许缺口补用其他日语教育网站：日本語NET无0112、0116、0117、0119。"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "task_id": "bb17bab2-b26b-416c-ab6c-844708d61fb7",
+  "turn": 1,
+  "operation": "grade",
+  "message": "N1 第21–30条判卷完成：9／10（90.0%），第5题失分，正确项1「抜きつ抜かれつ」；全部10题解析已写入报告，无不确定题。",
+  "slug": "2026-10-10-n1-21-30-test-1",
+  "submission_id": "9680291f-e95c-4582-bcef-4d517bee603d",
+  "report": "jlpt-notes/quizzes/results/2026-10-10-n1-21-30-test-1-result.md",
+  "score": {
+    "correct": 9,
+    "total": 10,
+    "percent": 90.0
+  },
+  "rows": [
+    {
+      "number": 1,
+      "question_id": "N1-Q-0001",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "2",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 2,
+      "question_id": "N1-Q-0002",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "1",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 3,
+      "question_id": "N1-Q-0003",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "3",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 4,
+      "question_id": "N1-Q-0004",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "3",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 5,
+      "question_id": "N1-Q-0005",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "2",
+      "is_correct": false,
+      "uncertain": false,
+      "error_tags": [
+        "惯用表达混淆",
+        "主动被动交替与往返混淆"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 6,
+      "question_id": "N1-Q-0006",
+      "revision": 2,
+      "item_type": "form_choice",
+      "selected_option": "1",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 7,
+      "question_id": "N1-Q-0007",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "3",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 8,
+      "question_id": "N1-Q-0008",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "2",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 9,
+      "question_id": "N1-Q-0009",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "4",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    },
+    {
+      "number": 10,
+      "question_id": "N1-Q-0010",
+      "revision": 1,
+      "item_type": "form_choice",
+      "selected_option": "4",
+      "is_correct": true,
+      "uncertain": false,
+      "error_tags": [],
+      "date": "2026-10-11"
+    }
+  ]
+}

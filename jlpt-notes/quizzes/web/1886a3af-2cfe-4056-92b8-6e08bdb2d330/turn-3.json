@@ -1,0 +1,33 @@
+{
+  "task_id": "1886a3af-2cfe-4056-92b8-6e08bdb2d330",
+  "turn": 3,
+  "operation": "generate",
+  "message": "已生成 N1 第21–30条语法乱序10道单选题，每张卡1题；1道日本語NET原题、9道例句派生题。独立盲审、题源复核、三件套机械校验、图片及阅读器链接校验通过。本轮10份新采用证据均核验通过；全库缓存仍有101份未采用既有证据哈希不匹配，已记入校验记录。",
+  "slug": "2026-10-10-n1-21-30-test-1",
+  "requirements": {
+    "level": "N1",
+    "count": 10,
+    "cards": [
+      "N1-G-0021",
+      "N1-G-0022",
+      "N1-G-0023",
+      "N1-G-0024",
+      "N1-G-0025",
+      "N1-G-0026",
+      "N1-G-0027",
+      "N1-G-0028",
+      "N1-G-0029",
+      "N1-G-0030"
+    ],
+    "sections": {
+      "form": 10,
+      "order": 0,
+      "cloze": 0
+    },
+    "shuffle": true
+  },
+  "paper": "jlpt-notes/quizzes/papers/2026-10-10-n1-21-30-test-1.md",
+  "answers": "jlpt-notes/quizzes/answers/2026-10-10-n1-21-30-test-1-answers.md",
+  "manifest": "jlpt-notes/quizzes/sources/2026-10-10-n1-21-30-test-1/manifest.json",
+  "validation": "jlpt-notes/quizzes/sources/2026-10-10-n1-21-30-test-1/validation.md"
+}
